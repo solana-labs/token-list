@@ -1,12 +1,12 @@
 {
-  "name": "@solana/token-list",
+  "name": "@solana/spl-token-registry",
   "version": "0.1.0",
-  "description": "Solana Token List",
-  "main": "build/main/index.js",
-  "typings": "build/main/index.d.ts",
-  "module": "build/module/index.js",
-  "repository": "https://github.com/bartosz-lipinski/@solana/token-list",
-  "license": "MIT",
+  "description": "Solana Token Registry",
+  "main": "dist/main/index.js",
+  "typings": "dist/main/index.d.ts",
+  "module": "dist/module/index.js",
+  "repository": "https://github.com/solana-labs/token-list",
+  "license": "Apache",
   "keywords": [],
   "scripts": {
     "build": "run-p build:*",
@@ -41,7 +41,6 @@
   "engines": {
     "node": ">=10"
   },
-  "dependencies": {},
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
@@ -100,5 +99,8 @@
     "exclude": [
       "**/*.spec.js"
     ]
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.6"
   }
 }
