@@ -39,10 +39,13 @@ export class StaticTokenListResolutionStrategy {
 
 const queryJsonFiles = async (network: string, files: string[]) => {
   const responses = await Promise.all(files.map(async repo => {
-    const response = await cross.fetch(`${repo}/${network}.json`);
-    const json = await response.json() as KnownToken[];
-
-    return json;
+    try {
+      const response = await cross.fetch(`${repo}/${network}.json`);
+      const json = await response.json() as KnownToken[];
+      return json;
+    } catch {
+      return [];
+    }
   }));
 
   return responses.reduce((acc, arr) => acc.concat(arr), []);
