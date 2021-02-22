@@ -52,3 +52,7 @@ export const Icon = (props: { mint: string }) => {
   return (<img src={token.icon} />);
 
 ```
+
+## Adding new token
+
+Submit PR with changes to JSON file `src/tokens/<env>.json`
