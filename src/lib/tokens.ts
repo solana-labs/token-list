@@ -53,8 +53,8 @@ const queryJsonFiles = async (network: string, files: string[]) => {
 
 export class GitHubTokenListResolutionStrategy {
   repositories = [
-    'https://github.com/solana-labs/token-list/tree/main/src/tokens',
-    'https://github.com/project-serum/serum-ts/tree/master/packages/tokens/src'
+    'https://raw.githubusercontent.com/solana-labs/token-list/main/src/tokens',
+    'https://raw.githubusercontent.com/project-serum/serum-ts/master/packages/tokens/src'
   ];
 
   resolve = async (network: string) => {
@@ -64,8 +64,8 @@ export class GitHubTokenListResolutionStrategy {
 
 export class CDNTokenListResolutionStrategy {
   repositories = [
-    'https://cdn.jsdelivr.net/gh/solana-labs/token-list@tree/main/src/tokens',
-    'https://cdn.jsdelivr.net/gh/project-serum/serum-ts@tree/master/packages/tokens/src'
+    'https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens',
+    'https://cdn.jsdelivr.net/gh/project-serum/serum-ts@master/packages/tokens/src'
   ];
 
   resolve = async (network: string) => {
