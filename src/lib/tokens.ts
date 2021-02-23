@@ -20,6 +20,7 @@ export interface KnownToken {
   tokenSymbol: string;
   tokenName: string;
   icon?: string;
+  website?: string;
   mintAddress: string;
 }
 
@@ -27,50 +28,52 @@ export type KnownTokenMap = Map<string, KnownToken>;
 
 export class SolanaTokenListResolutionStrategy {
   resolve = async (network: string) => {
-    throw new Error(`Not Implemented Yet. ${network}`,);
-  }
+    throw new Error(`Not Implemented Yet. ${network}`);
+  };
 }
 
 export class StaticTokenListResolutionStrategy {
   resolve = async (network: string) => {
     return TOKENS[network as ENV] as KnownToken[];
-  }
+  };
 }
 
 const queryJsonFiles = async (network: string, files: string[]) => {
-  const responses = await Promise.all(files.map(async repo => {
-    try {
-      const response = await cross.fetch(`${repo}/${network}.json`);
-      const json = await response.json() as KnownToken[];
-      return json;
-    } catch {
-      return [];
-    }
-  }));
+  const responses = await Promise.all(
+    files.map(async (repo) => {
+      try {
+        const response = await cross.fetch(`${repo}/${network}.json`);
+        const json = (await response.json()) as KnownToken[];
+        return json;
+      } catch {
+        return [];
+      }
+    })
+  );
 
   return responses.reduce((acc, arr) => acc.concat(arr), []);
-}
+};
 
 export class GitHubTokenListResolutionStrategy {
   repositories = [
     'https://raw.githubusercontent.com/solana-labs/token-list/main/src/tokens',
-    'https://raw.githubusercontent.com/project-serum/serum-ts/master/packages/tokens/src'
+    'https://raw.githubusercontent.com/project-serum/serum-ts/master/packages/tokens/src',
   ];
 
   resolve = async (network: string) => {
     return queryJsonFiles(network, this.repositories);
-  }
+  };
 }
 
 export class CDNTokenListResolutionStrategy {
   repositories = [
     'https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens',
-    'https://cdn.jsdelivr.net/gh/project-serum/serum-ts@master/packages/tokens/src'
+    'https://cdn.jsdelivr.net/gh/project-serum/serum-ts@master/packages/tokens/src',
   ];
 
   resolve = async (network: string) => {
     return queryJsonFiles(network, this.repositories);
-  }
+  };
 }
 
 export enum Strategy {
@@ -86,8 +89,7 @@ export class TokenListProvider {
     [Strategy.Static]: new StaticTokenListResolutionStrategy(),
     [Strategy.Solana]: new SolanaTokenListResolutionStrategy(),
     [Strategy.CDN]: new CDNTokenListResolutionStrategy(),
-  }
-
+  };
 
   resolve = async (network: string, strategy: Strategy = Strategy.CDN) => {
     return TokenListProvider.strategies[strategy].resolve(network);
