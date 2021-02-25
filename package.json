@@ -1,6 +1,6 @@
 {
   "name": "@solana/spl-token-registry",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Solana Token Registry",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
@@ -9,6 +9,7 @@
   "license": "Apache",
   "keywords": [],
   "scripts": {
+    "prepublish": "run-s build:*",
     "build": "run-p build:*",
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
