@@ -1,6 +1,6 @@
 {
   "name": "@solana/spl-token-registry",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "description": "Solana Token Registry",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
@@ -9,6 +9,7 @@
   "license": "Apache",
   "keywords": [],
   "scripts": {
+    "prepublish": "run-s build:*",
     "build": "run-p build:*",
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
@@ -36,7 +37,8 @@
     "doc:publish": "gh-pages -m \"[ci skip] Updates\" -d build/docs",
     "version": "standard-version",
     "reset-hard": "git clean -dfx && git reset --hard && npm i",
-    "prepare-release": "run-s reset-hard test cov:check doc:html version doc:publish"
+    "prepare-release": "run-s reset-hard test cov:check doc:html version doc:publish",
+    "purge:cdn": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/mainnet-beta.json"
   },
   "engines": {
     "node": ">=10"
@@ -57,9 +59,11 @@
     "eslint-plugin-import": "^2.22.0",
     "gh-pages": "^3.1.0",
     "npm-run-all": "^4.1.5",
+    "npx": "^10.2.2",
     "nyc": "^15.1.0",
     "open-cli": "^6.0.1",
     "prettier": "^2.1.1",
+    "req": "^0.1.4",
     "standard-version": "^9.0.0",
     "ts-node": "^9.0.0",
     "typedoc": "^0.19.0",
