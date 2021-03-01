@@ -38,7 +38,9 @@
     "version": "standard-version",
     "reset-hard": "git clean -dfx && git reset --hard && npm i",
     "prepare-release": "run-s reset-hard test cov:check doc:html version doc:publish",
-    "purge:cdn": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/testnet.json"
+    "purge:cdn": "run-s purge:cdn:*",
+    "purge:cdn:mainnet": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/mainnet-beta.json",
+    "purge:cdn:testnet": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/testnet.json"
   },
   "engines": {
     "node": ">=10"
