@@ -1,7 +1,12 @@
-- **What kind of change does this PR introduce?** (Bug fix, feature, docs update, ...)
+- [ ] I will not ping the Discord about this pull request.
 
-- **What is the current behavior?** (You can also link to an open issue here)
+**Please provide the following information for your token.**
 
-- **What is the new behavior (if this is a feature change)?**
+Please include change to the src/lib/<env>.json and in the PR
 
-- **Other information**:
+At minimum each entry should have
+* Token Address: 
+* Token Name: 
+* Token Symbol: 
+* Logo
+* Link to the official homepage of token:
