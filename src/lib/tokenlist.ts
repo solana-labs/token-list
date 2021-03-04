@@ -125,27 +125,27 @@ export class TokenListContainer {
   constructor(private tokenList: TokenInfo[]) {}
 
   filterByTag = (tag: string) => {
-    this.tokenList = this.tokenList.filter((item) =>
-      (item.tags || []).includes(tag)
+    return new TokenListContainer(
+      this.tokenList.filter((item) => (item.tags || []).includes(tag))
     );
-    return this;
   };
 
   filterByChainId = (chainId: number | ENV) => {
-    this.tokenList = this.tokenList.filter((item) => item.chainId === chainId);
-    return this;
+    return new TokenListContainer(
+      this.tokenList.filter((item) => item.chainId === chainId)
+    );
   };
 
   excludeByChainId = (chainId: number | ENV) => {
-    this.tokenList = this.tokenList.filter((item) => item.chainId !== chainId);
-    return this;
+    return new TokenListContainer(
+      this.tokenList.filter((item) => item.chainId !== chainId)
+    );
   };
 
   excludeByTag = (tag: string) => {
-    this.tokenList = this.tokenList.filter(
-      (item) => !(item.tags || []).includes(tag)
+    return new TokenListContainer(
+      this.tokenList.filter((item) => !(item.tags || []).includes(tag))
     );
-    return this;
   };
 
   filterByClusterSlug = (slug: string) => {
