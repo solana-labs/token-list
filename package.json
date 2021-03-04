@@ -1,6 +1,6 @@
 {
   "name": "@solana/spl-token-registry",
-  "version": "0.1.10",
+  "version": "0.2.0",
   "description": "Solana Token Registry",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
@@ -39,8 +39,7 @@
     "reset-hard": "git clean -dfx && git reset --hard && npm i",
     "prepare-release": "run-s reset-hard test cov:check doc:html version doc:publish",
     "purge:cdn": "run-s purge:cdn:*",
-    "purge:cdn:mainnet": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/mainnet-beta.json",
-    "purge:cdn:testnet": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/testnet.json"
+    "purge:cdn:solana": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/solana.tokenlist.json"
   },
   "engines": {
     "node": ">=10"
