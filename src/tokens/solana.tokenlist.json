@@ -1,0 +1,747 @@
+{
+  "name": "Solana Token List",
+  "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png",
+  "keywords": ["solana", "spl"],
+  "tags": {
+    "stablecoin": {
+      "name": "stablecoin",
+      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    },
+    "nft": {
+      "name": "nft",
+      "description": "Non-fungible token"
+    }
+  },
+  "timestamp": "2021-03-03T19:57:21+0000",
+  "tokens": [
+    {
+      "chainId": 101,
+      "address": "So11111111111111111111111111111111111111112",
+      "symbol": "SOL",
+      "name": "Solana",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
+      "symbol": "BTC",
+      "name": "Wrapped Bitcoin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoin/info/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+      "symbol": "ETH",
+      "name": "Wrapped Ethereum",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "symbol": "USDC",
+      "name": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "tags": ["stablecoin"],
+      "extensions": {
+        "website": "https://www.centre.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3JSf5tPeuscJGtaCp5giEiDhv51gQ4v3zWg8DGgyLfAB",
+      "symbol": "YFI",
+      "name": "Wrapped YFI",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG",
+      "symbol": "LINK",
+      "name": "Wrapped Chainlink",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "Ga2AXHpfAF6mv2ekZwcsJFqu7wB4NV331qNH7fW9Nst8",
+      "symbol": "XRP",
+      "name": "Wrapped XRP",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ripple/info/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4",
+      "symbol": "USDT",
+      "name": "Wrapped USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 101,
+      "address": "AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy",
+      "symbol": "SUSHI",
+      "name": "Wrapped SUSHI",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "CsZ5LZkDS7h9TDKjrbL7VAwQZ9nsRu8vJLhRYfmGaN8K",
+      "symbol": "ALEPH",
+      "name": "Wrapped ALEPH",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/6996a371cd02f516506a8f092eeb29888501447c/blockchains/nuls/assets/NULSd6HgyZkiqLnBzTaeSQfx1TNg2cqbzq51h/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "SF3oTvfWzEP3DTwGSvUXRrGTvr75pdZNnBLAH9bzMuX",
+      "symbol": "SXP",
+      "name": "Wrapped SXP",
+      "decimals": 6,
+      "logoURI": "https://github.com/trustwallet/assets/raw/b0ab88654fe64848da80d982945e4db06e197d4f/blockchains/ethereum/assets/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "BtZQfWqDGbk9Wf2rXEiWyQBdBY1etnUUn6zEphvVS7yN",
+      "symbol": "HGET",
+      "name": "Wrapped Hedget",
+      "decimals": 6,
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "5Fu5UUgbjpUvdBveb3a1JTNirL8rXtiYeSMWvKjtUNQv",
+      "symbol": "CREAM",
+      "name": "Wrapped Cream Finance",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/4c82c2a409f18a4dd96a504f967a55a8fe47026d/blockchains/smartchain/assets/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "873KLxCbz7s9Kc4ZzgYRtNmhfkQrhfyWGZJBmyCbC3ei",
+      "symbol": "UBXT",
+      "name": "Wrapped Upbots",
+      "decimals": 6,
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "HqB7uswoVg4suaQiDP3wjxob1G5WdZ144zhdStwMCq7e",
+      "symbol": "HNT",
+      "name": "Wrapped Helium",
+      "decimals": 6,
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "9S4t2NEAiJVMvPdRYKVrfJpBafPBLtvbvyS3DecojQHw",
+      "symbol": "FRONT",
+      "name": "Wrapped FRONT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/6e375e4e5fb0ffe09ed001bae1ef8ca1d6c86034/blockchains/ethereum/assets/0xf8C3527CC04340b208C854E985240c02F7B7793f/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "6WNVCuxCGJzNjmMZoKyhZJwvJ5tYpsLyAtagzYASqBoF",
+      "symbol": "AKRO",
+      "name": "Wrapped AKRO",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/878dcab0fab90e6593bcb9b7d941be4915f287dc/blockchains/ethereum/assets/0xb2734a4Cec32C81FDE26B0024Ad3ceB8C9b34037/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "DJafV9qemGp7mLMEn5wrfqaFwxsbLgUsGVS16zKRk9kc",
+      "symbol": "HXRO",
+      "name": "Wrapped HXRO",
+      "decimals": 6,
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "DEhAasscXF4kEGxFgJ3bq4PpVGp5wyUxMRvn6TzGVHaw",
+      "symbol": "UNI",
+      "name": "Wrapped UNI",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/08d734b5e6ec95227dc50efef3a9cdfea4c398a1/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+      "symbol": "SRM",
+      "name": "Serum",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://projectserum.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3",
+      "symbol": "FTT",
+      "name": "Wrapped FTT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "MSRMcoVyrFxnSgo5uXwone5SKcGhT1KEJMFEkMEWf9L",
+      "symbol": "MSRM",
+      "name": "MegaSerum",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://projectserum.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW",
+      "symbol": "WUSDC",
+      "name": "Wrapped USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 101,
+      "address": "GXMvfY2jpQctDqZ9RoU3oWPhufKiCcFEfchvYumtX7jd",
+      "symbol": "TOMO",
+      "name": "Wrapped TOMO",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/tomochain/info/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "EcqExpGNFBve2i1cMJUTR4bPXj4ZoqmDD2rTkeCcaTFX",
+      "symbol": "KARMA",
+      "name": "Wrapped KARMA",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/machi-x/assets/152f2ca62611ef23298fac9a8e657386984d2d33/blockchains/ethereum/assets/0xdfe691f37b6264a90ff507eb359c45d55037951c/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "EqWCKXfs3x47uVosDpTRgFniThL9Y8iCztJaapxbEaVX",
+      "symbol": "LUA",
+      "name": "Wrapped LUA",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/2d2491130e6beda208ba4fc6df028a82a0106ab6/blockchains/ethereum/assets/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "GeDS162t9yGJuLEHPWXXGrb1zwkzinCgRwnT8vHYjKza",
+      "symbol": "MATH",
+      "name": "Wrapped MATH",
+      "decimals": 6,
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "GUohe4DJUA5FKPWo3joiPgsB7yzer7LpDmt1Vhzy3Zht",
+      "symbol": "KEEP",
+      "name": "Wrapped KEEP",
+      "decimals": 6,
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "9F9fNTT6qwjsu4X4yWYKZpsbw5qT7o6yR2i57JF2jagy",
+      "symbol": "SWAG",
+      "name": "Wrapped SWAG",
+      "decimals": 6,
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp",
+      "symbol": "FIDA",
+      "name": "Bonfida",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/dr497/awesome-serum-markets/02ce7c74fd2e9bd4cb55a15f735fc3ad0e7335f6/icons/fida.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://bonfida.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
+      "symbol": "KIN",
+      "name": "KIN",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kin/info/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "MAPS41MDahZ9QdKXhVa4dWB9RuyfV4XqhyAZ8XcYepb",
+      "symbol": "MAPS",
+      "name": "MAPS",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/explorer/master/public/tokens/maps.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://maps.me/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FtgGSFADXBtroxq8VCausXRr2of47QBf5AS1NtZCu4GD",
+      "symbol": "BRZ",
+      "name": "BRZ",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/explorer/master/public/tokens/brz.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://brztoken.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "symbol": "USDT",
+      "name": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/explorer/master/public/tokens/usdt.svg",
+      "tags": ["stablecoin"],
+      "extensions": {
+        "website": "https://tether.to/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2oDxYGgTBmST4rc3yn1YtcSEck7ReDZ8wHWLqZAuNWXH",
+      "symbol": "xMARK",
+      "name": "Standard",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2oDxYGgTBmST4rc3yn1YtcSEck7ReDZ8wHWLqZAuNWXH/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://benchmarkprotocol.finance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "symbol": "RAY",
+      "name": "Raydium",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CzPDyvotTcxNqtPne32yUiEVQ6jk42HZi1Y3hUu7qf7f",
+      "symbol": "RAY-USDT",
+      "name": "Raydium LP Token (RAY-USDT)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FgmBnsF5Qrnv8X9bomQfEtQTQjNNiBCWRKGpzPnE5BDg",
+      "symbol": "RAY-USDC",
+      "name": "Raydium LP Token (RAY-USDC)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5QXBMXuCL7zfAk39jEVVEvcrz1AvBGgT9wAhLLHLyyUJ",
+      "symbol": "RAY-SRM",
+      "name": "Raydium LP Token (RAY-SRM)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AcstFzGGawvvdVhYV9bftr7fmBHbePUjhv53YK1W3dZo",
+      "symbol": "LSD",
+      "name": "LSD",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "91fSFQsPzMLat9DHwLdQacW3i3EGnWds5tA5mt7yLiT9",
+      "symbol": "Unlimited Energy",
+      "name": "Unlimited Energy",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "29PEpZeuqWf9tS2gwCjpeXNdXLkaZSMR2s1ibkvGsfnP",
+      "symbol": "Need for Speed",
+      "name": "Need for Speed",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HsY8PNar8VExU335ZRYzg89fX7qa4upYu6vPMPFyCDdK",
+      "symbol": "ADOR OPENS",
+      "name": "ADOR OPENS",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EDP8TpLJ77M3KiDgFkZW4v4mhmKJHZi9gehYXenfFZuL",
+      "symbol": "CMS - Rare",
+      "name": "CMS - Rare",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BrUKFwAABkExb1xzYU4NkRWzjBihVQdZ3PBz4m5S8if3",
+      "symbol": "Tesla",
+      "name": "Tesla",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9CmQwpvVXRyixjiE3LrbSyyopPZohNDN1RZiTk8rnXsQ",
+      "symbol": "DeceFi",
+      "name": "DeceFi",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "F6ST1wWkx2PeH45sKmRxo1boyuzzWCfpnvyKL4BGeLxF",
+      "symbol": "Power User",
+      "name": "Power User",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "dZytJ7iPDcCu9mKe3srL7bpUeaR3zzkcVqbtqsmxtXZ",
+      "symbol": "VIP Member",
+      "name": "VIP Member",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8T4vXgwZUWwsbCDiptHFHjdfexvLG9UP8oy1psJWEQdS",
+      "symbol": "Uni Christmas",
+      "name": "Uni Christmas",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EjFGGJSyp9UDS8aqafET5LX49nsG326MeNezYzpiwgpQ",
+      "symbol": "BNB",
+      "name": "BNB",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FkmkTr4en8CXkfo9jAwEMov6PVNLpYMzWr3Udqf9so8Z",
+      "symbol": "Seldom",
+      "name": "Seldom",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2gn1PJdMAU92SU5inLSp4Xp16ZC5iLF6ScEi7UBvp8ZD",
+      "symbol": "Satoshi Closeup",
+      "name": "Satoshi Closeup",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7mhZHtPL4GFkquQR4Y6h34Q8hNkQvGc1FaNtyE43NvUR",
+      "symbol": "Satoshi GB",
+      "name": "Satoshi GB",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8RoKfLx5RCscbtVh8kYb81TF7ngFJ38RPomXtUREKsT2",
+      "symbol": "Satoshi OG",
+      "name": "Satoshi OG",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9rw5hyDngBQ3yDsCRHqgzGHERpU2zaLh1BXBUjree48J",
+      "symbol": "Satoshi BTC",
+      "name": "Satoshi BTC",
+      "decimals": 10,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AiD7J6D5Hny5DJB1MrYBc2ePQqy2Yh4NoxWwYfR7PzxH",
+      "symbol": "Satoshi GB",
+      "name": "Satoshi GB",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "bxiA13fpU1utDmYuUvxvyMT8odew5FEm96MRv7ij3eb",
+      "symbol": "Satoshi",
+      "name": "Satoshi",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GoC24kpj6TkvjzspXrjSJC2CVb5zMWhLyRcHJh9yKjRF",
+      "symbol": "Satoshi Closeup",
+      "name": "Satoshi Closeup",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "oCUduD44ETuZ65bpWdPzPDSnAdreg1sJrugfwyFZVHV",
+      "symbol": "Satoshi BTC",
+      "name": "Satoshi BTC",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9Vvre2DxBB9onibwYDHeMsY1cj6BDKtEDccBPWRN215E",
+      "symbol": "Satoshi Nakamoto",
+      "name": "Satoshi Nakamoto",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7RpFk44cMTAUt9CcjEMWnZMypE9bYQsjBiSNLn5qBvhP",
+      "symbol": "Charles Hoskinson",
+      "name": "Charles Hoskinson",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GyRkPAxpd9XrMHcBF6fYHVRSZQvQBwAGKAGQeBPSKzMq",
+      "symbol": "SBF",
+      "name": "SBF",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AgdBQN2Sy2abiZ2KToWeUsQ9PHdCv95wt6kVWRf5zDkx",
+      "symbol": "Bitcoin Tram",
+      "name": "Bitcoin Tram",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7TRzvCqXN8KSXggbSyeEG2Z9YBBhEFmbtmv6FLbd4mmd",
+      "symbol": "SRM tee-shirt",
+      "name": "SRM tee-shirt",
+      "decimals": 0,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "gksYzxitEf2HyE7Bb81vvHXNH5f3wa43jvXf4TcUZwb",
+      "symbol": "PERK",
+      "name": "PERK",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/perkexchange/assets/master/logos/SPL-token/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://perk.exchange/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BDxWSxkMLW1nJ3VggamUKkEKrtCaVqzFxoDApM8HdBks",
+      "symbol": "BTSG",
+      "name": "BitSong",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/bitsongofficial/assets/master/logo_128x128.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://bitsong.io/"
+      }
+    },
+    {
+      "chainId": 102,
+      "address": "So11111111111111111111111111111111111111112",
+      "symbol": "SOL",
+      "name": "Solana",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 102,
+      "address": "CpMah17kQEL2wqyMKt3mZBdTnZbkbfx4nqmQMFDP5vwp",
+      "symbol": "USDC",
+      "name": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 102,
+      "address": "D4fdoY5d2Bn1Cmjqy6J6shRHjcs7QNuBPzwEzTLrf7jm",
+      "symbol": "ABC",
+      "name": "ABC Test",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 103,
+      "address": "So11111111111111111111111111111111111111112",
+      "symbol": "SOL",
+      "name": "Solana",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 103,
+      "address": "DEhAasscXF4kEGxFgJ3bq4PpVGp5wyUxMRvn6TzGVHaw",
+      "symbol": "XYZ",
+      "name": "XYZ Test",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "tags": []
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  }
+}
