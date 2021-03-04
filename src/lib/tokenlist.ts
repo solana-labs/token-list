@@ -21,6 +21,10 @@ export interface TagDetails {
   readonly description: string;
 }
 
+export interface TokenExtensions {
+  readonly website?: string;
+}
+
 export interface TokenInfo {
   readonly chainId: number;
   readonly address: string;
@@ -29,9 +33,16 @@ export interface TokenInfo {
   readonly symbol: string;
   readonly logoURI?: string;
   readonly tags?: string[];
+  readonly extensions?: TokenExtensions;
 }
 
 export type TokenInfoMap = Map<string, TokenInfo>;
+
+export const CLUSTER_SLUGS: { [id: string]: ENV } = {
+  'mainnet-beta': ENV.MainnetBeta,
+  testnet: ENV.Testnet,
+  devnet: ENV.Devnet,
+};
 
 export class GitHubTokenListResolutionStrategy {
   repositories = [
@@ -101,7 +112,9 @@ export class TokenListProvider {
     [Strategy.CDN]: new CDNTokenListResolutionStrategy(),
   };
 
-  resolve = async (strategy: Strategy = Strategy.CDN) => {
+  resolve = async (
+    strategy: Strategy = Strategy.CDN
+  ): Promise<TokenListContainer> => {
     return new TokenListContainer(
       await TokenListProvider.strategies[strategy].resolve()
     );
@@ -118,12 +131,12 @@ export class TokenListContainer {
     return this;
   };
 
-  filterByChain = (chainId: number | ENV) => {
+  filterByChainId = (chainId: number | ENV) => {
     this.tokenList = this.tokenList.filter((item) => item.chainId === chainId);
     return this;
   };
 
-  excludeByChain = (chainId: number | ENV) => {
+  excludeByChainId = (chainId: number | ENV) => {
     this.tokenList = this.tokenList.filter((item) => item.chainId !== chainId);
     return this;
   };
@@ -132,6 +145,13 @@ export class TokenListContainer {
     this.tokenList = this.tokenList.filter(
       (item) => !(item.tags || []).includes(tag)
     );
+    return this;
+  };
+
+  filterByClusterSlug = (slug: string) => {
+    if (slug in CLUSTER_SLUGS) {
+      this.filterByChainId(CLUSTER_SLUGS[slug]);
+    }
     return this;
   };
 

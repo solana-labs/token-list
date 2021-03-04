@@ -48,7 +48,10 @@
       "name": "USDC",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-      "tags": ["stablecoin"]
+      "tags": ["stablecoin"],
+      "extensions": {
+        "website": "https://www.centre.io/"
+      }
     },
     {
       "chainId": 101,
@@ -188,7 +191,10 @@
       "name": "Serum",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://projectserum.com/"
+      }
     },
     {
       "chainId": 101,
@@ -206,7 +212,10 @@
       "name": "MegaSerum",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://projectserum.com/"
+      }
     },
     {
       "chainId": 101,
@@ -275,7 +284,10 @@
       "name": "Bonfida",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/dr497/awesome-serum-markets/02ce7c74fd2e9bd4cb55a15f735fc3ad0e7335f6/icons/fida.svg",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://bonfida.com/"
+      }
     },
     {
       "chainId": 101,
@@ -293,7 +305,10 @@
       "name": "MAPS",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/explorer/master/public/tokens/maps.svg",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://maps.me/"
+      }
     },
     {
       "chainId": 101,
@@ -302,7 +317,10 @@
       "name": "BRZ",
       "decimals": 4,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/explorer/master/public/tokens/brz.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://brztoken.io/"
+      }
     },
     {
       "chainId": 101,
@@ -311,7 +329,10 @@
       "name": "USDT",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/explorer/master/public/tokens/usdt.svg",
-      "tags": ["stablecoin"]
+      "tags": ["stablecoin"],
+      "extensions": {
+        "website": "https://tether.to/"
+      }
     },
     {
       "chainId": 101,
@@ -320,7 +341,10 @@
       "name": "Standard",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2oDxYGgTBmST4rc3yn1YtcSEck7ReDZ8wHWLqZAuNWXH/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://benchmarkprotocol.finance/"
+      }
     },
     {
       "chainId": 101,
@@ -329,7 +353,10 @@
       "name": "Raydium",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
     },
     {
       "chainId": 101,
@@ -338,7 +365,10 @@
       "name": "Raydium LP Token (RAY-USDT)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
     },
     {
       "chainId": 101,
@@ -347,7 +377,10 @@
       "name": "Raydium LP Token (RAY-USDC)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
     },
     {
       "chainId": 101,
@@ -356,7 +389,10 @@
       "name": "Raydium LP Token (RAY-SRM)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
     },
     {
       "chainId": 101,
@@ -364,7 +400,10 @@
       "symbol": "LSD",
       "name": "LSD",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -372,7 +411,10 @@
       "symbol": "Unlimited Energy",
       "name": "Unlimited Energy",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -380,7 +422,10 @@
       "symbol": "Need for Speed",
       "name": "Need for Speed",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -388,7 +433,10 @@
       "symbol": "ADOR OPENS",
       "name": "ADOR OPENS",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -396,7 +444,10 @@
       "symbol": "CMS - Rare",
       "name": "CMS - Rare",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -404,7 +455,10 @@
       "symbol": "Tesla",
       "name": "Tesla",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -412,7 +466,10 @@
       "symbol": "DeceFi",
       "name": "DeceFi",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -420,7 +477,10 @@
       "symbol": "Power User",
       "name": "Power User",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -428,7 +488,10 @@
       "symbol": "VIP Member",
       "name": "VIP Member",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -436,7 +499,10 @@
       "symbol": "Uni Christmas",
       "name": "Uni Christmas",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -444,7 +510,10 @@
       "symbol": "BNB",
       "name": "BNB",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -452,7 +521,10 @@
       "symbol": "Seldom",
       "name": "Seldom",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -460,7 +532,10 @@
       "symbol": "Satoshi Closeup",
       "name": "Satoshi Closeup",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -468,7 +543,10 @@
       "symbol": "Satoshi GB",
       "name": "Satoshi GB",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -476,7 +554,10 @@
       "symbol": "Satoshi OG",
       "name": "Satoshi OG",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -484,7 +565,10 @@
       "symbol": "Satoshi BTC",
       "name": "Satoshi BTC",
       "decimals": 10,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -492,7 +576,10 @@
       "symbol": "Satoshi GB",
       "name": "Satoshi GB",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -500,7 +587,10 @@
       "symbol": "Satoshi",
       "name": "Satoshi",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -508,7 +598,10 @@
       "symbol": "Satoshi Closeup",
       "name": "Satoshi Closeup",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -516,7 +609,10 @@
       "symbol": "Satoshi BTC",
       "name": "Satoshi BTC",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -524,7 +620,10 @@
       "symbol": "Satoshi Nakamoto",
       "name": "Satoshi Nakamoto",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -532,7 +631,10 @@
       "symbol": "Charles Hoskinson",
       "name": "Charles Hoskinson",
       "decimals": 9,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -540,7 +642,10 @@
       "symbol": "SBF",
       "name": "SBF",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -548,7 +653,10 @@
       "symbol": "Bitcoin Tram",
       "name": "Bitcoin Tram",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -556,7 +664,10 @@
       "symbol": "SRM tee-shirt",
       "name": "SRM tee-shirt",
       "decimals": 0,
-      "tags": ["nft"]
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
     },
     {
       "chainId": 101,
@@ -565,7 +676,10 @@
       "name": "PERK",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/perkexchange/assets/master/logos/SPL-token/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://perk.exchange/"
+      }
     },
     {
       "chainId": 101,
@@ -574,7 +688,10 @@
       "name": "BitSong",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/bitsongofficial/assets/master/logo_128x128.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://bitsong.io/"
+      }
     },
     {
       "chainId": 102,
