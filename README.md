@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@solana/spl-token-registry)](https://unpkg.com/@solana/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/solana-labs/token-list/blob/b3fa86b3fdd9c817139e38641d46c5a892542a52/LICENSE)
 
 Solana Token Registry is a package that allows application to query for list of tokens.
-JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.
+The JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.
 
 ## Installation
 
@@ -57,3 +57,7 @@ export const Icon = (props: { mint: string }) => {
 ## Adding new token
 
 Submit PR with changes to JSON file `src/tokens/solana.tokenlist.json`
+
+Please follow the Uniswap Token List specification found here: https://github.com/Uniswap/token-lists
+
+
