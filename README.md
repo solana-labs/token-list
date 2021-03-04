@@ -30,15 +30,15 @@ new TokenListProvider().resolve().then((tokens) => {
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
-import { TokenListProvider, KnownToken } from '@solana/spl-token-registry';
+import { TokenListProvider, TokenInfo } from '@solana/spl-token-registry';
 
 
 export const Icon = (props: { mint: string }) => {
-  const [tokenMap, setTokenMap] = useState<Map<string, KnownToken>>(new Map());
+  const [tokenMap, setTokenMap] = useState<Map<string, TokenInfo>>(new Map());
 
   useEffect(() => {
     new TokenListProvider().resolve().then(tokens => {
-      const tokenList = tokens.filterByChain(ENV.MainnetBeta).getList();
+      const tokenList = tokens.filterByChainId(ENV.MainnetBeta).getList();
 
       setTokenMap(tokenList.reduce((map, item) => {
         map.set(item.address, item);
