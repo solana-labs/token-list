@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import { ENV, Strategy, TokenListProvider } from './tokenlist';
 
 test('Token list is filterable by a tag', async (t) => {
@@ -25,4 +26,11 @@ test('Token list can exclude by a chain', async (t) => {
     .getList();
 
   t.false(list.some((item) => item.chainId === ENV.MainnetBeta));
+});
+
+test('Token list returns new object upon filter', async (t) => {
+  const list = await new TokenListProvider().resolve(Strategy.Static);
+  const filtered = list.filterByChainId(ENV.MainnetBeta);
+  t.true(list !== filtered);
+  t.true(list.getList().length !== filtered.getList().length);
 });
