@@ -150,12 +150,12 @@ export class TokenListContainer {
 
   filterByClusterSlug = (slug: string) => {
     if (slug in CLUSTER_SLUGS) {
-      this.filterByChainId(CLUSTER_SLUGS[slug]);
+      return this.filterByChainId(CLUSTER_SLUGS[slug]);
     }
     return this;
   };
 
-  getList() {
+  getList = () => {
     return this.tokenList;
   }
 }
