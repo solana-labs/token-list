@@ -157,5 +157,5 @@ export class TokenListContainer {
 
   getList = () => {
     return this.tokenList;
-  }
+  };
 }
