@@ -83,11 +83,11 @@
     "timeout": "60s",
     "typescript": {
       "rewritePaths": {
-        "src/": "build/main/"
+        "src/": "dist/main/"
       }
     },
     "files": [
-      "!build/module/**"
+      "!dist/module/**"
     ]
   },
   "config": {
