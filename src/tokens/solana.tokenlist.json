@@ -30,7 +30,10 @@
       "name": "Wrapped Bitcoin",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoin/info/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -39,7 +42,10 @@
       "name": "Wrapped Ethereum",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -60,7 +66,10 @@
       "name": "Wrapped YFI",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -69,7 +78,10 @@
       "name": "Wrapped Chainlink",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -78,7 +90,10 @@
       "name": "Wrapped XRP",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ripple/info/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -87,7 +102,10 @@
       "name": "Wrapped USDT",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-      "tags": ["stablecoin"]
+      "tags": ["stablecoin", "wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -96,7 +114,10 @@
       "name": "Wrapped SUSHI",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -105,7 +126,10 @@
       "name": "Wrapped ALEPH",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/6996a371cd02f516506a8f092eeb29888501447c/blockchains/nuls/assets/NULSd6HgyZkiqLnBzTaeSQfx1TNg2cqbzq51h/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -114,7 +138,10 @@
       "name": "Wrapped SXP",
       "decimals": 6,
       "logoURI": "https://github.com/trustwallet/assets/raw/b0ab88654fe64848da80d982945e4db06e197d4f/blockchains/ethereum/assets/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -122,7 +149,12 @@
       "symbol": "HGET",
       "name": "Wrapped Hedget",
       "decimals": 6,
-      "tags": []
+      "logoURI": "https://www.hedget.com/images/favicon.svg",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "website": "https://www.hedget.com/",
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -131,7 +163,10 @@
       "name": "Wrapped Cream Finance",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/4c82c2a409f18a4dd96a504f967a55a8fe47026d/blockchains/smartchain/assets/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -139,7 +174,12 @@
       "symbol": "UBXT",
       "name": "Wrapped Upbots",
       "decimals": 6,
-      "tags": []
+      "logoURI": "https://assets.coingecko.com/coins/images/12476/small/UBXT.png?1600132967",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "website": "https://upbots.com/",
+        "exporter": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -147,7 +187,11 @@
       "symbol": "HNT",
       "name": "Wrapped Helium",
       "decimals": 6,
-      "tags": []
+      "logoURI": "https://assets.coingecko.com/coins/images/4284/small/Helium_HNT.png?1612620071",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -156,7 +200,10 @@
       "name": "Wrapped FRONT",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/6e375e4e5fb0ffe09ed001bae1ef8ca1d6c86034/blockchains/ethereum/assets/0xf8C3527CC04340b208C854E985240c02F7B7793f/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -165,7 +212,10 @@
       "name": "Wrapped AKRO",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/878dcab0fab90e6593bcb9b7d941be4915f287dc/blockchains/ethereum/assets/0xb2734a4Cec32C81FDE26B0024Ad3ceB8C9b34037/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -173,7 +223,11 @@
       "symbol": "HXRO",
       "name": "Wrapped HXRO",
       "decimals": 6,
-      "tags": []
+      "logoURI": "https://assets.coingecko.com/coins/images/7805/large/hxro-squarelogo-1585089594129.png?1586221980",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -182,7 +236,10 @@
       "name": "Wrapped UNI",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/08d734b5e6ec95227dc50efef3a9cdfea4c398a1/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -203,7 +260,10 @@
       "name": "Wrapped FTT",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -224,7 +284,7 @@
       "name": "Wrapped USDC",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-      "tags": ["stablecoin"]
+      "tags": ["stablecoin", "wrapped-sollet", "ethereum"]
     },
     {
       "chainId": 101,
@@ -233,7 +293,10 @@
       "name": "Wrapped TOMO",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/tomochain/info/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -242,7 +305,10 @@
       "name": "Wrapped KARMA",
       "decimals": 4,
       "logoURI": "https://raw.githubusercontent.com/machi-x/assets/152f2ca62611ef23298fac9a8e657386984d2d33/blockchains/ethereum/assets/0xdfe691f37b6264a90ff507eb359c45d55037951c/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -251,7 +317,10 @@
       "name": "Wrapped LUA",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/2d2491130e6beda208ba4fc6df028a82a0106ab6/blockchains/ethereum/assets/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC/logo.png",
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -259,7 +328,10 @@
       "symbol": "MATH",
       "name": "Wrapped MATH",
       "decimals": 6,
-      "tags": []
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -267,7 +339,11 @@
       "symbol": "KEEP",
       "name": "Wrapped KEEP",
       "decimals": 6,
-      "tags": []
+      "logoURI": "https://assets.coingecko.com/coins/images/3373/large/IuNzUb5b_400x400.jpg?1589526336",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -275,7 +351,11 @@
       "symbol": "SWAG",
       "name": "Wrapped SWAG",
       "decimals": 6,
-      "tags": []
+      "logoURI": "https://assets.coingecko.com/coins/images/12805/large/photo_2020-10-14_23.17.02.jpeg?1602688642",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
     },
     {
       "chainId": 101,
@@ -341,9 +421,11 @@
       "name": "Standard",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2oDxYGgTBmST4rc3yn1YtcSEck7ReDZ8wHWLqZAuNWXH/logo.png",
-      "tags": [],
+      "tags": ["wrapped", "wormhole"],
       "extensions": {
-        "website": "https://benchmarkprotocol.finance/"
+        "website": "https://benchmarkprotocol.finance/",
+        "address": "0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "bridge-contract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678"
       }
     },
     {
@@ -581,6 +663,29 @@
         "website": "https://solible.com/"
       }
     },
+
+    {
+      "chainId": 101,
+      "address": "4qzEcYvT6TuJME2EMZ5vjaLvQja6R4hKjarA73WQUwt6",
+      "name": "APESZN_HOODIE",
+      "symbol": "APESZN_HOODIE",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "APhyVWtzjdTVYhyta9ngSiCDk2pLi8eEZKsHGSbsmwv6",
+      "name": "APESZN_TEE_SHIRT",
+      "symbol": "APESZN_TEE_SHIRT",
+      "decimals": 9,
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://solible.com/"
+      }
+    },
     {
       "chainId": 101,
       "address": "bxiA13fpU1utDmYuUvxvyMT8odew5FEm96MRv7ij3eb",
@@ -692,6 +797,411 @@
       "extensions": {
         "website": "https://bitsong.io/"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "5ddiFxh3J2tcZHfn8uhGRYqu16P3FUvBfh8WoZPUHKW5",
+      "name": "EOSBEAR",
+      "symbol": "EOSBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "qxxF6S62hmZF5bo46mS7C2qbBa87qRossAM78VzsDqi",
+      "name": "EOSBULL",
+      "symbol": "EOSBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "2CDLbxeuqkLTLY3em6FFQgfBQV5LRnEsJJgcFCvWKNcS",
+      "name": "BNBBEAR",
+      "symbol": "BNBBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "AfjHjdLibuXyvmz7PyTSc5KEcGBh43Kcu8Sr2tyDaJyt",
+      "name": "BNBBULL",
+      "symbol": "BNBBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "8kA1WJKoLTxtACNPkvW6UNufsrpxUY57tXZ9KmG9123t",
+      "name": "BSVBULL",
+      "symbol": "BSVBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "2FGW8BVMu1EHsz2ZS9rZummDaq6o2DVrZZPw4KaAvDWh",
+      "name": "BSVBEAR",
+      "symbol": "BSVBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "8L9XGTMzcqS9p61zsR35t7qipwAXMYkD6disWoDFZiFT",
+      "name": "LTCBEAR",
+      "symbol": "LTCBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "863ZRjf1J8AaVuCqypAdm5ktVyGYDiBTvD1MNHKrwyjp",
+      "name": "LTCBULL",
+      "symbol": "LTCBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "GkSPaHdY2raetuYzsJYacHtrAtQUfWt64bpd1VzxJgSD",
+      "name": "BULL",
+      "symbol": "BULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "45vwTZSDFBiqCMRdtK4xiLCHEov8LJRW8GwnofG8HYyH",
+      "name": "BEAR",
+      "symbol": "BEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "2VTAVf1YCwamD3ALMdYHRMV5vPUCXdnatJH5f1khbmx6",
+      "name": "BCHBEAR",
+      "symbol": "BCHBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "22xoSp66BDt4x4Q5xqxjaSnirdEyharoBziSFChkLFLy",
+      "name": "BCHBULL",
+      "symbol": "BCHBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "CwChm6p9Q3yFrjzVeiLTTbsoJkooscof5SJYZc2CrNqG",
+      "name": "ETHBULL",
+      "symbol": "ETHBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "Bvv9xLodFrvDFSno9Ud8SEh5zVtBDQQjnBty2SgMcJ2s",
+      "name": "ETHBEAR",
+      "symbol": "ETHBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "HRhaNssoyv5tKFRcbPg69ULEbcD8DPv99GdXLcdkgc1A",
+      "name": "ALTBULL",
+      "symbol": "ALTBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "9Mu1KmjBKTUWgpDoeTJ5oD7XFQmEiZxzspEd3TZGkavx",
+      "name": "ALTBEAR",
+      "symbol": "ALTBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "AYL1adismZ1U9pTuN33ahG4aYc5XTZQL4vKFx9ofsGWD",
+      "name": "BULLSHIT",
+      "symbol": "BULLSHIT",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "5jqymuoXXVcUuJKrf1MWiHSqHyg2osMaJGVy69NsJWyP",
+      "name": "BEARSHIT",
+      "symbol": "BEARSHIT",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "EL1aDTnLKjf4SaGpqtxJPyK94imSBr8fWDbcXjXQrsmj",
+      "name": "MIDBULL",
+      "symbol": "MIDBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "2EPvVjHusU3ozoucmdhhnqv3HQtBsQmjTnSa87K91HkC",
+      "name": "MIDBEAR",
+      "symbol": "MIDBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "8TCfJTyeqNBZqyDMY4VwDY7kdCCY7pcbJJ58CnKHkMu2",
+      "name": "LINKBEAR",
+      "symbol": "LINKBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "EsUoZMbACNMppdqdmuLCFLet8VXxt2h47N9jHCKwyaPz",
+      "name": "LINKBULL",
+      "symbol": "LINKBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "262cQHT3soHwzuo2oVSy5kAfHcFZ1Jjn8C1GRLcQNKA3",
+      "name": "XRPBULL",
+      "symbol": "XRPBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "8sxtSswmQ7Lcd2GjK6am37Z61wJZjA2SzE7Luf7yaKBB",
+      "name": "XRPBEAR",
+      "symbol": "XRPBEAR",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bear"]
+    },
+    {
+      "chainId": 101,
+      "address": "4pk3pf9nJDN1im1kNwWJN1ThjE8pCYCTexXYGyFjqKVf",
+      "name": "ODOP",
+      "symbol": "ODOP",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "91z91RukFM16hyEUCXuwMQwp2BW3vanNG5Jh5yj6auiJ",
+      "name": "BVOL",
+      "symbol": "BVOL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "5TY71D29Cyuk9UrsSxLXw2quJBpS7xDDFuFu2K9W7Wf9",
+      "name": "IBVOL",
+      "symbol": "IBVOL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "dK83wTVypEpa1pqiBbHY3MNuUnT3ADUZM4wk9VZXZEc",
+      "name": "Wrapped Aave",
+      "symbol": "AAVE",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "A6aY2ceogBz1VaXBxm1j2eJuNZMRqrWUAnKecrMH85zj",
+      "name": "LQID",
+      "symbol": "LQID",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "7CnFGR9mZWyAtWxPcVuTewpyC3A3MDW4nLsu5NY6PDbd",
+      "name": "SECO",
+      "symbol": "SECO",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "3GECTP7H4Tww3w8jEPJCJtXUtXxiZty31S9szs84CcwQ",
+      "name": "HOLY",
+      "symbol": "HOLY",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "DgHK9mfhMtUwwv54GChRrU54T2Em5cuszq2uMuen1ZVE",
+      "name": "Wrapped Celsius",
+      "symbol": "CEL",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7ncCLJpP3MNww17LW8bRvx8odQQnubNtfNZBL5BgAEHW",
+      "name": "Wrapped Reserve Rights",
+      "symbol": "RSR",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5wihEYGca7X4gSe97C5mVcqNsfxBzhdTwpv72HKs25US",
+      "name": "Wrapped 1INCH",
+      "symbol": "1INCH",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "38i2NQxjp5rt5B3KogqrxmBxgrAwaB3W1f1GmiKqh9MS",
+      "name": "Wrapped GRT",
+      "symbol": "GRT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Avz2fmevhhu87WYtWQCFj9UjKRjF9Z9QWwN2ih9yF95G",
+      "name": "Wrapped Compound",
+      "symbol": "COMP",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9wRD14AhdZ3qV8et3eBQVsrb3UoBZDUbJGyFckpTg8sj",
+      "name": "Wrapped Paxos Gold",
+      "symbol": "PAXG",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
+      "tags": ["wrapped-sollet", "ethereum"],
+      "extensions": {
+        "bridge-contract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6ry4WBDvAwAnrYJVv6MCog4J8zx6S3cPgSqnTsDZ73AR",
+      "name": "TRYB",
+      "symbol": "TRYB",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "ASboaJPFtJeCS5eG4gL3Lg95xrTz2UZSLE9sdJtY93kE",
+      "name": "DOGEBULL",
+      "symbol": "DOGEBULL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": ["leveraged", "bull"]
+    },
+    {
+      "chainId": 101,
+      "address": "Gnhy3boBT4MA8TTjGip5ND2uNsceh1Wgeaw1rYJo51ZY",
+      "name": "MAPSPOOL",
+      "symbol": "MAPSPOOL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "9iDWyYZ5VHBCxxmWZogoY3Z6FSbKsX4WFe37c728krdT",
+      "symbol": "OXYPOOL",
+      "name": "OXYPOOL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "D68NB5JkzvyNCZAvi6EGtEcGvSoRNPanU9heYTAUFFRa",
+      "name": "PERP",
+      "symbol": "PERP",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "93a1L7xaEV7vZGzNXCcb9ztZedbpKgUiTHYxmFKJwKvc",
+      "name": "RAYPOOL",
+      "symbol": "RAYPOOL",
+      "decimals": 6,
+      "logoURI": "",
+      "tags": []
     },
     {
       "chainId": 102,
