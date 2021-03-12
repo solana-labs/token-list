@@ -23,6 +23,8 @@ export interface TagDetails {
 
 export interface TokenExtensions {
   readonly website?: string;
+  readonly bridgeContract?: string;
+  readonly address?: string;
 }
 
 export interface TokenInfo {
