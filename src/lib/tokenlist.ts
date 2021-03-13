@@ -124,7 +124,7 @@ export class TokenListProvider {
 }
 
 export class TokenListContainer {
-  constructor(private tokenList: TokenInfo[]) { }
+  constructor(private tokenList: TokenInfo[]) {}
 
   filterByTag = (tag: string) => {
     return new TokenListContainer(
@@ -154,7 +154,9 @@ export class TokenListContainer {
     if (slug in CLUSTER_SLUGS) {
       return this.filterByChainId(CLUSTER_SLUGS[slug]);
     }
-    throw new Error(`Unknown slug: ${slug}, please use one of ${Object.keys(CLUSTER_SLUGS)}`);
+    throw new Error(
+      `Unknown slug: ${slug}, please use one of ${Object.keys(CLUSTER_SLUGS)}`
+    );
   };
 
   getList = () => {
