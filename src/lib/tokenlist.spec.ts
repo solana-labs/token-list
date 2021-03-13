@@ -37,6 +37,12 @@ test('Token list returns new object upon filter', async (t) => {
 
 test('Token list throws error when calling filgerByClusterSlug with slug that does not exist', async (t) => {
   const list = await new TokenListProvider().resolve(Strategy.Static);
-  const error = await t.throwsAsync(async () => list.filterByClusterSlug('whoop'), { instanceOf: Error });
-  t.is(error.message, `Unknown slug: whoop, please use one of ${Object.keys(CLUSTER_SLUGS)}`);
+  const error = await t.throwsAsync(
+    async () => list.filterByClusterSlug('whoop'),
+    { instanceOf: Error }
+  );
+  t.is(
+    error.message,
+    `Unknown slug: whoop, please use one of ${Object.keys(CLUSTER_SLUGS)}`
+  );
 });
