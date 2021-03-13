@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import { ENV, Strategy, TokenListProvider } from './tokenlist';
+import { CLUSTER_SLUGS, ENV, Strategy, TokenListProvider } from './tokenlist';
 
 test('Token list is filterable by a tag', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
@@ -33,4 +33,10 @@ test('Token list returns new object upon filter', async (t) => {
   const filtered = list.filterByChainId(ENV.MainnetBeta);
   t.true(list !== filtered);
   t.true(list.getList().length !== filtered.getList().length);
+});
+
+test('Token list throws error when calling filgerByClusterSlug with slug that does not exist', async (t) => {
+  const list = await new TokenListProvider().resolve(Strategy.Static);
+  const error = await t.throwsAsync(async () => list.filterByClusterSlug('whoop'), { instanceOf: Error });
+  t.is(error.message, `Unknown slug: whoop, please use one of ${Object.keys(CLUSTER_SLUGS)}`);
 });
