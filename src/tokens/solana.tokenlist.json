@@ -1266,20 +1266,26 @@
     {
       "chainId": 101,
       "address": "Gnhy3boBT4MA8TTjGip5ND2uNsceh1Wgeaw1rYJo51ZY",
-      "name": "MAPSPOOL",
       "symbol": "MAPSPOOL",
+      "name": "Bonfida Maps Pool",
       "decimals": 6,
-      "logoURI": "",
-      "tags": []
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/explorer/public/tokens/maps.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://bonfida.com/"
+      }
     },
     {
       "chainId": 101,
       "address": "9iDWyYZ5VHBCxxmWZogoY3Z6FSbKsX4WFe37c728krdT",
       "symbol": "OXYPOOL",
-      "name": "OXYPOOL",
+      "name": "Bonfida Oxy Pool",
       "decimals": 6,
-      "logoURI": "",
-      "tags": []
+      "logoURI": "https://cdn.jsdelivr.net/gh/nathanielparke/awesome-serum-markets/icons/oxy.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://bonfida.com/"
+      }
     },
     {
       "chainId": 101,
@@ -1293,11 +1299,14 @@
     {
       "chainId": 101,
       "address": "93a1L7xaEV7vZGzNXCcb9ztZedbpKgUiTHYxmFKJwKvc",
-      "name": "RAYPOOL",
       "symbol": "RAYPOOL",
+      "name": "Bonfida Ray Pool",
       "decimals": 6,
-      "logoURI": "",
-      "tags": []
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://bonfida.com/"
+      }
     },
       {
          "chainId":101,
@@ -1312,7 +1321,7 @@
          ],
          "extensions":{
             "address":"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-            "bridge-contract":"https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+            "bridgeContract":"https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
          }
       },
       {
@@ -1328,7 +1337,7 @@
          ],
          "extensions":{
             "address":"0x0000000000085d4780B73119b644AE5ecd22b376",
-            "bridge-contract":"https://etherscan.io/address/0x0000000000085d4780B73119b644AE5ecd22b376"
+            "bridgeContract":"https://etherscan.io/address/0x0000000000085d4780B73119b644AE5ecd22b376"
          }
       },
       {
@@ -1344,7 +1353,7 @@
          ],
          "extensions":{
             "address":"0x0000000000095413afC295d19EDeb1Ad7B71c952",
-            "bridge-contract":"https://etherscan.io/address/0x0000000000095413afC295d19EDeb1Ad7B71c952"
+            "bridgeContract":"https://etherscan.io/address/0x0000000000095413afC295d19EDeb1Ad7B71c952"
          }
       },
       {
@@ -1360,7 +1369,7 @@
          ],
          "extensions":{
             "address":"0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0",
-            "bridge-contract":"https://etherscan.io/address/0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0"
+            "bridgeContract":"https://etherscan.io/address/0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0"
          }
       },
       {
@@ -1376,7 +1385,7 @@
          ],
          "extensions":{
             "address":"0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7",
-            "bridge-contract":"https://etherscan.io/address/0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7"
+            "bridgeContract":"https://etherscan.io/address/0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7"
          }
       },
       {
@@ -1392,7 +1401,7 @@
          ],
          "extensions":{
             "address":"0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1",
-            "bridge-contract":"https://etherscan.io/address/0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1"
+            "bridgeContract":"https://etherscan.io/address/0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1"
          }
       },
       {
@@ -1408,7 +1417,7 @@
          ],
          "extensions":{
             "address":"0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a",
-            "bridge-contract":"https://etherscan.io/address/0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a"
+            "bridgeContract":"https://etherscan.io/address/0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a"
          }
       },
       {
@@ -1424,7 +1433,7 @@
          ],
          "extensions":{
             "address":"0x0488401c3F535193Fa8Df029d9fFe615A06E74E6",
-            "bridge-contract":"https://etherscan.io/address/0x0488401c3F535193Fa8Df029d9fFe615A06E74E6"
+            "bridgeContract":"https://etherscan.io/address/0x0488401c3F535193Fa8Df029d9fFe615A06E74E6"
          }
       },
       {
@@ -1440,7 +1449,7 @@
          ],
          "extensions":{
             "address":"0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
-            "bridge-contract":"https://etherscan.io/address/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828"
+            "bridgeContract":"https://etherscan.io/address/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828"
          }
       },
       {
@@ -1456,7 +1465,7 @@
          ],
          "extensions":{
             "address":"0x06A01a4d579479Dd5D884EBf61A31727A3d8D442",
-            "bridge-contract":"https://etherscan.io/address/0x06A01a4d579479Dd5D884EBf61A31727A3d8D442"
+            "bridgeContract":"https://etherscan.io/address/0x06A01a4d579479Dd5D884EBf61A31727A3d8D442"
          }
       },
       {
@@ -1472,7 +1481,7 @@
          ],
          "extensions":{
             "address":"0x09a3EcAFa817268f77BE1283176B946C4ff2E608",
-            "bridge-contract":"https://etherscan.io/address/0x09a3EcAFa817268f77BE1283176B946C4ff2E608"
+            "bridgeContract":"https://etherscan.io/address/0x09a3EcAFa817268f77BE1283176B946C4ff2E608"
          }
       },
       {
@@ -1488,7 +1497,7 @@
          ],
          "extensions":{
             "address":"0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0",
-            "bridge-contract":"https://etherscan.io/address/0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0"
+            "bridgeContract":"https://etherscan.io/address/0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0"
          }
       },
       {
@@ -1504,7 +1513,7 @@
          ],
          "extensions":{
             "address":"0x0Ae055097C6d159879521C384F1D2123D1f195e6",
-            "bridge-contract":"https://etherscan.io/address/0x0Ae055097C6d159879521C384F1D2123D1f195e6"
+            "bridgeContract":"https://etherscan.io/address/0x0Ae055097C6d159879521C384F1D2123D1f195e6"
          }
       },
       {
@@ -1520,7 +1529,7 @@
          ],
          "extensions":{
             "address":"0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
-            "bridge-contract":"https://etherscan.io/address/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
+            "bridgeContract":"https://etherscan.io/address/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
          }
       },
       {
@@ -1536,7 +1545,7 @@
          ],
          "extensions":{
             "address":"0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
-            "bridge-contract":"https://etherscan.io/address/0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
+            "bridgeContract":"https://etherscan.io/address/0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
          }
       },
       {
@@ -1552,7 +1561,7 @@
          ],
          "extensions":{
             "address":"0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
-            "bridge-contract":"https://etherscan.io/address/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+            "bridgeContract":"https://etherscan.io/address/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
          }
       },
       {
@@ -1568,7 +1577,7 @@
          ],
          "extensions":{
             "address":"0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704",
-            "bridge-contract":"https://etherscan.io/address/0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704"
+            "bridgeContract":"https://etherscan.io/address/0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704"
          }
       },
       {
@@ -1584,7 +1593,7 @@
          ],
          "extensions":{
             "address":"0x0fF6ffcFDa92c53F615a4A75D982f399C989366b",
-            "bridge-contract":"https://etherscan.io/address/0x0fF6ffcFDa92c53F615a4A75D982f399C989366b"
+            "bridgeContract":"https://etherscan.io/address/0x0fF6ffcFDa92c53F615a4A75D982f399C989366b"
          }
       },
       {
@@ -1600,7 +1609,7 @@
          ],
          "extensions":{
             "address":"0x10Be9a8dAe441d276a5027936c3aADEd2d82bC15",
-            "bridge-contract":"https://etherscan.io/address/0x10Be9a8dAe441d276a5027936c3aADEd2d82bC15"
+            "bridgeContract":"https://etherscan.io/address/0x10Be9a8dAe441d276a5027936c3aADEd2d82bC15"
          }
       },
       {
@@ -1616,7 +1625,7 @@
          ],
          "extensions":{
             "address":"0x111111111117dC0aa78b770fA6A738034120C302",
-            "bridge-contract":"https://etherscan.io/address/0x111111111117dC0aa78b770fA6A738034120C302"
+            "bridgeContract":"https://etherscan.io/address/0x111111111117dC0aa78b770fA6A738034120C302"
          }
       },
       {
@@ -1632,7 +1641,7 @@
          ],
          "extensions":{
             "address":"0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a",
-            "bridge-contract":"https://etherscan.io/address/0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a"
+            "bridgeContract":"https://etherscan.io/address/0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a"
          }
       },
       {
@@ -1648,7 +1657,7 @@
          ],
          "extensions":{
             "address":"0x1337DEF18C680aF1f9f45cBcab6309562975b1dD",
-            "bridge-contract":"https://etherscan.io/address/0x1337DEF18C680aF1f9f45cBcab6309562975b1dD"
+            "bridgeContract":"https://etherscan.io/address/0x1337DEF18C680aF1f9f45cBcab6309562975b1dD"
          }
       },
       {
@@ -1664,7 +1673,7 @@
          ],
          "extensions":{
             "address":"0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
-            "bridge-contract":"https://etherscan.io/address/0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b"
+            "bridgeContract":"https://etherscan.io/address/0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b"
          }
       },
       {
@@ -1680,7 +1689,7 @@
          ],
          "extensions":{
             "address":"0x152687Bc4A7FCC89049cF119F9ac3e5aCF2eE7ef",
-            "bridge-contract":"https://etherscan.io/address/0x152687Bc4A7FCC89049cF119F9ac3e5aCF2eE7ef"
+            "bridgeContract":"https://etherscan.io/address/0x152687Bc4A7FCC89049cF119F9ac3e5aCF2eE7ef"
          }
       },
       {
@@ -1696,7 +1705,7 @@
          ],
          "extensions":{
             "address":"0x16980b3B4a3f9D89E33311B5aa8f80303E5ca4F8",
-            "bridge-contract":"https://etherscan.io/address/0x16980b3B4a3f9D89E33311B5aa8f80303E5ca4F8"
+            "bridgeContract":"https://etherscan.io/address/0x16980b3B4a3f9D89E33311B5aa8f80303E5ca4F8"
          }
       },
       {
@@ -1712,7 +1721,7 @@
          ],
          "extensions":{
             "address":"0x178c820f862B14f316509ec36b13123DA19A6054",
-            "bridge-contract":"https://etherscan.io/address/0x178c820f862B14f316509ec36b13123DA19A6054"
+            "bridgeContract":"https://etherscan.io/address/0x178c820f862B14f316509ec36b13123DA19A6054"
          }
       },
       {
@@ -1728,7 +1737,7 @@
          ],
          "extensions":{
             "address":"0x17aC188e09A7890a1844E5E65471fE8b0CcFadF3",
-            "bridge-contract":"https://etherscan.io/address/0x17aC188e09A7890a1844E5E65471fE8b0CcFadF3"
+            "bridgeContract":"https://etherscan.io/address/0x17aC188e09A7890a1844E5E65471fE8b0CcFadF3"
          }
       },
       {
@@ -1744,7 +1753,7 @@
          ],
          "extensions":{
             "address":"0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
-            "bridge-contract":"https://etherscan.io/address/0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998"
+            "bridgeContract":"https://etherscan.io/address/0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998"
          }
       },
       {
@@ -1760,7 +1769,7 @@
          ],
          "extensions":{
             "address":"0x1985365e9f78359a9B6AD760e32412f4a445E862",
-            "bridge-contract":"https://etherscan.io/address/0x1985365e9f78359a9B6AD760e32412f4a445E862"
+            "bridgeContract":"https://etherscan.io/address/0x1985365e9f78359a9B6AD760e32412f4a445E862"
          }
       },
       {
@@ -1776,7 +1785,7 @@
          ],
          "extensions":{
             "address":"0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
-            "bridge-contract":"https://etherscan.io/address/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421"
+            "bridgeContract":"https://etherscan.io/address/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421"
          }
       },
       {
@@ -1792,7 +1801,7 @@
          ],
          "extensions":{
             "address":"0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44",
-            "bridge-contract":"https://etherscan.io/address/0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44"
+            "bridgeContract":"https://etherscan.io/address/0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44"
          }
       },
       {
@@ -1808,7 +1817,7 @@
          ],
          "extensions":{
             "address":"0x1dD80016e3d4ae146Ee2EBB484e8edD92dacC4ce",
-            "bridge-contract":"https://etherscan.io/address/0x1dD80016e3d4ae146Ee2EBB484e8edD92dacC4ce"
+            "bridgeContract":"https://etherscan.io/address/0x1dD80016e3d4ae146Ee2EBB484e8edD92dacC4ce"
          }
       },
       {
@@ -1824,7 +1833,7 @@
          ],
          "extensions":{
             "address":"0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
-            "bridge-contract":"https://etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+            "bridgeContract":"https://etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
          }
       },
       {
@@ -1840,7 +1849,7 @@
          ],
          "extensions":{
             "address":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-            "bridge-contract":"https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+            "bridgeContract":"https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
          }
       },
       {
@@ -1856,7 +1865,7 @@
          ],
          "extensions":{
             "address":"0x226f7b842E0F0120b7E194D05432b3fd14773a9D",
-            "bridge-contract":"https://etherscan.io/address/0x226f7b842E0F0120b7E194D05432b3fd14773a9D"
+            "bridgeContract":"https://etherscan.io/address/0x226f7b842E0F0120b7E194D05432b3fd14773a9D"
          }
       },
       {
@@ -1872,7 +1881,7 @@
          ],
          "extensions":{
             "address":"0x23B608675a2B2fB1890d3ABBd85c5775c51691d5",
-            "bridge-contract":"https://etherscan.io/address/0x23B608675a2B2fB1890d3ABBd85c5775c51691d5"
+            "bridgeContract":"https://etherscan.io/address/0x23B608675a2B2fB1890d3ABBd85c5775c51691d5"
          }
       },
       {
@@ -1888,7 +1897,7 @@
          ],
          "extensions":{
             "address":"0x26CE25148832C04f3d7F26F32478a9fe55197166",
-            "bridge-contract":"https://etherscan.io/address/0x26CE25148832C04f3d7F26F32478a9fe55197166"
+            "bridgeContract":"https://etherscan.io/address/0x26CE25148832C04f3d7F26F32478a9fe55197166"
          }
       },
       {
@@ -1904,7 +1913,7 @@
          ],
          "extensions":{
             "address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
-            "bridge-contract":"https://etherscan.io/address/0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
+            "bridgeContract":"https://etherscan.io/address/0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
          }
       },
       {
@@ -1920,7 +1929,7 @@
          ],
          "extensions":{
             "address":"0x2ba592F78dB6436527729929AAf6c908497cB200",
-            "bridge-contract":"https://etherscan.io/address/0x2ba592F78dB6436527729929AAf6c908497cB200"
+            "bridgeContract":"https://etherscan.io/address/0x2ba592F78dB6436527729929AAf6c908497cB200"
          }
       },
       {
@@ -1936,7 +1945,7 @@
          ],
          "extensions":{
             "address":"0x2e2f3246b6c65CCc4239c9Ee556EC143a7E5DE2c",
-            "bridge-contract":"https://etherscan.io/address/0x2e2f3246b6c65CCc4239c9Ee556EC143a7E5DE2c"
+            "bridgeContract":"https://etherscan.io/address/0x2e2f3246b6c65CCc4239c9Ee556EC143a7E5DE2c"
          }
       },
       {
@@ -1952,7 +1961,7 @@
          ],
          "extensions":{
             "address":"0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5",
-            "bridge-contract":"https://etherscan.io/address/0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5"
+            "bridgeContract":"https://etherscan.io/address/0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5"
          }
       },
       {
@@ -1968,7 +1977,7 @@
          ],
          "extensions":{
             "address":"0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20",
-            "bridge-contract":"https://etherscan.io/address/0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20"
+            "bridgeContract":"https://etherscan.io/address/0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20"
          }
       },
       {
@@ -1984,7 +1993,7 @@
          ],
          "extensions":{
             "address":"0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f",
-            "bridge-contract":"https://etherscan.io/address/0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f"
+            "bridgeContract":"https://etherscan.io/address/0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f"
          }
       },
       {
@@ -2000,7 +2009,7 @@
          ],
          "extensions":{
             "address":"0x362bc847A3a9637d3af6624EeC853618a43ed7D2",
-            "bridge-contract":"https://etherscan.io/address/0x362bc847A3a9637d3af6624EeC853618a43ed7D2"
+            "bridgeContract":"https://etherscan.io/address/0x362bc847A3a9637d3af6624EeC853618a43ed7D2"
          }
       },
       {
@@ -2016,7 +2025,7 @@
          ],
          "extensions":{
             "address":"0x37236CD05b34Cc79d3715AF2383E96dd7443dCF1",
-            "bridge-contract":"https://etherscan.io/address/0x37236CD05b34Cc79d3715AF2383E96dd7443dCF1"
+            "bridgeContract":"https://etherscan.io/address/0x37236CD05b34Cc79d3715AF2383E96dd7443dCF1"
          }
       },
       {
@@ -2032,7 +2041,7 @@
          ],
          "extensions":{
             "address":"0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
-            "bridge-contract":"https://etherscan.io/address/0x3845badAde8e6dFF049820680d1F14bD3903a5d0"
+            "bridgeContract":"https://etherscan.io/address/0x3845badAde8e6dFF049820680d1F14bD3903a5d0"
          }
       },
       {
@@ -2048,7 +2057,7 @@
          ],
          "extensions":{
             "address":"0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1",
-            "bridge-contract":"https://etherscan.io/address/0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1"
+            "bridgeContract":"https://etherscan.io/address/0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1"
          }
       },
       {
@@ -2064,7 +2073,7 @@
          ],
          "extensions":{
             "address":"0x408e41876cCCDC0F92210600ef50372656052a38",
-            "bridge-contract":"https://etherscan.io/address/0x408e41876cCCDC0F92210600ef50372656052a38"
+            "bridgeContract":"https://etherscan.io/address/0x408e41876cCCDC0F92210600ef50372656052a38"
          }
       },
       {
@@ -2080,7 +2089,7 @@
          ],
          "extensions":{
             "address":"0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
-            "bridge-contract":"https://etherscan.io/address/0x40FD72257597aA14C7231A7B1aaa29Fce868F677"
+            "bridgeContract":"https://etherscan.io/address/0x40FD72257597aA14C7231A7B1aaa29Fce868F677"
          }
       },
       {
@@ -2096,7 +2105,7 @@
          ],
          "extensions":{
             "address":"0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
-            "bridge-contract":"https://etherscan.io/address/0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b"
+            "bridgeContract":"https://etherscan.io/address/0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b"
          }
       },
       {
@@ -2112,7 +2121,7 @@
          ],
          "extensions":{
             "address":"0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5",
-            "bridge-contract":"https://etherscan.io/address/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5"
+            "bridgeContract":"https://etherscan.io/address/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5"
          }
       },
       {
@@ -2128,7 +2137,7 @@
          ],
          "extensions":{
             "address":"0x45804880De22913dAFE09f4980848ECE6EcbAf78",
-            "bridge-contract":"https://etherscan.io/address/0x45804880De22913dAFE09f4980848ECE6EcbAf78"
+            "bridgeContract":"https://etherscan.io/address/0x45804880De22913dAFE09f4980848ECE6EcbAf78"
          }
       },
       {
@@ -2144,7 +2153,7 @@
          ],
          "extensions":{
             "address":"0x4a220E6096B25EADb88358cb44068A3248254675",
-            "bridge-contract":"https://etherscan.io/address/0x4a220E6096B25EADb88358cb44068A3248254675"
+            "bridgeContract":"https://etherscan.io/address/0x4a220E6096B25EADb88358cb44068A3248254675"
          }
       },
       {
@@ -2160,7 +2169,7 @@
          ],
          "extensions":{
             "address":"0x4c11249814f11b9346808179Cf06e71ac328c1b5",
-            "bridge-contract":"https://etherscan.io/address/0x4c11249814f11b9346808179Cf06e71ac328c1b5"
+            "bridgeContract":"https://etherscan.io/address/0x4c11249814f11b9346808179Cf06e71ac328c1b5"
          }
       },
       {
@@ -2176,7 +2185,7 @@
          ],
          "extensions":{
             "address":"0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
-            "bridge-contract":"https://etherscan.io/address/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784"
+            "bridgeContract":"https://etherscan.io/address/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784"
          }
       },
       {
@@ -2192,7 +2201,7 @@
          ],
          "extensions":{
             "address":"0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42",
-            "bridge-contract":"https://etherscan.io/address/0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42"
+            "bridgeContract":"https://etherscan.io/address/0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42"
          }
       },
       {
@@ -2208,7 +2217,7 @@
          ],
          "extensions":{
             "address":"0x4fE83213D56308330EC302a8BD641f1d0113A4Cc",
-            "bridge-contract":"https://etherscan.io/address/0x4fE83213D56308330EC302a8BD641f1d0113A4Cc"
+            "bridgeContract":"https://etherscan.io/address/0x4fE83213D56308330EC302a8BD641f1d0113A4Cc"
          }
       },
       {
@@ -2224,7 +2233,7 @@
          ],
          "extensions":{
             "address":"0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd",
-            "bridge-contract":"https://etherscan.io/address/0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd"
+            "bridgeContract":"https://etherscan.io/address/0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd"
          }
       },
       {
@@ -2240,7 +2249,7 @@
          ],
          "extensions":{
             "address":"0x514910771AF9Ca656af840dff83E8264EcF986CA",
-            "bridge-contract":"https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA"
+            "bridgeContract":"https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA"
          }
       },
       {
@@ -2256,7 +2265,7 @@
          ],
          "extensions":{
             "address":"0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6",
-            "bridge-contract":"https://etherscan.io/address/0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6"
+            "bridgeContract":"https://etherscan.io/address/0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6"
          }
       },
       {
@@ -2272,7 +2281,7 @@
          ],
          "extensions":{
             "address":"0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
-            "bridge-contract":"https://etherscan.io/address/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"
+            "bridgeContract":"https://etherscan.io/address/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"
          }
       },
       {
@@ -2288,7 +2297,7 @@
          ],
          "extensions":{
             "address":"0x584bC13c7D411c00c01A62e8019472dE68768430",
-            "bridge-contract":"https://etherscan.io/address/0x584bC13c7D411c00c01A62e8019472dE68768430"
+            "bridgeContract":"https://etherscan.io/address/0x584bC13c7D411c00c01A62e8019472dE68768430"
          }
       },
       {
@@ -2304,7 +2313,7 @@
          ],
          "extensions":{
             "address":"0x5BEfBB272290dD5b8521D4a938f6c4757742c430",
-            "bridge-contract":"https://etherscan.io/address/0x5BEfBB272290dD5b8521D4a938f6c4757742c430"
+            "bridgeContract":"https://etherscan.io/address/0x5BEfBB272290dD5b8521D4a938f6c4757742c430"
          }
       },
       {
@@ -2320,7 +2329,7 @@
          ],
          "extensions":{
             "address":"0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0",
-            "bridge-contract":"https://etherscan.io/address/0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0"
+            "bridgeContract":"https://etherscan.io/address/0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0"
          }
       },
       {
@@ -2336,7 +2345,7 @@
          ],
          "extensions":{
             "address":"0x607F4C5BB672230e8672085532f7e901544a7375",
-            "bridge-contract":"https://etherscan.io/address/0x607F4C5BB672230e8672085532f7e901544a7375"
+            "bridgeContract":"https://etherscan.io/address/0x607F4C5BB672230e8672085532f7e901544a7375"
          }
       },
       {
@@ -2352,7 +2361,7 @@
          ],
          "extensions":{
             "address":"0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7",
-            "bridge-contract":"https://etherscan.io/address/0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7"
+            "bridgeContract":"https://etherscan.io/address/0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7"
          }
       },
       {
@@ -2368,7 +2377,7 @@
          ],
          "extensions":{
             "address":"0x63b4f3e3fa4e438698CE330e365E831F7cCD1eF4",
-            "bridge-contract":"https://etherscan.io/address/0x63b4f3e3fa4e438698CE330e365E831F7cCD1eF4"
+            "bridgeContract":"https://etherscan.io/address/0x63b4f3e3fa4e438698CE330e365E831F7cCD1eF4"
          }
       },
       {
@@ -2384,7 +2393,7 @@
          ],
          "extensions":{
             "address":"0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6",
-            "bridge-contract":"https://etherscan.io/address/0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6"
+            "bridgeContract":"https://etherscan.io/address/0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6"
          }
       },
       {
@@ -2400,7 +2409,7 @@
          ],
          "extensions":{
             "address":"0x6810e776880C02933D47DB1b9fc05908e5386b96",
-            "bridge-contract":"https://etherscan.io/address/0x6810e776880C02933D47DB1b9fc05908e5386b96"
+            "bridgeContract":"https://etherscan.io/address/0x6810e776880C02933D47DB1b9fc05908e5386b96"
          }
       },
       {
@@ -2416,7 +2425,7 @@
          ],
          "extensions":{
             "address":"0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23",
-            "bridge-contract":"https://etherscan.io/address/0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23"
+            "bridgeContract":"https://etherscan.io/address/0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23"
          }
       },
       {
@@ -2432,7 +2441,7 @@
          ],
          "extensions":{
             "address":"0x6B175474E89094C44Da98b954EedeAC495271d0F",
-            "bridge-contract":"https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F"
+            "bridgeContract":"https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F"
          }
       },
       {
@@ -2448,7 +2457,7 @@
          ],
          "extensions":{
             "address":"0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
-            "bridge-contract":"https://etherscan.io/address/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+            "bridgeContract":"https://etherscan.io/address/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
          }
       },
       {
@@ -2464,7 +2473,7 @@
          ],
          "extensions":{
             "address":"0x6BFf2fE249601ed0Db3a87424a2E923118BB0312",
-            "bridge-contract":"https://etherscan.io/address/0x6BFf2fE249601ed0Db3a87424a2E923118BB0312"
+            "bridgeContract":"https://etherscan.io/address/0x6BFf2fE249601ed0Db3a87424a2E923118BB0312"
          }
       },
       {
@@ -2480,7 +2489,7 @@
          ],
          "extensions":{
             "address":"0x6e0daDE58D2d89eBBe7aFc384e3E4f15b70b14D8",
-            "bridge-contract":"https://etherscan.io/address/0x6e0daDE58D2d89eBBe7aFc384e3E4f15b70b14D8"
+            "bridgeContract":"https://etherscan.io/address/0x6e0daDE58D2d89eBBe7aFc384e3E4f15b70b14D8"
          }
       },
       {
@@ -2496,7 +2505,7 @@
          ],
          "extensions":{
             "address":"0x6F87D756DAf0503d08Eb8993686c7Fc01Dc44fB1",
-            "bridge-contract":"https://etherscan.io/address/0x6F87D756DAf0503d08Eb8993686c7Fc01Dc44fB1"
+            "bridgeContract":"https://etherscan.io/address/0x6F87D756DAf0503d08Eb8993686c7Fc01Dc44fB1"
          }
       },
       {
@@ -2512,7 +2521,7 @@
          ],
          "extensions":{
             "address":"0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0",
-            "bridge-contract":"https://etherscan.io/address/0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0"
+            "bridgeContract":"https://etherscan.io/address/0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0"
          }
       },
       {
@@ -2528,7 +2537,7 @@
          ],
          "extensions":{
             "address":"0x71F85B2E46976bD21302B64329868fd15eb0D127",
-            "bridge-contract":"https://etherscan.io/address/0x71F85B2E46976bD21302B64329868fd15eb0D127"
+            "bridgeContract":"https://etherscan.io/address/0x71F85B2E46976bD21302B64329868fd15eb0D127"
          }
       },
       {
@@ -2544,7 +2553,7 @@
          ],
          "extensions":{
             "address":"0x725C263e32c72dDC3A19bEa12C5a0479a81eE688",
-            "bridge-contract":"https://etherscan.io/address/0x725C263e32c72dDC3A19bEa12C5a0479a81eE688"
+            "bridgeContract":"https://etherscan.io/address/0x725C263e32c72dDC3A19bEa12C5a0479a81eE688"
          }
       },
       {
@@ -2560,7 +2569,7 @@
          ],
          "extensions":{
             "address":"0x740623d2c797b7D8D1EcB98e9b4Afcf99Ec31E14",
-            "bridge-contract":"https://etherscan.io/address/0x740623d2c797b7D8D1EcB98e9b4Afcf99Ec31E14"
+            "bridgeContract":"https://etherscan.io/address/0x740623d2c797b7D8D1EcB98e9b4Afcf99Ec31E14"
          }
       },
       {
@@ -2576,7 +2585,7 @@
          ],
          "extensions":{
             "address":"0x7671904eed7f10808B664fc30BB8693FD7237abF",
-            "bridge-contract":"https://etherscan.io/address/0x7671904eed7f10808B664fc30BB8693FD7237abF"
+            "bridgeContract":"https://etherscan.io/address/0x7671904eed7f10808B664fc30BB8693FD7237abF"
          }
       },
       {
@@ -2592,7 +2601,7 @@
          ],
          "extensions":{
             "address":"0x7a2Bc711E19ba6aff6cE8246C546E8c4B4944DFD",
-            "bridge-contract":"https://etherscan.io/address/0x7a2Bc711E19ba6aff6cE8246C546E8c4B4944DFD"
+            "bridgeContract":"https://etherscan.io/address/0x7a2Bc711E19ba6aff6cE8246C546E8c4B4944DFD"
          }
       },
       {
@@ -2608,7 +2617,7 @@
          ],
          "extensions":{
             "address":"0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
-            "bridge-contract":"https://etherscan.io/address/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+            "bridgeContract":"https://etherscan.io/address/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
          }
       },
       {
@@ -2624,7 +2633,7 @@
          ],
          "extensions":{
             "address":"0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7",
-            "bridge-contract":"https://etherscan.io/address/0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7"
+            "bridgeContract":"https://etherscan.io/address/0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7"
          }
       },
       {
@@ -2640,7 +2649,7 @@
          ],
          "extensions":{
             "address":"0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
-            "bridge-contract":"https://etherscan.io/address/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+            "bridgeContract":"https://etherscan.io/address/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
          }
       },
       {
@@ -2656,7 +2665,7 @@
          ],
          "extensions":{
             "address":"0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
-            "bridge-contract":"https://etherscan.io/address/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03"
+            "bridgeContract":"https://etherscan.io/address/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03"
          }
       },
       {
@@ -2672,7 +2681,7 @@
          ],
          "extensions":{
             "address":"0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa",
-            "bridge-contract":"https://etherscan.io/address/0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa"
+            "bridgeContract":"https://etherscan.io/address/0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa"
          }
       },
       {
@@ -2688,7 +2697,7 @@
          ],
          "extensions":{
             "address":"0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
-            "bridge-contract":"https://etherscan.io/address/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e"
+            "bridgeContract":"https://etherscan.io/address/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e"
          }
       },
       {
@@ -2704,7 +2713,7 @@
          ],
          "extensions":{
             "address":"0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419",
-            "bridge-contract":"https://etherscan.io/address/0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419"
+            "bridgeContract":"https://etherscan.io/address/0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419"
          }
       },
       {
@@ -2720,7 +2729,7 @@
          ],
          "extensions":{
             "address":"0x853d955aCEf822Db058eb8505911ED77F175b99e",
-            "bridge-contract":"https://etherscan.io/address/0x853d955aCEf822Db058eb8505911ED77F175b99e"
+            "bridgeContract":"https://etherscan.io/address/0x853d955aCEf822Db058eb8505911ED77F175b99e"
          }
       },
       {
@@ -2736,7 +2745,7 @@
          ],
          "extensions":{
             "address":"0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC",
-            "bridge-contract":"https://etherscan.io/address/0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC"
+            "bridgeContract":"https://etherscan.io/address/0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC"
          }
       },
       {
@@ -2752,7 +2761,7 @@
          ],
          "extensions":{
             "address":"0x8762db106B2c2A0bccB3A80d1Ed41273552616E8",
-            "bridge-contract":"https://etherscan.io/address/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8"
+            "bridgeContract":"https://etherscan.io/address/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8"
          }
       },
       {
@@ -2768,7 +2777,7 @@
          ],
          "extensions":{
             "address":"0x8888801aF4d980682e47f1A9036e589479e835C5",
-            "bridge-contract":"https://etherscan.io/address/0x8888801aF4d980682e47f1A9036e589479e835C5"
+            "bridgeContract":"https://etherscan.io/address/0x8888801aF4d980682e47f1A9036e589479e835C5"
          }
       },
       {
@@ -2784,7 +2793,7 @@
          ],
          "extensions":{
             "address":"0x8c8687fC965593DFb2F0b4EAeFD55E9D8df348df",
-            "bridge-contract":"https://etherscan.io/address/0x8c8687fC965593DFb2F0b4EAeFD55E9D8df348df"
+            "bridgeContract":"https://etherscan.io/address/0x8c8687fC965593DFb2F0b4EAeFD55E9D8df348df"
          }
       },
       {
@@ -2800,7 +2809,7 @@
          ],
          "extensions":{
             "address":"0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
-            "bridge-contract":"https://etherscan.io/address/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9"
+            "bridgeContract":"https://etherscan.io/address/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9"
          }
       },
       {
@@ -2816,7 +2825,7 @@
          ],
          "extensions":{
             "address":"0x8f8221aFbB33998d8584A2B05749bA73c37a938a",
-            "bridge-contract":"https://etherscan.io/address/0x8f8221aFbB33998d8584A2B05749bA73c37a938a"
+            "bridgeContract":"https://etherscan.io/address/0x8f8221aFbB33998d8584A2B05749bA73c37a938a"
          }
       },
       {
@@ -2832,7 +2841,7 @@
          ],
          "extensions":{
             "address":"0x9355372396e3F6daF13359B7b607a3374cc638e0",
-            "bridge-contract":"https://etherscan.io/address/0x9355372396e3F6daF13359B7b607a3374cc638e0"
+            "bridgeContract":"https://etherscan.io/address/0x9355372396e3F6daF13359B7b607a3374cc638e0"
          }
       },
       {
@@ -2848,7 +2857,7 @@
          ],
          "extensions":{
             "address":"0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
-            "bridge-contract":"https://etherscan.io/address/0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d"
+            "bridgeContract":"https://etherscan.io/address/0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d"
          }
       },
       {
@@ -2864,7 +2873,7 @@
          ],
          "extensions":{
             "address":"0x95a4492F028aa1fd432Ea71146b433E7B4446611",
-            "bridge-contract":"https://etherscan.io/address/0x95a4492F028aa1fd432Ea71146b433E7B4446611"
+            "bridgeContract":"https://etherscan.io/address/0x95a4492F028aa1fd432Ea71146b433E7B4446611"
          }
       },
       {
@@ -2880,7 +2889,7 @@
          ],
          "extensions":{
             "address":"0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
-            "bridge-contract":"https://etherscan.io/address/0x967da4048cD07aB37855c090aAF366e4ce1b9F48"
+            "bridgeContract":"https://etherscan.io/address/0x967da4048cD07aB37855c090aAF366e4ce1b9F48"
          }
       },
       {
@@ -2896,7 +2905,7 @@
          ],
          "extensions":{
             "address":"0x9B02dD390a603Add5c07f9fd9175b7DABE8D63B7",
-            "bridge-contract":"https://etherscan.io/address/0x9B02dD390a603Add5c07f9fd9175b7DABE8D63B7"
+            "bridgeContract":"https://etherscan.io/address/0x9B02dD390a603Add5c07f9fd9175b7DABE8D63B7"
          }
       },
       {
@@ -2912,7 +2921,7 @@
          ],
          "extensions":{
             "address":"0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541",
-            "bridge-contract":"https://etherscan.io/address/0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541"
+            "bridgeContract":"https://etherscan.io/address/0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541"
          }
       },
       {
@@ -2928,7 +2937,7 @@
          ],
          "extensions":{
             "address":"0x9Ed8e7C9604790F7Ec589F99b94361d8AAB64E5E",
-            "bridge-contract":"https://etherscan.io/address/0x9Ed8e7C9604790F7Ec589F99b94361d8AAB64E5E"
+            "bridgeContract":"https://etherscan.io/address/0x9Ed8e7C9604790F7Ec589F99b94361d8AAB64E5E"
          }
       },
       {
@@ -2944,7 +2953,7 @@
          ],
          "extensions":{
             "address":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-            "bridge-contract":"https://etherscan.io/address/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
+            "bridgeContract":"https://etherscan.io/address/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
          }
       },
       {
@@ -2960,7 +2969,7 @@
          ],
          "extensions":{
             "address":"0xa0246c9032bC3A600820415aE600c6388619A14D",
-            "bridge-contract":"https://etherscan.io/address/0xa0246c9032bC3A600820415aE600c6388619A14D"
+            "bridgeContract":"https://etherscan.io/address/0xa0246c9032bC3A600820415aE600c6388619A14D"
          }
       },
       {
@@ -2976,7 +2985,7 @@
          ],
          "extensions":{
             "address":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-            "bridge-contract":"https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            "bridgeContract":"https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
          }
       },
       {
@@ -2992,7 +3001,7 @@
          ],
          "extensions":{
             "address":"0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
-            "bridge-contract":"https://etherscan.io/address/0xa117000000f279D81A1D3cc75430fAA017FA5A2e"
+            "bridgeContract":"https://etherscan.io/address/0xa117000000f279D81A1D3cc75430fAA017FA5A2e"
          }
       },
       {
@@ -3008,7 +3017,7 @@
          ],
          "extensions":{
             "address":"0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3",
-            "bridge-contract":"https://etherscan.io/address/0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3"
+            "bridgeContract":"https://etherscan.io/address/0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3"
          }
       },
       {
@@ -3024,7 +3033,7 @@
          ],
          "extensions":{
             "address":"0xa1d6Df714F91DeBF4e0802A542E13067f31b8262",
-            "bridge-contract":"https://etherscan.io/address/0xa1d6Df714F91DeBF4e0802A542E13067f31b8262"
+            "bridgeContract":"https://etherscan.io/address/0xa1d6Df714F91DeBF4e0802A542E13067f31b8262"
          }
       },
       {
@@ -3040,7 +3049,7 @@
          ],
          "extensions":{
             "address":"0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
-            "bridge-contract":"https://etherscan.io/address/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2"
+            "bridgeContract":"https://etherscan.io/address/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2"
          }
       },
       {
@@ -3056,7 +3065,7 @@
          ],
          "extensions":{
             "address":"0xA4EED63db85311E22dF4473f87CcfC3DaDCFA3E3",
-            "bridge-contract":"https://etherscan.io/address/0xA4EED63db85311E22dF4473f87CcfC3DaDCFA3E3"
+            "bridgeContract":"https://etherscan.io/address/0xA4EED63db85311E22dF4473f87CcfC3DaDCFA3E3"
          }
       },
       {
@@ -3072,7 +3081,7 @@
          ],
          "extensions":{
             "address":"0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca",
-            "bridge-contract":"https://etherscan.io/address/0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca"
+            "bridgeContract":"https://etherscan.io/address/0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca"
          }
       },
       {
@@ -3088,7 +3097,7 @@
          ],
          "extensions":{
             "address":"0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
-            "bridge-contract":"https://etherscan.io/address/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d"
+            "bridgeContract":"https://etherscan.io/address/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d"
          }
       },
       {
@@ -3104,7 +3113,7 @@
          ],
          "extensions":{
             "address":"0xaC0104Cca91D167873B8601d2e71EB3D4D8c33e0",
-            "bridge-contract":"https://etherscan.io/address/0xaC0104Cca91D167873B8601d2e71EB3D4D8c33e0"
+            "bridgeContract":"https://etherscan.io/address/0xaC0104Cca91D167873B8601d2e71EB3D4D8c33e0"
          }
       },
       {
@@ -3120,7 +3129,7 @@
          ],
          "extensions":{
             "address":"0xAd4f86a25bbc20FfB751f2FAC312A0B4d8F88c64",
-            "bridge-contract":"https://etherscan.io/address/0xAd4f86a25bbc20FfB751f2FAC312A0B4d8F88c64"
+            "bridgeContract":"https://etherscan.io/address/0xAd4f86a25bbc20FfB751f2FAC312A0B4d8F88c64"
          }
       },
       {
@@ -3136,7 +3145,7 @@
          ],
          "extensions":{
             "address":"0xAE1eaAE3F627AAca434127644371b67B18444051",
-            "bridge-contract":"https://etherscan.io/address/0xAE1eaAE3F627AAca434127644371b67B18444051"
+            "bridgeContract":"https://etherscan.io/address/0xAE1eaAE3F627AAca434127644371b67B18444051"
          }
       },
       {
@@ -3152,7 +3161,7 @@
          ],
          "extensions":{
             "address":"0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d",
-            "bridge-contract":"https://etherscan.io/address/0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d"
+            "bridgeContract":"https://etherscan.io/address/0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d"
          }
       },
       {
@@ -3168,7 +3177,7 @@
          ],
          "extensions":{
             "address":"0xaf9f549774ecEDbD0966C52f250aCc548D3F36E5",
-            "bridge-contract":"https://etherscan.io/address/0xaf9f549774ecEDbD0966C52f250aCc548D3F36E5"
+            "bridgeContract":"https://etherscan.io/address/0xaf9f549774ecEDbD0966C52f250aCc548D3F36E5"
          }
       },
       {
@@ -3184,7 +3193,7 @@
          ],
          "extensions":{
             "address":"0xB4d930279552397bbA2ee473229f89Ec245bc365",
-            "bridge-contract":"https://etherscan.io/address/0xB4d930279552397bbA2ee473229f89Ec245bc365"
+            "bridgeContract":"https://etherscan.io/address/0xB4d930279552397bbA2ee473229f89Ec245bc365"
          }
       },
       {
@@ -3200,7 +3209,7 @@
          ],
          "extensions":{
             "address":"0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
-            "bridge-contract":"https://etherscan.io/address/0xB4EFd85c19999D84251304bDA99E90B92300Bd93"
+            "bridgeContract":"https://etherscan.io/address/0xB4EFd85c19999D84251304bDA99E90B92300Bd93"
          }
       },
       {
@@ -3216,7 +3225,7 @@
          ],
          "extensions":{
             "address":"0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
-            "bridge-contract":"https://etherscan.io/address/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206"
+            "bridgeContract":"https://etherscan.io/address/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206"
          }
       },
       {
@@ -3232,7 +3241,7 @@
          ],
          "extensions":{
             "address":"0xb753428af26E81097e7fD17f40c88aaA3E04902c",
-            "bridge-contract":"https://etherscan.io/address/0xb753428af26E81097e7fD17f40c88aaA3E04902c"
+            "bridgeContract":"https://etherscan.io/address/0xb753428af26E81097e7fD17f40c88aaA3E04902c"
          }
       },
       {
@@ -3248,7 +3257,7 @@
          ],
          "extensions":{
             "address":"0xB987D48Ed8f2C468D52D6405624EADBa5e76d723",
-            "bridge-contract":"https://etherscan.io/address/0xB987D48Ed8f2C468D52D6405624EADBa5e76d723"
+            "bridgeContract":"https://etherscan.io/address/0xB987D48Ed8f2C468D52D6405624EADBa5e76d723"
          }
       },
       {
@@ -3264,7 +3273,7 @@
          ],
          "extensions":{
             "address":"0xba100000625a3754423978a60c9317c58a424e3D",
-            "bridge-contract":"https://etherscan.io/address/0xba100000625a3754423978a60c9317c58a424e3D"
+            "bridgeContract":"https://etherscan.io/address/0xba100000625a3754423978a60c9317c58a424e3D"
          }
       },
       {
@@ -3280,7 +3289,7 @@
          ],
          "extensions":{
             "address":"0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
-            "bridge-contract":"https://etherscan.io/address/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55"
+            "bridgeContract":"https://etherscan.io/address/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55"
          }
       },
       {
@@ -3296,7 +3305,7 @@
          ],
          "extensions":{
             "address":"0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A",
-            "bridge-contract":"https://etherscan.io/address/0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A"
+            "bridgeContract":"https://etherscan.io/address/0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A"
          }
       },
       {
@@ -3312,7 +3321,7 @@
          ],
          "extensions":{
             "address":"0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
-            "bridge-contract":"https://etherscan.io/address/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
+            "bridgeContract":"https://etherscan.io/address/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
          }
       },
       {
@@ -3328,7 +3337,7 @@
          ],
          "extensions":{
             "address":"0xbC396689893D065F41bc2C6EcbeE5e0085233447",
-            "bridge-contract":"https://etherscan.io/address/0xbC396689893D065F41bc2C6EcbeE5e0085233447"
+            "bridgeContract":"https://etherscan.io/address/0xbC396689893D065F41bc2C6EcbeE5e0085233447"
          }
       },
       {
@@ -3344,7 +3353,7 @@
          ],
          "extensions":{
             "address":"0xc00e94Cb662C3520282E6f5717214004A7f26888",
-            "bridge-contract":"https://etherscan.io/address/0xc00e94Cb662C3520282E6f5717214004A7f26888"
+            "bridgeContract":"https://etherscan.io/address/0xc00e94Cb662C3520282E6f5717214004A7f26888"
          }
       },
       {
@@ -3360,7 +3369,7 @@
          ],
          "extensions":{
             "address":"0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
-            "bridge-contract":"https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
+            "bridgeContract":"https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
          }
       },
       {
@@ -3376,7 +3385,7 @@
          ],
          "extensions":{
             "address":"0xC0bA369c8Db6eB3924965e5c4FD0b4C1B91e305F",
-            "bridge-contract":"https://etherscan.io/address/0xC0bA369c8Db6eB3924965e5c4FD0b4C1B91e305F"
+            "bridgeContract":"https://etherscan.io/address/0xC0bA369c8Db6eB3924965e5c4FD0b4C1B91e305F"
          }
       },
       {
@@ -3392,7 +3401,7 @@
          ],
          "extensions":{
             "address":"0xC4C2614E694cF534D407Ee49F8E44D125E4681c4",
-            "bridge-contract":"https://etherscan.io/address/0xC4C2614E694cF534D407Ee49F8E44D125E4681c4"
+            "bridgeContract":"https://etherscan.io/address/0xC4C2614E694cF534D407Ee49F8E44D125E4681c4"
          }
       },
       {
@@ -3408,7 +3417,7 @@
          ],
          "extensions":{
             "address":"0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
-            "bridge-contract":"https://etherscan.io/address/0xc944E90C64B2c07662A292be6244BDf05Cda44a7"
+            "bridgeContract":"https://etherscan.io/address/0xc944E90C64B2c07662A292be6244BDf05Cda44a7"
          }
       },
       {
@@ -3424,7 +3433,7 @@
          ],
          "extensions":{
             "address":"0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E",
-            "bridge-contract":"https://etherscan.io/address/0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E"
+            "bridgeContract":"https://etherscan.io/address/0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E"
          }
       },
       {
@@ -3440,7 +3449,7 @@
          ],
          "extensions":{
             "address":"0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
-            "bridge-contract":"https://etherscan.io/address/0xCC4304A31d09258b0029eA7FE63d032f52e44EFe"
+            "bridgeContract":"https://etherscan.io/address/0xCC4304A31d09258b0029eA7FE63d032f52e44EFe"
          }
       },
       {
@@ -3456,7 +3465,7 @@
          ],
          "extensions":{
             "address":"0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988",
-            "bridge-contract":"https://etherscan.io/address/0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988"
+            "bridgeContract":"https://etherscan.io/address/0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988"
          }
       },
       {
@@ -3472,7 +3481,7 @@
          ],
          "extensions":{
             "address":"0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
-            "bridge-contract":"https://etherscan.io/address/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07"
+            "bridgeContract":"https://etherscan.io/address/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07"
          }
       },
       {
@@ -3488,7 +3497,7 @@
          ],
          "extensions":{
             "address":"0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9",
-            "bridge-contract":"https://etherscan.io/address/0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9"
+            "bridgeContract":"https://etherscan.io/address/0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9"
          }
       },
       {
@@ -3504,7 +3513,7 @@
          ],
          "extensions":{
             "address":"0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85",
-            "bridge-contract":"https://etherscan.io/address/0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85"
+            "bridgeContract":"https://etherscan.io/address/0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85"
          }
       },
       {
@@ -3520,7 +3529,7 @@
          ],
          "extensions":{
             "address":"0xd379700999F4805Ce80aa32DB46A94dF64561108",
-            "bridge-contract":"https://etherscan.io/address/0xd379700999F4805Ce80aa32DB46A94dF64561108"
+            "bridgeContract":"https://etherscan.io/address/0xd379700999F4805Ce80aa32DB46A94dF64561108"
          }
       },
       {
@@ -3536,7 +3545,7 @@
          ],
          "extensions":{
             "address":"0xD46bA6D942050d489DBd938a2C909A5d5039A161",
-            "bridge-contract":"https://etherscan.io/address/0xD46bA6D942050d489DBd938a2C909A5d5039A161"
+            "bridgeContract":"https://etherscan.io/address/0xD46bA6D942050d489DBd938a2C909A5d5039A161"
          }
       },
       {
@@ -3552,7 +3561,7 @@
          ],
          "extensions":{
             "address":"0xD478161C952357F05f0292B56012Cd8457F1cfbF",
-            "bridge-contract":"https://etherscan.io/address/0xD478161C952357F05f0292B56012Cd8457F1cfbF"
+            "bridgeContract":"https://etherscan.io/address/0xD478161C952357F05f0292B56012Cd8457F1cfbF"
          }
       },
       {
@@ -3568,7 +3577,7 @@
          ],
          "extensions":{
             "address":"0xD533a949740bb3306d119CC777fa900bA034cd52",
-            "bridge-contract":"https://etherscan.io/address/0xD533a949740bb3306d119CC777fa900bA034cd52"
+            "bridgeContract":"https://etherscan.io/address/0xD533a949740bb3306d119CC777fa900bA034cd52"
          }
       },
       {
@@ -3584,7 +3593,7 @@
          ],
          "extensions":{
             "address":"0xD5525D397898e5502075Ea5E830d8914f6F0affe",
-            "bridge-contract":"https://etherscan.io/address/0xD5525D397898e5502075Ea5E830d8914f6F0affe"
+            "bridgeContract":"https://etherscan.io/address/0xD5525D397898e5502075Ea5E830d8914f6F0affe"
          }
       },
       {
@@ -3600,7 +3609,7 @@
          ],
          "extensions":{
             "address":"0xD6c67B93a7b248dF608a653d82a100556144c5DA",
-            "bridge-contract":"https://etherscan.io/address/0xD6c67B93a7b248dF608a653d82a100556144c5DA"
+            "bridgeContract":"https://etherscan.io/address/0xD6c67B93a7b248dF608a653d82a100556144c5DA"
          }
       },
       {
@@ -3616,7 +3625,7 @@
          ],
          "extensions":{
             "address":"0xdAC17F958D2ee523a2206206994597C13D831ec7",
-            "bridge-contract":"https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7"
+            "bridgeContract":"https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7"
          }
       },
       {
@@ -3632,7 +3641,7 @@
          ],
          "extensions":{
             "address":"0xDcB01cc464238396E213a6fDd933E36796eAfF9f",
-            "bridge-contract":"https://etherscan.io/address/0xDcB01cc464238396E213a6fDd933E36796eAfF9f"
+            "bridgeContract":"https://etherscan.io/address/0xDcB01cc464238396E213a6fDd933E36796eAfF9f"
          }
       },
       {
@@ -3648,7 +3657,7 @@
          ],
          "extensions":{
             "address":"0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
-            "bridge-contract":"https://etherscan.io/address/0xdd974D5C2e2928deA5F71b9825b8b646686BD200"
+            "bridgeContract":"https://etherscan.io/address/0xdd974D5C2e2928deA5F71b9825b8b646686BD200"
          }
       },
       {
@@ -3664,7 +3673,7 @@
          ],
          "extensions":{
             "address":"0xDDB3422497E61e13543BeA06989C0789117555c5",
-            "bridge-contract":"https://etherscan.io/address/0xDDB3422497E61e13543BeA06989C0789117555c5"
+            "bridgeContract":"https://etherscan.io/address/0xDDB3422497E61e13543BeA06989C0789117555c5"
          }
       },
       {
@@ -3680,7 +3689,7 @@
          ],
          "extensions":{
             "address":"0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
-            "bridge-contract":"https://etherscan.io/address/0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30"
+            "bridgeContract":"https://etherscan.io/address/0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30"
          }
       },
       {
@@ -3696,7 +3705,7 @@
          ],
          "extensions":{
             "address":"0xE41d2489571d322189246DaFA5ebDe1F4699F498",
-            "bridge-contract":"https://etherscan.io/address/0xE41d2489571d322189246DaFA5ebDe1F4699F498"
+            "bridgeContract":"https://etherscan.io/address/0xE41d2489571d322189246DaFA5ebDe1F4699F498"
          }
       },
       {
@@ -3712,7 +3721,7 @@
          ],
          "extensions":{
             "address":"0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55",
-            "bridge-contract":"https://etherscan.io/address/0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55"
+            "bridgeContract":"https://etherscan.io/address/0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55"
          }
       },
       {
@@ -3728,7 +3737,7 @@
          ],
          "extensions":{
             "address":"0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
-            "bridge-contract":"https://etherscan.io/address/0xE95A203B1a91a908F9B9CE46459d101078c2c3cb"
+            "bridgeContract":"https://etherscan.io/address/0xE95A203B1a91a908F9B9CE46459d101078c2c3cb"
          }
       },
       {
@@ -3744,7 +3753,7 @@
          ],
          "extensions":{
             "address":"0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
-            "bridge-contract":"https://etherscan.io/address/0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c"
+            "bridgeContract":"https://etherscan.io/address/0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c"
          }
       },
       {
@@ -3760,7 +3769,7 @@
          ],
          "extensions":{
             "address":"0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
-            "bridge-contract":"https://etherscan.io/address/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D"
+            "bridgeContract":"https://etherscan.io/address/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D"
          }
       },
       {
@@ -3776,7 +3785,7 @@
          ],
          "extensions":{
             "address":"0xEd91879919B71bB6905f23af0A68d231EcF87b14",
-            "bridge-contract":"https://etherscan.io/address/0xEd91879919B71bB6905f23af0A68d231EcF87b14"
+            "bridgeContract":"https://etherscan.io/address/0xEd91879919B71bB6905f23af0A68d231EcF87b14"
          }
       },
       {
@@ -3792,7 +3801,7 @@
          ],
          "extensions":{
             "address":"0xEEF9f339514298C6A857EfCfC1A762aF84438dEE",
-            "bridge-contract":"https://etherscan.io/address/0xEEF9f339514298C6A857EfCfC1A762aF84438dEE"
+            "bridgeContract":"https://etherscan.io/address/0xEEF9f339514298C6A857EfCfC1A762aF84438dEE"
          }
       },
       {
@@ -3808,7 +3817,7 @@
          ],
          "extensions":{
             "address":"0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b",
-            "bridge-contract":"https://etherscan.io/address/0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b"
+            "bridgeContract":"https://etherscan.io/address/0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b"
          }
       },
       {
@@ -3824,7 +3833,7 @@
          ],
          "extensions":{
             "address":"0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577",
-            "bridge-contract":"https://etherscan.io/address/0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577"
+            "bridgeContract":"https://etherscan.io/address/0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577"
          }
       },
       {
@@ -3840,7 +3849,7 @@
          ],
          "extensions":{
             "address":"0xF4d861575ecC9493420A3f5a14F85B13f0b50EB3",
-            "bridge-contract":"https://etherscan.io/address/0xF4d861575ecC9493420A3f5a14F85B13f0b50EB3"
+            "bridgeContract":"https://etherscan.io/address/0xF4d861575ecC9493420A3f5a14F85B13f0b50EB3"
          }
       },
       {
@@ -3856,7 +3865,7 @@
          ],
          "extensions":{
             "address":"0xF5D669627376EBd411E34b98F19C868c8ABA5ADA",
-            "bridge-contract":"https://etherscan.io/address/0xF5D669627376EBd411E34b98F19C868c8ABA5ADA"
+            "bridgeContract":"https://etherscan.io/address/0xF5D669627376EBd411E34b98F19C868c8ABA5ADA"
          }
       },
       {
@@ -3872,7 +3881,7 @@
          ],
          "extensions":{
             "address":"0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
-            "bridge-contract":"https://etherscan.io/address/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
+            "bridgeContract":"https://etherscan.io/address/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
          }
       },
       {
@@ -3888,7 +3897,7 @@
          ],
          "extensions":{
             "address":"0xF94b5C5651c888d928439aB6514B93944eEE6F48",
-            "bridge-contract":"https://etherscan.io/address/0xF94b5C5651c888d928439aB6514B93944eEE6F48"
+            "bridgeContract":"https://etherscan.io/address/0xF94b5C5651c888d928439aB6514B93944eEE6F48"
          }
       },
       {
@@ -3904,7 +3913,7 @@
          ],
          "extensions":{
             "address":"0xFbEEa1C75E4c4465CB2FCCc9c6d6afe984558E20",
-            "bridge-contract":"https://etherscan.io/address/0xFbEEa1C75E4c4465CB2FCCc9c6d6afe984558E20"
+            "bridgeContract":"https://etherscan.io/address/0xFbEEa1C75E4c4465CB2FCCc9c6d6afe984558E20"
          }
       },
       {
@@ -3920,7 +3929,7 @@
          ],
          "extensions":{
             "address":"0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF",
-            "bridge-contract":"https://etherscan.io/address/0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF"
+            "bridgeContract":"https://etherscan.io/address/0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF"
          }
       },
       {
@@ -3936,7 +3945,7 @@
          ],
          "extensions":{
             "address":"0xfF20817765cB7f73d4bde2e66e067E58D11095C2",
-            "bridge-contract":"https://etherscan.io/address/0xfF20817765cB7f73d4bde2e66e067E58D11095C2"
+            "bridgeContract":"https://etherscan.io/address/0xfF20817765cB7f73d4bde2e66e067E58D11095C2"
          }
       },
       {
@@ -3952,7 +3961,7 @@
          ],
          "extensions":{
             "address":"0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB",
-            "bridge-contract":"https://etherscan.io/address/0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB"
+            "bridgeContract":"https://etherscan.io/address/0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB"
          }
       },
       {
@@ -3968,7 +3977,7 @@
          ],
          "extensions":{
             "address":"0x4Fabb145d64652a948d72533023f6E7A623C7C53",
-            "bridge-contract":"https://etherscan.io/address/0x4Fabb145d64652a948d72533023f6E7A623C7C53"
+            "bridgeContract":"https://etherscan.io/address/0x4Fabb145d64652a948d72533023f6E7A623C7C53"
          }
       },
       {
@@ -3984,7 +3993,7 @@
          ],
          "extensions":{
             "address":"0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
-            "bridge-contract":"https://etherscan.io/address/0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d"
+            "bridgeContract":"https://etherscan.io/address/0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d"
          }
       },
       {
@@ -4000,7 +4009,7 @@
          ],
          "extensions":{
             "address":"0x4DA9b813057D04BAef4e5800E36083717b4a0341",
-            "bridge-contract":"https://etherscan.io/address/0x4DA9b813057D04BAef4e5800E36083717b4a0341"
+            "bridgeContract":"https://etherscan.io/address/0x4DA9b813057D04BAef4e5800E36083717b4a0341"
          }
       },
       {
@@ -4016,7 +4025,7 @@
          ],
          "extensions":{
             "address":"0x9bA00D6856a4eDF4665BcA2C2309936572473B7E",
-            "bridge-contract":"https://etherscan.io/address/0x9bA00D6856a4eDF4665BcA2C2309936572473B7E"
+            "bridgeContract":"https://etherscan.io/address/0x9bA00D6856a4eDF4665BcA2C2309936572473B7E"
          }
       },
       {
@@ -4032,7 +4041,7 @@
          ],
          "extensions":{
             "address":"0x71fc860F7D3A592A4a98740e39dB31d25db65ae8",
-            "bridge-contract":"https://etherscan.io/address/0x71fc860F7D3A592A4a98740e39dB31d25db65ae8"
+            "bridgeContract":"https://etherscan.io/address/0x71fc860F7D3A592A4a98740e39dB31d25db65ae8"
          }
       },
       {
@@ -4048,7 +4057,7 @@
          ],
          "extensions":{
             "address":"0x625aE63000f46200499120B906716420bd059240",
-            "bridge-contract":"https://etherscan.io/address/0x625aE63000f46200499120B906716420bd059240"
+            "bridgeContract":"https://etherscan.io/address/0x625aE63000f46200499120B906716420bd059240"
          }
       },
       {
@@ -4064,7 +4073,7 @@
          ],
          "extensions":{
             "address":"0x7D2D3688Df45Ce7C552E19c27e007673da9204B8",
-            "bridge-contract":"https://etherscan.io/address/0x7D2D3688Df45Ce7C552E19c27e007673da9204B8"
+            "bridgeContract":"https://etherscan.io/address/0x7D2D3688Df45Ce7C552E19c27e007673da9204B8"
          }
       },
       {
@@ -4080,7 +4089,7 @@
          ],
          "extensions":{
             "address":"0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00",
-            "bridge-contract":"https://etherscan.io/address/0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00"
+            "bridgeContract":"https://etherscan.io/address/0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00"
          }
       },
       {
@@ -4096,7 +4105,7 @@
          ],
          "extensions":{
             "address":"0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04",
-            "bridge-contract":"https://etherscan.io/address/0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04"
+            "bridgeContract":"https://etherscan.io/address/0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04"
          }
       },
       {
@@ -4112,7 +4121,7 @@
          ],
          "extensions":{
             "address":"0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84",
-            "bridge-contract":"https://etherscan.io/address/0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84"
+            "bridgeContract":"https://etherscan.io/address/0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84"
          }
       },
       {
@@ -4128,7 +4137,7 @@
          ],
          "extensions":{
             "address":"0x9D91BE44C06d373a8a226E1f3b146956083803eB",
-            "bridge-contract":"https://etherscan.io/address/0x9D91BE44C06d373a8a226E1f3b146956083803eB"
+            "bridgeContract":"https://etherscan.io/address/0x9D91BE44C06d373a8a226E1f3b146956083803eB"
          }
       },
       {
@@ -4144,7 +4153,7 @@
          ],
          "extensions":{
             "address":"0x71010A9D003445aC60C4e6A7017c1E89A477B438",
-            "bridge-contract":"https://etherscan.io/address/0x71010A9D003445aC60C4e6A7017c1E89A477B438"
+            "bridgeContract":"https://etherscan.io/address/0x71010A9D003445aC60C4e6A7017c1E89A477B438"
          }
       },
       {
@@ -4160,7 +4169,7 @@
          ],
          "extensions":{
             "address":"0x7deB5e830be29F91E298ba5FF1356BB7f8146998",
-            "bridge-contract":"https://etherscan.io/address/0x7deB5e830be29F91E298ba5FF1356BB7f8146998"
+            "bridgeContract":"https://etherscan.io/address/0x7deB5e830be29F91E298ba5FF1356BB7f8146998"
          }
       },
       {
@@ -4176,7 +4185,7 @@
          ],
          "extensions":{
             "address":"0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f",
-            "bridge-contract":"https://etherscan.io/address/0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f"
+            "bridgeContract":"https://etherscan.io/address/0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f"
          }
       },
       {
@@ -4192,7 +4201,7 @@
          ],
          "extensions":{
             "address":"0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f",
-            "bridge-contract":"https://etherscan.io/address/0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f"
+            "bridgeContract":"https://etherscan.io/address/0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f"
          }
       },
       {
@@ -4208,7 +4217,7 @@
          ],
          "extensions":{
             "address":"0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE",
-            "bridge-contract":"https://etherscan.io/address/0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE"
+            "bridgeContract":"https://etherscan.io/address/0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE"
          }
       },
       {
@@ -4224,7 +4233,7 @@
          ],
          "extensions":{
             "address":"0xFC4B8ED459e00e5400be803A9BB3954234FD50e3",
-            "bridge-contract":"https://etherscan.io/address/0xFC4B8ED459e00e5400be803A9BB3954234FD50e3"
+            "bridgeContract":"https://etherscan.io/address/0xFC4B8ED459e00e5400be803A9BB3954234FD50e3"
          }
       },
       {
@@ -4240,7 +4249,7 @@
          ],
          "extensions":{
             "address":"0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8",
-            "bridge-contract":"https://etherscan.io/address/0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8"
+            "bridgeContract":"https://etherscan.io/address/0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8"
          }
       },
       {
@@ -4256,7 +4265,7 @@
          ],
          "extensions":{
             "address":"0x712DB54daA836B53Ef1EcBb9c6ba3b9Efb073F40",
-            "bridge-contract":"https://etherscan.io/address/0x712DB54daA836B53Ef1EcBb9c6ba3b9Efb073F40"
+            "bridgeContract":"https://etherscan.io/address/0x712DB54daA836B53Ef1EcBb9c6ba3b9Efb073F40"
          }
       },
       {
@@ -4272,7 +4281,7 @@
          ],
          "extensions":{
             "address":"0x69948cC03f478B95283F7dbf1CE764d0fc7EC54C",
-            "bridge-contract":"https://etherscan.io/address/0x69948cC03f478B95283F7dbf1CE764d0fc7EC54C"
+            "bridgeContract":"https://etherscan.io/address/0x69948cC03f478B95283F7dbf1CE764d0fc7EC54C"
          }
       },
       {
@@ -4288,7 +4297,7 @@
          ],
          "extensions":{
             "address":"0x12e51E77DAAA58aA0E9247db7510Ea4B46F9bEAd",
-            "bridge-contract":"https://etherscan.io/address/0x12e51E77DAAA58aA0E9247db7510Ea4B46F9bEAd"
+            "bridgeContract":"https://etherscan.io/address/0x12e51E77DAAA58aA0E9247db7510Ea4B46F9bEAd"
          }
       },
       {
@@ -4304,7 +4313,7 @@
          ],
          "extensions":{
             "address":"0xba3D9687Cf50fE253cd2e1cFeEdE1d6787344Ed5",
-            "bridge-contract":"https://etherscan.io/address/0xba3D9687Cf50fE253cd2e1cFeEdE1d6787344Ed5"
+            "bridgeContract":"https://etherscan.io/address/0xba3D9687Cf50fE253cd2e1cFeEdE1d6787344Ed5"
          }
       },
       {
@@ -4320,7 +4329,7 @@
          ],
          "extensions":{
             "address":"0xB124541127A0A657f056D9Dd06188c4F1b0e5aab",
-            "bridge-contract":"https://etherscan.io/address/0xB124541127A0A657f056D9Dd06188c4F1b0e5aab"
+            "bridgeContract":"https://etherscan.io/address/0xB124541127A0A657f056D9Dd06188c4F1b0e5aab"
          }
       },
       {
@@ -4336,7 +4345,7 @@
          ],
          "extensions":{
             "address":"0x4da27a545c0c5B758a6BA100e3a049001de870f5",
-            "bridge-contract":"https://etherscan.io/address/0x4da27a545c0c5B758a6BA100e3a049001de870f5"
+            "bridgeContract":"https://etherscan.io/address/0x4da27a545c0c5B758a6BA100e3a049001de870f5"
          }
       },
       {
@@ -4352,7 +4361,7 @@
          ],
          "extensions":{
             "address":"0x2a1530C4C41db0B0b2bB646CB5Eb1A67b7158667",
-            "bridge-contract":"https://etherscan.io/address/0x2a1530C4C41db0B0b2bB646CB5Eb1A67b7158667"
+            "bridgeContract":"https://etherscan.io/address/0x2a1530C4C41db0B0b2bB646CB5Eb1A67b7158667"
          }
       },
       {
@@ -4368,7 +4377,7 @@
          ],
          "extensions":{
             "address":"0x97deC872013f6B5fB443861090ad931542878126",
-            "bridge-contract":"https://etherscan.io/address/0x97deC872013f6B5fB443861090ad931542878126"
+            "bridgeContract":"https://etherscan.io/address/0x97deC872013f6B5fB443861090ad931542878126"
          }
       },
       {
@@ -4384,7 +4393,7 @@
          ],
          "extensions":{
             "address":"0xe9Cf7887b93150D4F2Da7dFc6D502B216438F244",
-            "bridge-contract":"https://etherscan.io/address/0xe9Cf7887b93150D4F2Da7dFc6D502B216438F244"
+            "bridgeContract":"https://etherscan.io/address/0xe9Cf7887b93150D4F2Da7dFc6D502B216438F244"
          }
       },
       {
@@ -4400,7 +4409,7 @@
          ],
          "extensions":{
             "address":"0xcaA7e4656f6A2B59f5f99c745F91AB26D1210DCe",
-            "bridge-contract":"https://etherscan.io/address/0xcaA7e4656f6A2B59f5f99c745F91AB26D1210DCe"
+            "bridgeContract":"https://etherscan.io/address/0xcaA7e4656f6A2B59f5f99c745F91AB26D1210DCe"
          }
       },
       {
@@ -4416,7 +4425,7 @@
          ],
          "extensions":{
             "address":"0x2C4Bd064b998838076fa341A83d007FC2FA50957",
-            "bridge-contract":"https://etherscan.io/address/0x2C4Bd064b998838076fa341A83d007FC2FA50957"
+            "bridgeContract":"https://etherscan.io/address/0x2C4Bd064b998838076fa341A83d007FC2FA50957"
          }
       },
       {
@@ -4432,7 +4441,7 @@
          ],
          "extensions":{
             "address":"0xF173214C720f58E03e194085B1DB28B50aCDeeaD",
-            "bridge-contract":"https://etherscan.io/address/0xF173214C720f58E03e194085B1DB28B50aCDeeaD"
+            "bridgeContract":"https://etherscan.io/address/0xF173214C720f58E03e194085B1DB28B50aCDeeaD"
          }
       },
       {
@@ -4448,7 +4457,7 @@
          ],
          "extensions":{
             "address":"0x6179078872605396Ee62960917128F9477a5DdbB",
-            "bridge-contract":"https://etherscan.io/address/0x6179078872605396Ee62960917128F9477a5DdbB"
+            "bridgeContract":"https://etherscan.io/address/0x6179078872605396Ee62960917128F9477a5DdbB"
          }
       },
       {
@@ -4464,7 +4473,7 @@
          ],
          "extensions":{
             "address":"0x048930eec73c91B44b0844aEACdEBADC2F2b6efb",
-            "bridge-contract":"https://etherscan.io/address/0x048930eec73c91B44b0844aEACdEBADC2F2b6efb"
+            "bridgeContract":"https://etherscan.io/address/0x048930eec73c91B44b0844aEACdEBADC2F2b6efb"
          }
       },
       {
@@ -4480,7 +4489,7 @@
          ],
          "extensions":{
             "address":"0xe02b2Ad63eFF3Ac1D5827cBd7AB9DD3DaC4f4AD0",
-            "bridge-contract":"https://etherscan.io/address/0xe02b2Ad63eFF3Ac1D5827cBd7AB9DD3DaC4f4AD0"
+            "bridgeContract":"https://etherscan.io/address/0xe02b2Ad63eFF3Ac1D5827cBd7AB9DD3DaC4f4AD0"
          }
       },
       {
@@ -4496,7 +4505,7 @@
          ],
          "extensions":{
             "address":"0xb977ee318010A5252774171494a1bCB98E7fab65",
-            "bridge-contract":"https://etherscan.io/address/0xb977ee318010A5252774171494a1bCB98E7fab65"
+            "bridgeContract":"https://etherscan.io/address/0xb977ee318010A5252774171494a1bCB98E7fab65"
          }
       },
       {
@@ -4512,7 +4521,7 @@
          ],
          "extensions":{
             "address":"0xBbBb7F2aC04484F7F04A2C2C16f20479791BbB44",
-            "bridge-contract":"https://etherscan.io/address/0xBbBb7F2aC04484F7F04A2C2C16f20479791BbB44"
+            "bridgeContract":"https://etherscan.io/address/0xBbBb7F2aC04484F7F04A2C2C16f20479791BbB44"
          }
       },
       {
@@ -4528,7 +4537,7 @@
          ],
          "extensions":{
             "address":"0x1D0e53A0e524E3CC92C1f0f33Ae268FfF8D7E7a5",
-            "bridge-contract":"https://etherscan.io/address/0x1D0e53A0e524E3CC92C1f0f33Ae268FfF8D7E7a5"
+            "bridgeContract":"https://etherscan.io/address/0x1D0e53A0e524E3CC92C1f0f33Ae268FfF8D7E7a5"
          }
       },
       {
@@ -4544,7 +4553,7 @@
          ],
          "extensions":{
             "address":"0x84BBcaB430717ff832c3904fa6515f97fc63C76F",
-            "bridge-contract":"https://etherscan.io/address/0x84BBcaB430717ff832c3904fa6515f97fc63C76F"
+            "bridgeContract":"https://etherscan.io/address/0x84BBcaB430717ff832c3904fa6515f97fc63C76F"
          }
       },
       {
@@ -4560,7 +4569,7 @@
          ],
          "extensions":{
             "address":"0xc88ebbf7C523f38Ef3eB8A151273C0F0dA421e63",
-            "bridge-contract":"https://etherscan.io/address/0xc88ebbf7C523f38Ef3eB8A151273C0F0dA421e63"
+            "bridgeContract":"https://etherscan.io/address/0xc88ebbf7C523f38Ef3eB8A151273C0F0dA421e63"
          }
       },
       {
@@ -4576,7 +4585,7 @@
          ],
          "extensions":{
             "address":"0x8c69f7A4C9B38F1b48005D216c398Efb2F1Ce3e4",
-            "bridge-contract":"https://etherscan.io/address/0x8c69f7A4C9B38F1b48005D216c398Efb2F1Ce3e4"
+            "bridgeContract":"https://etherscan.io/address/0x8c69f7A4C9B38F1b48005D216c398Efb2F1Ce3e4"
          }
       },
       {
@@ -4592,7 +4601,7 @@
          ],
          "extensions":{
             "address":"0x9548DB8b1cA9b6c757485e7861918b640390169c",
-            "bridge-contract":"https://etherscan.io/address/0x9548DB8b1cA9b6c757485e7861918b640390169c"
+            "bridgeContract":"https://etherscan.io/address/0x9548DB8b1cA9b6c757485e7861918b640390169c"
          }
       },
       {
@@ -4608,7 +4617,7 @@
          ],
          "extensions":{
             "address":"0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811",
-            "bridge-contract":"https://etherscan.io/address/0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811"
+            "bridgeContract":"https://etherscan.io/address/0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811"
          }
       },
       {
@@ -4624,7 +4633,7 @@
          ],
          "extensions":{
             "address":"0x9ff58f4fFB29fA2266Ab25e75e2A8b3503311656",
-            "bridge-contract":"https://etherscan.io/address/0x9ff58f4fFB29fA2266Ab25e75e2A8b3503311656"
+            "bridgeContract":"https://etherscan.io/address/0x9ff58f4fFB29fA2266Ab25e75e2A8b3503311656"
          }
       },
       {
@@ -4640,7 +4649,7 @@
          ],
          "extensions":{
             "address":"0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
-            "bridge-contract":"https://etherscan.io/address/0x030bA81f1c18d280636F32af80b9AAd02Cf0854e"
+            "bridgeContract":"https://etherscan.io/address/0x030bA81f1c18d280636F32af80b9AAd02Cf0854e"
          }
       },
       {
@@ -4656,7 +4665,7 @@
          ],
          "extensions":{
             "address":"0x5165d24277cD063F5ac44Efd447B27025e888f37",
-            "bridge-contract":"https://etherscan.io/address/0x5165d24277cD063F5ac44Efd447B27025e888f37"
+            "bridgeContract":"https://etherscan.io/address/0x5165d24277cD063F5ac44Efd447B27025e888f37"
          }
       },
       {
@@ -4672,7 +4681,7 @@
          ],
          "extensions":{
             "address":"0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e",
-            "bridge-contract":"https://etherscan.io/address/0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e"
+            "bridgeContract":"https://etherscan.io/address/0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e"
          }
       },
       {
@@ -4688,7 +4697,7 @@
          ],
          "extensions":{
             "address":"0xB9D7CB55f463405CDfBe4E90a6D2Df01C2B92BF1",
-            "bridge-contract":"https://etherscan.io/address/0xB9D7CB55f463405CDfBe4E90a6D2Df01C2B92BF1"
+            "bridgeContract":"https://etherscan.io/address/0xB9D7CB55f463405CDfBe4E90a6D2Df01C2B92BF1"
          }
       },
       {
@@ -4704,7 +4713,7 @@
          ],
          "extensions":{
             "address":"0xFFC97d72E13E01096502Cb8Eb52dEe56f74DAD7B",
-            "bridge-contract":"https://etherscan.io/address/0xFFC97d72E13E01096502Cb8Eb52dEe56f74DAD7B"
+            "bridgeContract":"https://etherscan.io/address/0xFFC97d72E13E01096502Cb8Eb52dEe56f74DAD7B"
          }
       },
       {
@@ -4720,7 +4729,7 @@
          ],
          "extensions":{
             "address":"0x05Ec93c0365baAeAbF7AefFb0972ea7ECdD39CF1",
-            "bridge-contract":"https://etherscan.io/address/0x05Ec93c0365baAeAbF7AefFb0972ea7ECdD39CF1"
+            "bridgeContract":"https://etherscan.io/address/0x05Ec93c0365baAeAbF7AefFb0972ea7ECdD39CF1"
          }
       },
       {
@@ -4736,7 +4745,7 @@
          ],
          "extensions":{
             "address":"0xA361718326c15715591c299427c62086F69923D9",
-            "bridge-contract":"https://etherscan.io/address/0xA361718326c15715591c299427c62086F69923D9"
+            "bridgeContract":"https://etherscan.io/address/0xA361718326c15715591c299427c62086F69923D9"
          }
       },
       {
@@ -4752,7 +4761,7 @@
          ],
          "extensions":{
             "address":"0x028171bCA77440897B824Ca71D1c56caC55b68A3",
-            "bridge-contract":"https://etherscan.io/address/0x028171bCA77440897B824Ca71D1c56caC55b68A3"
+            "bridgeContract":"https://etherscan.io/address/0x028171bCA77440897B824Ca71D1c56caC55b68A3"
          }
       },
       {
@@ -4768,7 +4777,7 @@
          ],
          "extensions":{
             "address":"0xaC6Df26a590F08dcC95D5a4705ae8abbc88509Ef",
-            "bridge-contract":"https://etherscan.io/address/0xaC6Df26a590F08dcC95D5a4705ae8abbc88509Ef"
+            "bridgeContract":"https://etherscan.io/address/0xaC6Df26a590F08dcC95D5a4705ae8abbc88509Ef"
          }
       },
       {
@@ -4784,7 +4793,7 @@
          ],
          "extensions":{
             "address":"0x39C6b3e42d6A679d7D776778Fe880BC9487C2EDA",
-            "bridge-contract":"https://etherscan.io/address/0x39C6b3e42d6A679d7D776778Fe880BC9487C2EDA"
+            "bridgeContract":"https://etherscan.io/address/0x39C6b3e42d6A679d7D776778Fe880BC9487C2EDA"
          }
       },
       {
@@ -4800,7 +4809,7 @@
          ],
          "extensions":{
             "address":"0xa06bC25B5805d5F8d82847D191Cb4Af5A3e873E0",
-            "bridge-contract":"https://etherscan.io/address/0xa06bC25B5805d5F8d82847D191Cb4Af5A3e873E0"
+            "bridgeContract":"https://etherscan.io/address/0xa06bC25B5805d5F8d82847D191Cb4Af5A3e873E0"
          }
       },
       {
@@ -4816,7 +4825,7 @@
          ],
          "extensions":{
             "address":"0xa685a61171bb30d4072B338c80Cb7b2c865c873E",
-            "bridge-contract":"https://etherscan.io/address/0xa685a61171bb30d4072B338c80Cb7b2c865c873E"
+            "bridgeContract":"https://etherscan.io/address/0xa685a61171bb30d4072B338c80Cb7b2c865c873E"
          }
       },
       {
@@ -4832,7 +4841,7 @@
          ],
          "extensions":{
             "address":"0xc713e5E149D5D0715DcD1c156a020976e7E56B88",
-            "bridge-contract":"https://etherscan.io/address/0xc713e5E149D5D0715DcD1c156a020976e7E56B88"
+            "bridgeContract":"https://etherscan.io/address/0xc713e5E149D5D0715DcD1c156a020976e7E56B88"
          }
       },
       {
@@ -4848,7 +4857,7 @@
          ],
          "extensions":{
             "address":"0xCC12AbE4ff81c9378D670De1b57F8e0Dd228D77a",
-            "bridge-contract":"https://etherscan.io/address/0xCC12AbE4ff81c9378D670De1b57F8e0Dd228D77a"
+            "bridgeContract":"https://etherscan.io/address/0xCC12AbE4ff81c9378D670De1b57F8e0Dd228D77a"
          }
       },
       {
@@ -4864,7 +4873,7 @@
          ],
          "extensions":{
             "address":"0x35f6B052C598d933D69A4EEC4D04c73A191fE6c2",
-            "bridge-contract":"https://etherscan.io/address/0x35f6B052C598d933D69A4EEC4D04c73A191fE6c2"
+            "bridgeContract":"https://etherscan.io/address/0x35f6B052C598d933D69A4EEC4D04c73A191fE6c2"
          }
       },
       {
@@ -4880,7 +4889,7 @@
          ],
          "extensions":{
             "address":"0x6C5024Cd4F8A59110119C56f8933403A539555EB",
-            "bridge-contract":"https://etherscan.io/address/0x6C5024Cd4F8A59110119C56f8933403A539555EB"
+            "bridgeContract":"https://etherscan.io/address/0x6C5024Cd4F8A59110119C56f8933403A539555EB"
          }
       },
       {
@@ -4896,7 +4905,7 @@
          ],
          "extensions":{
             "address":"0x101cc05f4A51C0319f570d5E146a8C625198e636",
-            "bridge-contract":"https://etherscan.io/address/0x101cc05f4A51C0319f570d5E146a8C625198e636"
+            "bridgeContract":"https://etherscan.io/address/0x101cc05f4A51C0319f570d5E146a8C625198e636"
          }
       },
       {
@@ -4912,7 +4921,7 @@
          ],
          "extensions":{
             "address":"0xBcca60bB61934080951369a648Fb03DF4F96263C",
-            "bridge-contract":"https://etherscan.io/address/0xBcca60bB61934080951369a648Fb03DF4F96263C"
+            "bridgeContract":"https://etherscan.io/address/0xBcca60bB61934080951369a648Fb03DF4F96263C"
          }
       },
     {
