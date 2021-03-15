@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.9 (2021-03-15)
+
+
+### Features
+
+* add purge cdn ([11718fe](https://github.com/solana-labs/token-list/commit/11718fea14158dd379125f0d4e819d1403515c7f))
+
 ### 0.2.7 (2021-03-15)
 
 
