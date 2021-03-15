@@ -12,8 +12,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: yarn install
-      - run: yarn test
+      - run: npm install
+      - run: npm test
 
   publish:
     needs: build
@@ -29,6 +29,6 @@ jobs:
       - run: git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com" && git config --global user.name "$GITHUB_ACTOR"
       - run: npm version patch
       - run: git push --tags && git push
-      - run: npm publish --access public
+      - run: npm pack
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
