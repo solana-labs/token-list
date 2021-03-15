@@ -27,7 +27,9 @@ jobs:
           scope: '@solana'
       - run: yarn
       - run: git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com" && git config --global user.name "$GITHUB_ACTOR"
-      - run: yarn version --patch
-      - run: npm run purge:cdn
+      - run: yarn run version --patch
+      - run: git push --follow-tags origin main
+      - run: yarn publish
+      - run: yarn run purge:cdn
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
