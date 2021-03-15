@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.7 (2021-03-15)
+
+
+### Features
+
+* update lock ([287c0ca](https://github.com/solana-labs/token-list/commit/287c0ca1ce9ad9710333e5e1bb9c558fb19f7819))
+
 ### 0.2.5 (2021-03-15)
 
 
