@@ -79,7 +79,7 @@
       "chainId": 101,
       "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "symbol": "USDC",
-      "name": "USDC",
+      "name": "USD Coin",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
       "tags": ["stablecoin"],
@@ -4940,19 +4940,25 @@
       "chainId": 102,
       "address": "So11111111111111111111111111111111111111112",
       "symbol": "SOL",
-      "name": "Solana",
+      "name": "Wrapped SOL",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/solana/info/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://www.solana.com/"
+      }
     },
     {
       "chainId": 102,
       "address": "CpMah17kQEL2wqyMKt3mZBdTnZbkbfx4nqmQMFDP5vwp",
       "symbol": "USDC",
-      "name": "USDC",
+      "name": "USD Coin",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-      "tags": ["stablecoin"]
+      "tags": ["stablecoin"],
+      "extensions": {
+        "website": "https://www.centre.io/"
+      }
     },
     {
       "chainId": 102,
