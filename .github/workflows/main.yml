@@ -31,5 +31,6 @@ jobs:
       - run: npm install
       - run: git push --tags && git push
       - run: npm publish --access public
+      - run: npm run purge:cdn
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
