@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: yarn install
+      - run: yarn
       - run: yarn test
 
   publish:
@@ -25,7 +25,7 @@ jobs:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
           scope: '@solana'
-      - run: yarn install
+      - run: yarn
       - run: git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com" && git config --global user.name "$GITHUB_ACTOR"
       - run: yarn version --patch
       - run: npm run purge:cdn
