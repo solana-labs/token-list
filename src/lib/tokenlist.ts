@@ -25,6 +25,7 @@ export interface TokenExtensions {
   readonly website?: string;
   readonly bridgeContract?: string;
   readonly address?: string;
+  readonly explorer?: string;
 }
 
 export interface TokenInfo {
