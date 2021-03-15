@@ -207,7 +207,7 @@
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "website": "https://upbots.com/",
-        "exporter": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+        "explorer": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
     },
     {
@@ -521,6 +521,7 @@
       "chainId": 101,
       "symbol": "RAY-ETH",
       "name": "Raydium ETH Liquidity Pool",
+      "decimals": 6,
       "address": "Q6MKy5Yxb9vG1mWzppMtMb2nrhNuCRNUkJTeiE3fuwD",
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
       "tags": ["lp-token"],
@@ -532,6 +533,7 @@
       "chainId": 101,
       "symbol": "RAY-SOL",
       "name": "Raydium SOL Liquidity Pool",
+      "decimals": 6,
       "address": "F5PPQHGcznZ2FxD9JaxJMXaf7XkaFFJ6zzTBcW8osQjw",
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
       "tags": ["lp-token"],
@@ -543,6 +545,7 @@
       "chainId": 101,
       "symbol": "RAY-SRM",
       "name": "Raydium SRM Liquidity Pool",
+      "decimals": 6,
       "address": "DSX5E21RE9FB9hM8Nh8xcXQfPK6SzRaJiywemHBSsfup",
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
       "tags": ["lp-token"],
@@ -554,6 +557,7 @@
       "chainId": 101,
       "symbol": "RAY-USDT",
       "name": "Raydium USDT Liquidity Pool",
+      "decimals": 6,
       "address": "FdhKXYjCou2jQfgKWcNY7jb8F2DPLU1teTTTRfLBD2v1",
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
       "tags": ["lp-token"],
@@ -565,6 +569,7 @@
       "chainId": 101,
       "symbol": "RAY-USDC",
       "name": "Raydium USDC Liquidity Pool",
+      "decimals": 6,
       "address": "BZFGfXMrjG2sS7QT2eiCDEevPFnkYYF7kzJpWfYxPbcx",
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
       "tags": ["lp-token"],
