@@ -54,7 +54,6 @@ export const Icon = (props: { mint: string }) => {
 
 ```
 
-
 ## Adding new token
 
 Submit PR with changes to JSON file `src/tokens/solana.tokenlist.json`
