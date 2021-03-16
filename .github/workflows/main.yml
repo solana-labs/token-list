@@ -23,11 +23,13 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@solana'
       - run: yarn
       - run: git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com" && git config --global user.name "$GITHUB_ACTOR"
       - run: yarn run version --patch
       - run: git push --follow-tags origin main
+      - run: yarn run purge:cdn
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
-      - run: yarn run purge:cdn
