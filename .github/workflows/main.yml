@@ -28,6 +28,6 @@ jobs:
       - run: yarn run version --patch
       - run: git push --follow-tags origin main
       - run: yarn publish
-      - run: yarn run purge:cdn
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+      - run: yarn run purge:cdn
