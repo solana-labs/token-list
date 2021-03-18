@@ -1,6 +1,6 @@
 {
   "name": "Solana Token List",
-  "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/solana/info/logo.png",
+  "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
   "keywords": ["solana", "spl"],
   "tags": {
     "stablecoin": {
@@ -48,7 +48,7 @@
       "symbol": "SOL",
       "name": "Wrapped SOL",
       "decimals": 9,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/solana/info/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
       "tags": []
     },
     {
@@ -57,7 +57,7 @@
       "symbol": "USDC",
       "name": "USD Coin",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
       "tags": ["stablecoin"],
       "extensions": {
         "website": "https://www.centre.io/"
@@ -69,7 +69,7 @@
       "symbol": "BTC",
       "name": "Wrapped Bitcoin (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/bitcoin/info/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/bitcoin/info/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -81,7 +81,7 @@
       "symbol": "ETH",
       "name": "Wrapped Ethereum (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -93,7 +93,7 @@
       "symbol": "YFI",
       "name": "Wrapped YFI (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -105,7 +105,7 @@
       "symbol": "LINK",
       "name": "Wrapped Chainlink (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -117,7 +117,7 @@
       "symbol": "XRP",
       "name": "Wrapped XRP (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ripple/info/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ripple/info/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -141,7 +141,7 @@
       "symbol": "SUSHI",
       "name": "Wrapped SUSHI (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "website": "https://www.sushi.com",
@@ -154,7 +154,7 @@
       "symbol": "ALEPH",
       "name": "Wrapped ALEPH (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/nuls/assets/NULSd6HgyZkiqLnBzTaeSQfx1TNg2cqbzq51h/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/nuls/assets/NULSd6HgyZkiqLnBzTaeSQfx1TNg2cqbzq51h/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -191,7 +191,7 @@
       "symbol": "CREAM",
       "name": "Wrapped Cream Finance (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/smartchain/assets/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/smartchain/assets/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -228,7 +228,7 @@
       "symbol": "FRONT",
       "name": "Wrapped FRONT (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xf8C3527CC04340b208C854E985240c02F7B7793f/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xf8C3527CC04340b208C854E985240c02F7B7793f/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -240,7 +240,7 @@
       "symbol": "AKRO",
       "name": "Wrapped AKRO (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xb2734a4Cec32C81FDE26B0024Ad3ceB8C9b34037/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xb2734a4Cec32C81FDE26B0024Ad3ceB8C9b34037/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -264,7 +264,7 @@
       "symbol": "UNI",
       "name": "Wrapped UNI (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -276,7 +276,7 @@
       "symbol": "SRM",
       "name": "Serum",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
       "tags": [],
       "extensions": {
         "website": "https://projectserum.com/"
@@ -288,7 +288,7 @@
       "symbol": "FTT",
       "name": "Wrapped FTT (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -300,7 +300,7 @@
       "symbol": "MSRM",
       "name": "MegaSerum",
       "decimals": 0,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
       "tags": [],
       "extensions": {
         "website": "https://projectserum.com/"
@@ -312,7 +312,7 @@
       "symbol": "WUSDC",
       "name": "Wrapped USDC (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
       "tags": ["stablecoin", "wrapped-sollet", "ethereum"]
     },
     {
@@ -321,7 +321,7 @@
       "symbol": "TOMO",
       "name": "Wrapped TOMO (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/tomochain/info/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/tomochain/info/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -333,7 +333,7 @@
       "symbol": "KARMA",
       "name": "Wrapped KARMA (Sollet)",
       "decimals": 4,
-      "logoURI": "https://cdn.jsdelivr.net/gh/machi-x/assets/blockchains/ethereum/assets/0xdfe691f37b6264a90ff507eb359c45d55037951c/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/machi-x/assets@master/blockchains/ethereum/assets/0xdfe691f37b6264a90ff507eb359c45d55037951c/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -345,7 +345,7 @@
       "symbol": "LUA",
       "name": "Wrapped LUA (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -392,7 +392,7 @@
       "symbol": "CEL",
       "name": "Wrapped Celsius (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -404,7 +404,7 @@
       "symbol": "RSR",
       "name": "Wrapped Reserve Rights (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -416,7 +416,7 @@
       "symbol": "1INCH",
       "name": "Wrapped 1INCH (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -428,7 +428,7 @@
       "symbol": "GRT",
       "name": "Wrapped GRT  (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -440,7 +440,7 @@
       "symbol": "COMP",
       "name": "Wrapped Compound (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -452,7 +452,7 @@
       "symbol": "PAXG",
       "name": "Wrapped Paxos Gold (Sollet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
       "tags": ["wrapped-sollet", "ethereum"],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -476,7 +476,7 @@
       "symbol": "KIN",
       "name": "KIN",
       "decimals": 5,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/kin/info/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/kin/info/logo.png",
       "tags": []
     },
     {
@@ -1221,7 +1221,7 @@
       "name": "Wrapped Aave",
       "symbol": "AAVE",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
       "tags": []
     },
     {
@@ -1320,7 +1320,7 @@
          "symbol":"wWETH",
          "name":"Wrapped Ether (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1337,7 +1337,7 @@
          "symbol":"wTUSD",
          "name":"TrueUSD (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0000000000085d4780B73119b644AE5ecd22b376/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0000000000085d4780B73119b644AE5ecd22b376/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1354,7 +1354,7 @@
          "symbol":"wLON",
          "name":"Tokenlon (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0000000000095413afC295d19EDeb1Ad7B71c952/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0000000000095413afC295d19EDeb1Ad7B71c952/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1371,7 +1371,7 @@
          "symbol":"wALBT",
          "name":"AllianceBlock Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1388,7 +1388,7 @@
          "symbol":"wSKL",
          "name":"SKALE (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1405,7 +1405,7 @@
          "symbol":"wUFT",
          "name":"UniLend Finance Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1422,7 +1422,7 @@
          "symbol":"wORN",
          "name":"Orion Protocol (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1439,7 +1439,7 @@
          "symbol":"wSRK",
          "name":"SparkPoint (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0488401c3F535193Fa8Df029d9fFe615A06E74E6/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0488401c3F535193Fa8Df029d9fFe615A06E74E6/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1456,7 +1456,7 @@
          "symbol":"wUMA",
          "name":"UMA Voting Token v1 (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1473,7 +1473,7 @@
          "symbol":"wSkey",
          "name":"SmartKey (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x06A01a4d579479Dd5D884EBf61A31727A3d8D442/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x06A01a4d579479Dd5D884EBf61A31727A3d8D442/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1490,7 +1490,7 @@
          "symbol":"wMIR",
          "name":"Wrapped MIR Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x09a3EcAFa817268f77BE1283176B946C4ff2E608/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x09a3EcAFa817268f77BE1283176B946C4ff2E608/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1507,7 +1507,7 @@
          "symbol":"wGRO",
          "name":"Growth (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1524,7 +1524,7 @@
          "symbol":"wSTAKE",
          "name":"xDai (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0Ae055097C6d159879521C384F1D2123D1f195e6/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0Ae055097C6d159879521C384F1D2123D1f195e6/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1541,7 +1541,7 @@
          "symbol":"wYFI",
          "name":"yearn.finance (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1558,7 +1558,7 @@
          "symbol":"wBAT",
          "name":"Basic Attention Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1575,7 +1575,7 @@
          "symbol":"wMANA",
          "name":"Decentraland MANA (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1592,7 +1592,7 @@
          "symbol":"wXIO",
          "name":"XIO Network (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1609,7 +1609,7 @@
          "symbol":"wLAYER",
          "name":"Unilayer (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x0fF6ffcFDa92c53F615a4A75D982f399C989366b/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0fF6ffcFDa92c53F615a4A75D982f399C989366b/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1626,7 +1626,7 @@
          "symbol":"wUMX",
          "name":"https://unimex.network/ (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x10Be9a8dAe441d276a5027936c3aADEd2d82bC15/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x10Be9a8dAe441d276a5027936c3aADEd2d82bC15/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1643,7 +1643,7 @@
          "symbol":"w1INCH",
          "name":"1INCH Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1660,7 +1660,7 @@
          "symbol":"wARMOR",
          "name":"Armor (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1677,7 +1677,7 @@
          "symbol":"warNXM",
          "name":"Armor NXM (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x1337DEF18C680aF1f9f45cBcab6309562975b1dD/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1337DEF18C680aF1f9f45cBcab6309562975b1dD/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1694,7 +1694,7 @@
          "symbol":"wDPI",
          "name":"DefiPulse Index (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1711,7 +1711,7 @@
          "symbol":"wDHC",
          "name":"DeltaHub Community (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x152687Bc4A7FCC89049cF119F9ac3e5aCF2eE7ef/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x152687Bc4A7FCC89049cF119F9ac3e5aCF2eE7ef/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1728,7 +1728,7 @@
          "symbol":"wKEX",
          "name":"KIRA Network (Wormhole)",
          "decimals":6,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x16980b3B4a3f9D89E33311B5aa8f80303E5ca4F8/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x16980b3B4a3f9D89E33311B5aa8f80303E5ca4F8/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1745,7 +1745,7 @@
          "symbol":"wEWTB",
          "name":"Energy Web Token Bridged (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1762,7 +1762,7 @@
          "symbol":"wCC10",
          "name":"Cryptocurrency Top 10 Tokens Index (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x17aC188e09A7890a1844E5E65471fE8b0CcFadF3/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x17aC188e09A7890a1844E5E65471fE8b0CcFadF3/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1779,7 +1779,7 @@
          "symbol":"wAUDIO",
          "name":"Audius (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1796,7 +1796,7 @@
          "symbol":"wREP",
          "name":"Reputation (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x1985365e9f78359a9B6AD760e32412f4a445E862/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1985365e9f78359a9B6AD760e32412f4a445E862/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1813,7 +1813,7 @@
          "symbol":"wVSP",
          "name":"VesperToken (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1830,7 +1830,7 @@
          "symbol":"wKP3R",
          "name":"Keep3rV1 (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1847,7 +1847,7 @@
          "symbol":"wLEAD",
          "name":"Lead Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x1dD80016e3d4ae146Ee2EBB484e8edD92dacC4ce/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1dD80016e3d4ae146Ee2EBB484e8edD92dacC4ce/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1864,7 +1864,7 @@
          "symbol":"wUNI",
          "name":"Uniswap (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1881,7 +1881,7 @@
          "symbol":"wWBTC",
          "name":"Wrapped BTC (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1898,7 +1898,7 @@
          "symbol":"wUNN",
          "name":"UNION Protocol Governance Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x226f7b842E0F0120b7E194D05432b3fd14773a9D/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x226f7b842E0F0120b7E194D05432b3fd14773a9D/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1915,7 +1915,7 @@
          "symbol":"wSOCKS",
          "name":"Unisocks Edition 0 (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x23B608675a2B2fB1890d3ABBd85c5775c51691d5/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x23B608675a2B2fB1890d3ABBd85c5775c51691d5/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1932,7 +1932,7 @@
          "symbol":"wDEXT",
          "name":"DEXTools (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x26CE25148832C04f3d7F26F32478a9fe55197166/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x26CE25148832C04f3d7F26F32478a9fe55197166/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1949,7 +1949,7 @@
          "symbol":"wHEX",
          "name":"HEX (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1966,7 +1966,7 @@
          "symbol":"wCREAM",
          "name":"Cream (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x2ba592F78dB6436527729929AAf6c908497cB200/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2ba592F78dB6436527729929AAf6c908497cB200/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -1983,7 +1983,7 @@
          "symbol":"wYFIM",
          "name":"yfi.mobi (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x2e2f3246b6c65CCc4239c9Ee556EC143a7E5DE2c/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2e2f3246b6c65CCc4239c9Ee556EC143a7E5DE2c/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2000,7 +2000,7 @@
          "symbol":"wZEE",
          "name":"ZeroSwapToken (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2017,7 +2017,7 @@
          "symbol":"wwANATHA",
          "name":"Wrapped ANATHA (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2034,7 +2034,7 @@
          "symbol":"wRAMP",
          "name":"RAMP DEFI (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2051,7 +2051,7 @@
          "symbol":"wPRQ",
          "name":"Parsiq Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x362bc847A3a9637d3af6624EeC853618a43ed7D2/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x362bc847A3a9637d3af6624EeC853618a43ed7D2/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2068,7 +2068,7 @@
          "symbol":"wSLP",
          "name":"Small Love Potion (Wormhole)",
          "decimals":0,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x37236CD05b34Cc79d3715AF2383E96dd7443dCF1/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x37236CD05b34Cc79d3715AF2383E96dd7443dCF1/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2085,7 +2085,7 @@
          "symbol":"wSAND",
          "name":"SAND (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x3845badAde8e6dFF049820680d1F14bD3903a5d0/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x3845badAde8e6dFF049820680d1F14bD3903a5d0/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2102,7 +2102,7 @@
          "symbol":"wCVP",
          "name":"Concentrated Voting Power (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2119,7 +2119,7 @@
          "symbol":"wREN",
          "name":"Republic Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2136,7 +2136,7 @@
          "symbol":"wXOR",
          "name":"Sora (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x40FD72257597aA14C7231A7B1aaa29Fce868F677/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x40FD72257597aA14C7231A7B1aaa29Fce868F677/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2153,7 +2153,7 @@
          "symbol":"wFUN",
          "name":"FunFair (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2170,7 +2170,7 @@
          "symbol":"wPICKLE",
          "name":"PickleToken (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2187,7 +2187,7 @@
          "symbol":"wPAXG",
          "name":"Paxos Gold (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2204,7 +2204,7 @@
          "symbol":"wQNT",
          "name":"Quant (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x4a220E6096B25EADb88358cb44068A3248254675/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4a220E6096B25EADb88358cb44068A3248254675/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2221,7 +2221,7 @@
          "symbol":"wORAI",
          "name":"Oraichain Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x4c11249814f11b9346808179Cf06e71ac328c1b5/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4c11249814f11b9346808179Cf06e71ac328c1b5/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2238,7 +2238,7 @@
          "symbol":"wTRU",
          "name":"TrustToken (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2255,7 +2255,7 @@
          "symbol":"wMCB",
          "name":"MCDEX Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2272,7 +2272,7 @@
          "symbol":"wNU",
          "name":"NuCypher (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x4fE83213D56308330EC302a8BD641f1d0113A4Cc/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4fE83213D56308330EC302a8BD641f1d0113A4Cc/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2289,7 +2289,7 @@
          "symbol":"wRAZOR",
          "name":"RAZOR (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2306,7 +2306,7 @@
          "symbol":"wLINK",
          "name":"ChainLink Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2323,7 +2323,7 @@
          "symbol":"weRSDL",
          "name":"UnFederalReserveToken (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2340,7 +2340,7 @@
          "symbol":"wsUSD",
          "name":"Synth sUSD (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2357,7 +2357,7 @@
          "symbol":"wHEGIC",
          "name":"Hegic (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x584bC13c7D411c00c01A62e8019472dE68768430/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x584bC13c7D411c00c01A62e8019472dE68768430/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2374,7 +2374,7 @@
          "symbol":"wXFI",
          "name":"Xfinance (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x5BEfBB272290dD5b8521D4a938f6c4757742c430/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x5BEfBB272290dD5b8521D4a938f6c4757742c430/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2391,7 +2391,7 @@
          "symbol":"wDEXTF",
          "name":"DEXTF Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2408,7 +2408,7 @@
          "symbol":"wRLC",
          "name":"iExec RLC (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x607F4C5BB672230e8672085532f7e901544a7375/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x607F4C5BB672230e8672085532f7e901544a7375/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2425,7 +2425,7 @@
          "symbol":"wCORE",
          "name":"cVault.finance (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2442,7 +2442,7 @@
          "symbol":"wCFi",
          "name":"CyberFi Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x63b4f3e3fa4e438698CE330e365E831F7cCD1eF4/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x63b4f3e3fa4e438698CE330e365E831F7cCD1eF4/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2459,7 +2459,7 @@
          "symbol":"wWISE",
          "name":"Wise Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2476,7 +2476,7 @@
          "symbol":"wGNO",
          "name":"Gnosis Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2493,7 +2493,7 @@
          "symbol":"wPOOLZ",
          "name":"$Poolz Finance (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2510,7 +2510,7 @@
          "symbol":"wDAI",
          "name":"Dai Stablecoin (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2527,7 +2527,7 @@
          "symbol":"wSUSHI",
          "name":"SushiSwap (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2544,7 +2544,7 @@
          "symbol":"wFYZ",
          "name":"Fyooz (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x6BFf2fE249601ed0Db3a87424a2E923118BB0312/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6BFf2fE249601ed0Db3a87424a2E923118BB0312/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2561,7 +2561,7 @@
          "symbol":"wQRX",
          "name":"QuiverX (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x6e0daDE58D2d89eBBe7aFc384e3E4f15b70b14D8/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6e0daDE58D2d89eBBe7aFc384e3E4f15b70b14D8/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2578,7 +2578,7 @@
          "symbol":"wTRADE",
          "name":"UniTrade (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x6F87D756DAf0503d08Eb8993686c7Fc01Dc44fB1/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6F87D756DAf0503d08Eb8993686c7Fc01Dc44fB1/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2595,7 +2595,7 @@
          "symbol":"wBIRD",
          "name":"Bird.Money (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2612,7 +2612,7 @@
          "symbol":"wAXN",
          "name":"Axion (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x71F85B2E46976bD21302B64329868fd15eb0D127/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x71F85B2E46976bD21302B64329868fd15eb0D127/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2629,7 +2629,7 @@
          "symbol":"wBMI",
          "name":"Bridge Mutual (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x725C263e32c72dDC3A19bEa12C5a0479a81eE688/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x725C263e32c72dDC3A19bEa12C5a0479a81eE688/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2646,7 +2646,7 @@
          "symbol":"wDYT",
          "name":"DoYourTip (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x740623d2c797b7D8D1EcB98e9b4Afcf99Ec31E14/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x740623d2c797b7D8D1EcB98e9b4Afcf99Ec31E14/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2663,7 +2663,7 @@
          "symbol":"wBBR",
          "name":"BitberryToken (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x7671904eed7f10808B664fc30BB8693FD7237abF/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7671904eed7f10808B664fc30BB8693FD7237abF/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2680,7 +2680,7 @@
          "symbol":"wWAXE",
          "name":"WAX Economic Token (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x7a2Bc711E19ba6aff6cE8246C546E8c4B4944DFD/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7a2Bc711E19ba6aff6cE8246C546E8c4B4944DFD/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2697,7 +2697,7 @@
          "symbol":"wMATIC",
          "name":"Matic Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2714,7 +2714,7 @@
          "symbol":"wXRT",
          "name":"Robonomics (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2731,7 +2731,7 @@
          "symbol":"wAAVE",
          "name":"Aave Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2748,7 +2748,7 @@
          "symbol":"wLEND",
          "name":"Lend (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2765,7 +2765,7 @@
          "symbol":"wPOLS",
          "name":"PolkastarterToken (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2782,7 +2782,7 @@
          "symbol":"wUBT",
          "name":"Unibright (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2799,7 +2799,7 @@
          "symbol":"wDIA",
          "name":"DIA (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2816,7 +2816,7 @@
          "symbol":"wFRAX",
          "name":"Frax (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x853d955aCEf822Db058eb8505911ED77F175b99e/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x853d955aCEf822Db058eb8505911ED77F175b99e/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2833,7 +2833,7 @@
          "symbol":"wKEEP",
          "name":"KEEP Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2850,7 +2850,7 @@
          "symbol":"wRSR",
          "name":"Reserve Rights (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2867,7 +2867,7 @@
          "symbol":"wMPH",
          "name":"88mph.app (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x8888801aF4d980682e47f1A9036e589479e835C5/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8888801aF4d980682e47f1A9036e589479e835C5/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2884,7 +2884,7 @@
          "symbol":"wPAID",
          "name":"PAID Network (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x8c8687fC965593DFb2F0b4EAeFD55E9D8df348df/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8c8687fC965593DFb2F0b4EAeFD55E9D8df348df/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2901,7 +2901,7 @@
          "symbol":"wSXP",
          "name":"Swipe (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2918,7 +2918,7 @@
          "symbol":"wREQ",
          "name":"Request Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x8f8221aFbB33998d8584A2B05749bA73c37a938a/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8f8221aFbB33998d8584A2B05749bA73c37a938a/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2935,7 +2935,7 @@
          "symbol":"wWHALE",
          "name":"WHALE (Wormhole)",
          "decimals":4,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x9355372396e3F6daF13359B7b607a3374cc638e0/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9355372396e3F6daF13359B7b607a3374cc638e0/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2952,7 +2952,7 @@
          "symbol":"wPNK",
          "name":"Pinakion (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2969,7 +2969,7 @@
          "symbol":"wAPY",
          "name":"APY Governance Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x95a4492F028aa1fd432Ea71146b433E7B4446611/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x95a4492F028aa1fd432Ea71146b433E7B4446611/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -2986,7 +2986,7 @@
          "symbol":"wOCEAN",
          "name":"Ocean Protocol (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3003,7 +3003,7 @@
          "symbol":"wSPI",
          "name":"Shopping.io (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x9B02dD390a603Add5c07f9fd9175b7DABE8D63B7/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9B02dD390a603Add5c07f9fd9175b7DABE8D63B7/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3020,7 +3020,7 @@
          "symbol":"wBBTC",
          "name":"Binance Wrapped BTC (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3037,7 +3037,7 @@
          "symbol":"wUNISTAKE",
          "name":"Unistake (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x9Ed8e7C9604790F7Ec589F99b94361d8AAB64E5E/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9Ed8e7C9604790F7Ec589F99b94361d8AAB64E5E/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3054,7 +3054,7 @@
          "symbol":"wMKR",
          "name":"MakerDAO (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3071,7 +3071,7 @@
          "symbol":"wFARM",
          "name":"FARM Reward Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xa0246c9032bC3A600820415aE600c6388619A14D/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa0246c9032bC3A600820415aE600c6388619A14D/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3088,7 +3088,7 @@
          "symbol":"wUSDC",
          "name":"USD Coin (Wormhole)",
          "decimals":6,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3105,7 +3105,7 @@
          "symbol":"wANT",
          "name":"Aragon Network Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xa117000000f279D81A1D3cc75430fAA017FA5A2e/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa117000000f279D81A1D3cc75430fAA017FA5A2e/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3122,7 +3122,7 @@
          "symbol":"wNPXS",
          "name":"Pundi X Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3139,7 +3139,7 @@
          "symbol":"wRFOX",
          "name":"RFOX (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xa1d6Df714F91DeBF4e0802A542E13067f31b8262/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa1d6Df714F91DeBF4e0802A542E13067f31b8262/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3156,7 +3156,7 @@
          "symbol":"wMTA",
          "name":"Meta (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3173,7 +3173,7 @@
          "symbol":"wRBC",
          "name":"Rubic (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA4EED63db85311E22dF4473f87CcfC3DaDCFA3E3/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA4EED63db85311E22dF4473f87CcfC3DaDCFA3E3/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3190,7 +3190,7 @@
          "symbol":"wNOIA",
          "name":"NOIA Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3207,7 +3207,7 @@
          "symbol":"wCEL",
          "name":"Celsius (Wormhole)",
          "decimals":4,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3224,7 +3224,7 @@
          "symbol":"wCWS",
          "name":"Crowns (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xaC0104Cca91D167873B8601d2e71EB3D4D8c33e0/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaC0104Cca91D167873B8601d2e71EB3D4D8c33e0/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3241,7 +3241,7 @@
          "symbol":"wROOM",
          "name":"OptionRoom Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xAd4f86a25bbc20FfB751f2FAC312A0B4d8F88c64/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xAd4f86a25bbc20FfB751f2FAC312A0B4d8F88c64/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3258,7 +3258,7 @@
          "symbol":"wYOP",
          "name":"YOP (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xAE1eaAE3F627AAca434127644371b67B18444051/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xAE1eaAE3F627AAca434127644371b67B18444051/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3275,7 +3275,7 @@
          "symbol":"wLGCY",
          "name":"LGCY Network (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3292,7 +3292,7 @@
          "symbol":"wRFuel",
          "name":"Rio Fuel Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xaf9f549774ecEDbD0966C52f250aCc548D3F36E5/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaf9f549774ecEDbD0966C52f250aCc548D3F36E5/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3309,7 +3309,7 @@
          "symbol":"wMAHA",
          "name":"MahaDAO (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xB4d930279552397bbA2ee473229f89Ec245bc365/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB4d930279552397bbA2ee473229f89Ec245bc365/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3326,7 +3326,7 @@
          "symbol":"wRPL",
          "name":"Rocket Pool (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xB4EFd85c19999D84251304bDA99E90B92300Bd93/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB4EFd85c19999D84251304bDA99E90B92300Bd93/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3343,7 +3343,7 @@
          "symbol":"wNEXO",
          "name":"Nexo (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3360,7 +3360,7 @@
          "symbol":"wSFI",
          "name":"Spice (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xb753428af26E81097e7fD17f40c88aaA3E04902c/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xb753428af26E81097e7fD17f40c88aaA3E04902c/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3377,7 +3377,7 @@
          "symbol":"wSTBZ",
          "name":"Stabilize Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xB987D48Ed8f2C468D52D6405624EADBa5e76d723/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB987D48Ed8f2C468D52D6405624EADBa5e76d723/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3394,7 +3394,7 @@
          "symbol":"wBAL",
          "name":"Balancer (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3411,7 +3411,7 @@
          "symbol":"wBAND",
          "name":"BandToken (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3428,7 +3428,7 @@
          "symbol":"wSWFL",
          "name":"Swapfolio (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3445,7 +3445,7 @@
          "symbol":"wLRC",
          "name":"LoopringCoin V2 (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3462,7 +3462,7 @@
          "symbol":"wPERP",
          "name":"Perpetual (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xbC396689893D065F41bc2C6EcbeE5e0085233447/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xbC396689893D065F41bc2C6EcbeE5e0085233447/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3479,7 +3479,7 @@
          "symbol":"wCOMP",
          "name":"Compound (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3496,7 +3496,7 @@
          "symbol":"wSNX",
          "name":"Synthetix Network Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets//logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets//logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3513,7 +3513,7 @@
          "symbol":"wDUCK",
          "name":"DLP Duck Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xC0bA369c8Db6eB3924965e5c4FD0b4C1B91e305F/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xC0bA369c8Db6eB3924965e5c4FD0b4C1B91e305F/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3530,7 +3530,7 @@
          "symbol":"wCHAIN",
          "name":"Chain Games (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xC4C2614E694cF534D407Ee49F8E44D125E4681c4/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xC4C2614E694cF534D407Ee49F8E44D125E4681c4/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3547,7 +3547,7 @@
          "symbol":"wGRT",
          "name":"Graph Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3564,7 +3564,7 @@
          "symbol":"wROOT",
          "name":"RootKit (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3581,7 +3581,7 @@
          "symbol":"wSWAP",
          "name":"TrustSwap Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xCC4304A31d09258b0029eA7FE63d032f52e44EFe/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xCC4304A31d09258b0029eA7FE63d032f52e44EFe/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3598,7 +3598,7 @@
          "symbol":"wTVK",
          "name":"Terra Virtua Kolect (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3615,7 +3615,7 @@
          "symbol":"wOMG",
          "name":"OMG Network (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets//logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets//logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3632,7 +3632,7 @@
          "symbol":"wLUNA",
          "name":"Wrapped LUNA Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3649,7 +3649,7 @@
          "symbol":"wBONDLY",
          "name":"Bondly Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3666,7 +3666,7 @@
          "symbol":"wDETS",
          "name":"Dextrust (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xd379700999F4805Ce80aa32DB46A94dF64561108/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xd379700999F4805Ce80aa32DB46A94dF64561108/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3683,7 +3683,7 @@
          "symbol":"wAMPL",
          "name":"Ampleforth (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets//logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets//logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3700,7 +3700,7 @@
          "symbol":"wPOLK",
          "name":"Polkamarkets (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xD478161C952357F05f0292B56012Cd8457F1cfbF/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD478161C952357F05f0292B56012Cd8457F1cfbF/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3717,7 +3717,7 @@
          "symbol":"wCRV",
          "name":"Curve DAO Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3734,7 +3734,7 @@
          "symbol":"wMEME",
          "name":"MEME (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xD5525D397898e5502075Ea5E830d8914f6F0affe/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD5525D397898e5502075Ea5E830d8914f6F0affe/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3751,7 +3751,7 @@
          "symbol":"wEXNT",
          "name":"ExNetwork Community Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xD6c67B93a7b248dF608a653d82a100556144c5DA/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD6c67B93a7b248dF608a653d82a100556144c5DA/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3768,7 +3768,7 @@
          "symbol":"wUSDT",
          "name":"Tether USD (Wormhole)",
          "decimals":6,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3785,7 +3785,7 @@
          "symbol":"wYLD",
          "name":"Yield (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xDcB01cc464238396E213a6fDd933E36796eAfF9f/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xDcB01cc464238396E213a6fDd933E36796eAfF9f/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3802,7 +3802,7 @@
          "symbol":"wKNC",
          "name":"Kyber Network Crystal (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3819,7 +3819,7 @@
          "symbol":"wCOTI",
          "name":"COTI Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xDDB3422497E61e13543BeA06989C0789117555c5/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xDDB3422497E61e13543BeA06989C0789117555c5/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3836,7 +3836,7 @@
          "symbol":"wINJ",
          "name":"Injective Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3853,7 +3853,7 @@
          "symbol":"wZRX",
          "name":"0x Protocol Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3870,7 +3870,7 @@
          "symbol":"wSUPER",
          "name":"SuperFarm (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3887,7 +3887,7 @@
          "symbol":"waEth",
          "name":"aEthereum (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xE95A203B1a91a908F9B9CE46459d101078c2c3cb/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xE95A203B1a91a908F9B9CE46459d101078c2c3cb/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3904,7 +3904,7 @@
          "symbol":"wSURF",
          "name":"SURF.Finance (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3921,7 +3921,7 @@
          "symbol":"wrenBTC",
          "name":"renBTC (Wormhole)",
          "decimals":8,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3938,7 +3938,7 @@
          "symbol":"wDMG",
          "name":"DMM: Governance (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xEd91879919B71bB6905f23af0A68d231EcF87b14/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEd91879919B71bB6905f23af0A68d231EcF87b14/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3955,7 +3955,7 @@
          "symbol":"wHEZ",
          "name":"Hermez Network Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xEEF9f339514298C6A857EfCfC1A762aF84438dEE/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEEF9f339514298C6A857EfCfC1A762aF84438dEE/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3972,7 +3972,7 @@
          "symbol":"wRLY",
          "name":"Rally (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -3989,7 +3989,7 @@
          "symbol":"wYf-DAI",
          "name":"YfDAI.finance (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4006,7 +4006,7 @@
          "symbol":"wFCL",
          "name":"Fractal Protocol Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xF4d861575ecC9493420A3f5a14F85B13f0b50EB3/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xF4d861575ecC9493420A3f5a14F85B13f0b50EB3/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4023,7 +4023,7 @@
          "symbol":"wAXS",
          "name":"Axie Infinity (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xF5D669627376EBd411E34b98F19C868c8ABA5ADA/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xF5D669627376EBd411E34b98F19C868c8ABA5ADA/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4040,7 +4040,7 @@
          "symbol":"wENJ",
          "name":"Enjin Coin (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4057,7 +4057,7 @@
          "symbol":"wYLD",
          "name":"Yield (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xF94b5C5651c888d928439aB6514B93944eEE6F48/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xF94b5C5651c888d928439aB6514B93944eEE6F48/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4074,7 +4074,7 @@
          "symbol":"wDDIM",
          "name":"DuckDaoDime (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xFbEEa1C75E4c4465CB2FCCc9c6d6afe984558E20/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xFbEEa1C75E4c4465CB2FCCc9c6d6afe984558E20/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4091,7 +4091,7 @@
          "symbol":"wRARI",
          "name":"Rarible (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4108,7 +4108,7 @@
          "symbol":"wAMP",
          "name":"Amp (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xfF20817765cB7f73d4bde2e66e067E58D11095C2/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xfF20817765cB7f73d4bde2e66e067E58D11095C2/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4125,7 +4125,7 @@
          "symbol":"wFSW",
          "name":"FalconSwap Token (Wormhole)",
          "decimals":9,
-         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB/logo.png",
+         "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4142,7 +4142,7 @@
          "symbol":"wBUSD",
          "name":"Binance USD (Wormhole)",
          "decimals":9,
-         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x4Fabb145d64652a948d72533023f6E7A623C7C53/logo.png",
+         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4Fabb145d64652a948d72533023f6E7A623C7C53/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4652,7 +4652,7 @@
          "symbol":"waUniETH",
          "name":"Aave Interest bearing UniETH (Wormhole)",
          "decimals":9,
-         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x6179078872605396Ee62960917128F9477a5DdbB/logo.png",
+         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6179078872605396Ee62960917128F9477a5DdbB/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4669,7 +4669,7 @@
          "symbol":"waUniDAI",
          "name":"Aave Interest bearing UniDAI (Wormhole)",
          "decimals":9,
-         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x048930eec73c91B44b0844aEACdEBADC2F2b6efb/logo.png",
+         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x048930eec73c91B44b0844aEACdEBADC2F2b6efb/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4686,7 +4686,7 @@
          "symbol":"waUniUSDC",
          "name":"Aave Interest bearing UniUSDC (Wormhole)",
          "decimals":6,
-         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xe02b2Ad63eFF3Ac1D5827cBd7AB9DD3DaC4f4AD0/logo.png",
+         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xe02b2Ad63eFF3Ac1D5827cBd7AB9DD3DaC4f4AD0/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -4703,7 +4703,7 @@
          "symbol":"waUniUSDT",
          "name":"Aave Interest bearing UniUSDT (Wormhole)",
          "decimals":6,
-         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xb977ee318010A5252774171494a1bCB98E7fab65/logo.png",
+         "logoURI":" https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xb977ee318010A5252774171494a1bCB98E7fab65/logo.png",
          "tags":[
             "wrapped",
             "wormhole"
@@ -5174,7 +5174,7 @@
       "symbol": "SOL",
       "name": "Wrapped SOL",
       "decimals": 9,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/solana/info/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
       "tags": [],
       "extensions": {
         "website": "https://www.solana.com/"
@@ -5186,7 +5186,7 @@
       "symbol": "USDC",
       "name": "USD Coin",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
       "tags": ["stablecoin"],
       "extensions": {
         "website": "https://www.centre.io/"
@@ -5198,7 +5198,7 @@
       "symbol": "ABC",
       "name": "ABC Test",
       "decimals": 2,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
       "tags": []
     },
     {
@@ -5207,7 +5207,7 @@
       "symbol": "SOL",
       "name": "Solana",
       "decimals": 9,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/solana/info/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
       "tags": []
     },
     {
@@ -5216,7 +5216,7 @@
       "symbol": "XYZ",
       "name": "XYZ Test",
       "decimals": 0,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
       "tags": []
     }
   ],
