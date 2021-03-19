@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.39 (2021-03-19)
+
+
+### Features
+
+* rename wrapped USDT to wUSDT ([b5f4956](https://github.com/solana-labs/token-list/commit/b5f4956e5b7b35eef7129414924d9ce33abaf0e7))
+
 ### 0.2.38 (2021-03-18)
 
 ### 0.2.37 (2021-03-18)
