@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.40 (2021-03-21)
+
+
+### Features
+
+* add devnet tokens ([df7e9e0](https://github.com/solana-labs/token-list/commit/df7e9e074621433aca9fc6011fb48b7610476741))
+
 ### 0.2.39 (2021-03-19)
 
 
