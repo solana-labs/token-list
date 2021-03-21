@@ -49,7 +49,10 @@
       "name": "Wrapped SOL",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "website": "https://solana.com/"
+      }
     },
     {
       "chainId": 101,
@@ -5219,7 +5222,51 @@
       "decimals": 0,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
       "tags": []
-    }
+    },
+    {
+      "chainId": 103,
+      "address": "2rg5syU3DSwwWs778FQ6yczDKhS14NM3vP4hqnkJ2jsM",
+      "symbol": "pSOL",
+      "name": "SOL stake pool",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solana.com/",
+        "background": "https://solana.com/static/8c151e179d2d7e80255bdae6563209f2/6833b/validators.webp"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+      "symbol": "SRM",
+      "name": "Serum",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://projectserum.com/"
+      }
+    },
+    {
+      "chainId":103,
+      "address":"HbMGwfGjGPchtaPwyrtJFy8APZN5w1hi63xnzmj1f23v",
+      "symbol":"wSUSHI",
+      "name":"SushiSwap (Wormhole)",
+      "decimals":9,
+      "logoURI":"https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
+      "tags":[
+         "wrapped",
+         "wormhole"
+      ],
+      "extensions":{
+         "website": "https://sushi.com",
+         "background": "https://sushi.com/static/media/Background-sm.fd449814.jpg/",
+         "address":"0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+         "bridgeContract":"https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+         "assetContract":"https://etherscan.io/address/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+      }
+   }
   ],
   "version": {
     "major": 0,
