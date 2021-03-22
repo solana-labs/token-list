@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.42 (2021-03-22)
+
+
+### Features
+
+* add ray lp tokens ([efe4edc](https://github.com/solana-labs/token-list/commit/efe4edc9166b1fbc8da113775c91c2d5ea4f14ea))
+
 ### 0.2.41 (2021-03-22)
 
 
