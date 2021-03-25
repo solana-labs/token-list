@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.46 (2021-03-25)
+
+
+### Features
+
+* update test mint ([2c96b90](https://github.com/solana-labs/token-list/commit/2c96b906bc5550b138dab092d5f5d535b5ec2421))
+
 ### 0.2.45 (2021-03-25)
 
 
