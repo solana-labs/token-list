@@ -5246,12 +5246,15 @@
     },
     {
       "chainId": 102,
-      "address": "D4fdoY5d2Bn1Cmjqy6J6shRHjcs7QNuBPzwEzTLrf7jm",
-      "symbol": "ABC",
-      "name": "ABC Test",
-      "decimals": 2,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-      "tags": []
+      "address": "Gmk71cM7j2RMorRsQrsyysM4HsByQx5PuDGtDdqGLWCS",
+      "symbol": "spSOL",
+      "name": "Stake pool SOL",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
+      "tags": ["stake-pool"],
+      "extensions": {
+        "website": "https://www.solan.com/"
+      }
     },
     {
       "chainId": 103,
