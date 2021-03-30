@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.48 (2021-03-30)
+
+
+### Features
+
+* add ray-cope ([7dc9754](https://github.com/solana-labs/token-list/commit/7dc97542ab0ca746eac33105929eef3ff170972e))
+
 ### 0.2.47 (2021-03-30)
 
 
