@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.49 (2021-04-01)
+
+
+### Features
+
+* caps ([92f4aa8](https://github.com/solana-labs/token-list/commit/92f4aa87211145944233e6aed2debb5a8108f636))
+
 ### 0.2.48 (2021-03-30)
 
 
