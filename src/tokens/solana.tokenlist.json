@@ -4591,6 +4591,18 @@
       }
     },
     {
+      "chainId": 101,
+      "address": "2reKm5Y9rmAWfaw5jraYz1BXwGLHMofGMs3iNoBLt4VC",
+      "symbol": "DOCE",
+      "name": "Doce Finance",
+      "decimals": 6,
+      "logoURI": "https://pbs.twimg.com/profile_images/1362154816059944963/TZuFp5kN_400x400.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://swap.doce.finance/"
+      }
+    },
+    {
       "chainId": 102,
       "address": "So11111111111111111111111111111111111111112",
       "symbol": "SOL",
@@ -4691,19 +4703,7 @@
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
         "assetContract": "https://etherscan.io/address/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
       }
-    },
-    {
-      "chainId": 101,
-      "address": "2reKm5Y9rmAWfaw5jraYz1BXwGLHMofGMs3iNoBLt4VC",
-      "symbol": "DOCE",
-      "name": "Doce Finance",
-      "decimals": 6,
-      "logoURI": "https://pbs.twimg.com/profile_images/1362154816059944963/TZuFp5kN_400x400.png",
-      "tags": [],
-      "extensions": {
-        "website": "https://swap.doce.finance/"
-      }
-    },
+    }
   ],
   "version": {
     "major": 0,
