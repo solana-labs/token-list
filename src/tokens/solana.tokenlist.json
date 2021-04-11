@@ -4572,10 +4572,34 @@
       "symbol": "COPE",
       "name": "COPE",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/cyriimm/COPE/COPE_LOGO.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
       "tags": ["trading", "index", "Algos"],
       "extensions": {
         "website": "https://www.unlimitedcope.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2prC8tcVsXwVJAinhxd2zeMeWMWaVyzPoQeLKyDZRFKd",
+      "symbol": "MCAPS",
+      "name": "Mango Market Caps",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/2prC8tcVsXwVJAinhxd2zeMeWMWaVyzPoQeLKyDZRFKd/logo.png",
+      "tags": ["mango"],
+      "extensions": {
+        "website": "https://initialcapoffering.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2reKm5Y9rmAWfaw5jraYz1BXwGLHMofGMs3iNoBLt4VC",
+      "symbol": "DOCE",
+      "name": "Doce Finance",
+      "decimals": 6,
+      "logoURI": "https://pbs.twimg.com/profile_images/1362154816059944963/TZuFp5kN_400x400.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://swap.doce.finance/"
       }
     },
     {
@@ -4613,6 +4637,14 @@
       "extensions": {
         "website": "https://www.solana.com/"
       }
+    },
+    {
+      "chainId": 102,
+      "address": "2jQc2jDHVCewoWsQJK7JPLetP7UjqXvaFdno8rtrD8Kg",
+      "symbol": "sHOG",
+      "name": "sHOG",
+      "decimals": 6,
+      "tags": ["stablecoin"]
     },
     {
       "chainId": 103,
@@ -4681,6 +4713,42 @@
       "decimals": 6,
       "logoURI": "https://i.ibb.co/7GddV42/Frame-1.png",
       "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 101,
+      "address": "3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s",
+      "symbol": "Kreechures",
+      "name": "Kreechures",
+      "decimals": 0,
+	    "logoURI": "https://gateway.pinata.cloud/ipfs/QmQ5YPBFUWeKNFbsBDL8WcXWmu1MwisXZVtwofdZQxmQE9/Kreechure%20logo.svg",
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://www.kreechures.com/",
+		    "attributes": [{
+		      "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s.jpg",
+          "Generation": 0,
+			    "Species": 6,
+          "Base Rest": 262
+        }]
+      }
+    },
+	  {
+      "chainId": 101,
+      "address": "7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH",
+      "symbol": "Kreechures",
+      "name": "Kreechures",
+      "decimals": 0,
+	    "logoURI": "https://gateway.pinata.cloud/ipfs/QmQ5YPBFUWeKNFbsBDL8WcXWmu1MwisXZVtwofdZQxmQE9/Kreechure%20logo.svg",
+      "tags": ["nft"],
+      "extensions": {
+        "website": "https://www.kreechures.com/",
+		    "attributes": [{
+		      "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH.jpg",
+          "Generation": 0,
+			    "Species": 4,
+          "Base Rest": 335
+        }]
+      }
     }
   ],
   "version": {
