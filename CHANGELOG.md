@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.56 (2021-04-14)
+
+### 0.2.55 (2021-04-12)
+
+### 0.2.54 (2021-04-12)
+
+### 0.2.53 (2021-04-11)
+
+### 0.2.52 (2021-04-08)
+
+### 0.2.51 (2021-04-03)
+
+
+### Features
+
+* update COPE logo ([1924e6f](https://github.com/solana-labs/token-list/commit/1924e6f101878a4d0b047dd01bd2a23ad57c2f68))
+
 ### 0.2.50 (2021-04-01)
 
 

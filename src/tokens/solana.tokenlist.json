@@ -1,7 +1,10 @@
 {
   "name": "Solana Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
-  "keywords": ["solana", "spl"],
+  "keywords": [
+    "solana",
+    "spl"
+  ],
   "tags": {
     "stablecoin": {
       "name": "stablecoin",
@@ -61,7 +64,9 @@
       "name": "USD Coin",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
         "website": "https://www.centre.io/"
       }
@@ -73,7 +78,10 @@
       "name": "Wrapped Bitcoin (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/bitcoin/info/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -85,7 +93,10 @@
       "name": "Wrapped Ethereum (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -97,7 +108,10 @@
       "name": "Wrapped YFI (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -109,7 +123,10 @@
       "name": "Wrapped Chainlink (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -121,7 +138,10 @@
       "name": "Wrapped XRP (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ripple/info/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -133,7 +153,11 @@
       "name": "Wrapped USDT (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/explorer/public/tokens/usdt.svg",
-      "tags": ["stablecoin", "wrapped-sollet", "ethereum"],
+      "tags": [
+        "stablecoin",
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -145,7 +169,10 @@
       "name": "Wrapped SUSHI (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "website": "https://www.sushi.com",
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -158,7 +185,10 @@
       "name": "Wrapped ALEPH (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/nuls/assets/NULSd6HgyZkiqLnBzTaeSQfx1TNg2cqbzq51h/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -170,7 +200,10 @@
       "name": "Wrapped SXP (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets/blockchains/ethereum/assets/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -182,7 +215,10 @@
       "name": "Wrapped Hedget (Sollet)",
       "decimals": 6,
       "logoURI": "https://www.hedget.com/images/favicon.svg",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "website": "https://www.hedget.com/",
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -195,7 +231,10 @@
       "name": "Wrapped Cream Finance (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/smartchain/assets/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -207,7 +246,10 @@
       "name": "Wrapped Upbots (Sollet)",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/12476/small/UBXT.png?1600132967",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "website": "https://upbots.com/",
         "explorer": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
@@ -220,7 +262,10 @@
       "name": "Wrapped Helium (Sollet)",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/4284/small/Helium_HNT.png?1612620071",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -232,7 +277,10 @@
       "name": "Wrapped FRONT (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xf8C3527CC04340b208C854E985240c02F7B7793f/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -244,7 +292,10 @@
       "name": "Wrapped AKRO (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xb2734a4Cec32C81FDE26B0024Ad3ceB8C9b34037/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -256,7 +307,10 @@
       "name": "Wrapped HXRO (Sollet)",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/7805/large/hxro-squarelogo-1585089594129.png?1586221980",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -268,7 +322,10 @@
       "name": "Wrapped UNI (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -292,7 +349,10 @@
       "name": "Wrapped FTT (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
         "assetContract": "https://etherscan.io/address/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9"
@@ -317,7 +377,11 @@
       "name": "Wrapped USDC (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-      "tags": ["stablecoin", "wrapped-sollet", "ethereum"]
+      "tags": [
+        "stablecoin",
+        "wrapped-sollet",
+        "ethereum"
+      ]
     },
     {
       "chainId": 101,
@@ -326,7 +390,10 @@
       "name": "Wrapped TOMO (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/tomochain/info/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -338,7 +405,10 @@
       "name": "Wrapped KARMA (Sollet)",
       "decimals": 4,
       "logoURI": "https://cdn.jsdelivr.net/gh/machi-x/assets@master/blockchains/ethereum/assets/0xdfe691f37b6264a90ff507eb359c45d55037951c/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -350,7 +420,10 @@
       "name": "Wrapped LUA (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -361,7 +434,10 @@
       "symbol": "MATH",
       "name": "Wrapped MATH (Sollet)",
       "decimals": 6,
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -373,7 +449,10 @@
       "name": "Wrapped KEEP (Sollet)",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/3373/large/IuNzUb5b_400x400.jpg?1589526336",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -385,7 +464,10 @@
       "name": "Wrapped SWAG (Sollet)",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/12805/large/photo_2020-10-14_23.17.02.jpeg?1602688642",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -397,7 +479,10 @@
       "name": "Wrapped Celsius (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -409,7 +494,10 @@
       "name": "Wrapped Reserve Rights (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -421,7 +509,10 @@
       "name": "Wrapped 1INCH (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -433,7 +524,10 @@
       "name": "Wrapped GRT  (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -445,7 +539,10 @@
       "name": "Wrapped Compound (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -457,7 +554,10 @@
       "name": "Wrapped Paxos Gold (Sollet)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
-      "tags": ["wrapped-sollet", "ethereum"],
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
       }
@@ -526,7 +626,9 @@
       "name": "USDT",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/explorer/public/tokens/usdt.svg",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
         "website": "https://tether.to/"
       }
@@ -538,7 +640,10 @@
       "name": "Standard",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/2oDxYGgTBmST4rc3yn1YtcSEck7ReDZ8wHWLqZAuNWXH/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "website": "https://benchmarkprotocol.finance/",
         "address": "0x36b679bd64ed73dbfd88909cdcb892cb66bd4cbb",
@@ -561,11 +666,55 @@
     {
       "chainId": 101,
       "address": "CzPDyvotTcxNqtPne32yUiEVQ6jk42HZi1Y3hUu7qf7f",
-      "symbol": "RAY-USDT",
-      "name": "Raydium Legacy LP Token (RAY-USDT)",
+      "symbol": "RAY-WUSDT",
+      "name": "Raydium Legacy LP Token V2 (RAY-WUSDT)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "134Cct3CSdRCbYgq5SkwmHgfwjJ7EM5cG9PzqffWqECx",
+      "symbol": "RAY-SOL",
+      "name": "Raydium LP Token V2 (RAY-SOL)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EVDmwajM5U73PD34bYPugwiA4Eqqbrej4mLXXv15Z5qR",
+      "symbol": "LINK-WUSDT",
+      "name": "Raydium LP Token V2 (LINK-WUSDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "KY4XvwHy7JPzbWYAbk23jQvEb4qWJ8aCqYWREmk1Q7K",
+      "symbol": "ETH-WUSDT",
+      "name": "Raydium LP Token V2 (ETH-WUSDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
@@ -574,10 +723,12 @@
       "chainId": 101,
       "address": "FgmBnsF5Qrnv8X9bomQfEtQTQjNNiBCWRKGpzPnE5BDg",
       "symbol": "RAY-USDC",
-      "name": "Raydium Legacy LP Token (RAY-USDC)",
+      "name": "Raydium Legacy LP Token V2 (RAY-USDC)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
@@ -586,130 +737,530 @@
       "chainId": 101,
       "address": "5QXBMXuCL7zfAk39jEVVEvcrz1AvBGgT9wAhLLHLyyUJ",
       "symbol": "RAY-SRM",
-      "name": "Raydium Legacy LP Token (RAY-SRM)",
+      "name": "Raydium Legacy LP Token V2 (RAY-SRM)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
     },
     {
       "chainId": 101,
-      "symbol": "RAY-ETH",
-      "name": "Raydium ETH Liquidity Pool",
-      "decimals": 6,
-      "address": "8Q6MKy5Yxb9vG1mWzppMtMb2nrhNuCRNUkJTeiE3fuwD",
-      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
-      "extensions": {
-        "website": "https://raydium.io/"
-      }
-    },
-    {
-      "chainId": 101,
-      "symbol": "RAY-SOL",
-      "name": "Raydium SOL Liquidity Pool",
-      "decimals": 6,
-      "address": "F5PPQHGcznZ2FxD9JaxJMXaf7XkaFFJ6zzTBcW8osQjw",
-      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
-      "extensions": {
-        "website": "https://raydium.io/"
-      }
-    },
-    {
-      "chainId": 101,
-      "symbol": "RAY-SRM",
-      "name": "Raydium SRM Liquidity Pool",
-      "decimals": 6,
-      "address": "DSX5E21RE9FB9hM8Nh8xcXQfPK6SzRaJiywemHBSsfup",
-      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
-      "extensions": {
-        "website": "https://raydium.io/"
-      }
-    },
-    {
-      "chainId": 101,
-      "symbol": "RAY-USDT",
-      "name": "Raydium USDT Liquidity Pool",
-      "decimals": 6,
       "address": "FdhKXYjCou2jQfgKWcNY7jb8F2DPLU1teTTTRfLBD2v1",
+      "symbol": "RAY-WUSDT",
+      "name": "Raydium Legacy LP Token V3 (RAY-WUSDT)",
+      "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
     },
     {
       "chainId": 101,
-      "symbol": "RAY-USDC",
-      "name": "Raydium USDC Liquidity Pool",
-      "decimals": 6,
       "address": "BZFGfXMrjG2sS7QT2eiCDEevPFnkYYF7kzJpWfYxPbcx",
+      "symbol": "RAY-USDC",
+      "name": "Raydium LP Token V3 (RAY-USDC)",
+      "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
     },
     {
       "chainId": 101,
-      "symbol": "RAY-OXY",
-      "name": "Raydium OXY Liquidity Pool",
+      "address": "DSX5E21RE9FB9hM8Nh8xcXQfPK6SzRaJiywemHBSsfup",
+      "symbol": "RAY-SRM",
+      "name": "Raydium LP Token V3 (RAY-SRM)",
       "decimals": 6,
-      "address": "FwaX9W7iThTZH5MFeasxdLpxTVxRcM7ZHieTCnYog8Yb",
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
     },
     {
       "chainId": 101,
-      "symbol": "RAY-FIDA",
-      "name": "Raydium FIDA Liquidity Pool",
+      "address": "F5PPQHGcznZ2FxD9JaxJMXaf7XkaFFJ6zzTBcW8osQjw",
+      "symbol": "RAY-SOL",
+      "name": "Raydium LP Token V3 (RAY-SOL)",
       "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8Q6MKy5Yxb9vG1mWzppMtMb2nrhNuCRNUkJTeiE3fuwD",
+      "symbol": "RAY-ETH",
+      "name": "Raydium LP Token V3 (RAY-ETH)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "DsBuznXRTmzvEdb36Dx3aVLVo1XmH7r1PRZUFugLPTFv",
+      "symbol": "FIDA-RAY",
+      "name": "Raydium Fusion LP Token V4 (FIDA-RAY)",
+      "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
     },
     {
       "chainId": 101,
-      "symbol": "RAY-MAPS",
-      "name": "Raydium MAPS Liquidity Pool",
+      "address": "FwaX9W7iThTZH5MFeasxdLpxTVxRcM7ZHieTCnYog8Yb",
+      "symbol": "OXY-RAY",
+      "name": "Raydium Fusion LP Token V4 (OXY-RAY)",
       "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "CcKK8srfVdTSsFGV3VLBb2YDbzF4T4NM2C3UEjC39RLP",
+      "symbol": "MAPS-RAY",
+      "name": "Raydium Fusion LP Token V4 (MAPS-RAY)",
+      "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
     },
     {
       "chainId": 101,
-      "symbol": "RAY-KIN",
-      "name": "Raydium KIN Liquidity Pool",
-      "decimals": 6,
       "address": "CHT8sft3h3gpLYbCcZ9o27mT5s3Z6VifBVbUiDvprHPW",
+      "symbol": "KIN-RAY",
+      "name": "Raydium Legacy Fusion LP Token V4 (KIN-RAY)",
+      "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
     },
     {
       "chainId": 101,
-      "symbol": "RAY-COPE",
-      "name": "Raydium COPE Liquidity Pool",
+      "address": "C3sT1R3nsw4AVdepvLTLKr5Gvszr7jufyBWUCvy4TUvT",
+      "symbol": "RAY-USDT",
+      "name": "Raydium LP Token V4 (RAY-USDT)",
       "decimals": 6,
-      "address": "2Vyyeuyd15Gp8aH6uKE72c4hxc8TVSLibxDP9vzspQWG",
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
-      "tags": ["lp-token"],
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8HoQnePLqPj4M7PUDzfw8e3Ymdwgc7NLGnaTUapubyvu",
+      "symbol": "SOL-USDC",
+      "name": "Raydium LP Token V4 (SOL-USDC)",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "865j7iMmRRycSYUXzJ33ZcvLiX9JHvaLidasCyUyKaRE",
+      "symbol": "YFI-USDC",
+      "name": "Raydium LP Token V4 (YFI-USDC)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9XnZd82j34KxNLgQfz29jGbYdxsYznTWRpvZE3SRE7JG",
+      "symbol": "SRM-USDC",
+      "name": "Raydium LP Token V4 (SRM-USDC)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "75dCoKfUHLUuZ4qEh46ovsxfgWhB4icc3SintzWRedT9",
+      "symbol": "FTT-USDC",
+      "name": "Raydium LP Token V4 (FTT-USDC)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2hMdRdVWZqetQsaHG8kQjdZinEMBz75vsoWTCob1ijXu",
+      "symbol": "BTC-USDC",
+      "name": "Raydium LP Token V4 (BTC-USDC)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2QVjeR9d2PbSf8em8NE8zWd8RYHjFtucDUdDgdbDD2h2",
+      "symbol": "SUSHI-USDC",
+      "name": "Raydium LP Token V4 (SUSHI-USDC)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CHyUpQFeW456zcr5XEh4RZiibH8Dzocs6Wbgz9aWpXnQ",
+      "symbol": "TOMO-USDC",
+      "name": "Raydium LP Token V4 (TOMO-USDC)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BqjoYjqKrXtfBKXeaWeAT5sYCy7wsAYf3XjgDWsHSBRs",
+      "symbol": "LINK-USDC",
+      "name": "Raydium LP Token V4 (LINK-USDC)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "13PoKid6cZop4sj2GfoBeujnGfthUbTERdE5tpLCDLEY",
+      "symbol": "ETH-USDC",
+      "name": "Raydium LP Token V4 (ETH-USDC)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2Vyyeuyd15Gp8aH6uKE72c4hxc8TVSLibxDP9vzspQWG",
+      "symbol": "COPE-USDC",
+      "name": "Raydium Fusion LP Token V4 (COPE-USDC)",
+      "decimals": 0,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Epm4KfTj4DMrvqn6Bwg2Tr2N8vhQuNbuK8bESFp4k33K",
+      "symbol": "SOL-USDT",
+      "name": "Raydium LP Token V4 (SOL-USDT)",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FA1i7fej1pAbQbnY8NbyYUsTrWcasTyipKreDgy1Mgku",
+      "symbol": "YFI-USDT",
+      "name": "Raydium LP Token V4 (YFI-USDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HYSAu42BFejBS77jZAZdNAWa3iVcbSRJSzp3wtqCbWwv",
+      "symbol": "SRM-USDT",
+      "name": "Raydium LP Token V4 (SRM-USDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2cTCiUnect5Lap2sk19xLby7aajNDYseFhC9Pigou11z",
+      "symbol": "FTT-USDT",
+      "name": "Raydium LP Token V4 (FTT-USDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DgGuvR9GSHimopo3Gc7gfkbKamLKrdyzWkq5yqA6LqYS",
+      "symbol": "BTC-USDT",
+      "name": "Raydium LP Token V4 (BTC-USDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Ba26poEYDy6P2o95AJUsewXgZ8DM9BCsmnU9hmC9i4Ki",
+      "symbol": "SUSHI-USDT",
+      "name": "Raydium LP Token V4 (SUSHI-USDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "D3iGro1vn6PWJXo9QAPj3dfta6dKkHHnmiiym2EfsAmi",
+      "symbol": "TOMO-USDT",
+      "name": "Raydium LP Token V4 (TOMO-USDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Dr12Sgt9gkY8WU5tRkgZf1TkVWJbvjYuPAhR3aDCwiiX",
+      "symbol": "LINK-USDT",
+      "name": "Raydium LP Token V4 (LINK-USDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "nPrB78ETY8661fUgohpuVusNCZnedYCgghzRJzxWnVb",
+      "symbol": "ETH-USDT",
+      "name": "Raydium LP Token V4 (ETH-USDT)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EGJht91R7dKpCj8wzALkjmNdUUUcQgodqWCYweyKcRcV",
+      "symbol": "YFI-SRM",
+      "name": "Raydium LP Token V4 (YFI-SRM)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AsDuPg9MgPtt3jfoyctUCUgsvwqAN6RZPftqoeiPDefM",
+      "symbol": "FTT-SRM",
+      "name": "Raydium LP Token V4 (FTT-SRM)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AGHQxXb3GSzeiLTcLtXMS2D5GGDZxsB2fZYZxSB5weqB",
+      "symbol": "BTC-SRM",
+      "name": "Raydium LP Token V4 (BTC-SRM)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3HYhUnUdV67j1vn8fu7ExuVGy5dJozHEyWvqEstDbWwE",
+      "symbol": "SUSHI-SRM",
+      "name": "Raydium LP Token V4 (SUSHI-SRM)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GgH9RnKrQpaMQeqmdbMvs5oo1A24hERQ9wuY2pSkeG7x",
+      "symbol": "TOMO-SRM",
+      "name": "Raydium LP Token V4 (TOMO-SRM)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GXN6yJv12o18skTmJXaeFXZVY1iqR18CHsmCT8VVCmDD",
+      "symbol": "LINK-SRM",
+      "name": "Raydium LP Token V4 (LINK-SRM)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9VoY3VERETuc2FoadMSYYizF26mJinY514ZpEzkHMtwG",
+      "symbol": "ETH-SRM",
+      "name": "Raydium LP Token V4 (ETH-SRM)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AKJHspCwDhABucCxNLXUSfEzb7Ny62RqFtC9uNjJi4fq",
+      "symbol": "SRM-SOL",
+      "name": "Raydium LP Token V4 (SRM-SOL)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
       "extensions": {
         "website": "https://raydium.io/"
       }
@@ -720,7 +1271,9 @@
       "symbol": "LSD",
       "name": "LSD",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -731,7 +1284,9 @@
       "symbol": "Unlimited Energy",
       "name": "Unlimited Energy",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -742,7 +1297,9 @@
       "symbol": "Need for Speed",
       "name": "Need for Speed",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -753,7 +1310,9 @@
       "symbol": "ADOR OPENS",
       "name": "ADOR OPENS",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -764,7 +1323,9 @@
       "symbol": "CMS - Rare",
       "name": "CMS - Rare",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -775,7 +1336,9 @@
       "symbol": "Tesla",
       "name": "Tesla",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -786,7 +1349,9 @@
       "symbol": "DeceFi",
       "name": "DeceFi",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -797,7 +1362,9 @@
       "symbol": "Power User",
       "name": "Power User",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -808,7 +1375,9 @@
       "symbol": "VIP Member",
       "name": "VIP Member",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -819,7 +1388,9 @@
       "symbol": "Uni Christmas",
       "name": "Uni Christmas",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -830,7 +1401,9 @@
       "symbol": "BNB",
       "name": "BNB",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -841,7 +1414,9 @@
       "symbol": "Seldom",
       "name": "Seldom",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -852,7 +1427,9 @@
       "symbol": "Satoshi Closeup",
       "name": "Satoshi Closeup",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -863,7 +1440,9 @@
       "symbol": "Satoshi GB",
       "name": "Satoshi GB",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -874,7 +1453,9 @@
       "symbol": "Satoshi OG",
       "name": "Satoshi OG",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -885,7 +1466,9 @@
       "symbol": "Satoshi BTC",
       "name": "Satoshi BTC",
       "decimals": 10,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -896,19 +1479,22 @@
       "symbol": "Satoshi GB",
       "name": "Satoshi GB",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
     },
-
     {
       "chainId": 101,
       "address": "4qzEcYvT6TuJME2EMZ5vjaLvQja6R4hKjarA73WQUwt6",
       "name": "APESZN_HOODIE",
       "symbol": "APESZN_HOODIE",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -919,7 +1505,9 @@
       "name": "APESZN_TEE_SHIRT",
       "symbol": "APESZN_TEE_SHIRT",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -930,7 +1518,9 @@
       "symbol": "Satoshi",
       "name": "Satoshi",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -941,7 +1531,9 @@
       "symbol": "Satoshi Closeup",
       "name": "Satoshi Closeup",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -952,7 +1544,9 @@
       "symbol": "Satoshi BTC",
       "name": "Satoshi BTC",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -963,7 +1557,9 @@
       "symbol": "Satoshi Nakamoto",
       "name": "Satoshi Nakamoto",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -974,7 +1570,9 @@
       "symbol": "Charles Hoskinson",
       "name": "Charles Hoskinson",
       "decimals": 9,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -985,7 +1583,9 @@
       "symbol": "SBF",
       "name": "SBF",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -996,7 +1596,9 @@
       "symbol": "Bitcoin Tram",
       "name": "Bitcoin Tram",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -1007,7 +1609,9 @@
       "symbol": "SRM tee-shirt",
       "name": "SRM tee-shirt",
       "decimals": 0,
-      "tags": ["nft"],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://solible.com/"
       }
@@ -1043,7 +1647,10 @@
       "symbol": "EOSBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1052,7 +1659,10 @@
       "symbol": "EOSBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1061,7 +1671,10 @@
       "symbol": "BNBBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1070,7 +1683,10 @@
       "symbol": "BNBBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1079,7 +1695,10 @@
       "symbol": "BSVBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1088,7 +1707,10 @@
       "symbol": "BSVBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1097,7 +1719,10 @@
       "symbol": "LTCBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1106,7 +1731,10 @@
       "symbol": "LTCBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1115,7 +1743,10 @@
       "symbol": "BULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1124,7 +1755,10 @@
       "symbol": "BEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1133,7 +1767,10 @@
       "symbol": "BCHBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1142,7 +1779,10 @@
       "symbol": "BCHBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1151,7 +1791,10 @@
       "symbol": "ETHBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1160,7 +1803,10 @@
       "symbol": "ETHBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1169,7 +1815,10 @@
       "symbol": "ALTBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1178,7 +1827,10 @@
       "symbol": "ALTBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1187,7 +1839,10 @@
       "symbol": "BULLSHIT",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1196,7 +1851,10 @@
       "symbol": "BEARSHIT",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1205,7 +1863,10 @@
       "symbol": "MIDBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1214,7 +1875,10 @@
       "symbol": "MIDBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1223,7 +1887,10 @@
       "symbol": "LINKBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1232,7 +1899,10 @@
       "symbol": "LINKBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1241,7 +1911,10 @@
       "symbol": "XRPBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1250,7 +1923,10 @@
       "symbol": "XRPBEAR",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bear"]
+      "tags": [
+        "leveraged",
+        "bear"
+      ]
     },
     {
       "chainId": 101,
@@ -1331,7 +2007,10 @@
       "symbol": "DOGEBULL",
       "decimals": 6,
       "logoURI": "",
-      "tags": ["leveraged", "bull"]
+      "tags": [
+        "leveraged",
+        "bull"
+      ]
     },
     {
       "chainId": 101,
@@ -1385,7 +2064,10 @@
       "name": "Wrapped Ether (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1399,7 +2081,10 @@
       "name": "TrueUSD (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0000000000085d4780B73119b644AE5ecd22b376/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1413,7 +2098,10 @@
       "name": "Tokenlon (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0000000000095413afC295d19EDeb1Ad7B71c952/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0000000000095413afC295d19EDeb1Ad7B71c952",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1427,7 +2115,10 @@
       "name": "AllianceBlock Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1441,7 +2132,10 @@
       "name": "SKALE (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1455,7 +2149,10 @@
       "name": "UniLend Finance Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1469,7 +2166,10 @@
       "name": "Orion Protocol (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1483,7 +2183,10 @@
       "name": "SparkPoint (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0488401c3F535193Fa8Df029d9fFe615A06E74E6/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0488401c3F535193Fa8Df029d9fFe615A06E74E6",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1497,7 +2200,10 @@
       "name": "UMA Voting Token v1 (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1511,7 +2217,10 @@
       "name": "SmartKey (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x06A01a4d579479Dd5D884EBf61A31727A3d8D442/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x06A01a4d579479Dd5D884EBf61A31727A3d8D442",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1525,7 +2234,10 @@
       "name": "Wrapped MIR Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x09a3EcAFa817268f77BE1283176B946C4ff2E608/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x09a3EcAFa817268f77BE1283176B946C4ff2E608",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1539,7 +2251,10 @@
       "name": "Growth (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1553,7 +2268,10 @@
       "name": "xDai (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0Ae055097C6d159879521C384F1D2123D1f195e6/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0Ae055097C6d159879521C384F1D2123D1f195e6",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1567,7 +2285,10 @@
       "name": "yearn.finance (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1581,7 +2302,10 @@
       "name": "Basic Attention Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1595,7 +2319,10 @@
       "name": "Decentraland MANA (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1609,7 +2336,10 @@
       "name": "XIO Network (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1623,7 +2353,10 @@
       "name": "Unilayer (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x0fF6ffcFDa92c53F615a4A75D982f399C989366b/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x0fF6ffcFDa92c53F615a4A75D982f399C989366b",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1637,7 +2370,10 @@
       "name": "https://unimex.network/ (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x10Be9a8dAe441d276a5027936c3aADEd2d82bC15/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x10Be9a8dAe441d276a5027936c3aADEd2d82bC15",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1651,7 +2387,10 @@
       "name": "1INCH Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x111111111117dC0aa78b770fA6A738034120C302",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1665,7 +2404,10 @@
       "name": "Armor (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1679,7 +2421,10 @@
       "name": "Armor NXM (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1337DEF18C680aF1f9f45cBcab6309562975b1dD/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x1337DEF18C680aF1f9f45cBcab6309562975b1dD",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1693,7 +2438,10 @@
       "name": "DefiPulse Index (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1707,7 +2455,10 @@
       "name": "DeltaHub Community (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x152687Bc4A7FCC89049cF119F9ac3e5aCF2eE7ef/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x152687Bc4A7FCC89049cF119F9ac3e5aCF2eE7ef",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1721,7 +2472,10 @@
       "name": "KIRA Network (Wormhole)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x16980b3B4a3f9D89E33311B5aa8f80303E5ca4F8/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x16980b3B4a3f9D89E33311B5aa8f80303E5ca4F8",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1735,7 +2489,10 @@
       "name": "Energy Web Token Bridged (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x178c820f862B14f316509ec36b13123DA19A6054",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1749,7 +2506,10 @@
       "name": "Cryptocurrency Top 10 Tokens Index (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x17aC188e09A7890a1844E5E65471fE8b0CcFadF3/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x17aC188e09A7890a1844E5E65471fE8b0CcFadF3",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1763,7 +2523,10 @@
       "name": "Audius (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1777,7 +2540,10 @@
       "name": "Reputation (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1985365e9f78359a9B6AD760e32412f4a445E862/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1791,7 +2557,10 @@
       "name": "VesperToken (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1805,7 +2574,10 @@
       "name": "Keep3rV1 (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1819,7 +2591,10 @@
       "name": "Lead Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1dD80016e3d4ae146Ee2EBB484e8edD92dacC4ce/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x1dD80016e3d4ae146Ee2EBB484e8edD92dacC4ce",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1833,7 +2608,10 @@
       "name": "Uniswap (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1847,7 +2625,10 @@
       "name": "Wrapped BTC (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1861,7 +2642,10 @@
       "name": "UNION Protocol Governance Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x226f7b842E0F0120b7E194D05432b3fd14773a9D/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x226f7b842E0F0120b7E194D05432b3fd14773a9D",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1875,7 +2659,10 @@
       "name": "Unisocks Edition 0 (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x23B608675a2B2fB1890d3ABBd85c5775c51691d5/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1889,7 +2676,10 @@
       "name": "DEXTools (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x26CE25148832C04f3d7F26F32478a9fe55197166/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x26CE25148832C04f3d7F26F32478a9fe55197166",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1903,7 +2693,10 @@
       "name": "HEX (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1917,7 +2710,10 @@
       "name": "Cream (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2ba592F78dB6436527729929AAf6c908497cB200/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x2ba592F78dB6436527729929AAf6c908497cB200",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1931,7 +2727,10 @@
       "name": "yfi.mobi (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2e2f3246b6c65CCc4239c9Ee556EC143a7E5DE2c/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x2e2f3246b6c65CCc4239c9Ee556EC143a7E5DE2c",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1945,7 +2744,10 @@
       "name": "ZeroSwapToken (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1959,7 +2761,10 @@
       "name": "Wrapped ANATHA (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1973,7 +2778,10 @@
       "name": "RAMP DEFI (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -1987,7 +2795,10 @@
       "name": "Parsiq Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x362bc847A3a9637d3af6624EeC853618a43ed7D2/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x362bc847A3a9637d3af6624EeC853618a43ed7D2",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2001,7 +2812,10 @@
       "name": "Small Love Potion (Wormhole)",
       "decimals": 0,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x37236CD05b34Cc79d3715AF2383E96dd7443dCF1/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x37236CD05b34Cc79d3715AF2383E96dd7443dCF1",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2015,7 +2829,10 @@
       "name": "SAND (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x3845badAde8e6dFF049820680d1F14bD3903a5d0/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2029,7 +2846,10 @@
       "name": "Concentrated Voting Power (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2043,7 +2863,10 @@
       "name": "Republic Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2057,7 +2880,10 @@
       "name": "Sora (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x40FD72257597aA14C7231A7B1aaa29Fce868F677/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2071,7 +2897,10 @@
       "name": "FunFair (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2085,7 +2914,10 @@
       "name": "PickleToken (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2099,7 +2931,10 @@
       "name": "Paxos Gold (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2113,7 +2948,10 @@
       "name": "Quant (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4a220E6096B25EADb88358cb44068A3248254675/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x4a220E6096B25EADb88358cb44068A3248254675",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2127,7 +2965,10 @@
       "name": "Oraichain Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4c11249814f11b9346808179Cf06e71ac328c1b5/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x4c11249814f11b9346808179Cf06e71ac328c1b5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2141,7 +2982,10 @@
       "name": "TrustToken (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2155,7 +2999,10 @@
       "name": "MCDEX Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2169,7 +3016,10 @@
       "name": "NuCypher (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4fE83213D56308330EC302a8BD641f1d0113A4Cc/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x4fE83213D56308330EC302a8BD641f1d0113A4Cc",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2183,7 +3033,10 @@
       "name": "RAZOR (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2197,7 +3050,10 @@
       "name": "ChainLink Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2211,7 +3067,10 @@
       "name": "UnFederalReserveToken (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2225,7 +3084,10 @@
       "name": "Synth sUSD (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2239,7 +3101,10 @@
       "name": "Hegic (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x584bC13c7D411c00c01A62e8019472dE68768430/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x584bC13c7D411c00c01A62e8019472dE68768430",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2253,7 +3118,10 @@
       "name": "Xfinance (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x5BEfBB272290dD5b8521D4a938f6c4757742c430/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x5BEfBB272290dD5b8521D4a938f6c4757742c430",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2267,7 +3135,10 @@
       "name": "DEXTF Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2281,7 +3152,10 @@
       "name": "iExec RLC (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x607F4C5BB672230e8672085532f7e901544a7375/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x607F4C5BB672230e8672085532f7e901544a7375",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2295,7 +3169,10 @@
       "name": "cVault.finance (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2309,7 +3186,10 @@
       "name": "CyberFi Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x63b4f3e3fa4e438698CE330e365E831F7cCD1eF4/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x63b4f3e3fa4e438698CE330e365E831F7cCD1eF4",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2323,7 +3203,10 @@
       "name": "Wise Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2337,7 +3220,10 @@
       "name": "Gnosis Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2351,7 +3237,10 @@
       "name": "$Poolz Finance (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2365,7 +3254,10 @@
       "name": "Dai Stablecoin (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2379,7 +3271,10 @@
       "name": "SushiSwap (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2393,7 +3288,10 @@
       "name": "Fyooz (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6BFf2fE249601ed0Db3a87424a2E923118BB0312/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6BFf2fE249601ed0Db3a87424a2E923118BB0312",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2407,7 +3305,10 @@
       "name": "QuiverX (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6e0daDE58D2d89eBBe7aFc384e3E4f15b70b14D8/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6e0daDE58D2d89eBBe7aFc384e3E4f15b70b14D8",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2421,7 +3322,10 @@
       "name": "UniTrade (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6F87D756DAf0503d08Eb8993686c7Fc01Dc44fB1/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6F87D756DAf0503d08Eb8993686c7Fc01Dc44fB1",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2435,7 +3339,10 @@
       "name": "Bird.Money (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2449,7 +3356,10 @@
       "name": "Axion (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x71F85B2E46976bD21302B64329868fd15eb0D127/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x71F85B2E46976bD21302B64329868fd15eb0D127",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2463,7 +3373,10 @@
       "name": "Bridge Mutual (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x725C263e32c72dDC3A19bEa12C5a0479a81eE688/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x725C263e32c72dDC3A19bEa12C5a0479a81eE688",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2477,7 +3390,10 @@
       "name": "DoYourTip (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x740623d2c797b7D8D1EcB98e9b4Afcf99Ec31E14/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x740623d2c797b7D8D1EcB98e9b4Afcf99Ec31E14",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2491,7 +3407,10 @@
       "name": "BitberryToken (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7671904eed7f10808B664fc30BB8693FD7237abF/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x7671904eed7f10808B664fc30BB8693FD7237abF",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2505,7 +3424,10 @@
       "name": "WAX Economic Token (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7a2Bc711E19ba6aff6cE8246C546E8c4B4944DFD/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x7a2Bc711E19ba6aff6cE8246C546E8c4B4944DFD",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2519,7 +3441,10 @@
       "name": "Matic Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2533,7 +3458,10 @@
       "name": "Robonomics (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2547,7 +3475,10 @@
       "name": "Aave Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2561,7 +3492,10 @@
       "name": "Lend (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2575,7 +3509,10 @@
       "name": "PolkastarterToken (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2589,7 +3526,10 @@
       "name": "Unibright (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2603,7 +3543,10 @@
       "name": "DIA (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2617,7 +3560,10 @@
       "name": "Frax (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x853d955aCEf822Db058eb8505911ED77F175b99e/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2631,7 +3577,10 @@
       "name": "KEEP Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2645,7 +3594,10 @@
       "name": "Reserve Rights (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2659,7 +3611,10 @@
       "name": "88mph.app (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8888801aF4d980682e47f1A9036e589479e835C5/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x8888801aF4d980682e47f1A9036e589479e835C5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2673,7 +3628,10 @@
       "name": "PAID Network (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8c8687fC965593DFb2F0b4EAeFD55E9D8df348df/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x8c8687fC965593DFb2F0b4EAeFD55E9D8df348df",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2687,7 +3645,10 @@
       "name": "Swipe (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2701,7 +3662,10 @@
       "name": "Request Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x8f8221aFbB33998d8584A2B05749bA73c37a938a/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x8f8221aFbB33998d8584A2B05749bA73c37a938a",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2715,7 +3679,10 @@
       "name": "WHALE (Wormhole)",
       "decimals": 4,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9355372396e3F6daF13359B7b607a3374cc638e0/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x9355372396e3F6daF13359B7b607a3374cc638e0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2729,7 +3696,10 @@
       "name": "Pinakion (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2743,7 +3713,10 @@
       "name": "APY Governance Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x95a4492F028aa1fd432Ea71146b433E7B4446611/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x95a4492F028aa1fd432Ea71146b433E7B4446611",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2757,7 +3730,10 @@
       "name": "Ocean Protocol (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2771,7 +3747,10 @@
       "name": "Shopping.io (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9B02dD390a603Add5c07f9fd9175b7DABE8D63B7/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x9B02dD390a603Add5c07f9fd9175b7DABE8D63B7",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2785,7 +3764,10 @@
       "name": "Binance Wrapped BTC (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2799,7 +3781,10 @@
       "name": "Unistake (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9Ed8e7C9604790F7Ec589F99b94361d8AAB64E5E/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x9Ed8e7C9604790F7Ec589F99b94361d8AAB64E5E",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2813,7 +3798,10 @@
       "name": "MakerDAO (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2827,7 +3815,10 @@
       "name": "FARM Reward Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa0246c9032bC3A600820415aE600c6388619A14D/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xa0246c9032bC3A600820415aE600c6388619A14D",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2841,7 +3832,10 @@
       "name": "USD Coin (Wormhole)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2855,7 +3849,10 @@
       "name": "Aragon Network Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa117000000f279D81A1D3cc75430fAA017FA5A2e/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2869,7 +3866,10 @@
       "name": "Pundi X Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2883,7 +3883,10 @@
       "name": "RFOX (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa1d6Df714F91DeBF4e0802A542E13067f31b8262/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xa1d6Df714F91DeBF4e0802A542E13067f31b8262",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2897,7 +3900,10 @@
       "name": "Meta (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2911,7 +3917,10 @@
       "name": "Rubic (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA4EED63db85311E22dF4473f87CcfC3DaDCFA3E3/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xA4EED63db85311E22dF4473f87CcfC3DaDCFA3E3",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2925,7 +3934,10 @@
       "name": "NOIA Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2939,7 +3951,10 @@
       "name": "Celsius (Wormhole)",
       "decimals": 4,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2953,7 +3968,10 @@
       "name": "Crowns (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaC0104Cca91D167873B8601d2e71EB3D4D8c33e0/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xaC0104Cca91D167873B8601d2e71EB3D4D8c33e0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2967,7 +3985,10 @@
       "name": "OptionRoom Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xAd4f86a25bbc20FfB751f2FAC312A0B4d8F88c64/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xAd4f86a25bbc20FfB751f2FAC312A0B4d8F88c64",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2981,7 +4002,10 @@
       "name": "YOP (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xAE1eaAE3F627AAca434127644371b67B18444051/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xAE1eaAE3F627AAca434127644371b67B18444051",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -2995,7 +4019,10 @@
       "name": "LGCY Network (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3009,7 +4036,10 @@
       "name": "Rio Fuel Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xaf9f549774ecEDbD0966C52f250aCc548D3F36E5/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xaf9f549774ecEDbD0966C52f250aCc548D3F36E5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3023,7 +4053,10 @@
       "name": "MahaDAO (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB4d930279552397bbA2ee473229f89Ec245bc365/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xB4d930279552397bbA2ee473229f89Ec245bc365",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3037,7 +4070,10 @@
       "name": "Rocket Pool (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB4EFd85c19999D84251304bDA99E90B92300Bd93/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3051,7 +4087,10 @@
       "name": "Nexo (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3065,7 +4104,10 @@
       "name": "Spice (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xb753428af26E81097e7fD17f40c88aaA3E04902c/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xb753428af26E81097e7fD17f40c88aaA3E04902c",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3079,7 +4121,10 @@
       "name": "Stabilize Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xB987D48Ed8f2C468D52D6405624EADBa5e76d723/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xB987D48Ed8f2C468D52D6405624EADBa5e76d723",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3093,7 +4138,10 @@
       "name": "Balancer (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xba100000625a3754423978a60c9317c58a424e3D",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3107,7 +4155,10 @@
       "name": "BandToken (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3121,7 +4172,10 @@
       "name": "Swapfolio (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3135,7 +4189,10 @@
       "name": "LoopringCoin V2 (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3149,7 +4206,10 @@
       "name": "Perpetual (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xbC396689893D065F41bc2C6EcbeE5e0085233447/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3163,7 +4223,10 @@
       "name": "Compound (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3177,7 +4240,10 @@
       "name": "Synthetix Network Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets//logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3191,7 +4257,10 @@
       "name": "DLP Duck Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xC0bA369c8Db6eB3924965e5c4FD0b4C1B91e305F/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xC0bA369c8Db6eB3924965e5c4FD0b4C1B91e305F",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3205,7 +4274,10 @@
       "name": "Chain Games (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xC4C2614E694cF534D407Ee49F8E44D125E4681c4/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xC4C2614E694cF534D407Ee49F8E44D125E4681c4",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3219,7 +4291,10 @@
       "name": "Graph Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3233,7 +4308,10 @@
       "name": "RootKit (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3247,7 +4325,10 @@
       "name": "TrustSwap Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xCC4304A31d09258b0029eA7FE63d032f52e44EFe/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3261,7 +4342,10 @@
       "name": "Terra Virtua Kolect (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3275,7 +4359,10 @@
       "name": "OMG Network (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets//logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3289,7 +4376,10 @@
       "name": "Wrapped LUNA Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3303,7 +4393,10 @@
       "name": "Bondly Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3317,7 +4410,10 @@
       "name": "Dextrust (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xd379700999F4805Ce80aa32DB46A94dF64561108/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xd379700999F4805Ce80aa32DB46A94dF64561108",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3331,7 +4427,10 @@
       "name": "Ampleforth (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets//logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3345,7 +4444,10 @@
       "name": "Polkamarkets (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD478161C952357F05f0292B56012Cd8457F1cfbF/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xD478161C952357F05f0292B56012Cd8457F1cfbF",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3359,7 +4461,10 @@
       "name": "Curve DAO Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3373,7 +4478,10 @@
       "name": "MEME (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD5525D397898e5502075Ea5E830d8914f6F0affe/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xD5525D397898e5502075Ea5E830d8914f6F0affe",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3387,7 +4495,10 @@
       "name": "ExNetwork Community Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xD6c67B93a7b248dF608a653d82a100556144c5DA/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xD6c67B93a7b248dF608a653d82a100556144c5DA",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3401,7 +4512,10 @@
       "name": "Tether USD (Wormhole)",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3415,7 +4529,10 @@
       "name": "Yield (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xDcB01cc464238396E213a6fDd933E36796eAfF9f/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xDcB01cc464238396E213a6fDd933E36796eAfF9f",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3429,7 +4546,10 @@
       "name": "Kyber Network Crystal (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3443,7 +4563,10 @@
       "name": "COTI Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xDDB3422497E61e13543BeA06989C0789117555c5/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xDDB3422497E61e13543BeA06989C0789117555c5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3457,7 +4580,10 @@
       "name": "Injective Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3471,7 +4597,10 @@
       "name": "0x Protocol Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3485,7 +4614,10 @@
       "name": "SuperFarm (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3499,7 +4631,10 @@
       "name": "aEthereum (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xE95A203B1a91a908F9B9CE46459d101078c2c3cb/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3513,7 +4648,10 @@
       "name": "SURF.Finance (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3527,7 +4665,10 @@
       "name": "renBTC (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3541,7 +4682,10 @@
       "name": "DMM: Governance (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEd91879919B71bB6905f23af0A68d231EcF87b14/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xEd91879919B71bB6905f23af0A68d231EcF87b14",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3555,7 +4699,10 @@
       "name": "Hermez Network Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEEF9f339514298C6A857EfCfC1A762aF84438dEE/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3569,7 +4716,10 @@
       "name": "Rally (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3583,7 +4733,10 @@
       "name": "YfDAI.finance (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3597,7 +4750,10 @@
       "name": "Fractal Protocol Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xF4d861575ecC9493420A3f5a14F85B13f0b50EB3/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xF4d861575ecC9493420A3f5a14F85B13f0b50EB3",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3611,7 +4767,10 @@
       "name": "Axie Infinity (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xF5D669627376EBd411E34b98F19C868c8ABA5ADA/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xF5D669627376EBd411E34b98F19C868c8ABA5ADA",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3625,7 +4784,10 @@
       "name": "Enjin Coin (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3639,7 +4801,10 @@
       "name": "Yield (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xF94b5C5651c888d928439aB6514B93944eEE6F48/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xF94b5C5651c888d928439aB6514B93944eEE6F48",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3653,7 +4818,10 @@
       "name": "DuckDaoDime (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xFbEEa1C75E4c4465CB2FCCc9c6d6afe984558E20/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xFbEEa1C75E4c4465CB2FCCc9c6d6afe984558E20",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3667,7 +4835,10 @@
       "name": "Rarible (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3681,7 +4852,10 @@
       "name": "Amp (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xfF20817765cB7f73d4bde2e66e067E58D11095C2/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xfF20817765cB7f73d4bde2e66e067E58D11095C2",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3695,7 +4869,10 @@
       "name": "FalconSwap Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3709,7 +4886,10 @@
       "name": "Binance USD (Wormhole)",
       "decimals": 9,
       "logoURI": " https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x4Fabb145d64652a948d72533023f6E7A623C7C53/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3723,7 +4903,10 @@
       "name": "Aave Interest bearing DAI (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aDAI.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3737,7 +4920,10 @@
       "name": "Aave Interest bearing TUSD (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aTUSD.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x4DA9b813057D04BAef4e5800E36083717b4a0341",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3751,7 +4937,10 @@
       "name": "Aave Interest bearing USDC (Wormhole)",
       "decimals": 6,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3765,7 +4954,10 @@
       "name": "Aave Interest bearing USDT (Wormhole)",
       "decimals": 6,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDT.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3779,7 +4971,10 @@
       "name": "Aave Interest bearing SUSD (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aSUSD.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x625aE63000f46200499120B906716420bd059240",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3793,7 +4988,10 @@
       "name": "Aave Interest bearing LEND (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aLEND.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3807,7 +5005,10 @@
       "name": "Aave Interest bearing BAT (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aBAT.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3821,7 +5022,10 @@
       "name": "Aave Interest bearing ETH (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aETH.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3835,7 +5039,10 @@
       "name": "Aave Interest bearing LINK (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aLINK.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3849,7 +5056,10 @@
       "name": "Aave Interest bearing KNC (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aKNC.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x9D91BE44C06d373a8a226E1f3b146956083803eB",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3863,7 +5073,10 @@
       "name": "Aave Interest bearing REP (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aREP.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x71010A9D003445aC60C4e6A7017c1E89A477B438",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3877,7 +5090,10 @@
       "name": "Aave Interest bearing MKR (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aMKR.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x7deB5e830be29F91E298ba5FF1356BB7f8146998",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3891,7 +5107,10 @@
       "name": "Aave Interest bearing MANA (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aMANA.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3905,7 +5124,10 @@
       "name": "Aave Interest bearing ZRX (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aZRX.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3919,7 +5141,10 @@
       "name": "Aave Interest bearing SNX (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmXj52EGotmpyep84PBycmQnAgCF2sbqxdXFWP3GPZFbEz",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3933,7 +5158,10 @@
       "name": "Aave Interest bearing WBTC (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aWBTC.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3947,7 +5175,10 @@
       "name": "Aave Interest bearing Binance USD (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aBUSD.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3961,7 +5192,10 @@
       "name": "Aave Interest bearing ENJ (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aENJ.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x712DB54daA836B53Ef1EcBb9c6ba3b9Efb073F40",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3975,7 +5209,10 @@
       "name": "Aave Interest bearing REN (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmUgE3UECZxZcCAiqd3V9otfFWLi5fxR8uHd94RxkT3iYb",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x69948cC03f478B95283F7dbf1CE764d0fc7EC54C",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -3989,7 +5226,10 @@
       "name": "Aave Interest bearing YFI (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmauhqAKU8YLhDhT4M5ZcPMuqEfqkBrBaC31uWC9UXd1ik",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x12e51E77DAAA58aA0E9247db7510Ea4B46F9bEAd",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4003,7 +5243,10 @@
       "name": "Aave Interest bearing Aave Token (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aAAVE.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xba3D9687Cf50fE253cd2e1cFeEdE1d6787344Ed5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4017,7 +5260,10 @@
       "name": "Aave Interest bearing Uniswap (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmYdpeez387RdMw6zEEa5rMXuayi748Uc15eFuoa3QhGEJ",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xB124541127A0A657f056D9Dd06188c4F1b0e5aab",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4031,7 +5277,10 @@
       "name": "Staked Aave (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/Qmc2N4CsWDH3ZnnggcvbF8dN1JYsKTUyh3rdj5NBZH9KKL",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x4da27a545c0c5B758a6BA100e3a049001de870f5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4045,7 +5294,10 @@
       "name": "Uniswap DAI LP (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmYNz8J1h5yefkaAw6tZwUYoJyBTWmBXgAY28ZWZ5rPsLR",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x2a1530C4C41db0B0b2bB646CB5Eb1A67b7158667",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4059,7 +5311,10 @@
       "name": "Uniswap USDC LP (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/Qme9QQcNzKvk3FEwEZvvKJWSvDUd41z5geWHNpuJb6di9y",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x97deC872013f6B5fB443861090ad931542878126",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4073,7 +5328,10 @@
       "name": "Uniswap sETH LP (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmZcwn4eZJpjihH8TApRczQQJdAzpR6Er7g1bvo6PGhxWi",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xe9Cf7887b93150D4F2Da7dFc6D502B216438F244",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4087,7 +5345,10 @@
       "name": "Uniswap LEND LP (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/Qmcbin86EXd14LhbqLknH9kM3N7oueBYt9qQmZdmMWqrgu",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xcaA7e4656f6A2B59f5f99c745F91AB26D1210DCe",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4101,7 +5362,10 @@
       "name": "Uniswap MKR LP (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmSS94EJyBeHeUmoDmGjQjeuUHQxTcMaD8Zvw8W8XdGDBv",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x2C4Bd064b998838076fa341A83d007FC2FA50957",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4115,7 +5379,10 @@
       "name": "Uniswap LINK LP (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmQWb2cb9QZbTeMTtoWzUpJGNXcZiGXTygbRLKHNNwhk4Y",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xF173214C720f58E03e194085B1DB28B50aCDeeaD",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4129,7 +5396,10 @@
       "name": "Aave Interest bearing UniETH (Wormhole)",
       "decimals": 9,
       "logoURI": " https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6179078872605396Ee62960917128F9477a5DdbB/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6179078872605396Ee62960917128F9477a5DdbB",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4143,7 +5413,10 @@
       "name": "Aave Interest bearing UniDAI (Wormhole)",
       "decimals": 9,
       "logoURI": " https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x048930eec73c91B44b0844aEACdEBADC2F2b6efb/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x048930eec73c91B44b0844aEACdEBADC2F2b6efb",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4157,7 +5430,10 @@
       "name": "Aave Interest bearing UniUSDC (Wormhole)",
       "decimals": 6,
       "logoURI": " https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xe02b2Ad63eFF3Ac1D5827cBd7AB9DD3DaC4f4AD0/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xe02b2Ad63eFF3Ac1D5827cBd7AB9DD3DaC4f4AD0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4171,7 +5447,10 @@
       "name": "Aave Interest bearing UniUSDT (Wormhole)",
       "decimals": 6,
       "logoURI": " https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xb977ee318010A5252774171494a1bCB98E7fab65/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xb977ee318010A5252774171494a1bCB98E7fab65",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4185,7 +5464,10 @@
       "name": "Aave Interest bearing UniDAIETH (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUNI%20DAI%20ETH.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xBbBb7F2aC04484F7F04A2C2C16f20479791BbB44",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4199,7 +5481,10 @@
       "name": "Aave Interest bearing UniUSDCETH (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUNI%20USDC%20ETH.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x1D0e53A0e524E3CC92C1f0f33Ae268FfF8D7E7a5",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4213,7 +5498,10 @@
       "name": "Aave Interest bearing UniSETHETH (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUNI%20sETH%20ETH.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x84BBcaB430717ff832c3904fa6515f97fc63C76F",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4227,7 +5515,10 @@
       "name": "Aave Interest bearing UniLENDETH (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUNI%20LEND%20ETH.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xc88ebbf7C523f38Ef3eB8A151273C0F0dA421e63",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4241,7 +5532,10 @@
       "name": "Aave Interest bearing UniMKRETH (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUNI%20MKR%20ETH.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x8c69f7A4C9B38F1b48005D216c398Efb2F1Ce3e4",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4255,7 +5549,10 @@
       "name": "Aave Interest bearing UniLINKETH (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUNI%20LINK%20ETH.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x9548DB8b1cA9b6c757485e7861918b640390169c",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4269,7 +5566,10 @@
       "name": "Aave interest bearing USDT (Wormhole)",
       "decimals": 6,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDT.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4283,7 +5583,10 @@
       "name": "Aave interest bearing WBTC (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aWBTC.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x9ff58f4fFB29fA2266Ab25e75e2A8b3503311656",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4297,7 +5600,10 @@
       "name": "Aave interest bearing WETH (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmUDc7LQN6zKHon9FChTqZc7WGFvGPZe698Bq5HbSYtfk9",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4311,7 +5617,10 @@
       "name": "Aave interest bearing YFI (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmauhqAKU8YLhDhT4M5ZcPMuqEfqkBrBaC31uWC9UXd1ik",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x5165d24277cD063F5ac44Efd447B27025e888f37",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4325,7 +5634,10 @@
       "name": "Aave interest bearing ZRX (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aZRX.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4339,7 +5651,10 @@
       "name": "Aave interest bearing UNI (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmYdpeez387RdMw6zEEa5rMXuayi748Uc15eFuoa3QhGEJ",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xB9D7CB55f463405CDfBe4E90a6D2Df01C2B92BF1",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4353,7 +5668,10 @@
       "name": "Aave interest bearing AAVE (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aAAVE.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xFFC97d72E13E01096502Cb8Eb52dEe56f74DAD7B",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4367,7 +5685,10 @@
       "name": "Aave interest bearing BAT (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aBAT.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x05Ec93c0365baAeAbF7AefFb0972ea7ECdD39CF1",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4381,7 +5702,10 @@
       "name": "Aave interest bearing BUSD (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aBUSD.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xA361718326c15715591c299427c62086F69923D9",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4395,7 +5719,10 @@
       "name": "Aave interest bearing DAI (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aDAI.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x028171bCA77440897B824Ca71D1c56caC55b68A3",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4409,7 +5736,10 @@
       "name": "Aave interest bearing ENJ (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aENJ.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xaC6Df26a590F08dcC95D5a4705ae8abbc88509Ef",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4423,7 +5753,10 @@
       "name": "Aave interest bearing KNC (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aKNC.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x39C6b3e42d6A679d7D776778Fe880BC9487C2EDA",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4437,7 +5770,10 @@
       "name": "Aave interest bearing LINK (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aLINK.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xa06bC25B5805d5F8d82847D191Cb4Af5A3e873E0",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4451,7 +5787,10 @@
       "name": "Aave interest bearing MANA (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aMANA.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xa685a61171bb30d4072B338c80Cb7b2c865c873E",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4465,7 +5804,10 @@
       "name": "Aave interest bearing MKR (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aMKR.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xc713e5E149D5D0715DcD1c156a020976e7E56B88",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4479,7 +5821,10 @@
       "name": "Aave interest bearing REN (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmUgE3UECZxZcCAiqd3V9otfFWLi5fxR8uHd94RxkT3iYb",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xCC12AbE4ff81c9378D670De1b57F8e0Dd228D77a",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4493,7 +5838,10 @@
       "name": "Aave interest bearing SNX (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmXj52EGotmpyep84PBycmQnAgCF2sbqxdXFWP3GPZFbEz",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x35f6B052C598d933D69A4EEC4D04c73A191fE6c2",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4507,7 +5855,10 @@
       "name": "Aave interest bearing SUSD (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aSUSD.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x6C5024Cd4F8A59110119C56f8933403A539555EB",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4521,7 +5872,10 @@
       "name": "Aave interest bearing TUSD (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aTUSD.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0x101cc05f4A51C0319f570d5E146a8C625198e636",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4535,7 +5889,10 @@
       "name": "Aave interest bearing USDC (Wormhole)",
       "decimals": 6,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "address": "0xBcca60bB61934080951369a648Fb03DF4F96263C",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
@@ -4549,7 +5906,9 @@
       "name": "Dominican Pesos",
       "decimals": 9,
       "logoURI": "https://user-images.githubusercontent.com/9972260/111077928-73bd2280-84c9-11eb-84d4-4032478e3861.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
         "website": "https://Odop.io/"
       }
@@ -4572,8 +5931,12 @@
       "symbol": "COPE",
       "name": "COPE",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/cyriimm/COPE/COPE_LOGO.png",
-      "tags": ["trading", "index", "Algos"],
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
+      "tags": [
+        "trading",
+        "index",
+        "Algos"
+      ],
       "extensions": {
         "website": "https://www.unlimitedcope.com/"
       }
@@ -4585,7 +5948,9 @@
       "name": "Mango Market Caps",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/2prC8tcVsXwVJAinhxd2zeMeWMWaVyzPoQeLKyDZRFKd/logo.png",
-      "tags": ["mango"],
+      "tags": [
+        "mango"
+      ],
       "extensions": {
         "website": "https://initialcapoffering.com/"
       }
@@ -4615,6 +5980,32 @@
       }
     },
     {
+      "chainId": 101
+      "address": "8PMHT4swUMtBzgHnh5U564N5sjPSiUz2cjEQzFnnP1Fo",
+      "symbol": "ROPE",
+      "name": "Rope Token",
+      "decimals": 9,
+      "logoURI": "https://ropesolana.com/content/files/rope_token.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://ropesolana.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5dhkWqrq37F92jBmEyhQP1vbMkbVRz59V7288HH2wBC7",
+      "symbol": "SLOCK",
+      "name": "SOLLock",
+      "decimals": 9,
+      "logoURI": "https://sollock.io/token/sollock_icon.png",
+      "tags": [
+        "safestlaunchpad"
+      ],
+      "extensions": {
+        "website": "https://sollock.io/"
+      }
+    },
+    {
       "chainId": 102,
       "address": "So11111111111111111111111111111111111111112",
       "symbol": "SOL",
@@ -4633,7 +6024,9 @@
       "name": "USD Coin",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
         "website": "https://www.centre.io/"
       }
@@ -4645,7 +6038,9 @@
       "name": "Stake pool SOL",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
-      "tags": ["stake-pool"],
+      "tags": [
+        "stake-pool"
+      ],
       "extensions": {
         "website": "https://www.solana.com/"
       }
@@ -4656,7 +6051,9 @@
       "symbol": "sHOG",
       "name": "sHOG",
       "decimals": 6,
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
     },
     {
       "chainId": 103,
@@ -4708,13 +6105,84 @@
       "name": "SushiSwap (Wormhole)",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png",
-      "tags": ["wrapped", "wormhole"],
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
       "extensions": {
         "website": "https://sushi.com",
         "background": "https://sushi.com/static/media/Background-sm.fd449814.jpg/",
         "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
         "assetContract": "https://etherscan.io/address/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s",
+      "symbol": "Kreechures",
+      "name": "Kreechures",
+      "decimals": 0,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmQ5YPBFUWeKNFbsBDL8WcXWmu1MwisXZVtwofdZQxmQE9/Kreechure%20logo.svg",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.kreechures.com/",
+        "attributes": [
+          {
+            "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s.jpg",
+            "Generation": 0,
+            "Species": 6,
+            "Base Rest": 262
+          }
+        ]
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4DrV8khCoPS3sWRj6t1bb2DzT9jD4mZp6nc7Jisuuv1b",
+      "symbol": "SPD",
+      "name": "Solpad",
+      "decimals": 10,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list/assets/mainnet/4DrV8khCoPS3sWRj6t1bb2DzT9jD4mZp6nc7Jisuuv1b/logo.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.solpad.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH",
+      "symbol": "Kreechures",
+      "name": "Kreechures",
+      "decimals": 0,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmQ5YPBFUWeKNFbsBDL8WcXWmu1MwisXZVtwofdZQxmQE9/Kreechure%20logo.svg",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.kreechures.com/",
+        "attributes": [
+          {
+            "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH.jpg",
+            "Generation": 0,
+            "Species": 4,
+            "Base Rest": 335
+          }
+        ]
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6ybxMQpMgQhtsTLhvHZqk8uqao7kvoexY6e8JmCTqAB1",
+      "symbol": "QUEST",
+      "name": "QUEST",
+      "decimals": 4,
+      "logoURI": "https://questcoin.org/logo500x500.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://questcoin.org/"
       }
     }
   ],
