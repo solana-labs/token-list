@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.57 (2021-04-18)
+
+
+### Bug Fixes
+
+* missing comma ([7f90d84](https://github.com/solana-labs/token-list/commit/7f90d843ee23310fb4698229c9e3b63f72a82380))
+
 ### 0.2.56 (2021-04-14)
 
 ### 0.2.55 (2021-04-12)
