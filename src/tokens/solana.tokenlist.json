@@ -41,6 +41,14 @@
     "nft": {
       "name": "nft",
       "description": "Non-fungible token"
+    },
+    "security-token": {
+      "name": "security-token",
+      "description": "Tokens that are used to gain access to an electronically restricted resource"
+    },
+    "utility-token": {
+      "name": "utility-token",
+      "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
     }
   },
   "timestamp": "2021-03-03T19:57:21+0000",
@@ -5999,10 +6007,14 @@
       "decimals": 9,
       "logoURI": "https://sollock.io/token/sollock_icon.png",
       "tags": [
-        "safestlaunchpad"
+        "utility-token"
       ],
       "extensions": {
-        "website": "https://sollock.io/"
+        "website": "https://sollock.io/",
+        "twitter": "https://twitter.com/@SOLLockOfficial",
+        "github": "https://github.com/SOLLock",
+        "tgann": "https://t.me/SOLLockAnn",
+        "tggroup": "https://t.me/SOLLock"
       }
     },
     {
