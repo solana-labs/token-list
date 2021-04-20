@@ -27,6 +27,12 @@ export interface TokenExtensions {
   readonly assetContract?: string;
   readonly address?: string;
   readonly explorer?: string;
+  readonly twitter?: string;
+  readonly github?: string;
+  readonly medium?: string;
+  readonly tgann?: string;
+  readonly tggroup?: string;
+  readonly discord?: string;
 }
 
 export interface TokenInfo {
