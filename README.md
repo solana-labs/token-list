@@ -12,7 +12,7 @@ npm install @solana/spl-token-registry
 ```
 
 ```bash
-yarn install @solana/spl-token-registry
+yarn add @solana/spl-token-registry
 ```
 
 ## Examples
