@@ -33,6 +33,8 @@ export interface TokenExtensions {
   readonly tgann?: string;
   readonly tggroup?: string;
   readonly discord?: string;
+  readonly serumV3Usdt?: string;
+  readonly serumV3Usdc?: string;
 }
 
 export interface TokenInfo {
