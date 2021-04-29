@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.67 (2021-04-29)
+
+
+### Features
+
+* add usd(x) serum markets to extensions ([#72](https://github.com/solana-labs/token-list/issues/72)) ([d33d687](https://github.com/solana-labs/token-list/commit/d33d687fe7378279daf1fb4e8944050c9438a781))
+
 ### 0.2.66 (2021-04-29)
 
 ### 0.2.65 (2021-04-29)
