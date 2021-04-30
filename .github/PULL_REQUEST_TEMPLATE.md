@@ -10,3 +10,4 @@ At minimum each entry should have
 * Token Symbol: 
 * Logo
 * Link to the official homepage of token:
+* Coingecko ID if available (https://www.coingecko.com/api/documentations/v3#/coins/get_coins__id_):
