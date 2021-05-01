@@ -35,6 +35,7 @@ export interface TokenExtensions {
   readonly discord?: string;
   readonly serumV3Usdt?: string;
   readonly serumV3Usdc?: string;
+  readonly coingeckoId?: string;
 }
 
 export interface TokenInfo {
