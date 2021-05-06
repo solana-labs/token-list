@@ -643,6 +643,22 @@
     },
     {
       "chainId": 101,
+      "address": "AByXcTZwJHMtrKrvVsh9eFNB1pJaLDjCUR2ayvxBAAM2",
+      "symbol": "STRONG",
+      "name": "Wrapped Strong (Sollet)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x990f341946A3fdB507aE7e52d17851B87168017c/logo.png",
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
+      "extensions": {
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "coingeckoId": "strong"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp",
       "symbol": "FIDA",
       "name": "Bonfida",
@@ -6434,6 +6450,33 @@
       "tags": [],
       "extensions": {
         "website": "https://twitter.com/RespectCoin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8GQsW3f7mdwfjqJon2myADcBsSsRjpXmxHYDG8q1pvV6",
+      "symbol": "HOLD",
+      "name": "Holdana",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/7CWsB34/holdana-token.png",
+      "tags": [],
+      "extensions": {
+        "medium": "https://holdanatoken.medium.com/",
+        "twitter": "https://twitter.com/HoldanaOfficial"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "64SqEfHtu4bZ6jr1mAxaWrLFdMngbKbru9AyaG2Dyk5T",
+      "symbol": "wen-token",
+      "name": "wen-token",
+      "decimals": 0,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmQ69cGaYFNJajafKRbGgwtcKHXGSqX2QdTy85H9synFos",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://pythians.pyth.network"
       }
     }
   ],
