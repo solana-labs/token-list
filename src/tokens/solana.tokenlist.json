@@ -643,6 +643,22 @@
     },
     {
       "chainId": 101,
+      "address": "AByXcTZwJHMtrKrvVsh9eFNB1pJaLDjCUR2ayvxBAAM2",
+      "symbol": "STRONG",
+      "name": "Wrapped Strong (Sollet)",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x990f341946A3fdB507aE7e52d17851B87168017c/logo.png",
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
+      "extensions": {
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "coingeckoId": "strong"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp",
       "symbol": "FIDA",
       "name": "Bonfida",
