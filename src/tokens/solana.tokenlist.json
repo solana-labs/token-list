@@ -167,7 +167,8 @@
         "ethereum"
       ],
       "extensions": {
-        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "coingeckoId": "ripple"
       }
     },
     {
@@ -238,7 +239,8 @@
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
         "serumV3Usdc": "4LUro5jaPaTurXK737QAxgJywdhABnFAMQkXX4ZyqqaZ",
-        "serumV3Usdt": "8afKwzHR3wJE7W7Y5hvQkngXh6iTepSZuutRMMy96MjR"
+        "serumV3Usdt": "8afKwzHR3wJE7W7Y5hvQkngXh6iTepSZuutRMMy96MjR",
+        "coingeckoId": "swipe"
       }
     },
     {
@@ -274,7 +276,8 @@
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
         "serumV3Usdc": "7nZP6feE94eAz9jmfakNJWPwEKaeezuKKC5D1vrnqyo2",
-        "serumV3Usdt": "4ztJEvQyryoYagj2uieep3dyPwG2pyEwb2dKXTwmXe82"
+        "serumV3Usdt": "4ztJEvQyryoYagj2uieep3dyPwG2pyEwb2dKXTwmXe82",
+        "coingeckoId": "cream-2"
       }
     },
     {
@@ -446,7 +449,10 @@
         "stablecoin",
         "wrapped-sollet",
         "ethereum"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "usdc-coin"
+      }
     },
     {
       "chainId": 101,
@@ -478,7 +484,8 @@
         "ethereum"
       ],
       "extensions": {
-        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "coingeckoId": "karma-dao"
       }
     },
     {
@@ -530,7 +537,8 @@
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
         "serumV3Usdc": "3rgacody9SvM88QR83GHaNdEEx4Fe2V2ed5GJp2oeKDr",
-        "serumV3Usdt": "HEGnaVL5i48ubPBqWAhodnZo8VsSLzEM3Gfc451DnFj9"
+        "serumV3Usdt": "HEGnaVL5i48ubPBqWAhodnZo8VsSLzEM3Gfc451DnFj9",
+        "coingeckoId": "keep-network"
       }
     },
     {
@@ -546,7 +554,8 @@
       ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
-        "serumV3Usdt": "J2XSt77XWim5HwtUM8RUwQvmRXNZsbMKpp5GTKpHafvf"
+        "serumV3Usdt": "J2XSt77XWim5HwtUM8RUwQvmRXNZsbMKpp5GTKpHafvf",
+        "coingeckoId": "swag-finance"
       }
     },
     {
@@ -562,7 +571,8 @@
       ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
-        "serumV3Usdt": "cgani53cMZgYfRMgSrNekJTMaLmccRfspsfTbXWRg7u"
+        "serumV3Usdt": "cgani53cMZgYfRMgSrNekJTMaLmccRfspsfTbXWRg7u",
+        "coingeckoId": "celsius-degree-token"
       }
     },
     {
@@ -578,7 +588,8 @@
       ],
       "extensions": {
         "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
-        "serumV3Usdt": "FcPet5fz9NLdbXwVM6kw2WTHzRAD7mT78UjwTpawd7hJ"
+        "serumV3Usdt": "FcPet5fz9NLdbXwVM6kw2WTHzRAD7mT78UjwTpawd7hJ",
+        "coingeckoId": "reserve-rights-token"
       }
     },
     {
@@ -593,7 +604,8 @@
         "ethereum"
       ],
       "extensions": {
-        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "coingeckoId": "1inch"
       }
     },
     {
@@ -608,7 +620,8 @@
         "ethereum"
       ],
       "extensions": {
-        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "coingeckoId": "the-graph"
       }
     },
     {
@@ -623,7 +636,8 @@
         "ethereum"
       ],
       "extensions": {
-        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "coingeckoId": "compound-coin"
       }
     },
     {
@@ -638,7 +652,8 @@
         "ethereum"
       ],
       "extensions": {
-        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a"
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "coingeckoId": "pax-gold"
       }
     },
     {
@@ -725,7 +740,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/explorer/public/tokens/brz.png",
       "tags": [],
       "extensions": {
-        "website": "https://brztoken.io/"
+        "website": "https://brztoken.io/",
+        "coingeckoId": "brz"
       }
     },
     {
@@ -758,7 +774,8 @@
         "website": "https://benchmarkprotocol.finance/",
         "address": "0x36b679bd64ed73dbfd88909cdcb892cb66bd4cbb",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
-        "assetContract": "https://etherscan.io/address/0x36b679bd64ed73dbfd88909cdcb892cb66bd4cbb"
+        "assetContract": "https://etherscan.io/address/0x36b679bd64ed73dbfd88909cdcb892cb66bd4cbb",
+        "coingeckoId": "xmark"
       }
     },
     {
@@ -1749,7 +1766,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/bitsongofficial/assets/logo_128x128.png",
       "tags": [],
       "extensions": {
-        "website": "https://bitsong.io/"
+        "website": "https://bitsong.io/",
+        "coingeckoId": "bitsong"
       }
     },
     {
@@ -1762,7 +1780,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-eos-token"
+      }
     },
     {
       "chainId": 101,
@@ -1774,7 +1795,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-eos-token"
+      }
     },
     {
       "chainId": 101,
@@ -1786,7 +1810,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-bnb-token"
+      }
     },
     {
       "chainId": 101,
@@ -1798,7 +1825,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-bnb-token"
+      }
     },
     {
       "chainId": 101,
@@ -1810,7 +1840,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-bitcoin-sv-token"
+      }
     },
     {
       "chainId": 101,
@@ -1822,7 +1855,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-bitcoin-sv-token"
+      }
     },
     {
       "chainId": 101,
@@ -1834,7 +1870,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-litecoin-token"
+      }
     },
     {
       "chainId": 101,
@@ -1846,7 +1885,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-litecoin-token"
+      }
     },
     {
       "chainId": 101,
@@ -1858,7 +1900,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-bitcoin-token"
+      }
     },
     {
       "chainId": 101,
@@ -1870,7 +1915,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-bitcoin-token"
+      }
     },
     {
       "chainId": 101,
@@ -1882,7 +1930,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-bitcoin-cash-token"
+      }
     },
     {
       "chainId": 101,
@@ -1894,7 +1945,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-bitcoin-cash-token"
+      }
     },
     {
       "chainId": 101,
@@ -1906,7 +1960,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-ethereum-token"
+      }
     },
     {
       "chainId": 101,
@@ -1918,7 +1975,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-ethereum-token"
+      }
     },
     {
       "chainId": 101,
@@ -1930,7 +1990,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-altcoin-index-token"
+      }
     },
     {
       "chainId": 101,
@@ -1942,7 +2005,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-altcoin-index-token"
+      }
     },
     {
       "chainId": 101,
@@ -1954,7 +2020,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-shitcoin-index-token"
+      }
     },
     {
       "chainId": 101,
@@ -1966,7 +2035,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-shitcoin-index-token"
+      }
     },
     {
       "chainId": 101,
@@ -1978,7 +2050,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-midcap-index-token"
+      }
     },
     {
       "chainId": 101,
@@ -1990,7 +2065,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-midcap-index-token"
+      }
     },
     {
       "chainId": 101,
@@ -2002,7 +2080,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-chainlink-token"
+      }
     },
     {
       "chainId": 101,
@@ -2014,7 +2095,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-chainlink-token"
+      }
     },
     {
       "chainId": 101,
@@ -2026,7 +2110,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-xrp-token"
+      }
     },
     {
       "chainId": 101,
@@ -2038,7 +2125,10 @@
       "tags": [
         "leveraged",
         "bear"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-short-xrp-token"
+      }
     },
     {
       "chainId": 101,
@@ -2047,7 +2137,10 @@
       "symbol": "BVOL",
       "decimals": 6,
       "logoURI": "",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "1x-long-btc-implied-volatility-token"
+      }
     },
     {
       "chainId": 101,
@@ -2056,7 +2149,10 @@
       "symbol": "IBVOL",
       "decimals": 6,
       "logoURI": "",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "1x-short-btc-implied-volatility"
+      }
     },
     {
       "chainId": 101,
@@ -2067,7 +2163,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
       "tags": [],
       "extensions": {
-        "serumV3Usdt": "6bxuB5N3bt3qW8UnPNLgMMzDq5sEH8pFmYJYGgzvE11V"
+        "serumV3Usdt": "6bxuB5N3bt3qW8UnPNLgMMzDq5sEH8pFmYJYGgzvE11V",
+        "coingeckoId": "aave"
       }
     },
     {
@@ -2086,7 +2183,10 @@
       "symbol": "SECO",
       "decimals": 6,
       "logoURI": "",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "serum-ecosystem-token"
+      }
     },
     {
       "chainId": 101,
@@ -2095,7 +2195,10 @@
       "symbol": "HOLY",
       "decimals": 6,
       "logoURI": "",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "holy-trinity"
+      }
     },
     {
       "chainId": 101,
@@ -2106,7 +2209,8 @@
       "logoURI": "",
       "tags": [],
       "extensions": {
-        "serumV3Usdt": "AADohBGxvf7bvixs2HKC3dG2RuU3xpZDwaTzYFJThM8U"
+        "serumV3Usdt": "AADohBGxvf7bvixs2HKC3dG2RuU3xpZDwaTzYFJThM8U",
+        "coingeckoId": "bilira"
       }
     },
     {
@@ -2119,7 +2223,10 @@
       "tags": [
         "leveraged",
         "bull"
-      ]
+      ],
+      "extensions": {
+        "coingeckoId": "3x-long-dogecoin-token"
+      }
     },
     {
       "chainId": 101,
@@ -2152,7 +2259,10 @@
       "symbol": "PERP",
       "decimals": 6,
       "logoURI": "",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "perpetual-protocol"
+      }
     },
     {
       "chainId": 101,
@@ -6064,7 +6174,8 @@
         "mango"
       ],
       "extensions": {
-        "website": "https://initialcapoffering.com/"
+        "website": "https://initialcapoffering.com/",
+        "coingeckoId": "mango-market-caps"
       }
     },
     {
@@ -6133,7 +6244,8 @@
         "utility-token"
       ],
       "extensions": {
-        "website": "https://media.network/"
+        "website": "https://media.network/",
+        "coingeckoId": "media-network"
       }
     },
     {
@@ -6158,7 +6270,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
       "tags": [],
       "extensions": {
-        "website": "https://www.solana.com/"
+        "website": "https://www.solana.com/",
+        "coingeckoId": "solana"
       }
     },
     {
@@ -6207,7 +6320,10 @@
       "name": "Wrapped SOL",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "solana"
+      }
     },
     {
       "chainId": 103,
@@ -6240,7 +6356,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png",
       "tags": [],
       "extensions": {
-        "website": "https://projectserum.com/"
+        "website": "https://projectserum.com/",
+        "coingeckoId": "serum"
       }
     },
     {
@@ -6477,7 +6594,8 @@
       "tags": [],
       "extensions": {
         "website": "https://synthetify.io/",
-        "twitter": "https://twitter.com/synthetify"
+        "twitter": "https://twitter.com/synthetify",
+        "coingeckoId": "syntheify-token"
       }
     }
   ],
