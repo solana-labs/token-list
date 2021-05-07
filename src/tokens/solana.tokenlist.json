@@ -2295,6 +2295,24 @@
     },
     {
       "chainId": 101,
+      "address": "GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi",
+      "symbol": "wFTT",
+      "name": "Wrapped FTT (Wormhole)",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3/logo.webp",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+        "coingeckoId": "ftx-token"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "AbLwQCyU9S8ycJgu8wn6woRCHSYJmjMpJFcAHQ6vjq2P",
       "symbol": "wTUSD",
       "name": "TrueUSD (Wormhole)",
@@ -6586,7 +6604,7 @@
       "extensions": {
         "website": "https://stonkscoin.org/"
       }
-     },
+    },
     {
       "chainId": 101,
       "address": "667SDyj7oNYUqhwRV4SNur7wxN9ZfhKVJbumXwkfLGTs",
