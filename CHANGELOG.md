@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.75 (2021-05-07)
+
+
+### Bug Fixes
+
+* FTT logo ([d61b288](https://github.com/solana-labs/token-list/commit/d61b288f2f1026c55862406acfcca3d4810775d1))
+
 ### 0.2.74 (2021-05-07)
 
 ### 0.2.73 (2021-05-07)
