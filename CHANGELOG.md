@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.79 (2021-05-10)
+
+
+### Features
+
+* add pr test ([#128](https://github.com/solana-labs/token-list/issues/128)) ([8bda197](https://github.com/solana-labs/token-list/commit/8bda197c8abf81af18d78702b56d0c424efcc149))
+
+### 0.2.78 (2021-05-10)
+
 ### 0.2.77 (2021-05-09)
 
 ### 0.2.76 (2021-05-07)
