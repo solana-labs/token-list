@@ -6811,6 +6811,7 @@
       }
     },
     {
+      "chainId": 101,
       "address": "8GQsW3f7mdwfjqJon2myADcBsSsRjpXmxHYDG8q1pvV6",
       "symbol": "HOLD",
       "name": "Holdana",
@@ -6848,6 +6849,7 @@
         "website": "https://synthetify.io/",
         "twitter": "https://twitter.com/synthetify",
         "coingeckoId": "syntheify-token"
+      }
     },
     {
       "chainId": 101,
@@ -6878,8 +6880,20 @@
       "tags": [],
       "extensions": {
         "website": "https://www.frogsolana.com/"
-         }
-      },
+      } 
+    },
+    {
+      "chainId": 101,
+      "address": "3x7UeXDF4imKSKnizK9mYyx1M5bTNzpeALfPeB8S6XT9",
+      "symbol": "SKEM",
+      "name": "SKEM",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/cheesesoda/skem/main/skemtoken.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://skem.finance/"
+      }
+    },
     { 
       "chainId": 101,
       "address": "GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN",
@@ -6890,7 +6904,7 @@
       "tags": [],
       "extensions": {
         "website": "https://solape.io
-      }
+      } 
     }
   ],
   "version": {
