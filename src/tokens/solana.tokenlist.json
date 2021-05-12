@@ -789,6 +789,7 @@
       "extensions": {
         "website": "https://raydium.io/",
         "serumV3Usdt": "teE55QrL4a4QSfydR9dnHF97jgCfptpuigbb53Lo95g",
+        "serumV3Usdc": "2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep",
         "coingeckoId": "raydium"
       }
     },
@@ -6361,7 +6362,7 @@
       "address": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
       "symbol": "COPE",
       "name": "COPE",
-      "decimals": 6,
+      "decimals": 0,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
       "tags": [
         "trading",
@@ -6748,6 +6749,18 @@
     },
     {
       "chainId": 101,
+      "address": "36s6AFRXzE9KVdUyoJQ5y6mwxXw21LawYqqwNiQUMD8s",
+      "symbol": "TCW",
+      "name": "The Convergence War",
+      "decimals": 0,
+      "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.staratlas.com"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "8ymi88q5DtmdNTn2sPRNFkvMkszMHuLJ1e3RVdWjPa3s",
       "symbol": "SDOGE",
       "name": "SolDoge",
@@ -6880,7 +6893,7 @@
       "tags": [],
       "extensions": {
         "website": "https://www.frogsolana.com/"
-      } 
+      }
     },
     {
       "chainId": 101,
@@ -6904,7 +6917,18 @@
       "tags": [],
       "extensions": {
         "website": "https://solape.io
-      } 
+      }, 
+    {
+      "chainId": 101,
+      "address": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",
+      "symbol": "MER",
+      "name": "Mercurial",
+      "decimals": 6,
+      "logoURI": "https://www.mercurial.finance/mercurial-explorer-logo.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.mercurial.finance/"
+      }
     }
   ],
   "version": {
