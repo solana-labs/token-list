@@ -789,6 +789,7 @@
       "extensions": {
         "website": "https://raydium.io/",
         "serumV3Usdt": "teE55QrL4a4QSfydR9dnHF97jgCfptpuigbb53Lo95g",
+        "serumV3Usdc": "2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep",
         "coingeckoId": "raydium"
       }
     },
@@ -6361,7 +6362,7 @@
       "address": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
       "symbol": "COPE",
       "name": "COPE",
-      "decimals": 6,
+      "decimals": 0,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
       "tags": [
         "trading",
@@ -6906,6 +6907,7 @@
     "extensions": {
       "website": "https://solana.com/",
       "twitter": "https://twitter.com/if__name__main"
+      }
     },
     {
       "chainId": 101,
@@ -6917,6 +6919,29 @@
       "tags": [],
       "extensions": {
         "website": "https://skem.finance/"
+      }
+    },
+    { 
+      "chainId": 101,
+      "address": "GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN",
+      "symbol": "SOLAPE",
+      "name": "SolAPE Finance",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/5F0859r/solape.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solape.io
+      }, 
+    {
+      "chainId": 101,
+      "address": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",
+      "symbol": "MER",
+      "name": "Mercurial",
+      "decimals": 6,
+      "logoURI": "https://www.mercurial.finance/mercurial-explorer-logo.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.mercurial.finance/"
       }
     }
   }
