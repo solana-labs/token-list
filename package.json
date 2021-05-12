@@ -1,6 +1,6 @@
 {
   "name": "@solana/spl-token-registry",
-  "version": "0.2.77",
+  "version": "0.2.85",
   "description": "Solana Token Registry",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
@@ -47,6 +47,7 @@
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
+    "@types/node": "^15.0.2",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "ava": "^3.12.1",
