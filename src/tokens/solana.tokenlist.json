@@ -789,6 +789,7 @@
       "extensions": {
         "website": "https://raydium.io/",
         "serumV3Usdt": "teE55QrL4a4QSfydR9dnHF97jgCfptpuigbb53Lo95g",
+        "serumV3Usdc": "2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep",
         "coingeckoId": "raydium"
       }
     },
@@ -6361,7 +6362,7 @@
       "address": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
       "symbol": "COPE",
       "name": "COPE",
-      "decimals": 6,
+      "decimals": 0,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
       "tags": [
         "trading",
@@ -6606,6 +6607,17 @@
       }
     },
     {
+      "chainId": 103,
+      "address": "3aMbgP7aGsP1sVcFKc6j65zu7UiziP57SMFzf6ptiCSX",
+      "symbol": "sHOG",
+      "name": "Devnet StableHog",
+      "decimals": 6,
+      "logoURI": "https://i.ibb.co/7GddV42/Frame-1.png",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
       "chainId": 101,
       "address": "3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s",
       "symbol": "Kreechures",
@@ -6748,6 +6760,18 @@
     },
     {
       "chainId": 101,
+      "address": "36s6AFRXzE9KVdUyoJQ5y6mwxXw21LawYqqwNiQUMD8s",
+      "symbol": "TCW",
+      "name": "The Convergence War",
+      "decimals": 0,
+      "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.staratlas.com"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "8ymi88q5DtmdNTn2sPRNFkvMkszMHuLJ1e3RVdWjPa3s",
       "symbol": "SDOGE",
       "name": "SolDoge",
@@ -6800,11 +6824,11 @@
     },
     {
       "chainId": 101,
-      "address": "667SDyj7oNYUqhwRV4SNur7wxN9ZfhKVJbumXwkfLGTs",
+      "address": "4368jNGeNq7Tt4Vzr98UWxL647PYu969VjzAsWGVaVH2",
       "symbol": "MEAL",
       "name": "HUNGRY",
-      "decimals": 10,
-      "logoURI": "https://hungrystatic.b-cdn.net/images/default.png",
+      "decimals": 8,
+      "logoURI": "https://hungrystatic.b-cdn.net/images/logo.png",
       "tags": [],
       "extensions": {
         "website": "https://hungrycoin.io/"
@@ -6839,7 +6863,7 @@
     },
     {
       "chainId": 101,
-      "address": "xuNGfwG8r3CEubQcssj3A7zoZwb4NaiamhHsJEMt7kf",
+      "address": "4dmKkXNHdgYsXqBHCuMikNQWwVomZURhYvkkX5c4pQ7y",
       "symbol": "SNY",
       "name": "Synthetify",
       "decimals": 6,
@@ -6870,7 +6894,106 @@
         "twitter": "https://twitter.com/ArcadeCityHall"
       }
     },
-	{
+    {
+      "chainId": 101,
+      "address": "Amt5wUJREJQC5pX7Z48YSK812xmu4j3sQVupNhtsEuY8",
+      "symbol": "FROG",
+      "name": "FROG",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/FROG-SPL/branding/main/the_frauge_finifhes.jpeg",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.froglana.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9Y8NT5HT9z2EsmCbYMgKXPRq3h3aa6tycEqfFiXjfZM7",
+      "symbol": "CRT",
+      "name": "CARROT",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/Farmers-Carrot/Carrot-logo/carrotcoin_128.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://farmerscarrot.com/",
+        "serumV3Usdc": "Aa8mN8bXAobmcuHDpbbZh55SoadUry6WdsYz2886Ymqf"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AMdnw9H5DFtQwZowVFr4kUgSXJzLokKSinvgGiUoLSps",
+      "symbol": "MOLA",
+      "name": "MOONLANA",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/NtrSyDc/moonlana.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "https://moonlana.com/",
+        "twitter": "https://twitter.com/xMoonLana",
+        "medium": "https://moonlana.medium.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3x7UeXDF4imKSKnizK9mYyx1M5bTNzpeALfPeB8S6XT9",
+      "symbol": "SKEM",
+      "name": "SKEM",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/cheesesoda/skem/main/skemtoken.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://skem.finance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN",
+      "symbol": "SOLAPE",
+      "name": "SolAPE Finance",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/5F0859r/solape.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solape.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",
+      "symbol": "MER",
+      "name": "Mercurial",
+      "decimals": 6,
+      "logoURI": "https://www.mercurial.finance/mercurial-explorer-logo.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.mercurial.finance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9MhNoxy1PbmEazjPo9kiZPCcG7BiFbhi3bWZXZgacfpp",
+      "symbol": "ACMN",
+      "name": "ACUMEN",
+      "decimals": 9,
+      "logoURI": "https://pbs.twimg.com/profile_images/1384592811824238600/eIqc0048_400x400.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "https://acumen.network/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EfLvzNsqmkoSneiML5t7uHCPEVRaWCpG4N2WsS39nWCU",
+      "symbol": "MUDLEY",
+      "name": "MUDLEY",
+      "decimals": 9,
+      "logoURI": "https://www.mudley.io/static/dappx/images/mudley_icon.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.mudley.io/"
+      }
+    },
+    {
       "chainId": 101,
       "address": "ERPueLaiBW48uBhqX1CvCYBv2ApHN6ZFuME1MeQGTdAi",
       "symbol": "MIT",
@@ -6882,7 +7005,8 @@
         "musk"
       ],
       "extensions": {
-        "website": "https://muskimum.win/"
+        "website": "https://muskimum.win/",
+        "twitter": "https://twitter.com/muskimum"
       }
     }
   ],
