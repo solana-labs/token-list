@@ -7004,12 +7004,84 @@
     "extensions": {
       "website": "https://kekw.io/",
       "twitter": "https://twitter.com/kekwcoin"
+      {
+    },
+    {
+      "chainId": 101,
+      "address": "7Csho7qjseDjgX3hhBxfwP1W3LYARK3QH3PM2x55we14",
+      "symbol": "LOTTO",
+      "name": "Lotto",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/13822/large/Lotto-Logo256x256.png?1612150421",
+      "tags": [],
+      "extensions": {
+        "serumV3Usdc": "9MZKfgZzPgeidAukYpHtsLYm4eAdJFnR7nhPosWT8jiv",
+        "coingeckoId": "Lotto",
+        "website": "lotto.finance",
+        "address": "0xb0dfd28d3cf7a5897c694904ace292539242f858",
+        "assetContract": "https://etherscan.io/address/0xb0dfd28d3cf7a5897c694904ace292539242f858",
+        "tggroup": "https://t.me/lottofinance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7uv3ZvZcQLd95bUp5WMioxG7tyAZVXFfr8JYkwhMYrnt",
+      "symbol": "BOLE",
+      "name": "Bole Token",
+      "decimals": 4,
+      "logoURI": "https://i.ibb.co/mb1KYqn/Bole.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://tokenbole.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Bxp46xCB6CLjiqE99QaTcJAaY1hYF1o63DUUrXAS7QFu",
+      "symbol": "mBRZ",
+      "name": "SolMiner Bronze",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/Wcxc7K7/solminer-bronze.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solminer.app",
+        "medium": "https://solminer.medium.com/",
+        "twitter": "https://twitter.com/SolMinerproject"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GZNrMEdrt6Vg428JzvJYRGGPpVxgjUPsg6WLqKBvmNLw",
+      "symbol": "mPLAT",
+      "name": "SolMiner Platinum",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/vYkMprc/solminer-platinum.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solminer.app",
+        "medium": "https://solminer.medium.com/",
+        "twitter": "https://twitter.com/SolMinerproject"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Er7a3ugS6kkAqj6sp3UmXEFAFrDdLMRQEkV9QH2fwRYA",
+      "symbol": "mDIAM",
+      "name": "SolMiner Diamond",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/rtvKFHn/solminer-diamond.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solminer.app",
+        "medium": "https://solminer.medium.com/",
+        "twitter": "https://twitter.com/SolMinerproject"
+      }
     }
   }
   ],
   "version": {
     "major": 0,
     "minor": 2,
-    "patch": 0
+    "patch": 2
   }
 }
