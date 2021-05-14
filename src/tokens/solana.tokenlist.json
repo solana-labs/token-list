@@ -7021,11 +7021,68 @@
       "extensions": {
         "website": "https://tokenbole.com/"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "Bxp46xCB6CLjiqE99QaTcJAaY1hYF1o63DUUrXAS7QFu",
+      "symbol": "mBRZ",
+      "name": "SolMiner Bronze",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/Wcxc7K7/solminer-bronze.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solminer.app",
+        "medium": "https://solminer.medium.com/",
+        "twitter": "https://twitter.com/SolMinerproject"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GZNrMEdrt6Vg428JzvJYRGGPpVxgjUPsg6WLqKBvmNLw",
+      "symbol": "mPLAT",
+      "name": "SolMiner Platinum",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/vYkMprc/solminer-platinum.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solminer.app",
+        "medium": "https://solminer.medium.com/",
+        "twitter": "https://twitter.com/SolMinerproject"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Er7a3ugS6kkAqj6sp3UmXEFAFrDdLMRQEkV9QH2fwRYA",
+      "symbol": "mDIAM",
+      "name": "SolMiner Diamond",
+      "decimals": 9,
+      "logoURI": "https://i.ibb.co/rtvKFHn/solminer-diamond.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solminer.app",
+        "medium": "https://solminer.medium.com/",
+        "twitter": "https://twitter.com/SolMinerproject"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5JnZ667P3VcjDinkJFysWh2K2KtViy63FZ3oL5YghEhW",
+      "symbol": "APYS",
+      "name": "APYSwap",
+      "decimals": 9,
+      "logoURI": "hhttps://cloudflare-ipfs.com/ipfs/QmR5oKs4ygasusTtt2n2fCBLVufgpeXToJtb9vhXEmbaY1/token_dark.png",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "website": "https://apyswap.com",
+        "coingeckoId": "apyswap"
+      }
     }
   ],
   "version": {
     "major": 0,
     "minor": 2,
-    "patch": 1
+    "patch": 2
   }
 }
