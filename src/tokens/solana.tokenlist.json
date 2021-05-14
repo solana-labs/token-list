@@ -6992,11 +6992,28 @@
       "extensions": {
         "website": "https://www.mudley.io/"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "7Csho7qjseDjgX3hhBxfwP1W3LYARK3QH3PM2x55we14",
+      "symbol": "LOTTO",
+      "name": "Lotto",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/13822/large/Lotto-Logo256x256.png?1612150421",
+      "tags": [],
+      "extensions": {
+        "serumV3Usdc": "9MZKfgZzPgeidAukYpHtsLYm4eAdJFnR7nhPosWT8jiv",
+        "coingeckoId": "Lotto",
+        "website": "lotto.finance",
+        "address": "0xb0dfd28d3cf7a5897c694904ace292539242f858",
+        "assetContract": "https://etherscan.io/address/0xb0dfd28d3cf7a5897c694904ace292539242f858",
+        "tggroup": "https://t.me/lottofinance"
+      }
     }
   ],
   "version": {
     "major": 0,
     "minor": 2,
-    "patch": 0
+    "patch": 1
   }
 }
