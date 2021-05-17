@@ -7262,18 +7262,6 @@
     },
     {
       "chainId": 101,
-      "address": "HBHMiauecxer5FCzPeXgE2A8ZCf7fQgxxwo4vfkFtC7s",
-      "symbol": "SLNDN",
-      "name": "Solanadon",
-      "decimals": 9,
-      "logoURI": "https://avatars.githubusercontent.com/u/84234249?s=400&u=13b4d7cf678ad50ed52d1facff89b032758fd603&v=4",
-      "tags": [],
-      "extensions": {
-        "website": "https://solanadon.com/",
-        "twitter": "https://twitter.com/SolanadonCoin",
-        "tgann": "https://t.me/solanadonann",
-{
-      "chainId": 101,
       "address": "BsDrXiQaFd147Fxq1fQYbJQ77P6tmPkRJQJzkKvspDKo",
       "symbol": "SOLA",
       "name": "SolaPAD Token",
@@ -7303,7 +7291,22 @@
         "website": "https://www.solapad.org/",
         "twitter": "https://twitter.com/SolaPAD"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "HBHMiauecxer5FCzPeXgE2A8ZCf7fQgxxwo4vfkFtC7s",
+      "symbol": "SLNDN",
+      "name": "Solanadon",
+      "decimals": 9,
+      "logoURI": "https://avatars.githubusercontent.com/u/84234249?s=400&u=13b4d7cf678ad50ed52d1facff89b032758fd603&v=4",
+      "tags": [],
+      "extensions": {
+        "website": "https://solanadon.com/",
+        "twitter": "https://twitter.com/SolanadonCoin",
+        "tgann": "https://t.me/solanadonann"
+      }
     }
+    
   ],
   "version": {
     "major": 0,
@@ -7311,3 +7314,4 @@
     "patch": 2
   }
 }
+
