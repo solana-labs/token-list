@@ -9,8 +9,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* merge issue ([340bdd2](https://github.com/solana-labs/token-list/commit/340bdd2fb2a0b0df8cf24acc2a7479cfa0e27ef0))
-
 ### 0.2.95 (2021-05-14)
 
 ### 0.2.94 (2021-05-14)
