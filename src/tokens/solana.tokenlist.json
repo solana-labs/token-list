@@ -7305,7 +7305,36 @@
       }
     },
     {
-       "chainId": 101,
+      "address": "Djoz8btdR7p6xWHoVtPYF3zyN9LU5BBfMoDk4HczSDqc",
+      "symbol": "AUSS",
+      "name": "Ausshole",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/cheesesoda/auss/main/auss.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://auss.finance/",
+        "twitter": "https://twitter.com/ausstoken"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs",
+      "symbol": "TULIP",
+      "name": "Tulip",
+      "decimals": 6,
+      "logoURI": "https://solfarm.io/solfarm-logo.svg",
+      "tags": [
+        "tulip",
+        "solfarm",
+        "vaults"
+      ],
+      "extensions": {
+        "website": "https://solfarm.io",
+        "twitter": "https://twitter.com/Solfarmio"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "muons1SXVihhnwCJAC7T7o97jHHVcT8e2o7NkC6VFmo",
       "symbol": "MUON",
       "name": "Muon",
@@ -7316,7 +7345,7 @@
         "website": "https://muon.fi",
         "twitter": "https://twitter.com/MuonFi"
       }
-    }
+    },
   ],
   "version": {
     "major": 0,
