@@ -6360,8 +6360,8 @@
     {
       "chainId": 101,
       "address": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
-      "symbol": "COPE",
-      "name": "COPE",
+      "symbol": "XCOPE",
+      "name": "XCOPE",
       "decimals": 0,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
       "tags": [
@@ -6372,6 +6372,24 @@
       "extensions": {
         "website": "https://www.unlimitedcope.com/",
         "serumV3Usdc": "7MpMwArporUHEGW7quUpkPZp5L5cHPs9eKUfKCdaPHq2",
+        "coingeckoId": "cope"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh",
+      "symbol": "COPE",
+      "name": "COPE",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
+      "tags": [
+        "trading",
+        "index",
+        "Algos"
+      ],
+      "extensions": {
+        "website": "https://www.unlimitedcope.com/",
+        "serumV3Usdc": "6fc7v3PmjZG9Lk2XTot6BywGyYLkBQuzuFKd4FpCsPxk",
         "coingeckoId": "cope"
       }
     },
@@ -7117,6 +7135,18 @@
     },
     {
       "chainId": 101,
+      "address": "9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE",
+      "symbol": "WOOF",
+      "name": "WOOFENOMICS",
+      "decimals": 6,
+      "logoURI": "https://i.ibb.co/sHb9qZj/woof-orange-black.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://woofsolana.com"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",
       "symbol": "MER",
       "name": "Mercurial",
@@ -7228,7 +7258,7 @@
       "symbol": "APYS",
       "name": "APYSwap",
       "decimals": 9,
-      "logoURI": "hhttps://cloudflare-ipfs.com/ipfs/QmR5oKs4ygasusTtt2n2fCBLVufgpeXToJtb9vhXEmbaY1/token_dark.png",
+      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmR5oKs4ygasusTtt2n2fCBLVufgpeXToJtb9vhXEmbaY1/token_dark.png",
       "tags": [
         "wrapped"
       ],
@@ -7375,6 +7405,7 @@
         "website": "https://jpyc.jp/"
       }
     },
+    ,
     {
       "chainId": 101,
       "address": "GunpHq4fn9gSSyGbPMYXTzs9nBS8RY88CX1so4V8kCiF",
@@ -7386,6 +7417,40 @@
       "extensions": {
         "website": "https://fable.finance",
         "twitter": "https://twitter.com/fable_finance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3QuAYThYKFXSmrTcSHsdd7sAxaFBobaCkLy2DBYJLMDs",
+      "symbol": "TYNA",
+      "name": "wTYNA",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/M-Igashi/FTX-GAS-Tools/main/icon384.png",
+      "tags": [
+        "ERC20",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x4ae54790c130B21E8CbaCAB011C6170e079e6eF5",
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "assetContract": "https://etherscan.io/address/0x4ae54790c130B21E8CbaCAB011C6170e079e6eF5",
+        "website": "http://lendingbot.s3-website-us-east-1.amazonaws.com/whitepaper.html",
+        "twitter": "https://twitter.com/btc_AP"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7zsKqN7Fg2s9VsqAq6XBoiShCVohpGshSUvoWBc6jKYh",
+      "symbol": "ARDX",
+      "name": "Wrapped ArdCoin (Sollet)",
+      "decimals": 2,
+      "logoURI": "https://cdn.dex.mn/logo/ardx.png",
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
+      "extensions": {
+        "website": "https://ardcoin.com"
       }
     }
   ],
