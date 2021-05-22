@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.109 (2021-05-22)
+
+
+### Features
+
+* add sdt ([#203](https://github.com/solana-labs/token-list/issues/203)) ([b3b0362](https://github.com/solana-labs/token-list/commit/b3b03622a4d835d013b6a36376588352d66d058f))
+
 ### 0.2.108 (2021-05-22)
 
 ### 0.2.107 (2021-05-21)
