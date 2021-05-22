@@ -6318,7 +6318,7 @@
       "address": "BZCPpva12M9SqJgcpf8jtP9Si6rMANFoUR3i7nchha7M",
       "symbol": "waUSDC",
       "name": "Aave interest bearing USDC (Wormhole)",
-      "decimals": 6,
+      "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
       "tags": [
         "wrapped",
@@ -6329,6 +6329,24 @@
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
         "assetContract": "https://etherscan.io/address/0xBcca60bB61934080951369a648Fb03DF4F96263C",
         "coingeckoId": "aave-usdc"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "D3ajQoyBGJz3JCXCPsxHZJbLQKGt9UgxLavgurieGNcD",
+      "symbol": "wSDT",
+      "name": "Stake DAO Token (Wormhole)",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/D3ajQoyBGJz3JCXCPsxHZJbLQKGt9UgxLavgurieGNcD/logo.webp",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f",
+        "coingeckoId": "stake-dao"
       }
     },
     {
