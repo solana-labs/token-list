@@ -2,6 +2,47 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.109 (2021-05-22)
+
+
+### Features
+
+* add sdt ([#203](https://github.com/solana-labs/token-list/issues/203)) ([b3b0362](https://github.com/solana-labs/token-list/commit/b3b03622a4d835d013b6a36376588352d66d058f))
+
+### 0.2.108 (2021-05-22)
+
+### 0.2.107 (2021-05-21)
+
+### 0.2.106 (2021-05-21)
+
+### 0.2.105 (2021-05-20)
+
+
+### Features
+
+* add cope ([#193](https://github.com/solana-labs/token-list/issues/193)) ([2b71ace](https://github.com/solana-labs/token-list/commit/2b71ace746eb04998393ca05fc6074551cdb1c82))
+
+### 0.2.104 (2021-05-20)
+
+### 0.2.103 (2021-05-20)
+
+### 0.2.102 (2021-05-19)
+
+### 0.2.101 (2021-05-19)
+
+### 0.2.100 (2021-05-18)
+
+### 0.2.99 (2021-05-18)
+
+### 0.2.98 (2021-05-17)
+
+### 0.2.97 (2021-05-17)
+
+### 0.2.96 (2021-05-17)
+
+
+### Bug Fixes
+
 ### 0.2.95 (2021-05-14)
 
 ### 0.2.94 (2021-05-14)

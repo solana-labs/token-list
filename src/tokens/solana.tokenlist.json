@@ -6318,7 +6318,7 @@
       "address": "BZCPpva12M9SqJgcpf8jtP9Si6rMANFoUR3i7nchha7M",
       "symbol": "waUSDC",
       "name": "Aave interest bearing USDC (Wormhole)",
-      "decimals": 6,
+      "decimals": 9,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
       "tags": [
         "wrapped",
@@ -6329,6 +6329,24 @@
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
         "assetContract": "https://etherscan.io/address/0xBcca60bB61934080951369a648Fb03DF4F96263C",
         "coingeckoId": "aave-usdc"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "D3ajQoyBGJz3JCXCPsxHZJbLQKGt9UgxLavgurieGNcD",
+      "symbol": "wSDT",
+      "name": "Stake DAO Token (Wormhole)",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/D3ajQoyBGJz3JCXCPsxHZJbLQKGt9UgxLavgurieGNcD/logo.webp",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f",
+        "coingeckoId": "stake-dao"
       }
     },
     {
@@ -6360,8 +6378,8 @@
     {
       "chainId": 101,
       "address": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
-      "symbol": "COPE",
-      "name": "COPE",
+      "symbol": "XCOPE",
+      "name": "XCOPE",
       "decimals": 0,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
       "tags": [
@@ -6377,10 +6395,28 @@
     },
     {
       "chainId": 101,
+      "address": "8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh",
+      "symbol": "COPE",
+      "name": "COPE",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
+      "tags": [
+        "trading",
+        "index",
+        "Algos"
+      ],
+      "extensions": {
+        "website": "https://www.unlimitedcope.com/",
+        "serumV3Usdc": "6fc7v3PmjZG9Lk2XTot6BywGyYLkBQuzuFKd4FpCsPxk",
+        "coingeckoId": "cope"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "2prC8tcVsXwVJAinhxd2zeMeWMWaVyzPoQeLKyDZRFKd",
       "symbol": "MCAPS",
       "name": "Mango Market Caps",
-      "decimals": 6,
+      "decimals": 0,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/2prC8tcVsXwVJAinhxd2zeMeWMWaVyzPoQeLKyDZRFKd/logo.png",
       "tags": [
         "mango"
@@ -6433,12 +6469,12 @@
       "symbol": "SLOCK",
       "name": "SOLLock",
       "decimals": 9,
-      "logoURI": "https://sollock.io/token/sollock_icon.png",
+      "logoURI": "https://sollock.org/token/media/images/token/sollock_token_logo.png",
       "tags": [
         "utility-token"
       ],
       "extensions": {
-        "website": "https://sollock.io/",
+        "website": "https://sollock.org/",
         "twitter": "https://twitter.com/@SOLLockOfficial",
         "github": "https://github.com/SOLLock",
         "tgann": "https://t.me/SOLLockAnn",
@@ -6741,7 +6777,9 @@
       "name": "Discovery of Iris",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6753,7 +6791,9 @@
       "name": "The Heart of Star Atlas",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6765,7 +6805,9 @@
       "name": "The Convergence War",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6777,7 +6819,9 @@
       "name": "Short Story of a Lost Astronaut",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6789,7 +6833,9 @@
       "name": "B ❤ P",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6801,7 +6847,9 @@
       "name": "The Assassination of Paizul",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6813,7 +6861,9 @@
       "name": "Paizul Funeral Procession",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6825,7 +6875,9 @@
       "name": "Ahr Visits Earth",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6837,7 +6889,9 @@
       "name": "The Last Stand",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6849,7 +6903,9 @@
       "name": "The Signing of the Peace Treaty",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6861,7 +6917,9 @@
       "name": "The Peacebringers Archive",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6873,7 +6931,9 @@
       "name": "Ustur Wod.bod",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -6885,7 +6945,9 @@
       "name": "Om Photoli",
       "decimals": 0,
       "logoURI": "https://storage.googleapis.com/star-atlas-assets/star-atlas-logo.png",
-      "tags": [],
+      "tags": [
+        "nft"
+      ],
       "extensions": {
         "website": "https://www.staratlas.com"
       }
@@ -7091,6 +7153,18 @@
     },
     {
       "chainId": 101,
+      "address": "9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE",
+      "symbol": "WOOF",
+      "name": "WOOFENOMICS",
+      "decimals": 6,
+      "logoURI": "https://i.ibb.co/sHb9qZj/woof-orange-black.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://woofsolana.com"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",
       "symbol": "MER",
       "name": "Mercurial",
@@ -7098,6 +7172,7 @@
       "logoURI": "https://www.mercurial.finance/mercurial-explorer-logo.svg",
       "tags": [],
       "extensions": {
+        "coingeckoId": "mercurial",
         "website": "https://www.mercurial.finance/"
       }
     },
@@ -7202,7 +7277,7 @@
       "symbol": "APYS",
       "name": "APYSwap",
       "decimals": 9,
-      "logoURI": "hhttps://cloudflare-ipfs.com/ipfs/QmR5oKs4ygasusTtt2n2fCBLVufgpeXToJtb9vhXEmbaY1/token_dark.png",
+      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmR5oKs4ygasusTtt2n2fCBLVufgpeXToJtb9vhXEmbaY1/token_dark.png",
       "tags": [
         "wrapped"
       ],
@@ -7262,6 +7337,7 @@
     },
     {
       "chainId": 101,
+
       "address": "J81fW7aza8wVUG1jjzhExsNMs3MrzwT5WrofgFqMjnSA/transactions",
       "symbol": "TOM",
       "name": "Tombili",
@@ -7273,6 +7349,129 @@
       "extensions": {
         "website": "https://cryptomindex.com",
         "twitter": "https://twitter.com/cryptomindex",
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BsDrXiQaFd147Fxq1fQYbJQ77P6tmPkRJQJzkKvspDKo",
+      "symbol": "SOLA",
+      "name": "SolaPAD Token",
+      "decimals": 8,
+      "logoURI": "https://i.ibb.co/3p4SMBd/LOGO.png",
+      "tags": [
+        "SOLA",
+        "LaunchPAD"
+      ],
+      "extensions": {
+        "website": "https://www.solapad.org/",
+        "twitter": "https://twitter.com/SolaPAD"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BsDrXiQaFd147Fxq1fQYbJQ77P6tmPkRJQJzkKvspDKo",
+      "symbol": "SOLA",
+      "name": "SolaPAD Token",
+      "decimals": 8,
+      "logoURI": "https://i.ibb.co/3p4SMBd/LOGO.png",
+      "tags": [
+        "SOLA",
+        "LaunchPAD"
+      ],
+      "extensions": {
+        "website": "https://www.solapad.org/",
+        "twitter": "https://twitter.com/SolaPAD"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7fCzz6ZDHm4UWC9Se1RPLmiyeuQ6kStxpcAP696EuE1E",
+      "symbol": "SHBL",
+      "name": "Shoebill Coin",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/leafwind/shoebill-coin/shoebill.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://leafwind.tw/shoebill-coin/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Djoz8btdR7p6xWHoVtPYF3zyN9LU5BBfMoDk4HczSDqc",
+      "symbol": "AUSS",
+      "name": "Ausshole",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/cheesesoda/auss/main/auss.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://auss.finance/",
+        "twitter": "https://twitter.com/ausstoken"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs",
+      "symbol": "TULIP",
+      "name": "Tulip",
+      "decimals": 6,
+      "logoURI": "https://solfarm.io/solfarm-logo.svg",
+      "tags": [
+        "tulip",
+        "solfarm",
+        "vaults"
+      ],
+      "extensions": {
+        "website": "https://solfarm.io",
+        "twitter": "https://twitter.com/Solfarmio"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5trVBqv1LvHxiSPMsHtEZuf8iN82wbpDcR5Zaw7sWC3s",
+      "symbol": "JPYC",
+      "name": "JPY Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/jpycoin/jpyc/main/src/image/jpyc.png",
+      "tags": [
+        "stablecoin",
+        "ethereum"
+      ],
+      "extensions": {
+        "website": "https://jpyc.jp/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3QuAYThYKFXSmrTcSHsdd7sAxaFBobaCkLy2DBYJLMDs",
+      "symbol": "TYNA",
+      "name": "wTYNA",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/M-Igashi/FTX-GAS-Tools/main/icon384.png",
+      "tags": [
+        "ERC20",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x4ae54790c130B21E8CbaCAB011C6170e079e6eF5",
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "assetContract": "https://etherscan.io/address/0x4ae54790c130B21E8CbaCAB011C6170e079e6eF5",
+        "website": "http://lendingbot.s3-website-us-east-1.amazonaws.com/whitepaper.html",
+        "twitter": "https://twitter.com/btc_AP"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7zsKqN7Fg2s9VsqAq6XBoiShCVohpGshSUvoWBc6jKYh",
+      "symbol": "ARDX",
+      "name": "Wrapped ArdCoin (Sollet)",
+      "decimals": 2,
+      "logoURI": "https://cdn.dex.mn/logo/ardx.png",
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
+      "extensions": {
+        "website": "https://ardcoin.com"
       }
     }
   ],

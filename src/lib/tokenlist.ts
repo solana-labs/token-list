@@ -19,6 +19,7 @@ export interface TokenList {
 export interface TagDetails {
   readonly name: string;
   readonly description: string;
+  readonly imageUrl: string;
 }
 
 export interface TokenExtensions {
