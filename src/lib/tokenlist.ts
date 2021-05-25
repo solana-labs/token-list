@@ -36,6 +36,8 @@ export interface TokenExtensions {
   readonly serumV3Usdt?: string;
   readonly serumV3Usdc?: string;
   readonly coingeckoId?: string;
+  readonly imageUrl?: string;
+  readonly description?: string;
 }
 
 export interface TokenInfo {
