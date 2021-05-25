@@ -19,7 +19,6 @@ export interface TokenList {
 export interface TagDetails {
   readonly name: string;
   readonly description: string;
-  readonly imageUrl: string;
 }
 
 export interface TokenExtensions {
@@ -37,6 +36,8 @@ export interface TokenExtensions {
   readonly serumV3Usdt?: string;
   readonly serumV3Usdc?: string;
   readonly coingeckoId?: string;
+  readonly imageUrl?: string;
+  readonly description?: string;
 }
 
 export interface TokenInfo {
