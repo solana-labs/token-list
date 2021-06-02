@@ -6753,6 +6753,30 @@
         "website": "https://solanium.io/"
       }
     },
+     {
+      "chainId": 101,
+      "address": "Ae1aeYK9WrB2kP29jJU4aUUK7Y1vzsGNZFKoe4BG2h6P",
+      "symbol": "NINJA",
+      "name": "NINJA",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/yuzu-ninjaprotocol/ninjaprotocol/main/NINJA%20Token.svg",
+      "tags": [],
+      "extensions": {
+        "website": "http://ninjaprotocol.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8GPUjUHFxfNhaSS8kUkix8txRRXszeUAsHTjUmHuygZT",
+      "symbol": "NINJA NFT1",
+      "name": "NINJA NFT1",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/yuzu-ninjaprotocol/ninjaprotocol/main/NINJA%20NFT%201.png",
+      "tags": [],
+      "extensions": {
+        "website": "http://ninjaprotocol.io"
+      }
+    },
     {
       "chainId": 101,
       "address": "2rEiLkpQ3mh4DGxv1zcSdW5r5HK2nehif5sCaF5Ss9E1",
@@ -7418,6 +7442,20 @@
     },
     {
       "chainId": 101,
+      "address": "GnaFnTihwQFjrLeJNeVdBfEZATMdaUwZZ1RPxLwjbVwb",
+      "symbol": "SHBL-USDC",
+      "name": "Raydium Permissionless LP Token (SHBL-USDC)",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "Djoz8btdR7p6xWHoVtPYF3zyN9LU5BBfMoDk4HczSDqc",
       "symbol": "AUSS",
       "name": "Ausshole",
@@ -7989,15 +8027,27 @@
     },
     {
       "chainId": 101,
+      "address": "4NPzwMK2gfgQ6rTv8x4EE1ZvKW6MYyYTSrAZCx7zxyaX",
+      "symbol": "KLB",
+      "name": "Black Label",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/klbtoken/klbtoken/main/klbtoken.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.klbtoken.com",
+        "twitter": "https://twitter.com/klbtoken"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "29UWGmi1MxJRi3izeritN8VvhZbUiX37KUVnGv46mzev",
       "symbol": "KLBX",
       "name": "Black Label X",
       "decimals": 4,
-      "logoURI": "https://raw.githubusercontent.com/klbtoken/klbtoken/main/klbx.svg",
+      "logoURI": "https://raw.githubusercontent.com/snekcoin/snek/main/snek.png",
       "tags": [],
       "extensions": {
-        "website": "https://klbtoken.com/x/",
-        "twitter": "https://twitter.com/klbtokenx"
+        "website": "https://klbtoken.com/x",
       }
     }
   ],
