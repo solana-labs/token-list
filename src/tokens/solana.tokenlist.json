@@ -1397,6 +1397,20 @@
     },
     {
       "chainId": 101,
+      "address": "2doeZGLJyACtaG9DCUyqMLtswesfje1hjNA11hMdj6YU",
+      "symbol": "TULIP-USDC",
+      "name": "Raydium LP Token V4 (TULIP-USDC)",
+      "decimals": 6,
+      "logoURI": "https://solfarm.io/tulip-usdc.svg",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "AcstFzGGawvvdVhYV9bftr7fmBHbePUjhv53YK1W3dZo",
       "symbol": "LSD",
       "name": "LSD",
@@ -6532,7 +6546,7 @@
     {
       "chainId": 102,
       "address": "So11111111111111111111111111111111111111112",
-      "symbol": "SOL",
+      "symbol": "wSOL",
       "name": "Wrapped SOL",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
@@ -6739,6 +6753,30 @@
         "website": "https://solanium.io/"
       }
     },
+     {
+      "chainId": 101,
+      "address": "Ae1aeYK9WrB2kP29jJU4aUUK7Y1vzsGNZFKoe4BG2h6P",
+      "symbol": "NINJA",
+      "name": "NINJA",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/yuzu-ninjaprotocol/ninjaprotocol/main/NINJA%20Token.svg",
+      "tags": [],
+      "extensions": {
+        "website": "http://ninjaprotocol.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8GPUjUHFxfNhaSS8kUkix8txRRXszeUAsHTjUmHuygZT",
+      "symbol": "NINJA NFT1",
+      "name": "NINJA NFT1",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/yuzu-ninjaprotocol/ninjaprotocol/main/NINJA%20NFT%201.png",
+      "tags": [],
+      "extensions": {
+        "website": "http://ninjaprotocol.io"
+      }
+    },
     {
       "chainId": 101,
       "address": "2rEiLkpQ3mh4DGxv1zcSdW5r5HK2nehif5sCaF5Ss9E1",
@@ -6787,7 +6825,9 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-1/discovery-of-iris.jpg",
+        "description": "The rogue planet, Iris, dense with invaluable materials, draws in and collides with seven child planets in a remote region of space, creating what is henceforth referred to as 'The Cataclysm'. When combined, these eight elements create a form of free energy. The collision creates a massively valuable debris field."
       }
     },
     {
@@ -6801,7 +6841,9 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-2/the-heart-of-star-atlas.jpg",
+        "description": "At the core of Star Atlas lies a treasure trove of priceless data. After an unsuspecting deep space explorer discovers “The Cataclysm”, he scans its riches, creating what will once be known as the first intergalactic data block. He sells this invaluable information to all three rival factions, igniting a lethal spark that forever changes the course of history."
       }
     },
     {
@@ -6815,7 +6857,9 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-3/the-convergence-war.jpg",
+        "description": "All three factions, thinking they were the sole owners of the cataclysmic data drop, converge to settle the area. A devastating war breaks out across the galaxy after their inability to settle the disputed territory."
       }
     },
     {
@@ -6829,7 +6873,9 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-4/short-story-of-a-lost-astronaut.jpg",
+        "description": "He thought it would be just another routine exploration mission. Get there, scan, save data blocks and return. But when a surprise radiation storm knocked out his spaceship and swept him up into its high-velocity current, the only thing that saved him from certain doom was his custom ion shield."
       }
     },
     {
@@ -6843,7 +6889,9 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-5/love-story.jpg",
+        "description": "Paizul, the charismatic and brilliant leader of the ONI consortium, vividly recalls the first time she saw her one true love. It was a warm summer day, full of raging ionic storms. Lightning was piercing the sky as Bekalu took off his helmet and locked eyes with her. “What are the chances of nearly colliding with someone flying through these wastelands on a day like this”, he smiled with his booming voice. “Perhaps it’s destiny,” she smiled back mysteriously. There was another strike of lightning, but this time the sky remained calm."
       }
     },
     {
@@ -6857,7 +6905,9 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-6/assassination-of-paizul.jpg",
+        "description": "Suffering one of the cruelest fates in the universe, the Sogmian race of aliens was driven to the brink of extinction. With only 10,000 members left, they put all hope of salvation in the hands of their leader Paizul. After she was assassinated in a gruesome public way, so much fear was struck in the hearts of survivors that they set out to build their 'Last Stand'."
       }
     },
     {
@@ -7392,6 +7442,20 @@
     },
     {
       "chainId": 101,
+      "address": "GnaFnTihwQFjrLeJNeVdBfEZATMdaUwZZ1RPxLwjbVwb",
+      "symbol": "SHBL-USDC",
+      "name": "Raydium Permissionless LP Token (SHBL-USDC)",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/RVKd61ztZW9GUwhRbbLoYVRE5Xf1B2tVscKqwZqXgEr/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "Djoz8btdR7p6xWHoVtPYF3zyN9LU5BBfMoDk4HczSDqc",
       "symbol": "AUSS",
       "name": "Ausshole",
@@ -7579,7 +7643,7 @@
       "symbol": "CHEEMS",
       "name": "Cheems",
       "decimals": 9,
-      "logoURI": "https://svgshare.com/i/XJf.svg",
+      "logoURI": "https://cheems.co/wp-content/uploads/2021/05/acheems.png",
       "tags": [],
       "extensions": {
         "website": "https://cheems.co/",
@@ -7950,6 +8014,7 @@
     },
     {
       "chainId": 101,
+ main
       "address": "E7WqtfRHcY8YW8z65u9WmD7CfMmvtrm2qPVicSzDxLaT",
       "symbol": "PPUG",
       "name": "PizzaPugCoin",
@@ -7959,6 +8024,31 @@
       "extensions": {
         "website": "https://www.pizzapugcoin.com",
         "twitter": "https://twitter.com/pizzapugcoin"
+      }
+    },
+    {
+      "address": "8b9mQo6ZU2rwZQgSFqGNQvXzrUSHDTRpKSKi9XXdGmqN",
+      "symbol": "CHANGPENGUIN",
+      "name": "CHANGPENGUIN",
+      "decimals": 6,
+      "logoURI": "https://img1.wsimg.com/isteam/ip/0806e069-1a1b-438a-aa86-7765c335fac8/penguin%20logo%2011.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://changpenguin.finance/",
+        "twitter": "https://twitter.com/changpenguinFi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4NPzwMK2gfgQ6rTv8x4EE1ZvKW6MYyYTSrAZCx7zxyaX",
+      "symbol": "KLB",
+      "name": "Black Label",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/klbtoken/klbtoken/main/klbtoken.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.klbtoken.com",
+        "twitter": "https://twitter.com/klbtoken"
       }
     }
   ],
