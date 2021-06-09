@@ -6380,7 +6380,7 @@
       "address": "8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh",
       "symbol": "COPE",
       "name": "COPE",
-      "decimals": 0,
+      "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.jpg",
       "tags": [
         "trading",
@@ -7407,11 +7407,45 @@
     },
     {
       "chainId": 101,
-      "address": "ER8Xa8YxJLC3CFJgdAxJs46Rdhb7B3MjgbPZsVg1aAFV",
-      "symbol": "MOLAMON",
-      "name": "MOLAMON",
+      "address": "3QuAYThYKFXSmrTcSHsdd7sAxaFBobaCkLy2DBYJLMDs",
+      "symbol": "TYNA",
+      "name": "wTYNA",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/M-Igashi/FTX-GAS-Tools/main/icon384.png",
+      "tags": [
+        "ERC20",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x4ae54790c130B21E8CbaCAB011C6170e079e6eF5",
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "assetContract": "https://etherscan.io/address/0x4ae54790c130B21E8CbaCAB011C6170e079e6eF5",
+        "website": "http://lendingbot.s3-website-us-east-1.amazonaws.com/whitepaper.html",
+        "twitter": "https://twitter.com/btc_AP"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7zsKqN7Fg2s9VsqAq6XBoiShCVohpGshSUvoWBc6jKYh",
+      "symbol": "ARDX",
+      "name": "Wrapped ArdCoin (Sollet)",
+      "decimals": 2,
+      "logoURI": "https://cdn.dex.mn/logo/ardx.png",
+      "tags": [
+        "wrapped-sollet",
+        "ethereum"
+      ],
+      "extensions": {
+        "website": "https://ardcoin.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6uB5eEC8SzMbUdsPpe3eiNvHyvxdqUWnDEtpFQxkhNTP",
+      "symbol": "MOLANIUM",
+      "name": "MOLANIUM",
       "decimals": 0,
-      "logoURI": "https://i.ibb.co/cNhCc33/molamon.jpg",
+      "logoURI": "https://i.imgur.com/hOMe38E.png",
       "tags": [],
       "extensions": {
         "website": "https://moonlana.com/",
