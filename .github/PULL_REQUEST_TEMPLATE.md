@@ -2,7 +2,7 @@
 
 **Please provide the following information for your token.**
 
-Please include change to the src/lib/<env>.json and in the PR
+Please include change to the `src/tokens/solana.tokenlist.json` file in the PR
 
 At minimum each entry should have
 * Token Address: 
