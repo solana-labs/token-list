@@ -80,7 +80,8 @@
       ],
       "extensions": {
         "website": "https://www.centre.io/",
-        "coingeckoId": "usd-coin"
+        "coingeckoId": "usd-coin",
+        "serumV3Usdt": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
       }
     },
     {
@@ -756,7 +757,8 @@
       ],
       "extensions": {
         "website": "https://tether.to/",
-        "coingeckoId": "tether"
+        "coingeckoId": "tether",
+        "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
       }
     },
     {
@@ -1797,7 +1799,8 @@
         "bear"
       ],
       "extensions": {
-        "coingeckoId": "3x-short-eos-token"
+        "coingeckoId": "3x-short-eos-token",
+        "serumV3Usdc": "2BQrJP599QVKRyHhyJ6oRrTPNUmPBgXxiBo2duvYdacy"
       }
     },
     {
@@ -1977,7 +1980,8 @@
         "bull"
       ],
       "extensions": {
-        "coingeckoId": "3x-long-ethereum-token"
+        "coingeckoId": "3x-long-ethereum-token",
+        "serumV3Usdt": "FuhKVt5YYCv7vXnADXtb7vqzYn82PJoap86q5wm8LX8Q"
       }
     },
     {
@@ -2067,7 +2071,8 @@
         "bull"
       ],
       "extensions": {
-        "coingeckoId": "3x-long-midcap-index-token"
+        "coingeckoId": "3x-long-midcap-index-token",
+        "serumV3Usdc": "8BBtLkoaEyavREriwGUudzAcihTH9SJLAPBbgb7QZe9y"
       }
     },
     {
@@ -6480,7 +6485,8 @@
       "tags": [],
       "extensions": {
         "website": "https://ropesolana.com/",
-        "coingeckoId": "rope-token"
+        "coingeckoId": "rope-token",
+        "serumV3Usdc": "4Sg1g8U2ZuGnGYxAhc6MmX9MX7yZbrrraPkCQ9MdCPtF"
       }
     },
     {
@@ -6513,7 +6519,8 @@
       ],
       "extensions": {
         "website": "https://media.network/",
-        "coingeckoId": "media-network"
+        "coingeckoId": "media-network",
+        "serumV3Usdc": "FfiqqvJcVL7oCCu8WQUMHLUC2dnHQPAPjTdSzsERFWjb"
       }
     },
     {
@@ -6523,10 +6530,14 @@
       "name": "Step",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT/logo.png",
-      "tags": [],
+      "tags": [
+        "utility-token"
+      ],
       "extensions": {
         "website": "https://step.finance/",
-        "coingeckoId": "step-finance"
+        "twitter": "https://twitter.com/StepFinance_",
+        "coingeckoId": "step-finance",
+        "serumV3Usdc": "97qCB4cAVSTthvJu3eNoEx6AY6DLuRDtCoPm5Tdyg77S"
       }
     },
     {
@@ -6743,6 +6754,20 @@
     },
     {
       "chainId": 101,
+      "address": "97qAF7ZKEdPdQaUkhASGA59Jpa2Wi7QqVmnFdEuPqEDc",
+      "symbol": "DIAMOND",
+      "name": "LOVE",
+      "decimals": 6,
+      "logoURI": "https://github.com/AdamBraham88/SPL-TOKEN/blob/main/Diamond-Love-icon.png",
+      "tags": [
+        "Diamond Love"
+      ],
+      "extensions": {
+        "website": "https://diamondlove.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "xxxxa1sKNGwFtw2kFn8XauW9xq8hBZ5kVtcSesTT9fW",
       "symbol": "SLIM",
       "name": "Solanium",
@@ -6753,7 +6778,7 @@
         "website": "https://solanium.io/"
       }
     },
-     {
+    {
       "chainId": 101,
       "address": "Ae1aeYK9WrB2kP29jJU4aUUK7Y1vzsGNZFKoe4BG2h6P",
       "symbol": "NINJA",
@@ -6811,7 +6836,8 @@
       "tags": [],
       "extensions": {
         "website": "https://samoyedcoin.com/",
-        "coingeckoId": "samoyedcoin"
+        "coingeckoId": "samoyedcoin",
+        "serumV3Usdc": "FR3SPJmgfRSKKQ2ysUZBu7vJLpzTixXnjzb84bY3Diif"
       }
     },
     {
@@ -6827,7 +6853,8 @@
       "extensions": {
         "website": "https://www.staratlas.com",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-1/discovery-of-iris.jpg",
-        "description": "The rogue planet, Iris, dense with invaluable materials, draws in and collides with seven child planets in a remote region of space, creating what is henceforth referred to as 'The Cataclysm'. When combined, these eight elements create a form of free energy. The collision creates a massively valuable debris field."
+        "description": "The rogue planet, Iris, dense with invaluable materials, draws in and collides with seven child planets in a remote region of space, creating what is henceforth referred to as 'The Cataclysm'. When combined, these eight elements create a form of free energy. The collision creates a massively valuable debris field.",
+        "serumV3Usdc": "AYXTVttPfhYmn3jryX5XbRjwPK2m9445mbN2iLyRD6nq"
       }
     },
     {
@@ -6843,7 +6870,8 @@
       "extensions": {
         "website": "https://www.staratlas.com",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-2/the-heart-of-star-atlas.jpg",
-        "description": "At the core of Star Atlas lies a treasure trove of priceless data. After an unsuspecting deep space explorer discovers “The Cataclysm”, he scans its riches, creating what will once be known as the first intergalactic data block. He sells this invaluable information to all three rival factions, igniting a lethal spark that forever changes the course of history."
+        "description": "At the core of Star Atlas lies a treasure trove of priceless data. After an unsuspecting deep space explorer discovers “The Cataclysm”, he scans its riches, creating what will once be known as the first intergalactic data block. He sells this invaluable information to all three rival factions, igniting a lethal spark that forever changes the course of history.",
+        "serumV3Usdc": "5Erzgrw9pTjNWLeqHp2sChJq7smB7WXRQYw9wvkvA59t"
       }
     },
     {
@@ -6859,7 +6887,8 @@
       "extensions": {
         "website": "https://www.staratlas.com",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-3/the-convergence-war.jpg",
-        "description": "All three factions, thinking they were the sole owners of the cataclysmic data drop, converge to settle the area. A devastating war breaks out across the galaxy after their inability to settle the disputed territory."
+        "description": "All three factions, thinking they were the sole owners of the cataclysmic data drop, converge to settle the area. A devastating war breaks out across the galaxy after their inability to settle the disputed territory.",
+        "serumV3Usdc": "DXPv2ZyMD6Y2mDenqYkAhkvGSjNahkuMkm4zv6DqB7RF"
       }
     },
     {
@@ -6875,7 +6904,8 @@
       "extensions": {
         "website": "https://www.staratlas.com",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-4/short-story-of-a-lost-astronaut.jpg",
-        "description": "He thought it would be just another routine exploration mission. Get there, scan, save data blocks and return. But when a surprise radiation storm knocked out his spaceship and swept him up into its high-velocity current, the only thing that saved him from certain doom was his custom ion shield."
+        "description": "He thought it would be just another routine exploration mission. Get there, scan, save data blocks and return. But when a surprise radiation storm knocked out his spaceship and swept him up into its high-velocity current, the only thing that saved him from certain doom was his custom ion shield.",
+        "serumV3Usdc": "73d9N7BbWVKBG6A2xwwwEHcxzPB26YzbMnRjue3DPzqs"
       }
     },
     {
@@ -6891,7 +6921,8 @@
       "extensions": {
         "website": "https://www.staratlas.com",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-5/love-story.jpg",
-        "description": "Paizul, the charismatic and brilliant leader of the ONI consortium, vividly recalls the first time she saw her one true love. It was a warm summer day, full of raging ionic storms. Lightning was piercing the sky as Bekalu took off his helmet and locked eyes with her. “What are the chances of nearly colliding with someone flying through these wastelands on a day like this”, he smiled with his booming voice. “Perhaps it’s destiny,” she smiled back mysteriously. There was another strike of lightning, but this time the sky remained calm."
+        "description": "Paizul, the charismatic and brilliant leader of the ONI consortium, vividly recalls the first time she saw her one true love. It was a warm summer day, full of raging ionic storms. Lightning was piercing the sky as Bekalu took off his helmet and locked eyes with her. “What are the chances of nearly colliding with someone flying through these wastelands on a day like this”, he smiled with his booming voice. “Perhaps it’s destiny,” she smiled back mysteriously. There was another strike of lightning, but this time the sky remained calm.",
+        "serumV3Usdc": "AM9sNDh48N2qhYSgpA58m9dHvrMoQongtyYu2u2XoYTc"
       }
     },
     {
@@ -6907,7 +6938,8 @@
       "extensions": {
         "website": "https://www.staratlas.com",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-6/assassination-of-paizul.jpg",
-        "description": "Suffering one of the cruelest fates in the universe, the Sogmian race of aliens was driven to the brink of extinction. With only 10,000 members left, they put all hope of salvation in the hands of their leader Paizul. After she was assassinated in a gruesome public way, so much fear was struck in the hearts of survivors that they set out to build their 'Last Stand'."
+        "description": "Suffering one of the cruelest fates in the universe, the Sogmian race of aliens was driven to the brink of extinction. With only 10,000 members left, they put all hope of salvation in the hands of their leader Paizul. After she was assassinated in a gruesome public way, so much fear was struck in the hearts of survivors that they set out to build their 'Last Stand'.",
+        "serumV3Usdc": "BJiV2gCLwMvj2c1CbhnMjjy68RjqoMzYT8brDrpVyceA"
       }
     },
     {
@@ -6921,7 +6953,8 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "serumV3Usdc": "7JzaEAuVfjkrZyMwJgZF5aQkiEyVyCaTWA3N1fQK7Y6V"
       }
     },
     {
@@ -6935,7 +6968,8 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "serumV3Usdc": "8yQzsbraXJFoPG5PdX73B8EVYFuPR9aC2axAqWearGKu"
       }
     },
     {
@@ -6949,7 +6983,8 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "serumV3Usdc": "AVHndcEDUjP9Liz5dfcvAPAMffADXG6KMPn8sWB1XhFQ"
       }
     },
     {
@@ -6963,7 +6998,8 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "serumV3Usdc": "FZ9xhZbkt9bKKVpWmFxRhEJyzgxqU5w5xu3mXcF6Eppe"
       }
     },
     {
@@ -6977,7 +7013,8 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "serumV3Usdc": "4jN1R453Acv9egnr7Dry3x9Xe3jqh1tqz5RokniaeVhy"
       }
     },
     {
@@ -6991,7 +7028,8 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "serumV3Usdc": "J99HsFQEWKR3UiFQpKTnF11iaNiR1enf2LxHfgsbVc59"
       }
     },
     {
@@ -7005,7 +7043,8 @@
         "nft"
       ],
       "extensions": {
-        "website": "https://www.staratlas.com"
+        "website": "https://www.staratlas.com",
+        "serumV3Usdc": "HdvXMScwAQQh9pEvLZjuaaeJcLTmixxYoMFefeqHFn2E"
       }
     },
     {
@@ -7234,7 +7273,8 @@
       "tags": [],
       "extensions": {
         "coingeckoId": "mercurial",
-        "website": "https://www.mercurial.finance/"
+        "website": "https://www.mercurial.finance/",
+        "serumV3Usdc": "G4LcexdCzzJUKZfqyVDQFzpkjhB1JoCNL8Kooxi9nJz5"
       }
     },
     {
@@ -7284,7 +7324,7 @@
       "symbol": "BOLE",
       "name": "Bole Token",
       "decimals": 4,
-      "logoURI": "https://i.ibb.co/mb1KYqn/Bole.png",
+      "logoURI": "https://i.ibb.co/YPyhnkS/Bole.jpg",
       "tags": [],
       "extensions": {
         "website": "https://tokenbole.com/"
@@ -7414,22 +7454,6 @@
     },
     {
       "chainId": 101,
-      "address": "BsDrXiQaFd147Fxq1fQYbJQ77P6tmPkRJQJzkKvspDKo",
-      "symbol": "SOLA",
-      "name": "SolaPAD Token",
-      "decimals": 8,
-      "logoURI": "https://i.ibb.co/3p4SMBd/LOGO.png",
-      "tags": [
-        "SOLA",
-        "LaunchPAD"
-      ],
-      "extensions": {
-        "website": "https://www.solapad.org/",
-        "twitter": "https://twitter.com/SolaPAD"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "7fCzz6ZDHm4UWC9Se1RPLmiyeuQ6kStxpcAP696EuE1E",
       "symbol": "SHBL",
       "name": "Shoebill Coin",
@@ -7482,7 +7506,8 @@
       "extensions": {
         "website": "https://solfarm.io",
         "twitter": "https://twitter.com/Solfarmio",
-        "coingeckoId": "solfarm"
+        "coingeckoId": "solfarm",
+        "serumV3Usdc": "8GufnKq7YnXKhnB3WNhgy5PzU9uvHbaaRrZWQK6ixPxW"
       }
     },
     {
@@ -7634,7 +7659,8 @@
       "logoURI": "https://i.ibb.co/mRPw35y/doganatoken.png",
       "tags": [],
       "extensions": {
-        "twitter": "https://twitter.com/DoganaOfficial"
+        "twitter": "https://twitter.com/DoganaOfficial",
+        "serumV3Usdc": "H1Ywt7nSZkLDb2o3vpA5yupnBc9jr1pXtdjMm4Jgk1ay"
       }
     },
     {
@@ -7643,7 +7669,7 @@
       "symbol": "CHEEMS",
       "name": "Cheems",
       "decimals": 9,
-      "logoURI": "https://svgshare.com/i/XJf.svg",
+      "logoURI": "https://cheems.co/wp-content/uploads/2021/05/acheems.png",
       "tags": [],
       "extensions": {
         "website": "https://cheems.co/",
@@ -7671,7 +7697,7 @@
     },
     {
       "chainId": 101,
-      "address": "G1NtMGrXmW92ar4wMv4WnQof9V5M3FsRFJT6E5rD96d5",
+      "address": "FRbqQnbuLoMbUG4gtQMeULgCDHyY6YWF9NRUuLa98qmq",
       "symbol": "ECOP",
       "name": "EcoPoo",
       "decimals": 0,
@@ -7696,7 +7722,8 @@
       "extensions": {
         "website": "https://www.solanacato.com/",
         "twitter": "https://twitter.com/SolanaCATO",
-        "telegram": "https://t.me/SolanaCATO"
+        "telegram": "https://t.me/SolanaCATO",
+        "serumV3Usdc": "9fe1MWiKqUdwift3dEpxuRHWftG72rysCRHbxDy6i9xB"
       }
     },
     {
@@ -7861,7 +7888,8 @@
       ],
       "extensions": {
         "website": "https://boringprotocol.io",
-        "twitter": "https://twitter.com/BoringProtocol"
+        "twitter": "https://twitter.com/BoringProtocol",
+        "serumV3Usdc": "7MmPwD1K56DthW14P1PnWZ4zPCbPWemGs3YggcT1KzsM"
       }
     },
     {
@@ -8027,6 +8055,21 @@
     },
     {
       "chainId": 101,
+      "address": "51tMb3zBKDiQhNwGqpgwbavaGH54mk8fXFzxTc1xnasg",
+      "symbol": "APEX",
+      "name": "APEX",
+      "decimals": 9,
+      "logoURI": "https://apexit.finance/images/apex.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://apexit.finance/",
+        "twitter": "https://twitter.com/apeXit_finance",
+        "discord": "https://discord.gg/aASQy2dWsN",
+        "tggroup": "https://t.me/apexit_finance"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "4NPzwMK2gfgQ6rTv8x4EE1ZvKW6MYyYTSrAZCx7zxyaX",
       "symbol": "KLB",
       "name": "Black Label",
@@ -8036,6 +8079,438 @@
       "extensions": {
         "website": "https://www.klbtoken.com",
         "twitter": "https://twitter.com/klbtoken"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3RSafdgu7P2smSGHJvSGQ6kZVkcErZXfZTtynJYboyAu",
+      "symbol": "SINE",
+      "name": "SINE",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/sinetoken/public/main/icon/circle_icon/circle_icon.svg",
+      "tags": [
+        "security-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://solainetwork.com/",
+        "twitter": "https://twitter.com/SolAiNetwork"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "guppyrZyEX9iTPSu92pi8T71Zka7xd6PrsTJrXRW6u1",
+      "symbol": "GUPPY",
+      "name": "Orca Guppy Collectible",
+      "decimals": 0,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/guppy.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "whaLeHav12EhGK19u6kKbLRwC9E1EATGnm6MWbBCcUW",
+      "symbol": "WHALE",
+      "name": "Orca Whale Collectible",
+      "decimals": 0,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/whale.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "kLwhLkZRt6CadPHRBsgfhRCKXX426WMBnhoGozTduvk",
+      "symbol": "KILLER-WHALE",
+      "name": "Orca Killer Whale Collectible",
+      "decimals": 0,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/killer_whale.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "star2pH7rVWscs743JGdCAL8Lc9nyJeqx7YQXkGUnWf",
+      "symbol": "STARFISH",
+      "name": "Orca Starfish Collectible",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/starfish.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "cLownTTaiiQMoyMmFjfmSGowi8HyNhCtTLFcrNKnqX6",
+      "symbol": "CLOWNFISH",
+      "name": "Orca Clownfish Collectible",
+      "decimals": 0,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/clownfish.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ECFcUGwHHMaZynAQpqRHkYeTBnS5GnPWZywM8aggcs3A",
+      "symbol": "SOL/USDC",
+      "name": "Orca SOL/USDC LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3H5XKkE9uVvxsdrFeN4BLLGCmohiQN6aZJVVcJiXQ4WC",
+      "symbol": "USDC/USDT",
+      "name": "Orca USDC/USDT LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8qNqTaKKbdZuzQPWWXy5wNVkJh54ex8zvvnEnTFkrKMP",
+      "symbol": "USDC/USDT-SRM",
+      "name": "Orca USDC/USDT-SRM LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7TYb32qkwYosUQfUspU45cou7Bb3nefJocVMFX2mEGTT",
+      "symbol": "ETH/USDC",
+      "name": "Orca ETH/USDC LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EhBAmhkgEsMa8McFB5bpqZaRpZvGBBJ4jN59T5xToPdG",
+      "symbol": "ETH/USDT-SRM",
+      "name": "Orca ETH/USDT-SRM LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8pFwdcuXM7pvHdEGHLZbUR8nNsjj133iUXWG6CgdRHk2",
+      "symbol": "BTC/ETH",
+      "name": "Orca BTC/ETH LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7bb88DAnQY7LSoWEuqezCcbk4vutQbuRqgJMqpX8h6dL",
+      "symbol": "ETH/SOL",
+      "name": "Orca ETH/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GWEmABT4rD3sGhyghv9rKbfdiaFe5uMHeJqr6hhu3XvA",
+      "symbol": "RAY/SOL",
+      "name": "Orca RAY/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BmZNYGt7aApGTUUxAQUYsW64cMbb6P7uniokCWaptj4D",
+      "symbol": "SOL/USDT",
+      "name": "Orca SOL/USDT LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E4cthfUFaDd4x5t1vbeBNBHm7isqhM8kapthPzPJz1M2",
+      "symbol": "SOL/USDT-SRM",
+      "name": "Orca SOL/USDT-SRM LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6ojPekCSQimAjDjaMApLvh3jF6wnZeNEVRVVoGNzEXvV",
+      "symbol": "SOL/SRM",
+      "name": "Orca SOL/SRM LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "YJRknE9oPhUMtq1VvhjVzG5WnRsjQtLsWg3nbaAwCQ5",
+      "symbol": "FTT/SOL",
+      "name": "Orca FTT/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "C9PKvetJPrrPD53PR2aR8NYtVZzucCRkHYzcFXbZXEqu",
+      "symbol": "KIN/SOL",
+      "name": "Orca KIN/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6SfhBAmuaGf9p3WAxeHJYCWMABnYUMrdzNdK5Stvvj4k",
+      "symbol": "ROPE/SOL",
+      "name": "Orca ROPE/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9r1n79TmerAgQJboUT8QvrChX3buZBfuSrBTtYM1cW4h",
+      "symbol": "SOL/STEP",
+      "name": "Orca SOL/STEP LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ELLELFtgvWBgLkdY9EFx4Vb3SLNj4DJEhzZLWy1wCh4Y",
+      "symbol": "OXY/SOL",
+      "name": "Orca OXY/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BXM9ph4AuhCUzf94HQu5FnfeVThKj5oyrnb1krY1zax5",
+      "symbol": "MER/SOL",
+      "name": "Orca MER/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FJ9Q9ojA7vdf5rFbcTc6dd7D3nLpwSxdtFSE8cwfuvqt",
+      "symbol": "FIDA/SOL",
+      "name": "Orca FIDA/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EHkfnhKLLTUqo1xMZLxhM9EusEgpN6RXPpZsGpUsewaa",
+      "symbol": "MAPS/SOL",
+      "name": "Orca MAPS/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9rguDaKqTrVjaDXafq6E7rKGn7NPHomkdb8RKpjKCDm2",
+      "symbol": "SAMO/SOL",
+      "name": "Orca SAMO/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2697FyJ4vD9zwAVPr33fdVPDv54pyZZiBv9S2AoKMyQf",
+      "symbol": "COPE/SOL",
+      "name": "Orca COPE/SOL LP Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/assets/mainnet/DjVE6JNiYqPL2QXyCUUh8rNjHrbz9hXHNYt99MQ59qw1/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HEhMLvpSdPviukafKwVN8BnBUTamirptsQ6Wxo5Cyv8s",
+      "symbol": "FTR",
+      "name": "Future",
+      "decimals": 9,
+      "logoURI": "http://future-ftr.io/images/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://future-ftr.io",
+        "twitter": "https://twitter.com/ftr_finance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Da1jboBKU3rqXUqPL3L3BxJ8e67ogVgVKcqy4rWsS7LC",
+      "symbol": "UBE",
+      "name": "UBE Token",
+      "decimals": 10,
+      "logoURI": "https://cdn.jsdelivr.net/gh/donfrancisco/ubetoken/UBE.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.ubetoken.com",
+        "twitter": "https://twitter.com/ube_token"
       }
     },
     {
