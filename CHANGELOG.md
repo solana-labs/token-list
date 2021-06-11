@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.130 (2021-06-11)
+
+
+### Features
+
+* added ccai token to the list ([#358](https://github.com/solana-labs/token-list/issues/358)) ([f1ffb05](https://github.com/solana-labs/token-list/commit/f1ffb05165e2c2af84b6c8d709cae9e884ef41a3))
+
 ### 0.2.129 (2021-06-11)
 
 ### 0.2.128 (2021-06-10)
