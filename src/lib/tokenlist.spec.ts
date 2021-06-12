@@ -1,3 +1,5 @@
+import fs from 'fs';
+
 import test from 'ava';
 
 import { CLUSTER_SLUGS, ENV, Strategy, TokenListProvider } from './tokenlist';
@@ -45,4 +47,13 @@ test('Token list throws error when calling filterByClusterSlug with slug that do
     error.message,
     `Unknown slug: whoop, please use one of ${Object.keys(CLUSTER_SLUGS)}`
   );
+});
+
+test('Token list ris a valid json', async (t) => {
+  t.notThrows(() => {
+    const content = fs
+      .readFileSync('./src/tokens/solana.tokenlist.json')
+      .toString();
+    JSON.parse(content.toString());
+  });
 });
