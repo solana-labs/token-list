@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.132 (2021-06-14)
+
+
+### Features
+
+* add check for duplicates ([#361](https://github.com/solana-labs/token-list/issues/361)) ([b9a5fa6](https://github.com/solana-labs/token-list/commit/b9a5fa650f2c6e4ec3f32f67bd017d48a467e47b))
+
 ### 0.2.131 (2021-06-13)
 
 ### 0.2.130 (2021-06-11)
