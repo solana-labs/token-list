@@ -6780,18 +6780,6 @@
     },
     {
       "chainId": 101,
-      "address": "Ae1aeYK9WrB2kP29jJU4aUUK7Y1vzsGNZFKoe4BG2h6P",
-      "symbol": "NINJA",
-      "name": "NINJA",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/yuzu-ninjaprotocol/ninjaprotocol/main/NINJA%20Token.svg",
-      "tags": [],
-      "extensions": {
-        "website": "http://ninjaprotocol.io"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "8GPUjUHFxfNhaSS8kUkix8txRRXszeUAsHTjUmHuygZT",
       "symbol": "NINJA NFT1",
       "name": "NINJA NFT1",
@@ -7404,9 +7392,9 @@
     },
     {
       "chainId": 101,
-      "address": "7AzkdZrSKx5d9WTBsk22qP24aLTYEVjGcBFGM14FZ21F",
-      "symbol": "PAD",
-      "name": "SolPAD",
+      "address": "GfJ3Vq2eSTYf1hJP6kKLE9RT6u7jF9gNszJhZwo5VPZp",
+      "symbol": "SOLPAD",
+      "name": "Solpad Finance",
       "decimals": 9,
       "logoURI": "https://www.solpad.finance/logo.png",
       "tags": [
@@ -7433,7 +7421,8 @@
       ],
       "extensions": {
         "website": "https://muskimum.win/",
-        "twitter": "https://twitter.com/muskimum"
+        "twitter": "https://twitter.com/muskimum",
+        "serumV3Usdc": "3mhrhTFrHtxe7uZhvzBhzneR3bD3hDyWcgEkR8EcvNZk"
       }
     },
     {
@@ -8083,6 +8072,20 @@
     },
     {
       "chainId": 101,
+      "address": "5v6tZ1SiAi7G8Qg4rBF1ZdAn4cn6aeQtefewMr1NLy61",
+      "symbol": "SOLD",
+      "name": "Solanax",
+      "decimals": 9,
+      "logoURI": "https://solanax.org/images/icon.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solanax.org",
+        "twitter": "https://twitter.com/Solanaxorg",
+        "telegram": "https://t.me/solanaxcommunity"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "3RSafdgu7P2smSGHJvSGQ6kZVkcErZXfZTtynJYboyAu",
       "symbol": "SINE",
       "name": "SINE",
@@ -8514,6 +8517,7 @@
         "twitter": "https://twitter.com/ube_token"
       }
     },
+
      {
       "chainId": 101,
       "address": "GkXP719hnhLtizWHcQyGVYajuJqVsJJ6fyeUob9BPCFC",
@@ -8526,6 +8530,126 @@
         "website": "https://mikekrow.com/",
         "twitter": "https://twitter.com/space_asylum"
       },
+
+
+    {
+      "chainId": 101,
+      "address": "6kwTqmdQkJd8qRr9RjSnUX9XJ24RmJRSrU1rsragP97Y",
+      "symbol": "SAIL",
+      "name": "SAIL",
+      "decimals": 6,
+      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmPcQfofQNfiv36EAsGQrgAhiPbqGf17i1Cz648JhXFW9m/logo_solana_sail_v2.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.solanasail.com",
+        "twitter": "https://twitter.com/solsailsummer"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E5ndSkaB17Dm7CsD22dvcjfrYSDLCxFcMd6z8ddCk5wp",
+      "symbol": "CCAI",
+      "name": "Cryptocurrencies.Ai",
+      "decimals": 9,
+      "logoURI": "https://cryptocurrencies.ai/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://ccai.cryptocurrencies.ai",
+        "twitter": "https://twitter.com/CCAI_Official",
+        "serumV3Usdc": "7gZNLDbWE73ueAoHuAeFoSu7JqmorwCLpNTBXHtYSFTa"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CDJWUqTcYTVAKXAVXoQZFes5JUFc7owSeq7eMQcDSbo5",
+      "symbol": "renBTC",
+      "name": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/5xjuqm9hqosof7g/renBTC.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "renbtc",
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "G1a6jxYz3m8DVyMqYnuV7s86wD4fvuXYneWSpLJkmsXj",
+      "symbol": "renBCH",
+      "name": "renBCH",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/1037etkko9il55n/renBCH-01.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "renbch",
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FKJvvVJ242tX7zFtzTmzqoA631LqHh4CdgcN8dcfFSju",
+      "symbol": "renDGB",
+      "name": "renDGB",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/ganf2eac9ujnsbp/renDGB.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ArUkYE2XDKzqy77PRRGjo4wREWwqk6RXTfM9NeqzPvjU",
+      "symbol": "renDOGE",
+      "name": "renDOGE",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/0c2myp08jrr6mq7/renDOGE.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "rendoge",
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8wv2KAykQstNAj2oW6AHANGBiFKVFhvMiyyzzjhkmGvE",
+      "symbol": "renLUNA",
+      "name": "renLUNA",
+      "decimals": 6,
+      "logoURI": "https://www.dropbox.com/s/enlononu571dtn4/renLUNA.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E99CQ2gFMmbiyK2bwiaFNWUUmwz4r8k2CVEFxwuvQ7ue",
+      "symbol": "renZEC",
+      "name": "renZEC",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/co3ube4dp3ls68n/renZEC.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "renzec",
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E5rk3nmgLUuKUiS94gg4bpWwWwyjCMtddsAXkTFLtHEy",
+      "symbol": "WOO",
+      "name": "Wootrade Network",
+      "decimals": 18,
+      "logoURI": "https://oss.woo.network/static/W_256.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://woo.network",
+        "twitter": "https://twitter.com/wootraderS"
+      }
+    }
 
   ],
   "version": {
