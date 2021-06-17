@@ -8503,6 +8503,19 @@
         "twitter": "https://twitter.com/ftr_finance"
       }
     },
+        {
+      "chainId": 101,
+      "address": "6oJ8Mp1VnKxN5MvGf9LfpeaRvTv8N1xFbvtdEbLLWUDT",
+      "symbol": "ESC",
+      "name": "ESCoin",
+      "decimals": 9,
+      "logoURI": "https://escoin.company/img/escoin_icon.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://escoin.company/",
+        "twitter": "https://twitter.com/coin_esc"
+      }
+    },
     {
       "chainId": 101,
       "address": "Da1jboBKU3rqXUqPL3L3BxJ8e67ogVgVKcqy4rWsS7LC",
@@ -8636,6 +8649,18 @@
     },
     {
       "chainId": 101,
+      "address": "5jqTNKonR9ZZvbmX9JHwcPSEg6deTyNKR7PxQ9ZPdd2w",
+      "symbol": "JBUS",
+      "name": "Jebus",
+      "decimals": 0,
+      "logoURI": "https://jebus.live/wp-content/uploads/2021/05/Jebus-White-300x292.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://jebus.live"
+      }
+    },
+    {
+      "chainId":101,
       "address": "29UWGmi1MxJRi3izeritN8VvhZbUiX37KUVnGv46mzev",
       "symbol": "KLBx",
       "name": "Black Label X",
@@ -8645,7 +8670,7 @@
       "extensions": {
         "website": "https://klbtoken.com/x"
 		  }
-    }
+    )
   ],
   "version": {
     "major": 0,
