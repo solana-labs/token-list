@@ -7107,13 +7107,13 @@
     {
       "chainId": 101,
       "address": "8RYSc3rrS4X4bvBCtSJnhcpPpMaAJkXnVKZPzANxQHgz",
-      "symbol": "FARM",
-      "name": "SolaFarm",
+      "symbol": "YARD",
+      "name": "SolYard Finance",
       "decimals": 9,
-      "logoURI": "https://sola.farm/logo.png",
+      "logoURI": "https://solyard.finance/logo.png",
       "tags": [],
       "extensions": {
-        "website": "https://sola.farm/"
+        "website": "https://solyard.finance/"
       }
     },
     {
@@ -9248,6 +9248,113 @@
       "extensions": {
         "website": "http://solcubator.io",
         "twitter": "https://twitter.com/Solcubator"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ABxCiDz4jjKt1t7Syu5Tb37o8Wew9ADpwngZh6kpLbLX",
+      "symbol": "XSOL",
+      "name": "XSOL Token",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/0xsol/XSOL-Token/main/logo.jpg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://0xsol.network",
+        "twitter": "https://twitter.com/0xSol_Network"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DrcPRJPBiakQcWqon3gZms7sviAqdQS5zS5wvaG5v6wu",
+      "symbol": "BLD",
+      "name": "BladesToken",
+      "decimals": 4,
+      "logoURI": "https://i.imgur.com/MfxQycw.jpeg",
+      "tags": [],
+      "extensions": {
+        "website": "https://blades.finance/",
+        "twitter": "https://twitter.com/bladesfinance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6D7E4mstMboABmfoaPrtVDgewjUCbGdvcYVaHa9SDiTg",
+      "symbol": "QWK",
+      "name": "QwikPay.io Token",
+      "decimals": 9,
+      "logoURI": "https://github.com/QwikPay-io/website/raw/main/qwk.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.qwikpay.io",
+        "twitter": "https://twitter.com/QwikpayIO"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BTyJg5zMbaN2KMfn7LsKhpUsV675aCUSUMrgB1YGxBBP",
+      "symbol": "GOOSEBERRY",
+      "name": "Gooseberry",
+      "decimals": 9,
+      "logoURI": "https://gooseberry.changr.ca/gooseberry.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://gooseberry.changr.ca",
+        "twitter": "https://twitter.com/gooseberrycoin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5GG1LbgY4EEvPR51YQPNr65QKcZemrHWPooTqC5gRPBA",
+      "symbol": "DXB",
+      "name": "DefiXBet Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/DefiXBet/DefiXBet/main/defixBeto.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "https://DefiXBet.com/",
+        "twitter": "https://twitter.com/DefiXBet",
+        "medium": "https://defixbet.medium.com/",
+        "tgann": "https://t.me/DefiXBet"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7a4cXVvVT7kF6hS5q5LDqtzWfHfys4a9PoK6pf87RKwf",
+      "symbol": "LUNY",
+      "name": "Luna Yield",
+      "decimals": 9,
+      "logoURI": "https://www.lunayield.com/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.lunayield.com",
+        "twitter": "https://twitter.com/Luna_Yield"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AP58G14hoy4GGgZS4L8TzZgqXnk3hBvciFKW2Cb1RQ2J",
+      "symbol": "YARDv1",
+      "name": "SolYard Finance Beta",
+      "decimals": 9,
+      "logoURI": "https://solyard.finance/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solyard.finance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6Y7LbYB3tfGBG6CSkyssoxdtHb77AEMTRVXe8JUJRwZ7",
+      "symbol": "DINO",
+      "name": "DINO",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solanadino/dinotoken/main/solana_dino.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.solanadino.com",
+        "twitter": "https://twitter.com/solanadino"
       }
     }
   ],
