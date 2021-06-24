@@ -7957,13 +7957,26 @@
     {
       "chainId": 101,
       "address": "Ae1aeYK9WrB2kP29jJU4aUUK7Y1vzsGNZFKoe4BG2h6P",
-      "symbol": "NINJA",
-      "name": "NINJA",
+      "symbol": "OLDNINJA",
+      "name": "OLDNINJA",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/yuzu-ninjaprotocol/ninjaprotocol/main/NINJA%20Token.svg",
+      "logoURI": "https://raw.githubusercontent.com/ninjaprotocolsol/ninjaprotocol/main/oldninja-token.png",
       "tags": [],
       "extensions": {
-        "website": "http://ninjaprotocol.io"
+        "website": "https://www.ninjaprotocol.io/oldninja/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FgX1WD9WzMU3yLwXaFSarPfkgzjLb2DZCqmkx9ExpuvJ",
+      "symbol": "NINJA",
+      "name": "NINJA",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/ninjaprotocolsol/ninjaprotocol/main/newninja-token.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.ninjaprotocol.io/",
+        "serumV3Usdc": "J4oPt5Q3FYxrznkXLkbosAWrJ4rZLqJpGqz7vZUL4eMM"
       }
     },
     {
@@ -9010,7 +9023,7 @@
     },
     {
       "chainId": 101,
-      "address": "7MtgLYSEgsq626pvcEAwaDqs2KiZsaJUX2qGpRZbcDWY",
+      "address": "FmJ1fo7wK5FF6rDvQxow5Gj7A2ctLmR5orCKLZ45Q3Cq",
       "symbol": "DGEN",
       "name": "Degen Banana",
       "decimals": 6,
@@ -9499,6 +9512,20 @@
         "website": "https://hlth.network/",
         "twitter": "https://twitter.com/hlthnetwork",
         "telegram": "https://t.me/HLTHnetwork"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS",
+      "symbol": "PAI",
+      "name": "PAI (Parrot)",
+      "decimals": 6,
+      "logoURI": "https://partyparrot.finance/images/tokens/pai.svg",
+      "tags": ["stablecoin"],
+      "extensions": {
+        "website": "https://partyparrot.finance",
+        "twitter": "https://twitter.com/gopartyparrot",
+        "telegram": "https://t.me/gopartyparrot"
       }
     },
     {
