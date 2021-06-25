@@ -49,6 +49,10 @@
     "utility-token": {
       "name": "utility-token",
       "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
+    },
+    "tokenized-stock": {
+      "name": "tokenized-stock",
+      "description": "Tokenized stocks are tokenized derivatives that represent traditional securities, particularly shares in publicly firms traded on regulated exchanges"
     }
   },
   "timestamp": "2021-03-03T19:57:21+0000",
@@ -83,6 +87,846 @@
         "website": "https://www.centre.io/",
         "coingeckoId": "usd-coin",
         "serumV3Usdt": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2inRoG4DuMRRzZxAt913CCdNZCu2eGsDD9kZTrsj2DAZ",
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/tesla--big.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?TSLA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8bpRdBGPt354VfABL5xugP3pmYZ2tQjzRcqjg2kmwfbF",
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/apple.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?AAPL"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3vhcrQfEn8ashuBfE82F3MtEDFcBCEFfFw1ZgM3xj1s8",
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/microsoft.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?MSFT"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ASwYCbLedk85mRdPnkzrUXbbYbwe26m71af9rzrhC2Qz",
+      "symbol": "MSTR",
+      "name": "MicroStrategy Incorporated.",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/microstrategy.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?MSTR"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "J25jdsEgTnAwB4nVq3dEQhwekbXCnVTGzFpVMPScXRgK",
+      "symbol": "COIN",
+      "name": "Coinbase Global Inc.",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/coinbase.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?COIN"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "G2Cg4XoXdEJT5sfrSy9N6YCC3uuVV3AoTQSvMeSqT8ZV",
+      "symbol": "ABC",
+      "name": "AmerisourceBergen Corp",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/amerisourcebergen.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?ABC"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FqqVanFZosh4M4zqxzWUmEnky6nVANjghiSLaGqUAYGi",
+      "symbol": "ABNB",
+      "name": "Airbnb",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/airbnb.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?ABNB"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FgcUo7Ymua8r5xxsn9puizkLGN5w4i3nnBmasXvkcWfJ",
+      "symbol": "ACB",
+      "name": "Aurora Cannabis Inc",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/aurora-cannabis.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?ACB"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FenmUGWjsW5AohtHRbgLoPUZyWSK36Cd5a31XJWjnRur",
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/amc-entertainment-holdings.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?AMC"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7grgNP3tAJh7DRELmotHzC5Efth4e4SoBvgmFYTX9jPB",
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/advanced-micro-devices.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?AMD"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3bjpzTTK49eP8m1bYxw6HYAFGtzyWjvEyGYcFS4gbRAx",
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/amazon.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?AMZN"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4cr7NH1BD2PMV38JQp58UaHUxzqhxeSiF7b6q1GCS7Ae",
+      "symbol": "APHA",
+      "name": "Aphria Inc",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/amphenol.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?APHA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GPoBx2hycDs3t4Q8DeBme9RHb9nQpzH3a36iUoojHe16",
+      "symbol": "ARKK",
+      "name": "ARK Innovation ETF",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?ARKK"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GgDDCnzZGQRUDy8jWqSqDDcPwAVg2YsKZfLPaTYBWdWt",
+      "symbol": "BABA",
+      "name": "Alibaba",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/alibaba.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?BABA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6jSgnmu8yg7kaZRWp5MtQqNrWTUDk7KWXhZhJPmsQ65y",
+      "symbol": "BB",
+      "name": "BlackBerry",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/blackberry.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?BB"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9Vovr1bqDbMQ8DyaizdC7n1YVvSia8r3PQ1RcPFqpQAs",
+      "symbol": "BILI",
+      "name": "Bilibili Inc",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/bilibili.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?BILI"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "j35qY1SbQ3k7b2WAR5cNETDKzDESxGnYbArsLNRUzg2",
+      "symbol": "BITW",
+      "name": "Bitwise 10 Crypto Index Fund",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?BITW"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AykRYHVEERRoKGzfg2AMTqEFGmCGk9LNnGv2k5FgjKVB",
+      "symbol": "BNTX",
+      "name": "BioNTech",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?BNTX"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Dj76V3vdFGGE8444NWFACR5qmtJrrSop5RCBAGbC88nr",
+      "symbol": "BRKA",
+      "name": "Berkshire Hathaway Inc",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?BRKA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8TUg3Kpa4pNfaMvgyFdvwyiPBSnyTx7kK5EDfb42N6VK",
+      "symbol": "BYND",
+      "name": "Beyond Meat Inc",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/beyond-meat.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?BYND"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8FyEsMuDWAMMusMqVEstt2sDkMvcUKsTy1gF6oMfWZcG",
+      "symbol": "CGC",
+      "name": "Canopy Growth Corp",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/canopy-growth.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?CGC"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DUFVbhWf7FsUo3ouMnFbDjv4YYaRE1Sz9jvAmDsNTt1m",
+      "symbol": "CRON",
+      "name": "Chronos Group Inc",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/cronos-group.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?CRON"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "J9GVpBChXZ8EK7JuPsLSDV17BF9KLJweBQet3L6ZWvTC",
+      "symbol": "EEM",
+      "name": "iShares MSCI Emerging Markets ETF",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/ishares.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?EEM"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6Xj2NzAW437UUomaxFiVyJQPGvvup6YLeXFQpp4kqNaD",
+      "symbol": "EFA",
+      "name": "iShares MSCI EAFE ETF",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/ishares.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?EFA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5YMFoVuoQzdivpm6W97UGKkHxq6aEhipuNkA8imPDoa1",
+      "symbol": "ETHE",
+      "name": "Grayscale Ethereum Trust",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?ETHE"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "C9vMZBz1UCmYSCmMcZFw6N9AsYhXDAWnuhxd8ygCA1Ah",
+      "symbol": "EWA",
+      "name": "iShares MSCI Australia ETF",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/ishares.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?EWA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AcXn3WXPARC7r5JwrkPHSUmBGWyWx1vRydNHXXvgc8V6",
+      "symbol": "EWJ",
+      "name": "iShares MSCI Japan ETF",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/ishares.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?EWJ"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8ihxfcxBZ7dZyfnpXJiGrgEZfrKWbZUk6LjfosLrQfR",
+      "symbol": "EWY",
+      "name": "iShares MSCI South Korea ETF",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/ishares.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?EWY"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "N5ykto2MU7CNcLX7sgWFe3M2Vpy7wq8gDt2sVNDe6aH",
+      "symbol": "EWZ",
+      "name": "iShares MSCI Brazil ETF",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/ishares.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?EWZ"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3K9pfJzKiAm9upcyDWk5NBVdjxVtqXN8sVfQ4aR6qwb2",
+      "symbol": "FB",
+      "name": "Facebook",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/facebook.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?FB"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Ege7FzfrrBSusVQrRUuTiFVCSc8u2R9fRWh4qLjdNYfz",
+      "symbol": "FXI",
+      "name": "iShares China Large-Cap ETF",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/ishares.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?FXI"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FiV4TtDtnjaf8m8vw2a7uc9hRoFvvu9Ft7GzxiMujn3t",
+      "symbol": "GBTC",
+      "name": "Grayscale Bitcoin Trust",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?GBTC"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7FYk6a91TiFWigBvCf8KbuEMyyfpqET5QHFkRtiD2XxF",
+      "symbol": "GDX",
+      "name": "VanEck Vectors Gold Miners Etf",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/vaneck.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?GDX"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EGhhk4sHgY1SBYsgkfgyGNhAKBXqn6QyKNx7W13evx9D",
+      "symbol": "GDXJ",
+      "name": "VanEck Vectors Junior Gold Miners Etf",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/vaneck.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?GDXJ"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9HyU5EEyPvkxeuekNUwsHzmMCJoiw8FZBGWaNih2oux1",
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?GLD"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EYLa7susWhzqDNKYe7qLhFHb3Y9kdNwThc6QSnc4TLWN",
+      "symbol": "GLXY",
+      "name": "Galaxy Digital Holdings",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?GLXY"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Ac2wmyujRxiGtb5msS7fKzGycaCF7K8NbVs5ortE6MFo",
+      "symbol": "GME",
+      "name": "GameStop",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/gamestop.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?GME"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7uzWUPC6XsWkgFAuDjpZgPVH9p3WqeKTvTJqLM1RXX6w",
+      "symbol": "GOOGL",
+      "name": "Google",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/alphabet.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?GOOGL"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6CuCUCYovcLxwaKuxWm8uTquVKGWaAydcFEU3NrtvxGZ",
+      "symbol": "INTC",
+      "name": "Intel Corp",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/intel.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?INTC"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6H26K637YNAjZycRosvBR3ENKFGMsbr4xmoV7ca83GWf",
+      "symbol": "JUST",
+      "name": "Just Group PLC",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?JUST"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FFRtWiE8FT7HMf673r9cmpabHVQfa2QEf4rSRwNo4JM3",
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/moderna.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?MRNA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Hfbh3GU8AdYCw4stirFy2RPGtwQbbzToG2DgFozAymUb",
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/netflix.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?NFLX"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "56Zwe8Crm4pXvmByCxmGDjYrLPxkenTrckdRM7WG3zQv",
+      "symbol": "NIO",
+      "name": "Nio",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/nio.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?NIO"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HP9WMRDV3KdUfJ7CNn5Wf8JzLczwxdnQYTHDAa9yCSnq",
+      "symbol": "NOK",
+      "name": "Nokia",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/nokia.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?NOK"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GpM58T33eTrGEdHmeFnSVksJjJT6JVdTvim59ipTgTNh",
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/nvidia.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?NVDA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CRCop5kHBDLTYJyG7z3u6yiVQi4FQHbyHdtb18Qh2Ta9",
+      "symbol": "PENN",
+      "name": "Penn National Gaming",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/penn-national-gaming.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?PENN"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "97v2oXMQ2MMAkgUnoQk3rNhrZCRThorYhvz1poAe9stk",
+      "symbol": "PFE",
+      "name": "Pfizer",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/pfizer.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?PFE"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AwutBmwmhehaMh18CxqFPPN311uCB1M2awp68A2bG41v",
+      "symbol": "PYPL",
+      "name": "PayPal",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/paypal.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?PYPL"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8Sa7BjogSJnkHyhtRTKNDDTDtASnWMcAsD4ySVNSFu27",
+      "symbol": "SLV",
+      "name": "iShares Silver Trust",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/ishares.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?SLV"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CS4tNS523VCLiTsGnYEAd6GqfrZNLtA14C98DC6gE47g",
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/country/US.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?SPY"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BLyrWJuDyYnDaUMxqBMqkDYAeajnyode1ARh7TxtakEh",
+      "symbol": "SQ",
+      "name": "Square",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/square.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?SQ"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HSDepE3xvbyRDx4M11LX7Hf9qgHSopfTXxAoeatCcwWF",
+      "symbol": "SUN",
+      "name": "Sunoco LP",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/sunoco.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?SUN"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "LZufgu7ekMcWBUypPMBYia2ipnFzpxpZgRBFLhYswgR",
+      "symbol": "TLRY",
+      "name": "Tilray Inc",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/tilray.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?TLRY"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2iCUKaCQpGvnaBimLprKWT8bNGF92e6LxWq4gjsteWfx",
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Mfg",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/taiwan-semiconductor.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?TSM"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BZMg4HyyHVUJkwh2yuv6duu4iQUaXRxT6sK1dT7FcaZf",
+      "symbol": "TUR",
+      "name": "iShares MSCI Turkey ETF",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/ishares.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?TUR"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "C2tNm8bMU5tz6KdXjHY5zewsN1Wv1TEbxK9XGTCgUZMJ",
+      "symbol": "TWTR",
+      "name": "Twitter",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/twitter.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?TWTR"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4kmVbBDCzYam3S4e9XqKQkLCEz16gu3dTTo65KbhShuv",
+      "symbol": "UBER",
+      "name": "Uber",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/uber.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?UBER"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "J645gMdx9zSMM2VySLBrtv6Zv1HyEjPqQXVGRAPYqzvK",
+      "symbol": "USO",
+      "name": "United States Oil Fund",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/country/US.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?USO"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3LjkoC9FYEqRKNpy7xz3nxfnGVAt1SNS98rYwF2adQWB",
+      "symbol": "VXX",
+      "name": "iPath B S&P 500 VIX S/T Futs ETN",
+      "decimals": 8,
+      "logoURI": "https://daag.cloud/icons/logo.png",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?VXX"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BcALTCjD4HJJxBDUXi3nHUgqsJmXAQdBbQrcmtLtqZaf",
+      "symbol": "ZM",
+      "name": "Zoom",
+      "decimals": 8,
+      "logoURI": "https://s3-symbol-logo.tradingview.com/zoom-video-communications.svg",
+      "tags": [
+        "tokenized-stock"
+      ],
+      "extensions": {
+        "website": "https://www.digitalassets.ag/UnderlyingDetails?ZM"
       }
     },
     {
@@ -7336,7 +8180,7 @@
       "symbol": "SOLAPE",
       "name": "SolAPE Finance",
       "decimals": 9,
-      "logoURI": "https://i.ibb.co/5F0859r/solape.png",
+      "logoURI": "https://i.ibb.co/P4kHb75/Solape-Comunity-Profile-7.png",
       "tags": [],
       "extensions": {
         "website": "https://solape.io",
@@ -7505,7 +8349,10 @@
       ],
       "extensions": {
         "website": "https://www.sol-talk.com/sol-survivor",
-        "twitter": "https://twitter.com/sol__survivor"
+        "twitter": "https://twitter.com/sol__survivor",
+        "imageUrl": "https://www.arweave.net/N-RGNyi1o1evhr7jTCXxHQlSndNPdnHWEzUTbTGMCl4",
+        "animationUrl": "https://www.arweave.net/KBzRUmQNX6VKDH41N_uOETtJH21YtWXrOz270b8eqyo?ext=glb",
+        "description": "After a gamma squeeze event he was left covered in theta. Due to the accident he lost his memories but gained the ability to refract light. He joins the tournament hoping to discover more about his past. His only clue is a damaged ID card with the word Malvin inscribed. Special: 'Now You See Me'"
       }
     },
     {
@@ -7973,13 +8820,26 @@
     {
       "chainId": 101,
       "address": "Ae1aeYK9WrB2kP29jJU4aUUK7Y1vzsGNZFKoe4BG2h6P",
-      "symbol": "NINJA",
-      "name": "NINJA",
+      "symbol": "OLDNINJA",
+      "name": "OLDNINJA",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/yuzu-ninjaprotocol/ninjaprotocol/main/NINJA%20Token.svg",
+      "logoURI": "https://raw.githubusercontent.com/ninjaprotocolsol/ninjaprotocol/main/oldninja-token.png",
       "tags": [],
       "extensions": {
-        "website": "http://ninjaprotocol.io"
+        "website": "https://www.ninjaprotocol.io/oldninja/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FgX1WD9WzMU3yLwXaFSarPfkgzjLb2DZCqmkx9ExpuvJ",
+      "symbol": "NINJA",
+      "name": "NINJA",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/ninjaprotocolsol/ninjaprotocol/main/newninja-token.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.ninjaprotocol.io/",
+        "serumV3Usdc": "J4oPt5Q3FYxrznkXLkbosAWrJ4rZLqJpGqz7vZUL4eMM"
       }
     },
     {
@@ -9026,7 +9886,7 @@
     },
     {
       "chainId": 101,
-      "address": "7MtgLYSEgsq626pvcEAwaDqs2KiZsaJUX2qGpRZbcDWY",
+      "address": "FmJ1fo7wK5FF6rDvQxow5Gj7A2ctLmR5orCKLZ45Q3Cq",
       "symbol": "DGEN",
       "name": "Degen Banana",
       "decimals": 6,
@@ -9532,7 +10392,39 @@
         "telegram": "https://t.me/nordicenergy"
        }
     },
-    { 
+    {
+      "address": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS",
+      "symbol": "PAI",
+      "name": "PAI (Parrot)",
+      "decimals": 6,
+      "logoURI": "https://partyparrot.finance/images/tokens/pai.svg",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://partyparrot.finance",
+        "twitter": "https://twitter.com/gopartyparrot",
+        "telegram": "https://t.me/gopartyparrot"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "SLRSSpSLUTP7okbCUBYStWCo1vUgyt775faPqz8HUMr",
+      "symbol": "SLRS",
+      "name": "Solrise Finance",
+      "decimals": 6,
+      "logoURI": "https://i.ibb.co/tqbTKTT/slrs-256.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://solrise.finance",
+        "twitter": "https://twitter.com/SolriseFinance",
+        "telegram": "https://t.me/solrisefinance",
+        "medium": "https://blog.solrise.finance",
+        "discord": "https://discord.gg/xNbGgMUJfU",
+        "coingeckoId": "solrise-finance"
+      }
+    },
+    {
       "chainId": 101,
       "address": "Fx14roJm9m27zngJQwmt81npHvPc5pmF772nxDhNnsh5",
       "symbol": "LIQ-USDC",
@@ -9544,6 +10436,18 @@
       ],
       "extensions": {
         "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CDJWUqTcYTVAKXAVXoQZFes5JUFc7owSeq7eMQcDSbo5",
+      "symbol": "renBTC",
+      "name": "Ren Bitcoin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png",
+      "extensions": {
+        "website": "https://renproject.io/",
+        "coingeckoId": "renbtc"
       }
     }
   ],
