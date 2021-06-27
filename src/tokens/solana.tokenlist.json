@@ -10402,11 +10402,9 @@
       "name": "Raydium LP Token (LIQ-USDC)",
       "decimals": 6,
       "logoURI": "https://liqsolana.com/wp-content/uploads/2021/06/200x.png",
-      "tags": [
-        "lp-token"
-      ],
+      "tags": [],
       "extensions": {
-        "website": "https://raydium.io/"
+        "twitter": "https://raydium.io"
       }
     },
     {
@@ -10420,6 +10418,18 @@
       "extensions": {
         "website": "https://renproject.io/",
         "coingeckoId": "renbtc"
+      }
+    },
+    {
+    "chainId": 101,
+      "address": "niqDR3oYQPogrScZGkdb2b7bwj8S9sEBin6uMQwByUK",
+      "symbol": "SWAN",
+      "name": "SWANLANA",
+      "decimals": 9,
+      "logoURI": "https://github.com/SwanLana/logo/blob/main/SWANLANA_PNG.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://twitter.com/swan_solana/"
       }
     }
   ],
