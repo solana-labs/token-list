@@ -8547,7 +8547,8 @@
       "tags": [],
       "extensions": {
         "website": "https://kekw.io/",
-        "twitter": "https://twitter.com/kekwcoin"
+        "twitter": "https://twitter.com/kekwcoin",
+        "serumV3Usdc": "N99ngemA29qSKqdDW7kRiZHS7h2wEFpdgRvgE3N2jy6"
       }
     },
     {
@@ -10415,9 +10416,23 @@
       "name": "Ren Bitcoin",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png",
+      "tags": [],
       "extensions": {
         "website": "https://renproject.io/",
         "coingeckoId": "renbtc"
+      }
+    },
+    { 
+      "chainId": 101, 
+      "address": "E5rk3nmgLUuKUiS94gg4bpWwWwyjCMtddsAXkTFLtHEy", 
+      "symbol": "WOO", 
+      "name": "Wootrade Network", 
+      "decimals": 18, 
+      "logoURI": "https://oss.woo.network/static/W_256.png", 
+      "tags": [], 
+      "extensions": { 
+        "website": "https://woo.network", 
+        "twitter": "https://twitter.com/wootraderS" 
       }
     },
     {
