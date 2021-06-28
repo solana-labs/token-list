@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.154 (2021-06-27)
+
+### 0.2.153 (2021-06-25)
+
+### 0.2.152 (2021-06-24)
+
+
+### Features
+
+* add tokens ([f20b31a](https://github.com/solana-labs/token-list/commit/f20b31a56604f3bf7a9bac97c67388bbea57e1b0))
+
+### 0.2.151 (2021-06-23)
+
+### 0.2.150 (2021-06-23)
+
 ### 0.2.149 (2021-06-23)
 
 ### 0.2.148 (2021-06-22)
