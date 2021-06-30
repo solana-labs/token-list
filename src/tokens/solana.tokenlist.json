@@ -10488,7 +10488,7 @@
         "website": "https://raydium.io/"
       }
     },
-     {
+    {
       "chainId": 101,
       "address": "GtQ48z7NNjs7sVyp3M7iuiDcTRjeWPd1fkdiWQNy1UR6",
       "symbol": "LIQ-SOL",
@@ -10527,6 +10527,25 @@
       ],
       "extensions": {
         "website": "https://www.mercurial.finance/"
+      }
+    },
+    {
+      "chainId": 137,
+      "address": "FP5MgcQaD3ppWDqfjXouftsWQBSPW2suRzduLAFs712S",
+      "symbol": "suGTON",
+      "name": "SuSy Wrapped GTON (Polygon)",
+      "decimals": 8,
+      "logoURI": "#",
+      "tags": [
+        "gateway-token"
+      ],
+      "extensions": {
+        "website": "https://graviton.one/",
+        "gateway": "https://susy.one",
+        "twitter": "https://twitter.com/OneGraviton",
+        "telegram": "https://t.me/graviton_community",
+        "medium": "https://medium.com/graviton-one",
+        "github": "https://github.com/Graviton-One"
       }
     }
   ],
