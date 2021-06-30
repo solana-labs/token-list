@@ -8548,6 +8548,9 @@
       "extensions": {
         "website": "https://kekw.io/",
         "twitter": "https://twitter.com/kekwcoin",
+        "medium": "https://kekwcoin.medium.com/",
+        "discord": "discord.gg/kekw",
+        "description": "Kekwcoin is a creative community platform for content creators to monetize their artwork and get financial support from investors.",
         "serumV3Usdc": "N99ngemA29qSKqdDW7kRiZHS7h2wEFpdgRvgE3N2jy6"
       }
     },
@@ -9655,6 +9658,82 @@
     },
     {
       "chainId": 101,
+      "address": "CDJWUqTcYTVAKXAVXoQZFes5JUFc7owSeq7eMQcDSbo5",
+      "symbol": "renBTC",
+      "name": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/5xjuqm9hqosof7g/renBTC.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "renbtc",
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "G1a6jxYz3m8DVyMqYnuV7s86wD4fvuXYneWSpLJkmsXj",
+      "symbol": "renBCH",
+      "name": "renBCH",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/1037etkko9il55n/renBCH-01.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "renbch",
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FKJvvVJ242tX7zFtzTmzqoA631LqHh4CdgcN8dcfFSju",
+      "symbol": "renDGB",
+      "name": "renDGB",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/ganf2eac9ujnsbp/renDGB.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ArUkYE2XDKzqy77PRRGjo4wREWwqk6RXTfM9NeqzPvjU",
+      "symbol": "renDOGE",
+      "name": "renDOGE",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/0c2myp08jrr6mq7/renDOGE.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "rendoge",
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8wv2KAykQstNAj2oW6AHANGBiFKVFhvMiyyzzjhkmGvE",
+      "symbol": "renLUNA",
+      "name": "renLUNA",
+      "decimals": 6,
+      "logoURI": "https://www.dropbox.com/s/enlononu571dtn4/renLUNA.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E99CQ2gFMmbiyK2bwiaFNWUUmwz4r8k2CVEFxwuvQ7ue",
+      "symbol": "renZEC",
+      "name": "renZEC",
+      "decimals": 8,
+      "logoURI": "https://www.dropbox.com/s/co3ube4dp3ls68n/renZEC.png?dl=1",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "renzec",
+        "website": "https://renproject.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "GkXP719hnhLtizWHcQyGVYajuJqVsJJ6fyeUob9BPCFC",
       "symbol": "KROWZ",
       "name": "Mike Krow's Official Best Friend Super Kawaii Kasu Token",
@@ -10409,6 +10488,20 @@
         "website": "https://raydium.io/"
       }
     },
+     {
+      "chainId": 101,
+      "address": "GtQ48z7NNjs7sVyp3M7iuiDcTRjeWPd1fkdiWQNy1UR6",
+      "symbol": "LIQ-SOL",
+      "name": "Raydium LP Token (LIQ-SOL)",
+      "decimals": 6,
+      "logoURI": "https://liqsolana.com/wp-content/uploads/2021/06/200x.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
     {
       "chainId": 101,
       "address": "DHojuFwy5Pb8HTUhyRGQ285s5KYgk8tGAjAcmjkEAGbY",
@@ -10424,15 +10517,29 @@
     },
     {
       "chainId": 101,
-      "address": "CDJWUqTcYTVAKXAVXoQZFes5JUFc7owSeq7eMQcDSbo5",
-      "symbol": "renBTC",
-      "name": "Ren Bitcoin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png",
+      "address": "E5rk3nmgLUuKUiS94gg4bpWwWwyjCMtddsAXkTFLtHEy",
+      "symbol": "WOO",
+      "name": "Wootrade Network",
+      "decimals": 18,
+      "logoURI": "https://oss.woo.network/static/W_256.png",
       "tags": [],
       "extensions": {
-        "website": "https://renproject.io/",
-        "coingeckoId": "renbtc"
+        "website": "https://woo.network",
+        "twitter": "https://twitter.com/wootraderS"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9s6dXtMgV5E6v3rHqBF2LejHcA2GWoZb7xNUkgXgsBqt",
+      "symbol": "USDC-USDT-PAI",
+      "name": "Mercurial LP Token (USDC-USDT-PAI)",
+      "decimals": 6,
+      "logoURI": "https://www.mercurial.finance/mercurial-usdc-usdt-pai-logo.svg",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.mercurial.finance/"
       }
     }
   ],
