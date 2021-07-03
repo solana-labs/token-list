@@ -1363,6 +1363,7 @@
       "symbol": "MATH",
       "name": "Wrapped MATH (Sollet)",
       "decimals": 6,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/200x200/5616.png",
       "tags": [
         "wrapped-sollet",
         "ethereum"
@@ -2271,6 +2272,7 @@
       "symbol": "LSD",
       "name": "LSD",
       "decimals": 9,
+      "logoURI": "https://solible.com/static/media/solible-logo.eff5ddb2.svg",
       "tags": [
         "nft"
       ],
@@ -3132,7 +3134,7 @@
       "name": "PERP",
       "symbol": "PERP",
       "decimals": 6,
-      "logoURI": "",
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/200x200/6950.png",
       "tags": [],
       "extensions": {
         "coingeckoId": "perpetual-protocol"
@@ -10088,7 +10090,7 @@
       "symbol": "HAMS",
       "name": "Space Hamster",
       "decimals": 9,
-      "logoURI": "https://i.ibb.co/WBxdrzY/HAMS.png",
+      "logoURI": "https://i.ibb.co/2cpC3nb/HAMS.png",
       "tags": [],
       "extensions": {
         "website": "https://www.solhamster.space/",
@@ -10557,6 +10559,33 @@
       ],
       "extensions": {
         "website": "https://www.mercurial.finance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "sodaNXUbtjMvHe9c5Uw7o7VAcVpXPHAvtaRaiPVJQuE",
+      "symbol": "SODA",
+      "name": "cheesesoda token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/cheesesoda/soda-tokens/main/soda.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://token.cheesesoda.com",
+        "twitter": "https://twitter.com/cheesesodadex"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "sodaoT6Wh1nxHaarw4kDh7AkK4oZnERK1QgDUtHPR3H",
+      "symbol": "SODAO",
+      "name": "cheesesodaDAO",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/cheesesoda/soda-tokens/main/sodao.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://dao.cheesesoda.com",
+        "twitter": "https://twitter.com/cheesesodadex",
+        "serumV3Usdc": "6KFs2wUzME8Z3AeWL4HfKkXbtik5zVvebdg5qCxqt4hB"
       }
     }
   ],
