@@ -1363,6 +1363,7 @@
       "symbol": "MATH",
       "name": "Wrapped MATH (Sollet)",
       "decimals": 6,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/200x200/5616.png",
       "tags": [
         "wrapped-sollet",
         "ethereum"
@@ -2271,6 +2272,7 @@
       "symbol": "LSD",
       "name": "LSD",
       "decimals": 9,
+      "logoURI": "https://solible.com/static/media/solible-logo.eff5ddb2.svg",
       "tags": [
         "nft"
       ],
@@ -3132,7 +3134,7 @@
       "name": "PERP",
       "symbol": "PERP",
       "decimals": 6,
-      "logoURI": "",
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/200x200/6950.png",
       "tags": [],
       "extensions": {
         "coingeckoId": "perpetual-protocol"
@@ -8875,7 +8877,7 @@
       "symbol": "BOP",
       "name": "Boring Protocol",
       "decimals": 8,
-      "logoURI": "https://cloudflare-ipfs.com/ipfs/bafybeihqdesti5rkqfijdstsgxtngb5rsi7uwf4ygz3hkvbbaxfrqshfym",
+      "logoURI": "https://raw.githubusercontent.com/boringprotocol/brand-assets/main/boplogo.png",
       "tags": [
         "security-token",
         "utility-token"
@@ -9816,7 +9818,10 @@
       ],
       "extensions": {
         "website": "https://www.sol-talk.com/sol-survivor",
-        "twitter": "https://twitter.com/sol__survivor"
+        "twitter": "https://twitter.com/sol__survivor",
+        "imageUrl": "https://www.arweave.net/fDxzEtzfu9IjFDh0ID-rOGaGw__F6-OD2ADoa23sayo?ext=gif",
+        "animationUrl": "https://vww4cphi4lv3ldd4dtidi4njkbilvngmvuaofo3rv2oa3ozepeea.arweave.net/ra3BPOji67WMfBzQNHGpUFC6tMytAOK7ca6cDbskeQg?ext=glb",
+        "description": "Sensing a disturbance in the timeline, the tournament organizers send Poh back in time to the beginning of the tournament. He is tasked with finding the origin of the disturbance and restoring the original timeline. Special:'Out of Order'"        
       }
     },
     {
@@ -9856,6 +9861,21 @@
       "extensions": {
         "website": "https://sanddollar.bs",
         "twitter": "https://twitter.com/SandDollar_BS"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Bx4ykEMurwPQBAFNvthGj73fMBVTvHa8e9cbAyaK4ZSh",
+      "symbol": "TOX",
+      "name": "trollbox",
+      "decimals": 9,
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/trollbox-1525027136481.appspot.com/o/trollbox-logo-wallet.png?alt=media&token=d3fe32c2-5d25-40fd-a968-ed33582e3f0c",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://trollbox.io",
+        "twitter": "https://twitter.com/trollboxio"
       }
     },
     {
@@ -10070,7 +10090,7 @@
       "symbol": "HAMS",
       "name": "Space Hamster",
       "decimals": 9,
-      "logoURI": "https://i.ibb.co/WBxdrzY/HAMS.png",
+      "logoURI": "https://i.ibb.co/2cpC3nb/HAMS.png",
       "tags": [],
       "extensions": {
         "website": "https://www.solhamster.space/",
@@ -10544,6 +10564,33 @@
         "medium": "https://coinmeca.medium.com/",
         "twitter": "https://twitter.com/coinmeca",
         "telegram": "https://t.me/coinmeca"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "sodaNXUbtjMvHe9c5Uw7o7VAcVpXPHAvtaRaiPVJQuE",
+      "symbol": "SODA",
+      "name": "cheesesoda token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/cheesesoda/soda-tokens/main/soda.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://token.cheesesoda.com",
+        "twitter": "https://twitter.com/cheesesodadex"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "sodaoT6Wh1nxHaarw4kDh7AkK4oZnERK1QgDUtHPR3H",
+      "symbol": "SODAO",
+      "name": "cheesesodaDAO",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/cheesesoda/soda-tokens/main/sodao.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://dao.cheesesoda.com",
+        "twitter": "https://twitter.com/cheesesodadex",
+        "serumV3Usdc": "6KFs2wUzME8Z3AeWL4HfKkXbtik5zVvebdg5qCxqt4hB"
       }
     }
   ],
