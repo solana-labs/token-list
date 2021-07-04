@@ -56,8 +56,8 @@ export const Icon = (props: { mint: string }) => {
 
 ## Adding new token
 
-Submit PR with changes to JSON file `src/tokens/solana.tokenlist.json`
-
-Please follow the Uniswap Token List specification found here: https://github.com/Uniswap/token-lists
+- Create folder in `assets/mainnet`, name it `<token_address>`, for example `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`.
+- Add new token's logo to this folder, name it `logo.<png || svg>`.
+- Add `info.json` that contains the information of new token, please follow the Uniswap Token List specification found here: https://github.com/Uniswap/token-lists
 
 
