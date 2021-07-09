@@ -2,7 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### 0.2.159 (2021-07-09)
+### 0.2.172 (2021-07-08)
+
+### 0.2.171 (2021-07-06)
+
+### 0.2.170 (2021-07-06)
+
+### 0.2.169 (2021-07-05)
+
+### 0.2.168 (2021-07-04)
+
+### 0.2.167 (2021-07-04)
+
+### 0.2.166 (2021-07-04)
+
+### 0.2.165 (2021-07-04)
+
+### 0.2.164 (2021-07-02)
+
+### 0.2.163 (2021-07-02)
+
+### 0.2.162 (2021-07-02)
+
+### 0.2.161 (2021-07-02)
+
+
+### Bug Fixes
+
+* resolve to not be async when it is not needed ([#419](https://github.com/solana-labs/token-list/issues/419)) ([b13bb3f](https://github.com/solana-labs/token-list/commit/b13bb3faae979f18a9b763c5a02a1b61559a137e))
+
+### 0.2.160 (2021-07-01)
+
+### 0.2.159 (2021-07-01)
 
 ### 0.2.158 (2021-06-29)
 
