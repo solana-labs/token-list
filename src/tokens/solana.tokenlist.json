@@ -8582,6 +8582,22 @@
     },
     {
       "chainId": 101,
+      "address": "3iXydLpqi38CeGDuLFF1WRbPrrkNbUsgVf98cNSg6NaA",
+      "symbol": "Spro",
+      "name": "Sproken Token",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/kechricc/Sproken-Token-Logo/SprokenToken.png",
+      "tags": [
+        "Sprocket Token",
+        "Mini Aussie",
+        "Currency of the Sprokonomy"
+      ],
+      "extensions": {
+        "website": "https://www.sprokentoken.com/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "H5gczCNbrtso6BqGKihF97RaWaxpUEZnFuFUKK4YX3s2",
       "symbol": "BDE",
       "name": "Big Defi Energy",
@@ -10227,7 +10243,7 @@
       "address": "5KV2W2XPdSo97wQWcuAVi6G4PaCoieg4Lhhi61PAMaMJ",
       "symbol": "GÜ",
       "name": "GÜ",
-      "decimals": 6,
+      "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5KV2W2XPdSo97wQWcuAVi6G4PaCoieg4Lhhi61PAMaMJ/logo.png",
       "tags": [
         "utility-token"
@@ -10492,6 +10508,7 @@
         "telegram": "https://t.me/solrisefinance",
         "medium": "https://blog.solrise.finance",
         "discord": "https://discord.gg/xNbGgMUJfU",
+        "serumV3Usdc": "2Gx3UfV831BAh8uQv1FKSPKS9yajfeeD8GJ4ZNb2o2YP",
         "coingeckoId": "solrise-finance"
       }
     },
@@ -10525,6 +10542,19 @@
     },
     {
       "chainId": 101,
+      "address": "2gBzc1esiEYuhWSzUu27RX2yaRER3TywArNYW51Pivjh",
+      "symbol": "GQO",
+      "name": "GIGQO",
+      "decimals": 9,
+      "logoURI": "https://gigqo.com/images/new-gqo-logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://gigqo.com/",
+        "twitter": "https://twitter.com/gigqoapp"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "E5rk3nmgLUuKUiS94gg4bpWwWwyjCMtddsAXkTFLtHEy",
       "symbol": "WOO",
       "name": "Wootrade Network",
@@ -10552,6 +10582,25 @@
     },
     {
       "chainId": 101,
+      "address": "8kRacWW5qZ34anyH8s9gu2gC4FpXtncqBDPpd2a6DnZE",
+      "symbol": "MECA",
+      "name": "Coinmeca",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8kRacWW5qZ34anyH8s9gu2gC4FpXtncqBDPpd2a6DnZE/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://coinmeca.net/",
+        "medium": "https://coinmeca.medium.com/",
+        "twitter": "https://twitter.com/coinmeca",
+        "telegram": "https://t.me/coinmeca",
+        "discord": "https://discord.gg/coinmeca",
+        "reddit": "https://reddit.com/r/coinmeca"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "sodaNXUbtjMvHe9c5Uw7o7VAcVpXPHAvtaRaiPVJQuE",
       "symbol": "SODA",
       "name": "cheesesoda token",
@@ -10560,7 +10609,8 @@
       "tags": [],
       "extensions": {
         "website": "https://token.cheesesoda.com",
-        "twitter": "https://twitter.com/cheesesodadex"
+        "twitter": "https://twitter.com/cheesesodadex",
+        "serumV3Usdc": "6KFs2wUzME8Z3AeWL4HfKkXbtik5zVvebdg5qCxqt4hB"
       }
     },
     {
@@ -10573,8 +10623,21 @@
       "tags": [],
       "extensions": {
         "website": "https://dao.cheesesoda.com",
-        "twitter": "https://twitter.com/cheesesodadex",
-        "serumV3Usdc": "6KFs2wUzME8Z3AeWL4HfKkXbtik5zVvebdg5qCxqt4hB"
+        "twitter": "https://twitter.com/cheesesodadex"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "49YUsDrThJosHSagCn1F59Uc9NRxbr9thVrZikUnQDXy",
+      "symbol": "LIQ-RAY",
+      "name": "Raydium LP Token (LIQ-RAY)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/49YUsDrThJosHSagCn1F59Uc9NRxbr9thVrZikUnQDXy/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
       }
     },
     {
@@ -10625,6 +10688,21 @@
       ],
       "extensions": {
         "website": "https://www.kurzdigital.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GSaiLQxREzaxUcE3v28HxBacoUQPZNtXx1eQsCFsX9Bg",
+      "symbol": "gSAIL",
+      "name": "gSAIL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GSaiLQxREzaxUcE3v28HxBacoUQPZNtXx1eQsCFsX9Bg/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.solanasail.com",
+        "twitter": "https://twitter.com/SolanaSail"
       }
     }
   ],
