@@ -1,6 +1,6 @@
-- [ ] I will not ping on Discord/Twitter/email about this pull request.
-
-PRs are reviewed in bulk and and can take up to two weeks to be merged.
+## I agree to not ping *anybody* on Discord/Twitter/email about this pull request. Instead I will inquire by posting a new comment in the pull request if needed.
+----
+PRs are reviewed in bulk and and can take up to **two weeks** to be merged.  
 
 **Please provide the following information for your token.**
 
