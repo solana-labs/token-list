@@ -9685,7 +9685,7 @@
       "extensions": {
         "coingeckoId": "renbtc",
         "website": "https://renproject.io/",
-		    "serumV3Usdc": "74Ciu5yRzhe8TFTHvQuEVbFZJrbnCMRoohBK33NNiPtv"
+        "serumV3Usdc": "74Ciu5yRzhe8TFTHvQuEVbFZJrbnCMRoohBK33NNiPtv"
       }
     },
     {
@@ -10685,6 +10685,25 @@
       "extensions": {
         "website": "https://www.solanasail.com",
         "twitter": "https://twitter.com/SolanaSail"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm",
+      "symbol": "wUST",
+      "name": "Wrapped UST (Wormhole)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa47c8bf37f92aBed4A126BDA807A7b7498661acD/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "website": "https://terra.money",
+        "address": "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
+        "coingeckoId": "terra-usd"
       }
     }
   ],
