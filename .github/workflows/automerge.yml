@@ -22,4 +22,3 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           merge-method: rebase
           do-not-merge-labels: never-merge
-          dry-run: true
