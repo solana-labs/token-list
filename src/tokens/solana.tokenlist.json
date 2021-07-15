@@ -9054,7 +9054,7 @@
         "Turtles"
       ],
       "extensions": {
-        "twitter": "https://twitter.com/Turtletraders1"
+        "twitter": "https://twitter.com/Turtle_Traders"
       }
     },
     {
@@ -9685,7 +9685,7 @@
       "extensions": {
         "coingeckoId": "renbtc",
         "website": "https://renproject.io/",
-		    "serumV3Usdc": "74Ciu5yRzhe8TFTHvQuEVbFZJrbnCMRoohBK33NNiPtv"
+        "serumV3Usdc": "74Ciu5yRzhe8TFTHvQuEVbFZJrbnCMRoohBK33NNiPtv"
       }
     },
     {
@@ -10692,6 +10692,20 @@
     },
     {
       "chainId": 101,
+      "address": "ELyNEh5HC33sQLhGiQ5dimmwqiJCiqVJp3eQxpX3pKhQ",
+      "symbol": "JCS",
+      "name": "Jogys Crypto School Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ELyNEh5HC33sQLhGiQ5dimmwqiJCiqVJp3eQxpX3pKhQ/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://instagram.com/jogyscryptoschool?utm_medium=copy_link",
+        "instagram": "https://instagram.com/jogyscryptoschool?utm_medium=copy_link",
+        "telegram": "https://t.me/JCS_JogysCryptoSchool"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "3bRTivrVsitbmCTGtqwp7hxXPsybkjn4XLNtPsHqa3zR",
       "symbol": "LIKE",
       "name": "Only1 (LIKE)",
@@ -10706,6 +10720,67 @@
         "twitter": "https://twitter.com/only1nft",
         "telegram": "https://t.me/only1nft",
         "discord": "https://discord.gg/SrsKwTFA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm",
+      "symbol": "wUST",
+      "name": "Wrapped UST (Wormhole)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "website": "https://terra.money",
+        "address": "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
+        "coingeckoId": "terrausd"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "A7SXXA9wveT2quqqzh5m6Zf3ueCb9kBezQdpnYxHwzLt",
+      "symbol": "ZINTI",
+      "name": "Zia Inti",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A7SXXA9wveT2quqqzh5m6Zf3ueCb9kBezQdpnYxHwzLt/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.ziainti.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3Ztt53vwGhQGoEp3n1RjSu4CFnGRfqzwo6L8KN8gmXfd",
+      "symbol": "METAS",
+      "name": "METASEER",
+      "decimals": 9,
+      "logoURI": "https://metaseer.io/img/home-one/logo256.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://metaseer.io/",
+        "twitter": "https://twitter.com/MSEERofficial"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EssczqGURZtsSuzEoH471KCRNDWfS4aQpEJVXWL3DvdK",
+      "symbol": "VIVA",
+      "name": "Viva coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EssczqGURZtsSuzEoH471KCRNDWfS4aQpEJVXWL3DvdK/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.inkresearch.com",
+        "twitter": "https://twitter.com/inkresearch"
       }
     }
   ],
