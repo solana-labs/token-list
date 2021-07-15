@@ -69,29 +69,9 @@
         "website": "https://solana.com/",
         "serumV3Usdc": "9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT",
         "serumV3Usdt": "HWHvQhFmJB3NUcu1aihKmrKegfVxBEHzwVX6yZCKEsi1",
-        "coingeckoId": "solana",
-        "waterfallbot": "https://t.me/SOLwaterfall"
+        "coingeckoId": "solana"
       }
     },
-    {
-      "chainId": 101,
-      "address": "8CWgMvZe7ntNLbky4T3JhSgtCYzeorgRiUY8xfXZztXx",
-      "symbol": "IOTC",
-      "name": "IoTcoin",
-      "decimals": 3,
-      "logoURI": "https://cdn.jsdelivr.net/gh/IoT-Worlds/IoT-Worlds/logo.jpg",
-      "tags": [
-        "IoT Coin",
-        "Together to Neptune and Beyond"
-      ],
-      "extensions": {
-        "website": "https://www.iotworlds.com",
-        "twitter": "https://twitter.com/iotworlds",
-        "facebook": "https://facebook.com/iotworlds",
-        "instagram": "https://instagram.com/iotworlds",
-        "linkedin": "https://www.linkedin.com/company/iotworlds"
-      }
-      },
     {
       "chainId": 101,
       "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
@@ -11054,6 +11034,22 @@
       "tags": [],
       "extensions": {
         "website": "https://diabolo.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8CWgMvZe7ntNLbky4T3JhSgtCYzeorgRiUY8xfXZztXx",
+      "symbol": "IOTC",
+      "name": "IoTcoin",
+      "decimals": 3,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8CWgMvZe7ntNLbky4T3JhSgtCYzeorgRiUY8xfXZztXx/logo.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.iotworlds.com",
+        "twitter": "https://twitter.com/iotworlds",
+        "facebook": "https://facebook.com/iotworlds",
+        "instagram": "https://instagram.com/iotworlds",
+        "linkedin": "https://www.linkedin.com/company/iotworlds"
       }
     }
   ],
