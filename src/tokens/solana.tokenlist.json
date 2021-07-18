@@ -8160,16 +8160,20 @@
       }
     },
     {
-      "chainId": 101,
-      "address": "GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN",
-      "symbol": "SOLAPE",
-      "name": "SolAPE Finance",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN/logo.png",
-      "tags": [],
-      "extensions": {
-        "website": "https://solape.io",
-        "serumV3Usdc": "4zffJaPyeXZ2wr4whHgP39QyTfurqZ2BEd4M5W6SEuon"
+       "chainId": 101,
+       "address": "GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN",
+       "symbol": "SOLAPE",
+        "name": "SolAPE Token",
+        "decimals": 9,
+        "logoURI": "https://i.ibb.co/ggbyqgN/256px.png",
+        "tags": [
+        "utility-token"
+         ],
+         "extensions": {
+         "coingeckoId": "solape-token",
+         "website": "https://solape.io",
+         "twitter": "https://twitter.com/SolApeFinance",
+         "serumV3Usdc": "4zffJaPyeXZ2wr4whHgP39QyTfurqZ2BEd4M5W6SEuon"
       }
     },
     {
