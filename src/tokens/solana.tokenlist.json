@@ -11186,6 +11186,24 @@
       "extensions": {
         "website": "https://www.variantresearch.io"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref",
+      "symbol": "wHBTC",
+      "name": "HBTC (Wormhole)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x0316EB71485b0Ab14103307bf65a021042c6d380",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0x0316EB71485b0Ab14103307bf65a021042c6d380",
+        "coingeckoId": "huobi-btc"
+      }
     }
   ],
   "version": {
