@@ -8362,7 +8362,9 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7uv3ZvZcQLd95bUp5WMioxG7tyAZVXFfr8JYkwhMYrnt/logo.png",
       "tags": [],
       "extensions": {
-        "website": "https://tokenbole.com/"
+        "website": "https://tokenbole.com/",
+        "serumV3Usdc": "9yGqsboBtvztDgGbGFEaBBT2G8dUMhxewXDQpy6T3eDm",
+        "coingeckoId": "bole-token"
       }
     },
     {
@@ -11166,6 +11168,20 @@
     },
     {
       "chainId": 101,
+      "address": "AWTE7toEwKdSRd7zh3q45SjKhmYVFp3zk4quWHsM92bj",
+      "symbol": "ZAU",
+      "name": "Zaucoin",
+      "decimals": 7,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AWTE7toEwKdSRd7zh3q45SjKhmYVFp3zk4quWHsM92bj/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "zaucoin.crypto"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "5ToouaoWhGCiaicANcewnaNKJssdZTxPATDhqJXARiJG",
       "symbol": "NUR",
       "name": "Nur Coin",
@@ -11176,6 +11192,88 @@
         "qazaqstan",
         "kz"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "9ysRLs872GMvmAjjFZEFccnJBF3tYEVT1x7dFE1WPqTY",
+      "symbol": "VRNT",
+      "name": "Variant",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9ysRLs872GMvmAjjFZEFccnJBF3tYEVT1x7dFE1WPqTY/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.variantresearch.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref",
+      "symbol": "wHBTC",
+      "name": "HBTC (Wormhole)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x0316EB71485b0Ab14103307bf65a021042c6d380",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0x0316EB71485b0Ab14103307bf65a021042c6d380",
+        "coingeckoId": "huobi-btc"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX",
+      "symbol": "wHUSD",
+      "name": "HUSD Stablecoin (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "website": "https://www.stcoins.com/",
+        "address": "0xdf574c24545e5ffecb9a659c229253d4111d87e1",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0xdf574c24545e5ffecb9a659c229253d4111d87e1",
+        "coingeckoId": "husd"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC",
+      "symbol": "LRX",
+      "name": "Larix Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC/logo.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "projectlarix.com",
+        "twitter": "https://twitter.com/ProjectLarix",
+        "discord": "http://discord.gg/hfnRFV9Ngt",
+        "medium": "http://projectlarix.medium.com",
+        "telegram": "http://t.me/projectlarix",
+        "github": "https://github.com/ProjectLarix/Larix-Lending-Project-Rep"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BYvGwtPx6Nw4YUVVwqx7qh657EcdxBSfE8JcaPmWWa6E",
+      "symbol": "TOSTI",
+      "name": "Tosti Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BYvGwtPx6Nw4YUVVwqx7qh657EcdxBSfE8JcaPmWWa6E/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://tosti.app"
+      }
     }
   ],
   "version": {
