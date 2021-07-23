@@ -8160,20 +8160,20 @@
       }
     },
     {
-       "chainId": 101,
-       "address": "GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN",
-       "symbol": "SOLAPE",
-        "name": "SolAPE Token",
-        "decimals": 9,
-        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN/logo.png",
-        "tags": [
+      "chainId": 101,
+      "address": "GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN",
+      "symbol": "SOLAPE",
+      "name": "SolAPE Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN/logo.png",
+      "tags": [
         "utility-token"
-         ],
-         "extensions": {
-         "coingeckoId": "solape-token",
-         "website": "https://solape.io",
-         "twitter": "https://twitter.com/SolApeFinance",
-         "serumV3Usdc": "4zffJaPyeXZ2wr4whHgP39QyTfurqZ2BEd4M5W6SEuon"
+      ],
+      "extensions": {
+        "coingeckoId": "solape-token",
+        "website": "https://solape.io",
+        "twitter": "https://twitter.com/SolApeFinance",
+        "serumV3Usdc": "4zffJaPyeXZ2wr4whHgP39QyTfurqZ2BEd4M5W6SEuon"
       }
     },
     {
@@ -11273,6 +11273,20 @@
       ],
       "extensions": {
         "website": "https://tosti.app"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "57h4LEnBooHrKbacYWGCFghmrTzYPVn8PwZkzTzRLvHa",
+      "symbol": "USDC-USDT-UST",
+      "name": "Mercurial LP Token (USDC-USDT-UST)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/57h4LEnBooHrKbacYWGCFghmrTzYPVn8PwZkzTzRLvHa/logo.svg",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.mercurial.finance/"
       }
     }
   ],
