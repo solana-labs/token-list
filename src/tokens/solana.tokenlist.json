@@ -11274,7 +11274,23 @@
       "extensions": {
         "website": "https://tosti.app"
       }
-    }
+    },
+    {
+      "chainId": 101,
+      "address": "3UMYcByZNQVHHyyqVfXMKr8XWP64omYBFVvf7bD6wBiA",
+      "symbol": "BET",
+      "name": "SOLBET",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3UMYcByZNQVHHyyqVfXMKr8XWP64omYBFVvf7bD6wBiA/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://solbet.org/",
+        "twitter": "https://twitter.com/solbet_official/",
+        "description": "SOLBET seeks to facilitate P2P speculation and provide trustless on-chain escrow services for speculative ventures utilizing on-chain data, oracle services, and private data node operators to verify outcomes for all parties involved."
+      }
+    },
   ],
   "version": {
     "major": 0,
