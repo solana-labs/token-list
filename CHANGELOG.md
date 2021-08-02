@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.206 (2021-07-28)
+
+### 0.2.205 (2021-07-26)
+
+
+### Bug Fixes
+
+* spelling ([2dcc3c9](https://github.com/solana-labs/token-list/commit/2dcc3c94feca5924fdc1aa9f131a698e0433625f))
+
+### 0.2.204 (2021-07-21)
+
 ### 0.2.203 (2021-07-21)
 
 ### 0.2.202 (2021-07-19)
