@@ -7958,6 +7958,23 @@
     },
     {
       "chainId": 101,
+      "address": "BrzwWsG845VttbTsacZMLKhyc2jAZU12MaPkTYrJHoqm",
+      "symbol": "SATM",
+      "name": "Star Atlas - The Movie",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BrzwWsG845VttbTsacZMLKhyc2jAZU12MaPkTYrJHoqm/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.staratlas.com",
+        "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-14/star-at-atlas-movie.jpg",
+        "description": "“The first to arrive at the universe’s next frontier is the first to knock on the gates of prosperity.” — Ustur Armi.eldr",
+        "serumV3Usdc": "KHw8L2eE6kpp8ziWPghBTtiAVCUvdSKMvGtT1e9AuJd"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "8ymi88q5DtmdNTn2sPRNFkvMkszMHuLJ1e3RVdWjPa3s",
       "symbol": "SDOGE",
       "name": "SolDoge",
@@ -8063,6 +8080,20 @@
     },
     {
       "chainId": 101,
+      "address": "9axWWN2FY8njSSQReepkiSE56U2yAvPFGuaXRQNdkZaS",
+      "symbol": "wen-token-2",
+      "name": "wen-token-2",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9axWWN2FY8njSSQReepkiSE56U2yAvPFGuaXRQNdkZaS/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://pythians.pyth.network"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "4dmKkXNHdgYsXqBHCuMikNQWwVomZURhYvkkX5c4pQ7y",
       "symbol": "SNY",
       "name": "Synthetify",
@@ -8143,7 +8174,8 @@
       "extensions": {
         "website": "https://moonlana.com/",
         "twitter": "https://twitter.com/xMoonLana",
-        "medium": "https://moonlana.medium.com/"
+        "medium": "https://moonlana.medium.com/",
+        "coingeckoId": "moonlana"
       }
     },
     {
@@ -9296,6 +9328,7 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/51tMb3zBKDiQhNwGqpgwbavaGH54mk8fXFzxTc1xnasg/logo.png",
       "tags": [],
       "extensions": {
+        "coingeckoId": "apexit-finance",
         "website": "https://apexit.finance/",
         "twitter": "https://twitter.com/apeXit_finance",
         "discord": "https://discord.gg/aASQy2dWsN",
@@ -11246,9 +11279,28 @@
     },
     {
       "chainId": 101,
+      "address": "6VNKqgz9hk7zRShTFdg5AnkfKwZUcojzwAkzxSH3bnUm",
+      "symbol": "wHAPI",
+      "name": "Wrapped HAPI",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6VNKqgz9hk7zRShTFdg5AnkfKwZUcojzwAkzxSH3bnUm/logo.png",
+      "tags": [
+        "wrapped",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://hapi.one",
+        "twitter": "https://twitter.com/i_am_hapi_one",
+        "medium": "https://medium.com/i-am-hapi",
+        "telegram": "http://t.me/hapiHF",
+        "github": "https://github.com/HAPIprotocol/HAPI/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC",
-      "symbol": "LRX",
-      "name": "Larix Coin",
+      "symbol": "LARIX",
+      "name": "Larix",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC/logo.jpg",
       "tags": [],
@@ -11287,6 +11339,40 @@
       ],
       "extensions": {
         "website": "https://www.mercurial.finance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+      "symbol": "mSOL",
+      "name": "Marinade staked SOL (mSOL)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://marinade.finance",
+        "twitter": "https://twitter.com/MarinadeFinance",
+        "discord": "https://discord.gg/mGqZA5pjRN",
+        "medium": "https://medium.com/marinade-finance",
+        "github": "https://github.com/marinade-finance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "LPmSozJJ8Jh69ut2WP3XmVohTjL4ipR18yiCzxrUmVj",
+      "symbol": "mSOL-SOL-LP",
+      "name": "Marinade LP token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/LPmSozJJ8Jh69ut2WP3XmVohTjL4ipR18yiCzxrUmVj/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://marinade.finance",
+        "twitter": "https://twitter.com/MarinadeFinance",
+        "discord": "https://discord.gg/mGqZA5pjRN",
+        "medium": "https://medium.com/marinade-finance",
+        "github": "https://github.com/marinade-finance"
       }
     },
     {
