@@ -11629,21 +11629,6 @@
     },
     {
       "chainId": 101,
-      "address": "6SuBPLC3vMTgfET5uoEhNoi5voYeBujVm7LS9kM3KX9s",
-      "symbol": "FINN",
-      "name": "FINNGRAM TOKEN",
-      "decimals": 9,
-      "logoURI": "https://cdn.jsdelivr.net/gh/finngram/fin-token/finn.png",
-      "tags": [
-        "utility-token",
-        "finn"
-      ],
-      "extensions": {
-        "website": "https://www.finngram.com",
-      }
-    },
-    {
-      "chainId": 101,
       "address": "cjZmbt8sJgaoyWYUttomAu5LJYU44ZrcKTbzTSEPDVw",
       "symbol": "LIKE-USDC",
       "name": "Raydium LP Token V4 (LIKE-USDC)",
@@ -11656,6 +11641,23 @@
         "website": "https://raydium.io/"
       }
     }
+    ,
+    {
+      "chainId": 101,
+      "address": "6SuBPLC3vMTgfET5uoEhNoi5voYeBujVm7LS9kM3KX9s",
+      "symbol": "FINN",
+      "name": "FINNGRAM TOKEN",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/finngram/fin-token/finn.png",
+      "tags": [
+        "utility-token",
+        "finn"
+      ],
+      "extensions": {
+        "website": "https://www.finngram.com",
+      }
+    }
+    
   ],
   "version": {
     "major": 0,
