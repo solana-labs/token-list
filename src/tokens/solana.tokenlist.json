@@ -8606,12 +8606,13 @@
       "chainId": 101,
       "address": "5trVBqv1LvHxiSPMsHtEZuf8iN82wbpDcR5Zaw7sWC3s",
       "symbol": "JPYC",
-      "name": "JPY Coin",
+      "name": "JPY Coin(Sollet)(Deprecated)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5trVBqv1LvHxiSPMsHtEZuf8iN82wbpDcR5Zaw7sWC3s/logo.png",
       "tags": [
         "stablecoin",
-        "ethereum"
+        "ethereum",
+        "wrapped-sollet"
       ],
       "extensions": {
         "website": "https://jpyc.jp/"
@@ -11687,6 +11688,26 @@
         "medium": "https://medium.com/port-finance",
         "discord": "https://discord.gg/nAMXAYhTb2",
         "telegram": "https://t.me/port_finance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6CssfnBjF4Vo56EithaLHLWDF95fLrt48QHsUfZwNnhv",
+      "symbol": "JPYC",
+      "name": "JPY Coin(Wormhole)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5trVBqv1LvHxiSPMsHtEZuf8iN82wbpDcR5Zaw7sWC3s/logo.png",
+      "tags": [
+        "stablecoin",
+        "ethereum",
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "website": "https://jpyc.jp/",
+        "twitter": "https://twitter.com/jpy_coin",
+        "coingeckoId": "jpyc",
+        "assetContract": "https://etherscan.io/address/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53",
       }
     }
   ],
