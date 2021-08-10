@@ -7541,6 +7541,23 @@
     },
     {
       "chainId": 103,
+      "address": "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT",
+      "symbol": "STEP",
+      "name": "Step",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://step.finance/",
+        "twitter": "https://twitter.com/StepFinance_",
+        "coingeckoId": "step-finance",
+        "waterfallbot": "https://bit.ly/STEPwaterfall"
+      }
+    },
+    {
+      "chainId": 103,
       "address": "7STJWT74tAZzhbNNPRH8WuGDy9GZg27968EwALWuezrH",
       "symbol": "wSUSHI",
       "name": "SushiSwap (Wormhole)",
@@ -9377,6 +9394,19 @@
       "extensions": {
         "website": "https://solainetwork.com/",
         "twitter": "https://twitter.com/SolAiNetwork"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
+      "symbol": "ORCA",
+      "name": "Orca",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://orca.so/",
+        "twitter": "https://twitter.com/orca_so"
       }
     },
     {
@@ -11644,6 +11674,23 @@
     },
     {
       "chainId": 101,
+      "address": "PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y",
+      "symbol": "PORT",
+      "name": "Port Finance Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y/PORT.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://port.finance/",
+        "twitter": "https://twitter.com/port_finance",
+        "github": "https://github.com/port-finance/",
+        "medium": "https://medium.com/port-finance",
+        "discord": "https://discord.gg/nAMXAYhTb2",
+        "telegram": "https://t.me/port_finance"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "D1EjNd9c7MgepvQCS31x5TpdXpvtDwDNCLwLGEYg6hYo",
       "symbol": "AUTOS",
       "name": "Autostorm",
@@ -11655,7 +11702,8 @@
         "marketplace"
       ],
       "extensions": {
-        "website": "https://www.autostorm.io/"
+        "website": "https://www.autostorm.io/",
+        "discord": "https://discord.gg/yWjkHgnPD3"
       }
     }
   ],
