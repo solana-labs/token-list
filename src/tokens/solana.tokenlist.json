@@ -59,12 +59,31 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "2Kc38rfQ49DFaKHQaWbijkE7fcymUMLY5guUiUsDmFfn",
+      "symbol": "KURO",
+      "name": "Kurobi Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Kc38rfQ49DFaKHQaWbijkE7fcymUMLY5guUiUsDmFfn/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://kurobi.io/",
+        "telegram": "https://t.me/kurobi_io",
+        "twitter": "https://twitter.com/kurobi_io"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF",
       "symbol": "SOLA",
       "name": "Sola Token",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF/logo.png",
-      "tags": ["Solana tokenized", "Solana Community token"],
+      "tags": [
+        "Solana tokenized",
+        "Solana Community token"
+      ],
       "extensions": {
         "website": "https://solatoken.net/",
         "telegram": "https://t.me/solatokennet",
@@ -11702,7 +11721,23 @@
         "discord": "https://discord.gg/nAMXAYhTb2",
         "telegram": "https://t.me/port_finance"
       }
-    }
+    },
+    {
+      "chainId": 101,
+      "address": "2Kc38rfQ49DFaKHQaWbijkE7fcymUMLY5guUiUsDmFfn",
+      "symbol": "KURO",
+      "name": "Kurobi",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Kc38rfQ49DFaKHQaWbijkE7fcymUMLY5guUiUsDmFfn/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://kurobi.io/",
+        "medium": "https://kurobi.medium.com/",
+        "github": "https://github.com/KurobiHq/",
+        "telegram": "https://t.me/kurobi_io",
+        "twitter": "https://twitter.com/kurobi_io"
+      }
+    },
   ],
   "version": {
     "major": 0,
