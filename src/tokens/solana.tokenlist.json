@@ -59,6 +59,23 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF",
+      "symbol": "SOLA",
+      "name": "Sola Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF/logo.png",
+      "tags": [
+        "Solana tokenized",
+        "Solana Community token"
+      ],
+      "extensions": {
+        "website": "https://solatoken.net/",
+        "telegram": "https://t.me/solatokennet",
+        "twitter": "https://twitter.com/EcoSolana"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "So11111111111111111111111111111111111111112",
       "symbol": "SOL",
       "name": "Wrapped SOL",
@@ -11704,6 +11721,22 @@
       "extensions": {
         "website": "https://www.autostorm.io/",
         "discord": "https://discord.gg/yWjkHgnPD3"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
+      "symbol": "MNGO",
+      "name": "Mango",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac/token.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://mango.markets/",
+        "serumV3Usdc": "3d4rzwpy9iGdCZvgxcu7B1YocYffVLsQXPXkBZKt2zLc",
+        "coingeckoId": "mango-markets",
+        "twitter": "https://twitter.com/mangomarkets",
+        "discord": "https://discord.gg/67jySBhxrg"
       }
     }
   ],
