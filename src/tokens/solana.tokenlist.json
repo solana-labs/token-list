@@ -7693,8 +7693,10 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/xxxxa1sKNGwFtw2kFn8XauW9xq8hBZ5kVtcSesTT9fW/logo.png",
       "tags": [],
       "extensions": {
-        "website": "https://solanium.io/",
-        "waterfallbot": "https://bit.ly/SLIMwaterfall"
+        "website": "https://www.solanium.io/",
+        "coingeckoId": "solanium",
+        "twitter": "https://twitter.com/solanium_io",
+        "telegram": "https://t.me/solanium_io"
       }
     },
     {
@@ -11717,6 +11719,20 @@
         "coingeckoId": "mango-markets",
         "twitter": "https://twitter.com/mangomarkets",
         "discord": "https://discord.gg/67jySBhxrg"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9X4EK8E59VAVi6ChnNvvd39m6Yg9RtkBbAPq1mDVJT57",
+      "symbol": "SLIM-SOL",
+      "name": "Raydium LP Token V4 (SLIM-SOL)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/xxxxa1sKNGwFtw2kFn8XauW9xq8hBZ5kVtcSesTT9fW/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
       }
     }
   ],
