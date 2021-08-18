@@ -59,6 +59,20 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF",
+      "symbol": "SOLA",
+      "name": "Sola Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF/logo.png",
+      "tags": ["Solana tokenized", "Solana Community token"],
+      "extensions": {
+        "website": "https://solatoken.net/",
+        "telegram": "https://t.me/solatokennet",
+        "twitter": "https://twitter.com/EcoSolana"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "So11111111111111111111111111111111111111112",
       "symbol": "SOL",
       "name": "Wrapped SOL",
@@ -7541,6 +7555,23 @@
     },
     {
       "chainId": 103,
+      "address": "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT",
+      "symbol": "STEP",
+      "name": "Step",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://step.finance/",
+        "twitter": "https://twitter.com/StepFinance_",
+        "coingeckoId": "step-finance",
+        "waterfallbot": "https://bit.ly/STEPwaterfall"
+      }
+    },
+    {
+      "chainId": 103,
       "address": "7STJWT74tAZzhbNNPRH8WuGDy9GZg27968EwALWuezrH",
       "symbol": "wSUSHI",
       "name": "SushiSwap (Wormhole)",
@@ -9381,6 +9412,19 @@
     },
     {
       "chainId": 101,
+      "address": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
+      "symbol": "ORCA",
+      "name": "Orca",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://orca.so/",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "guppyrZyEX9iTPSu92pi8T71Zka7xd6PrsTJrXRW6u1",
       "symbol": "GUPPY",
       "name": "Orca Guppy Collectible",
@@ -11182,7 +11226,8 @@
         "github": "https://github.com/saber-hq",
         "medium": "https://blog.saber.so",
         "discord": "https://chat.saber.so",
-        "serumV3Usdc": "HXBi8YBwbh4TXF6PjVw81m8Z3Cc4WBofvauj5SBFdgUs"
+        "serumV3Usdc": "HXBi8YBwbh4TXF6PjVw81m8Z3Cc4WBofvauj5SBFdgUs",
+        "coingeckoId": "saber"
       }
     },
     {
@@ -11648,6 +11693,28 @@
       "name": "XEN Coin",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4KVuGB1iNhYqR99Hykv1ZLdHvx41zpBqqPFtHucYpQja/logo.png",
+      "extensions": {
+        "website": "https://bcpt.tech/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7b9rgZhiZHieCoPwxWd7ihbjtQ7Ljjy4McxvcA2TTgcK",
+      "symbol": "PERA",
+      "name": "Prithera token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7b9rgZhiZHieCoPwxWd7ihbjtQ7Ljjy4McxvcA2TTgcK/logo.png",
+      "extensions": {
+        "website": "https://bcpt.tech/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8SvvzDMu5jqcBhfdYZM1zDjDG5YGYrsNmGsPzTm4bFYU",
+      "symbol": "QIA",
+      "name": "Qia Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8SvvzDMu5jqcBhfdYZM1zDjDG5YGYrsNmGsPzTm4bFYU/logo.png",
       "extensions": {
         "website": "https://bcpt.tech/"
       }
