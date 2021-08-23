@@ -64,7 +64,10 @@
       "name": "Sola Token",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF/logo.png",
-      "tags": ["Solana tokenized", "Solana Community token"],
+      "tags": [
+        "Solana tokenized",
+        "Solana Community token"
+      ],
       "extensions": {
         "website": "https://solatoken.net/",
         "telegram": "https://t.me/solatokennet",
@@ -11747,6 +11750,21 @@
       "extensions": {
         "website": "https://www.solanasail.com",
         "twitter": "https://twitter.com/SolanaSail"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7kpzQByqsfmZSX5Y71YtncBvuhFVFJBLUvJKqqNMfT8P",
+      "symbol": "TASK",
+      "name": "TaskDapp",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7kpzQByqsfmZSX5Y71YtncBvuhFVFJBLUvJKqqNMfT8P/token.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://taskdapp.io",
+        "twitter": "https://twitter.com/task_dapp"
       }
     }
   ],
