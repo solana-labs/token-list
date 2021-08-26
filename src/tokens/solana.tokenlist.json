@@ -64,7 +64,10 @@
       "name": "Sola Token",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF/logo.png",
-      "tags": ["Solana tokenized", "Solana Community token"],
+      "tags": [
+        "Solana tokenized",
+        "Solana Community token"
+      ],
       "extensions": {
         "website": "https://solatoken.net/",
         "telegram": "https://t.me/solatokennet",
@@ -632,6 +635,21 @@
       ],
       "extensions": {
         "website": "https://www.digitalassets.ag/UnderlyingDetails?GOOGL"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "XJUMvw7KRLoLCYVD727jV9fjNUSDVcZaQUK6XpY6kGm",
+      "symbol": "IF",
+      "name": "Impossible Finance",
+      "decimals": 9,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmcfMbNuvDV6ho3fueNPFTtgSruaUBmSdqP5D5ZduipN6S/logo.png",
+      "tags": [
+        "ethereum"
+      ],
+      "extensions": {
+        "website": "https://impossible.finance",
+        "coingeckoId": "impossible-finance"
       }
     },
     {
@@ -10080,20 +10098,6 @@
     },
     {
       "chainId": 101,
-      "address": "3aEb4KJTWxaqKBXADw5qkAjG9K1AoLhR4CrDH6HCpGCo",
-      "symbol": "SMB",
-      "name": "Solana Monkey Business",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3aEb4KJTWxaqKBXADw5qkAjG9K1AoLhR4CrDH6HCpGCo/logo.png",
-      "tags": [],
-      "extensions": {
-        "medium": "https://solanambs.medium.com/",
-        "website": "https://solanamonkey.business/",
-        "twitter": "https://twitter.com/SolanaMBS"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "E7WqtfRHcY8YW8z65u9WmD7CfMmvtrm2qPVicSzDxLaT",
       "symbol": "PPUG",
       "name": "PizzaPugCoin",
@@ -10152,7 +10156,8 @@
       "tags": [],
       "extensions": {
         "website": "https://fsynth.io/",
-        "twitter": "https://twitter.com/official_fabric"
+        "twitter": "https://twitter.com/official_fabric",
+        "coingeckoId": "fabric"
       }
     },
     {
@@ -10433,7 +10438,8 @@
       ],
       "extensions": {
         "website": "https://kugle.org",
-        "twitter": "https://twitter.com/Kugle_"
+        "twitter": "https://twitter.com/Kugle_",
+        "coingeckoId": "gu"
       }
     },
     {
@@ -10952,8 +10958,8 @@
     {
       "chainId": 101,
       "address": "GSaiLQxREzaxUcE3v28HxBacoUQPZNtXx1eQsCFsX9Bg",
-      "symbol": "gSAIL",
-      "name": "gSAIL",
+      "symbol": "XgSAIL",
+      "name": "gSAIL DEPRECATED",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GSaiLQxREzaxUcE3v28HxBacoUQPZNtXx1eQsCFsX9Bg/logo.png",
       "tags": [
@@ -11374,6 +11380,21 @@
     },
     {
       "chainId": 101,
+      "address": "EKEjv7VJTsKsfyZMNgPfoKkdk7pYNSgb3tg2h3zUe4PT",
+      "symbol": "SIMP",
+      "name": "Simp.",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EKEjv7VJTsKsfyZMNgPfoKkdk7pYNSgb3tg2h3zUe4PT/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://functional-spirit-e72.notion.site/Simp-090cf60910024a228d8b163dcaf23a84",
+        "discord": "https://discord.gg/5293AzqtHU"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "57h4LEnBooHrKbacYWGCFghmrTzYPVn8PwZkzTzRLvHa",
       "symbol": "USDC-USDT-UST",
       "name": "Mercurial LP Token (USDC-USDT-UST)",
@@ -11721,12 +11742,29 @@
     },
     {
       "chainId": 101,
+      "address": "Gsai2KN28MTGcSZ1gKYFswUpFpS7EM9mvdR9c8f6iVXJ",
+      "symbol": "gSAIL",
+      "name": "SolanaSail Governance Token V2",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solanasail/token-list/main/assets/mainnet/Gsai2KN28MTGcSZ1gKYFswUpFpS7EM9mvdR9c8f6iVXJ/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.solanasail.com",
+        "twitter": "https://twitter.com/SolanaSail"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "2Kc38rfQ49DFaKHQaWbijkE7fcymUMLY5guUiUsDmFfn",
       "symbol": "KURO",
       "name": "Kurobi",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Kc38rfQ49DFaKHQaWbijkE7fcymUMLY5guUiUsDmFfn/logo.png",
-      "tags": [],
+      "tags": [
+        "utility-token"
+      ],
       "extensions": {
         "website": "https://kurobi.io/",
         "medium": "https://kurobi.medium.com/",
@@ -11734,7 +11772,7 @@
         "telegram": "https://t.me/kurobi_io",
         "twitter": "https://twitter.com/kurobi_io"
       }
-    }
+    }    
   ],
   "version": {
     "major": 0,
