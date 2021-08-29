@@ -10999,7 +10999,8 @@
         "medium": "https://only1nft.medium.com/",
         "twitter": "https://twitter.com/only1nft",
         "telegram": "https://t.me/only1nft",
-        "discord": "https://discord.gg/SrsKwTFA"
+        "discord": "https://discord.gg/SrsKwTFA",
+        "coingeckoId": "only1"
       }
     },
     {
@@ -11742,6 +11743,24 @@
     },
     {
       "chainId": 101,
+      "address": "EwJN2GqUGXXzYmoAciwuABtorHczTA5LqbukKXV1viH7",
+      "symbol": "UPS",
+      "name": "UPS token (UPFI Network)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EwJN2GqUGXXzYmoAciwuABtorHczTA5LqbukKXV1viH7/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://upfi.network/",
+        "twitter": "https://twitter.com/upfi_network",
+        "medium": "https://upfinetwork.medium.com",
+        "discord": "https://discord.gg/nHMDdyAggx",
+        "telegram": "https://t.me/upfinetworkchannel",
+        "facebook": "https://www.facebook.com/UPFInetwork",
+        "serumV3Usdc": "DByPstQRx18RU2A8DH6S9mT7bpT6xuLgD2TTFiZJTKZP"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "Gsai2KN28MTGcSZ1gKYFswUpFpS7EM9mvdR9c8f6iVXJ",
       "symbol": "gSAIL",
       "name": "SolanaSail Governance Token V2",
@@ -11752,7 +11771,28 @@
       ],
       "extensions": {
         "website": "https://www.solanasail.com",
+        "coingeckoId": "solanasail-governance-token",
         "twitter": "https://twitter.com/SolanaSail"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FxjbQMfvQYMtZZK7WGEJwWfsDcdMuuaee8uPxDFFShWh",
+      "symbol": "UPFI",
+      "name": "UPFI stablecoin (UPFI Network)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FxjbQMfvQYMtZZK7WGEJwWfsDcdMuuaee8uPxDFFShWh/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://upfi.network/",
+        "twitter": "https://twitter.com/upfi_network",
+        "medium": "https://upfinetwork.medium.com",
+        "discord": "https://discord.gg/nHMDdyAggx",
+        "telegram": "https://t.me/upfinetworkchannel",
+        "facebook": "https://www.facebook.com/UPFInetwork",
+        "serumV3Usdc": "SyQ4KyF5Y1MPPkkf9LGNA6JpkVmis53HrpPvJ1ZUFwK"
       }
     },
     {
@@ -11772,7 +11812,7 @@
         "telegram": "https://t.me/kurobi_io",
         "twitter": "https://twitter.com/kurobi_io"
       }
-    }    
+    } 
   ],
   "version": {
     "major": 0,
