@@ -64,7 +64,10 @@
       "name": "Sola Token",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF/logo.png",
-      "tags": ["Solana tokenized", "Solana Community token"],
+      "tags": [
+        "Solana tokenized",
+        "Solana Community token"
+      ],
       "extensions": {
         "website": "https://solatoken.net/",
         "telegram": "https://t.me/solatokennet",
@@ -632,6 +635,21 @@
       ],
       "extensions": {
         "website": "https://www.digitalassets.ag/UnderlyingDetails?GOOGL"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "XJUMvw7KRLoLCYVD727jV9fjNUSDVcZaQUK6XpY6kGm",
+      "symbol": "IF",
+      "name": "Impossible Finance",
+      "decimals": 9,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmcfMbNuvDV6ho3fueNPFTtgSruaUBmSdqP5D5ZduipN6S/logo.png",
+      "tags": [
+        "ethereum"
+      ],
+      "extensions": {
+        "website": "https://impossible.finance",
+        "coingeckoId": "impossible-finance"
       }
     },
     {
@@ -7761,6 +7779,40 @@
     },
     {
       "chainId": 101,
+      "address": "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx",
+      "symbol": "ATLAS",
+      "name": "Star Atlas",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://staratlas.com",
+        "description": "Star Atlas Token",
+        "coingeckoId": "star-atlas",
+        "serumV3Usdc": "Di66GTLsV64JgCCYGVcY21RZ173BHkjJVgPyezNN7P1K"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk",
+      "symbol": "POLIS",
+      "name": "Star Atlas DAO",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://staratlas.com",
+        "description": "Star Atlas DAO Token",
+        "coingeckoId": "star-atlas-dao",
+        "serumV3Usdc": "HxFLKUAmAMLz1jtT3hbvCMELwH5H9tpM2QugP8sKyfhW"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "HAWy8kV3bD4gaN6yy6iK2619x2dyzLUBj1PfJiihTisE",
       "symbol": "DOI",
       "name": "Discovery of Iris",
@@ -9132,7 +9184,10 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GsNzxJfFn6zQdJGeYsupJWzUAm57Ba7335mfhWvFiE9Z/logo.png",
       "tags": [],
       "extensions": {
-        "website": "https://www.dexlab.space/"
+        "website": "https://www.dexlab.space/",
+        "serumV3Usdc": "DYfigimKWc5VhavR4moPBibx9sMcWYVSjVdWvPztBPTa",
+        "twitter": "https://twitter.com/dexlab_official",
+        "coingeckoId": "dexlab"
       }
     },
     {
@@ -10080,20 +10135,6 @@
     },
     {
       "chainId": 101,
-      "address": "3aEb4KJTWxaqKBXADw5qkAjG9K1AoLhR4CrDH6HCpGCo",
-      "symbol": "SMB",
-      "name": "Solana Monkey Business",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3aEb4KJTWxaqKBXADw5qkAjG9K1AoLhR4CrDH6HCpGCo/logo.png",
-      "tags": [],
-      "extensions": {
-        "medium": "https://solanambs.medium.com/",
-        "website": "https://solanamonkey.business/",
-        "twitter": "https://twitter.com/SolanaMBS"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "E7WqtfRHcY8YW8z65u9WmD7CfMmvtrm2qPVicSzDxLaT",
       "symbol": "PPUG",
       "name": "PizzaPugCoin",
@@ -10152,7 +10193,8 @@
       "tags": [],
       "extensions": {
         "website": "https://fsynth.io/",
-        "twitter": "https://twitter.com/official_fabric"
+        "twitter": "https://twitter.com/official_fabric",
+        "coingeckoId": "fabric"
       }
     },
     {
@@ -10433,7 +10475,8 @@
       ],
       "extensions": {
         "website": "https://kugle.org",
-        "twitter": "https://twitter.com/Kugle_"
+        "twitter": "https://twitter.com/Kugle_",
+        "coingeckoId": "gu"
       }
     },
     {
@@ -10993,7 +11036,8 @@
         "medium": "https://only1nft.medium.com/",
         "twitter": "https://twitter.com/only1nft",
         "telegram": "https://t.me/only1nft",
-        "discord": "https://discord.gg/SrsKwTFA"
+        "discord": "https://discord.gg/SrsKwTFA",
+        "coingeckoId": "only1"
       }
     },
     {
@@ -11701,6 +11745,20 @@
         "website": "https://raydium.io/"
       }
     },
+     {
+      "chainId": 101,
+      "address": "57vGdcMZLnbNr4TZ4hgrpGJZGR9vTPhu8L9bNKDrqxKT",
+      "symbol": "LIQ-USDC",
+      "name": "Orca LP Token (LIQ-USDC)",
+      "decimals": 6,
+      "logoURI": "https://liqsolana.com/wp-content/uploads/2021/06/200x.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://orca.so/"
+      }
+    },
     {
       "chainId": 101,
       "address": "PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y",
@@ -11716,6 +11774,18 @@
         "medium": "https://medium.com/port-finance",
         "discord": "https://discord.gg/nAMXAYhTb2",
         "telegram": "https://t.me/port_finance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "C3vBJEuNvrUqJYQ5ki8TSrCndphJQ7wwiXEwvuy1AJkW",
+      "symbol": "BONGO",
+      "name": "Bongocoin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/C3vBJEuNvrUqJYQ5ki8TSrCndphJQ7wwiXEwvuy1AJkW/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.bongocoin.org"
       }
     },
     {
@@ -11752,6 +11822,24 @@
     },
     {
       "chainId": 101,
+      "address": "EwJN2GqUGXXzYmoAciwuABtorHczTA5LqbukKXV1viH7",
+      "symbol": "UPS",
+      "name": "UPS token (UPFI Network)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EwJN2GqUGXXzYmoAciwuABtorHczTA5LqbukKXV1viH7/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://upfi.network/",
+        "twitter": "https://twitter.com/upfi_network",
+        "medium": "https://upfinetwork.medium.com",
+        "discord": "https://discord.gg/nHMDdyAggx",
+        "telegram": "https://t.me/upfinetworkchannel",
+        "facebook": "https://www.facebook.com/UPFInetwork",
+        "serumV3Usdc": "DByPstQRx18RU2A8DH6S9mT7bpT6xuLgD2TTFiZJTKZP"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "Gsai2KN28MTGcSZ1gKYFswUpFpS7EM9mvdR9c8f6iVXJ",
       "symbol": "gSAIL",
       "name": "SolanaSail Governance Token V2",
@@ -11762,7 +11850,28 @@
       ],
       "extensions": {
         "website": "https://www.solanasail.com",
+        "coingeckoId": "solanasail-governance-token",
         "twitter": "https://twitter.com/SolanaSail"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FxjbQMfvQYMtZZK7WGEJwWfsDcdMuuaee8uPxDFFShWh",
+      "symbol": "UPFI",
+      "name": "UPFI stablecoin (UPFI Network)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FxjbQMfvQYMtZZK7WGEJwWfsDcdMuuaee8uPxDFFShWh/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://upfi.network/",
+        "twitter": "https://twitter.com/upfi_network",
+        "medium": "https://upfinetwork.medium.com",
+        "discord": "https://discord.gg/nHMDdyAggx",
+        "telegram": "https://t.me/upfinetworkchannel",
+        "facebook": "https://www.facebook.com/UPFInetwork",
+        "serumV3Usdc": "SyQ4KyF5Y1MPPkkf9LGNA6JpkVmis53HrpPvJ1ZUFwK"
       }
     }
   ],
