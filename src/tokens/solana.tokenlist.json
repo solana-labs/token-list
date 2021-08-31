@@ -10,6 +10,10 @@
       "name": "stablecoin",
       "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
     },
+    "boozcoin": {
+      "name": "boozcoin",
+      "description": "Crypto Currency that is changing the alcohol industry"
+    },
     "ethereum": {
       "name": "ethereum",
       "description": "Asset bridged from ethereum"
@@ -57,6 +61,22 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+    {
+      "chainId": 101,
+      "address": "31HcuZjFHCV8VcydRjXz9NFnte4RVRRuR5n9rECfy79W",
+      "symbol": "BOOZ",
+      "name": "boozcoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/jatoshi/token-list/main/BoozCoin%20Logo%202021-07-21.png",
+      "tags": [
+        "boozcoin"
+      ],
+      "extensions": {
+        "website": "https://boozcoin.com/",
+        "telegram": "https://t.me/boozcoin",
+        "twitter": "https://twitter.com/boozcoin"
+      }
+    },
     {
       "chainId": 101,
       "address": "FYfQ9uaRaYvRiaEGUmct45F9WKam3BYXArTrotnTNFXF",
@@ -11745,7 +11765,7 @@
         "website": "https://raydium.io/"
       }
     },
-     {
+    {
       "chainId": 101,
       "address": "57vGdcMZLnbNr4TZ4hgrpGJZGR9vTPhu8L9bNKDrqxKT",
       "symbol": "LIQ-USDC",
