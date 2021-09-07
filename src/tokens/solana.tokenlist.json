@@ -11915,11 +11915,32 @@
         "telegram": "https://t.me/kurobi_io",
         "twitter": "https://twitter.com/kurobi_io"
       }
-    } 
+    },
+    {
+      "chainId": 101,
+      "address": "Fh4e5vX2euTBzyGK2FXN1P3A4VUoH73oPVuemfRWXK2Y",
+      "symbol": "FOX",
+      "name": "ShapeShift FOX Token (Wormhole)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fh4e5vX2euTBzyGK2FXN1P3A4VUoH73oPVuemfRWXK2Y/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0xc770eefad204b5180df6a14ee197d99d808ee52d",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0xc770eefad204b5180df6a14ee197d99d808ee52d",
+        "coingeckoId": "shapeshift-fox-token"
+        "website": "https://shapeshift.com/",
+        "github": "https://github.com/shapeshift",
+        "twitter": "https://twitter.com/ShapeShift_io"
+      }
+    }
   ],
   "version": {
     "major": 0,
-    "minor": 2,
+    "minor": 3,
     "patch": 2
   }
 }
