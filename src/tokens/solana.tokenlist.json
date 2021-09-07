@@ -11845,6 +11845,23 @@
     },
     {
       "chainId": 101,
+      "address": "SUNNYWgPQmFxe9wTZzNK7iPnJ3vYDrkgnxJRJm1s3ag",
+      "symbol": "SUNNY",
+      "name": "Sunny Governance Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SUNNYWgPQmFxe9wTZzNK7iPnJ3vYDrkgnxJRJm1s3ag/logo.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://sunny.ag/",
+        "twitter": "https://twitter.com/SunnyAggregator",
+        "github": "https://github.com/SunnyAggregator",
+        "medium": "https://medium.com/sunny-aggregator",
+        "discord": "https://chat.sunny.ag",
+        "serumV3Usdc": "Aubv1QBFh4bwB2wbP1DaPW21YyQBLfgjg8L4PHTaPzRc"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "BRLsMczKuaR5w9vSubF4j8HwEGGprVAyyVgS4EX7DKEg",
       "symbol": "CYS",
       "name": "Cyclos",
@@ -11862,7 +11879,9 @@
         "github": "https://github.com/cyclos-io",
         "coinmarketcap": "https://coinmarketcap.com/currencies/cyclos/",
         "solanium": "https://www.solanium.io/project/cyclos/",
-        "medium": "https://medium.com/@cyclosfinance"
+        "medium": "https://medium.com/@cyclosfinance",
+        "serumV3Usdc": "6V6y6QFi17QZC9qNRpVp7SaPiHpCTp2skbRQkUyZZXPW",
+        "coingeckoId": "cyclos"
       }
     },
     {
@@ -11915,7 +11934,7 @@
         "telegram": "https://t.me/kurobi_io",
         "twitter": "https://twitter.com/kurobi_io"
       }
-    }, 
+    },
     {
       "chainId": 101,
       "address": "8Tu4gghXZQkXkhoL3EzR9nqGXUzycSgxiPxndeH9Hxh6",
@@ -11930,6 +11949,45 @@
         "website": "http://162.249.2.120/",
         "facebook": "https://www.facebook.com/BTCHCOIN",
         "twitter": "https://twitter.com/BitchcoinNet"
+        }
+    },
+    {
+      "chainId": 101,
+      "address": "Bqd2ujCTEzpKzfjb1FHL7FKrdM6n1rZSnRecJK57EoKz",
+      "symbol": "HOTTO",
+      "name": "HottoShotto",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bqd2ujCTEzpKzfjb1FHL7FKrdM6n1rZSnRecJK57EoKz/logo.png",
+      "extensions": {
+        "website": "https://hottoshotto.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FM8yfVgaEHrpSzNZeZ1o4v5iLZuT9soNuqaWD72bJyqs",
+      "symbol": "HOTTO-USDC",
+      "name": "Raydium LP Token V4 (HOTTO-USDC)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FM8yfVgaEHrpSzNZeZ1o4v5iLZuT9soNuqaWD72bJyqs/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "78CeyRBJSu4MFmaDi8Q8QZ3szB6Xwp93sVaMLYSy5SMZ",
+      "symbol": "HOTTO-SOL",
+      "name": "Raydium LP Token V4 (HOTTO-SOL)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/78CeyRBJSu4MFmaDi8Q8QZ3szB6Xwp93sVaMLYSy5SMZ/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io/"
       }
     }
   ],
