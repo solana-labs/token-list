@@ -10438,20 +10438,6 @@
         "tggroup": "https://t.me/provadeexistenciagrupo"
       }
     },
- {
-      "chainId": 101,
-      "address": "72FzkmpjqXQunY1UvrYDYhCj3mtPYExbWq7wFBSuxmHA",
-      "symbol": "BOIT",
-      "name": "BOIT TOKEN",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/72FzkmpjqXQunY1UvrYDYhCj3mtPYExbWq7wFBSuxmHA/logo.png",
-      "tags": [],
-      "extensions": {
-        "website": "https://boit.club",
-        "twitter": "https://twitter.com/BoitToken",
-        "github": "https://github.com/BoitToken",
-      }
-    },
     {
       "chainId": 101,
       "address": "5DWFxYBxjETuqFX3P2Z1uq8UbcCT1F4sABGiBZMnWKvR",
@@ -11929,7 +11915,20 @@
         "telegram": "https://t.me/kurobi_io",
         "twitter": "https://twitter.com/kurobi_io"
       }
-    } 
+    },
+    {
+      "chainId": 101,
+      "address": "72FzkmpjqXQunY1UvrYDYhCj3mtPYExbWq7wFBSuxmHA",
+      "symbol": "BOIT",
+      "name": "BOIT TOKEN",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/72FzkmpjqXQunY1UvrYDYhCj3mtPYExbWq7wFBSuxmHA/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://boit.club",
+        "github": "https://github.com/BoitToken",
+      }
+    },
   ],
   "version": {
     "major": 0,
