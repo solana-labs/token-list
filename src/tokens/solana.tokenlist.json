@@ -8684,12 +8684,13 @@
       "chainId": 101,
       "address": "5trVBqv1LvHxiSPMsHtEZuf8iN82wbpDcR5Zaw7sWC3s",
       "symbol": "JPYC",
-      "name": "JPY Coin",
+      "name": "JPY Coin(Sollet)(Deprecated)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5trVBqv1LvHxiSPMsHtEZuf8iN82wbpDcR5Zaw7sWC3s/logo.png",
       "tags": [
         "stablecoin",
-        "ethereum"
+        "ethereum",
+        "wrapped-sollet"
       ],
       "extensions": {
         "website": "https://jpyc.jp/"
@@ -11541,8 +11542,9 @@
         "twitter": "https://twitter.com/solbet_official/",
         "serumV3Usdc": "GsWX1FgWP35jchi5R9uiNys2g6GftruEiHVpPS2b7Vq8",
         "description": "SOLBET seeks to facilitate P2P speculation and provide trustless on-chain escrow services for speculative ventures utilizing on-chain data, oracle services, and private data node operators to verify outcomes for all parties involved."
-      },
-      { 
+      }
+    },
+    {
       "chainId": 101,
       "address": "A5zanvgtioZGiJMdEyaKN4XQmJsp1p7uVxaq2696REvQ",
       "symbol": "MEDIA-USDC",
@@ -11835,6 +11837,26 @@
       "tags": [],
       "extensions": {
         "website": "https://www.bongocoin.org"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6CssfnBjF4Vo56EithaLHLWDF95fLrt48QHsUfZwNnhv",
+      "symbol": "JPYC",
+      "name": "JPY Coin(Wormhole)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5trVBqv1LvHxiSPMsHtEZuf8iN82wbpDcR5Zaw7sWC3s/logo.png",
+      "tags": [
+        "stablecoin",
+        "ethereum",
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "website": "https://jpyc.jp/",
+        "twitter": "https://twitter.com/jpy_coin",
+        "coingeckoId": "jpyc",
+        "assetContract": "https://etherscan.io/address/0x2370f9d504c7a6e775bf6e14b3f12846b594cd53"
       }
     },
     {
