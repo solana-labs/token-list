@@ -12546,6 +12546,34 @@
         "telegram": "https://t.me/corestarter_chat",
         "linkedin": "https://www.linkedin.com/company/core-starter"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "DNhZkUaxHXYvpxZ7LNnHtss8sQgdAfd1ZYS1fB7LKWUZ",
+      "symbol": "apUSDT",
+      "name": "Wrapped USDT (Allbridge from Polygon)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "eqKJTf1Do4MDPyKisMYqVaUFpkEFAs3riGF3ceDH2Ca",
+      "symbol": "apUSDC",
+      "name": "Wrapped USDC (Allbridge from Polygon)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "usd-coin"
+      }
     }
   ],
   "version": {
