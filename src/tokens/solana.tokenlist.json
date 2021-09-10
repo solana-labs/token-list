@@ -4975,6 +4975,25 @@
     },
     {
       "chainId": 101,
+      "address": "Gw7M5dqZJ6B6a8dYkDry6z9t9FuUA2xPUokjV2cortoq",
+      "symbol": "KRW",
+      "name": "Krown",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Gw7M5dqZJ6B6a8dYkDry6z9t9FuUA2xPUokjV2cortoq/logo.png",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "address": "0x1446f3cedf4d86a9399e49f7937766e6de2a3aab",
+        "bridgeContract": "https://bscscan.com/address/0x0ac4a2f14927c7e038a3962b647dc7527d8a7229",
+        "assetContract": "https://www.bscscan.com/address/0x1446f3cedf4d86a9399e49f7937766e6de2a3aab",
+        "coingeckoId": "krown",
+        "website": "https://kingdefi.io",
+        "twitter": "https://twitter.com/kingdefi2"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "EJKqF4p7xVhXkcDNCrVQJE4osow76226bc6u3AtsGXaG",
       "symbol": "wAPY",
       "name": "APY Governance Token (Wormhole)",
@@ -7330,6 +7349,18 @@
     },
     {
       "chainId": 101,
+      "address": "5LkvF71ZicV2HhbwYio6XMiFxNv3VUn62eBQ2nppG5D",
+      "symbol": "CAPF",
+      "name": "Capital Fusion",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/capitalfusion/token-list/main/assets/mainnet/5LkvF71ZicV2HhbwYio6XMiFxNv3VUn62eBQ2nppG5D/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://capitalfusion.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
       "symbol": "XCOPE",
       "name": "XCOPE",
@@ -9186,7 +9217,7 @@
       "symbol": "BOP",
       "name": "Boring Protocol",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BLwTnYKqf7u4qjgZrrsKeNs2EzWkMLqVCu6j8iHyrNA3/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/boringprotocol/brand-assets/main/boplogo.png",
       "tags": [
         "security-token",
         "utility-token"
@@ -9194,7 +9225,8 @@
       "extensions": {
         "website": "https://boringprotocol.io",
         "twitter": "https://twitter.com/BoringProtocol",
-        "serumV3Usdc": "7MmPwD1K56DthW14P1PnWZ4zPCbPWemGs3YggcT1KzsM"
+        "serumV3Usdc": "7MmPwD1K56DthW14P1PnWZ4zPCbPWemGs3YggcT1KzsM",
+        "coingeckoId": "boring-protocol"
       }
     },
     {
@@ -9627,6 +9659,21 @@
       "name": "Orca Clownfish Collectible",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/cLownTTaiiQMoyMmFjfmSGowi8HyNhCtTLFcrNKnqX6/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.orca.so",
+        "twitter": "https://twitter.com/orca_so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "porpKs9ZZERXKkg55f1GRXCiXZK89Uz6VKS8Bv9qWqM",
+      "symbol": "PORPOISE",
+      "name": "Orca Porpoise Collectible",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/porpKs9ZZERXKkg55f1GRXCiXZK89Uz6VKS8Bv9qWqM/logo.svg",
       "tags": [
         "nft"
       ],
@@ -11660,6 +11707,21 @@
     },
     {
       "chainId": 101,
+      "address": "8EDaoeBqpcVACwvkYXh1vAcU29HiBiNhqoF4pRsuUsZS",
+      "symbol": "sSOL",
+      "name": "SunnySideUp staked SOL (sSOL)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8EDaoeBqpcVACwvkYXh1vAcU29HiBiNhqoF4pRsuUsZS/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.sunnysideup.finance",
+        "twitter": "https://twitter.com/SunnySideUp_io",
+        "medium": "https://medium.com/@officialsunnysideup72",
+        "github": "https://github.com/sunnysideup72"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
       "symbol": "mSOL",
       "name": "Marinade staked SOL (mSOL)",
@@ -12106,6 +12168,18 @@
         "medium": "https://aries-financial.medium.com/"
       }
     },
+     {
+    "chainId": 101,
+    "address": "GJQpf6Zjvokd3YK5EprXqZUah9jxkn8aG4pTeWL7Gkju",
+    "symbol": "OKI",
+    "name": "HDOKI",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GJQpf6Zjvokd3YK5EprXqZUah9jxkn8aG4pTeWL7Gkju/logo.png",
+    "tags": [],
+    "extensions": {
+      "website": "https://hdoki.com/",
+    }
+  },
     {
       "chainId": 101,
       "address": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
@@ -13015,8 +13089,111 @@
       "tags": [
         "social-token"
       ]
-    }
-  ],
+    },
+    {
+      "chainId": 101,
+      "address": "GZreQfnp3B1bmBZfxzJgShWbJgt6nyp13iyeHBB6Xh1n",
+      "symbol": "LETTA",
+      "name": "Soletta",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj/logo.png",
+      "tags": []
+    },
+    {
+      "chainId": 101,
+      "address": "5U9QqCPhqXAJcEv9uyzFJd5zhN93vuPk1aNNkXnUfPnt",
+      "symbol": "SPWN",
+      "name": "Bitspawn Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5U9QqCPhqXAJcEv9uyzFJd5zhN93vuPk1aNNkXnUfPnt/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://bitspawn.io",
+        "twitter": "https://twitter.com/bitspawngg",
+        "telegram": "https://t.me/bitspawnprotocol",
+        "discord": "https://discord.gg/EAtfCq9",
+        "medium": "https://bitspawnprotocol.medium.com",
+        "coingeckoId": "bitspawn"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "51LAPRbcEvheteGQjSgAFV6rrEvjL4P2igvzPH8bu88",
+      "symbol": "SNS",
+      "name": "SynesisOne",
+      "decimals": 3,
+      "logoURI": "https://raw.githubusercontent.com/Synesis-One/spl-token/main/icon.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.synesis.one/",
+        "twitter": "https://twitter.com/synesis_one"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6Wcs5FH471q1gqJHyRygm7DpNiHP1oYCKHX5zPEBD8ZZ",
+      "symbol": "MILS",
+      "name": "MillionSols",
+      "decimals": 9,
+      "logoURI": "https://arweave.net/uDmRPKqd7O9rXkv9y6cdc2sdCbVab5cgA62PWQYUYwI",
+      "tags": [],
+      "extensions": {
+        "website": "https://millionsols.com",
+        "twitter": "https://twitter.com/MillionSols"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GthwuoDnGTRgnvaZWixuqU5X3Nt18s9AzqNbGPxTonfK",
+      "symbol": "JMKA",
+      "name": "Jacob Makarsky Social Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GthwuoDnGTRgnvaZWixuqU5X3Nt18s9AzqNbGPxTonfK/logo.png",
+      "tags": [
+        "social-token",
+        "jamaka"
+      ],
+      "extensions": {
+        "website": "https://www.makarsky.dev/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EaD8CViuq8RXPqAhZsxZudTj6fFMy6ktgHD42J34P6PD",
+      "symbol": "KISM",
+      "name": "KISAMA",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Kisamacrypto/SPL-Logo/main/kisama-crypto-coin-520x520_edit.png",
+      "tags": [
+        "social-token",
+        "kisama",
+        "Trading"
+      ],
+      "extensions": {
+        "website": "http://kisamacrypto.com",
+        "discord": "https://discord.gg/6xNDyc9"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6w5GEARUppTyeQee2grCUYjXi933Yswz5ZjYKt5nicY2",
+      "symbol": "SOTY",
+      "name": "Sol Infinity",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/kpvy2002/solinfinity/SOLINFINITY%20LOGO.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/Solanainfinity",
+        "discord": "http://discord.gg/z9st3dHRPf",
+        "telegram": "http://t.me/Solinfinity_official",
+      }
+    },
   "version": {
     "major": 0,
     "minor": 3,
