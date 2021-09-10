@@ -11520,7 +11520,7 @@
       ],
       "extensions": {
         "website": "https://www.mercurial.finance/"
-       }
+      }
     },
     {
       "chainId": 101,
@@ -12280,8 +12280,8 @@
         "telegram": "https://twitter.com/SolAshera",
         "github": "https://github.com/asherasol"
       }
-    }
-    ,{
+    },
+    {
       "chainId": 101,
       "address": "333iHoRM2Awhf9uVZtSyTfU8AekdGrgQePZsKMFPgKmS",
       "symbol": "ISOLA",
@@ -12314,7 +12314,7 @@
         "website": "https://www.balisaritrans.site/"
       }
     },
-     {
+    {
       "chainId": 101,
       "address": "8FXW4GSS9SNDVP5UhaWNsaZbxvRJXNrwvwvToXRnvuWL",
       "symbol": "KNB",
@@ -12327,8 +12327,18 @@
       "extensions": {
         "website": "https://solatoken.net/"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "Dypr2gWcVuqt3z6Uh31YD8Wm2V2ZCqWVBYEWhZNF9odk",
+      "symbol": "SOLJAV",
+      "name": "SOLJAV",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dypr2gWcVuqt3z6Uh31YD8Wm2V2ZCqWVBYEWhZNF9odk.png",
+      "tags": [
+        "social-token"
+      ]
     }
-
   ],
   "version": {
     "major": 0,
