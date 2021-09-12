@@ -1,12 +1,4 @@
 {
-  "name": "Solana Token List",
-  "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
-  "keywords": [
-    "solana",
-    "spl"
-  ],
-  "tags": {
-    "stablecoin": {
       "name": "stablecoin",
       "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
     },
@@ -14050,11 +14042,9 @@
       "address": "BmEceFWPddDfdkfeCVHVmDnCtTzEAeYRKiAZckHiNWin",
       "symbol": "MELT",
       "name": "MELTCOIN",
-      "decimals": 9,
+      "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BmEceFWPddDfdkfeCVHVmDnCtTzEAeYRKiAZckHiNWin/logo.png",
-      "tags": [
-      "SPL Token"
-      ],
+      "tags": [],
       "extensions": {
         "website": "https://kriptoekseni.com/",
         "twitter": "https://twitter.com/KriptoMasasi",
@@ -14071,6 +14061,14 @@
       "extensions": {
         "website": "https://polyplay.net/",
         "coingeckoId": "polyplay",
+  "name": "Solana Token List",
+  "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
+  "keywords": [
+    "solana",
+    "spl"
+  ],
+  "tags": {
+    "stablecoin": {
         "twitter": "https://twitter.com/polyplaycoin",
         "discord": "https://discord.gg/TAgndUz2Fc"
       }
