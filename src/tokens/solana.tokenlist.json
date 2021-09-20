@@ -7762,18 +7762,18 @@
         "stablecoin"
       ]
     },
-  {
-  "chainId": 101,
-  "address": "7udMmYXh6cuWVY6qQVCd9b429wDVn2J71r5BdxHkQADY",
-  "symbol": "COBAN",
-  "name": "COBAN",
-  "decimals": 3,
-  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/assets/7udMmYXh6cuWVY6qQVCd9b429wDVn2J71r5BdxHkQADY/logo.png",
-   "tags": [],
-   "extensions": {
-     "website": "https://coban.io"
-   }
-},
+    {
+      "chainId": 101,
+      "address": "7udMmYXh6cuWVY6qQVCd9b429wDVn2J71r5BdxHkQADY",
+      "symbol": "COBAN",
+      "name": "COBAN",
+      "decimals": 3,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/assets/7udMmYXh6cuWVY6qQVCd9b429wDVn2J71r5BdxHkQADY/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://coban.io"
+      }
+    },
     {
       "chainId": 102,
       "address": "ASpA3U8G2qHnyo6ag1jwtpZNj9E2MymbVDq6twi3ZvRN",
@@ -14983,22 +14983,36 @@
       "extensions": {
         "website": "https://razzmena.com"
       }
-	},
-	{
-	"chainId": 101,
-    "address": "6xtyNYX6Rf4Kp3629X11m1jqUmkV89mf9xQakUtUQfHq",
-    "symbol": "CHIH",
-    "name": "CHIHUAHUA",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/ChihuahuaSol/Chihuahua/main/chihuahua-token.png",
-    "tags": [
+    },
+    {
+      "chainId": 101,
+      "address": "6xtyNYX6Rf4Kp3629X11m1jqUmkV89mf9xQakUtUQfHq",
+      "symbol": "CHIH",
+      "name": "CHIHUAHUA",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/ChihuahuaSol/Chihuahua/main/chihuahua-token.png",
+      "tags": [
         "NFT"
-    ],
-    "extensions": {
-      "website": "https://chihuahuasol.com/",
-      "twitter": "https://twitter.com/ChihuahuaSol",
-      "discord": "https://discord.gg/cQMHepBqmc"
-		}
+      ],
+      "extensions": {
+        "website": "https://chihuahuasol.com/",
+        "twitter": "https://twitter.com/ChihuahuaSol",
+        "discord": "https://discord.gg/cQMHepBqmc"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8oMHsGMaeLLC77DdFYzernNS39oDT7cJ7Gq5o9ThcaFM",
+      "symbol": "PLUS",
+      "name": "PlusPlus",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8oMHsGMaeLLC77DdFYzernNS39oDT7cJ7Gq5o9ThcaFM/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://plusplus.is/"
+      }
     }
   ],
   "version": {
