@@ -10,6 +10,10 @@
       "name": "stablecoin",
       "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
     },
+    "boozcoin": {
+      "name": "boozcoin",
+      "description": "Crypto Currency that is changing the alcohol industry"
+    },
     "ethereum": {
       "name": "ethereum",
       "description": "Asset bridged from ethereum"
@@ -59,19 +63,18 @@
   "tokens": [
     {
       "chainId": 101,
-      "address": "HDLRMKW1FDz2q5Zg778CZx26UgrtnqpUDkNNJHhmVUFr",
-      "symbol": "MILLI",
-      "name": "MILLIONSY",
+      "address": "31HcuZjFHCV8VcydRjXz9NFnte4RVRRuR5n9rECfy79W",
+      "symbol": "BOOZ",
+      "name": "boozcoin",
       "decimals": 9,
-      "logoURI": "https://github.com/millionsy/token-list/blob/main/assets/mainnet/HDLRMKW1FDz2q5Zg778CZx26UgrtnqpUDkNNJHhmVUFr/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/jatoshi/token-list/main/BoozCoin%20Logo%202021-07-21.png",
       "tags": [
-        "Solana tokenized",
-        "Solana Community token"
+        "boozcoin"
       ],
       "extensions": {
-        "website": "https://www.millionsy.io/",
-        "telegram": "https://t.me/MILLIONSYofficialchat",
-        "twitter": "https://twitter.com/MILLIONSYio"
+        "website": "https://boozcoin.com/",
+        "telegram": "https://t.me/boozcoin",
+        "twitter": "https://twitter.com/boozcoin"
       }
     },
     {
@@ -2701,7 +2704,7 @@
       "symbol": "PERK",
       "name": "PERK",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/gksYzxitEf2HyE7Bb81vvHXNH5f3wa43jvXf4TcUZwb/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-/assets/mainnet/gksYzxitEf2HyE7Bb81vvHXNH5f3wa43jvXf4TcUZwb/logo.png",
       "tags": [],
       "extensions": {
         "website": "https://perk.exchange/"
