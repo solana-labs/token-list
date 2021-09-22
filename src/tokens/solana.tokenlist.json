@@ -740,7 +740,10 @@
       "name": "Investin Protocol",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/iVNcrNE9BRZBC9Aqf753iZiZfbszeAVUoikgT9yvr2a/logo.png",
-      "tags": ["DeFi", "Fund Management"],
+      "tags": [
+        "DeFi",
+        "Fund Management"
+      ],
       "extensions": {
         "website": "https://www.investin.pro/",
         "serumV3Usdc": "AdmfUBJ64BTsjaZdtu1iQHAtxJ4Ge7Zw5bNMsrLGdZu7",
@@ -14691,6 +14694,19 @@
       ],
       "extensions": {
         "website": "https://raydium.io"
+      }
+    },
+    {
+      "chainId": "101",
+      "address": "HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p",
+      "symbol": "wLDO",
+      "name": "Wormhole-wrapped Lido DAO Token",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://lido.fi/",
+        "twitter": "https://twitter.com/LidoFinance/"
       }
     }
   ],
