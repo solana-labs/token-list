@@ -14465,7 +14465,23 @@
       "extensions": {
         "coingeckoId": "celo-dollar"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "7NBonE5GSn5Qrtzqqdw7N3eLjUDAWa7XRdBNoDxy1xkE",
+      "symbol": "KARIN",
+      "name": "Karin Test Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7NBonE5GSn5Qrtzqqdw7N3eLjUDAWa7XRdBNoDxy1xkE/logo.png",
+      "tags": [
+        "test-token",
+		"KARIN TEST"
+      ],
+      "extensions": {
+        "website": "https://naver.com"
+      }
     }
+	
   ],
   "version": {
     "major": 0,
