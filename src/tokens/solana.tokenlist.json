@@ -85,18 +85,6 @@
     },
     {
       "chainId": 101,
-      "address": "7ic3cSqD6iiwsqxDyBbcs2qYfMcKY2HndLDrjhMKZ4cQ",
-      "symbol": "$SOLY",
-      "name": "Solana Yield",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/millionsy/token-list/main/assets/mainnet/HDLRMKW1FDz2q5Zg778CZx26UgrtnqpUDkNNJHhmVUFr/logo.png",
-      "tags": [],
-      "extensions": {
-        "twitter": "https://twitter.com/AbrishSaim"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "99pifp4v4qQNk3irTHpmAEEzgKfs3ahLE7iFKEqfyxPj",
       "symbol": "ZI",
       "name": "ZI (The Z Institute Token)",
@@ -740,7 +728,10 @@
       "name": "Investin Protocol",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/iVNcrNE9BRZBC9Aqf753iZiZfbszeAVUoikgT9yvr2a/logo.png",
-      "tags": ["DeFi", "Fund Management"],
+      "tags": [
+        "DeFi",
+        "Fund Management"
+      ],
       "extensions": {
         "website": "https://www.investin.pro/",
         "serumV3Usdc": "AdmfUBJ64BTsjaZdtu1iQHAtxJ4Ge7Zw5bNMsrLGdZu7",
@@ -14695,6 +14686,37 @@
     },
     {
       "chainId": 101,
+      "address": "HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p",
+      "symbol": "wLDO",
+      "name": "Wormhole-wrapped Lido DAO Token",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://lido.fi/",
+        "twitter": "https://twitter.com/LidoFinance/"
+      }
+    },
+    {
+        "chainId": 101,
+        "address": "ADcrbtXkfpos5Z989zAr1KbjG4mXanwJYboaXKS749sm",
+        "symbol": "ReeFi",
+        "name": "Reedify Finance",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ADcrbtXkfpos5Z989zAr1KbjG4mXanwJYboaXKS749sm/logo.png",
+        "decimals": 9,
+        "tags": [
+            "DeFi"
+        ],
+        "extensions": {
+            "website": "https://reedify.finance/",
+            "twitter": "https://twitter.com/ReedifyFinance",
+            "telegram": "https://t.me/ReedifyFinance",
+            "medium": "https://reedify.medium.com",
+            "discord": "https://discord.gg/f3VXDfwKNb"
+        }
+    },
+    {
+      "chainId": 101,
       "address": "6GF5Gjptix8yCJeVjp6e8uYNAP5Y2Gnb1CqZ9ADEaLdu",
       "symbol": "TOPS",
       "name": "TOPSOL",
@@ -14707,7 +14729,7 @@
         "website": "https://topsol.finance",
          "website": "https://topsol.co"
       }
-    }
+    },
   ],
   "version": {
     "major": 0,
