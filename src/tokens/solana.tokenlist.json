@@ -73,6 +73,18 @@
     },
     {
       "chainId": 101,
+      "address": "7ic3cSqD6iiwsqxDyBbcs2qYfMcKY2HndLDrjhMKZ4cQ",
+      "symbol": "$SOLY",
+      "name": "Solana Yield",
+      "decimals": 8,
+      "logoURI": "https://github.com/saimaliabrish/Solana-yield-logo/blob/main/IMG_20210923_195019_436.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://twitter.com/AbrishSaim"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "99pifp4v4qQNk3irTHpmAEEzgKfs3ahLE7iFKEqfyxPj",
       "symbol": "ZI",
       "name": "ZI (The Z Institute Token)",
@@ -697,6 +709,34 @@
     },
     {
       "chainId": 101,
+      "address": "CB3obConLVWpo8RtTANzBSURmJnAVgy5xznvQfWXDfpR",
+      "symbol": "PURITY",
+      "name": "PURITY",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CB3obConLVWpo8RtTANzBSURmJnAVgy5xznvQfWXDfpR/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://github.com/teampurity"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "C4kmKzQ8o6NAP8pToERJF6C7V4PjCVE3o2oSrp24f5GP",
+      "symbol": "CERCr",
+      "name": "Elemento6",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/C4kmKzQ8o6NAP8pToERJF6C7V4PjCVE3o2oSrp24f5GP/logo.png",
+      "tags": [
+          "Elemento6",
+          "Carbon Emission Reduction Credit",
+          "Respectful Development Foundation"
+      ],
+      "extensions": {
+          "website": "https://respectfuldevelopmentpanama.com"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "6CuCUCYovcLxwaKuxWm8uTquVKGWaAydcFEU3NrtvxGZ",
       "symbol": "INTC",
       "name": "Intel Corp",
@@ -715,8 +755,11 @@
       "symbol": "IVN",
       "name": "Investin Protocol",
       "decimals": 6,
-      "logoURI": "https://github.com/Investin-pro/token-list/blob/main/assets/mainnet/iVNcrNE9BRZBC9Aqf753iZiZfbszeAVUoikgT9yvr2a/logo.png",
-      "tags": ["DeFi", "Fund Management"],
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/iVNcrNE9BRZBC9Aqf753iZiZfbszeAVUoikgT9yvr2a/logo.png",
+      "tags": [
+        "DeFi",
+        "Fund Management"
+      ],
       "extensions": {
         "website": "https://www.investin.pro/",
         "serumV3Usdc": "AdmfUBJ64BTsjaZdtu1iQHAtxJ4Ge7Zw5bNMsrLGdZu7",
@@ -9671,7 +9714,8 @@
       "extensions": {
         "website": "https://klbtoken.com",
         "twitter": "https://twitter.com/klbtoken",
-        "serumV3Usdc": "AVC5hkVjWqRzD9RXXwjcNiVAAR2rUvDGwhqoCd2TQNY8"
+        "serumV3Usdc": "AVC5hkVjWqRzD9RXXwjcNiVAAR2rUvDGwhqoCd2TQNY8",
+        "coingeckoId": "black-label"
       }
     },
     {
@@ -9702,6 +9746,20 @@
       "extensions": {
         "website": "https://solainetwork.com/",
         "twitter": "https://twitter.com/SolAiNetwork"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "SioTkQxHyAs98ouRiyi1YDv3gLMSrX3eNBg61GH7NrM",
+      "symbol": "SIO",
+      "name": "Simplio",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SioTkQxHyAs98ouRiyi1YDv3gLMSrX3eNBg61GH7NrM/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://simplio.io/",
+        "twitter": "https://twitter.com/simplioOfficial",
+        "discord": "https://discord.com/invite/aKhjuwZmdP"
       }
     },
     {
@@ -10426,6 +10484,18 @@
       ],
       "extensions": {
         "website": "https://orca.so"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E9cEFhgcx8bKUjy5oQ1YFKbCDVu8dShjJYJ5EJVkF4kr",
+      "symbol": "SWORD",
+      "name": "SWORDIAN",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E9cEFhgcx8bKUjy5oQ1YFKbCDVu8dShjJYJ5EJVkF4kr/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://www.swordians.com"
       }
     },
     {
@@ -14640,7 +14710,68 @@
       "extensions": {
         "website": "https://solend.fi"
       }
-    }
+    },
+    {
+      "chainId": 101,
+      "address": "5PHgMyZpEUCTeXQdb2ARm2KMZNu4rxzLXuhKwXtr8Xzc",
+      "symbol": "STVA-USDC",
+      "name": "Raydium LP Token (STVA-USDC)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5PHgMyZpEUCTeXQdb2ARm2KMZNu4rxzLXuhKwXtr8Xzc/logo.svg",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://raydium.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p",
+      "symbol": "wLDO",
+      "name": "Wormhole-wrapped Lido DAO Token",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://lido.fi/",
+        "twitter": "https://twitter.com/LidoFinance/"
+      }
+    },
+    {
+        "chainId": 101,
+        "address": "ADcrbtXkfpos5Z989zAr1KbjG4mXanwJYboaXKS749sm",
+        "symbol": "ReeFi",
+        "name": "Reedify Finance",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ADcrbtXkfpos5Z989zAr1KbjG4mXanwJYboaXKS749sm/logo.png",
+        "decimals": 9,
+        "tags": [
+            "DeFi"
+        ],
+        "extensions": {
+            "website": "https://reedify.finance/",
+            "twitter": "https://twitter.com/ReedifyFinance",
+            "telegram": "https://t.me/ReedifyFinance",
+            "medium": "https://reedify.medium.com",
+            "discord": "https://discord.gg/f3VXDfwKNb"
+        }
+    }       
+	,{
+		"chainId": 101,
+		"address": "AKAwZaP91svXuYTe2gD5JVmUZteDFrT4G92rMtrF1Wb4",
+		"symbol": "WTTE",
+		"name": "WATTTON Exchange",
+		"decimals": 8,
+		"logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AKAwZaP91svXuYTe2gD5JVmUZteDFrT4G92rMtrF1Wb4/logo.png",
+		"tags": [
+			"WATTTON",
+			"WATTTON Exchange",
+			"WATTTON Exchange Token"
+		],
+		"extensions": {
+			"website": "https://wattton.org"
+	}
+}
   ],
   "version": {
     "major": 0,
