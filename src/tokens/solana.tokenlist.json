@@ -14790,20 +14790,6 @@
     },
     {
       "chainId": 101,
-      "address": "DSmqf5Je3FEUmZntxBzG7c7EYJN3WK3feBV5Zgidukjj",
-      "symbol": "USDC-wUSDC-wUSDT-wDAI",
-      "name": "Mercurial LP Token (USDC-wUSDC-wUSDT-wDAI)",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DSmqf5Je3FEUmZntxBzG7c7EYJN3WK3feBV5Zgidukjj/logo.png",
-      "tags": [
-        "lp-token"
-      ],
-      "extensions": {
-        "website": "https://www.mercurial.finance/"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p",
       "symbol": "wLDO",
       "name": "Wormhole-wrapped Lido DAO Token",
@@ -14813,6 +14799,20 @@
       "extensions": {
         "website": "https://lido.fi/",
         "twitter": "https://twitter.com/LidoFinance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DSmqf5Je3FEUmZntxBzG7c7EYJN3WK3feBV5Zgidukjj",
+      "symbol": "USDC-wUSDC-wUSDC-wDAI",
+      "name": "Mercurial LP Token (USDC-wUSDC-wUSDT-wDAI)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DSmqf5Je3FEUmZntxBzG7c7EYJN3WK3feBV5Zgidukjj/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.mercurial.finance/"
       }
     },
     {
@@ -14832,7 +14832,7 @@
             "medium": "https://reedify.medium.com",
             "discord": "https://discord.gg/f3VXDfwKNb"
         }
-    }      
+    }       
 	,{
 		"chainId": 101,
 		"address": "AKAwZaP91svXuYTe2gD5JVmUZteDFrT4G92rMtrF1Wb4",
@@ -14847,7 +14847,7 @@
 		],
 		"extensions": {
 			"website": "https://wattton.org"
-	},
+	}
 }
   ],
   "version": {
