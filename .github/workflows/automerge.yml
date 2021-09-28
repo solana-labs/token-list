@@ -33,7 +33,7 @@ jobs:
         id: git_diff
         uses: swmd/get-pr-diff@v0.1.2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions-ecosystem/action-add-labels@v1
         if: ${{ steps.git_diff.outputs.valid == 'VALID' }}
