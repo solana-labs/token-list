@@ -4962,9 +4962,28 @@
     },
     {
       "chainId": 101,
+      "address": "CTvtF8nqinnAN9peAErqMwuy3Z5TzpE5gzc8sbEDm9xt",
+      "symbol": "FRAX",
+      "name": "FRAX",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CTvtF8nqinnAN9peAErqMwuy3Z5TzpE5gzc8sbEDm9xt/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "frax",
+        "website": "https://app.frax.finance/",
+        "twitter": "https://twitter.com/fraxfinance",
+        "github": "https://github.com/fraxfinance/frax-solidity",
+        "tgann": "https://t.me/fraxfinancenews",
+        "tggroup": "https://t.me/fraxfinance"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "8L8pDf3jutdpdr4m3np68CL9ZroLActrqwxi6s9Ah5xU",
       "symbol": "wFRAX_V1",
-      "name": "Frax (Wormhole V1)",
+      "name": "FRAX (Wormhole V1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8L8pDf3jutdpdr4m3np68CL9ZroLActrqwxi6s9Ah5xU/logo.png",
       "tags": [
@@ -4988,9 +5007,33 @@
       "chainId": 101,
       "address": "FR87nWEUxVgerFGhZM8Y4AggKGLnaXswr1Pd8wZ4kZcp",
       "symbol": "wFRAX",
-      "name": "Frax (Wormhole V2)",
+      "name": "FRAX (Wormhole V2)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FR87nWEUxVgerFGhZM8Y4AggKGLnaXswr1Pd8wZ4kZcp/logo.png",
+      "tags": [
+        "stablecoin",
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0x853d955aCEf822Db058eb8505911ED77F175b99e",
+        "coingeckoId": "frax",
+        "website": "https://app.frax.finance/",
+        "twitter": "https://twitter.com/fraxfinance",
+        "github": "https://github.com/fraxfinance/frax-solidity",
+        "tgann": "https://t.me/fraxfinancenews",
+        "tggroup": "https://t.me/fraxfinance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6LX8BhMQ4Sy2otmAWj7Y5sKd9YTVVUgfMsBzT6B9W7ct",
+      "symbol": "wFXS",
+      "name": "FXS (Wormhole V2)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6LX8BhMQ4Sy2otmAWj7Y5sKd9YTVVUgfMsBzT6B9W7ct/logo.png",
       "tags": [
         "stablecoin",
         "wrapped",
