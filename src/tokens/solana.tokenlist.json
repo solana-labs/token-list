@@ -13198,6 +13198,45 @@
     },
     {
       "chainId": 101,
+      "address": "H2mf9QNdU2Niq6QR7367Ua2trBsvscLyX5bz7R3Pw5sE",
+      "symbol": "stETH",
+      "name": "Lido Staked ETH",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H2mf9QNdU2Niq6QR7367Ua2trBsvscLyX5bz7R3Pw5sE/logo.png",
+      "tags": [
+        "stake",
+        "wrapped"
+      ],
+      "extensions": {
+        "website": "https://lido.fi/",
+        "twitter": "https://twitter.com/LidoFinance/",
+        "telegram": "https://t.me/lidofinance",
+        "discord": "https://discord.gg/WhhnWwsFXz",
+        "github": "https://github.com/lidofinance",
+        "coingeckoId": "lido-staked-ether"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ZScHuTtqZukUrtZS43teTKGs2VqkKL8k4QCouR2n6Uo",
+      "symbol": "wstETH",
+      "name": "Lido Wrapped Staked ETH",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ZScHuTtqZukUrtZS43teTKGs2VqkKL8k4QCouR2n6Uo/logo.png",
+      "tags": [
+        "stake",
+        "wrapped"
+      ],
+      "extensions": {
+        "website": "https://lido.fi/",
+        "twitter": "https://twitter.com/LidoFinance/",
+        "telegram": "https://t.me/lidofinance",
+        "discord": "https://discord.gg/WhhnWwsFXz",
+        "github": "https://github.com/lidofinance"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "3ewm17jCxn8EkEpar45mnY6qk7wc93uPg5D41KMeHZhf",
       "symbol": "CSH",
       "name": "CSH Token",
