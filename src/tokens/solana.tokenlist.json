@@ -15240,21 +15240,6 @@
     },
     {
       "chainId": 101,
-      "address": "2KccNRqHQdnQ9WS8vLSo8uwVPpW7dojmMmZuDpwi6mKd",
-      "symbol": "WESH",
-      "name": "WeShare",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2KccNRqHQdnQ9WS8vLSo8uwVPpW7dojmMmZuDpwi6mKd/logo.png",
-      "tags": [
-        "tokenized-stock",
-        "weshare",
-        "social-token"
-      ],
-      "extensions": {
-        "website": "https://www.we-share.online/"
-      },
-      {
-      "chainId": 101,
       "address": "ALQ9KMWjFmxVbew3vMkJj3ypbAKuorSgGst6svCHEe2z",
       "symbol": "MDF",
       "name": "MatrixETF DAO Finance",
@@ -15324,7 +15309,22 @@
         "coingeckoId": "solblank",
         "twitter": "https://twitter.com/solbankapp"
       }
-    }
+    }{
+      "chainId": 101,
+      "address": "2KccNRqHQdnQ9WS8vLSo8uwVPpW7dojmMmZuDpwi6mKd",
+      "symbol": "WESH",
+      "name": "WeShare",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2KccNRqHQdnQ9WS8vLSo8uwVPpW7dojmMmZuDpwi6mKd/logo.png",
+      "tags": [
+        "tokenized-stock",
+        "weshare",
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://www.we-share.online/"
+      }
+  },
   ],
   "version": {
     "major": 0,
