@@ -843,6 +843,18 @@
     },
     {
       "chainId": 101,
+      "address": "8MpuLZGs52qdj4aGkgxrjjBbDQQd2dsKtbRpCpMb4g8o",
+      "symbol": "TST",
+      "name": "CHTST",
+      "decimals": 9,
+      "logoURI": "",
+      "tags": [],
+      "extensions": {
+        "website": ""
+      }
+    },
+    {
+      "chainId": 101,
       "address": "4796pBun8ihiecy4unZuLWoSVRmK8sf7yQMbwkkvZDH3",
       "symbol": "BLOK",
       "name": "BLOCITIES",
@@ -10946,6 +10958,7 @@
       ],
       "extensions": {
         "website": "https://www.solanasail.com",
+        "serumV3Usdc": "6hwK66FfUdyhncdQVxWFPRqY8y6usEvzekUaqtpKEKLr",
         "coingeckoId": "sail",
         "twitter": "https://twitter.com/SolanaSail"
       }
@@ -13066,6 +13079,7 @@
       ],
       "extensions": {
         "website": "https://www.solanasail.com",
+        "serumV3Usdc": "2zkPyHgQkKG6qJED6MTbjfCfUbZeT9VFwLm1Ld9nKxRp",
         "coingeckoId": "solanasail-governance-token",
         "twitter": "https://twitter.com/SolanaSail"
       }
@@ -15689,6 +15703,23 @@
         "github":"https://github.com/Lagrange-fi"
     }
    },
+   {
+       "chainId": 101,
+       "address": "4hJ6sjwmsvvFag6TKL97yhWiBSDX9BABWoiXgb3EPXxB",
+       "symbol": "GTON",
+       "name": "Graviton",
+       "decimals": 8,
+       "logoURI": "https://v1.graviton.one/img/brand/download/graviton-logo/primary-logo-png.png",
+       "tags": [],
+       "extensions": {
+         "website": "https://graviton.one",
+         "twitter": "https://twitter.com/OneGraviton",
+         "blog": "https://medium.com/graviton-one",
+         "telegram": "https://t.me/graviton_community",
+         "coingeckoId": "graviton"
+       }
+     },
+
 	{
       "chainId": 101,
       "address": "4qv2AGjhzxiNz5iTUnTdRVYjjacmaEcVGgFcr1R6sRFe",
@@ -15706,6 +15737,25 @@
 		"telegram": "https://t.me/NextMindCoin_NXMC",
 		"github": "https://github.com/CEO-NextMindCoin"
       }
+      },
+    {
+       "chainId": 101,
+       "address": "E6UU5M1z4CvSAAF99d9wRoXsasWMEXsvHrz3JQRXtm2X",
+       "symbol": "DGLN",
+       "name": "Dogelana",
+       "decimals": 9,
+       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E6UU5M1z4CvSAAF99d9wRoXsasWMEXsvHrz3JQRXtm2X/logo.png",
+       "tags": ["dogecoin", "dogelana", "doge", "solana", "meme", "dgln"],
+       "extensions": {
+         "website": "http://www.dogelana.com",
+         "twitter": "https://twitter.com/dogelana",
+         "blog": "http://dogelana.com/blog",
+         "telegram": "https://t.me/dogelana",
+         "facebook": "https://facebook.com/dogelana",
+         "coingeckoId": "dogelana",
+         "email": "info@dogelana.com",
+         "coinmarketcap": "https://coinmarketcap.com/currencies/dogelana/"
+       }
     }
   ],
   "version": {
