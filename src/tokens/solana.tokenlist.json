@@ -15691,11 +15691,20 @@
 		"telegram": "https://t.me/NextMindCoin_NXMC",
 		"github": "https://github.com/CEO-NextMindCoin"
       }
-    }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 2
-  }
-}
+    },
+        {
+      "chainId": 101,
+      "address": "EZF2sPJRe26e8iyXaCrmEefrGVBkqqNGv9UPGG9EnTQz",
+      "symbol": "FUM",
+      "name": "FUMoney",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EZF2sPJRe26e8iyXaCrmEefrGVBkqqNGv9UPGG9EnTQz/logo.png",
+      "tags": [
+             "social-token",
+             "utility-token"
+          ],
+      "extensions": {
+        "website": "https://FUMoney.io/"
+        "twitter": "https://twitter.com/FUMindset"
+      }
+    },
