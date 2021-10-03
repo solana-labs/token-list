@@ -3465,6 +3465,25 @@
     },
     {
       "chainId": 101,
+      "address": "FeLoyXk8ac2AYVmDhAWEKNWWT63Z9TczeidYbpDvxF3T",
+      "symbol": "wCAPS",
+      "name": "Wrapped Capsule Coin (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeLoyXk8ac2AYVmDhAWEKNWWT63Z9TczeidYbpDvxF3T/logo.svg",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "website": "https://www.ternoa.com/en",
+        "address": "0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2",
+        "coingeckoId": "coin-capsule"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi",
       "symbol": "wFTT",
       "name": "Wrapped FTT (Wormhole)",
