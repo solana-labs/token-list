@@ -15707,6 +15707,20 @@
 		"telegram": "https://t.me/NextMindCoin_NXMC",
 		"github": "https://github.com/CEO-NextMindCoin"
       }
+    {
+      "chainId":101,
+      "address":"3fBzUqm2tJuWVUHSBVULBS6W8FGcMiszMyuCdsddrqFZ",
+      "symbol":"LAG",
+      "name":"LAG Token",
+      "decimals":9,
+      "logoURI":"https://cdn.jsdelivr.net/gh/Lagrange-fi/Lag-Token-/logo.png",
+      "tags":[
+        "social-token"
+   ],
+      "extensions":{
+        "website":"https://lagrange.fi/",
+        "github":"https://github.com/Lagrange-fi"
+     }
     }
   ],
   "version": {
@@ -15714,4 +15728,5 @@
     "minor": 3,
     "patch": 2
   }
+ }
 }
