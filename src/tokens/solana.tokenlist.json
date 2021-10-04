@@ -15907,11 +15907,42 @@
         "twitter": "https://twitter.com/synthetify",
         "coingeckoId": "ethereum"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "Fr3W7NPVvdVbwMcHgA7Gx2wUxP43txdsn3iULJGFbKz9",
+      "symbol": "xFTT",
+      "name": "Synthetic FTT",
+      "decimals": 8,
+      "logoURI": "https://www.synthetify.io/icons/xftt.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://synthetify.io/",
+        "twitter": "https://twitter.com/synthetify",
+        "coingeckoId": "ftx-token"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3fBzUqm2tJuWVUHSBVULBS6W8FGcMiszMyuCdsddrqFZ",
+      "symbol": "LAG",
+      "name": "LAG Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/Lagrange-fi/Lag-Token-/logo.png",
+      "tags": [
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://lagrange.fi/",
+        "github":"https://github.com/Lagrange-fi"
+      }
     }
   ],
   "version": {
     "major": 0,
     "minor": 3,
     "patch": 2
+
   }
+
 }
