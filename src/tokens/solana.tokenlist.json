@@ -11325,6 +11325,8 @@
         "website": "https://www.solhamster.space/",
         "twitter": "https://twitter.com/sol_hamster",
         "telegram": "https://t.me/SolHamster",
+        "coingeckoId": "space-hamster",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/space-hamster/",
         "dex-website": "https://dex-solhamster.space/"
       }
     },
@@ -16053,6 +16055,37 @@
       "extensions": {
         "website": "https://frakt.art",
         "twitter": "https://twitter.com/FraktArt"
+      }
+    },
+      "chainId": 101,
+      "address": "2DnEfD1hTYxmbkb5vHW3c67EXwu8gA845KYT6RCPDExp",
+      "symbol": "WALLY",
+      "name": "WALLY Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/wallysolana/WALLYIMAGE/main/WALLYlogos.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website":"https://allycareint.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4oV4HndNDY12bT7wEfEeQeVk9bVN5EEAc8jtG9ErJS2E",
+      "symbol": "HIND",
+      "name": "HINDCOIN",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4oV4HndNDY12bT7wEfEeQeVk9bVN5EEAc8jtG9ErJS2E/HIND.png"
+    },
+	{
+      "chainId": 101,
+      "address": "27FAF4JDSkV3MAWF4Tzc4rJsiNGyfGWP2wvoR4h73eBr",
+      "symbol": "IV",
+      "name": "IV WorldWide Entertainment Token",
+      "decimals": 9,
+      "logoURI": "https://github.com/bvdaakster/token-list/raw/9b15eb4f84e961016b01409d53979822ec1910db/assets/mainnet/27FAF4JDSkV3MAWF4Tzc4rJsiNGyfGWP2wvoR4h73eBr/token-logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "http://ivwwe.com"
       }
     }
   ],
