@@ -11325,6 +11325,8 @@
         "website": "https://www.solhamster.space/",
         "twitter": "https://twitter.com/sol_hamster",
         "telegram": "https://t.me/SolHamster",
+        "coingeckoId": "space-hamster",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/space-hamster/",
         "dex-website": "https://dex-solhamster.space/"
       }
     },
@@ -15918,7 +15920,9 @@
       "tags": ["social-token"],
       "extensions": {
         "website":"https://lagrange.fi/",
+        "discord": "https://discord.gg/cwydgMVT",
         "github":"https://github.com/Lagrange-fi"
+        
       }
     },
 {
@@ -15953,6 +15957,137 @@
        "github": "https://github.com/forbitspace",
        "telegram": "https://t.me/forbitspace"
      }
+    },
+    {
+      "chainId": 101,
+      "address": "H5kMHghGUKo4MnGEp4mpAMxveDwnRZ4hXeZMWfp5EzGF",
+      "symbol": "UXD",
+      "name": "UXD Stablecoin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H5kMHghGUKo4MnGEp4mpAMxveDwnRZ4hXeZMWfp5EzGF/logo.png",
+      "tags": [
+        "UXD",
+        "Stablecoin"
+      ],
+      "extensions": {
+        "website": "https://uxd.fi/",
+        "twitter": "https://twitter.com/UXDProtocol",
+        "medium": "https://uxdprotocol.medium.com/",
+        "discord": "https://discord.com/invite/BHfpYmjsBM"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DSmqf5Je3FEUmZntxBzG7c7EYJN3WK3feBV5Zgidukjj",
+      "symbol": "USDC-wUSDC-wUSDT-wDAI",
+      "name": "Mercurial LP Token (USDC-wUSDC-wUSDT-wDAI)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DSmqf5Je3FEUmZntxBzG7c7EYJN3WK3feBV5Zgidukjj/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.mercurial.finance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "A9mUU4qviSctJVPJdBJWkb28deg915LYJKrzQ19ji3FM",
+      "symbol": "wUSDCv2",
+      "name": "USD Coin (Wormhole V2)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A9mUU4qviSctJVPJdBJWkb28deg915LYJKrzQ19ji3FM/logo.png",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "assetContract": "https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Dn4noZ5jgGfkntzcQSUZ8czkreiZ1ForXYoV2H8Dm7S1",
+      "symbol": "wUSDTv2",
+      "name": "USDT (Wormhole V2)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dn4noZ5jgGfkntzcQSUZ8czkreiZ1ForXYoV2H8Dm7S1/logo.png",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "assetContract": "https://etherscan.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o",
+      "symbol": "wDAIv2",
+      "name": "DAI (Wormhole V2)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o/logo.png",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "assetContract": "https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f",
+        "coingeckoId": "dai"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2DnEfD1hTYxmbkb5vHW3c67EXwu8gA845KYT6RCPDExp",
+      "symbol": "WALLY",
+      "name": "WALLY Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/wallysolana/WALLYIMAGE/main/WALLYlogos.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website":"https://allycareint.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4oV4HndNDY12bT7wEfEeQeVk9bVN5EEAc8jtG9ErJS2E",
+      "symbol": "HIND",
+      "name": "HINDCOIN",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4oV4HndNDY12bT7wEfEeQeVk9bVN5EEAc8jtG9ErJS2E/HIND.png"
+    },
+	{
+      "chainId": 101,
+      "address": "27FAF4JDSkV3MAWF4Tzc4rJsiNGyfGWP2wvoR4h73eBr",
+      "symbol": "IV",
+      "name": "IV WorldWide Entertainment Token",
+      "decimals": 9,
+      "logoURI": "https://github.com/bvdaakster/token-list/raw/9b15eb4f84e961016b01409d53979822ec1910db/assets/mainnet/27FAF4JDSkV3MAWF4Tzc4rJsiNGyfGWP2wvoR4h73eBr/token-logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "http://ivwwe.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ErGB9xa24Szxbk1M28u2Tx8rKPqzL6BroNkkzk5rG4zj",
+      "symbol": "FRKT",
+      "name": "FRAKT Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ErGB9xa24Szxbk1M28u2Tx8rKPqzL6BroNkkzk5rG4zj/logo.png",
+      "tags": [
+        "nft",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://frakt.art",
+        "twitter": "https://twitter.com/FraktArt"
+      }
     }
   ],
   "version": {
