@@ -16000,6 +16000,7 @@
       "tags": ["social-token"],
       "extensions": {
         "website":"https://lagrange.fi/",
+        "twitter":"https://twitter.com/Lagrange_fi",
         "discord": "https://discord.gg/cwydgMVT",
         "github":"https://github.com/Lagrange-fi"
         
@@ -16198,6 +16199,50 @@
       "extensions": {
         "website": "https://rupiahdigital.com"
       }
+    }
+    ,{
+      "chainId": 101,
+      "address": "7fRXu5A3VSQHjhS2exrETCVK85jANRSh9utUuiJVoQc8",
+      "symbol": "VER",
+      "name": "Vera",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/umersurkhailas/spllogo/vbuck.png",
+      "tags": [
+        "vera token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "1YDQ35V8g68FGvcT85haHwAXv1U7XMzuc4mZeEXfrjE",
+      "symbol": "WGMI",
+      "name": "WGMI NFT Collector's Club",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/1YDQ35V8g68FGvcT85haHwAXv1U7XMzuc4mZeEXfrjE/logo.png",
+      "tags": [
+        "community",
+        "NFT",
+        "club",
+        "wgmi",
+        "wagmi"
+      ],
+      "extensions": {
+        "website": "https://wgmi.cc",
+        "twitter": "https://twitter.com/WGMIcc",
+        "discord": "https://discord.gg/yr4PpZNQXK"
+      }
+    },
+    {
+        "chainId": 101,
+        "address": "zp6ybEDFPzQqstgdw8eLfcV43JyfkTR4ty9CbmzQw6X",
+        "symbol": "LARA",
+        "name": "LARA Token",
+        "decimals": 9,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/zp6ybEDFPzQqstgdw8eLfcV43JyfkTR4ty9CbmzQw6X/logo.png",
+        "tags": [
+            "utility-token",
+            "LARA"
+    ]
+
     }
   ],
   "version": {
