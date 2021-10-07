@@ -101,7 +101,7 @@
       "logoURI": "https://raw.githubusercontent.com/dyor-market/token-list/main/assets/mainnet/7ypyxaQoHcJwoo9wXsc3tqL6PN4UQuEoyyfg5xjDX1Dj/logo.png",
       "tags": [],
       "extensions": {
-          "website": "https://mummy.io/"
+        "website": "https://mummy.io/"
       }
     },
     {
@@ -15997,15 +15997,16 @@
       "name": "LAG Token",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/Lagrange-fi/Lag-Token-/logo.png",
-      "tags": ["social-token"],
+      "tags": [
+        "social-token"
+      ],
       "extensions": {
-        "website":"https://lagrange.fi/",
+        "website": "https://lagrange.fi/",
         "discord": "https://discord.gg/cwydgMVT",
-        "github":"https://github.com/Lagrange-fi"
-        
+        "github": "https://github.com/Lagrange-fi"
       }
     },
-{
+    {
       "chainId": 101,
       "address": "EAniGDVY2VKUtZxvpHnbazHfZgfo3bp61TxUGHzw3Cn7",
       "symbol": "007E",
@@ -16017,26 +16018,26 @@
       ],
       "extensions": {
         "website": "https://007exchange.tk/",
-	"twitter": "https://twitter.com/007Exchange",
-	"telegram": "https://t.me/exchange_007"
+        "twitter": "https://twitter.com/007Exchange",
+        "telegram": "https://t.me/exchange_007"
       }
-},
+    },
     {
       "chainId": 101,
-     "address": "Hwv5ecNoHv5kNnQ2ungWN6PSq1pMq89McysSQtiELTTH",
-     "symbol": "FBS",
-     "name": "forbitspace",
-     "decimals": 18,
-     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Hwv5ecNoHv5kNnQ2ungWN6PSq1pMq89McysSQtiELTTH/logo.png",
-     "tags": [],
-     "extensions": {
-       "website": "https://forbitspace.com/",
-       "twitter": "https://twitter.com/forbitspace",
-       "discord": "https://discord.gg/8tBuBPeZ",
-       "medium": "https://medium.com/@forbitspace",
-       "github": "https://github.com/forbitspace",
-       "telegram": "https://t.me/forbitspace"
-     }
+      "address": "Hwv5ecNoHv5kNnQ2ungWN6PSq1pMq89McysSQtiELTTH",
+      "symbol": "FBS",
+      "name": "forbitspace",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Hwv5ecNoHv5kNnQ2ungWN6PSq1pMq89McysSQtiELTTH/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://forbitspace.com/",
+        "twitter": "https://twitter.com/forbitspace",
+        "discord": "https://discord.gg/8tBuBPeZ",
+        "medium": "https://medium.com/@forbitspace",
+        "github": "https://github.com/forbitspace",
+        "telegram": "https://t.me/forbitspace"
+      }
     },
     {
       "chainId": 101,
@@ -16123,14 +16124,32 @@
     },
     {
       "chainId": 101,
+      "address": "ErGB9xa24Szxbk1M28u2Tx8rKPqzL6BroNkkzk5rG4zj",
+      "symbol": "FRKT",
+      "name": "FRAKT Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2kMr32vCwjehHizggK4Gdv7izk7NhTUyLrH7RYvQRFHH/logo.png",
+      "tags": [
+        "nft",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://frakt.art",
+        "twitter": "https://twitter.com/FraktArt"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "2DnEfD1hTYxmbkb5vHW3c67EXwu8gA845KYT6RCPDExp",
       "symbol": "WALLY",
       "name": "WALLY Token",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/wallysolana/WALLYIMAGE/main/WALLYlogos.png",
-      "tags": ["utility-token"],
+      "tags": [
+        "utility-token"
+      ],
       "extensions": {
-        "website":"https://allycareint.com"
+        "website": "https://allycareint.com"
       }
     },
     {
@@ -16141,7 +16160,7 @@
       "decimals": 5,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4oV4HndNDY12bT7wEfEeQeVk9bVN5EEAc8jtG9ErJS2E/HIND.png"
     },
-	{
+    {
       "chainId": 101,
       "address": "27FAF4JDSkV3MAWF4Tzc4rJsiNGyfGWP2wvoR4h73eBr",
       "symbol": "IV",
