@@ -12303,6 +12303,24 @@
         "twitter": "https://twitter.com/Soulanadefi"
       }
     },
+	{
+	  "chainId": 101,
+	  "address": "5U93vfnWJ4NKDhm7k1X7J6D15nJim2odivn9MmfCWwPU",
+	  "symbol": "CHUM",
+	  "name": "Chum Coin",
+	  "decimals": 9,
+	  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5U93vfnWJ4NKDhm7k1X7J6D15nJim2odivn9MmfCWwPU/logo.png",
+	  "tags": [
+		"email-token",
+		"email-coin",
+		"CHUM",
+		"Chum Coin"
+	  ],
+	  "extensions": 
+	  {
+		"website": "https://chumsmart.com"
+	  }
+	},
     {
       "chainId": 101,
       "address": "26W4xxHbWJfrswaMNh14ag2s4PZTQuu2ypHGj6YEVXkT",
@@ -15970,6 +15988,21 @@
     },
     {
       "chainId": 101,
+      "address": "9152xjhTyvDeVsRbbA82S5neQjwgkdqEyLTHqPtoRbnq",
+      "symbol": "CATL",
+      "name": "Cat Lover",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9152xjhTyvDeVsRbbA82S5neQjwgkdqEyLTHqPtoRbnq/logo.png",
+      "tags": [
+        "Community"
+      ],
+      "extensions": {
+        "website": "https://catlovertoken.tk/",
+	      "telegram": "https://t.me/catlovertoken"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "83LGLCm7QKpYZbX8q4W2kYWbtt8NJBwbVwEepzkVnJ9y",
       "symbol": "xUSD",
       "name": "Synthetic USD",
@@ -16396,8 +16429,7 @@
             "collectible-token",
             "FBDT",
             "FBD"
-    ]
-        
+    ]  
     },
     {
       "chainId": 101,
@@ -16413,6 +16445,24 @@
       "extensions": {
         "website": "https://FUMoney.io/",
         "twitter": "https://twitter.com/FUMindset"
+=======
+
+    },
+    {
+      "chainId": 101,
+      "address": "8ssTatx7m2x5zM24EbzvB9GFxFyUc9RCgpL5pXa2xWX8",
+      "symbol": "STG",
+      "name": "SOLARIS",
+      "decimals": 2,
+      "logoURI": "https://cdn.jsdelivr.net/gh/grgkro/token-list@6237aabe97cc75d24e472d5991f892dd696d8c66/assets/mainnet/8ssTatx7m2x5zM24EbzvB9GFxFyUc9RCgpL5pXa2xWX8/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://schwabendollar.de/",
+        "instagram": "https://www.instagram.com/schwabendollar",
+        "twitter": "https://twitter.com/schwabendollar"
+      }
     }
   ,
   "version": {
