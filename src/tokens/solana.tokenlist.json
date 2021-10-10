@@ -83,20 +83,37 @@
         "decimals": 0,
         "logoURI": "https://raw.githubusercontent.com/L0px1n/token-list/main/assets/mainnet/shark.jpeg"
       },
-      {
-        "chainId": 101,
-        "address": "9CuowWiTMFBeC5ntjdAeMv3W72vzwveCC9ATTjnjXjNx",
-        "symbol": "KRCH",
-        "name": "KrechetovNFT",
-        "decimals": 0,
-        "logoURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Toyota_GT86_%E2%80%93_Frontansicht%2C_17._September_2012%2C_D%C3%BCsseldorf.jpg/1200px-Toyota_GT86_%E2%80%93_Frontansicht%2C_17._September_2012%2C_D%C3%BCsseldorf.jpg",
-        "tags": [
-          "NFT",
-          "stablecoin"
-        ],
-        "extensions": {
+    {
+      "chainId": 101,
+      "address": "9CuowWiTMFBeC5ntjdAeMv3W72vzwveCC9ATTjnjXjNx",
+      "symbol": "KRCH",
+      "name": "KrechetovNFT",
+      "decimals": 0,
+      "logoURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Toyota_GT86_%E2%80%93_Frontansicht%2C_17._September_2012%2C_D%C3%BCsseldorf.jpg/1200px-Toyota_GT86_%E2%80%93_Frontansicht%2C_17._September_2012%2C_D%C3%BCsseldorf.jpg",
+      "tags": [
+        "NFT",
+        "stablecoin"
+      ],
+      "extensions": {
+      }
+    },
+     {
+      "chainId": 101,
+      "address": "AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r",
+      "symbol": "PNT",
+      "name": "PHANT",
+      "decimals": 9,
+      "logoURI": "https://user-images.githubusercontent.com/92027847/136703420-7f327114-7295-4e94-b38d-77eb5cf76927.png",
+      "tags": [
+        "utility-token"
+      ],
+        "extensions":
+        {
+          "website": "",
+          "twitter": "https://twitter.com/wefinph",
+          "discord": "https://discord.gg/AMmx7k6H"
         }
-      },
+    },
      {
        "chainId":101,
        "address":"EZF2sPJRe26e8iyXaCrmEefrGVBkqqNGv9UPGG9EnTQz",
@@ -16590,23 +16607,6 @@
     },
     {
       "chainId": 101,
-      "address": "AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r",
-      "symbol": "PNT",
-      "name": "PHANT",
-      "decimals": 9,
-      "logoURI": "https://user-images.githubusercontent.com/92027847/136703420-7f327114-7295-4e94-b38d-77eb5cf76927.png",
-      "tags": [
-        "utility-token"
-      ],
-        "extensions":
-        {
-          "website": "",
-          "twitter": "https://twitter.com/wefinph",
-          "discord": "https://discord.gg/AMmx7k6H"
-        }
-    },
-    {
-      "chainId": 101,
       "address": "4xAPLtoJn7J7ALhLh7jz4unZRRDjCogNbnkJ2xhkYedo",
       "symbol": "ROFL",
       "name": "ROFLSTOMP TOKEN",
@@ -16619,8 +16619,8 @@
       "extensions": {
         "twitter": "https://twitter.com/MW_ROFLSTOMPERS"
       }
-    }
-     
+    },
+
   ],
   "version": {
     "major": 0,
