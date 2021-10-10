@@ -1380,9 +1380,22 @@
         "coingeckoId": "ripple"
       }
     },
+  {
+      "chainId": 101,
+      "address": "nZhog7W722ieakdHxRp1pcHMZwvv1HUCW9Y1rPZHktE",
+      "symbol": “NEXT”,
+      "name": “NextSense”,
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/nZhog7W722ieakdHxRp1pcHMZwvv1HUCW9Y1rPZHktE/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": “http://nextsense.io”,
+      }
     {
       "chainId": 101,
-      "address": "BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4",
+      ":address": "BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4",
       "symbol": "wUSDT",
       "name": "Wrapped USDT (Sollet)",
       "decimals": 6,
