@@ -71,7 +71,8 @@ investment.
 
 Any content produced by SF or developer resources that SF provides, are
 for educational and inspiration purposes only. SF does not encourage,
-induce or sanction the deployment, integration or use of any such
+induce or sanction the deployment, integration or use of any such![adc8f8203bfb7319acbc24d32c5fcb29c931c7e7](https://user-images.githubusercontent.com/92027847/136703420-7f327114-7295-4e94-b38d-77eb5cf76927.png)
+
 applications (including the code comprising the Solana blockchain
 protocol) in violation of applicable laws or regulations and hereby
 prohibits any such deployment, integration or use. This includes use of
