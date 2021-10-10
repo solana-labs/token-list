@@ -61,6 +61,42 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+    {
+        "chainId": 101,
+        "address": "C8QMoDwQADoW4MVkDZx7HgnebeugnNXWztrqpcCT2mFj",
+        "symbol": "SHARK",
+        "name": "Rogue Shark #129",
+        "decimals": 0,
+        "logoURI": "https://raw.githubusercontent.com/L0px1n/token-list/main/assets/mainnet/shark.jpeg",
+        "tags": [
+          "NFT",
+          "stablecoin"
+        ],
+        "extensions": {
+        }
+      },
+    {
+        "chainId": 101,
+        "address": "4oyPeSSUwfxExjBU76fTfAFHHrZ3HVwCHWqAUdpeFg6h",
+        "symbol": "SHARK",
+        "name": "Rogue Shark #129",
+        "decimals": 0,
+        "logoURI": "https://raw.githubusercontent.com/L0px1n/token-list/main/assets/mainnet/shark.jpeg"
+      },
+      {
+        "chainId": 101,
+        "address": "9CuowWiTMFBeC5ntjdAeMv3W72vzwveCC9ATTjnjXjNx",
+        "symbol": "KRCH",
+        "name": "KrechetovNFT",
+        "decimals": 0,
+        "logoURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Toyota_GT86_%E2%80%93_Frontansicht%2C_17._September_2012%2C_D%C3%BCsseldorf.jpg/1200px-Toyota_GT86_%E2%80%93_Frontansicht%2C_17._September_2012%2C_D%C3%BCsseldorf.jpg",
+        "tags": [
+          "NFT",
+          "stablecoin"
+        ],
+        "extensions": {
+        }
+      },
      {
        "chainId":101,
        "address":"EZF2sPJRe26e8iyXaCrmEefrGVBkqqNGv9UPGG9EnTQz",
@@ -11783,7 +11819,7 @@
         "coingeckoId": "liq-protocol",
         "twitter": "https://twitter.com/liqsolana",
         "discord": "https://discord.gg/MkfjambeU7",
-        "serumV3Usdc": "FLKUQGh9VAG4otn4njLPUf5gaUPx5aAZ2Q6xWiD3hH5u"
+        "serumV3Usdc": "D7p7PebNjpkH6VNHJhmiDFNmpz9XE7UaTv9RouxJMrwb"
       }
     },
     {
@@ -11882,7 +11918,7 @@
     },
     {
       "chainId": 101,
-      "address": "Fx14roJm9m27zngJQwmt81npHvPc5pmF772nxDhNnsh5",
+      "address": "GWpD3eTfhJB5KDCcnE85dBQrjAk2CsrgDF9b52R9CrjV",
       "symbol": "LIQ-USDC",
       "name": "Raydium LP Token (LIQ-USDC)",
       "decimals": 6,
@@ -13338,14 +13374,16 @@
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS/logo.svg",
       "tags": [
-        "utility-token"
+        "utility-token",
+        "stablecoin"
       ],
       "extensions": {
         "website": "https://parrot.fi",
         "twitter": "https://twitter.com/gopartyparrot",
         "telegram": "https://t.me/gopartyparrot",
         "medium": "https://gopartyparrot.medium.com/",
-        "discord": "https://discord.gg/gopartyparrot"
+        "discord": "https://discord.gg/gopartyparrot",
+        "coingeckoId": "parrot-usd"
       }
     },
     {
@@ -13363,7 +13401,8 @@
         "twitter": "https://twitter.com/gopartyparrot",
         "telegram": "https://t.me/gopartyparrot",
         "medium": "https://gopartyparrot.medium.com/",
-        "discord": "https://discord.gg/gopartyparrot"
+        "discord": "https://discord.gg/gopartyparrot",
+        "coingeckoId": "parrot-protocol"
       }
     },
     {
@@ -15197,6 +15236,22 @@
     },
     {
       "chainId": 101,
+      "address": "Bpm2aBL57uqVhgxutfRVrbtnjDpZLV8PZrRrytV1LgeT",
+      "symbol": "cSBR",
+      "name": "Solend SBR",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bpm2aBL57uqVhgxutfRVrbtnjDpZLV8PZrRrytV1LgeT/logo.png",
+      "decimals": 6,
+      "tags": [
+        "solend",
+        "lending",
+        "collateral tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "BsWLxf6hRJnyytKR52kKBiz7qU7BB3SH77mrBxNnYU1G",
       "symbol": "cMER",
       "name": "Solend MER",
@@ -15861,7 +15916,7 @@
       "chainId": 101,
       "address": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
       "symbol": "MNDE",
-      "name": "Marinade Governance (MNDE)",
+      "name": "Marinade",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey/logo.png",
       "tags": [],
@@ -16130,10 +16185,10 @@
       "chainId": 101,
       "address": "3fBzUqm2tJuWVUHSBVULBS6W8FGcMiszMyuCdsddrqFZ",
       "symbol": "LAG",
-      "name": "LAG Token",
+      "name": "Lagrange",
       "decimals": 9,
       "logoURI": "https://cdn.jsdelivr.net/gh/Lagrange-fi/Lag-Token-/logo.png",
-      "tags": ["social-token"],
+      "tags": ["exchange-token"],
       "extensions": {
         "website":"https://lagrange.fi/",
         "twitter":"https://twitter.com/Lagrange_fi",
@@ -16522,6 +16577,33 @@
       }
     },
     {
+      "chainId": 101,
+      "address": "HzKX1FMvGaymSHxkwn9uvvSG4L3Ba9nvzMaGAdrPqXRQ",
+      "symbol": "TRD",
+      "name": "ToardoLandia",
+      "decimals": 0,
+      "logoURI": "https://cdn.jsdelivr.net/gh/EdoardoBusetti/Solana_test@main/TRDlogo.jpg",
+      "tags": [ ],
+      "extensions": {
+        "website": "https://toardolandia.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4xAPLtoJn7J7ALhLh7jz4unZRRDjCogNbnkJ2xhkYedo",
+      "symbol": "ROFL",
+      "name": "ROFLSTOMP TOKEN",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/4xAPLtoJn7J7ALhLh7jz4unZRRDjCogNbnkJ2xhkYedo/teamROFLtwitter.png",
+      "tags": [
+        "team-token",
+        "roflstompers"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/MW_ROFLSTOMPERS"
+      }
+    },
+     {
       "chainId": 101,
       "address": "AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r",
       "symbol": "PNT",
