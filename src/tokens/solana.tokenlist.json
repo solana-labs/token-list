@@ -61,6 +61,23 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+     {
+      "chainId": 101,
+      "address": "AASdD9rAefJ4PP7iM89MYUsQEyCQwvBofhceZUGDh5HZ",
+      "symbol": "SLX",
+      "name": "Solex Finance",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solexfin/token-list/main/assets/mainnet/AASdD9rAefJ4PP7iM89MYUsQEyCQwvBofhceZUGDh5HZ/logo.png",
+      "tags": [
+        "Solana Defi",
+        "Exchange",
+        "DApp"
+      ],
+      "extensions": {
+        "website": "https://solex.finance/",
+        "twitter": "https://twitter.com/SolexFinance"
+      }
+},
     {
         "chainId": 101,
         "address": "C8QMoDwQADoW4MVkDZx7HgnebeugnNXWztrqpcCT2mFj",
@@ -15939,6 +15956,7 @@
       "tags": [],
       "extensions": {
         "website": "https://marinade.finance",
+        "coingeckoId": "marinade-finance",
         "twitter": "https://twitter.com/MarinadeFinance",
         "discord": "https://discord.gg/mGqZA5pjRN",
         "medium": "https://medium.com/marinade-finance",
@@ -16687,24 +16705,24 @@
       "decimals": 5,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/nZhog7W722ieakdHxRp1pcHMZwvv1HUCW9Y1rPZHktE/logo.png"
     },
-  {
-    "chainId": 101,
-    "address": "HvdFyYDQLhz2KhVJew2bYo1cWaE7y8UY7E4yMVBL5uhw",
-    "symbol": "GMAC",
-    "name": "GMAC Unique Token",
-    "decimals": 9,
-    "logoURI": "https://www.slm.cloud/img/products.png",
-    "tags": [
-    "community",
-    "utility-token",
-    "club"
-    ],
-    "extensions": {
-    "website": "https://www.slm.cloud",
-    "twitter": "https://twitter.com/gonzaloaraujoc"
-    }
-  }
-  ,{
+    {
+      "chainId": 101,
+      "address": "HvdFyYDQLhz2KhVJew2bYo1cWaE7y8UY7E4yMVBL5uhw",
+      "symbol": "GMAC",
+      "name": "GMAC Unique Token",
+      "decimals": 9,
+      "logoURI": "https://www.slm.cloud/img/products.png",
+      "tags": [
+        "community",
+        "utility-token",
+        "club"
+      ],
+      "extensions": {
+        "website": "https://www.slm.cloud",
+        "twitter": "https://twitter.com/gonzaloaraujoc"
+      }
+    },
+    {
       "chainId": 101,
       "address": "FriCEbw1V99GwrJRXPnSQ6su2TabHabNxiZ3VNsVFPPN",
       "symbol": "FRIES",
@@ -16721,7 +16739,23 @@
         "twitter": "https://twitter.com/Soltato_NFT",
         "discord": "https://discord.com/invite/Wkgh9Fvy84"
       }
-    }
+    },
+    {
+  "chainId": 101,
+  "address": "AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r",
+  "symbol": "PNT",
+  "name": "PHANT",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r/logo.png",
+  "tags": [
+    "utility-token",
+  ],
+      "extensions": {
+        "discord": "https://discord.gg/AMmx7k6H",
+        "twitter": "https://twitter.com/wefinph",
+        "website": " "
+      }
+}
   ],
   "version": {
     "major": 0,
