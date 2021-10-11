@@ -16705,24 +16705,24 @@
       "decimals": 5,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/nZhog7W722ieakdHxRp1pcHMZwvv1HUCW9Y1rPZHktE/logo.png"
     },
-  {
-    "chainId": 101,
-    "address": "HvdFyYDQLhz2KhVJew2bYo1cWaE7y8UY7E4yMVBL5uhw",
-    "symbol": "GMAC",
-    "name": "GMAC Unique Token",
-    "decimals": 9,
-    "logoURI": "https://www.slm.cloud/img/products.png",
-    "tags": [
-    "community",
-    "utility-token",
-    "club"
-    ],
-    "extensions": {
-    "website": "https://www.slm.cloud",
-    "twitter": "https://twitter.com/gonzaloaraujoc"
-    }
-  }
-  ,{
+    {
+      "chainId": 101,
+      "address": "HvdFyYDQLhz2KhVJew2bYo1cWaE7y8UY7E4yMVBL5uhw",
+      "symbol": "GMAC",
+      "name": "GMAC Unique Token",
+      "decimals": 9,
+      "logoURI": "https://www.slm.cloud/img/products.png",
+      "tags": [
+        "community",
+        "utility-token",
+        "club"
+      ],
+      "extensions": {
+        "website": "https://www.slm.cloud",
+        "twitter": "https://twitter.com/gonzaloaraujoc"
+      }
+    },
+    {
       "chainId": 101,
       "address": "FriCEbw1V99GwrJRXPnSQ6su2TabHabNxiZ3VNsVFPPN",
       "symbol": "FRIES",
@@ -16742,15 +16742,6 @@
     },
     {
       "chainId": 101,
-      "address": "AWz2TJfkvCX18RNaogJkx9DUAqGyPcwt6tMmh7PdaX58",
-      "symbol": "DRM",
-      "name": "DARUMA TOKEN",
-      "decimals": 9,
-      "logoURI": "https://unnxdjnntyhxaqlfmu4nyiw43cy6zvol2id3nz4a5ux4tnktbwiq.arweave.net/o1txpa2eD3BBZWU43CLc2LHs1cvSB7bngO0vybVTDZE",
-      "tags": [ ]
-    },
-    {
-      "chainId": 101,
       "address": "AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r",
       "symbol": "PNT",
       "name": "PHANT",
@@ -16765,7 +16756,17 @@
           "twitter": "https://twitter.com/wefinph",
           "discord": "https://discord.gg/AMmx7k6H"
         }
+    },
+    {
+      "chainId": 101,
+      "address": "AWz2TJfkvCX18RNaogJkx9DUAqGyPcwt6tMmh7PdaX58",
+      "symbol": "DRM",
+      "name": "DARUMA TOKEN",
+      "decimals": 9,
+      "logoURI": "https://unnxdjnntyhxaqlfmu4nyiw43cy6zvol2id3nz4a5ux4tnktbwiq.arweave.net/o1txpa2eD3BBZWU43CLc2LHs1cvSB7bngO0vybVTDZE",
+      "tags": [ ]
     }
+    
   ],
   "version": {
     "major": 0,
