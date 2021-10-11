@@ -16656,18 +16656,18 @@
       }
     },
     {
-      "address": "HzKX1FMvGaymSHxkwn9uvvSG4L3Ba9nvzMaGAdrPqXRQ",
       "chainId": 101,
+      "address": "HzKX1FMvGaymSHxkwn9uvvSG4L3Ba9nvzMaGAdrPqXRQ",
+      "symbol": "TRD",
+      "name": "ToardoLandia",
       "decimals": 0,
+      "logoURI": "https://cdn.jsdelivr.net/gh/EdoardoBusetti/Solana_test@main/TRDlogo.jpg",
+      "tags": [],
       "extensions": {
         "website": "https://toardolandia.com/"
-      },
-      "logoURI": "https://cdn.jsdelivr.net/gh/EdoardoBusetti/Solana_test@main/TRDlogo.jpg",
-      "name": "ToardoLandia",
-      "symbol": "TRD",
-      "tags": [ ]
-    },
-    {
+      }
+    }
+  ,{
       "chainId": 101,
       "address": "4xAPLtoJn7J7ALhLh7jz4unZRRDjCogNbnkJ2xhkYedo",
       "symbol": "ROFL",
@@ -16682,21 +16682,21 @@
       "extensions": {
         "twitter": "https://twitter.com/MW_ROFLSTOMPERS"
       }
-    },
-    {
-      "address": "7bYdmHbEEGH9ZXmHdeo7fX9dxyZGGyh4w8oc13WU86CJ",
+  }
+  ,{
       "chainId": 101,
-      "decimals": 8,
-      "extensions": {
-        "website": "https://pubcred.com"
-      },
-      "logoURI": "https://cdn.pubcred.com/pc-logo.png",
-      "name": "PubCred token",
+      "address": "7bYdmHbEEGH9ZXmHdeo7fX9dxyZGGyh4w8oc13WU86CJ",
       "symbol": "PCRD",
+      "name": "PubCred token",
+      "decimals": 8,
+      "logoURI": "https://cdn.pubcred.com/pc-logo.png",
       "tags": [
         "utility-token"
-      ]
-    },
+      ],
+      "extensions": {
+        "website": "https://pubcred.com"
+      }
+  },
   {
       "chainId": 101,
       "address": "nZhog7W722ieakdHxRp1pcHMZwvv1HUCW9Y1rPZHktE",
@@ -16705,56 +16705,66 @@
       "decimals": 5,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/nZhog7W722ieakdHxRp1pcHMZwvv1HUCW9Y1rPZHktE/logo.png"
     },
-    {
-      "address": "HvdFyYDQLhz2KhVJew2bYo1cWaE7y8UY7E4yMVBL5uhw",
+  {
+    "chainId": 101,
+    "address": "HvdFyYDQLhz2KhVJew2bYo1cWaE7y8UY7E4yMVBL5uhw",
+    "symbol": "GMAC",
+    "name": "GMAC Unique Token",
+    "decimals": 9,
+    "logoURI": "https://www.slm.cloud/img/products.png",
+    "tags": [
+    "community",
+    "utility-token",
+    "club"
+    ],
+    "extensions": {
+    "website": "https://www.slm.cloud",
+    "twitter": "https://twitter.com/gonzaloaraujoc"
+    }
+  }
+  ,{
       "chainId": 101,
-      "decimals": 9,
-      "extensions": {
-        "website": "https://www.slm.cloud",
-        "twitter": "https://twitter.com/gonzaloaraujoc"
-      },
-      "logoURI": "https://www.slm.cloud/img/products.png",
-      "name": "GMAC Unique Token",
-      "symbol": "GMAC",
-      "tags": [
-        "community",
-        "utility-token",
-        "club"
-      ]
-    },
-    {
       "address": "FriCEbw1V99GwrJRXPnSQ6su2TabHabNxiZ3VNsVFPPN",
-      "chainId": 101,
+      "symbol": "FRIES",
+      "name": "Soltato FRIES",
       "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FriCEbw1V99GwrJRXPnSQ6su2TabHabNxiZ3VNsVFPPN/logo.png",
+      "tags": [
+        "nft",
+        "utility-token"
+      ],
       "extensions": {
         "website": "https://soltato.io/",
         "serumV3Usdc": "8DKD5dKmmwparxCkpV2BQFTxt164rfadK8kX3at6hWUB",
         "twitter": "https://twitter.com/Soltato_NFT",
         "discord": "https://discord.com/invite/Wkgh9Fvy84"
-      },
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FriCEbw1V99GwrJRXPnSQ6su2TabHabNxiZ3VNsVFPPN/logo.png",
-      "name": "Soltato FRIES",
-      "symbol": "FRIES",
-      "tags": [
-        "nft",
-        "utility-token"
-      ]
+      }
     },
     {
-      "address": "AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r",
       "chainId": 101,
+      "address": "AWz2TJfkvCX18RNaogJkx9DUAqGyPcwt6tMmh7PdaX58",
+      "symbol": "DRM",
+      "name": "DARUMA TOKEN",
       "decimals": 9,
-      "extensions": {
-        "discord": "https://discord.gg/AMmx7k6H",
-        "twitter": "https://twitter.com/wefinph",
-        "website": " "
-      },
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r/logo.png",
-      "name": "PHANT",
+      "logoURI": "https://unnxdjnntyhxaqlfmu4nyiw43cy6zvol2id3nz4a5ux4tnktbwiq.arweave.net/o1txpa2eD3BBZWU43CLc2LHs1cvSB7bngO0vybVTDZE",
+      "tags": [ ]
+    },
+    {
+      "chainId": 101,
+      "address": "AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r",
       "symbol": "PNT",
+      "name": "PHANT",
+      "decimals": 9,
+      "logoURI": "https://user-images.githubusercontent.com/92027847/136703420-7f327114-7295-4e94-b38d-77eb5cf76927.png",
       "tags": [
         "utility-token"
-      ]
+      ],
+        "extensions":
+        {
+          "website": "",
+          "twitter": "https://twitter.com/wefinph",
+          "discord": "https://discord.gg/AMmx7k6H"
+        }
     }
   ],
   "version": {
