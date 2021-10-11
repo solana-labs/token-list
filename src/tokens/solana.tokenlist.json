@@ -16656,18 +16656,18 @@
       }
     },
     {
-      "chainId": 101,
       "address": "HzKX1FMvGaymSHxkwn9uvvSG4L3Ba9nvzMaGAdrPqXRQ",
-      "symbol": "TRD",
-      "name": "ToardoLandia",
+      "chainId": 101,
       "decimals": 0,
-      "logoURI": "https://cdn.jsdelivr.net/gh/EdoardoBusetti/Solana_test@main/TRDlogo.jpg",
-      "tags": [],
       "extensions": {
         "website": "https://toardolandia.com/"
-      }
-    }
-  ,{
+      },
+      "logoURI": "https://cdn.jsdelivr.net/gh/EdoardoBusetti/Solana_test@main/TRDlogo.jpg",
+      "name": "ToardoLandia",
+      "symbol": "TRD",
+      "tags": [ ]
+    },
+    {
       "chainId": 101,
       "address": "4xAPLtoJn7J7ALhLh7jz4unZRRDjCogNbnkJ2xhkYedo",
       "symbol": "ROFL",
@@ -16682,21 +16682,21 @@
       "extensions": {
         "twitter": "https://twitter.com/MW_ROFLSTOMPERS"
       }
-  }
-  ,{
-      "chainId": 101,
+    },
+    {
       "address": "7bYdmHbEEGH9ZXmHdeo7fX9dxyZGGyh4w8oc13WU86CJ",
-      "symbol": "PCRD",
-      "name": "PubCred token",
+      "chainId": 101,
       "decimals": 8,
-      "logoURI": "https://cdn.pubcred.com/pc-logo.png",
-      "tags": [
-        "utility-token"
-      ],
       "extensions": {
         "website": "https://pubcred.com"
-      }
-  },
+      },
+      "logoURI": "https://cdn.pubcred.com/pc-logo.png",
+      "name": "PubCred token",
+      "symbol": "PCRD",
+      "tags": [
+        "utility-token"
+      ]
+    },
   {
       "chainId": 101,
       "address": "nZhog7W722ieakdHxRp1pcHMZwvv1HUCW9Y1rPZHktE",
@@ -16706,56 +16706,56 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/nZhog7W722ieakdHxRp1pcHMZwvv1HUCW9Y1rPZHktE/logo.png"
     },
     {
-      "chainId": 101,
       "address": "HvdFyYDQLhz2KhVJew2bYo1cWaE7y8UY7E4yMVBL5uhw",
-      "symbol": "GMAC",
-      "name": "GMAC Unique Token",
+      "chainId": 101,
       "decimals": 9,
+      "extensions": {
+        "website": "https://www.slm.cloud",
+        "twitter": "https://twitter.com/gonzaloaraujoc"
+      },
       "logoURI": "https://www.slm.cloud/img/products.png",
+      "name": "GMAC Unique Token",
+      "symbol": "GMAC",
       "tags": [
         "community",
         "utility-token",
         "club"
-      ],
-      "extensions": {
-        "website": "https://www.slm.cloud",
-        "twitter": "https://twitter.com/gonzaloaraujoc"
-      }
+      ]
     },
     {
-      "chainId": 101,
       "address": "FriCEbw1V99GwrJRXPnSQ6su2TabHabNxiZ3VNsVFPPN",
-      "symbol": "FRIES",
-      "name": "Soltato FRIES",
+      "chainId": 101,
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FriCEbw1V99GwrJRXPnSQ6su2TabHabNxiZ3VNsVFPPN/logo.png",
-      "tags": [
-        "nft",
-        "utility-token"
-      ],
       "extensions": {
         "website": "https://soltato.io/",
         "serumV3Usdc": "8DKD5dKmmwparxCkpV2BQFTxt164rfadK8kX3at6hWUB",
         "twitter": "https://twitter.com/Soltato_NFT",
         "discord": "https://discord.com/invite/Wkgh9Fvy84"
-      }
+      },
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FriCEbw1V99GwrJRXPnSQ6su2TabHabNxiZ3VNsVFPPN/logo.png",
+      "name": "Soltato FRIES",
+      "symbol": "FRIES",
+      "tags": [
+        "nft",
+        "utility-token"
+      ]
     },
     {
-  "chainId": 101,
-  "address": "AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r",
-  "symbol": "PNT",
-  "name": "PHANT",
-  "decimals": 9,
-  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r/logo.png",
-  "tags": [
-    "utility-token"
-  ],
+      "address": "AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r",
+      "chainId": 101,
+      "decimals": 9,
       "extensions": {
         "discord": "https://discord.gg/AMmx7k6H",
         "twitter": "https://twitter.com/wefinph",
         "website": " "
-      }
-}
+      },
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r/logo.png",
+      "name": "PHANT",
+      "symbol": "PNT",
+      "tags": [
+        "utility-token"
+      ]
+    }
   ],
   "version": {
     "major": 0,
