@@ -14921,11 +14921,10 @@
       "symbol": "FAROUT",
       "name": "Far-Out Token",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/assets/J5gLhk6mmQ4PSoir1Ufh8JY2ytEHA93YupzYiTFVCgcL/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J5gLhk6mmQ4PSoir1Ufh8JY2ytEHA93YupzYiTFVCgcL/logo.png",
       "tags": [],
       "extensions": {
-        "website": "https://gitlab.com/far-out/far-out-token",
-        "telegram": "https://t.me/farouttoken"
+        "website": "https://gitlab.com/far-out/far-out-token"
       }
     },
     {
@@ -16554,6 +16553,8 @@
         "utility-token"
       ],
       "extensions": {
+        "coinmarketcap": "https://coinmarketcap.com/currencies/frakt-token/",
+        "coingeckoId": "frakt-token",
         "website": "https://frakt.art",
         "twitter": "https://twitter.com/FraktArt"
       }
@@ -17143,6 +17144,79 @@
       ],
       "extensions": {
         "website": "https://bojackhorsecoin.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9ubSPNJoTjbvo1aVArBBXHqoTXxdHKvNGiDnHWmskdv7",
+      "symbol": "$ALPHA",
+      "name": "Alpha NFT Token",
+      "decimals": 0,
+      "logoURI": "https://github.com/alpha-sol/alpha-frontend/blob/main/resources/logo.png",
+      "tags": [
+        "art",
+        "art-token",
+        "generative-art",
+        "community",
+        "community-token",
+        "utility-token",
+        "meta-verse",
+        "dao",
+        "governance"
+      ],
+      "extensions": {
+        "website": "https://alphagen.gallery/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Du8zr5ydoqcu5LQutEjr55RUjvmHLpPQKtncAMFhahsV",
+      "symbol": "DCXa",
+      "name": "Diverse Capital of Asiatic Exchanges",
+      "decimals": 0,
+      "logoURI": "https://dcxa.s3.amazonaws.com/static/icon.png",
+      "tags": [
+        "technology",
+        "tech-token",
+        "DeFi",
+        "community",
+        "community-token",
+        "utility-token",
+        "meta-verse",
+        "dao",
+        "governance"
+      ],
+      "extensions": {
+        "website": "https://www.dcxa.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4q19vhpG6y4ZeMPLQiUNNaJStb8XivCFQy4m4mdnVnQZ",
+      "symbol": "stSOL-SOL",
+      "name": "Mercurial LP Token (stSOL-2Pool)",
+      "decimals": 12,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4q19vhpG6y4ZeMPLQiUNNaJStb8XivCFQy4m4mdnVnQZ/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.mercurial.finance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GvhvT85XRFLB6LmLPfYCZZTeMSxkwGqUVhAYS5Uy8B4g",
+      "symbol": "AURY",
+      "name": "Aurory Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GvhvT85XRFLB6LmLPfYCZZTeMSxkwGqUVhAYS5Uy8B4g/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://aurory.io",
+        "description": "Aurory Token"
       }
     }
   ],
