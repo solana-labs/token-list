@@ -127,7 +127,7 @@
         "twitter": "https://"
       }
     },
-    
+
     {
      "chainId": 101,
      "address": "5F3beSzHFv1m3T2Sqp7dNQPYrZeetLZ8JYe6QPW6cqKA",
@@ -3401,6 +3401,26 @@
         "serumV3Usdt": "FuhKVt5YYCv7vXnADXtb7vqzYn82PJoap86q5wm8LX8Q"
       }
     },
+    {
+      "chainId": 101,
+      "address": "5HHv6HAyBtaihyHEapCJvjE6iRbGLRmm3F5EZjz6EzHV",
+      "symbol": "ID",
+      "name": "Everest ID (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/assets/5HHv6HAyBtaihyHEapCJvjE6iRbGLRmm3F5EZjz6EzHV/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0xEBd9D99A3982d547C5Bb4DB7E3b1F9F14b67Eb83",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0xEBd9D99A3982d547C5Bb4DB7E3b1F9F14b67Eb83",
+        "website": "https://everest.org",
+        "twitter": "https://twitter.com/EverestDotOrg",
+        "coingeckoId": "everid"
+      }
+     },
     {
       "chainId": 101,
       "address": "Bvv9xLodFrvDFSno9Ud8SEh5zVtBDQQjnBty2SgMcJ2s",
@@ -17507,7 +17527,7 @@
         "discord": "https://discord.gg/zjtV3EjwUf",
         "twitter": "https://twitter.com/fishynftmob"
       }
-    },    
+    },
     {
       "chainId": 101,
       "address": "BDy7QrC6JR987ZszfKCjTGwSSAcGEd9mRcDC2TSqNDkF",
