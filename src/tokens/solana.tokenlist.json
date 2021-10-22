@@ -79,6 +79,18 @@
     },
     {
       "chainId": 101,
+      "address": "C3Rjiq8o2yiRWsmdSUSN276u5ah3UTqyWbZudLMG41pt",
+      "symbol": "PITXX",
+      "name": "Pi Token v2",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solfinaprotocol/token-list/main/assets/mainnet/C3Rjiq8o2yiRWsmdSUSN276u5ah3UTqyWbZudLMG41pt/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://tokeninfo.yolasite.com/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "9Sbzj4DnRW8qFnfvJWwXxQMRkWKAwHLs9NgDuBFjkVgW",
       "symbol": "PITDT",
       "name": "Picasso Token Div Test",
@@ -8210,6 +8222,25 @@
       "extensions": {
         "website": "https://www.centre.io/",
         "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4UuGQgkD3rSeoXatXRWwRfRd21G87d5LiCfkVzNNv1Tt",
+      "symbol": "XSB",
+      "name": "Solareum",
+      "decimals": 9,
+      "logoURI": "https://solareum.app/icons/XSB-G.png",
+      "tags": [
+        "SPL Wallet",
+        "Solana tokenized",
+        "Solana Community token"
+      ],
+      "extensions": {
+        "website": "https://solareum.app",
+        "telegram": "https://t.me/solareum_wallet",
+        "twitter": "https://twitter.com/solareum_wallet",
+        "coingeckoId": "solareum"
       }
     },
     {
@@ -18423,6 +18454,9 @@
       "symbol": "CPR",
       "name": "Crypto Republic",
       "decimals": 5,
+	  "extensions": {
+        "website": "https://cryptorepublictoken.com/"
+      },
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5sBG2b32gk3jsd5azCK4Xs8jH9V6szz3vm9fi7v2cRrC/logo.png"
     },
     {
@@ -18613,7 +18647,90 @@
         "website": "https://solmice.com",
         "twitter": "https://twitter.com/SolmiceNFT"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq",
+      "symbol": "SAO",
+      "name": "Sator",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq/Sator_Logo.png",
+      "tags": [
+   	 "NFT",
+         "soical-token",
+   	 "utility-token",
+   	 "meta-verse"
+      ],
+      "extensions": {
+   	 "website": "https://sator.io",
+   	 "twitter": "https://twitter.com/SatorSAO",
+   	 "telegram": "https://t.me/SatorSAO"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5ENUvV3Ur3o3Fg6LVRfHL4sowidiVTMHHsEFqNJXRz6o",
+      "symbol": "LIZARD",
+      "name": "Lizard Token",
+      "decimals": 4,
+      "logoURI": "http://lizardtoken.xyz/gallery/lizard_logo-ts1634859660.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "http://www.lizardToken.xyz",
+        "twitter": "https://twitter.com/Lizard_Token",
+        "discord": "https://discord.gg/zMvCkck2k2"
+      }
+    },
+     {
+      "chainId": 101,
+      "address": "9yqPadcWQQ4BnuEbEZci1M5pTQYV8LX1HvckYwXoACdL",
+      "symbol": "MYCTY",
+      "name": "My Crypto City",
+      "decimals": 6,
+      "logoURI": "http://mycryptocity.net/wp-content/uploads/2021/10/cropped-HDLog2.png",
+      "tags": [
+      "utility-token",
+      "game",
+        "play2earn"
+      ],
+      "extensions": {
+        "website": "https://mycryptocity.net/",
+        "twitter": "https://twitter.com/MyCrypto_City",
+        "telegram": "https://t.me/mycryptocity"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DhuzmUvC4YTRDJwFfPSynDCGaJcMotnqjdNcGeFFrQSD",
+      "symbol": "PAD",
+      "name": "Lilypad",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DhuzmUvC4YTRDJwFfPSynDCGaJcMotnqjdNcGeFFrQSD/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://twitter.com/HypnoFrogzNFT",
+        "discord": "https://discord.gg/DFdyP9saU6"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EWUU9CuvByNp8bv3oDoH1N5WWdnBvcyyb8rtfRnHuLNN",
+      "symbol": "CAVE",
+      "name": "Crypto Cavemen",
+      "decimals": 6,
+      "logoURI": "https://ftoblquxiunjey7bu4eevlz2u7kwg5s3yvou7adgge2jbihcu7qq.arweave.net/LNwVwpdFGpJj4acISq86p9VjdlvFXU-AZjE0kKDip-E/?ext=png",
+      "tags": [
+        "utility-token",
+        "game",
+        "play2earn"
+      ],
+      "extensions": {
+        "website": "https://cryptocavemen.io",
+        "twitter": "https://twitter.com/TheCavemenClub",
+        "discord": "https://discord.com/invite/cryptocavemen"
+      }
     }
+
   ],
   "version": {
     "major": 0,
