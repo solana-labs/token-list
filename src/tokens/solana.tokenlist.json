@@ -79,6 +79,18 @@
     },
     {
       "chainId": 101,
+      "address": "C3Rjiq8o2yiRWsmdSUSN276u5ah3UTqyWbZudLMG41pt",
+      "symbol": "PITXX",
+      "name": "Pi Token v2",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solfinaprotocol/token-list/main/assets/mainnet/C3Rjiq8o2yiRWsmdSUSN276u5ah3UTqyWbZudLMG41pt/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://tokeninfo.yolasite.com/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "9Sbzj4DnRW8qFnfvJWwXxQMRkWKAwHLs9NgDuBFjkVgW",
       "symbol": "PITDT",
       "name": "Picasso Token Div Test",
@@ -8147,6 +8159,25 @@
       }
     },
     {
+      "chainId": 101,
+      "address": "4UuGQgkD3rSeoXatXRWwRfRd21G87d5LiCfkVzNNv1Tt",
+      "symbol": "XSB",
+      "name": "Solareum",
+      "decimals": 9,
+      "logoURI": "https://solareum.app/icons/XSB-G.png",
+      "tags": [
+        "SPL Wallet",
+        "Solana tokenized",
+        "Solana Community token"
+      ],
+      "extensions": {
+        "website": "https://solareum.app",
+        "telegram": "https://t.me/solareum_wallet",
+        "twitter": "https://twitter.com/solareum_wallet",
+        "coingeckoId": "solareum"
+      }
+    },
+    {
       "chainId": 102,
       "address": "Gmk71cM7j2RMorRsQrsyysM4HsByQx5PuDGtDdqGLWCS",
       "symbol": "spSOL",
@@ -15507,8 +15538,8 @@
     {
       "chainId": 101,
       "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
-      "symbol": "SOCN",
-      "name": "Socean",
+      "symbol": "scnSOL",
+      "name": "Socean staked SOL",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm/logo.png",
       "tags": [
@@ -15518,7 +15549,8 @@
         "discord": "https://discord.gg/k8ZcW27bq9/",
         "medium": "https://medium.com/@soceanfinance/",
         "twitter": "https://twitter.com/soceanfinance/",
-        "website": "https://socean.fi/"
+        "website": "https://socean.fi/",
+        "coingeckoId": "socean-staked-sol"
       }
     },
     {
@@ -18069,7 +18101,7 @@
       "chainId": 101,
       "address": "AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP",
       "symbol": "AURY",
-      "name": "Aurory Token",
+      "name": "Aurory",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP/logo.png",
       "tags": [
@@ -18228,6 +18260,187 @@
       "address": "3CKQgrcvwhvFqVXXxLTb1u262nh26SJ3uutkSCTtbZxH",
       "symbol": "TRBL",
       "name": "Tribeland Governance Token",
+      "address": "E6H5zSHB1cqLW8V7ypkhdQv2bDrZTnTKSYxWfgL8UMTm",
+      "symbol": "CAVIAR",
+      "name": "Caviar Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/somethingsfishy/caviar/caviar.png",
+      "tags": [
+        "NFT",
+        "inflation",
+        "resistant",
+        "utility-token",
+        "community-token",
+        "community"
+      ],
+      "extensions": {
+        "website": "https://somethingsfishy.art/",
+        "discord": "https://discord.gg/zjtV3EjwUf",
+        "twitter": "https://twitter.com/fishynftmob"
+      }
+    },    
+    {
+      "chainId": 101,
+      "address": "BDy7QrC6JR987ZszfKCjTGwSSAcGEd9mRcDC2TSqNDkF",
+      "symbol": "LSO",
+      "name": "Les Sables d'Olonne Crypto",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/nguilbaud/token-list/main/assets/mainnet/BDy7QrC6JR987ZszfKCjTGwSSAcGEd9mRcDC2TSqNDkF/logo.png",
+      "tags": [
+        "tourism",
+        "technology",
+        "community",
+        "community-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.lessablesdolonne.fr/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "zwqe1Nd4eiWyCcqdo4FgCq7LYZHdSeGKKudv6RwiAEn",
+      "symbol": "SOLPAY",
+      "name": "SOLPAY",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/nguilbaud/token-list/main/assets/mainnet/zwqe1Nd4eiWyCcqdo4FgCq7LYZHdSeGKKudv6RwiAEn/logo.png",
+      "tags": [
+        "DeFi",
+        "technology",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://solpay.finance",
+        "twitter": "https://twitter.com/SolPayDeFi",
+        "telegram": "https://t.me/solpayfinance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HmRpcXedRLmWaRt5iFjsPUfoSTViZgHNSmU5RUmJFZu5",
+      "symbol": "ENEC",
+      "name": "ENEC",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/alexminden/logo/main/enec-logo/main_logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "4mkDXzvwMoP11MtKkgMfZW28xbdwY1gsMBz9N6pxdLbU",
+      "symbol": "GGLD",
+      "name": "GreenGoldCoin",
+      "decimals": 4,
+      "logoURI": "https://www.greengoldcoin.com/public/GreenGoldCoin-logo-128.png",
+      "tags": [
+        "utility-token",
+        "payment-token"
+      ],
+      "extensions": {
+        "website": "https://www.greengoldcoin.com",
+        "twitter": "https://twitter.com/GreenGoldCoins",
+        "facebook": "https://www.facebook.com/GreenGoldCoin/",
+        "linkedin": "https://www.linkedin.com/company/40953073",
+        "instagram": "https://www.instagram.com/explore/tags/greengoldcoin",
+        "youtube": "https://www.youtube.com/channel/UCtUgroJeJEWx6VUuV_2ooPQ",
+        "telegram": "https://t.me/greengoldcoinICO"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EE5L8cMU4itTsCSuor7NLK6RZx6JhsBe8GGV3oaAHm3P",
+      "symbol": "AVDO",
+      "name": "AvocadoCoin",
+      "decimals": 8,
+      "logoURI": "http://avocadocoin.com/public/AvocadoCoin-logo-128.png",
+      "tags": [
+        "security-token"
+      ],
+      "extensions": {
+        "website": "http://www.avocadocoin.com",
+        "twitter": "https://twitter.com/avocadocoin",
+        "instagram": "https://www.instagram.com/avocadocoin",
+        "facebook": "https://www.facebook.com/avocadocoins/",
+        "youtube": "https://www.youtube.com/channel/UCnMds055w0M3-_4GDjJsUKw"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "FQxi8FaHaLtFzW1bZK3zuq2bWFxbJeeiUaUD5WY5oE17",
+      "symbol": "LORDA",
+      "name": "Lord Arena",
+      "decimals": 9,
+      "logoURI": "https://lordarena.com/public/filemanager/userfiles/logo-lordarena-png-min@2x.png",
+      "tags": [
+        "NFT"
+      ],
+      "extensions": {
+        "website": "https://lordarena.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "G1NChRwNJG8BJAPfRCzq7t1aH5UTjdytCEGBDbQHCYcE",
+      "symbol": "EPC",
+      "name": "Elliptic",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G1NChRwNJG8BJAPfRCzq7t1aH5UTjdytCEGBDbQHCYcE/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "5sBG2b32gk3jsd5azCK4Xs8jH9V6szz3vm9fi7v2cRrC",
+      "symbol": "CPR",
+      "name": "Crypto Republic",
+      "decimals": 5,
+	  "extensions": {
+        "website": "https://cryptorepublictoken.com/"
+      },
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5sBG2b32gk3jsd5azCK4Xs8jH9V6szz3vm9fi7v2cRrC/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "7HqhfUqig7kekN8FbJCtQ36VgdXKriZWQ62rTve9ZmQ",
+      "symbol": "mSOL-SOL",
+      "name": "Mercurial LP Token (mSOL-2Pool)",
+      "decimals": 12,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7HqhfUqig7kekN8FbJCtQ36VgdXKriZWQ62rTve9ZmQ/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.mercurial.finance/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3j5an6WsbaRMF3FitWdZAC6Hot56TdTm2eZnGfnFrceG",
+      "symbol": "LORDA",
+      "name": "Lord Arena",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3j5an6WsbaRMF3FitWdZAC6Hot56TdTm2eZnGfnFrceG/logo.png",
+      "tags": [
+        "GameFi",
+        "NFT"
+      ],
+      "extensions": {
+        "website": "https://lordarena.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "53K4DK7D5vY8wmi3dxNphekBETQHFhqpa2VPwR4DQjvj",
+      "symbol": "SOLINU",
+      "name": "SOLINU",
+      "decimals": 9,
+      "logoURI": "",
+      "tags": [],
+      "extensions": {
+        "website": ""
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AYb1hhPDFxGADUGKbCfe7qUvyHct3ucqvkmCS65y2HtA",
+      "symbol": "AKT",
+      "name": "Alexey Kulikov Token",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/tribeland/token-list/main/assets/mainnet/3CKQgrcvwhvFqVXXxLTb1u262nh26SJ3uutkSCTtbZxH/logo.png",
       "tags": [
@@ -18277,6 +18490,54 @@
       ],
       "extensions": {
         "website": "https://www.lessablesdolonne.fr/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3Cm1DDX9K9emkjjHoJJKXwwcDpREGxRzLyNgMSCy49zB",
+      "symbol": "CHEESE",
+      "name": "Cheese",
+      "decimals": 9,
+      "logoURI": "https://assets.solmice.com/file/solmice/cheese/images/757105.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://solmice.com",
+        "twitter": "https://twitter.com/SolmiceNFT"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq",
+      "symbol": "SAO",
+      "name": "Sator",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq/Sator_Logo.png",
+      "tags": [
+   	 "NFT",
+         "soical-token",
+   	 "utility-token",
+   	 "meta-verse"
+      ],
+      "extensions": {
+   	 "website": "https://sator.io",
+   	 "twitter": "https://twitter.com/SatorSAO",
+   	 "telegram": "https://t.me/SatorSAO"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5ENUvV3Ur3o3Fg6LVRfHL4sowidiVTMHHsEFqNJXRz6o",
+      "symbol": "LIZARD",
+      "name": "Lizard Token",
+      "decimals": 4,
+      "logoURI": "http://lizardtoken.xyz/gallery/lizard_logo-ts1634859660.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "http://www.lizardToken.xyz",
+        "twitter": "https://twitter.com/Lizard_Token",
+        "discord": "https://discord.gg/zMvCkck2k2"
       }
     }
   ],
