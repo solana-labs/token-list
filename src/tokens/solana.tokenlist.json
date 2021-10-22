@@ -69,12 +69,24 @@
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D6yPmaM6SueQN4mteEQMiVFMbk6BSAShJAhuqyzVJ3fq/logo.png",
       "tags": [
-        "utility-token",
-        "payment-token"
-      ],
+          "utility-token",
+          "payment-token"
+       ],
+     "extensions": {
+     "website": "https://yarncoin.io",
+    "twitter": "https://twitter.com/yarncoin"
+  }
+    },
+    {
+      "chainId": 101,
+      "address": "C3Rjiq8o2yiRWsmdSUSN276u5ah3UTqyWbZudLMG41pt",
+      "symbol": "PITXX",
+      "name": "Pi Token v2",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solfinaprotocol/token-list/main/assets/mainnet/C3Rjiq8o2yiRWsmdSUSN276u5ah3UTqyWbZudLMG41pt/logo.png",
+      "tags": [],
       "extensions": {
-        "website": "https://yarncoin.io",
-        "twitter": "https://twitter.com/yarncoin"
+        "website": "https://tokeninfo.yolasite.com/"
       }
     },
     {
@@ -91,22 +103,6 @@
     },
     {
       "chainId": 101,
-      "address": "FRtCrYT6oHEM7tdcfJJkDRMhqRWb9EjnobJSA2T95Put",
-      "symbol": "MMaps",
-      "name": "Map Metrics",
-      "decimals": 4,
-      "logoURI": "https://raw.githubusercontent.com/solfinaprotocol/token-list/main/assets/mainnet/FRtCrYT6oHEM7tdcfJJkDRMhqRWb9EjnobJSA2T95Put/logo.png",
-      "tags": [
-        "utility-token",
-        "Community",
-        "NFT"
-      ],
-      "extensions": {
-        "website": "https://mapmetrics.org/"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "3CaBxqxWsP5oqS84Pkja4wLxyZYsHzMivQbnfwFJQeL1",
       "symbol": "SOLFI",
       "name": "SOLFI",
@@ -119,7 +115,7 @@
       "extensions": {
         "website": "https://solfina.io/",
         "twitter": "https://twitter.com/solfina_io"
-
+        
       }
     },
     {
@@ -156,20 +152,20 @@
         "twitter": "https://twitter.com/SolexFinance"
       }
     },
-    {
-      "chainId": 101,
-      "address": "HppJbUYU4a9i3dXo1x1SS5ieaKEz4cAPWMg4eNQzabzg",
-      "symbol": "BLOCKING",
-      "name": "Blocking",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HppJbUYU4a9i3dXo1x1SS5ieaKEz4cAPWMg4eNQzabzg/logo.png",
-      "tags": [
-        "NFT",
-        "Blocking"
-      ],
-      "extensions": {
-        "website": "http://blocking.adchunha.com/"
-      }
+	{
+     "chainId": 101,
+     "address": "HppJbUYU4a9i3dXo1x1SS5ieaKEz4cAPWMg4eNQzabzg",
+     "symbol": "BLOCKING",
+     "name": "Blocking",
+     "decimals": 8,
+     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HppJbUYU4a9i3dXo1x1SS5ieaKEz4cAPWMg4eNQzabzg/logo.png",
+     "tags": [
+       "NFT",
+       "Blocking"
+    ],
+     "extensions": {
+     "website": "http://blocking.adchunha.com/"
+     }
     },
     {
       "chainId": 101,
@@ -188,21 +184,21 @@
         "twitter": "https://"
       }
     },
-
+    
     {
-      "chainId": 101,
-      "address": "5F3beSzHFv1m3T2Sqp7dNQPYrZeetLZ8JYe6QPW6cqKA",
-      "symbol": "ZEUS",
-      "name": "ZEUS",
-      "decimals": 8,
-      "logoURI": "https://previews.123rf.com/images/arbuzu/arbuzu1501/arbuzu150100014/35131140-letter-z-logo-icon-design-template-elements.jpg",
-      "tags": [
-        "NFT",
-        "ZEUS"
-      ],
-      "extensions": {
-        "website": "http://test.com/"
-      }
+     "chainId": 101,
+     "address": "5F3beSzHFv1m3T2Sqp7dNQPYrZeetLZ8JYe6QPW6cqKA",
+     "symbol": "ZEUS",
+     "name": "ZEUS",
+     "decimals": 8,
+     "logoURI": "https://previews.123rf.com/images/arbuzu/arbuzu1501/arbuzu150100014/35131140-letter-z-logo-icon-design-template-elements.jpg",
+     "tags": [
+       "NFT",
+       "ZEUS"
+    ],
+     "extensions": {
+     "website": "http://test.com/"
+     }
     },
 
     {
@@ -381,22 +377,22 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/CoinVs/brand-assets/master/logo/logo.png",
       "tags": [
-        "coinversus",
-        "cvs",
-        "entertainment",
-        "gaming",
-        "NFT",
-        "utility-token"
+          "coinversus",
+          "cvs",
+          "entertainment",
+          "gaming",
+          "NFT",
+          "utility-token"
       ],
       "extensions": {
-        "website": "https://coinversus.com/",
-        "twitter": "https://twitter.com/CoinVersus",
-        "telegram": "https://t.me/coinvs",
-        "discord": "https://discord.gg/F84VmCtByV",
-        "github": "https://github.com/CoinVs",
-        "reddit": "https://www.reddit.com/r/coinversus/",
-        "facebook": "https://www.facebook.com/coinversusofficial",
-        "instagram": "https://www.instagram.com/coinversus/"
+          "website": "https://coinversus.com/",
+          "twitter": "https://twitter.com/CoinVersus",
+          "telegram": "https://t.me/coinvs",
+          "discord": "https://discord.gg/F84VmCtByV",
+          "github": "https://github.com/CoinVs",
+          "reddit": "https://www.reddit.com/r/coinversus/",
+          "facebook": "https://www.facebook.com/coinversusofficial",
+          "instagram": "https://www.instagram.com/coinversus/"
       }
     },
     {
@@ -8210,6 +8206,25 @@
       "extensions": {
         "website": "https://www.centre.io/",
         "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4UuGQgkD3rSeoXatXRWwRfRd21G87d5LiCfkVzNNv1Tt",
+      "symbol": "XSB",
+      "name": "Solareum",
+      "decimals": 9,
+      "logoURI": "https://solareum.app/icons/XSB-G.png",
+      "tags": [
+        "SPL Wallet",
+        "Solana tokenized",
+        "Solana Community token"
+      ],
+      "extensions": {
+        "website": "https://solareum.app",
+        "telegram": "https://t.me/solareum_wallet",
+        "twitter": "https://twitter.com/solareum_wallet",
+        "coingeckoId": "solareum"
       }
     },
     {
@@ -18255,7 +18270,7 @@
         "website": "https://edithtoken.com/"
       }
     },
-    {
+	{
       "chainId": 101,
       "address": "94112Trifp3c5rycChpjDuwouSby7Yu7g8bbYsK4PV5Y",
       "symbol": "NVS",
@@ -18265,9 +18280,9 @@
       "tags": [],
       "extensions": {
         "website": "https://novisium.com",
-        "twitter": "https://twitter.com/novisium_",
-        "telegram": "https://t.me/novisiumofficial",
-        "instagram": "https://www.instagram.com/novisium_"
+		"twitter": "https://twitter.com/novisium_",
+		"telegram": "https://t.me/novisiumofficial",
+		"instagram": "https://www.instagram.com/novisium_"
       }
     },
     {
@@ -18311,7 +18326,7 @@
         "discord": "https://discord.gg/zjtV3EjwUf",
         "twitter": "https://twitter.com/fishynftmob"
       }
-    },
+    },    
     {
       "chainId": 101,
       "address": "BDy7QrC6JR987ZszfKCjTGwSSAcGEd9mRcDC2TSqNDkF",
@@ -18423,6 +18438,9 @@
       "symbol": "CPR",
       "name": "Crypto Republic",
       "decimals": 5,
+	  "extensions": {
+        "website": "https://cryptorepublictoken.com/"
+      },
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5sBG2b32gk3jsd5azCK4Xs8jH9V6szz3vm9fi7v2cRrC/logo.png"
     },
     {
@@ -18613,7 +18631,107 @@
         "website": "https://solmice.com",
         "twitter": "https://twitter.com/SolmiceNFT"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq",
+      "symbol": "SAO",
+      "name": "Sator",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq/Sator_Logo.png",
+      "tags": [
+   	 "NFT",
+         "soical-token",
+   	 "utility-token",
+   	 "meta-verse"
+      ],
+      "extensions": {
+   	 "website": "https://sator.io",
+   	 "twitter": "https://twitter.com/SatorSAO",
+   	 "telegram": "https://t.me/SatorSAO"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5ENUvV3Ur3o3Fg6LVRfHL4sowidiVTMHHsEFqNJXRz6o",
+      "symbol": "LIZARD",
+      "name": "Lizard Token",
+      "decimals": 4,
+      "logoURI": "http://lizardtoken.xyz/gallery/lizard_logo-ts1634859660.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "http://www.lizardToken.xyz",
+        "twitter": "https://twitter.com/Lizard_Token",
+        "discord": "https://discord.gg/zMvCkck2k2"
+      }
+    },
+     {
+      "chainId": 101,
+      "address": "9yqPadcWQQ4BnuEbEZci1M5pTQYV8LX1HvckYwXoACdL",
+      "symbol": "MYCTY",
+      "name": "My Crypto City",
+      "decimals": 6,
+      "logoURI": "http://mycryptocity.net/wp-content/uploads/2021/10/cropped-HDLog2.png",
+      "tags": [
+      "utility-token",
+      "game",
+        "play2earn"
+      ],
+      "extensions": {
+        "website": "https://mycryptocity.net/",
+        "twitter": "https://twitter.com/MyCrypto_City",
+        "telegram": "https://t.me/mycryptocity"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DhuzmUvC4YTRDJwFfPSynDCGaJcMotnqjdNcGeFFrQSD",
+      "symbol": "PAD",
+      "name": "Lilypad",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DhuzmUvC4YTRDJwFfPSynDCGaJcMotnqjdNcGeFFrQSD/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://twitter.com/HypnoFrogzNFT",
+        "discord": "https://discord.gg/DFdyP9saU6"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EWUU9CuvByNp8bv3oDoH1N5WWdnBvcyyb8rtfRnHuLNN",
+      "symbol": "CAVE",
+      "name": "Crypto Cavemen",
+      "decimals": 6,
+      "logoURI": "https://ftoblquxiunjey7bu4eevlz2u7kwg5s3yvou7adgge2jbihcu7qq.arweave.net/LNwVwpdFGpJj4acISq86p9VjdlvFXU-AZjE0kKDip-E/?ext=png",
+      "tags": [
+        "utility-token",
+        "game",
+        "play2earn"
+      ],
+      "extensions": {
+        "website": "https://cryptocavemen.io",
+        "twitter": "https://twitter.com/TheCavemenClub",
+        "discord": "https://discord.com/invite/cryptocavemen"
+      }
+    },
+	{
+      "chainId": 101,
+      "address": "FRtCrYT6oHEM7tdcfJJkDRMhqRWb9EjnobJSA2T95Put",
+      "symbol": "MMaps",
+      "name": "Map Metrics",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solfinaprotocol/token-list/main/assets/mainnet/FRtCrYT6oHEM7tdcfJJkDRMhqRWb9EjnobJSA2T95Put/logo.png",
+      "tags": [
+        "utility-token",
+        "Community",
+        "NFT"
+      ],
+      "extensions": {
+        "website": "https://mapmetrics.org/"
+      }
     }
+	
+
   ],
   "version": {
     "major": 0,
