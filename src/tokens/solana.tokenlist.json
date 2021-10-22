@@ -62,6 +62,22 @@
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
     {
+        "chainId": 101,
+        "address": "FRtCrYT6oHEM7tdcfJJkDRMhqRWb9EjnobJSA2T95Put",
+        "symbol": "MMaps",
+        "name": "Map Metrics",
+        "decimals": 4,
+        "logoURI": "https://raw.githubusercontent.com/solfinaprotocol/token-list/main/assets/mainnet/FRtCrYT6oHEM7tdcfJJkDRMhqRWb9EjnobJSA2T95Put/logo.png",
+        "tags": [
+          "utility-token",
+          "Community",
+          "NFT"
+        ],
+        "extensions": {
+          "website": "https://mapmetrics.org/"
+        }
+    },
+    {
       "chainId": 101,
       "address": "D6yPmaM6SueQN4mteEQMiVFMbk6BSAShJAhuqyzVJ3fq",
       "symbol": "YARN",
@@ -73,9 +89,9 @@
           "payment-token"
        ],
      "extensions": {
-     "website": "https://yarncoin.io",
-    "twitter": "https://twitter.com/yarncoin"
-  }
+      "website": "https://yarncoin.io",
+      "twitter": "https://twitter.com/yarncoin"
+      }
     },
     {
       "chainId": 101,
@@ -18725,24 +18741,8 @@
         "twitter": "https://twitter.com/TheCavemenClub",
         "discord": "https://discord.com/invite/cryptocavemen"
       }
-    },
-	{
-      "chainId": 101,
-      "address": "FRtCrYT6oHEM7tdcfJJkDRMhqRWb9EjnobJSA2T95Put",
-      "symbol": "MMaps",
-      "name": "Map Metrics",
-      "decimals": 4,
-      "logoURI": "https://raw.githubusercontent.com/solfinaprotocol/token-list/main/assets/mainnet/FRtCrYT6oHEM7tdcfJJkDRMhqRWb9EjnobJSA2T95Put/logo.png",
-      "tags": [
-        "utility-token",
-        "Community",
-        "NFT"
-      ],
-      "extensions": {
-        "website": "https://mapmetrics.org/"
-      }
-  }
-  
+    }
+
 	],
   "version": {
     "major": 0,
