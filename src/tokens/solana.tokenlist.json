@@ -79,6 +79,30 @@
     },
     {
       "chainId": 101,
+      "address": "C3Rjiq8o2yiRWsmdSUSN276u5ah3UTqyWbZudLMG41pt",
+      "symbol": "PITXX",
+      "name": "Pi Token v2",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solfinaprotocol/token-list/main/assets/mainnet/C3Rjiq8o2yiRWsmdSUSN276u5ah3UTqyWbZudLMG41pt/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://tokeninfo.yolasite.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9Sbzj4DnRW8qFnfvJWwXxQMRkWKAwHLs9NgDuBFjkVgW",
+      "symbol": "PITDT",
+      "name": "Picasso Token Div Test",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solfinaprotocol/token-list/main/assets/mainnet/9Sbzj4DnRW8qFnfvJWwXxQMRkWKAwHLs9NgDuBFjkVgW/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": ""
+      }
+    },
+    {
+      "chainId": 101,
       "address": "3CaBxqxWsP5oqS84Pkja4wLxyZYsHzMivQbnfwFJQeL1",
       "symbol": "SOLFI",
       "name": "SOLFI",
@@ -8185,6 +8209,25 @@
       }
     },
     {
+      "chainId": 101,
+      "address": "4UuGQgkD3rSeoXatXRWwRfRd21G87d5LiCfkVzNNv1Tt",
+      "symbol": "XSB",
+      "name": "Solareum",
+      "decimals": 9,
+      "logoURI": "https://solareum.app/icons/XSB-G.png",
+      "tags": [
+        "SPL Wallet",
+        "Solana tokenized",
+        "Solana Community token"
+      ],
+      "extensions": {
+        "website": "https://solareum.app",
+        "telegram": "https://t.me/solareum_wallet",
+        "twitter": "https://twitter.com/solareum_wallet",
+        "coingeckoId": "solareum"
+      }
+    },
+    {
       "chainId": 102,
       "address": "Gmk71cM7j2RMorRsQrsyysM4HsByQx5PuDGtDdqGLWCS",
       "symbol": "spSOL",
@@ -15545,8 +15588,8 @@
     {
       "chainId": 101,
       "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
-      "symbol": "SOCN",
-      "name": "Socean",
+      "symbol": "scnSOL",
+      "name": "Socean staked SOL",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm/logo.png",
       "tags": [
@@ -15556,7 +15599,8 @@
         "discord": "https://discord.gg/k8ZcW27bq9/",
         "medium": "https://medium.com/@soceanfinance/",
         "twitter": "https://twitter.com/soceanfinance/",
-        "website": "https://socean.fi/"
+        "website": "https://socean.fi/",
+        "coingeckoId": "socean-staked-sol"
       }
     },
     {
@@ -18108,7 +18152,7 @@
       "chainId": 101,
       "address": "AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP",
       "symbol": "AURY",
-      "name": "Aurory Token",
+      "name": "Aurory",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP/logo.png",
       "tags": [
@@ -18394,6 +18438,9 @@
       "symbol": "CPR",
       "name": "Crypto Republic",
       "decimals": 5,
+	  "extensions": {
+        "website": "https://cryptorepublictoken.com/"
+      },
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5sBG2b32gk3jsd5azCK4Xs8jH9V6szz3vm9fi7v2cRrC/logo.png"
     },
     {
@@ -18531,6 +18578,91 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/brunofaczz/alter-logo/logo.png",
       "tags": [],
       "extensions": {
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7aWPHMU4ueKbGBvLaJv9BJA7UNofhUpkKCwFFtn7jcca",
+      "symbol": "MSI",
+      "name": "Matrix Solana Index",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7aWPHMU4ueKbGBvLaJv9BJA7UNofhUpkKCwFFtn7jcca/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+         "website": "https://www.matrixetf.finance/",
+         "telegram": "https://t.me/MatrixETF",
+         "twitter": "https://twitter.com/MatrixETF",
+         "coingeckoId": "matrixetf"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2fNw2cs23CV2X6JFA4CprbNbk3GcctFH8FcXSDPBkd7X",
+      "symbol": "FISH",
+      "name": "CATPUNK TOKEN",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/minh-git/docusaurus-2/main/catpunk.png",
+      "tags": [
+        "NFT",
+        "dao",
+        "utility-token",
+        "meta-verse",
+        "governance"
+      ],
+      "extensions": {
+        "website": "https://catpunk.net",
+        "twitter": "https://twitter.com/ZodiLabOfficial",
+        "discord": "https://discord.gg/catpunk"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3Cm1DDX9K9emkjjHoJJKXwwcDpREGxRzLyNgMSCy49zB",
+      "symbol": "CHEESE",
+      "name": "Cheese",
+      "decimals": 9,
+      "logoURI": "https://assets.solmice.com/file/solmice/cheese/images/757105.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://solmice.com",
+        "twitter": "https://twitter.com/SolmiceNFT"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq",
+      "symbol": "SAO",
+      "name": "Sator",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq/Sator_Logo.png",
+      "tags": [
+   	 "NFT",
+         "soical-token",
+   	 "utility-token",
+   	 "meta-verse"
+      ],
+      "extensions": {
+   	 "website": "https://sator.io",
+   	 "twitter": "https://twitter.com/SatorSAO",
+   	 "telegram": "https://t.me/SatorSAO"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5ENUvV3Ur3o3Fg6LVRfHL4sowidiVTMHHsEFqNJXRz6o",
+      "symbol": "LIZARD",
+      "name": "Lizard Token",
+      "decimals": 4,
+      "logoURI": "http://lizardtoken.xyz/gallery/lizard_logo-ts1634859660.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "http://www.lizardToken.xyz",
+        "twitter": "https://twitter.com/Lizard_Token",
+        "discord": "https://discord.gg/zMvCkck2k2"
       }
     }
   ],
