@@ -18429,7 +18429,7 @@
       "symbol": "CPR",
       "name": "Crypto Republic",
       "decimals": 5,
-	  "extensions": {
+      "extensions": {
         "website": "https://cryptorepublictoken.com/"
       },
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5sBG2b32gk3jsd5azCK4Xs8jH9V6szz3vm9fi7v2cRrC/logo.png"
@@ -18655,7 +18655,7 @@
         "discord": "https://discord.gg/zMvCkck2k2"
       }
     },
-     {
+    {
       "chainId": 101,
       "address": "9yqPadcWQQ4BnuEbEZci1M5pTQYV8LX1HvckYwXoACdL",
       "symbol": "MYCTY",
@@ -18663,8 +18663,8 @@
       "decimals": 6,
       "logoURI": "http://mycryptocity.net/wp-content/uploads/2021/10/cropped-HDLog2.png",
       "tags": [
-      "utility-token",
-      "game",
+        "utility-token",
+        "game",
         "play2earn"
       ],
       "extensions": {
@@ -19117,8 +19117,25 @@
         "website": "https://sheinverse.com",
         "twitter": "https://twitter.com/SheinVerse"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "CrUHen2BpEpXfMtU1KZFYEHNZwhxCMovACdaEC7Q5zkB",
+      "symbol": "NFB",
+      "name": "NFBet",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CrUHen2BpEpXfMtU1KZFYEHNZwhxCMovACdaEC7Q5zkB/logo.png",
+      "tags": [
+        "utility-token",
+        "governance-token",
+        "gaming",
+        "NFTs"
+      ],
+      "extensions": {
+        "website": "https://nfbet.io",
+        "twitter": "https://twitter.com/nfbetofficial"
+      }
     }
-
   ],
   "version": {
     "major": 0,
