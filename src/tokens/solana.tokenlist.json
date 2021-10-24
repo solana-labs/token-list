@@ -8230,6 +8230,11 @@
       "extensions": {
         "website": "https://solareum.app",
         "telegram": "https://t.me/solareum_wallet",
+        "twitter": "https://twitter.com/solareum_wallet"
+      },
+      "extensions-old": {
+        "website": "https://solareum.app",
+        "telegram": "https://t.me/solareum_wallet",
         "twitter": "https://twitter.com/solareum_wallet",
         "coingeckoId": "solareum"
       }
@@ -19151,6 +19156,7 @@
         "website": "https://nfbet.io",
         "twitter": "https://twitter.com/nfbetofficial"
       }
+
      },
 	    {
 	      "chainId": 101,
@@ -19271,7 +19277,25 @@
 	      "extensions": {
 	        "website": "https://solgold.xyz"
 	            }
-     },
+    },
+    {
+      "chainId": 101,
+      "address": "ZXS6KKnXeT9xAc3qt2wpwmfKT5p3UspFVKCPP8bVs2Z",
+      "symbol": "TMI",
+      "name": "TUMI",
+      "decimals": 4,
+      "logoURI": "https://cointumi.com/token.png",
+      "tags": [
+        "utility-token",
+        "governance-token",
+        "gaming",
+        "NFTs"
+      ],
+      "extensions": {
+        "website": "https://cointumi.com",
+        "telegram": "https://t.me/cointumi"
+      }
+
     }
 
   ],
