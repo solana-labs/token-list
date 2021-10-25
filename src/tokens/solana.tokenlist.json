@@ -8236,8 +8236,7 @@
       "extensions-old": {
         "website": "https://solareum.app",
         "telegram": "https://t.me/solareum_wallet",
-        "twitter": "https://twitter.com/solareum_wallet",
-        "coingeckoId": "solareum"
+        "twitter": "https://twitter.com/solareum_wallet"
       }
     },
     {
@@ -19418,6 +19417,20 @@
     },
     {
       "chainId": 101,
+      "address": "6TDmspddJYcaBB3Cce3XN6LbJheFjWsMJ5dfLoXvEgyJ",
+      "symbol": "SUMMYBIKE",
+      "name": "Sumarokov my bike token",
+      "decimals": 0,
+      "logoURI": "https://github.com/solana-labs/token-list/raw/assets/mainnet/6TDmspddJYcaBB3Cce3XN6LbJheFjWsMJ5dfLoXvEgyJ/SUMMYBIKE.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "telegram": "https://t.me/sumarokov_cyclist"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "4WSv4nmFA8JRKWkV84DHRFWbwaUhaGjNbXibitXQiYGS",
       "symbol": "AGC",
       "name": "Automatic Get Coin",
@@ -19426,6 +19439,20 @@
       "tags": [
         "AGC-Token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "GRoESmA4DZjd7MMgvzaDaswZHow75ies6Xje5FoXytDP",
+      "symbol": "VOO",
+      "name": "VooVoo Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GRoESmA4DZjd7MMgvzaDaswZHow75ies6Xje5FoXytDP/logo.png",
+      "tags": [
+        "VOO-token"
+      ],
+      "extensions": {
+        "website": "https://www.voovoo.io"
+      }
     },
     {
       "chainId": 101,
