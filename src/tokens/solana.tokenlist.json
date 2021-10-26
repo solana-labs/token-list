@@ -59,23 +59,6 @@
   "tokens": [
     {
       "chainId": 101,
-      "address": "KUPoVbJmipJb1M7xzQEND5w7u1BbmBytu9wZ2QPjQx4",
-      "symbol": "CUBE",
-      "name": "Cubecoin",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/KUPoVbJmipJb1M7xzQEND5w7u1BbmBytu9wZ2QPjQx4/logo.png",
-      "tags": [
-        "meme",
-        "community",
-        "cube"
-      ],
-      "extensions": {
-        "website": "https://cubecoin.army",
-        "description": "Become the hodl champion."
-      }
-    },
-    {
-      "chainId": 101,
       "address": "D6yPmaM6SueQN4mteEQMiVFMbk6BSAShJAhuqyzVJ3fq",
       "symbol": "YARN",
       "name": "Yarn Coin",
@@ -19497,8 +19480,24 @@
       "extensions": {
         "website": "https://wonderwall.finance"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "KUPoVbJmipJb1M7xzQEND5w7u1BbmBytu9wZ2QPjQx4",
+      "symbol": "CUBE",
+      "name": "Cubecoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/KUPoVbJmipJb1M7xzQEND5w7u1BbmBytu9wZ2QPjQx4/logo.png",
+      "tags": [
+        "meme",
+        "community",
+        "cube"
+      ],
+      "extensions": {
+        "website": "https://cubecoin.army",
+        "description": "Become the hodl champion."
+      }
     }
-
   ],
   "version": {
     "major": 0,
