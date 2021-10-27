@@ -15690,6 +15690,17 @@
       }
     },
     {
+      "chainId": 103,
+      "address": "FsrinjAhYaBKQieHhaJNGnepMS3RFHZJVjb1i26JhMdp",
+      "symbol": "sBucks",
+      "name": "SolBucks",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FxjbQMfvQYMtZZK7WGEJwWfsDcdMuuaee8uPxDFFShWh/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
       "chainId": 101,
       "address": "6SuBPLC3vMTgfET5uoEhNoi5voYeBujVm7LS9kM3KX9s",
       "symbol": "FINN",
@@ -16397,7 +16408,9 @@
       "decimals": 3,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5PHgMyZpEUCTeXQdb2ARm2KMZNu4rxzLXuhKwXtr8Xzc/logo.svg",
       "tags": [
-        "lp-token"
+        "solend",
+        "lending",
+        "collateral tokens"
       ],
       "extensions": {
         "website": "https://raydium.io"
@@ -16532,7 +16545,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7hUdUTkJLwdcmt3jSEeqx4ep91sm1XwBxMDaJae6bD5D/logo.png",
       "tags": [
-        "utility-token"
+        "lp-token"
       ],
       "extensions": {
         "website": "https://stafi.io",
@@ -17813,7 +17826,7 @@
       "decimals": 9,
       "logoURI": "https://cdn.pubcred.com/pc-logo.png",
       "tags": [
-        "utility-token"
+        "stablecoin"
       ],
       "extensions": {
         "website": "https://pubcred.com"
@@ -17913,7 +17926,9 @@
       "decimals": 9,
       "logoURI": "https://applehead.finance/wp-content/uploads/2021/10/Applehead.png",
       "tags": [
-        "utility-token"
+        "community",
+        "utility-token",
+        "club"
       ],
       "extensions": {
         "website": "https://applehead.finance/"
@@ -18039,6 +18054,22 @@
       }
     },
     {
+      "chainId": 103,
+      "address": "8aN9XWUhD3Q7qY4p4uR1GrNbL8H3fF9tssk9VdvXD1Vp",
+      "symbol": "KDSL",
+      "name": "KOKILA DILSHAN SL",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/KOKILADILSHANSL/KDSLtoken/logo.png"
+    },
+    {
+      "chainId": 103,
+      "address": "5BQmj9wDdsVpwYuEKchWit2PafJkJ1tbacKogCLF4hJh",
+      "symbol": "ENEC",
+      "name": "ENEC",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/alexminden/logo/main/enec-logo/main_logo.png"
+    },
+    {
       "chainId": 101,
       "address": "28x5iW6faLFiLqY5mshtP6wggXChyshdFaLcuvj72HgS",
       "symbol": "DCW",
@@ -18058,7 +18089,7 @@
         "reddit": "https://www.reddit.com/user/CarbonFarm"
       }
     },
-    {
+	{
       "chainId": 101,
       "address": "GjTiVo5ajziFkK27YETD6jXo7femDkRak9yVpofZfqQ8",
       "symbol": "BRB",
@@ -18768,7 +18799,7 @@
         "discord": "https://discord.com/invite/cryptocavemen"
       }
     },
-    {
+     {
       "chainId": 101,
       "address": "4SZjjNABoqhbd4hnapbvoEPEqT8mnNkfbEoAwALf1V8t",
       "symbol": "CAVE",
