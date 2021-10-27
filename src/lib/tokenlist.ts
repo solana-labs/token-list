@@ -38,6 +38,7 @@ export interface TokenExtensions {
   readonly coingeckoId?: string;
   readonly imageUrl?: string;
   readonly description?: string;
+  readonly waterfallbot?: string;
 }
 
 export interface TokenInfo {
