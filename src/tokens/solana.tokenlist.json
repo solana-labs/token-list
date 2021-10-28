@@ -59,6 +59,22 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "6kr8q1SXXNRLy3imzDsecWkcRtzJiXqiXx1N7LtpMPTe",
+      "symbol": "BIT",
+      "name": "Biconomy Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6kr8q1SXXNRLy3imzDsecWkcRtzJiXqiXx1N7LtpMPTe/logo.png",
+      "tags": [
+        "exchange-token"
+      ],
+      "extensions": {
+        "bridgeContract": "https://bscscan.com/token/0xc864019047B864B6ab609a968ae2725DFaee808A",
+        "website": "https://biconomy.com",
+        "coingeckoId": "biconomy-exchange-token"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "D6yPmaM6SueQN4mteEQMiVFMbk6BSAShJAhuqyzVJ3fq",
       "symbol": "YARN",
       "name": "Yarn Coin",
@@ -14760,6 +14776,25 @@
     },
     {
       "chainId": 101,
+      "address": "2PoF4gqWg97yjJk276yUYaGVkkASE7tqAU7H5faEBkeC",
+      "symbol": "MM",
+      "name": "Million",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2PoF4gqWg97yjJk276yUYaGVkkASE7tqAU7H5faEBkeC/logo.svg",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "website": "https://www.milliontoken.org/",
+        "coingeckoId": "million",
+        "reddit": "https://www.reddit.com/r/milliontoken/",
+        "twitter": "https://twitter.com/Million__Token",
+        "discord": "http://app.milliontoken.org/discord"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "Bqd2ujCTEzpKzfjb1FHL7FKrdM6n1rZSnRecJK57EoKz",
       "symbol": "HOTTO",
       "name": "HottoShotto",
@@ -19701,6 +19736,38 @@
     },
     {
       "chainId": 101,
+      "address": "EFKLgGMeGCLzGtJi6NUFSPE7y3ZaShyhhKNy4CubvFxx",
+      "symbol": "TRUTH",
+      "name": "TruthToken",
+      "decimals": 9,
+      "logoURI": "https://static.wixstatic.com/media/4ffb16_93f9f9561b054cf09ea60fd3d8c1072b~mv2.png",
+      "tags": [
+        "meme"
+      ],
+      "extensions": {
+        "website": "https://www.truthtoken.co",
+        "twitter": "https://twitter.com/truthtokenco"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8WR1cJ2RvcqFMNpsaBdUHamsibv8ywcCwmUAMg6ob1Xo",
+      "symbol": "VIBES",
+      "name": "Vibes",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8WR1cJ2RvcqFMNpsaBdUHamsibv8ywcCwmUAMg6ob1Xo/logo.png",
+      "tags": [
+        "utility-token",
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.vibratinghamster.com/",
+        "twitter": "https://twitter.com/vibratinghamstr",
+        "discord":  "https://discord.gg/7Z4XbB7bDu"
+      }
+    },    
+    {
+      "chainId": 101,
       "address": "HM9jjC8gThNDfFv3TRWqUdfJp5onWGDXhWirm5sUcFhj",
       "symbol": "NERD",
       "name": "SolNerds",
@@ -19717,19 +19784,34 @@
     },
     {
       "chainId": 101,
-      "address": "6kr8q1SXXNRLy3imzDsecWkcRtzJiXqiXx1N7LtpMPTe",
-      "symbol": "BIT",
-      "name": "Biconomy Token",
+      "address": "4cTDXDzieiTk2qibwtXty8UzvXGZXfd92dK3SF2EuKuV",
+      "symbol": "DogeSOL",
+      "name": "DogeSOL",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6kr8q1SXXNRLy3imzDsecWkcRtzJiXqiXx1N7LtpMPTe/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solanadevv/token-list/main/assets/mainnet/4cTDXDzieiTk2qibwtXty8UzvXGZXfd92dK3SF2EuKuV/logo.png",
       "tags": [
-        "exchange-token"
+        "Doge Solana",
+        "Doge"
       ],
       "extensions": {
-        "bridgeContract": "https://bscscan.com/token/0xc864019047B864B6ab609a968ae2725DFaee808A",
-        "website": "https://biconomy.com",
-        "coingeckoId": "biconomy-exchange-token"
+        "website": "https://dogesol.com/",
+        "twitter": "https://twitter.com/Doge_Solana"
       }
+    },    
+    {
+      "chainId": 101,
+      "address": "9Exx2WQUZkRwbLB9RxSVThGdkuYdgCWW3v7GgDbFYR3c",
+      "symbol": "LADS",
+      "name": "LadsCoin",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/Zderosia/token-list/main/assets/mainnet/9Exx2WQUZkRwbLB9RxSVThGdkuYdgCWW3v7GgDbFYR3c/LadCoinLogo.png",
+      "tags": [
+        "Pig",
+        "Meme",
+        "Lad",
+        "Pig Lad"
+      ],
+      "extensions": {}
     }
 
   ],
