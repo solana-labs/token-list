@@ -19643,19 +19643,19 @@
         "website": "http://www.thehae.biz"
       }
     },
-    {                                                                                
-        "chainId": 101,                                                                
-        "address": "6TDmspddJYcaBB3Cce3XN6LbJheFjWsMJ5dfLoXvEgyJ",                     
-        "symbol": "SUMMYBIKE",                                                         
-        "name": "Sumarokov my bike token",                                             
-        "decimals": 0,                                                                 
-        "logoURI": "https://github.com/solana-labs/token-list/raw/assets/mainnet/6TDmspddJYcaBB3Cce3XN6LbJheFjWsMJ5dfLoXvEgyJ/SUMMYBIKE.png",           
-        "tags": [                                                                      
-          "nft"                                                                        
-        ],                                                                             
-        "extensions": {                                                                
-          "telegram": "https://t.me/sumarokov_cyclist"                                 
-        }                                                                              
+    {
+        "chainId": 101,
+        "address": "6TDmspddJYcaBB3Cce3XN6LbJheFjWsMJ5dfLoXvEgyJ",
+        "symbol": "SUMMYBIKE",
+        "name": "Sumarokov my bike token",
+        "decimals": 0,
+        "logoURI": "https://github.com/solana-labs/token-list/raw/assets/mainnet/6TDmspddJYcaBB3Cce3XN6LbJheFjWsMJ5dfLoXvEgyJ/SUMMYBIKE.png",
+        "tags": [
+          "nft"
+        ],
+        "extensions": {
+          "telegram": "https://t.me/sumarokov_cyclist"
+        }
     },
     {
       "chainId": 101,
@@ -19940,7 +19940,7 @@
         "twitter": "https://twitter.com/vibratinghamstr",
         "discord":  "https://discord.gg/7Z4XbB7bDu"
       }
-    },    
+    },
     {
       "chainId": 101,
       "address": "HM9jjC8gThNDfFv3TRWqUdfJp5onWGDXhWirm5sUcFhj",
@@ -19972,7 +19972,7 @@
         "website": "https://dogesol.com/",
         "twitter": "https://twitter.com/Doge_Solana"
       }
-    },    
+    },
     {
       "chainId": 101,
       "address": "9Exx2WQUZkRwbLB9RxSVThGdkuYdgCWW3v7GgDbFYR3c",
@@ -19987,7 +19987,7 @@
         "Pig Lad"
       ],
       "extensions": {}
-    },    
+    },
     {
       "chainId": 101,
       "address": "xAx6d1sjmBvpWkVZQEqgUvPmGBNndEXPxYpr3QVp61H",
@@ -20028,11 +20028,11 @@
       "logoURI": "https://raw.githubusercontent.com/solanadevv/token-list/assets/mainnet/CE6gowswLbhy5y9G2EDfvYSavAcdSaqX3wMta5gySG1H/logo.png",
       "tags": [
         "Meme-Token",
-    
+
         "nft"
       ],
       "extensions": {
-      
+
         "twitter": "https://twitter.com/BullDogSolana"
       }
     },
@@ -20107,7 +20107,7 @@
         "discord": "https://discord.gg/RhQTNhRk2X"
       }
    },
-   {
+    {
       "chainId": 101,
       "address": "MSQTxnsq8t94gEqZ42a6mxuw11LBYWF4J5hy84GaECb",
       "symbol": "MSQ",
@@ -20124,8 +20124,7 @@
         "discord": "https://discord.com/invite/u9SHXU9qNd",
         "medium": "https://medium.com/@magicsquare"
       }
-   }
-,
+    },
  {
     "chainId": 101,
     "address": "AsVNhq2nnoUgMWciCvePRyHk7xAv6i4ruV6oRHFWBcwF",
@@ -20141,6 +20140,7 @@
     }
    }
    ,
+<<<<<<< HEAD
    {
     "chainId": 101,
     "address": "FmQN1sQDeD9DF7aQvmJA9zZ8hicJYxUzzCDSnV8tfUtY",
@@ -20228,6 +20228,30 @@
       "extensions": {
       }
     }
+=======
+    {
+      "chainId": 101,
+      "address": "FmQN1sQDeD9DF7aQvmJA9zZ8hicJYxUzzCDSnV8tfUtY",
+      "symbol": "NOOT",
+      "name": "NOOT Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FmQN1sQDeD9DF7aQvmJA9zZ8hicJYxUzzCDSnV8tfUtY/noot.png",
+      "tags": [
+        "Meme-Token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3tufRsMkBu5rYUCsSQys3ZjBXxXLWeRgttAXX4a1CDdW",
+      "symbol": "GAWD",
+      "name": "GAWD Coin",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/MaloSkylar/GAWDtoken/GAWDlogo.jpg",
+      "tags": [
+        "Community-token, social-token"
+      ]
+    }
+>>>>>>> 2144fef384d3e052d5e87190c835d414433aa60a
   ],
   "version": {
     "major": 0,
