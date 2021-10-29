@@ -18594,7 +18594,7 @@
       "symbol": "CPR",
       "name": "Crypto Republic",
       "decimals": 5,
-	  "extensions": {
+      "extensions": {
         "website": "https://cryptorepublictoken.com/"
       },
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5sBG2b32gk3jsd5azCK4Xs8jH9V6szz3vm9fi7v2cRrC/logo.png"
@@ -18820,7 +18820,7 @@
         "discord": "https://discord.gg/zMvCkck2k2"
       }
     },
-     {
+    {
       "chainId": 101,
       "address": "9yqPadcWQQ4BnuEbEZci1M5pTQYV8LX1HvckYwXoACdL",
       "symbol": "MYCTY",
@@ -18828,8 +18828,8 @@
       "decimals": 6,
       "logoURI": "http://mycryptocity.net/wp-content/uploads/2021/10/cropped-HDLog2.png",
       "tags": [
-      "utility-token",
-      "game",
+        "utility-token",
+        "game",
         "play2earn"
       ],
       "extensions": {
@@ -19980,8 +19980,23 @@
         "Columbus.inc"
       ]
     }
-
   ],
+  {
+    "chainId": 101,
+    "address": "J2FR89KeCUSyDmgT6MkAR7HoepdoLC5pqEYVXcuBRSmv",
+    "symbol": "BBB",
+    "name": "Berlin Brandenburg Blockchain Coin",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J2FR89KeCUSyDmgT6MkAR7HoepdoLC5pqEYVXcuBRSmv/logo.png",
+    "tags": [
+      "social-token",
+      "utility-token",
+      "meta-verse"
+    ],
+    "extensions": {
+      "website": "https://http://bb-blockchain.io"
+    }
+  },
   "version": {
     "major": 0,
     "minor": 3,
