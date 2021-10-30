@@ -100,3 +100,17 @@ deploy, integrate, or use the Solana blockchain protocol code directly
 (e.g., as a node operator), and individuals that transact on the Solana
 blockchain through light clients, third party interfaces, and/or wallet
 software.
+
+    {
+      "chainId": 101,
+      "address": "H6JocWxg5g1Lcs4oPnBecmjQ4Y1bkZhGJHtjMunmjyrp",
+      "symbol": "SPX",
+      "name": "Sphinxel",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/McSphnix/token-list/812866cd2b7f45d694f237fabdfe9ce60d524531/assets/mainnet/H6JocWxg5g1Lcs4oPnBecmjQ4Y1bkZhGJHtjMunmjyrp/logo.png",
+      "tags": ["meme-token", "community-token", "trading-token"],
+      "extensions": {
+        "website": "https://sphinxel.com",
+        "twitter": "https://twitter.com/SphinxelSPX"
+      }
+    }
