@@ -277,8 +277,25 @@
         "twitter": "https://"
       }
     },
+    { 
+          "chainId": 101,
+          "address": "Aojru8bfwZK6sgrx6exNazxASFZUjPpRY59byMrs6izt",
+          "symbol": "OINK",
+          "name": "OINK",
+          "decimals": 10,
+          "logoURI": "https://raw.githubusercontent.com/dungnc/luckypigsNFT/main/SYMBOL.jpeg",
+          "tags": [
+            "meme",
+                "social-token",
+            "oink"
+          ],
+          "extensions": {
+            "twitter": "https://twitter.com/GiftedLabs",
+            "website": "http://luckypignfts.com"
+          }
+        },
     {
-      "chainId": 101,
+	    "chainId": 101,
       "address": "5sM9xxcBTM9rWza6nEgq2cShA87JjTBx1Cu82LjgmaEg",
       "symbol": "BMBO",
       "name": "Bamboo",
@@ -457,7 +474,7 @@
       }
     },
     {
-      "chainId": 101,
+      "chainIdr": 101,
       "address": "2A5esErqMaJXhrs1i6CtjbVxTbgsY9JbDedVsuVMQ6aY",
       "symbol": "SJP",
       "name": "Stacc Job Points",
@@ -20237,7 +20254,100 @@
       "extensions": {
         "website": "https//:wwww.itscash.me"
       }
+    },
+{
+  "chainId": 101,
+  "address": "25DXQbnQicHzZ6sH4HgbhpEGUahxEPZUkPkFbU2Jr7D3",
+  "symbol": "CLICK",
+  "name": "Nice Click",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/25DXQbnQicHzZ6sH4HgbhpEGUahxEPZUkPkFbU2Jr7D3/logo.png",
+  "tags": [
+    "meme-token"
+  ],
+  "extensions": {
+    "twitter": "https://twitter.com/proofofclick",
+    "website": "https://www.proofofclick.com/"
+  }
+},
+{
+  "chainId": 101,
+  "address": "CDxwZo3ayxvTmxin7F6o9xg6SjdE4qWEDXV6MZFBevqw",
+  "symbol": "SHIBS",
+  "name": "ShibSol",
+  "decimals": 9,
+  "logoURI": "https://discordapp.com/channels/@me/903775821704073247/903777435231846420",
+  "tags": [],
+  "extensions": {
+    "website": "https://www.solshib.net/",
+    "twitter": "https://twitter.com/ShibSol"
+  }
+}
+,
+{
+   "chainId": 101,
+   "address": "3tufRsMkBu5rYUCsSQys3ZjBXxXLWeRgttAXX4a1CDdW",
+   "symbol": "GAWD",
+   "name": "Gawd Token",
+   "decimals": 9,
+   "logoURI": "https://cdn.jsdelivr.net/gh/MaloSkylar/GAWDtoken/GAWDlogo.jpg",
+   "tags": ["Social-Coin"],
+   "extensions": {
+        "website": ""
+      }
+   },
+   {
+      "chainId": 101,
+      "address": "G7uwQLyFLpeKWZePU3q5eCMuQYcu3tMoGZvu3JHdksyW",
+      "symbol": "KUTTA",
+      "name": "Sheru",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G7uwQLyFLpeKWZePU3q5eCMuQYcu3tMoGZvu3JHdksyW/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "FsAXvJ5wrCoSh3cQvdkuceUsQUjLtRcqgoikR9jQ9FBW",
+      "symbol": "DCN",
+      "name": "D Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FsAXvJ5wrCoSh3cQvdkuceUsQUjLtRcqgoikR9jQ9FBW/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://twitter.com/DatalusCorp",
+	      "website": "https://datalus.us"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6DXQSpYeUirraMuwnQKgXRK5QMvZUWL67WAuevntTn4Y",
+      "symbol": "Finger",
+      "name": "SolaFinger",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solanadevv/token-list/35c428ac8c5fc843cc3d70caf552f7db66058491/assets/mainnet/6DXQSpYeUirraMuwnQKgXRK5QMvZUWL67WAuevntTn4Y/logo.png",
+      "tags": [
+        "utility-token",
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.solafinger.com/",
+        "twitter": "https://twitter.com/solafinger"
+      }
     }
+    ,
+    {
+     "chainId": 101,
+     "address": "3jv3yRRX2WgBLeUe7p7AFxazudp913CK6BRk9aHCCUxz",
+     "symbol": "MOGUL",
+     "name": "Mogul coin",
+     "decimals": 9,
+     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3jv3yRRX2WgBLeUe7p7AFxazudp913CK6BRk9aHCCUxz/logo.png",
+     "tags": [
+      "meme-token"
+      ],
+      "extensions": {
+         "twitter": "https://twitter.com/MogulWars"
+            }
+      }
   ],
   "version": {
     "major": 0,
