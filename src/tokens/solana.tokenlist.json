@@ -275,6 +275,23 @@
       }
     },
     {
+          "chainId": 101,
+          "address": "Aojru8bfwZK6sgrx6exNazxASFZUjPpRY59byMrs6izt",
+          "symbol": "OINK",
+          "name": "OINK",
+          "decimals": 10,
+          "logoURI": "https://raw.githubusercontent.com/dungnc/luckypigsNFT/main/SYMBOL.jpeg",
+          "tags": [
+            "meme",
+                "social-token",
+            "oink"
+          ],
+          "extensions": {
+            "twitter": "https://twitter.com/GiftedLabs",
+            "website": "http://luckypignfts.com"
+          }
+        },
+    {
 	      "chainId": 101,
       "address": "5sM9xxcBTM9rWza6nEgq2cShA87JjTBx1Cu82LjgmaEg",
       "symbol": "BMBO",
@@ -20249,7 +20266,50 @@
         "twitter": "https://twitter.com/DatalusCorp",
 	      "website": "https://datalus.us"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "6DXQSpYeUirraMuwnQKgXRK5QMvZUWL67WAuevntTn4Y",
+      "symbol": "Finger",
+      "name": "SolaFinger",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solanadevv/token-list/35c428ac8c5fc843cc3d70caf552f7db66058491/assets/mainnet/6DXQSpYeUirraMuwnQKgXRK5QMvZUWL67WAuevntTn4Y/logo.png",
+      "tags": [
+        "utility-token",
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.solafinger.com/",
+        "twitter": "https://twitter.com/solafinger"
+      }
     }
+    ,
+    {
+          "chainId": 101,
+          "address": "3jv3yRRX2WgBLeUe7p7AFxazudp913CK6BRk9aHCCUxz",
+          "symbol": "MOGUL",
+          "name": "Mogul coin",
+          "decimals": 9,
+          "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3jv3yRRX2WgBLeUe7p7AFxazudp913CK6BRk9aHCCUxz/logo.png",
+          "tags": [
+            "meme-token"
+          ],
+          "extensions": {
+            "twitter": "https://twitter.com/MogulWars"
+          }
+        },
+	{
+   "chainId": 101,
+      "address": "A9UhP1xfQHWUhSd54NgKPub2XB3ZuQMdPEvf9aMTHxGT",
+      "symbol": "DEGN",
+      "name": "Degen",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/flazewang/degencoinsolana/main/degen.png",
+      "tags": [],
+      "extensions": {
+          "twitter": "https://twitter.com/degencoinsol"
+      }
+    },
   ],
   "version": {
     "major": 0,
