@@ -114,11 +114,11 @@
       "tags": ["meme-token"],
       "extensions": {
         "website": "https://unclemurphycoin.org/"
-      ,
-      "twitter": "https://twitter.com/Driver29973042",
-      "telegram channel": "https://t.me/joinchat/1x2i0txLEOY2Yjgy"
+		,
+		"twitter": "https://twitter.com/Driver29973042",
+		"telegram channel": "https://t.me/joinchat/1x2i0txLEOY2Yjgy"
       }
-   },
+	},
       {
       "chainId": 101,
       "address": "ALKiRVrfLgzeAV2mCT7cJHKg3ZoPvsCRSV7VCRWnE8zQ",
@@ -128,7 +128,7 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ALKiRVrfLgzeAV2mCT7cJHKg3ZoPvsCRSV7VCRWnE8zQ/logo.png",
       "tags": [
         "utility-token",
-      "meme-token",
+		"meme-token",
         "neki"
       ],
       "extensions": {
@@ -10160,7 +10160,7 @@
       "tags": [],
       "extensions": {
         "website": "https://sollama.finance",
-      "serumV3Usdc": "6KKRzEedDY1dybdrfFzjDzTxCVuxdHgaiQFYUfoupigK",
+		"serumV3Usdc": "6KKRzEedDY1dybdrfFzjDzTxCVuxdHgaiQFYUfoupigK",
         "twitter": "https://twitter.com/SollamaFinance"
       }
     },
@@ -18259,7 +18259,7 @@
         "twitter": "https://twitter.com/quidtoken"
       }
     },
-   {
+	{
       "chainId": 101,
       "address": "yvbrxE6zjrA8SxxSpL7oojDBB5QDmF5CVqJWea8JcQE",
       "symbol": "CODI",
@@ -18771,7 +18771,7 @@
       "symbol": "CPR",
       "name": "Crypto Republic",
       "decimals": 5,
-     "extensions": {
+	  "extensions": {
         "website": "https://cryptorepublictoken.com/"
       },
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5sBG2b32gk3jsd5azCK4Xs8jH9V6szz3vm9fi7v2cRrC/logo.png"
@@ -20022,25 +20022,6 @@
         "twitter": "https://twitter.com/solmaori"
       }
     },
-   {
-      "chainId":101,
-      "address":"RdFHYW7mPJouuSpb5vEzUfbHeQedmQMuCoHN4VQkUDn",
-      "symbol":"LUCHOW",
-      "name":"LunaChow",
-      "decimals":8,
-      "logoURI":"https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RdFHYW7mPJouuSpb5vEzUfbHeQedmQMuCoHN4VQkUDn/logo.png",
-      "tags":[
-         "wrapped",
-         "wormhole"
-      ],
-      "extensions":{
-         "website":"https://www.lunachow.com/",
-         "address":"0xa5ef74068d04ba0809b7379dd76af5ce34ab7c57",
-         "bridgeContract":"https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
-         "assetContract":"https://etherscan.io/address/0xa5ef74068d04ba0809b7379dd76af5ce34ab7c57",
-         "coingeckoId":"lunachow",
-      }
-   },
     {
       "chainId": 101,
       "address": "EFKLgGMeGCLzGtJi6NUFSPE7y3ZaShyhhKNy4CubvFxx",
@@ -20564,6 +20545,32 @@
             "twitter": "https://twitter.com/ArabicaBitcoin"
           }
         }
+        ,
+        {
+          "chainId":101,
+          "address":"RdFHYW7mPJouuSpb5vEzUfbHeQedmQMuCoHN4VQkUDn",
+          "symbol":"LUCHOW",
+          "name":"LunaChow",
+          "decimals":8,
+          "logoURI":"https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RdFHYW7mPJouuSpb5vEzUfbHeQedmQMuCoHN4VQkUDn/logo.png",
+          "tags":[
+             "wrapped",
+             "wormhole"
+          ],
+          "extensions":{
+             "website":"https://www.lunachow.com/",
+             "address":"0xa5ef74068d04ba0809b7379dd76af5ce34ab7c57",
+             "bridgeContract":"https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+             "assetContract":"https://etherscan.io/address/0xa5ef74068d04ba0809b7379dd76af5ce34ab7c57",
+             "coingeckoId":"lunachow",
+             "reddit":"https://www.reddit.com/r/lunachow/",
+             "twitter":"https://twitter.com/LunaChoww",
+             "discord":"https://discord.gg/FBz7dGkxgv",
+             "facebook":"https://www.facebook.com/LunaChowOfficial",
+             "instagram":"https://www.instagram.com/lunachow.io/",
+             "telegram":"https://t.me/LuChow"
+          }
+       }
   ],
   "version": {
     "major": 0,
