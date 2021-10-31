@@ -10116,6 +10116,7 @@
       "tags": [],
       "extensions": {
         "website": "https://sollama.finance",
+		"serumV3Usdc": "6KKRzEedDY1dybdrfFzjDzTxCVuxdHgaiQFYUfoupigK",
         "twitter": "https://twitter.com/SollamaFinance"
       }
     },
@@ -20000,7 +20001,26 @@
         "website": "https://dogesol.com/",
         "twitter": "https://twitter.com/Doge_Solana"
       }
-    },
+    }
+	,
+    {
+      "chainId": 101,
+      "address": "CuEi5x3nzHcCmiyG7CMPRiKNBhGKt9gyUtXkPK347eqa",
+      "symbol": "BARK",
+      "name": "BARK",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solanabark/solbark/logobark.png",
+      "tags": [
+        "Meme",
+        "Meme-Token",
+        "doge",
+        "shib",
+        "bark"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/solbark"
+      }
+    },    
     {
       "chainId": 101,
       "address": "9Exx2WQUZkRwbLB9RxSVThGdkuYdgCWW3v7GgDbFYR3c",
@@ -20257,6 +20277,25 @@
     },
 {
   "chainId": 101,
+  "address": "FZBNaVMz5n1EcKfno8Jgsa2go5GLUwBYVpGPvKAdzNth",
+  "symbol": "PONQUE",
+  "name": "Ponque Coin",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FZBNaVMz5n1EcKfno8Jgsa2go5GLUwBYVpGPvKAdzNth/logo.png",
+  "tags": [
+    "community-token",
+    "utility-token",
+    "capys",
+    "ponque coin"
+  ],
+  "extensions": {
+    "twitter": "https://twitter.com/solcapys",
+    "website": "https://www.solcapys.club/"
+  }
+}
+,
+{
+  "chainId": 101,
   "address": "25DXQbnQicHzZ6sH4HgbhpEGUahxEPZUkPkFbU2Jr7D3",
   "symbol": "CLICK",
   "name": "Nice Click",
@@ -20298,11 +20337,42 @@
    },
    {
       "chainId": 101,
+      "address": "HWnfNCDHWJqqXQBpF379ubyLPhk8sdvFAa2mBsn4T6Bz",
+      "symbol": "SCODE",
+      "name": "Scode Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HWnfNCDHWJqqXQBpF379ubyLPhk8sdvFAa2mBsn4T6Bz/logo.png",
+      "tags": [
+        "utility-token",
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://scenechain.org/",
+        "twitter": "https://twitter.com/scenechain",
+        "discord": "https://discord.gg/6NMRH4KNG5",
+        "medium": "https://medium.com/scenechain",
+        "github": "https://github.com/scenechain"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "G7uwQLyFLpeKWZePU3q5eCMuQYcu3tMoGZvu3JHdksyW",
       "symbol": "KUTTA",
       "name": "Sheru",
       "decimals": 5,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G7uwQLyFLpeKWZePU3q5eCMuQYcu3tMoGZvu3JHdksyW/logo.png"
+    },
+	{
+   "chainId": 101,
+      "address": "A9UhP1xfQHWUhSd54NgKPub2XB3ZuQMdPEvf9aMTHxGT",
+      "symbol": "DEGN",
+      "name": "Degen",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/flazewang/degencoinsolana/main/degen.png",
+      "tags": [],
+      "extensions": {
+          "twitter": "https://twitter.com/degencoinsol"
+      }
     },
     {
       "chainId": 101,
@@ -20347,7 +20417,51 @@
       "extensions": {
          "twitter": "https://twitter.com/MogulWars"
             }
+      },
+      {
+      "chainId": 101,
+      "address": "3Z5o6GGjkzPgBVk7aFPsTGFPqGDdAwXjfGteuQa1SE95",
+      "symbol": "GHOST",
+      "name": "Ghost Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3Z5o6GGjkzPgBVk7aFPsTGFPqGDdAwXjfGteuQa1SE95/logo.png",
+      "tags": [
+        "utility-token",
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.solaghosts.io",
+        "twitter": "https://twitter.com/solaghosts"
       }
+    }
+    ,
+    {
+      "chainId": 101,
+      "address": "7CskY61wSZUZeSoMNHHX6br9kA9hL9v5EwAkS6mqsYNc",
+      "symbol": "PLING",
+      "name": "Dumpling",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7CskY61wSZUZeSoMNHHX6br9kA9hL9v5EwAkS6mqsYNc/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://projectdumpling.com/"
+      }
+  }
+  ,
+    {
+          "chainId": 101,
+          "address": "3jv3yRRX2WgBLeUe7p7AFxazudp913CK6BRk9aHCCUxz",
+          "symbol": "MOGUL",
+          "name": "Mogul coin",
+          "decimals": 9,
+          "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3jv3yRRX2WgBLeUe7p7AFxazudp913CK6BRk9aHCCUxz/logo.png",
+          "tags": [
+            "meme-token"
+          ],
+          "extensions": {
+            "twitter": "https://twitter.com/MogulWars"
+          }
+        }
   ],
   "version": {
     "major": 0,
