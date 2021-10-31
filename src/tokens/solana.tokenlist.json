@@ -59,6 +59,58 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "9YdABeMBMjh5Pu8yPkJ9GETGWUT8KUK3B2RYBpjKNPsU",
+      "symbol": "GTA",
+      "name": "GTA LIVE",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6H87YFkp5LHyN3KzDXa5r3QYce7WTcwYJi9SqwH3TXkQ/logo.png",
+      "tags": [
+        "GameFi",
+        "DeFi",
+        "MetaVerse",
+        "stablecoin",
+        "Blockchain Game"
+      ],
+      "extensions": {
+        "website": "https://gta.live/",
+        "discord": "https://discord.gta.live/",
+        "telegram": "https://t.me/gta_fiverp/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6H87YFkp5LHyN3KzDXa5r3QYce7WTcwYJi9SqwH3TXkQ",
+      "symbol": "AINU",
+      "name": "Akamaru Inu",
+      "decimals": 1,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6H87YFkp5LHyN3KzDXa5r3QYce7WTcwYJi9SqwH3TXkQ/logo.png",
+      "tags": [
+        "meme-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://akamaruinusol.com/",
+        "twitter": "https://twitter.com/akamaruinusol"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AeTzmX6QcL6tWKMRTKVW9ee8fPmCieKzgfmiU7ZaY4gu",
+      "symbol": "SHIHT",
+      "name": "Shih Tzu",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AeTzmX6QcL6tWKMRTKVW9ee8fPmCieKzgfmiU7ZaY4gu/logo.png",
+      "tags": [
+        "meme-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://shihtcoin.io",
+        "twitter": "https://twitter.com/ShihTzuSolana"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "BSA5MfNRWc1CTJE1FD5ZErkNNLLWf9pqDyS3rCEYV1Re",
       "symbol": "UWT",
       "name": "Solana Underworld Token",
@@ -82,6 +134,9 @@
       "tags": ["meme-token"],
       "extensions": {
         "website": "https://unclemurphycoin.org/"
+		,
+		"twitter": "https://twitter.com/Driver29973042",
+		"telegram channel": "https://t.me/joinchat/1x2i0txLEOY2Yjgy"
       }
 	},
       {
@@ -139,6 +194,19 @@
       "tags": [],
       "extensions": {
         "website": "https://tokeninfo.yolasite.com/"
+      }
+    },
+
+    {
+      "chainId": 101,
+      "address": "CC1gRBjsu8c7sf79wVd2Ub46X1UntPd81T7tmw7sTVYp",
+      "symbol": "BNN",
+      "name": "Banana",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/tradeape/First_token_image/bnn.png",
+      "tags": [],
+      "extensions": {
+        "website": ""
       }
     },
     {
@@ -8709,6 +8777,18 @@
     },
     {
       "chainId": 101,
+      "address": "61bW17b7WaWgA916RusHpzqTw9gZKf84sWN2efhtCrq",
+      "symbol": "DODO",
+      "name": "Dodo Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/61bW17b7WaWgA916RusHpzqTw9gZKf84sWN2efhtCrq/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "https://discord.gg/wVAxxw3rn4"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx",
       "symbol": "ATLAS",
       "name": "Star Atlas",
@@ -10850,6 +10930,20 @@
       "tags": [
         "SPL-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "6cVgJUqo4nmvQpbgrDZwyfd6RwWw5bfnCamS3M9N1fd",
+      "symbol": "SHILL",
+      "name": "Project SEED Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6cVgJUqo4nmvQpbgrDZwyfd6RwWw5bfnCamS3M9N1fd/logo.png",
+      "tags": [
+        "projectseedtoken"
+      ],
+      "extensions": {
+        "website": "https://projectseed.io"
+      }
     },
     {
       "chainId": 101,
@@ -19730,6 +19824,7 @@
       ],
       "extensions": {
         "website": "https://cubecoin.army",
+        "serumV3Usdc": "Gjxg4x8BturwnABaTeHvasgHPXvgLDVnu927ttu7BsAg",
         "description": "Become the hodl champion."
       }
     },
@@ -19863,6 +19958,38 @@
         "twitter": "https://twitter.com/bitexcer"
       }
 	},
+	{
+      "chainId": 101,
+      "address": "7s5A6XukBCsM7S4EtHsNFzQfvztRdwZWGn1pQwQYfWBm",
+      "symbol": "CERT",
+      "name": "CERT",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/identicert/cryptoverse/main/img/tokens/cert.png",
+      "tags": [
+        "security-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://identicert.com/",
+        "twitter": "https://twitter.com/identicert"
+      }
+    },
+	{
+      "chainId": 101,
+      "address": "ALbwwCnYj5Mf8S7k4QTSqezLbTMmpVdrv2SMYJTu4v9W",
+      "symbol": "IDEN",
+      "name": "IDEN",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/identicert/cryptoverse/main/img/tokens/iden.png",
+      "tags": [
+        "security-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://identicert.com/",
+        "twitter": "https://twitter.com/identicert"
+      }
+    },
     {
       "chainId": 101,
       "address": "8z1jFyg9heBFvKVvqMHJQ4UXQqomNpYZHWCsEJhQYaBd",
@@ -19990,6 +20117,25 @@
         "website": "https://dogesol.com/",
         "twitter": "https://twitter.com/Doge_Solana"
       }
+    }
+	,
+    {
+      "chainId": 101,
+      "address": "CuEi5x3nzHcCmiyG7CMPRiKNBhGKt9gyUtXkPK347eqa",
+      "symbol": "BARK",
+      "name": "BARK",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/solanabark/solbark/logobark.png",
+      "tags": [
+        "Meme",
+        "Meme-Token",
+        "doge",
+        "shib",
+        "bark"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/solbark"
+      }
     },    
     {
       "chainId": 101,
@@ -20061,6 +20207,7 @@
       "name": "FLOOF",
       "decimals": 9,
       "logoURI": "https://github.com/GreenFailure/Floof/blob/b928ee6640e28695100b3bf5b1c98d74add84301/istockphoto-1303160539-612x612.jpg",
+	  "logoURI": "https://raw.githubusercontent.com/GreenFailure/Floof/b928ee6640e28695100b3bf5b1c98d74add84301/istockphoto-1303160539-612x612.jpg",
       "tags": [],
       "extensions": {
         "website": "www.floofsolana.com",
@@ -20307,6 +20454,21 @@
     },
     {
       "chainId": 101,
+      "address": "H6JocWxg5g1Lcs4oPnBecmjQ4Y1bkZhGJHtjMunmjyrp",
+      "symbol": "SPX",
+      "name": "Sphinxel",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H6JocWxg5g1Lcs4oPnBecmjQ4Y1bkZhGJHtjMunmjyrp/logo.png",
+      "tags": [
+        "meme-token", "community-token", "trading-token"
+      ],
+      "extensions": {
+        "website": "https://sphinxel.com",
+        "twitter": "https://twitter.com/SphinxelSPX"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "FsAXvJ5wrCoSh3cQvdkuceUsQUjLtRcqgoikR9jQ9FBW",
       "symbol": "DCN",
       "name": "D Coin",
@@ -20332,6 +20494,24 @@
       "extensions": {
         "website": "https://www.solafinger.com/",
         "twitter": "https://twitter.com/solafinger"
+      }
+    }
+    ,
+    {
+      "chainId": 101,
+      "address": "PEGDAG5KpGAw66WBeGJcwub17eAyb9A4iFhBADsDJjF",
+      "symbol": "SOLM",
+      "name": "Solanim",
+      "decimals": 8,
+      "logoURI": "https://solanim.com/logo.png",
+      "tags": [
+        "utility-token",
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solanim.com/",
+        "telegram": "https://t.me/teamsolanim",
+        "twitter": "https://twitter.com/teamsolanim"
       }
     }
     ,
@@ -20379,21 +20559,80 @@
             "twitter": "https://twitter.com/MogulWars"
           }
         }
-        ,
+,
         {
           "chainId": 101,
-          "address": "HtsZhpSsiPePVwPsL8VephGy1AQ9qJjNPDdgYZMwZRmk",
-          "symbol": "Cat",
-          "name": "Catcoin",
-          "decimals": 9,
-          "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HtsZhpSsiPePVwPsL8VephGy1AQ9qJjNPDdgYZMwZRmk/logo.png",
+          "address": "9bpJThLhAar7PkK61apHP35pRMm24MHGijCRZTUK8A3b",
+          "symbol": "ABTC",
+          "name": "ArabicBitCoin",
+          "decimals": 8,
+          "logoURI": "https://cdn.jsdelivr.net/gh/ArabicBitCoin/ABTC/ABTC-logo.png",
           "tags": [
-              "community-token", "meme-token", "doge","dogecoin", "shiba inu", "retriever"
-    ],
-    "extensions": {
-      "Twitter": "https://twitter.com/catcoinsolana"
+            "Arabic BitCoin",
+            "Arabic",
+            "Arab",
+            "Arabic Token"
+          ],
+          "extensions": {
+            "website": "http://arabicabitcoin.com/",
+            "twitter": "https://twitter.com/ArabicaBitcoin"
+          }
+        },
+        {
+          "chainId": 101,
+          "address": "4evENxfLeUDk24nrqzMp4gkR3kPxCMeQuCeftjgd66BD",
+          "symbol": "SBOOBS",
+          "name": "Solana Boobs",
+          "decimals": 9,
+          "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4evENxfLeUDk24nrqzMp4gkR3kPxCMeQuCeftjgd66BD/logo.jpg",
+          "tags": [
+            "utility-token"
+          ],
+          "extensions": {
+            "website": "https://www.solanaboobs.com/",
+            "twitter": "https://twitter.com/solanaboobs"
+          }
         }
-      }
+        ,
+        {
+          "chainId":101,
+          "address":"RdFHYW7mPJouuSpb5vEzUfbHeQedmQMuCoHN4VQkUDn",
+          "symbol":"LUCHOW",
+          "name":"LunaChow",
+          "decimals":8,
+          "logoURI":"https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RdFHYW7mPJouuSpb5vEzUfbHeQedmQMuCoHN4VQkUDn/logo.png",
+          "tags":[
+             "wrapped",
+             "wormhole"
+          ],
+          "extensions":{
+             "website":"https://www.lunachow.com/",
+             "address":"0xa5ef74068d04ba0809b7379dd76af5ce34ab7c57",
+             "bridgeContract":"https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+             "assetContract":"https://etherscan.io/address/0xa5ef74068d04ba0809b7379dd76af5ce34ab7c57",
+             "coingeckoId":"lunachow",
+             "reddit":"https://www.reddit.com/r/lunachow/",
+             "twitter":"https://twitter.com/LunaChoww",
+             "discord":"https://discord.gg/FBz7dGkxgv",
+             "facebook":"https://www.facebook.com/LunaChowOfficial",
+             "instagram":"https://www.instagram.com/lunachow.io/",
+             "telegram":"https://t.me/LuChow"
+          }
+       }
+,{
+          "chainId": 101,
+          "address": "9k27FY1wmxKEyoMGqK4zJMT2Y8dvkiYRGM2ijjLLTrjq",
+          "symbol": "UNIVERSE",
+          "name": "universe",
+          "decimals": 8,
+          "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9k27FY1wmxKEyoMGqK4zJMT2Y8dvkiYRGM2ijjLLTrjq/logo.png",
+          "tags": [
+            "Metaverse",
+            "Universe"
+          ],
+          "extensions": {
+          }
+        }
   ],
   "version": {
     "major": 0,
@@ -20423,5 +20662,4 @@
     "extensions": {
       "Twitter": "https://twitter.com/catcoinsolana"
     }
-},
-{
+}
