@@ -1071,6 +1071,26 @@
     },
     {
       "chainId": 101,
+      "address": "5HHv6HAyBtaihyHEapCJvjE6iRbGLRmm3F5EZjz6EzHV",
+      "symbol": "wID",
+      "name": "Everest ID (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/assets/5HHv6HAyBtaihyHEapCJvjE6iRbGLRmm3F5EZjz6EzHV/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0xEBd9D99A3982d547C5Bb4DB7E3b1F9F14b67Eb83",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "assetContract": "https://etherscan.io/address/0xEBd9D99A3982d547C5Bb4DB7E3b1F9F14b67Eb83",
+        "website": "https://everest.org",
+        "twitter": "https://twitter.com/EverestDotOrg",
+        "coingeckoId": "everid"
+      }
+     },
+    {
+      "chainId": 101,
       "address": "9Vovr1bqDbMQ8DyaizdC7n1YVvSia8r3PQ1RcPFqpQAs",
       "symbol": "BILI",
       "name": "Bilibili Inc",
