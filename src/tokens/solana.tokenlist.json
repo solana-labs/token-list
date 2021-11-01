@@ -59,20 +59,6 @@
   "tokens": [
     {
       "chainId": 101,
-      "address": "6kr8q1SXXNRLy3imzDsecWkcRtzJiXqiXx1N7LtpMPTe",
-      "symbol": "BIT",
-      "name": "Biconomy Token",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6kr8q1SXXNRLy3imzDsecWkcRtzJiXqiXx1N7LtpMPTe/logo.png",
-      "tags": ["exchange-token"],
-      "extensions": {
-        "bridgeContract": "https://bscscan.com/token/0xc864019047B864B6ab609a968ae2725DFaee808A",
-        "website": "https://biconomy.com",
-        "coingeckoId": "biconomy-exchange-token"
-      }
-    }，
-    {
-      "chainId": 101,
       "address": "Hj4sTP4L4rvR9WBR6KyK99sxPptBQQczNWe4y15mxhRD",
       "symbol": "SNJ",
       "name": "Sola Ninja",
@@ -387,6 +373,20 @@
         "website": "http://bananabucks.io/"
       }
     },
+    {
+      "chainId": 101,
+      "address": "6kr8q1SXXNRLy3imzDsecWkcRtzJiXqiXx1N7LtpMPTe",
+      "symbol": "BIT",
+      "name": "Biconomy Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6kr8q1SXXNRLy3imzDsecWkcRtzJiXqiXx1N7LtpMPTe/logo.png",
+      "tags": ["exchange-token"],
+      "extensions": {
+        "bridgeContract": "https://bscscan.com/token/0xc864019047B864B6ab609a968ae2725DFaee808A",
+        "website": "https://biconomy.com",
+        "coingeckoId": "biconomy-exchange-token"
+      }
+    }，
     {
       "chainId": 101,
       "address": "GdRNeX9mbzCt4AnfiUFLbYZmxRuW7pGHfjbbAM59ZybR",
