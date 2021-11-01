@@ -20847,21 +20847,8 @@
             "extensions": {
                 "website": "http://d-n-g.io/"
             }
-        },
-        {
-            "chainId": 101,
-            "address": "5HW5kC7afvbf5YdfZPbiNTTthtehLcZF2P9ryQJhjbRF",
-            "symbol": "OWLS",
-            "name": "Owl Solana",
-            "decimals": 0,
-            "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5HW5kC7afvbf5YdfZPbiNTTthtehLcZF2P9ryQJhjbRF/logo.png",
-            "tags": [
-                "Owl Solana"
-            ],
-            "extensions": {
-                "website": "https://www.owlsolana.com"
-            }
         }
+        
     ],
     "version": {
         "major": 0,
@@ -20875,5 +20862,18 @@
     "extensions": {
         "website": "https://bricks.properties",
         "instagram": "https://instagram.com/bricksproperties"
-    }
+    },
+        "chainId": 101,
+        "address": "5HW5kC7afvbf5YdfZPbiNTTthtehLcZF2P9ryQJhjbRF",
+        "symbol": "OWLS",
+        "name": "Owl Solana",
+        "decimals": 0,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5HW5kC7afvbf5YdfZPbiNTTthtehLcZF2P9ryQJhjbRF/logo.png",
+        "tags": [
+            "Owl Solana"
+        ],
+        "extensions": {
+            "website": "https://www.owlsolana.com"
+        }
+    
 }
