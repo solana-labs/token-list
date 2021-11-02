@@ -21110,7 +21110,20 @@
     "discord":"http://discord.gg/samoinu",
     "twitter":"https://twitter.com/samo_inu"
   }
-}],
+}
+  ,{
+          "chainId": 101,
+          "address":  "CSQn7G3SmbBVFRMvNH5SJV5sd2HipWSCphfDVcXwY3K6",
+          "symbol": "MARS",
+          "name": "MarsCoin",
+          "decimals": 5,
+          "logoURI": "https://freesvg.org/img/planet-remix-fixed.png",
+          "tags": ["meme-token"],
+          "extensions": {
+            "website": "https://mars1coin.xyz",
+          }
+     }
+  ],
   "version": {
     "major": 0,
     "minor": 3,
