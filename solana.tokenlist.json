@@ -20303,7 +20303,7 @@
   "decimals": 9,
   "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F79oPtzBBAmcksPb6bKmGde6C7thhcJM2CjBRcK6bwXU/logo.png",
   "tags": [
-    "utility-token"
+    "utility-token",
   ],
   "extensions": {
     "website": "https://robotopia.io"
@@ -20317,7 +20317,7 @@
   "decimals": 9,
   "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EFBGjiTEuvhwZGmEzDBJwrWnSDuALx94MERncXNsap3G/logo.png",
   "tags": [
-    "utility-token"
+    "utility-token",
   ],
   "extensions": {
     "website": "https://robotopia.io"
@@ -20336,36 +20336,6 @@
   "extensions": {
     "website": "https://dogethug.io"
   }
-},
-{
-    "chainId": 101,
-    "address": "1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND",
-    "symbol": "NRA",
-    "name": "Solana Nora",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND/logo.png",
-    "tags": [
-      "Meme-Token"
-    ],
-    "extensions": {
-      "twitter": "https://twitter.com/SolNoraToken",
-      "discord": "https://discord.com/invite/TGbXfN4a"
-    }
-  },
-  {
-    "chainId": 101,
-    "address": "3vzAdSr4LqFkA1WDvFWGn22gNNxqgUiUv23q7enE8JZP",
-    "symbol": "RTRVR",
-    "name": "Retriever",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3vzAdSr4LqFkA1WDvFWGn22gNNxqgUiUv23q7enE8JZP/logo.png",
-    "tags": [
-    "community-token", "meme-token", "doge","dogecoin", "shiba inu", "retriever"
-    ],
-    "extensions": {
-      "twitter": "https://twitter.com/TokenRetriever",
-      "website": "https://retrievertoken.dog/"
-    }
 }
   ],
   "version": {
@@ -20381,4 +20351,19 @@
     "website": "https://bricks.properties",
     "instagram": "https://instagram.com/bricksproperties"
   }
+},
+{
+    "chainId": 101,
+    "address": "3vzAdSr4LqFkA1WDvFWGn22gNNxqgUiUv23q7enE8JZP",
+    "symbol": "RTRVR",
+    "name": "Retriever",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3vzAdSr4LqFkA1WDvFWGn22gNNxqgUiUv23q7enE8JZP/logo.png",
+    "tags": [
+    "community-token", "meme-token", "doge","dogecoin", "shiba inu", "retriever"
+    ],
+    "extensions": {
+      "twitter": "https://twitter.com/TokenRetriever",
+      "website": "https://retrievertoken.dog/"
+    }
 }
