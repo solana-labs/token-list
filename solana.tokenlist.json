@@ -59,6 +59,21 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "J8n8QPsUgtdjbCcnwBiBdrafqAznieZYNFUTmBYWv1ig",
+      "symbol": "SSH",
+      "name": "SolShell",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J8n8QPsUgtdjbCcnwBiBdrafqAznieZYNFUTmBYWv1ig/logo.png",
+      "tags": [
+        "utility-token",
+        "meme-token"
+      ],
+      "extensions": {
+        "website": "https://solshell.live/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "BSA5MfNRWc1CTJE1FD5ZErkNNLLWf9pqDyS3rCEYV1Re",
       "symbol": "UWT",
       "name": "Solana Underworld Token",
@@ -237,6 +252,20 @@
         "telegram": "https://t.me/bitsolfinance",
         "telegram channel": "https://t.me/bitsolana",
         "twitter": "https://twitter.com/bitsol_finance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau",
+      "symbol": "BAB",
+      "name": "Banana Bucks",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "http://bananabucks.io/"
       }
     },
     {
@@ -9012,6 +9041,7 @@
       "extensions": {
         "website": "https://www.soldoge.io",
         "serumV3Usdc": "9aruV2p8cRWxybx6wMsJwPFqeN7eQVPR74RrxdM3DNdu",
+        "coingeckoId": "soldoge",
         "twitter": "https://twitter.com/SolanaDoge",
         "discord": "https://bit.ly/SDOGEDiscord"
       }
@@ -20183,6 +20213,41 @@
     "website": "https://badurocoin.pl",
     "github": "https://github.com/BaduroCoin"
   }
+},
+{
+    "chainId": 101,
+    "address": "3b8mdMBkEgxgGbMys5gcojqnFxzMohop9W8w781e2Gpv",
+    "symbol": "Pizzly",
+    "name": "Project Pizzly",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3b8mdMBkEgxgGbMys5gcojqnFxzMohop9W8w781e2Gpv/logo.png",
+    "tags": [
+    "community-token", "meme-token"
+    ],
+    "extensions": {
+      "twitter": "https://twitter.com/PizzlyBearsNFT",
+        "website": "https://www.pizzlybears.io/Home",
+        "discord": "https://discord.gg/ctrqKyf5gS"
+
+    }
+}
+,
+{
+    "chainId": 101,
+    "address": "AThqqJBiMPUFQvV2f3mpc4RYdncEjkw1TX3bwqHuJrUn",
+    "symbol": "Pizzly",
+    "name": "Project Pizzly",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AThqqJBiMPUFQvV2f3mpc4RYdncEjkw1TX3bwqHuJrUn/logo.png",
+    "tags": [
+    "community-token", "meme-token"
+    ],
+    "extensions": {
+      "twitter": "https://twitter.com/PizzlyBearsNFT",
+        "website": "https://www.pizzlybears.io/Home",
+        "discord": "https://discord.gg/ctrqKyf5gS"
+
+    }
 }
 ,
 {
@@ -20228,6 +20293,48 @@
   "extensions": {
     "website": "https://www.solshib.net/",
     "twitter": "https://twitter.com/ShibSol"
+  }
+},
+{
+  "chainId": 101,
+  "address": "F79oPtzBBAmcksPb6bKmGde6C7thhcJM2CjBRcK6bwXU",
+  "symbol": "RBT",
+  "name": "Robotopian Tokens",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F79oPtzBBAmcksPb6bKmGde6C7thhcJM2CjBRcK6bwXU/logo.png",
+  "tags": [
+    "utility-token",
+  ],
+  "extensions": {
+    "website": "https://robotopia.io"
+  }
+},
+{
+  "chainId": 101,
+  "address": "EFBGjiTEuvhwZGmEzDBJwrWnSDuALx94MERncXNsap3G",
+  "symbol": "RBTP",
+  "name": "Robotopian Token",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EFBGjiTEuvhwZGmEzDBJwrWnSDuALx94MERncXNsap3G/logo.png",
+  "tags": [
+    "utility-token",
+  ],
+  "extensions": {
+    "website": "https://robotopia.io"
+  }
+}
+,{
+  "chainId": 101,
+  "address": "ArhMyF2N8XpaujYUxTTDt9EuaBCaGaccxfwaZmkm9XeF",
+  "symbol": "DOGETH",
+  "name": "Doge Thug",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ArhMyF2N8XpaujYUxTTDt9EuaBCaGaccxfwaZmkm9XeF/logo.png",
+  "tags": [
+    "Meme","doge","Thug life"
+  ],
+  "extensions": {
+    "website": "https://dogethug.io"
   }
 }
   ],
