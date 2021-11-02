@@ -144,6 +144,7 @@
         "telegram": "https://t.me/gta_fiverp/"
       }
     },
+    
 	{
       "chainId": 101,
       "address": "GqWbZDQaeJsiscgtGpDrJsNCxxeuHqJCGKs4oWBY1aYQ",
@@ -162,6 +163,21 @@
         "website": "https://gta.live/",
         "discord": "https://discord.gta.live/",
         "telegram": "https://t.me/gta_fiverp/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FuyW82yTLf1nZS6Z2oJdxHSZegVHARCKrkChQpoRtLN1",
+      "symbol": "SOLW",
+      "name": "Solwealth",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FuyW82yTLf1nZS6Z2oJdxHSZegVHARCKrkChQpoRtLN1/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://solwealth.com",
+        "twitter": "https://twitter.com/solwealthco"
       }
     },
     {
@@ -20783,6 +20799,7 @@
           "extensions": {
             "twitter": "https://twitter.com/MogulWars"
           }
+<<<<<<< HEAD
         }
 ,
         {
@@ -21047,6 +21064,25 @@
       }
     }
   ],
+=======
+  }
+  ,
+    {
+      "chainId": 101,
+      "address": "FuyW82yTLf1nZS6Z2oJdxHSZegVHARCKrkChQpoRtLN1",
+      "symbol": "SOLW",
+      "name": "Solwealth",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FuyW82yTLf1nZS6Z2oJdxHSZegVHARCKrkChQpoRtLN1/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://solwealth.com",
+        "twitter": "https://twitter.com/solwealthco"
+      }		
+  ],  
+>>>>>>> 7b91ce8c3c9bc935212c718b85a38afd292dd3ce
   "version": {
     "major": 0,
     "minor": 3,
