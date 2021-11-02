@@ -15229,22 +15229,6 @@
     },
     {
       "chainId": 101,
-      "address": "6JdcMdhqgCtcP4U9tieRqmKLhPLxRMLC67QfmdXAJBvZ",
-      "symbol": "KITTY",
-      "name": "Kitty Solana",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6JdcMdhqgCtcP4U9tieRqmKLhPLxRMLC67QfmdXAJBvZ/logo.png",
-      "tags": [
-        "nft-token",
-        "general-token"
-      ],
-      "extensions": {
-        "discord": "https://discord.gg/XaRfbtsscz",
-        "twitter": "https://twitter.com/kitty_solana"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "8FXW4GSS9SNDVP5UhaWNsaZbxvRJXNrwvwvToXRnvuWL",
       "symbol": "KNB",
       "name": "KNB",
@@ -20366,5 +20350,22 @@
     "extensions": {
       "twitter": "https://twitter.com/TokenRetriever",
       "website": "https://retrievertoken.dog/"
-    }
+    },
+
+    {
+      "chainId": 101,
+      "address": "6JdcMdhqgCtcP4U9tieRqmKLhPLxRMLC67QfmdXAJBvZ",
+      "symbol": "KITTY",
+      "name": "Kitty Solana",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6JdcMdhqgCtcP4U9tieRqmKLhPLxRMLC67QfmdXAJBvZ/logo.png",
+      "tags": [
+        "nft-token",
+        "general-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/XaRfbtsscz",
+        "twitter": "https://twitter.com/kitty_solana"
+      }
+    },
 }
