@@ -20980,21 +20980,17 @@
           }
         }
 ,{
-      "chainId": 101,
-      "address": "E8yz29LYVsmpMvbpqEsNUzTFU3mjNLLu4NmwXBdgBAJm",
-      "symbol": "ZERO",
-      "name": "Z-Coin",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/dangnguyen168/zlogo/master/z_logo.png",
-      "extensions": {
-        "website": "https://ztechhub.com"
-      },
-      "tags": [
-        "utility-token",
-        "ztechhub",
-        "smart-shift"
-      ]
-    }
+          "chainId": 101,
+          "address":  "E8yz29LYVsmpMvbpqEsNUzTFU3mjNLLu4NmwXBdgBAJm",
+          "symbol": "ZERO",
+          "name": "Z-Coin",
+          "decimals": 9,
+          "logoURI": "https://raw.githubusercontent.com/dangnguyen168/zlogo/master/z_logo.png",
+          "tags": ["ztechhub-token"],
+          "extensions": {
+            "website": "https://ztechhub.com"
+          }
+        }
   ],
   "version": {
     "major": 0,
