@@ -16562,7 +16562,6 @@
       "symbol": "ODC",
       "name": "OneDay Coin",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/assets/GzN5Y1KoP6Yo6KYVYg7JfJ7Urs6oCrtLByHLeZ1ELAnx/logo.png",
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GzN5Y1KoP6Yo6KYVYg7JfJ7Urs6oCrtLByHLeZ1ELAnx/logo.png",
       "tags": [],
       "extensions": {
@@ -17795,7 +17794,6 @@
       "symbol": "ROFL",
       "name": "ROFLSTOMP TOKEN",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/4xAPLtoJn7J7ALhLh7jz4unZRRDjCogNbnkJ2xhkYedo/teamROFLtwitter.png",
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4xAPLtoJn7J7ALhLh7jz4unZRRDjCogNbnkJ2xhkYedo/teamROFLtwitter.png",
       "tags": [
         "team-token",
@@ -17894,7 +17892,6 @@
       "symbol": "PNT",
       "name": "PHANT",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r/logo.png",
       "logoURI": "https://user-images.githubusercontent.com/92027847/136703420-7f327114-7295-4e94-b38d-77eb5cf76927.png",
       "tags": [
         "utility-token"
@@ -19736,35 +19733,37 @@
         "website": "https://www.solnerds.com",
         "twitter": "https://twitter.com/SolNerdsNFT"
       }
-    }
+    },
+    {
+      "chainId": 101,
+      "address": "2kMjMxSLLY3RP1Svg8THnoiAfnaScAemGUhVRF9bYcC7",
+      "symbol": "BPCoin",
+      "decimals": 9,
+      "extensions": {
+          "website": "https://bricks.properties",
+          "instagram": "https://instagram.com/bricksproperties"
+        }
+    },
+    {
+        "chainId": 101,
+        "address": "APm3NKwCVAZ2nCtSgqZ2yG9c3iW3Gft4YKcZV5yUNfT7",
+        "symbol": "BCGW",
+        "name": "Blockchain Games Token",
+        "decimals": 8,
+        "logoURI": "https://raw.githubusercontent.com/Hideinseek/techdegree-project-1/main/images/2928898_th2.jpeg",
+        "tags": [
+          "utility-token",
+          "nft"
+        ],
+        "extensions": {
+          "website": "http://blockchaingames.world",
+          "twitter": "https://twitter.com/BlockchainGW"
+        }
+      }
   ],
   "version": {
     "major": 0,
     "minor": 3,
     "patch": 2
-  },
-  "chainId": 101,
-  "address": "2kMjMxSLLY3RP1Svg8THnoiAfnaScAemGUhVRF9bYcC7",
-  "symbol": "BPCoin",
-  "decimals": 9,
-  "extensions": {
-    "website": "https://bricks.properties",
-    "instagram": "https://instagram.com/bricksproperties"
   }
-}
-  "chainId": 101,
-  "address": "APm3NKwCVAZ2nCtSgqZ2yG9c3iW3Gft4YKcZV5yUNfT7",
-  "symbol": "BCGW",
-  "name": "Blockchain Games Token",
-  "decimals": 8,
-  "logoURI": "https://raw.githubusercontent.com/Hideinseek/techdegree-project-1/main/images/2928898_th2.jpeg",
-  "tags": [
-    "utility-token",
-    "nft"
-  ],
-  "extensions": {
-    "website": "http://blockchaingames.world",
-    "twitter": "https://twitter.com/BlockchainGW"
-  }
-},
 }
