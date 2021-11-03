@@ -59,6 +59,21 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "J8n8QPsUgtdjbCcnwBiBdrafqAznieZYNFUTmBYWv1ig",
+      "symbol": "SSH",
+      "name": "SolShell",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J8n8QPsUgtdjbCcnwBiBdrafqAznieZYNFUTmBYWv1ig/logo.png",
+      "tags": [
+        "utility-token",
+        "meme-token"
+      ],
+      "extensions": {
+        "website": "https://solshell.live/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "BSA5MfNRWc1CTJE1FD5ZErkNNLLWf9pqDyS3rCEYV1Re",
       "symbol": "UWT",
       "name": "Solana Underworld Token",
@@ -1903,6 +1918,23 @@
         "serumV3Usdc": "2wr3Ab29KNwGhtzr5HaPCyfU1qGJzTUAN4amCLZWaD1H",
         "serumV3Usdt": "F1T7b6pnR8Pge3qmfNUfW6ZipRDiGpMww6TKTrRU4NiL",
         "coingeckoId": "upbots"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "SrZXMTPhY8TEJMXQEhHKbFdVY2oNSGR5YqMMGK6Zm7L",
+      "symbol": "BDNT",
+      "name": "Battle Drone Native Token",
+      "decimals": 9,
+      "logoURI": "https://battledronesnft.com/BDNT.png",
+      "tags": [
+        "utility-token",
+        "BDNT"
+      ],
+      "extensions": {
+        "website": "https://battledronesnft.com/",
+        "twitter": "https://twitter.com/BattleDronesNFT",
+        "discord": "https://discord.gg/jRz63Dsa3p"
       }
     },
     {
@@ -9026,6 +9058,7 @@
       "extensions": {
         "website": "https://www.soldoge.io",
         "serumV3Usdc": "9aruV2p8cRWxybx6wMsJwPFqeN7eQVPR74RrxdM3DNdu",
+        "coingeckoId": "soldoge",
         "twitter": "https://twitter.com/SolanaDoge",
         "discord": "https://bit.ly/SDOGEDiscord"
       }
@@ -18485,6 +18518,30 @@
     },
     {
       "chainId": 101,
+      "address": "3nXruwsZYPqf6A5NgoVMPTsqgN3ur2PU3DTzmNgnwiDa",
+      "symbol": "ESA",
+      "name": "Esculap",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3nXruwsZYPqf6A5NgoVMPTsqgN3ur2PU3DTzmNgnwiDa/logo.png",
+      "tags": [
+        "health",
+        "eBank",
+        "DLT AI",
+        "AI Predictions",
+        "database"
+      ],
+      "extensions": {
+        "website": "https://esculap.uk",
+        "youtube": "https://youtube.com/channel/UCBlLNzv4H6EgL_th2sNmtWQ",
+        "telegram": "https://t.me/esculapesa",
+        "twitter": "https://twitter.com/EsculapESA",
+        "linkedin": "https://www.linkedin.com/company/esculapesa",
+        "facebook": "https://www.facebook.com/Esculap-110660738044410",
+        "instagram": "https://www.instagram.com/esculapesa/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "8Ap9nTGPGJ1VYbMCE64f7yUTCptKk717Cns1ZfrqvdjE",
       "symbol": "HOL",
       "name": "HOLONA",
@@ -20277,6 +20334,48 @@
   "extensions": {
     "website": "https://www.solshib.net/",
     "twitter": "https://twitter.com/ShibSol"
+  }
+},
+{
+  "chainId": 101,
+  "address": "F79oPtzBBAmcksPb6bKmGde6C7thhcJM2CjBRcK6bwXU",
+  "symbol": "RBT",
+  "name": "Robotopian Tokens",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F79oPtzBBAmcksPb6bKmGde6C7thhcJM2CjBRcK6bwXU/logo.png",
+  "tags": [
+    "utility-token",
+  ],
+  "extensions": {
+    "website": "https://robotopia.io"
+  }
+},
+{
+  "chainId": 101,
+  "address": "EFBGjiTEuvhwZGmEzDBJwrWnSDuALx94MERncXNsap3G",
+  "symbol": "RBTP",
+  "name": "Robotopian Token",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EFBGjiTEuvhwZGmEzDBJwrWnSDuALx94MERncXNsap3G/logo.png",
+  "tags": [
+    "utility-token",
+  ],
+  "extensions": {
+    "website": "https://robotopia.io"
+  }
+}
+,{
+  "chainId": 101,
+  "address": "ArhMyF2N8XpaujYUxTTDt9EuaBCaGaccxfwaZmkm9XeF",
+  "symbol": "DOGETH",
+  "name": "Doge Thug",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ArhMyF2N8XpaujYUxTTDt9EuaBCaGaccxfwaZmkm9XeF/logo.png",
+  "tags": [
+    "Meme","doge","Thug life"
+  ],
+  "extensions": {
+    "website": "https://dogethug.io"
   }
 }
   ],
