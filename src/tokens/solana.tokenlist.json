@@ -488,19 +488,34 @@
       ]
     },
     {
-      "chainId": 101,
-      "address": "2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau",
-      "symbol": "BAB",
-      "name": "Banana Bucks",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau/logo.svg",
-      "tags": [
-        "utility-token"
-      ],
-      "extensions": {
-        "website": "http://bananabucks.io/"
-      }
-    },
+        "chainId": 101,
+        "address": "2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau",
+        "symbol": "BAB",
+        "name": "Banana Bucks",
+        "decimals": 0,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau/logo.svg",
+        "tags": [
+          "utility-token"
+        ],
+        "extensions": {
+          "website": "http://bananabucks.io/"
+        }
+      },
+      {
+        "chainId": 101,
+        "address": "1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND",
+        "symbol": "NRA",
+        "name": "Solana Nora",
+        "decimals": 9,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND/logo.png",
+        "tags": [
+            "meme-token"
+          ],
+        "extensions": {
+            "twitter": "https://twitter.com/SolNoraToken",
+            "discord": "https://discord.com/invite/TGbXfN4a"
+          }
+      },
     {
       "chainId": 101,
       "address": "GdRNeX9mbzCt4AnfiUFLbYZmxRuW7pGHfjbbAM59ZybR",
