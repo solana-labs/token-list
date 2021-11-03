@@ -476,21 +476,6 @@
       }
     },
     {
-        "chainId": 101,
-        "address": "1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND",
-        "symbol": "NRA",
-        "name": "Solana Nora",
-        "decimals": 9,
-        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND/logo.png",
-        "tags": [
-            "meme-token"
-        ],
-        "extensions": {
-            "twitter": "https://twitter.com/SolNoraToken",
-            "discord": "https://discord.com/invite/TGbXfN4a"
-        }
-    },
-    {
       "chainId": 101,
       "address": "8f9s1sUmzUbVZMoMh6bufMueYH1u4BJSM57RCEvuVmFp",
       "symbol": "TRUE",
@@ -501,6 +486,20 @@
         "utility-token",
         "capital-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau",
+      "symbol": "BAB",
+      "name": "Banana Bucks",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "http://bananabucks.io/"
+      }
     },
     {
       "chainId": 101,
@@ -17146,6 +17145,7 @@
       "symbol": "ODC",
       "name": "OneDay Coin",
       "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/assets/GzN5Y1KoP6Yo6KYVYg7JfJ7Urs6oCrtLByHLeZ1ELAnx/logo.png",
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GzN5Y1KoP6Yo6KYVYg7JfJ7Urs6oCrtLByHLeZ1ELAnx/logo.png",
       "tags": [],
       "extensions": {
@@ -18422,6 +18422,7 @@
       "symbol": "ROFL",
       "name": "ROFLSTOMP TOKEN",
       "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/4xAPLtoJn7J7ALhLh7jz4unZRRDjCogNbnkJ2xhkYedo/teamROFLtwitter.png",
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4xAPLtoJn7J7ALhLh7jz4unZRRDjCogNbnkJ2xhkYedo/teamROFLtwitter.png",
       "tags": [
         "team-token",
@@ -18521,6 +18522,7 @@
       "name": "PHANT",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AKxR1NLTtPnsVcWwPSEGat1TC9da3Z2vX7sY4G7ZLj1r/logo.png",
+      "logoURI": "https://user-images.githubusercontent.com/92027847/136703420-7f327114-7295-4e94-b38d-77eb5cf76927.png",
       "tags": [
         "utility-token"
       ],
@@ -20534,6 +20536,7 @@
       "symbol": "FLOOF",
       "name": "FLOOF",
       "decimals": 9,
+      "logoURI": "https://github.com/GreenFailure/Floof/blob/b928ee6640e28695100b3bf5b1c98d74add84301/istockphoto-1303160539-612x612.jpg",
 	  "logoURI": "https://raw.githubusercontent.com/GreenFailure/Floof/b928ee6640e28695100b3bf5b1c98d74add84301/istockphoto-1303160539-612x612.jpg",
       "tags": [],
       "extensions": {
@@ -21234,7 +21237,22 @@
     "discord":"http://discord.gg/samoinu",
     "twitter":"https://twitter.com/samo_inu"
   }
-}],
+},
+{
+    "chainId": 101,
+    "address": "1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND",
+    "symbol": "NRA",
+    "name": "Solana Nora",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND/logo.png",
+    "tags": [
+        "meme-token"
+      ],
+    "extensions": {
+        "twitter": "https://twitter.com/SolNoraToken",
+        "discord": "https://discord.com/invite/TGbXfN4a"
+      }
+  }],
   "version": {
     "major": 0,
     "minor": 3,
