@@ -57,6 +57,24 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+    {
+    "chainId": 101,
+    "address": "7JYZmXjHenJxgLUtBxgYsFfoABmWQFA1fW3tHQKUBThV",
+    "symbol": "WEED",
+    "name": "Solana Weed",
+    "decimals": 6,
+     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7JYZmXjHenJxgLUtBxgYsFfoABmWQFA1fW3tHQKUBThV/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://solanaweed.com/",
+        "twitter": "https://twitter.com/SolanaWeed",
+        "telegram": "https://t.me/Solanaweed",
+        "discord": "https://discord.gg/3cshJ2gVz6"
+      }
+    },
   {
     "chainId": 101,
     "address": "GaAzf7jwEKTouDXJExH9TKfvX3Ae7fLaGwNuEajq7KsE",
@@ -101,20 +119,6 @@
     "twitter": "https://twitter.com/emontoken",
     "telegram": "https://t.me/emontoken"
   }
-},
-{
-    "chainId": 101,
-    "address": "6Km8PRUQxPmNX6EhmAuu3sFEnCP6uT2Yt42zPFR6VNnD",
-    "symbol": "RUG",
-    "name": "RugCoin",
-    "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6Km8PRUQxPmNX6EhmAuu3sFEnCP6uT2Yt42zPFR6VNnD/logo.png",
-    "tags": [
-      "community-token", "meme-token", "rug"
-    ],
-    "extensions": {
-      "website": "https://rugcoin.rip"
-    }
 },
     {
       "chainId": 101,
@@ -463,8 +467,8 @@
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau/logo.svg",
       "tags": [
-          "utility-token"
-        ],
+        "utility-token"
+      ],
       "extensions": {
         "website": "http://bananabucks.io/"
       }
@@ -906,23 +910,6 @@
         "website": "https://www.centre.io/",
         "coingeckoId": "usd-coin",
         "serumV3Usdt": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "SrZXMTPhY8TEJMXQEhHKbFdVY2oNSGR5YqMMGK6Zm7L",
-      "symbol": "BDNT",
-      "name": "Battle Drone Native Token",
-      "decimals": 9,
-      "logoURI": "https://battledronesnft.com/BDNT.png",
-      "tags": [
-        "utility-token",
-        "BDNT"
-      ],
-      "extensions": {
-        "website": "https://battledronesnft.com/",
-        "twitter": "https://twitter.com/BattleDronesNFT",
-        "discord": "https://discord.gg/jRz63Dsa3p"
       }
     },
     {
@@ -9030,6 +9017,21 @@
         "discord": "https://discord.gg/wVAxxw3rn4"
       }
     },
+    {
+        "chainId": 101,
+        "address": "1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND",
+        "symbol": "NRA",
+        "name": "Solana Nora",
+        "decimals": 9,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND/logo.png",
+        "tags": [
+            "meme-token"
+          ],
+        "extensions": {
+            "twitter": "https://twitter.com/SolNoraToken",
+            "discord": "https://discord.com/invite/TGbXfN4a"
+          }
+      },
     {
       "chainId": 101,
       "address": "ByJ8a9NWk6G4Jg4iFyFNdrya1iVcusL1aL9aGXWXeoVG",
@@ -20846,22 +20848,6 @@
         "website": "https://www.solaghosts.io",
         "twitter": "https://twitter.com/solaghosts"
       }
-    }
-    ,
-    {
-      "chainId": 101,
-      "address": "1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND",
-      "symbol": "NRA",
-      "name": "Solana Nora",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND/logo.png",
-      "tags": [
-          "meme-token"
-        ],
-      "extensions": {
-          "twitter": "https://twitter.com/SolNoraToken",
-          "discord": "https://discord.com/invite/TGbXfN4a"
-        }
     }
     ,
     {
