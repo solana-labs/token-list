@@ -21145,41 +21145,41 @@
           }
         }
                 ,
-                {
-                  "chainId": 101,
-                  "address": "UXPhBoR3qG4UCiGNJfV7MqhHyFqKN68g45GoYvAeL2M",
-                  "symbol": "UXP",
-                  "name": "UXP Governance Token",
-                  "decimals": 9,
-                  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/UXPhBoR3qG4UCiGNJfV7MqhHyFqKN68g45GoYvAeL2M/logo.png",
-                  "tags": [
-                    "UXD",
-                    "UXP",
-                    "governance",
-                    "DAO",
-                    "stablecoin",
-                    "Web 3.0"
-                  ],
-                  "extensions": {
-                    "website": "https://uxd.fi/",
-                    "twitter": "https://twitter.com/UXDProtocol",
-                    "medium": "https://uxdprotocol.medium.com/",
-                    "discord": "https://discord.com/invite/BHfpYmjsBM"
-                  }
-                }
-	,{
+    {
+      "chainId": 101,
+      "address": "UXPhBoR3qG4UCiGNJfV7MqhHyFqKN68g45GoYvAeL2M",
+      "symbol": "UXP",
+      "name": "UXP Governance Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/UXPhBoR3qG4UCiGNJfV7MqhHyFqKN68g45GoYvAeL2M/logo.png",
+      "tags": [
+        "UXD",
+        "UXP",
+        "governance",
+        "DAO",
+        "stablecoin",
+        "Web 3.0"
+      ],
+      "extensions": {
+        "website": "https://uxd.fi/",
+        "twitter": "https://twitter.com/UXDProtocol",
+        "medium": "https://uxdprotocol.medium.com/",
+        "discord": "https://discord.com/invite/BHfpYmjsBM"
+      }
+    },
+    {
       "chainId": 101,
       "address": "88govxpekHhHv4hF2bgi8UDveP9LnxofhdREmrxLffy8",
       "symbol": "USTK",
       "name": "Ultra Scarce Token",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/88govxpekHhHv4hF2bgi8UDveP9LnxofhdREmrxLffy8/logo.png",
-      "tags": ["utility-token", "wrapped"],
+      "tags": [ "utility-token", "wrapped" ],
       "extensions": {
-        "website": ""        
+        "website": ""
       }
-    }
-    ,{
+    },
+    {
       "chainId": 101,
       "address": "2uEb2S4JCxZSzMxRfEdmj6grtZkgEe6XrfTwgkpswuvS",
       "symbol": "VAL",
@@ -21187,57 +21187,77 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2uEb2S4JCxZSzMxRfEdmj6grtZkgEe6XrfTwgkpswuvS/Valknut.png",
       "tags": [
-        "nft","game-coin","gaming","Blockchain Game"
+        "nft",
+        "game-coin",
+        "gaming",
+        "Blockchain Game"
       ],
       "extensions": {
         "website": "https://solvikings.com/",
-        "discord":"https://discord.com/invite/JXKEDfYGGa",
-        "twitter":"https://twitter.com/solvikingsnft"
+        "discord": "https://discord.com/invite/JXKEDfYGGa",
+        "twitter": "https://twitter.com/solvikingsnft"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E6Hkw5o48QfNo6iUi1aepjEBzVq4ZjQLxh7xVtdTqoyB",
+      "symbol": "DICK",
+      "name": "Dickcoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E6Hkw5o48QfNo6iUi1aepjEBzVq4ZjQLxh7xVtdTqoyB/logo.png",
+      "tags": [ "utility-token" ],
+      "extensions": {
+        "twitter": "https://twitter.com/dickcoinmoon"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AvB7Ffmt3H16bhq7ToXb839ynKzFgJxu2WDHsR1S9Yft",
+      "symbol": "FLOKIS",
+      "name": "FlokiSol",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AvB7Ffmt3H16bhq7ToXb839ynKzFgJxu2WDHsR1S9Yft/Flokisol.png",
+      "tags": [
+        "community-token",
+        "meme-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/FlokiSol",
+        "website": "https://flokisol.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg ",
+      "symbol": "SINU ",
+      "name": "Samo INU ",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg/logo.png",
+      "tags": [
+        "meme-token"
+      ],
+      "extensions": {
+        "website": "https://www.samoinu.com",
+        "discord": "http://discord.gg/samoinu",
+        "twitter": "https://twitter.com/samo_inu"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND ",
+      "symbol": "Nora",
+      "name": "Solana Nora ",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND/logo.png",
+      "tags": [
+        "meme-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.com/invite/TGbXfN4a",
+        "twitter": "https://twitter.com/SolNoraToken"
       }
     }
-	,{
-          "chainId": 101,
-          "address": "E6Hkw5o48QfNo6iUi1aepjEBzVq4ZjQLxh7xVtdTqoyB",
-          "symbol": "DICK",
-          "name": "Dickcoin",
-          "decimals": 9,
-          "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E6Hkw5o48QfNo6iUi1aepjEBzVq4ZjQLxh7xVtdTqoyB/logo.png",
-          "tags": ["utility-token"],
-          "extensions": {
-            "twitter": "https://twitter.com/dickcoinmoon"
-          }
-        }
-	,{
-    "chainId": 101,
-    "address": "AvB7Ffmt3H16bhq7ToXb839ynKzFgJxu2WDHsR1S9Yft",
-    "symbol": "FLOKIS",
-    "name": "FlokiSol",
-    "decimals": 4,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AvB7Ffmt3H16bhq7ToXb839ynKzFgJxu2WDHsR1S9Yft/Flokisol.png",
-    "tags": [
-    "community-token", "meme-token"
-    ],
-    "extensions": {
-      "twitter": "https://twitter.com/FlokiSol",
-      "website": "https://flokisol.com"
-    }
-}
-  ,{
-  "chainId": 101,
-  "address": "F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg ",
-  "symbol": "SINU ",
-  "name": "Samo INU ",
-  "decimals": 9,
-  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg/logo.png",
-  "tags": [
-    "meme-token"
   ],
-  "extensions": {
-    "website": "https://www.samoinu.com",
-    "discord":"http://discord.gg/samoinu",
-    "twitter":"https://twitter.com/samo_inu"
-  }
-}],
   "version": {
     "major": 0,
     "minor": 3,
