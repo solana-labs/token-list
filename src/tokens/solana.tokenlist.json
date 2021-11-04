@@ -57,6 +57,18 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+  {
+    "chainId": 102,
+    "address": "8ZY7EkwN7LxifYvvrQDbpjqxkrjHUFMwWgq8fupNNvub",
+    "symbol": "BIAD",
+    "name": "daib test token",
+    "decimals": 6,
+    "logoURI": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02242929-14bc-4204-ac71-56d855a07078/512_daia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T051518Z&X-Amz-Expires=86400&X-Amz-Signature=df1424dcb1be408faa45ef6af1f7769edf977da365822e00c34a2150167bfe58&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22512_daia.png%22",
+    "tags": [],
+    "extensions": {
+      "website": "https://daios.io/"
+    }
+  },
     {
       "chainId": 101,
       "address": "7QTcx3LuVfPSZxVzFJcTmbpQCL35jkfoNSzx4qouX495",
@@ -73,6 +85,22 @@
         "discord": "https://discord.gg/vBHgckmR",
         "medium": "https://medium.com/@akelasolana",
         "twitter": "https://twitter.com/AkelaTOKEN"
+      }
+    },    {
+      "chainId": 101,
+      "address": "3EkHyexJLGCvSxzn5umbtd9N69GoT4p5pfdLTFqCNP9Y",
+      "symbol": "HIPPO",
+      "name": "Hippo Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3EkHyexJLGCvSxzn5umbtd9N69GoT4p5pfdLTFqCNP9Y/logo.png",
+      "tags": [
+        "meme-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://hippofamilynft.com/",
+        "twitter": "https://twitter.com/HipposCoin",
+        "discord": "https://discord.gg/sk3xN3sA8D"
       }
     },
     {
@@ -21357,6 +21385,7 @@
     "twitter":"https://twitter.com/borksolana"
   }
 }
+ ,{"chainId": 101, "address":  "53dqN1unCex98QWzLZtk1ssJptEcRwZapTrv8pakcgNB", "symbol":  "LGBR", "name": "LGBR - LETS GO BRANDON", "decimals": 9, "logoURI": "http://gopromoted.com/brandon.jpg", "tags": ["Meme-coin"], "extensions": { "discord":  "https://discord.gg/Qb7QRNAeH2", "twitter":  "https://twitter.com/LGBRCoin", "whitepaper":  "https://docs.google.com/document/d/1krRMK_b2DkvgV0AEl9rKN2LU4lh-QACWi9rXByfG8tQ/edit?usp=sharing"} }
 ,{
   "chainId": 101,
   "address": "5uE8w9yoMMu88NV8wUaZMuxCiufBBoSiJbNDAEGmDx7x",
@@ -21385,22 +21414,8 @@
   "discord": "https://discord.com/invite/wXaGzqUuru",
   "twitter": "https://twitter.com/s0lnumbers"
   }
-}],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 2
-  },
-  "chainId": 101,
-  "address": "2kMjMxSLLY3RP1Svg8THnoiAfnaScAemGUhVRF9bYcC7",
-  "symbol": "BPCoin",
-  "decimals": 9,
-  "extensions": {
-    "website": "https://bricks.properties",
-    "instagram": "https://instagram.com/bricksproperties"
-  }
-}
- ,{
+},
+{
 "chainId": 101,
       "address": "EMr7DzCHgA7Ako9uE2s82gXhyEw76GF4FkxnfWn9XEFP",
       "symbol": "SOW",
@@ -21415,25 +21430,7 @@
         "website": "https://solow.finance",
         "twitter": "https://twitter.com/Sowfinance"
       }
-    },
-    {
-      "chainId": 101,
-      "address": "3UCH5emeLYr5zT41gzrKL9r7ACnQJETr9rJyXK6okuaL",
-      "symbol": "FANTASY",
-      "name": "SolFantasy",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solanadevv/token-list/fadf50a0b566216005de963d7afbf2c36047f087/assets/mainnet/3UCH5emeLYr5zT41gzrKL9r7ACnQJETr9rJyXK6okuaL/logo.png",
-      "tags": [
-        "utility-token",
-        "nft"
-      ],
-      "extensions": {
-        "website": "http://solfantasy.com",
-        "twitter": "https://twitter.com/SolFantasyGirls"
-      }
-    }
-
-  ],
+}],
   "version": {
     "major": 0,
     "minor": 3,
