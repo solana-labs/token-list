@@ -57,16 +57,17 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
-	{
-		"chainId": 102,
-		"address": "8ZY7EkwN7LxifYvvrQDbpjqxkrjHUFMwWgq8fupNNvub",
-		"symbol": "BIAD",
-		"name": "daib test token",
-		"decimals": 6,
-		"logoURI": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02242929-14bc-4204-ac71-56d855a07078/512_daia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T051518Z&X-Amz-Expires=86400&X-Amz-Signature=df1424dcb1be408faa45ef6af1f7769edf977da365822e00c34a2150167bfe58&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22512_daia.png%22",
-		"tags": [],
-		"extensions": {
-			"website": "https://daios.io/"
+	{{
+      "chainId": 101,
+      "address": "GpDURPC8qRzKcikYZyxf9gZWrXHrRA8jUHVCEzbMYF5a",
+      "symbol": "JBR",
+      "name": "JbearNet",
+      "decimals": 6,
+      "logoURI": "https://github.com/jbonanza/jbrnet/blob/logo/jbearlogo.jpg",
+      "tags": [
+        "social-token",
+        "jbr" 
+      ],
 		}
 	},
     {
