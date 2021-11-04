@@ -21609,23 +21609,31 @@
 },
 {
   "chainId": 101,
-  "address": "4wfCtMp8KQ7r61V4qH2VtHxFjVjUdsWhgAmZgQi33UkT",
-  "symbol": "ARDN",
-  "name": "Ariadne Solana",
-  "decimals": 9,
-  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4wfCtMp8KQ7r61V4qH2VtHxFjVjUdsWhgAmZgQi33UkT/logo.svg",
+  "address": "5i8C6n4VbELnTHtES83aqeh16uPiEyve4jHr2QN2WhSz",
+  "symbol": "ZDRT",
+  "name": "ZDRT Club Token",
+  "decimals": 3,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5i8C6n4VbELnTHtES83aqeh16uPiEyve4jHr2QN2WhSz/logo.png",
   "tags": [
-    "utility-token",
-    "DeFi",
-    "marketplace",
-    "ariadne"
+	"social-token"
   ],
   "extensions": {
-    "website": "https://ariadne.finance/",
-    "twitter": "https://twitter.com/Ariadne_finance",
-    "medium": "https://medium.com/ariadne-project",
-    "telegram": "https://t.me/ariadne_finance"
+    "website": "https://zdrt.club",
+	"discord": "hhttps://discord.gg/VHpA4tQYXZ"
   }
+},
+{
+  "chainId": 101,
+  "address": "cFk6dNTfBHsfBqczM3tPaN2DyDRyzPNjoGYKCV4LWLV",
+  "symbol": "ASTRO",
+  "name": "Astro Token",
+  "decimals": 9,
+  "logoURI": "https://i.imgur.com/8iIlpko.jpg",
+  "tags": [
+    "social-token",
+    "DeFi",
+    "marketplace",
+  ]
 }],
   "version": {
     "major": 0,
