@@ -21344,6 +21344,18 @@
             "twitter": "https://twitter.com/dickcoinmoon"
           }
         }
+		,{
+      "chainId": 101,
+      "address": "3uXMgtaMRBcyEtEChgiLMdHDjb5Azr17SQWwQo3ppEH8",
+      "symbol": "WBRZ",
+    "name": "Wrapped BRZ",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x420412E765BFa6d85aaaC94b4f7b708C89be2e2B/logo.png",
+      "tags": ["exchange-token"],
+      "extensions": {
+	    "website":"https://www.brztoken.io/"
+      }
+}
 	,{
     "chainId": 101,
     "address": "AvB7Ffmt3H16bhq7ToXb839ynKzFgJxu2WDHsR1S9Yft",
@@ -21455,6 +21467,26 @@
     "website": "http://s0lnumbers.com/",
 	"discord": "https://discord.com/invite/wXaGzqUuru",
 	"twitter": "https://twitter.com/s0lnumbers"
+  }
+},
+{
+  "chainId": 101,
+  "address": "4wfCtMp8KQ7r61V4qH2VtHxFjVjUdsWhgAmZgQi33UkT",
+  "symbol": "ARDN",
+  "name": "Ariadne Solana",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4wfCtMp8KQ7r61V4qH2VtHxFjVjUdsWhgAmZgQi33UkT/logo.svg",
+  "tags": [
+    "utility-token",
+    "DeFi",
+    "marketplace",
+    "ariadne"
+  ],
+  "extensions": {
+    "website": "https://ariadne.finance/",
+    "twitter": "https://twitter.com/Ariadne_finance",
+    "medium": "https://medium.com/ariadne-project",
+    "telegram": "https://t.me/ariadne_finance"
   }
 }],
   "version": {
