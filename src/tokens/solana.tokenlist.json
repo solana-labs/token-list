@@ -17,7 +17,7 @@
     "lp-token": {
       "name": "lp-token",
       "description": "Asset representing liquidity provider token"
-    },
+    },`
     "wrapped-sollet": {
       "name": "wrapped-sollet",
       "description": "Asset wrapped using sollet bridge"
@@ -21235,6 +21235,15 @@
     }
 ,{
       "chainId": 101,
+      "address": "3xENDm5iU3nja9N7o8ubRRqEodtxMTukp3tYqDFXmBjp",
+      "symbol": "Marco",
+      "name": "Marco",
+      "decimals": 9,
+      "logoURI": "https://github.com/bravechimp/SOLProject1/blob/main/logo.png",
+      "tags": [ "social-Token" ],
+ },
+{
+      "chainId": 101,
       "address": "3mXx1bNiB5bhgwznk4eeqM9eoy6DU3CeCkm1LPabeoEh",
       "symbol": "SAMOY",
       "name": "Samoy Meme Dog",
@@ -21545,4 +21554,4 @@
   "extensions": {
     "website": "https://www.uown.co"
   }
-}
+},
