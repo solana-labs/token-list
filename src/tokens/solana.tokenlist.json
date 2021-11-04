@@ -57,32 +57,33 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
-    {
-      "chainId": 101,
-      "address": "FEYFyLCFLcBNfSuaf2eXNvyY5Jpii7zg9X48Br5vyenG",
-      "symbol": "SUSDT",
-      "name": "Stether",
-      "decimals": 2,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FEYFyLCFLcBNfSuaf2eXNvyY5Jpii7zg9X48Br5vyenG/logo.png",
-      "tags": [
-        "stablecoin"
-      ],
-      "extensions": {
-        "website": "https://stether.io/"
-      }
-    },
-    {
-      "chainId": 102,
-      "address": "8ZY7EkwN7LxifYvvrQDbpjqxkrjHUFMwWgq8fupNNvub",
-      "symbol": "BIAD",
-      "name": "daib test token",
-      "decimals": 6,
-      "logoURI": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02242929-14bc-4204-ac71-56d855a07078/512_daia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T051518Z&X-Amz-Expires=86400&X-Amz-Signature=df1424dcb1be408faa45ef6af1f7769edf977da365822e00c34a2150167bfe58&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22512_daia.png%22",
-      "tags": [],
-      "extensions": {
-        "website": "https://daios.io/"
-      }
-    },
+
+	{
+		"chainId": 101,
+		"address": "FEYFyLCFLcBNfSuaf2eXNvyY5Jpii7zg9X48Br5vyenG",
+		"symbol": "SUSDT",
+		"name": "Stether",
+		"decimals": 2,
+		"logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FEYFyLCFLcBNfSuaf2eXNvyY5Jpii7zg9X48Br5vyenG/logo.png",
+		"tags": [
+		"stablecoin"
+		],
+		"extensions": {
+			"website": "https://stether.io/"
+		}
+	},
+	{
+		"chainId": 102,
+		"address": "8ZY7EkwN7LxifYvvrQDbpjqxkrjHUFMwWgq8fupNNvub",
+		"symbol": "BIAD",
+		"name": "daib test token",
+		"decimals": 6,
+		"logoURI": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02242929-14bc-4204-ac71-56d855a07078/512_daia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T051518Z&X-Amz-Expires=86400&X-Amz-Signature=df1424dcb1be408faa45ef6af1f7769edf977da365822e00c34a2150167bfe58&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22512_daia.png%22",
+		"tags": [],
+		"extensions": {
+			"website": "https://daios.io/"
+		}
+	},
     {
       "chainId": 101,
       "address": "7QTcx3LuVfPSZxVzFJcTmbpQCL35jkfoNSzx4qouX495",
@@ -708,6 +709,8 @@
         "DApp"
       ],
       "extensions": {
+        "serumV3Usdc": "7xy4r55rLu2QYeSGwTGDCBKEYERDX98f6kQLn9Zre6S3",
+        "coingeckoId": "solex-finance",
         "website": "https://solex.finance/",
         "twitter": "https://twitter.com/SolexFinance"
       }
@@ -5945,18 +5948,21 @@
       }
     },
 
-    {
-      "chainId": 101,
-      "address": "yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM",
-      "symbol": "yPRT",
-      "name": "Locked POFA PRTtoken",
-      "decimals": 6,
-      "logoURI": "https://github.com/aa4c/Logo/raw/master/yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM.png",
-      "extensions": {
-        "website": "https://parrot.fi",
-        "comment": "Because $PRT token price got rekt to hell after ido, they need to stop people from dumping more. 我們在Solana的鸚鵡，願人都尊你的名為Pofa，願你的PRT每週五降臨，願你的價格行在地上，如同賣壓行在天上。我們IDO用的價值幣，每日分拆給你們；讓我們當家人，如同我們拉人當家人。不叫我們遇見牛市，使我們脫離富有；因為家人，POFA，USDC，全是你的，直到永遠。阿們。"
-      }
-    },
+   
+{
+  "chainId": 101,
+  "address": "yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM",
+  "symbol": "yPRT",
+  "name": "Locked POFA PRTtoken",
+  "decimals": 6,
+  "logoURI": "https://github.com/aa4c/Logo/raw/master/yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM.png",
+  "extensions": {
+    "website": "https://parrot.fi",
+    "comment": "Because $PRT token price got rekt to hell after ido, they need to stop people from dumping more. 我們在Solana的鸚鵡，願人都尊你的名為Pofa，願你的PRT每週五降臨，願你的價格行在地上，如同賣壓行在天上。我們IDO用的價值幣，每日分拆給你們；讓我們當家人，如同我們拉人當家人。不叫我們遇見牛市，使我們脫離富有；因為家人，POFA，USDC，全是你的，直到永遠。阿們。"
+  }
+}
+,
+
     {
       "chainId": 101,
       "address": "Au9E8ygQdTJQZXmNKPdtLEP8rGjC4qsGRhkJgjFNPAr8",
@@ -21498,56 +21504,42 @@
         "discord ": "https://discord.soltricks.io",
         "twitter ": "https://twitter.com/soltricks"
 
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "rendopHqu4oE94AXjEEtporr1xW8Fsp4bZDccyMTYzU",
-      "symbol": "RENDO",
-      "name": "rendo.club",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/rendopHqu4oE94AXjEEtporr1xW8Fsp4bZDccyMTYzU/logo.png",
-      "tags": [
-        "utility-token"
-      ],
-      "extensions": {
-        "website": "https://rendo.club",
-        "discord ": "https://discord.gg/SvNZZu6",
-        "twitter ": "https://twitter.com/rendo"
 
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg ",
-      "symbol": "SINU ",
-      "name": "Samo INU ",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg/logo.png",
-      "tags": [
-        "meme-token"
-      ],
-      "extensions": {
-        "website": "https://www.samoinu.com",
-        "discord": "http://discord.gg/samoinu",
-        "twitter": "https://twitter.com/samo_inu"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug",
-      "symbol": "BCORGI",
-      "name": "BUFF CORGI",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug/logo.png",
-      "tags": [
-        "meme coin"
-      ],
-      "extensions": {
-        "website": "https://buffcorgi.io"
-      }
-    },
-    {
+  }}
+  ,
+{
+  "chainId": 101,
+  "address": "rendopHqu4oE94AXjEEtporr1xW8Fsp4bZDccyMTYzU",
+  "symbol": "RENDO",
+  "name": "rendo.club",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/rendopHqu4oE94AXjEEtporr1xW8Fsp4bZDccyMTYzU/logo.png",
+  "tags": [
+    "utility-token"
+  ],
+  "extensions": {
+    "website": "https://rendo.club",
+    "discord ": "https://discord.gg/SvNZZu6",
+    "twitter ": "https://twitter.com/rendo"
+
+  }}
+  ,{
+  "chainId": 101,
+  "address": "F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg ",
+  "symbol": "SINU ",
+  "name": "Samo INU ",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg/logo.png",
+  "tags": [
+    "meme-token"
+  ],
+  "extensions": {
+    "website": "https://www.samoinu.com",
+    "discord":"http://discord.gg/samoinu",
+    "twitter":"https://twitter.com/samo_inu"
+  }
+}
+    ,{
       "chainId": 101,
       "address": "4BPw4jwHWqQCbkD2VWtLFL5PLBRmkHZiievTm1ebiWYJ",
       "symbol": "NPC",
