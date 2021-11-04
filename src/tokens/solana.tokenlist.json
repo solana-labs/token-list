@@ -58,6 +58,20 @@
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
     {
+      "chainId": 101,
+      "address": "FEYFyLCFLcBNfSuaf2eXNvyY5Jpii7zg9X48Br5vyenG",
+      "symbol": "SUSDT",
+      "name": "Stether",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FEYFyLCFLcBNfSuaf2eXNvyY5Jpii7zg9X48Br5vyenG/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://stether.io/"
+      }
+    },
+    {
       "chainId": 102,
       "address": "8ZY7EkwN7LxifYvvrQDbpjqxkrjHUFMwWgq8fupNNvub",
       "symbol": "BIAD",
@@ -20677,6 +20691,20 @@
     },
     {
       "chainId": 101,
+      "address": "DHpoYejUDqzByb6HAdaLWF7KZvwUv2vWYDY9cTENNZui",
+      "symbol": "acUSDC",
+      "name": "Wrapped USDC (Allbridge from Celo)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "5pWsyiUEpKHvi86QmQPivfF1WND11DDwv7nS1wVMwsRf",
       "symbol": "Meleon",
       "name": "Solameleon",
@@ -21460,6 +21488,20 @@
     },
     {
       "chainId": 101,
+      "address": "972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug",
+      "symbol": "BCORGI",
+      "name": "BUFF CORGI",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug/logo.png",
+      "tags": [
+        "meme coin"
+      ],
+      "extensions": {
+        "website": "https://buffcorgi.io"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "4BPw4jwHWqQCbkD2VWtLFL5PLBRmkHZiievTm1ebiWYJ",
       "symbol": "NPC",
       "name": "Nole NPC",
@@ -21585,20 +21627,6 @@
         "twitter": "https://twitter.com/Ariadne_finance",
         "medium": "https://medium.com/ariadne-project",
         "telegram": "https://t.me/ariadne_finance"
-      }
-      {
-        "chainId": 101,
-        "address": "972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug",
-        "symbol": "BCORGI",
-        "name": "BUFF CORGI",
-        "decimals": 6,
-        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug/logo.png",
-        "tags": [
-          "meme coin"
-        ],
-        "extensions": {
-          "website": "https://buffcorgi.io"
-        }
       }
     }
   ],
