@@ -21607,29 +21607,88 @@
       }
     }
   ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 2
-  },
-  "chainId": 101,
-  "address": "2kMjMxSLLY3RP1Svg8THnoiAfnaScAemGUhVRF9bYcC7",
-  "symbol": "BPCoin",
-  "decimals": 9,
+<<<<<<< HEAD
+=======
   "extensions": {
-    "website": "https://bricks.properties",
-    "instagram": "https://instagram.com/bricksproperties"
-  },
-  "chainId": 103,
-  "address": "4p9KCkzJ26JDNsQY6FJHx8wn2N8UtTfA9KNduWEuLN9b",
-  "symbol": "UO",
-  "name": "UOWN Coin",
-  "decimals": 10,
-  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4p9KCkzJ26JDNsQY6FJHx8wn2N8UtTfA9KNduWEuLN9b/logo.png",
+    "website": "https://www.scifiverse.net"
+  }
+},
+{
+  "chainId": 101,
+  "address": "BTSPdFLQJ9R3JXAgjVx2JtLq4sNSjiVSGh4tQi4oRUi8",
+  "symbol": "DYOR",
+  "name": "DO YOUR OWN RESEARCH",
+  "decimals": 5,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BTSPdFLQJ9R3JXAgjVx2JtLq4sNSjiVSGh4tQi4oRUi8/logo.png",
   "tags": [
-    "stablecoin"
+    "utility-token"
   ],
   "extensions": {
-    "website": "https://www.uown.co"
+    "website": "http://s0lnumbers.com/",
+    "discord": "https://discord.com/invite/wXaGzqUuru",
+    "twitter": "https://twitter.com/s0lnumbers"
   }
+},
+{
+  "chainId": 101,
+  "address": "5i8C6n4VbELnTHtES83aqeh16uPiEyve4jHr2QN2WhSz",
+  "symbol": "ZDRT",
+  "name": "ZDRT Club Token",
+  "decimals": 3,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5i8C6n4VbELnTHtES83aqeh16uPiEyve4jHr2QN2WhSz/logo.png",
+  "tags": [
+    "social-token"
+  ],
+  "extensions": {
+    "website": "https://zdrt.club",
+    "discord": "hhttps://discord.gg/VHpA4tQYXZ"
+  }
+},
+{
+  "chainId": 101,
+  "address": "4wfCtMp8KQ7r61V4qH2VtHxFjVjUdsWhgAmZgQi33UkT",
+  "symbol": "ARDN",
+  "name": "Ariadne Solana",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4wfCtMp8KQ7r61V4qH2VtHxFjVjUdsWhgAmZgQi33UkT/logo.svg",
+  "tags": [
+    "utility-token",
+    "DeFi",
+    "marketplace",
+    "ariadne"
+  ],
+  "extensions": {
+    "website": "https://ariadne.finance/",
+    "twitter": "https://twitter.com/Ariadne_finance",
+    "medium": "https://medium.com/ariadne-project",
+    "telegram": "https://t.me/ariadne_finance"
+  }
+}
+],
+>>>>>>> 2f12b4c262df6443feb9cc4297e9fa29f7005a45
+  "version": {
+"major": 0,
+"minor": 3,
+"patch": 2
+},
+"chainId": 101,
+"address": "2kMjMxSLLY3RP1Svg8THnoiAfnaScAemGUhVRF9bYcC7",
+"symbol": "BPCoin",
+"decimals": 9,
+"extensions": {
+"website": "https://bricks.properties",
+"instagram": "https://instagram.com/bricksproperties"
+},
+"chainId": 103,
+"address": "4p9KCkzJ26JDNsQY6FJHx8wn2N8UtTfA9KNduWEuLN9b",
+"symbol": "UO",
+"name": "UOWN Coin",
+"decimals": 10,
+"logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4p9KCkzJ26JDNsQY6FJHx8wn2N8UtTfA9KNduWEuLN9b/logo.png",
+"tags": [
+"stablecoin"
+],
+"extensions": {
+"website": "https://www.uown.co"
+}
 }
