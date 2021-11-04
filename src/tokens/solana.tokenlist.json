@@ -58,20 +58,6 @@
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
     {
-      "chainId": 101,
-      "address": "972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug",
-      "symbol": "BCORGI",
-      "name": "BUFF CORGI",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug/logo.png",
-      "tags": [
-        "meme coin"
-      ],
-      "extensions": {
-        "website": "https://buffcorgi.io"
-      }
-    }
-    {
       "chainId": 102,
       "address": "8ZY7EkwN7LxifYvvrQDbpjqxkrjHUFMwWgq8fupNNvub",
       "symbol": "BIAD",
@@ -316,6 +302,20 @@
       "extensions": {
         "twitter": "https://twitter.com/WipeMyAssNFT",
         "website": "https://wipemyass.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EkDf4Nt89x4Usnxkj4sGHX7sWxkmmpiBzA4qdDkgEN6b",
+      "symbol": "SOB",
+      "name": "SolaLambo",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EkDf4Nt89x4Usnxkj4sGHX7sWxkmmpiBzA4qdDkgEN6b/logo.png",
+      "tags": [ "community-token" ],
+      "extensions": {
+        "website": "https://sob.finance/",
+        "discord": "https://discord.gg/sy2xymyc7J",
+        "twitter": "https://twitter.com/SolaLambo"
       }
     },
     {
@@ -21554,6 +21554,21 @@
     },
     {
       "chainId": 101,
+      "address": "5i8C6n4VbELnTHtES83aqeh16uPiEyve4jHr2QN2WhSz",
+      "symbol": "ZDRT",
+      "name": "ZDRT Club Token",
+      "decimals": 3,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5i8C6n4VbELnTHtES83aqeh16uPiEyve4jHr2QN2WhSz/logo.png",
+      "tags": [
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://zdrt.club",
+        "discord": "hhttps://discord.gg/VHpA4tQYXZ"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "4wfCtMp8KQ7r61V4qH2VtHxFjVjUdsWhgAmZgQi33UkT",
       "symbol": "ARDN",
       "name": "Ariadne Solana",
@@ -21570,6 +21585,20 @@
         "twitter": "https://twitter.com/Ariadne_finance",
         "medium": "https://medium.com/ariadne-project",
         "telegram": "https://t.me/ariadne_finance"
+      }
+      {
+        "chainId": 101,
+        "address": "972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug",
+        "symbol": "BCORGI",
+        "name": "BUFF CORGI",
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/972bKKa3uA4uLUSRfGvYi36PD35SChPLaugndvyNiJug/logo.png",
+        "tags": [
+          "meme coin"
+        ],
+        "extensions": {
+          "website": "https://buffcorgi.io"
+        }
       }
     }
   ],
