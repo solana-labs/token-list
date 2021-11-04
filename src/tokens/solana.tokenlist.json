@@ -83,6 +83,23 @@
 			"website": "https://daios.io/"
 		}
 	},
+  {
+    "chainId": 101,
+    "address": "4JEaBv49a4KdSrMduKZS3PcBCcPmPEmaY3uP7kXv6cj6",
+    "symbol": "$ASS",
+    "name": "Ass Coin",
+    "decimals": 9,
+    "logoUri": "https://static-api-cuazlhxxrq-uk.a.run.app/static/token.png",
+    "tags": [
+      "MEMES-TOKEN",
+      "NFTS",
+      "DEX"
+    ],
+    "extensions": {
+      "website": "https://solanadonkey.business",
+      "twitter": "https://twitter.com/solanadonkeBs"
+    }
+  },
     {
       "chainId": 101,
       "address": "7QTcx3LuVfPSZxVzFJcTmbpQCL35jkfoNSzx4qouX495",
@@ -100,23 +117,24 @@
         "medium": "https://medium.com/@akelasolana",
         "twitter": "https://twitter.com/AkelaTOKEN"
       }
-      },    {
-        "chainId": 101,
-        "address": "3EkHyexJLGCvSxzn5umbtd9N69GoT4p5pfdLTFqCNP9Y",
-        "symbol": "HIPPO",
-        "name": "Hippo Coin",
-        "decimals": 9,
-        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3EkHyexJLGCvSxzn5umbtd9N69GoT4p5pfdLTFqCNP9Y/logo.png",
-        "tags": [
-          "meme-token",
-          "community-token"
-        ],
-        "extensions": {
-          "website": "https://hippofamilynft.com/",
-          "twitter": "https://twitter.com/HipposCoin",
-          "discord": "https://discord.gg/sk3xN3sA8D"
-        }
-      },    {
+    },    {
+      "chainId": 101,
+      "address": "3EkHyexJLGCvSxzn5umbtd9N69GoT4p5pfdLTFqCNP9Y",
+      "symbol": "HIPPO",
+      "name": "Hippo Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3EkHyexJLGCvSxzn5umbtd9N69GoT4p5pfdLTFqCNP9Y/logo.png",
+      "tags": [
+        "meme-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://hippofamilynft.com/",
+        "twitter": "https://twitter.com/HipposCoin",
+        "discord": "https://discord.gg/sk3xN3sA8D"
+      }
+    },
+    {
       "chainId": 101,
       "address": "FoqP7aTaibT5npFKYKQQdyonL99vkW8YALNPwWepdvf5",
       "symbol": "BIP",
@@ -131,6 +149,19 @@
         "website": "https://www.thestarship.finance/",
         "twitter": "https://twitter.com/solanadbs",
         "discord": "https://discord.gg/solanadbs"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2R78szN1fZeQvSmeiUPe7Db7BFTPee5EVE2FduQx8Wtw",
+      "symbol": "USDMD",
+      "name": "MONDOCOIN",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2R78szN1fZeQvSmeiUPe7Db7BFTPee5EVE2FduQx8Wtw/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://mondocoin.org/",
+        "twitter": "https://twitter.com/mondocoin_usdmd"
       }
     },
     {
@@ -301,6 +332,22 @@
   "extensions": {
     "twitter": "https://twitter.com/WipeMyAssNFT",
     "website": "https://wipemyass.io/"
+  }
+},
+{
+  "chainId": 101,
+  "address": "FTkj421DxbS1wajE74J34BJ5a1o9ccA97PkK6mYq9hNQ",
+  "symbol": "MINECRAFT",
+  "name": "Synex Coin",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FTkj421DxbS1wajE74J34BJ5a1o9ccA97PkK6mYq9hNQ/logo.png",
+  "tags": [
+	"utility-token","community-token"
+  ],
+  "extensions": {
+    "website": "https://synexcoin.dev",
+	"discord": "https://discord.gg/N3BE44234A",
+	"telegram": "https://t.me/synexcoin"
   }
 },
 {
@@ -21644,19 +21691,21 @@
 },
 {
   "chainId": 101,
-  "address": "Fzs17QjYy7ZicGgBv2auDGA55TEV2PfSpK8cCax9m6fh",
-  "symbol": "NBX",
-  "name": "Nathan Bolin Coin",
-  "decimals": 9,
-  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fzs17QjYy7ZicGgBv2auDGA55TEV2PfSpK8cCax9m6fh/logo.png",
+  "address": "GcqEZcpnMYmxRhPp9sRh1wLLWTmFjTwp7CVQcuYX73sT",
+  "symbol": "WHALE",
+  "name": "Whale Token",
+  "decimals": 8,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GcqEZcpnMYmxRhPp9sRh1wLLWTmFjTwp7CVQcuYX73sT/logo.png",
   "tags": [
-    "social-token",
-    "utility-token",
-    "community-token"
+    "community-token",
+    "meme-token",
+    "whale",
+    "whale-token",
+    "crypto-whale"
   ],
   "extensions": {
-    "website": "http://nathanbolin.com/",
-    "twitter": "https://twitter.com/nathanbolin"
+    "twitter": "https://twitter.com/CryptoWhale",
+    "website":"https://cryptowhale.org/"
   }
 },
 {
