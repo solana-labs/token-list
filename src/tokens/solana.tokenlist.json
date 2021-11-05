@@ -22194,62 +22194,66 @@
             "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
             "assetContract": "https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955"
           }
+        },
+        {
+          "version": {
+            "major": 0,
+            "minor": 3,
+            "patch": 2
+          }
+        },
+        {
+          "chainId": 101,
+          "address": "2kMjMxSLLY3RP1Svg8THnoiAfnaScAemGUhVRF9bYcC7",
+          "symbol": "BPCoin",
+          "decimals": 9,
+          "extensions": {
+            "website": "https://bricks.properties",
+            "instagram": "https://instagram.com/bricksproperties"
+          },
+          "chainId": 103,
+          "address": "4p9KCkzJ26JDNsQY6FJHx8wn2N8UtTfA9KNduWEuLN9b",
+          "symbol": "UO",
+          "name": "UOWN Coin",
+          "decimals": 10,
+          "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4p9KCkzJ26JDNsQY6FJHx8wn2N8UtTfA9KNduWEuLN9b/logo.png",
+          "tags": [
+            "stablecoin"
+          ],
+          "extensions": {
+            "website": "https://www.uown.co"
+          },
+          "chainId": 101,
+          "address": "7zhbkbKpGaUsJW7AD4yyAfGGoy53Xx2H3Ai5BKcwGKHw",
+          "symbol": "BUNNY",
+          "name": "SolBunny",
+          "decimals": 0,
+          "logoURI": "https://raw.githubusercontent.com/BunnyNomics101/token-list/main/assets/mainnet/7zhbkbKpGaUsJW7AD4yyAfGGoy53Xx2H3Ai5BKcwGKHw/logo.png",
+          "tags": [
+            "dao",
+            "meme-token",
+            "Defi",
+            "Gamefi"
+          ],
+          "extensions": {
+            "website": "https://solbunny.io",
+            "discord": "https://discord.gg/h7CZnKCb",
+            "twitter": "https://twitter.com/SolanaBunny"
+          },
+          "chainId": 101,
+          "address": "AjPHuKiLwJML2WG8k9pYNRNA9ePRWng719664QT1cuij",
+          "symbol": "SOLPANDS",
+          "name": "SOLPANDS",
+          "decimals": 9,
+          "logoURI": "https://i.ibb.co/m07n4vn/photo-2021-10-30-00-38-55.jpg",
+          "tags": [
+            "meme-token"
+          ],
+          "extensions": {
+            "twitter": "https://twitter.com/SOLPANDS"
+          }
         }
-      ],
-      "version": {
-        "major": 0,
-        "minor": 3,
-        "patch": 2
-      },
-      "chainId": 101,
-      "address": "2kMjMxSLLY3RP1Svg8THnoiAfnaScAemGUhVRF9bYcC7",
-      "symbol": "BPCoin",
-      "decimals": 9,
-      "extensions": {
-        "website": "https://bricks.properties",
-        "instagram": "https://instagram.com/bricksproperties"
-      },
-      "chainId": 103,
-      "address": "4p9KCkzJ26JDNsQY6FJHx8wn2N8UtTfA9KNduWEuLN9b",
-      "symbol": "UO",
-      "name": "UOWN Coin",
-      "decimals": 10,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4p9KCkzJ26JDNsQY6FJHx8wn2N8UtTfA9KNduWEuLN9b/logo.png",
-      "tags": [
-        "stablecoin"
-      ],
-      "extensions": {
-        "website": "https://www.uown.co"
-      },
-      "chainId": 101,
-      "address": "7zhbkbKpGaUsJW7AD4yyAfGGoy53Xx2H3Ai5BKcwGKHw",
-      "symbol": "BUNNY",
-      "name": "SolBunny",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/BunnyNomics101/token-list/main/assets/mainnet/7zhbkbKpGaUsJW7AD4yyAfGGoy53Xx2H3Ai5BKcwGKHw/logo.png",
-      "tags": [
-        "dao",
-        "meme-token",
-        "Defi",
-        "Gamefi"
-      ],
-      "extensions": {
-        "website": "https://solbunny.io",
-        "discord": "https://discord.gg/h7CZnKCb",
-        "twitter": "https://twitter.com/SolanaBunny"
-      },
-      "chainId": 101,
-      "address": "AjPHuKiLwJML2WG8k9pYNRNA9ePRWng719664QT1cuij",
-      "symbol": "SOLPANDS",
-      "name": "SOLPANDS",
-      "decimals": 9,
-      "logoURI": "https://i.ibb.co/m07n4vn/photo-2021-10-30-00-38-55.jpg",
-      "tags": [
-        "meme-token"
-      ],
-      "extensions": {
-        "twitter": "https://twitter.com/SOLPANDS"
-      }
+      ]
     }
   ]
 }
