@@ -1,3 +1,4 @@
+
 {
   "name": "Solana Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
@@ -117,6 +118,142 @@
         "medium": "https://medium.com/@akelasolana",
         "twitter": "https://twitter.com/AkelaTOKEN"
       }
+    }
+,{
+  "name": "Solana Token List",
+  "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
+  "keywords": [
+    "solana",
+    "spl"
+  ],
+  "tags": {
+    "stablecoin": {
+      "name": "stablecoin",
+      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    },
+    "ethereum": {
+      "name": "ethereum",
+      "description": "Asset bridged from ethereum"
+    },
+    "lp-token": {
+      "name": "lp-token",
+      "description": "Asset representing liquidity provider token"
+    },
+    "wrapped-sollet": {
+      "name": "wrapped-sollet",
+      "description": "Asset wrapped using sollet bridge"
+    },
+    "wrapped": {
+      "name": "wrapped",
+      "description": "Asset wrapped using wormhole bridge"
+    },
+    "leveraged": {
+      "name": "leveraged",
+      "description": "Leveraged asset"
+    },
+    "bull": {
+      "name": "bull",
+      "description": "Leveraged Bull asset"
+    },
+    "bear": {
+      "name": "bear",
+      "description": "Leveraged Bear asset"
+    },
+    "nft": {
+      "name": "nft",
+      "description": "Non-fungible token"
+    },
+    "security-token": {
+      "name": "security-token",
+      "description": "Tokens that are used to gain access to an electronically restricted resource"
+    },
+    "utility-token": {
+      "name": "utility-token",
+      "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
+    },
+    "tokenized-stock": {
+      "name": "tokenized-stock",
+      "description": "Tokenized stocks are tokenized derivatives that represent traditional securities, particularly shares in publicly firms traded on regulated exchanges"
+    }
+  },
+  "timestamp": "2021-03-03T19:57:21+0000",
+  "tokens": [
+	{
+		"chainId": 101,
+		"address": "Bjgh4YsLdicr8WArz9ftdSmpWNcQjsZ9KV3w9fkjiLG",
+		"symbol": "SOLRC",
+		"name": "SolRaca",
+		"decimals": 8,
+		"logoURI": "https://raw.githubusercontent.com/Solraca/token-list/main/assets/mainnet/Bjgh4YsLdicr8WArz9ftdSmpWNcQjsZ9KV3w9fkjiLG/solraca.png",
+		"tags": [
+		"meme-token"
+		],
+		"extensions": {
+			"telegram": "https://t.me/solracaofficial"
+			
+		}
+	},
+	{
+		"chainId": 101,
+		"address": "FEYFyLCFLcBNfSuaf2eXNvyY5Jpii7zg9X48Br5vyenG",
+		"symbol": "SUSDT",
+		"name": "Stether",
+		"decimals": 2,
+		"logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FEYFyLCFLcBNfSuaf2eXNvyY5Jpii7zg9X48Br5vyenG/logo.png",
+		"tags": [
+		"stablecoin"
+		],
+		"extensions": {
+			"website": "https://stether.io/"
+		}
+	},
+	{
+		"chainId": 102,
+		"address": "8ZY7EkwN7LxifYvvrQDbpjqxkrjHUFMwWgq8fupNNvub",
+		"symbol": "BIAD",
+		"name": "daib test token",
+		"decimals": 6,
+		"logoURI": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02242929-14bc-4204-ac71-56d855a07078/512_daia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T051518Z&X-Amz-Expires=86400&X-Amz-Signature=df1424dcb1be408faa45ef6af1f7769edf977da365822e00c34a2150167bfe58&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22512_daia.png%22",
+		"tags": [],
+		"extensions": {
+			"website": "https://daios.io/"
+		}
+	},
+  {
+    "chainId": 101,
+    "address": "4JEaBv49a4KdSrMduKZS3PcBCcPmPEmaY3uP7kXv6cj6",
+    "symbol": "$ASS",
+    "name": "Ass Coin",
+    "decimals": 9,
+    "logoUri": "https://static-api-cuazlhxxrq-uk.a.run.app/static/token.png",
+    "tags": [
+      "MEMES-TOKEN",
+      "NFTS",
+      "DEX"
+    ],
+    "extensions": {
+      "website": "https://solanadonkey.business",
+      "twitter": "https://twitter.com/solanadonkeBs"
+    }
+  },
+    {
+      "chainId": 101,
+      "address": "7QTcx3LuVfPSZxVzFJcTmbpQCL35jkfoNSzx4qouX495",
+      "symbol": "AKELA",
+      "name": "AKELA",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7QTcx3LuVfPSZxVzFJcTmbpQCL35jkfoNSzx4qouX495/logo.svg",
+      "tags": [
+        "Akela",
+        "Meme"
+      ],
+      "extensions": {
+        "website": "https://akelatoken.com",
+        "discord": "https://discord.gg/vBHgckmR",
+        "medium": "https://medium.com/@akelasolana",
+        "twitter": "https://twitter.com/AkelaTOKEN"
+      }
+>
     },    {
       "chainId": 101,
       "address": "3EkHyexJLGCvSxzn5umbtd9N69GoT4p5pfdLTFqCNP9Y",
