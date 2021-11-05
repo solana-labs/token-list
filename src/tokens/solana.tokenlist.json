@@ -183,6 +183,21 @@
     },
     {
       "chainId": 101,
+      "address": "F9tytWqLUAPXQTy6dejGtSgvJQZWYC71naD5bCi6caGX",
+      "symbol": "INUGAMI",
+      "name": "INUGAMI Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/INVESTOR888/content/main/F9tytWqLUAPXQTy6dejGtSgvJQZWYC71naD5bCi6caGX.png",
+      "tags": [
+        "meme-token"
+      ],
+      "extensions": {
+        "website": "https://inugamicoin.com",
+        "twitter": "https://twitter.com/inugamicoin"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "B7RDhZ2iqE4FEwK5nfcZ9r2xhVL6rQJCo1dcjDXnF688",
       "symbol": "LAT",
       "name": "Latte",
@@ -275,6 +290,21 @@
     "telegram": "https://t.me/emontoken"
   }
 },
+{
+      "chainId": 101,
+      "address": "7mNihWEjzWv9yCZc8capE4mS8v5Xvp5YH2yQhtZrQV5B",
+      "symbol": "SBreakpoint",
+      "name": "Solana Breakpoint",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/tribeland/token-list/main/assets/mainnet/7mNihWEjzWv9yCZc8capE4mS8v5Xvp5YH2yQhtZrQV5B/logo.png",
+      "tags": ["meme-token"],
+      "extensions": {
+       	"discord": "https://discord.gg/8jSUfzjjDG"
+        
+      }
+    },
+
+
 {
     "chainId": 101,
     "address": "6Km8PRUQxPmNX6EhmAuu3sFEnCP6uT2Yt42zPFR6VNnD",
@@ -18419,6 +18449,11 @@
       "name": "Himalayan Cat Coin",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/72hgmvS5zFxaFJfMizq6Gp4gjBqXjTPyX9GDP38krorQ/logo.png"
+      ,
+      "extensions": {
+        "website": "https://www.himalayancatcoin.com/",
+	"twitter": "https://twitter.com/himacoin"
+      }
     },
     {
       "chainId": 101,
@@ -21667,8 +21702,11 @@
   ,{
   "chainId": 101,
   "address": "F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg ",
+  "address": "F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg",
   "symbol": "SINU ",
+  "symbol": "SINU",
   "name": "Samo INU ",
+  "name": "Samo INU",
   "decimals": 9,
   "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F7mgxaYF1gg1hBtaVzENSG6ey3pn6J1mXhBRmHxDzBNg/logo.png",
   "tags": [
@@ -21702,6 +21740,7 @@
 ,{
   "chainId": 101,
   "address": "2LxZrcJJhzcAju1FBHuGvw929EVkX7R7Q8yA2cdp8q7b ",
+  "address": "2LxZrcJJhzcAju1FBHuGvw929EVkX7R7Q8yA2cdp8q7b",
   "symbol": "BORK",
   "name": "BORK",
   "decimals": 3,
@@ -21774,6 +21813,7 @@
     "ariadne"
   ],
   "extensions": {
+    "coingeckoId": "ariadne",
     "website": "https://ariadne.finance/",
     "twitter": "https://twitter.com/Ariadne_finance",
     "medium": "https://medium.com/ariadne-project",
@@ -21927,6 +21967,22 @@
 },
 {
   "chainId": 101,
+  "address": "FiPpi1nhxws1cPkyy76AzmHkFMyB3NysdU8RruTXuzNf",
+  "symbol": "KAJU",
+  "name": "KAJU Coin",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/kajucoin/assets/main/logo.jpg",
+  "tags": [
+    "Meme", "Social"
+  ],
+  "extensions": {
+    "website": "http://www.kajucoin.com/",
+    "twitter": "https://twitter.com/kajucoin",
+    "instagram": "http://instagram.com/kajucoin"
+  }
+},
+{
+  "chainId": 101,
   "address": "FCqfQSujuPxy6V42UvafBhsysWtEq1vhjfMN1PUbgaxA",
   "symbol": "USDC",
   "name": "USD Coin (Wormhole)",
@@ -21941,6 +21997,35 @@
     "assetContract": "https://bscscan.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
   }
 },
+{
+  "chainId": 101,
+  "address": "ASoLXbfe7cd6igh5yiEsU8M7FW64QRxPKkxk7sjAfond",
+  "symbol": "aSOL",
+  "name": "aSOL Aggregate Solana Stake Pool",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ASoLXbfe7cd6igh5yiEsU8M7FW64QRxPKkxk7sjAfond/logo.svg",
+  "tags": [],
+  "extensions": {
+    "coingeckoId": "solana",
+    "description": "aSOL is the standard for transacting with staked SOL tokens.",
+    "website": "https://asol.so",
+    "twitter": "https://twitter.com/aSOLprotocol",
+    "github": "https://github.com/aSolHQ"
+  }
+},
+{
+      "chainId": 101,
+      "address": "Ew2xovnfCPoUwPeqtRJrk3ST8o6txNFPL2QxrcZrbspv",
+      "symbol": "AUV",
+      "name": "Atlantis Universe",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Ew2xovnfCPoUwPeqtRJrk3ST8o6txNFPL2QxrcZrbspv/logo.png",
+      "tags": ["games-token"],
+      "extensions": {
+       	"twitter": "https://twitter.com/atlantisvers"
+
+      }
+    },
 {
   "chainId": 101,
   "address": "8qJSyQprMC57TWKaYEmetUR3UUiTP2M3hXdcvFhkZdmv",
