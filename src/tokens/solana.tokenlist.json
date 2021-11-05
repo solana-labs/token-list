@@ -20963,7 +20963,21 @@
       ]
     }
 
-,
+,{
+   "chainId": 101,
+   "address": "AjPHuKiLwJML2WG8k9pYNRNA9ePRWng719664QT1cuij",
+   "symbol": "SOLPAN",
+   "name": "Solana Panda",
+   "decimals": 9,
+   "logoURI": "https://i.ibb.co/m07n4vn/photo-2021-10-30-00-38-55.jpg",
+   "tags": [
+     "meme-token"
+    ],
+   "extensions": {
+   "twitter":"https://twitter.com/SOLPANDS",
+   "discord":"https://discord.com/invite/Q2sqQxFYMS"
+    }
+},
 	{
       "chainId": 101,
       "address": "Uuc6hiKT9Y6ASoqs2phonGGw2LAtecfJu9yEohppzWH",
@@ -21970,18 +21984,5 @@
     "website": "https://solbunny.io",
     "discord":"https://discord.gg/h7CZnKCb",
     "twitter":"https://twitter.com/SolanaBunny"
-  },
-      "chainId": 101,
-      "address": "AjPHuKiLwJML2WG8k9pYNRNA9ePRWng719664QT1cuij",
-      "symbol": "SOLPAN",
-      "name": "Solana Panda",
-      "decimals": 9,
-      "logoURI": "https://i.ibb.co/m07n4vn/photo-2021-10-30-00-38-55.jpg",
-      "tags": [
-        "meme-token"
-       ],
-      "extensions": {
-        "website":"https://twitter.com/SOLPANDS",
-        "discord":"https://discord.com/invite/Q2sqQxFYMS"
-       }
+  }
 }
