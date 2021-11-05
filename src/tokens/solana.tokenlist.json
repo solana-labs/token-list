@@ -210,6 +210,21 @@
     },
     {
       "chainId": 101,
+      "address": "F9tytWqLUAPXQTy6dejGtSgvJQZWYC71naD5bCi6caGX",
+      "symbol": "INUGAMI",
+      "name": "INUGAMI Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/INVESTOR888/content/main/F9tytWqLUAPXQTy6dejGtSgvJQZWYC71naD5bCi6caGX.png",
+      "tags": [
+        "meme-token"
+      ],
+      "extensions": {
+        "website": "https://inugamicoin.com",
+        "twitter": "https://twitter.com/inugamicoin"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "B7RDhZ2iqE4FEwK5nfcZ9r2xhVL6rQJCo1dcjDXnF688",
       "symbol": "LAT",
       "name": "Latte",
@@ -21938,6 +21953,22 @@
     "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
     "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
     "assetContract": "https://bscscan.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+  }
+},
+{
+  "chainId": 101,
+  "address": "ASoLXbfe7cd6igh5yiEsU8M7FW64QRxPKkxk7sjAfond",
+  "symbol": "aSOL",
+  "name": "aSOL Aggregate Solana Stake Pool",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ASoLXbfe7cd6igh5yiEsU8M7FW64QRxPKkxk7sjAfond/logo.svg",
+  "tags": [],
+  "extensions": {
+    "coingeckoId": "solana",
+    "description": "aSOL is the standard for transacting with staked SOL tokens.",
+    "website": "https://asol.so",
+    "twitter": "https://twitter.com/aSOLprotocol",
+    "github": "https://github.com/aSolHQ"
   }
 },
 {
