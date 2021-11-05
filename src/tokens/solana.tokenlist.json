@@ -21816,6 +21816,38 @@
   ],
   "extensions": {
   }
+},
+{
+  "chainId": 101,
+  "address": "FCqfQSujuPxy6V42UvafBhsysWtEq1vhjfMN1PUbgaxA",
+  "symbol": "USDC",
+  "name": "USD Coin (Wormhole)",
+  "decimals": 8,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FCqfQSujuPxy6V42UvafBhsysWtEq1vhjfMN1PUbgaxA/logo.png",
+  "tags": [
+    "wrapped"
+  ],
+  "extensions": {
+    "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+    "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+    "assetContract": "https://bscscan.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+  }
+},
+{
+  "chainId": 101,
+  "address": "8qJSyQprMC57TWKaYEmetUR3UUiTP2M3hXdcvFhkZdmv",
+  "symbol": "USDT",
+  "name": "Tether USD (Wormhole)",
+  "decimals": 8,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8qJSyQprMC57TWKaYEmetUR3UUiTP2M3hXdcvFhkZdmv/logo.png",
+  "tags": [
+    "wrapped"
+  ],
+  "extensions": {
+    "address": "0x55d398326f99059ff775485246999027b3197955",
+    "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+    "assetContract": "https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955",
+  }
 }],
   "version": {
     "major": 0,
