@@ -15937,6 +15937,22 @@
         "website": "https://www.abion.org/"
       }
     },
+	{
+  "chainId": 101,
+  "address": "EN1VhM7BmuqAuUDGDDnzXZdefaFpvNHFCAwjXzp6gRhJ",
+  "symbol": "BBS",
+  "name": "BONER",
+  "decimals": 6,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EN1VhM7BmuqAuUDGDDnzXZdefaFpvNHFCAwjXzp6gRhJ/logo.png",
+  "tags": [
+    "utility-token",
+    "nft-token"
+  ],
+  "extensions": {
+    "website": "https://www.barebonesnft.com/",
+    "twitter": "https://twitter.com/BareBonesNFT"
+  }
+},
     {
       "chainId": 101,
       "address": "CnGUfvi9FxiRPuaBXpYmaXEwBjj5X6kwNJB2Cba5TiQp",
@@ -20702,6 +20718,22 @@
     },
     {
       "chainId": 101,
+      "address": "GWRYczsoTksFqiwcrBRiXjihcL9g9udaAQAMeBSczf6h",
+      "symbol": "SHBL LP token",
+      "name": "SHBL-USDC Cropper LP",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DubwWZNWiNGMMeeQHPnMATNj77YZPZSAz2WVR5WjLJqz/logo.png",
+      "tags": [
+        "utility-token",
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://cropper.finance/farms/"
+      }
+    }
+    ,
+    {
+      "chainId": 101,
       "address": "8WR1cJ2RvcqFMNpsaBdUHamsibv8ywcCwmUAMg6ob1Xo",
       "symbol": "VIBES",
       "name": "Vibes",
@@ -21741,6 +21773,22 @@
 },
 {
   "chainId": 101,
+  "address": "CJ2K2J3HYU6ibR1JwLkUmD9RM8eytfxtMcLzYPqoQQKo",
+  "symbol": "BONER",
+  "name": "BONER",
+  "decimals": 6,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CJ2K2J3HYU6ibR1JwLkUmD9RM8eytfxtMcLzYPqoQQKo/logo.png",
+  "tags": [
+    "utility-token",
+    "nft-token"
+  ],
+  "extensions": {
+    "website": "https://www.barebonesnft.com/",
+    "twitter": "https://twitter.com/BareBonesNFT"
+  }
+},
+{
+  "chainId": 101,
   "address": "8o66EVAf4u2Hr21m2tuRrPtEXFPLr8G8aL1ETStP8fDu",
   "symbol": "VIBE",
   "name": "VIBE",
@@ -21797,6 +21845,38 @@
     "Meme", "Social"
   ],
   "extensions": {
+  }
+},
+{
+  "chainId": 101,
+  "address": "FCqfQSujuPxy6V42UvafBhsysWtEq1vhjfMN1PUbgaxA",
+  "symbol": "USDC",
+  "name": "USD Coin (Wormhole)",
+  "decimals": 8,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FCqfQSujuPxy6V42UvafBhsysWtEq1vhjfMN1PUbgaxA/logo.png",
+  "tags": [
+    "wrapped"
+  ],
+  "extensions": {
+    "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+    "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+    "assetContract": "https://bscscan.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+  }
+},
+{
+  "chainId": 101,
+  "address": "8qJSyQprMC57TWKaYEmetUR3UUiTP2M3hXdcvFhkZdmv",
+  "symbol": "USDT",
+  "name": "Tether USD (Wormhole)",
+  "decimals": 8,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8qJSyQprMC57TWKaYEmetUR3UUiTP2M3hXdcvFhkZdmv/logo.png",
+  "tags": [
+    "wrapped"
+  ],
+  "extensions": {
+    "address": "0x55d398326f99059ff775485246999027b3197955",
+    "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+    "assetContract": "https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955"
   }
 }],
   "version": {
