@@ -36,6 +36,8 @@ export interface TokenExtensions {
   readonly serumV3Usdt?: string;
   readonly serumV3Usdc?: string;
   readonly coingeckoId?: string;
+  readonly imageUrl?: string;
+  readonly description?: string;
 }
 
 export interface TokenInfo {
@@ -62,7 +64,7 @@ export class GitHubTokenListResolutionStrategy {
     'https://raw.githubusercontent.com/solana-labs/token-list/main/src/tokens/solana.tokenlist.json',
   ];
 
-  resolve = async () => {
+  resolve = () => {
     return queryJsonFiles(this.repositories);
   };
 }
@@ -72,7 +74,7 @@ export class CDNTokenListResolutionStrategy {
     'https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/solana.tokenlist.json',
   ];
 
-  resolve = async () => {
+  resolve = () => {
     return queryJsonFiles(this.repositories);
   };
 }
@@ -106,13 +108,13 @@ export enum Strategy {
 }
 
 export class SolanaTokenListResolutionStrategy {
-  resolve = async () => {
+  resolve = () => {
     throw new Error(`Not Implemented Yet.`);
   };
 }
 
 export class StaticTokenListResolutionStrategy {
-  resolve = async () => {
+  resolve = () => {
     return tokenlist.tokens;
   };
 }
