@@ -2,7 +2,7 @@ name: Build
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 jobs:
   build:
@@ -14,4 +14,3 @@ jobs:
           node-version: 12
       - run: yarn
       - run: yarn test
-      
