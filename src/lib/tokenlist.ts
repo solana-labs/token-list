@@ -38,6 +38,9 @@ export interface TokenExtensions {
   readonly coingeckoId?: string;
   readonly imageUrl?: string;
   readonly description?: string;
+  readonly telegram?: string;
+  readonly instagram?: string;
+  readonly waterfallbot?: string;
 }
 
 export interface TokenInfo {
