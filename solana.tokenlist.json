@@ -57,6 +57,23 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+    {
+      "chainId": 101,
+      "address": "HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo",
+      "symbol": "CWAR",
+      "name": "Cryowar Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://cryowar.com",
+        "telegram": "https://t.me/cryowar",
+        "twitter": "https://twitter.com/CryowarDevs",
+        "discord": "https://discord.com/invite/cryowar"
+      }
+    },
   {
 	  "chainId": 101,
 "address": "8o2LqpeVcdpNB8qeGJcAFr4rQ4cc2wTpJPdgtsWZWdh7",
@@ -172,6 +189,7 @@
         "utility-token"
       ],
       "extensions": {
+        "serumV3Usdc": "9tr5uMYHgtJ5yG4SeqHA6kJUdzXrK6QCNGYgewQevuuS",
         "website": "https://www.thestarship.finance/",
         "twitter": "https://twitter.com/solanadbs",
         "discord": "https://discord.gg/solanadbs"
@@ -20533,6 +20551,24 @@
       "twitter": "https://twitter.com/TokenRetriever",
       "website": "https://retrievertoken.dog/"
     }
+},
+{
+  "chainId": 103,
+  "address": "RMRUKEmLrdjYSpd7gxQQ2y4VuFcM8jkanXaDNuMdaCZ",
+  "symbol": "RM",
+  "name": "Ringgit Malaysia",
+  "decimals": 2,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RMRUKEmLrdjYSpd7gxQQ2y4VuFcM8jkanXaDNuMdaCZ/logo.png",
+  "tags": [
+    "stablecoin",
+    "ringgit",
+    "malaysia"
+  ],
+  "extensions": {
+    "website":"https://ringgit.finance",
+    "twitter": "https://twitter.com/ringgitfinance",
+    "discord":"https://discord.com/invite/ringgitfinance"
+  }
 },
 {
     "chainId": 101,
