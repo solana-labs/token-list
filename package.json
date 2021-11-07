@@ -8,6 +8,7 @@
   "repository": "https://github.com/solana-labs/token-list",
   "license": "Apache",
   "keywords": [],
+  "private": true, 
   "scripts": {
     "prepublish": "run-s build:*",
     "build": "run-p build:*",
@@ -108,5 +109,4 @@
   "dependencies": {
     "cross-fetch": "3.0.6"
   }
-  "private": true 
 }
