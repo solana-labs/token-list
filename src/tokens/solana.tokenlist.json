@@ -1930,6 +1930,7 @@
       "logoURI": "https://raw.githubusercontent.com/rishkumaria/bamboo/main/bamboo.png",
       "tags": [],
       "extensions": {
+          "coingeckoId": "bamboo-coin",
           "website": " "
       }
     }, {
@@ -23715,6 +23716,21 @@
       }
 },
 {  "chainId": 101,
+      "address": "6cH34XtzNgCDwb7NFbiji1a1N8F3FgmXTrFxvzBZNVui",
+      "symbol": "KINGSHIB",
+      "name": "King Shiba",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6cH34XtzNgCDwb7NFbiji1a1N8F3FgmXTrFxvzBZNVui/logo.png",
+      "tags": [
+         "meme", "community","NFTs","DEFI",
+      "Dog"
+      ],
+      "extensions": {
+        "website": "https://www.kingshibaofficial.com/",
+	"twitter":"https://twitter.com/kingshiba_sol"
+      }
+},
+{  "chainId": 101,
       "address": "8cDqXAoivNdvwd1sy74rTfMeYMM4J1u1ey8WRFYk5RD",
       "symbol": "YEE",
       "name": "YEECoin",
@@ -23892,3 +23908,20 @@
 	      "github": "https://github.com/bitadx"
       }
     }
+	,
+	
+	"chainId": 101,
+      "address": "Bo2kpetkHvtdjASpeRRiugzmdFhvbVsCMH6aq4mNd8TL",
+      "symbol": "NETX",
+      "name": "Syncline Health Network",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bo2kpetkHvtdjASpeRRiugzmdFhvbVsCMH6aq4mNd8TL/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://syncline.network",
+		"twitter ": "https://twitter.com/synclinenetwork",
+		"telegram ": "https://t.me/joinchat/SKSLdG0sF53TFK6_"
+      }
+}
