@@ -10298,7 +10298,6 @@
       "tags": [],
       "extensions": {
         "website": "https://woofsolana.com",
-        "coingeckoId": "woof-token",
         "serumV3Usdc": "CwK9brJ43MR4BJz2dwnDM7EXCNyHhGqCJDrAdsEts8n5"
       }
     },
@@ -22768,6 +22767,23 @@
       "Telegram":"https://t.me/ApeMoonSOL"
     }
   },
+ {
+    "chainId": 101,
+    "address": "6qAJ9W5XCb2JyrTRV8bcoXa6HmHNz9YikLMWK71dH1sY",
+    "symbol": "SOLEM",
+    "name": "SolemPad",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6qAJ9W5XCb2JyrTRV8bcoXa6HmHNz9YikLMWK71dH1sY/logo.png",
+    "tags": [
+      "LaunchPAD"
+  
+    ],
+    "extensions": {
+      "twitter":"https://twitter.com/solempad",
+      "website": "https://solempad.net",
+      "Telegram":"https://t.me/solempad"
+    }
+  },
 {
     "chainId": 101,
     "address": "QuYNbuTjnAUQ8YxtrmGfu8P1UAEvcG3CngFpXCo3Cts",
@@ -22960,4 +22976,3 @@
       "extensions": {
         "website": "https://dockcoin.me/"
       }
-}
