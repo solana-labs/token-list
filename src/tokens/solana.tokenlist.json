@@ -23530,7 +23530,22 @@
     "website": "https://dancingdoge.co/",
     "twitter": "https://twitter.com/DandoToken"
   }
-}],
+},
+	{
+		  "chainId": 101,
+		  "address": "J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q",
+		  "symbol": "POCH",
+		  "name": "Poochu Coin",
+		  "decimals": 9,
+		  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q/logo.png",
+		  "tags": [
+			"stake-pool-token",
+			"utility-token",
+			"meme-token",
+			"community-token"
+		  ]
+	}
+],
   "version": {
     "major": 0,
     "minor": 3,
@@ -23717,20 +23732,5 @@
   "extensions": {
     "website": "https://mend.house",
     "twitter": "https://twitter.com/mendappinc"
-  }
-  
-  ,
-  "chainId": 101,
-  "address": "J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q",
-  "symbol": "POCH",
-  "name": "Poochu Coin",
-  "decimals": 9,
-  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q/logo.png",
-  "tags": [
-	"stake-pool-token",
-	"utility-token",
-	"meme-token",
-	"community-token"
-  ]
-  
+  }  
 }
