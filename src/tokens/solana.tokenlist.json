@@ -59,20 +59,6 @@
   "tokens": [
     {
       "chainId": 101,
-      "address": "J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q",
-      "symbol": "POCH",
-      "name": "Poochu Coin",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q/logo.png",
-      "tags": [
-        "stake-pool-token",
-        "utility-token",
-        "meme-token",
-        "community-token"
-      ]
-    },
-    {
-      "chainId": 101,
       "address": "CgbJxXyaHeU8VsquBpySuFXA94b6LWXxioZ28wRr8fs9",
       "symbol": "VINU",
       "name": "Viral Inu",
@@ -93,6 +79,25 @@
     },
     {
       "chainId": 101,
+      "address": "6bLp99VoqKU1C3Qp6VTNvSoCoc78jMGxPkGSSopq8wHB",
+      "symbol": "Paws",
+      "name": "Solana Paws",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6bLp99VoqKU1C3Qp6VTNvSoCoc78jMGxPkGSSopq8wHB/logo.png",
+      "tags": [
+        "meme coin",
+        "community",
+        "doge",
+        "Paws"
+      ],
+      "extensions": {
+        "website": " https://www.solpaws.com",
+        "twitter": "https://twitter.com/Sol_Paws",
+        "discord": "https://discord.gg/sVP35wfPhX"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "roCKojKezC7HhPxph5qb4UBasvmZJWgegCF57PvaV2f",
       "symbol": "ROCK",
       "name": "RockDeFi",
@@ -104,6 +109,25 @@
       ],
       "extensions": {
         "website": "https://rockdefi.app/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FeGm2DB4EWHm2LS8ABnRatzARDRYFyUPkLsSJkJwBuSu",
+      "symbol": "FKM",
+      "name": "FLOKIMUSK (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGm2DB4EWHm2LS8ABnRatzARDRYFyUPkLsSJkJwBuSu/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0xc999f49bb48179d5df09402a4a7a4034bc039f81",
+        "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+        "assetContract": "https://bscscan.com/address/0xc999f49bb48179d5df09402a4a7a4034bc039f81",
+        "website": "https://flokimuskweb.com",
+        "twitter": "https://twitter.com/flokimuskmeme"
       }
     },
     {
@@ -6506,20 +6530,18 @@
       "chainId": 101,
       "address": "yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM",
       "symbol": "yPRT",
-      "name": "Locked POFA PRTtoken",
+      "name": "yPRT (Parrot Yield Token)",
       "decimals": 6,
-      "logoURI": "https://github.com/aa4c/Logo/raw/master/yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM/logo.svg",
       "extensions": {
         "website": "https://parrot.fi",
-        "comment": "Because $PRT token price got rekt to hell after ido, they need to stop people from dumping more. 我們在Solana的鸚鵡，願人都尊你的名為Pofa，願你的PRT每週五降臨，願你的價格行在地上，如同賣壓行在天上。我們IDO用的價值幣，每日分拆給你們；讓我們當家人，如同我們拉人當家人。不叫我們遇見牛市，使我們脫離富有；因為家人，POFA，USDC，全是你的，直到永遠。阿們。",
-        "telegram": "https://t.me/solanatw",
-        "note": "The icon is not reletaed to CTBC Bank in any way.",
-        "twitter": "https://youtu.be/dQw4w9WgXcQ"
+        "twitter": "https://twitter.com/gopartyparrot",
+        "telegram": "https://t.me/gopartyparrot",
+        "medium": "https://gopartyparrot.medium.com/",
+        "discord": "https://discord.gg/gopartyparrot",
+        "comment": ""
       },
-      "tags": [
-        "meme token",
-        "POFA token"
-      ]
+      "tags": []
     },
     {
       "chainId": 101,
@@ -21310,6 +21332,24 @@
     },
     {
       "chainId": 101,
+      "address": "SAMUmmSvrE8yqtcG94oyP1Zu2P9t8PSRSV3vewsGtPM",
+      "symbol": "SAMU",
+      "name": "Samusky Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SAMUmmSvrE8yqtcG94oyP1Zu2P9t8PSRSV3vewsGtPM/logo.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://samusky.io",
+        "twitter": "https://twitter.com/samuskyio",
+        "github": "https://github.com/samuskyio",
+        "telegram": "https://t.me/samuskyio"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "27NnGuWWsJ2aJvG85D27eiYBCcfc8LcFcvuW5yHM6gSz",
       "symbol": "BLC",
       "name": "bl Coin",
@@ -23244,6 +23284,40 @@
     },
     {
       "chainId": 101,
+      "address": "GEdo2wNT5DDy7pQqApKrpc7MVnLmC3GJnb55iRmGieAi",
+      "symbol": "DogeKing",
+      "name": "Doge King",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GEdo2wNT5DDy7pQqApKrpc7MVnLmC3GJnb55iRmGieAi/logo.png",
+      "tags": [
+        "meme-token",
+        "DOGE",
+        "NFT",
+        "community"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/DogeKing_SOL"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EpxkCmZT9MmGe2UfpH7zFEhpi8RknT4BwG2VyGJPG4Ps",
+      "symbol": "CUMSTAR",
+      "name": "CumStar SOL",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EpxkCmZT9MmGe2UfpH7zFEhpi8RknT4BwG2VyGJPG4Ps/logo.png",
+      "tags": [
+        "Application",
+        "Payment",
+        "NFT",
+        "community"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/CumStarSol"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "ApSAjELw31MrMMxWXPeSrsDaakmA66XE1gpJKJhhh5ix",
       "symbol": "FJB",
       "name": "FJB",
@@ -23544,5 +23618,17 @@
   "extensions": {
     "website": "https://mend.house",
     "twitter": "https://twitter.com/mendappinc"
-  }
+  },
+  "chainId": 101,
+  "address": "J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q",
+  "symbol": "POCH",
+  "name": "Poochu Coin",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q/logo.png",
+  "tags": [
+    "stake-pool-token",
+    "utility-token",
+    "meme-token",
+    "community-token"
+  ]
 }
