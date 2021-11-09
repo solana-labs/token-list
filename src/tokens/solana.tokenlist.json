@@ -107,6 +107,25 @@
     }
   },
   {
+      "chainId": 101,
+      "address": "FeGm2DB4EWHm2LS8ABnRatzARDRYFyUPkLsSJkJwBuSu",
+      "symbol": "FKM",
+      "name": "FLOKIMUSK (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGm2DB4EWHm2LS8ABnRatzARDRYFyUPkLsSJkJwBuSu/logo.png",
+      "tags": [
+        "wrapped",
+		"wormhole"
+      ],
+      "extensions": {
+        "address": "0xc999f49bb48179d5df09402a4a7a4034bc039f81",
+        "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+        "assetContract": "https://bscscan.com/address/0xc999f49bb48179d5df09402a4a7a4034bc039f81",
+        "website": "https://flokimuskweb.com",
+        "twitter": "https://twitter.com/flokimuskmeme"
+    }
+  },
+  {
     "chainId": 101,
     "address": "usdrQqxAGgWsBRzzcckAi9ZAzHp19rFCNn87p4Q8Eir",
     "symbol": "USDR",
@@ -21271,6 +21290,21 @@
         "twitter": "https://twitter.com/trashypandasNFT"
       }
     },
+{
+        "chainId": 101,
+        "address": "SAMUmmSvrE8yqtcG94oyP1Zu2P9t8PSRSV3vewsGtPM",
+        "symbol": "SAMU",
+        "name": "Samusky Token",
+        "decimals": 9,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SAMUmmSvrE8yqtcG94oyP1Zu2P9t8PSRSV3vewsGtPM/logo.png",
+        "tags": ["social-token", "community-token"],
+        "extensions": {
+          "website": "https://samusky.io",
+          "twitter": "https://twitter.com/samuskyio",
+          "github": "https://github.com/samuskyio",
+          "telegram": "https://t.me/samuskyio"
+        }
+      },
     {
       "chainId": 101,
       "address": "27NnGuWWsJ2aJvG85D27eiYBCcfc8LcFcvuW5yHM6gSz",
