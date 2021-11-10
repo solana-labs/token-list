@@ -57,6 +57,41 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+     {
+      "chainId": 101,
+      "address": "BqRtfrNpvRAW3KW319hvhPoTu76wKU2LTdXJyG9CyDze",
+      "symbol": "ECHO",
+      "name": "EchoDao",
+      "decimals": 9,
+      "logoURI": "https://i.imgur.com/HnnxQND.png",
+      "tags": [
+        "utility-token",
+		"DAO-fork"
+      ],
+      "extensions": {
+        "serumV3Usdc": "8bjQ8XvzrDxKxHhTccpLkqGLbBrCAAPuv6KHrgN95nDW",
+        "website": "https://echodao.xyz",
+        "twitter": "https://twitter.com/echodao_sol",
+        "discord": "https://discord.com/invite/NtvVPs4WnY"
+      }
+    },
+   {
+      "chainId": 101,
+      "address": "6JdcMdhqgCtcP4U9tieRqmKLhPLxRMLC67QfmdXAJBvZ",
+      "symbol": "KITTY",
+      "name": "KITTY SOLANA",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6JdcMdhqgCtcP4U9tieRqmKLhPLxRMLC67QfmdXAJBvZ.png",
+      "tags": [
+        "meme-token"
+      ],
+      "extensions": {
+        "serumV3Usdc": "8bjQ8XvzrDxKxHhTccpLkqGLbBrCAAPuv6KHrgN95nDW",
+        "website": "https://kittysolana.com/",
+        "twitter": "https://twitter.com/kitty_solana",
+        "discord": "https://discord.gg/XaRfbtsscz"
+      }
+    },
    {
       "chainId": 101,
       "address": "HDiA4quoMibAGeJQzvxajp3Z9cvnkNng99oVrnuNj6px",
@@ -306,6 +341,7 @@
       ],
       "extensions": {
         "website": "https://astrapad.io/",
+		"twitter": "https://twitter.com/astrapadio",
 		"coingeckoId": "astrapad",
         "telegram": "https://t.me/AstraPadANN",
         "twitter": "https://twitter.com/AstraPad"
@@ -16851,6 +16887,12 @@
         "social-token"
       ],
       "extensions": {
+        "coingeckoId": "balisari",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/balisari/",
+        "serumV3Usdc": "Hq2tZzrdNrMtDsdXeCf9CrN3aS3geJTEqtLRPyiYRZc",
+        "twitter": "https://twitter.com/balisaritrans",
+        "discord": "https://discord.gg/6ndxB4vS56",
+        "telegram": "https://t.me/balisaritrans",
         "website": "https://www.balisaritrans.site/"
       }
     },
@@ -20286,6 +20328,21 @@
       ],
       "extensions": {
         "website": "https://aurory.io",
+        "description": "Aurory Token"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "xAURp5XmAG7772mfkSy6vRAjGK9JofYjc3dmQDWdVDP",
+      "symbol": "xAURY",
+      "name": "Aurory",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/xAURp5XmAG7772mfkSy6vRAjGK9JofYjc3dmQDWdVDP/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://aurory.io/staking",
         "description": "Aurory Token"
       }
     },
