@@ -22140,6 +22140,34 @@
     },
     {
       "chainId": 101,
+      "address": "Bo4ehCeRcRj2wp5tQpjfCJxYFn4KyRacfDzSa4Aj27tH",
+      "symbol": "ahBTC",
+      "name": "Wrapped BTC (Allbridge from HECO)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bo4ehCeRcRj2wp5tQpjfCJxYFn4KyRacfDzSa4Aj27tH/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "wrapped-bitcoin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj",
+      "symbol": "ahUSDT",
+      "name": "Wrapped USDT (Allbridge from HECO)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "5pWsyiUEpKHvi86QmQPivfF1WND11DDwv7nS1wVMwsRf",
       "symbol": "Meleon",
       "name": "Solameleon",
