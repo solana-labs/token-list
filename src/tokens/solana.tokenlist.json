@@ -57,24 +57,6 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
-     {
-      "chainId": 101,
-      "address": "BqRtfrNpvRAW3KW319hvhPoTu76wKU2LTdXJyG9CyDze",
-      "symbol": "ECHO",
-      "name": "EchoDao",
-      "decimals": 9,
-      "logoURI": "https://i.imgur.com/HnnxQND.png",
-      "tags": [
-        "utility-token",
-		"DAO-fork"
-      ],
-      "extensions": {
-        "serumV3Usdc": "8bjQ8XvzrDxKxHhTccpLkqGLbBrCAAPuv6KHrgN95nDW",
-        "website": "https://echodao.xyz",
-        "twitter": "https://twitter.com/echodao_sol",
-        "discord": "https://discord.com/invite/NtvVPs4WnY"
-      }
-    },
    {
       "chainId": 101,
       "address": "6JdcMdhqgCtcP4U9tieRqmKLhPLxRMLC67QfmdXAJBvZ",
@@ -182,6 +164,21 @@
     "twitter": "https://twitter.com/babyoogi_"
   }
 },
+  {
+    "chainId": 101,
+    "address": "2GZ4ZwV2jujVe75CQsFifKQFHHXK2wgjTKzSdVe45VSX",
+    "symbol": "BRO",
+    "name": "Solana Brothers Token",
+    "decimals": 9,
+    "logoURI": "https://i.ibb.co/CwhCw04/bro-icon.png",
+    "tags": [
+      "community-token"
+    ],
+    "extensions": {
+      "twitter": "https://twitter.com/SolanaBrothers",
+      "telegram": "https://t.me/solana_brothers"
+    }
+  },
   {
     "chainId": 101,
     "address": "48iGP5MUTZ8DCfDvZ9dpgKySP2iekQ3zPKZM8AhDjEmw",
