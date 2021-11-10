@@ -22140,6 +22140,34 @@
     },
     {
       "chainId": 101,
+      "address": "Bo4ehCeRcRj2wp5tQpjfCJxYFn4KyRacfDzSa4Aj27tH",
+      "symbol": "ahBTC",
+      "name": "Wrapped BTC (Allbridge from HECO)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bo4ehCeRcRj2wp5tQpjfCJxYFn4KyRacfDzSa4Aj27tH/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "wrapped-bitcoin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj",
+      "symbol": "ahUSDT",
+      "name": "Wrapped USDT (Allbridge from HECO)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "5pWsyiUEpKHvi86QmQPivfF1WND11DDwv7nS1wVMwsRf",
       "symbol": "Meleon",
       "name": "Solameleon",
@@ -24459,22 +24487,5 @@
 ],
 "extensions": {
 "website": "https://groot.sol/"
-},
-{
-  "chainId": 101,
-  "address": "73YQDsoPB3t5n5GqX53tKrwJK1n6HCZ935MEbo2gEYU5",
-  "symbol": "KAJAME",
-  "name": "Kajame",
-  "decimals": 4,
-  "logoURI": "https://raw.githubusercontent.com/jame3032002/token-list/fdb5c46be88cbaffc61a74dac52ff8d7194c6c63/assets/mainnet/73YQDsoPB3t5n5GqX53tKrwJK1n6HCZ935MEbo2gEYU5/logo.png",
-  "tags": [
-    "meme-token",
-    "social-token",
-    "community-token"
-  ],
-  "extensions": {
-    "blog": "https://blog.me-idea.in.th",
-    "website": "https://kajame.xyz"
-  }
 }
 }
