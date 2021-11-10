@@ -23697,21 +23697,6 @@
     "twitter": "https://twitter.com/solaghosts"
   }
 },
-		{
-		"chainId": 101,
-		"address": "J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q",
-		"symbol": "POCH",
-		"name": "Poochu Coin",
-		"decimals": 9,
-		"logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q/logo.png",
-		"tags": [
-			"stake-pool-token",
-			"utility-token",
-			"meme-token",
-			"community-token"
-		]
-	
-},
 {
   "chainId": 101,
   "address": "7WSpoEhi7zQB8t7Y5TqAdp83SMLExFh263cyJZR6BDKu",
@@ -23726,8 +23711,22 @@
   "extensions": {
     "website": "https://coe.hott-lab.rocks"
   }
-}
-],
+},
+		{
+		"chainId": 101,
+		"address": "J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q",
+		"symbol": "POCH",
+		"name": "Poochu Coin",
+		"decimals": 9,
+		"logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J9yYvSXrtMV749XAbcFeMFpeY4AFwkFq9WpNDmmfV81Q/logo.png",
+		"tags": [
+			"stake-pool-token",
+			"utility-token",
+			"meme-token",
+			"community-token"
+		]
+	
+}],
   "version": {
     "major": 0,
     "minor": 3,
