@@ -282,6 +282,36 @@
     },
 {
     "chainId": 101,
+    "address": "GGupQCMnyEmHKcqFu72qCTm6yEYpVyhouY9dSAMEXLsC",
+    "symbol": "DOGEC",
+    "name": "Dogecoin Cash",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GGupQCMnyEmHKcqFu72qCTm6yEYpVyhouY9dSAMEXLsC/logo.png",
+    "tags": [
+    "community-token", "meme-token", "doge","dogecoin"
+    ],
+    "extensions": {
+	
+    }
+   }
+   ,
+{
+    "chainId": 101,
+    "address": "2d9LcdAQCnxPHSca6frjQzYKapNzB7caSuLKpeWBctvT",
+    "symbol": "Taboo",
+    "name": "TABOO TOKEN",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2d9LcdAQCnxPHSca6frjQzYKapNzB7caSuLKpeWBctvT/logo.png",
+    "tags": [
+    "community-token", "Taboo-token", "Taboo","Videos"
+    ],
+    "extensions": {
+	
+    }
+   }
+   ,
+{
+    "chainId": 101,
     "address": "roCKojKezC7HhPxph5qb4UBasvmZJWgegCF57PvaV2f",
     "symbol": "ROCK",
     "name": "RockDeFi",
@@ -394,6 +424,19 @@
     {
     "chainId": 101,
     "address": "2kzNeq9Yc6rghrgSfat3cvBkmK9JiePaLv7B4r1YKGDX",
+    "symbol": "FUTT",
+    "name": "Futtbucks",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2kzNeq9Yc6rghrgSfat3cvBkmK9JiePaLv7B4r1YKGDX/logo.png",
+    "tags": ["community-token", "currency"],
+    "extensions": {
+      "website": "https://futtbucks.com/",
+      "instagram": "https://www.instagram.com/futt.bucks/"
+    }
+  },
+{
+    "chainId": 101,
+    "address": "DE3Tv7eWpXGanVQC9RW1P9RG6AHWtC8VgYS9hRRVcF93",
     "symbol": "FUTT",
     "name": "Futtbucks",
     "decimals": 9,
@@ -631,6 +674,20 @@
          "extensions": {
          "website": "https://artchivecoins.com/",
          "instagram": "https://www.instagram.com/artchive.nft/"
+      }
+    },
+    {  "chainId": 101,
+      "address": "BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD",
+      "symbol": "DIO",
+      "name": "Decimated",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD/logo.png",
+      "tags": [
+        "decimated", "DIO", "videogame","utility-token","virtual-currency"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/decimated_game",
+        "website": "https://www.decimated.net"
       }
     },
     {
@@ -22140,6 +22197,34 @@
     },
     {
       "chainId": 101,
+      "address": "Bo4ehCeRcRj2wp5tQpjfCJxYFn4KyRacfDzSa4Aj27tH",
+      "symbol": "ahBTC",
+      "name": "Wrapped BTC (Allbridge from HECO)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bo4ehCeRcRj2wp5tQpjfCJxYFn4KyRacfDzSa4Aj27tH/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "wrapped-bitcoin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj",
+      "symbol": "ahUSDT",
+      "name": "Wrapped USDT (Allbridge from HECO)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "5pWsyiUEpKHvi86QmQPivfF1WND11DDwv7nS1wVMwsRf",
       "symbol": "Meleon",
       "name": "Solameleon",
@@ -22831,6 +22916,24 @@
   "extensions": {
     "website": "https://digartcoin.xyz",
     "twitter": "https://twitter.com/digartcoin"
+  }
+},
+ {
+  "chainId": 101,
+  "address": "9aj5LDmjjwBXk5ijfoyQej3X6waV1rnk7QN4KVqjX8wH",
+  "symbol": "ARS",
+  "name": "Artists Coin",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9aj5LDmjjwBXk5ijfoyQej3X6waV1rnk7QN4KVqjX8wH/logo.png",
+  "tags": [
+    "social-token",
+    "utility-token",
+    "nft"
+  ],
+  "extensions": {
+    "website": "https://artistscoin.xyz",
+    "twitter": "https://twitter.com/artistscoin",
+	"instagram": "https://www.instagram.com/artistscoin"
   }
 },{
   "chainId": 101,
