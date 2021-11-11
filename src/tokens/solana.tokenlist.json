@@ -120,7 +120,7 @@
   },
   {
 
-    {
+    
 
       "chainId": 101,
       "address": "BqRtfrNpvRAW3KW319hvhPoTu76wKU2LTdXJyG9CyDze",
@@ -435,9 +435,8 @@
         "doge",
         "dogecoin"
       ],
-      "extensions": {
-      }
-	  
+      "extensions": {}
+    },
 	  {
       "chainId": 101,
       "address": "BZopZtZHqUY7ApiYTLjztQSgBoAsqQsJU3kFqHW27qEK",
@@ -454,7 +453,7 @@
     },
 	  
 	  
-    },
+    
     {
       "chainId": 101,
       "address": "2d9LcdAQCnxPHSca6frjQzYKapNzB7caSuLKpeWBctvT",
@@ -1024,20 +1023,12 @@
       "name": "Banana Bucks",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Dzzc14S1D7cEFGJyMZMACuoQRHVUYFhVE74C5o8Fwau/logo.svg",
-      "tags": [
-        "utility-token"
-      ],
-      "extensions": {
-        "website": "http://bananabucks.io/"
-
-        "utility-token"
-      ],
+      "tags": [ "utility-token"],
+      
       "extensions": {
         "website": "https://blocto.portto.com/",
         "telegram": "https://t.me/blocto",
-        "twitter": "https://twitter.com/BloctoApp"
-
-      }
+        "twitter": "https://twitter.com/BloctoApp"}
     },
     {
       "chainId": 101,
