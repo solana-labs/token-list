@@ -59,6 +59,30 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "2ah3bN48SKfRJbV93zEwfWz3FoUh44RUhRxDWFGzeaGL",
+      "symbol": "SAFE",
+      "name": "Safecoin",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/Fair-Exchange/safecoinwiki/master/Logos/SafeCoin/256.png",
+      "tags": [
+        "wrapped-wormhole2",
+      ],
+      "extensions": {
+        "bridgeContract": "https://etherscan.io/address/0xdaf566020156297e2837fdfaa6fbba929a29461e",
+        "serumV3Usdc": "3zyMD67tUqSfuF8XTZjzBjqT6daEUfx2nk6YSVtmzDnD",
+        "serumV3Usdt": "2sedHoXJosRteBjP4FEV4U9TJ6JhHaNDgmkzm2dNtSHe",  
+        "website": "https://safecoin.org",
+        "twitter": "https://twitter.com/safecoins",
+        "discord": "https://discord.gg/c6hWAkQ",
+        "telegram": "https://t.me/SafeCoinEN",
+        "medium": "https://safecoin.medium.com/",
+        "facebook": "https://www.facebook.com/safecoins/",
+        "instagram": "https://www.instagram.com/safecoinproject/",
+        "coingeckoId": "safe-coin-2",
+      }
+    },
+    {
+      "chainId": 101,
       "address": "BqRtfrNpvRAW3KW319hvhPoTu76wKU2LTdXJyG9CyDze",
       "symbol": "ECHO",
       "name": "EchoDao",
