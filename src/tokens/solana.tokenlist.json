@@ -56,7 +56,21 @@
     }
   },
   "timestamp": "2021-03-03T19:57:21+0000",
-  "tokens": [
+    "tokens": [
+      {
+      "chainId": 101,
+      "address": "DZdXinGjdUw1XQBp5WjPxeepUr6awLNmYTd8bS5t1NEo",
+      "symbol": "kHz",
+      "name": "Kolonie Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DZdXinGjdUw1XQBp5WjPxeepUr6awLNmYTd8bS5t1NEo/KolonieLogoIcon.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://kolonie.io/"
+      }
+    },
     {
       "chainId": 101,
       "address": "BqRtfrNpvRAW3KW319hvhPoTu76wKU2LTdXJyG9CyDze",
@@ -24869,3 +24883,4 @@
     "patch": 2
   }
 }
+
