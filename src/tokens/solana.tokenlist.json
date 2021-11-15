@@ -59,18 +59,19 @@
   "tokens": [
     {
       "chainId": 101,
-      "address": "4ARRSt12dP4AGRizgP2VcanNgEpSicceCRVf8QS5Wr3z",
-      "symbol": "SOLSVEN",
-      "name": "SOLSVEN",
-      "decimals": 2,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo/logo.png"
-      
+      "address": "HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo",
+      "symbol": "CWAR",
+      "name": "Cryowar Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo/logo.png",
+      "tags": [
+        "utility-token"
       ],
       "extensions": {
-        "website": "https://twitter.com/SOLSVEN_",
-        "telegram": "https://twitter.com/SOLSVEN_",
-        "twitter": "https://twitter.com/SOLSVEN_",
-        "discord": "https://discord.gg/hJmKE3mC"
+        "website": "https://cryowar.com",
+        "telegram": "https://t.me/cryowar",
+        "twitter": "https://twitter.com/CryowarDevs",
+        "discord": "https://discord.com/invite/cryowar"
       }
     },
     {
@@ -101,6 +102,10 @@
       "tags": [
         "community-token",
         "meme-token"
+      ],
+      "extensions": {
+        "website": "https://monketoken.xyz/"
+      }
     },
     {
       "chainId": 101,
@@ -25060,6 +25065,14 @@
         "wrapped",
         "wormhole"
       ]
+    }
+	{
+      "chainId": 101,
+      "address": "4ARRSt12dP4AGRizgP2VcanNgEpSicceCRVf8QS5Wr3z",
+      "symbol": "SOLSVEN",
+      "name": "SOLSVEN",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4ARRSt12dP4AGRizgP2VcanNgEpSicceCRVf8QS5Wr3z/logo.png",
     }
   ],
   "version": {
