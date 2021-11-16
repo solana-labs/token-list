@@ -40,8 +40,8 @@ jobs:
         with:
           labels: automerge
 
-      # - name: Merge pull request
-      #   if: ${{ steps.git_diff.outputs.valid == 'VALID' }}
-      #   uses: 'pascalgn/automerge-action@v0.14.3'
-      #   env:
-      #     GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+      - name: Merge pull request
+        if: ${{ steps.git_diff.outputs.valid == 'VALID' }}
+        uses: 'pascalgn/automerge-action@v0.14.3'
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
