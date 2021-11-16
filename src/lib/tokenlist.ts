@@ -79,6 +79,14 @@ export class CDNTokenListResolutionStrategy {
   };
 }
 
+export class SolanaTokenListResolutionStrategy {
+  repositories = ['https://token-list.solana.com/solana.tokenlist.json'];
+
+  resolve = () => {
+    return queryJsonFiles(this.repositories);
+  };
+}
+
 const queryJsonFiles = async (files: string[]) => {
   const responses: TokenList[] = (await Promise.all(
     files.map(async (repo) => {
@@ -105,12 +113,6 @@ export enum Strategy {
   Static = 'Static',
   Solana = 'Solana',
   CDN = 'CDN',
-}
-
-export class SolanaTokenListResolutionStrategy {
-  resolve = () => {
-    throw new Error(`Not Implemented Yet.`);
-  };
 }
 
 export class StaticTokenListResolutionStrategy {
