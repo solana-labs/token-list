@@ -174,3 +174,9 @@ import (
 	// 256x256
 	logoURI?: string
 }
+
+// Extra checks applied for new tokens only, not when processing the full file
+#StrictTokenInfo: #TokenInfo & {
+	// Require logoURI to be set
+	logoURI: #URL
+}
