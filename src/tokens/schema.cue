@@ -113,7 +113,6 @@ import (
 	twitch?: #URL
 	solanium?: #URL
 	vaultPubkey?: #Base58Address
-	attributes?: _
 }
 
 #TokenInfo: {
