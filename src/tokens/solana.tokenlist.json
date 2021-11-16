@@ -20624,8 +20624,8 @@
       ],
       "extensions": {
         "website": "https://aurory.io",
-        "description": "Aurory Token"
-        ,"coingeckoId": "aurory"
+        "description": "Aurory Token",
+        "coingeckoId": "aurory"
       }
     },
     {
@@ -25127,6 +25127,20 @@
         "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
         "assetContract": "https://bscscan.com/address/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
         "coingeckoId": "polygon"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FKkAyqqbcrSQiizKmNEFz64VWVct4H5VgFfJ7JA9wYY2",
+      "symbol": "FL",
+      "name": "Farmlands",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FKkAyqqbcrSQiizKmNEFz64VWVct4H5VgFfJ7JA9wYY2/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "http://farmlands.biz/"
       }
     }
   ],
