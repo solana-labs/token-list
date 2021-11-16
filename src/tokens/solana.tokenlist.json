@@ -26,7 +26,7 @@
       "name": "wrapped",
       "description": "Asset wrapped using wormhole bridge"
     },
-    "leveraged": {
+      "leveraged": {
       "name": "leveraged",
       "description": "Leveraged asset"
     },
@@ -57,6 +57,22 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+    {
+      "chainId": 101,
+      "address": "JFgnsmpFP3e8vTtWEBsKonPaCsb3cmdyhHwhN7HTAGW",
+      "symbol": "MAYA",
+      "name": "Maya",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/JFgnsmpFP3e8vTtWEBsKonPaCsb3cmdyhHwhN7HTAGW/logo.png",
+      "tags": [
+        "solana-token",
+        "utility-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://genezys.io"
+      }
+    },
     {
       "chainId": 101,
       "address": "HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo",
