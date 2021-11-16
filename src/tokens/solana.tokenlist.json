@@ -152,14 +152,6 @@
     },
     {
       "chainId": 101,
-      "address": "FmbEhUHfBmiLgURYPgeDrgfmhM6MwebcTGVteoQ8RUaC",
-      "symbol": "comtst",
-      "name": "comtst",
-      "decimals": 2,
-     }
-    },
-    {
-      "chainId": 101,
       "address": "8bpRdBGPt354VfABL5xugP3pmYZ2tQjzRcqjg2kmwfbF",
       "symbol": "AAPL",
       "name": "Apple Inc.",
@@ -12703,6 +12695,19 @@
       "extensions": {
         "website": "https://www.autostorm.io/",
         "discord": "https://discord.gg/yWjkHgnPD3"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FmbEhUHfBmiLgURYPgeDrgfmhM6MwebcTGVteoQ8RUaC",
+      "symbol": "TST",
+      "name": "COMTST",
+      "decimals": 2,
+      "tags": [
+        "TEST"
+      ],
+      "extensions": {
+        "website": "https://www.google.com/"
       }
     },
     {
