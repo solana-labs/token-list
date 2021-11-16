@@ -135,6 +135,8 @@
         "meme-token"
       ],
       "extensions": {
+        "coingeckoId": "kitty-solana",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/kitty-solana/",
         "serumV3Usdc": "8bjQ8XvzrDxKxHhTccpLkqGLbBrCAAPuv6KHrgN95nDW",
         "website": "https://kittysolana.com/",
         "twitter": "https://twitter.com/kitty_solana",
@@ -1387,8 +1389,11 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ALMmmmbt5KNrPPUBFE4dAKUKSPWTop5s3kUGCdF69gmw/logo.png",
       "tags": [],
       "extensions": {
+        "coingeckoId": "almond",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/almond/",
         "website": "https://almond.so/",
         "twitter": " https://twitter.com/almond_so",
+        "discord": "https://discord.gg/MBWsChEdFw",
         "serumV3Usdc": "DNxn3qM61GZddidjrzc95398SCWhm5BUyt8Y8SdKYr8W"
       }
     },
@@ -20620,6 +20625,7 @@
       "extensions": {
         "website": "https://aurory.io",
         "description": "Aurory Token"
+        ,"coingeckoId": "aurory"
       }
     },
     {
@@ -21164,6 +21170,7 @@
       "extensions": {
         "website": "http://www.lizardToken.xyz",
         "twitter": "https://twitter.com/Lizard_Token",
+        "coingeckoId": "lizard-token",
         "discord": "https://discord.gg/zMvCkck2k2"
       }
     },
