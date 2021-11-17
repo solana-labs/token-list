@@ -24601,16 +24601,7 @@
         "coingeckoId": "polygon"
       }
     },
-{
-"chainId": 101,
-"address": "7TmeYWYi29eV4u9Y2APupJBT7Ym28vdkgrw1QKHA3pW6",
-"symbol": "WAVE",
-"name": "WAVE Token",
-"decimals": 5,
-"logoURI": "https://raw.githubusercontent.com/wretchedwaters/wavetoken/main/logo/logo.png",
-"tags": [ "community-token", "wretched-waters-token" ],
-"extensions": { "website":"https://wretchedwaters.io" }
-},
+
     {
       "chainId": 101,
       "address": "J8LKx7pr9Zxh9nMhhT7X3EBmj5RzuhFrHKyJAe2F2i9S",
@@ -24675,7 +24666,16 @@
         "twitter": "https://twitter.com/ottercoinn",
         "website": "https://ottercoin.info/"
       }
-    }
+    },{
+      "chainId": 101,
+      "address": "7TmeYWYi29eV4u9Y2APupJBT7Ym28vdkgrw1QKHA3pW6",
+      "symbol": "WAVE",
+      "name": "WAVE Token",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/wretchedwaters/wavetoken/main/logo/logo.png",
+      "tags": [ "community-token", "wretched-waters-token" ],
+      "extensions": { "website":"https://wretchedwaters.io" }
+      }
   ],
   "version": {
     "major": 0,
