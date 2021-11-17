@@ -19,6 +19,6 @@ jobs:
 
       - run: ~/automerge -v=1
         env:
-          GITHUB_APP_PEM: "${{ secrets.GITHUB_APP_PEM }}"
+          GITHUB_APP_PEM: "${{ secrets.TL_APP_PEM }}"
 
       - run: git push -f origin automerge-pending:automerge-pending
