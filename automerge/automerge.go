@@ -610,6 +610,9 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 
 	var res []parser.Token
 
+	knownSymbols := map[string]bool{}
+	knownAddrs := map[string]bool{}
+	knownNames := map[string]bool{}
 	for _, h := range d.Hunks {
 		body := string(h.Body)
 		body = strings.Trim(body, "\n")
@@ -657,9 +660,6 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
             return nil, fmt.Errorf("failed to normalize: %w", err)
         }
 
-		knownSymbols := map[string]bool{}
-		knownAddrs := map[string]bool{}
-		knownNames := map[string]bool{}
 		for _, t := range tt {
 			if knownSymbols[t.Symbol] {
 				return nil, fmt.Errorf("duplicate symbol within PR")
@@ -673,6 +673,10 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 			knownSymbols[t.Symbol] = true
 			knownAddrs[t.Address] = true
 			knownNames[t.Name] = true
+
+			if err := m.IsKnownToken(&t); err != nil {
+				return nil, fmt.Errorf("duplicate token: %v", err)
+			}
 
 			v := m.cuer.Encode(t)
 			if v.Err() != nil {
