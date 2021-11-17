@@ -23,5 +23,5 @@ jobs:
         env:
           GITHUB_APP_PEM: "${{ secrets.TL_APP_PEM }}"
 
-      - run: git fetch origin && git merge origin/master
+      - run: git fetch origin && git merge origin/main
       - run: git push origin automerge-pending:main
