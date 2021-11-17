@@ -2,6 +2,8 @@ name: AutomergeCron
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "10 * * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,4 +23,5 @@ jobs:
         env:
           GITHUB_APP_PEM: "${{ secrets.TL_APP_PEM }}"
 
-      - run: git push -f origin automerge-pending:automerge-pending
+      - run: git fetch origin && git merge origin/master
+      - run: git push origin automerge-pending:main

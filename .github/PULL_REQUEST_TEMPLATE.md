@@ -42,5 +42,5 @@ For example, this change would be rejected due to unrelated changes:
 
 <img src=https://i.imgur.com/qB9RNO4.png width=600px>
 
-The bot runs **every 30 minutes** and bulk-merges all open pull requests to prevent conflicts.
-This means that you need to wait up to 30 minutes for your pull request to be merged or reprocessed.
+The bot runs **every 60 minutes** and bulk-merges all open pull requests to prevent conflicts.
+This means that you need to wait up to 60 minutes for your pull request to be merged or reprocessed.
