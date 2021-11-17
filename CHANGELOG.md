@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.2.303 (2021-11-16)
 
+### 0.2.303 (2021-11-17)
+
+
+### Features
+
+* update BAT ([f21233c](https://github.com/solana-labs/token-list/commit/f21233c09db073615893662eabc62ad8ba5cfb35))
+
 ### 0.2.302 (2021-11-16)
 
 ### 0.2.301 (2021-11-16)
