@@ -210,6 +210,17 @@ func (m *Automerger) IsKnownToken(t *parser.Token) error {
 func (m *Automerger) ProcessPR(ctx context.Context, pr *github.PullRequest) error {
 	klog.Infof("processing PR %s", pr.GetHTMLURL())
 
+	//lastRun, err := m.getLastCheckTimestamp(ctx, pr)
+	//if err != nil {
+	//	return fmt.Errorf("failed to get last check timestamp: %v", err)
+	//}
+	//
+	//lastChange := pr.GetUpdatedAt()
+	//if lastRun != nil && lastRun.After(lastChange.Add(-15 * time.Second)) {
+    //    klog.Infof("last check was after last change, skipping")
+    //    return nil
+    //}
+	//
 	// Get diff
 	d, resp, err := m.client.PullRequests.GetRaw(ctx, m.owner, m.repo, pr.GetNumber(),
 		github.RawOptions{Type: github.Diff})
@@ -559,6 +570,21 @@ func (m *Automerger) markOldChecksCompleted(ctx context.Context, pr *github.Pull
 		}
 	}
 	return nil
+}
+
+func (m *Automerger) getLastCheckTimestamp(ctx context.Context, pr *github.PullRequest) (*time.Time, error) {
+	list, _, err := m.client.Checks.ListCheckRunsForRef(ctx, m.owner, m.repo, pr.Head.GetSHA(), nil)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list check runs: %v", err)
+	}
+
+	for _, c := range list.CheckRuns {
+		if c.GetName() == "New automerge" && *c.GetApp().ID == appId {
+			t := c.GetCompletedAt().Time
+			return &t, nil
+		}
+	}
+	return nil, nil
 }
 
 func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, assets []string) ([]parser.Token, error) {
@@ -921,7 +947,12 @@ func main() {
 	for _, pr := range r {
 		err := m.ProcessPR(context.TODO(), pr)
 		if err != nil {
-			klog.Exitf("error processing pr: %v", err)
+			klog.Warningf("error processing pr, retrying: %v", err)
+			// retry once
+			err = m.ProcessPR(context.TODO(), pr)
+			if err != nil {
+				klog.Exitf("error processing pr: %v", err)
+			}
 		}
 
 		i++
