@@ -56,7 +56,10 @@ export const Icon = (props: { mint: string }) => {
 
 ## Adding new token
 
-Submit PR with changes to JSON file `src/tokens/solana.tokenlist.json`
+1. Pay the SPL-token validation fee
+Fee: 0.25 SOL
+Address: C7JF4JYtVeEW9YPZVomcfCqTD1viQdzmFjbruq4TeDb1
+2. Submit PR with changes to JSON file `src/tokens/solana.tokenlist.json`
 
 Please follow the Uniswap Token List specification found here: https://github.com/Uniswap/token-lists
 
