@@ -60,8 +60,7 @@
     }
   },
   "timestamp": "2021-03-03T19:57:21+0000",
-  "tokens": [
-    {
+  "tokens": [{
       "chainId": 101,
       "address": "DdUm3gHS5nnB3XKnxEufnazb5ERa9vHjK6S3DgZi7QR5",
       "symbol": "BTSL",
@@ -95,20 +94,20 @@
         "twitter": "https://twitter.com/SolexFinance"
       }
     },
-	{
-     "chainId": 101,
-     "address": "HppJbUYU4a9i3dXo1x1SS5ieaKEz4cAPWMg4eNQzabzg",
-     "symbol": "BLOCKING",
-     "name": "Blocking",
-     "decimals": 8,
-     "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HppJbUYU4a9i3dXo1x1SS5ieaKEz4cAPWMg4eNQzabzg/logo.png",
-     "tags": [
-       "NFT",
-       "Blocking"
-    ],
-     "extensions": {
-     "website": "http://blocking.adchunha.com/"
-     }
+    {
+      "chainId": 101,
+      "address": "HppJbUYU4a9i3dXo1x1SS5ieaKEz4cAPWMg4eNQzabzg",
+      "symbol": "BLOCKING",
+      "name": "Blocking",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HppJbUYU4a9i3dXo1x1SS5ieaKEz4cAPWMg4eNQzabzg/logo.png",
+      "tags": [
+        "NFT",
+        "Blocking"
+      ],
+      "extensions": {
+        "website": "http://blocking.adchunha.com/"
+      }
     },
 
     {
@@ -8269,14 +8268,12 @@
       ],
       "extensions": {
         "website": "https://www.kreechures.com/",
-        "attributes": [
-          {
-            "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s.jpg",
-            "Generation": 0,
-            "Species": 6,
-            "Base Rest": 262
-          }
-        ]
+        "attributes": [{
+          "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s.jpg",
+          "Generation": 0,
+          "Species": 6,
+          "Base Rest": 262
+        }]
       }
     },
     {
@@ -8303,14 +8300,12 @@
       ],
       "extensions": {
         "website": "https://www.kreechures.com/",
-        "attributes": [
-          {
-            "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH.jpg",
-            "Generation": 0,
-            "Species": 4,
-            "Base Rest": 335
-          }
-        ]
+        "attributes": [{
+          "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH.jpg",
+          "Generation": 0,
+          "Species": 4,
+          "Base Rest": 335
+        }]
       }
     },
     {
@@ -17401,6 +17396,23 @@
       ],
       "extensions": {
         "website": "https://edithtoken.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9pxk5V7qtmcLPdF4AARC1Lztz18A3TuzVSF16XoYoYYW",
+      "symbol": "SCHAD",
+      "name": "Super Chad",
+      "decimals": 9,
+      "logoURI": "https://user-images.githubusercontent.com/92108178/137592065-7704c61a-a09d-402a-8a27-367deefbc979.png",
+      "tags": [
+        "NFT",
+        "community",
+        "community-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.superchad.io/"
       }
     }
   ],
