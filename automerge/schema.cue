@@ -113,7 +113,6 @@ import (
 	twitch?: #URL
 	solanium?: #URL
 	vaultPubkey?: #Base58Address
-	attributes?: _
 }
 
 #TokenInfo: {
@@ -174,4 +173,10 @@ import (
 	// A URI for the logo of the token list; prefer SVG or PNG of size
 	// 256x256
 	logoURI?: string
+}
+
+// Extra checks applied for new tokens only, not when processing the full file
+#StrictTokenInfo: #TokenInfo & {
+	// Require logoURI to be set
+	logoURI: #URL
 }
