@@ -210,17 +210,26 @@ func (m *Automerger) IsKnownToken(t *parser.Token) error {
 func (m *Automerger) ProcessPR(ctx context.Context, pr *github.PullRequest) error {
 	klog.Infof("processing PR %s", pr.GetHTMLURL())
 
-	//lastRun, err := m.getLastCheckTimestamp(ctx, pr)
-	//if err != nil {
-	//	return fmt.Errorf("failed to get last check timestamp: %v", err)
-	//}
-	//
-	//lastChange := pr.GetUpdatedAt()
-	//if lastRun != nil && lastRun.After(lastChange.Add(-15 * time.Second)) {
-    //    klog.Infof("last check was after last change, skipping")
-    //    return nil
-    //}
-	//
+	var hasErrorLabel bool
+	for _, l := range pr.Labels {
+        if l.GetName() == "automerge-error" {
+            hasErrorLabel = true
+        }
+    }
+
+	if hasErrorLabel {
+		lastRun, err := m.getLastCheckTimestamp(ctx, pr)
+		if err != nil {
+			return fmt.Errorf("failed to get last check timestamp: %v", err)
+		}
+
+		lastChange := pr.GetUpdatedAt()
+		if lastRun != nil && lastRun.After(lastChange.Add(-15*time.Second)) {
+			klog.Infof("last check was after last change, skipping")
+			return nil
+		}
+	}
+
 	// Get diff
 	d, resp, err := m.client.PullRequests.GetRaw(ctx, m.owner, m.repo, pr.GetNumber(),
 		github.RawOptions{Type: github.Diff})
