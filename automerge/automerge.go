@@ -428,19 +428,16 @@ func (m *Automerger) commitTokenDiff(tt []parser.Token, pr *github.PullRequest, 
 		return fmt.Errorf("failed to get user")
 	}
 
+	author := &object.Signature{
+		Name:  *user.Login,
+		Email: fmt.Sprintf("%s@users.noreply.github.com", *user.Login),
+		When:  *pr.UpdatedAt,
+	}
 	h, err := w.Commit(
 		fmt.Sprintf("%s\n\nCloses #%d", title, pr.GetNumber()),
 		&git.CommitOptions{
-			Author: &object.Signature{
-				Name:  *user.Login,
-				Email: fmt.Sprintf("%s@users.noreply.github.com", *user.Login),
-				When:  *pr.UpdatedAt,
-			},
-			Committer: &object.Signature{
-				Name:  "token-list automerge",
-				Email: "certus-bot@users.noreply.github.com",
-				When:  time.Now(),
-			},
+			Author: author,
+			Committer: author,
 		})
 	if err != nil {
 		return fmt.Errorf("failed to commit: %v", err)
