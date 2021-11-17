@@ -60,7 +60,8 @@
     }
   },
   "timestamp": "2021-03-03T19:57:21+0000",
-  "tokens": [{
+  "tokens": [
+    {
       "chainId": 101,
       "address": "DdUm3gHS5nnB3XKnxEufnazb5ERa9vHjK6S3DgZi7QR5",
       "symbol": "BTSL",
@@ -109,7 +110,6 @@
         "website": "http://blocking.adchunha.com/"
       }
     },
-
     {
       "chainId": 101,
       "address": "C8QMoDwQADoW4MVkDZx7HgnebeugnNXWztrqpcCT2mFj",
@@ -8268,12 +8268,14 @@
       ],
       "extensions": {
         "website": "https://www.kreechures.com/",
-        "attributes": [{
-          "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s.jpg",
-          "Generation": 0,
-          "Species": 6,
-          "Base Rest": 262
-        }]
+        "attributes": [
+          {
+            "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s.jpg",
+            "Generation": 0,
+            "Species": 6,
+            "Base Rest": 262
+          }
+        ]
       }
     },
     {
@@ -8300,12 +8302,14 @@
       ],
       "extensions": {
         "website": "https://www.kreechures.com/",
-        "attributes": [{
-          "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH.jpg",
-          "Generation": 0,
-          "Species": 4,
-          "Base Rest": 335
-        }]
+        "attributes": [
+          {
+            "image": "https://gateway.pinata.cloud/ipfs/QmWcMyAYpaX3BHJoDq6Fyub71TjaHbRHqErT7MmbDvCXYJ/7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH.jpg",
+            "Generation": 0,
+            "Species": 4,
+            "Base Rest": 335
+          }
+        ]
       }
     },
     {
@@ -17415,11 +17419,10 @@
           "twitter": "https://twitter.com/SuperChad69"
         }
       }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 2
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 2
   }
-}
