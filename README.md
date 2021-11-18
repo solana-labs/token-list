@@ -1,3 +1,9 @@
+---
+# Please note: This repository has been decommissioned. To submit or modify token metadata, please use the SPL Name Service token registry provided by Bonfida.
+
+### More information here: [Token Name Registry](https://docs.bonfida.org/help/tokens)
+---
+
 # @solana/spl-token-registry
 
 [![npm](https://img.shields.io/npm/v/@solana/spl-token-registry)](https://unpkg.com/@solana/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/solana-labs/token-list/blob/b3fa86b3fdd9c817139e38641d46c5a892542a52/LICENSE)
