@@ -28,6 +28,7 @@ import (
 	"k8s.io/klog/v2"
 	"net/http"
 	"os"
+	"os/exec"
 	"path"
 	"regexp"
 	"strings"
@@ -38,17 +39,17 @@ import (
 var schema []byte
 
 type Automerger struct {
-	client       *github.Client
-	owner        string
-	repo         string
-	cuer         *cue.Context
-	cues         cue.Value
-	r  *git.Repository
-	tl parser.TokenList
-	fs billy.Filesystem
-	dryRun       bool
-	knownAddrs   map[string]bool
-	knownNames   map[string]bool
+	client     *github.Client
+	owner      string
+	repo       string
+	cuer       *cue.Context
+	cues       cue.Value
+	r          *git.Repository
+	tl         parser.TokenList
+	fs         billy.Filesystem
+	dryRun     bool
+	knownAddrs map[string]bool
+	knownNames map[string]bool
 }
 
 const (
@@ -85,14 +86,14 @@ func NewAutomerger(owner string, repo string, token string, dryRun bool) *Autome
 	}
 
 	return &Automerger{
-		client:       github.NewClient(tc),
-		owner:        owner,
-		repo:         repo,
-		cuer:         r,
-		cues:         *s,
-		dryRun:       dryRun,
-		knownAddrs:   map[string]bool{},
-		knownNames:   map[string]bool{},
+		client:     github.NewClient(tc),
+		owner:      owner,
+		repo:       repo,
+		cuer:       r,
+		cues:       *s,
+		dryRun:     dryRun,
+		knownAddrs: map[string]bool{},
+		knownNames: map[string]bool{},
 	}
 }
 
@@ -206,10 +207,10 @@ func (m *Automerger) ProcessPR(ctx context.Context, pr *github.PullRequest) erro
 
 	var hasErrorLabel bool
 	for _, l := range pr.Labels {
-        if l.GetName() == "automerge-error" {
-            hasErrorLabel = true
-        }
-    }
+		if l.GetName() == "automerge-error" {
+			hasErrorLabel = true
+		}
+	}
 
 	if hasErrorLabel {
 		lastRun, err := m.getLastCheckTimestamp(ctx, pr)
@@ -333,8 +334,8 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			tlDiff = z
 			klog.V(1).Infof("found solana.tokenlist.json")
 		case newFile == "CHANGELOG.md" || newFile == "package.json":
-         	klog.V(1).Infof("ignoring spurious %s change", newFile)
-			 continue
+			klog.V(1).Infof("ignoring spurious %s change", newFile)
+			continue
 		default:
 			// Unknown file modified - fail
 			return nil, nil, fmt.Errorf("unsupported file modified: %s", newFile)
@@ -433,7 +434,7 @@ func (m *Automerger) commitTokenDiff(tt []parser.Token, pr *github.PullRequest, 
 	h, err := w.Commit(
 		fmt.Sprintf("%s\n\nCloses #%d", title, pr.GetNumber()),
 		&git.CommitOptions{
-			Author: author,
+			Author:    author,
 			Committer: author,
 		})
 	if err != nil {
@@ -648,10 +649,10 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 		}
 
 		s := plain.String()
-        tt, err := parser.NormalizeWhatever(s)
+		tt, err := parser.NormalizeWhatever(s)
 		if err != nil {
-            return nil, fmt.Errorf("failed to normalize: %w", err)
-        }
+			return nil, fmt.Errorf("failed to normalize: %w", err)
+		}
 
 		for _, t := range tt {
 			if knownAddrs[t.Address] {
@@ -891,9 +892,24 @@ func verifyTwitterHandle(uri string) error {
 }
 
 var (
-	flagDryRun = flag.Bool("dryRun", false, "Simulate only")
-	flagMax    = flag.Int("max", 0, "Maximum number of tokens to process")
+	flagDryRun    = flag.Bool("dryRun", false, "Simulate only")
+	flagMax       = flag.Int("max", 0, "Maximum number of tokens to process")
+	flagSetRemote = flag.Bool("setRemoteForCI", false, "[FOR CI] add app origin to local repo")
 )
+
+// Helper function for GitHub actions, allowing it to push to main using
+// the app's identity rather than GITHUB_TOKEN, allowing subsequent
+// workflows to trigger.
+func configureLocalGitRemoteToken(token string) {
+	// git remote add --push origin https://your_username:${token}@github.com/solana-labs/token-list.git
+	remote := fmt.Sprintf("https://token-list-automerger:%s@github.com/solana-labs/token-list.git", token)
+	cmd := exec.Command("git", "remote", "add", "app", remote)
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	if err := cmd.Run(); err != nil {
+		klog.Fatalf("failed to add remote: %v", err)
+	}
+}
 
 func main() {
 	klog.InitFlags(nil)
@@ -915,6 +931,10 @@ func main() {
 		token = t
 	} else {
 		klog.Exit("GITHUB_TOKEN or GITHUB_APP_PEM environment variable is not set")
+	}
+
+	if *flagSetRemote {
+		configureLocalGitRemoteToken(token)
 	}
 
 	klog.Info("starting automerge")
