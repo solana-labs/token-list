@@ -4,14 +4,6 @@ on:
   push:
     branches:
       - main
-    types:
-      - opened
-      - synchronized
-      - reopened
-      - edited
-      - labeled
-      - unlabeled
-      - ready_for_review
   workflow_dispatch:
 jobs:
   build:
