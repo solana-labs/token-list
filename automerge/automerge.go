@@ -338,6 +338,9 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			}
 			tlDiff = z
 			klog.V(1).Infof("found solana.tokenlist.json")
+		case newFile == "CHANGELOG.md" || newFile == "package.json":
+         	klog.V(1).Infof("ignoring spurious %s change", newFile)
+			 continue
 		default:
 			// Unknown file modified - fail
 			return nil, nil, fmt.Errorf("unsupported file modified: %s", newFile)
