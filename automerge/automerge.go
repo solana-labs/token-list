@@ -48,7 +48,6 @@ type Automerger struct {
 	fs billy.Filesystem
 	dryRun       bool
 	knownAddrs   map[string]bool
-	knownSymbols map[string]bool
 	knownNames   map[string]bool
 }
 
@@ -93,7 +92,6 @@ func NewAutomerger(owner string, repo string, token string, dryRun bool) *Autome
 		cues:         *s,
 		dryRun:       dryRun,
 		knownAddrs:   map[string]bool{},
-		knownSymbols: map[string]bool{},
 		knownNames:   map[string]bool{},
 	}
 }
@@ -190,16 +188,12 @@ func (m *Automerger) InitTokenlist() error {
 
 func (m *Automerger) storeKnownToken(t *parser.Token) {
 	m.knownAddrs[t.Address] = true
-	m.knownSymbols[t.Symbol] = true
 	m.knownNames[t.Name] = true
 }
 
 func (m *Automerger) IsKnownToken(t *parser.Token) error {
 	if _, ok := m.knownAddrs[t.Address]; ok {
 		return fmt.Errorf("token address %s is already used", t.Address)
-	}
-	if _, ok := m.knownSymbols[t.Symbol]; ok {
-		return fmt.Errorf("token symbol %s is already used", t.Symbol)
 	}
 	if _, ok := m.knownNames[t.Name]; ok {
 		return fmt.Errorf("token name %s is already used", t.Name)
@@ -338,6 +332,9 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			}
 			tlDiff = z
 			klog.V(1).Infof("found solana.tokenlist.json")
+		case newFile == "CHANGELOG.md" || newFile == "package.json":
+         	klog.V(1).Infof("ignoring spurious %s change", newFile)
+			 continue
 		default:
 			// Unknown file modified - fail
 			return nil, nil, fmt.Errorf("unsupported file modified: %s", newFile)
@@ -607,7 +604,6 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 
 	var res []parser.Token
 
-	knownSymbols := map[string]bool{}
 	knownAddrs := map[string]bool{}
 	knownNames := map[string]bool{}
 	for _, h := range d.Hunks {
@@ -658,16 +654,12 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
         }
 
 		for _, t := range tt {
-			if knownSymbols[t.Symbol] {
-				return nil, fmt.Errorf("duplicate symbol within PR")
-			}
 			if knownAddrs[t.Address] {
 				return nil, fmt.Errorf("duplicate address within PR")
 			}
 			if knownNames[t.Name] {
 				return nil, fmt.Errorf("duplicate name within PR")
 			}
-			knownSymbols[t.Symbol] = true
 			knownAddrs[t.Address] = true
 			knownNames[t.Name] = true
 
@@ -916,7 +908,7 @@ func main() {
 			klog.Exitf("failed to decode GITHUB_APP_PEM as base64: %v", err)
 		}
 
-		t, err := auth.GetInstallationToken([]byte(key), appId)
+		t, err := auth.GetInstallationToken([]byte(key), appId, "solana-labs")
 		if err != nil {
 			klog.Exitf("failed to get installation token: %v", err)
 		}
