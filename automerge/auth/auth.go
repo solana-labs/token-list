@@ -51,7 +51,7 @@ func signJWT(privateKey *rsa.PrivateKey, appId int64) (string, error) {
 	return tokenString, nil
 }
 
-func GetInstallationToken(privateKey []byte, appId int64) (string, error) {
+func GetInstallationToken(privateKey []byte, appId int64, org string) (string, error) {
 	token, err := signJWTFromPEM(privateKey, appId)
 	if err != nil {
 		klog.Exitf("failed to sign JWT: %v", err)
@@ -71,18 +71,17 @@ func GetInstallationToken(privateKey []byte, appId int64) (string, error) {
 	}
 
 	for _, i := range is {
-		if i.GetAppID() == appId {
+		if i.GetAppID() == appId && i.GetAccount().GetLogin() == org && i.GetTargetType() == "Organization" {
 			klog.Infof("installation id: %v", i.GetID())
 			klog.Infof("installed on %s: %s", i.GetTargetType(), i.GetAccount().GetLogin())
-		}
 
-		// Get an installation token
-		it, _, err := client.Apps.CreateInstallationToken(ctx, i.GetID(), nil)
-		if err != nil {
-			klog.Exitf("failed to create installation token: %v", err)
+			// Get an installation token
+			it, _, err := client.Apps.CreateInstallationToken(ctx, i.GetID(), nil)
+			if err != nil {
+				klog.Exitf("failed to create installation token: %v", err)
+			}
+			return it.GetToken(), nil
 		}
-
-		return it.GetToken(), nil
 	}
 
 	return "", errors.New("no installation found")
