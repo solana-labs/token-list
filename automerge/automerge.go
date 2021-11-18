@@ -916,7 +916,7 @@ func main() {
 			klog.Exitf("failed to decode GITHUB_APP_PEM as base64: %v", err)
 		}
 
-		t, err := auth.GetInstallationToken([]byte(key), appId)
+		t, err := auth.GetInstallationToken([]byte(key), appId, "solana-labs")
 		if err != nil {
 			klog.Exitf("failed to get installation token: %v", err)
 		}
