@@ -59,6 +59,20 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "62n7HVBjPpydoZEfipAZ2vasGnaC6jMB5cRoBsTdwxAd",
+      "symbol": "SDXC",
+      "name": "SOLIDEX",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/62n7HVBjPpydoZEfipAZ2vasGnaC6jMB5cRoBsTdwxAd/logo.png",
+      "extensions": {
+        "instagram": "https://instagram.com/solidex_finance",
+        "telegram": "https://t.me/solidexfinance",
+        "twitter": "https://twitter.com/solidexf",
+        "website": "https://solidex.finance"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo",
       "symbol": "CWAR",
       "name": "Cryowar Token",
@@ -28307,16 +28321,108 @@
     },
     {
       "chainId": 101,
-      "address": "62n7HVBjPpydoZEfipAZ2vasGnaC6jMB5cRoBsTdwxAd",
-      "symbol": "SDXC",
-      "name": "SOLIDEX",
+      "address": "DqxzPWQ2FKHn8pRoy9jCpA6M3GkEqYfieiAVwMYWVyXr",
+      "symbol": "ROAR",
+      "name": "Roar Token",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/62n7HVBjPpydoZEfipAZ2vasGnaC6jMB5cRoBsTdwxAd/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DqxzPWQ2FKHn8pRoy9jCpA6M3GkEqYfieiAVwMYWVyXr/logo.png",
+      "tags": [
+        "community-token",
+        "social-token",
+        "utility-token"
+      ],
       "extensions": {
-        "instagram": "https://instagram.com/solidex_finance",
-        "telegram": "https://t.me/solidexfinance",
-        "twitter": "https://twitter.com/solidexf",
-        "website": "https://solidex.finance"
+        "description": "Earn ROAR by playing to soltigers game",
+        "twitter": "https://twitter.com/SOL_Tigers",
+        "website": "https://soltigers.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "APTtJyaRX5yGTsJU522N4VYWg3vCvSb65eam5GrPT5Rt",
+      "symbol": "APT",
+      "name": "Apricot",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/APTtJyaRX5yGTsJU522N4VYWg3vCvSb65eam5GrPT5Rt/logo.svg",
+      "extensions": {
+        "discord": "https://discord.gg/Aw6MEUue",
+        "twitter": "https://twitter.com/ApricotFinance",
+        "website": "https://apricot.one"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "H6UWLcYpDoDUNXgnFxxvKtm4MhKENVVAuGukyMHxpyNJ",
+      "symbol": "LDXI",
+      "name": "LDXI Token",
+      "decimals": 9,
+      "logoURI": "https://github.com/Randi-Edi/token_logos/blob/main/ldx.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DH5KjPM53i7NMj69CEZ6FiF82ipbgz1U6QzNfQNY87Pr",
+      "symbol": "SOLAB",
+      "name": "SOLAB Finance",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Protossnam/token-list/main/assets/mainnet/DH5KjPM53i7NMj69CEZ6FiF82ipbgz1U6QzNfQNY87Pr/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9EypAuptQxzpq5hNob6S4HT75UAbcbNsh6ysYmnic8vf",
+      "symbol": "MDC",
+      "name": "Medcoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9EypAuptQxzpq5hNob6S4HT75UAbcbNsh6ysYmnic8vf/logo.png",
+      "tags": [
+        "Community-token"
+      ],
+      "extensions": {
+        "telegram": "https://t.me/medcointech",
+        "website": "https://medcoin.tech/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2ScZPtpLG4bb3SHfXEuTr9BuLdixDc1v3UTga2iiSH8n",
+      "symbol": "CHONK",
+      "name": "CHONKERS",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/megachonk/chonk/main/Chonkers.png",
+      "tags": [
+        "community-token",
+        "meme-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/ChonkersSolana"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "9XPDVRQ3vfeccyvj6xh2uS5meuRKTXPueWcqGKgjo6pK",
+      "symbol": "BTP",
+      "name": "BLOCKOVATE TEST PROJECT",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9XPDVRQ3vfeccyvj6xh2uS5meuRKTXPueWcqGKgjo6pK/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "AfXLBfMZd32pN6QauazHCd7diEWoBgw1GNUALDw3suVZ",
+      "symbol": "FIRE",
+      "name": "Solfire Finance",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AfXLBfMZd32pN6QauazHCd7diEWoBgw1GNUALDw3suVZ/logo.png",
+      "tags": [
+        "community-token"
+      ],
+      "extensions": {
+        "telegram": "https://t.me/solfirefinance",
+        "website": "https://solfire.finance/"
       }
     }
   ],
