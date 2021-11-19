@@ -1,7 +1,5 @@
 ---
-# Please note: This repository has been decommissioned. To submit or modify token metadata, please use the SPL Name Service token registry provided by Bonfida.
-
-### More information here: [Token Name Registry](https://docs.bonfida.org/help/tokens)
+# Please note: This repository is being rebuilt to accept the new volume of token additions and modifications. PR merges will be delayed.
 ---
 
 # @solana/spl-token-registry
