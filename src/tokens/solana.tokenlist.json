@@ -28122,15 +28122,8 @@
       "tags": [
         "utility-token"
       ]
-    }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
-  }
-},
-{
+    },
+    {
       "chainId": 101,
       "address": "EswgBj2hZKdgovX2ihWSUDnuBg9VNbGmSGoH5yjNsPRa",
       "symbol": "PHY",
@@ -28144,8 +28137,7 @@
         "fitness",
         "wellness",
         "health",
-        "marketplace",
-        "nft"
+        "marketplace"
       ],
       "extensions": {
         "discord": "https://discord.gg/U9YyKgjH5x",
@@ -28154,3 +28146,10 @@
         "website": "https://www.phys.is/"
       }
     }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 3,
+    "patch": 3
+  }
+}
