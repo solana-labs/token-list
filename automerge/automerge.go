@@ -306,6 +306,42 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 	assets := make([]string, 0)
 	var tlDiff *diff.FileDiff
 
+	for _, z := range md {
+		newFile := strings.TrimPrefix(z.NewName, "b/")
+		klog.V(1).Infof("found file: %s", newFile)
+
+		switch {
+		case strings.HasPrefix(newFile, "assets/"):
+			if z.OrigName != "/dev/null" {
+				return nil, nil, fmt.Errorf("found modified asset file %s - only new assets are allowed", newFile)
+			}
+			p := strings.Split(newFile, "/")
+			if len(p) != 4 || p[1] != "mainnet" {
+				return nil, nil, fmt.Errorf("invalid asset path: %s", newFile)
+			}
+
+			switch path.Ext(p[3]) {
+			case ".png", ".jpg", ".svg":
+			default:
+				return nil, nil, fmt.Errorf("invalid asset extension: %s (wants png, jpg, svg)", newFile)
+			}
+
+			assets = append(assets, newFile)
+		case newFile == "src/tokens/solana.tokenlist.json":
+			if tlDiff != nil {
+				return nil, nil, fmt.Errorf("found multiple tokenlist diffs")
+			}
+			tlDiff = z
+			klog.V(1).Infof("found solana.tokenlist.json")
+		case newFile == "CHANGELOG.md" || newFile == "package.json":
+			klog.V(1).Infof("ignoring spurious %s change", newFile)
+			continue
+		default:
+			// Unknown file modified - fail
+			return nil, nil, fmt.Errorf("unsupported file modified: %s", newFile)
+		}
+	}
+
 	if tlDiff == nil {
 		return nil, nil, fmt.Errorf("no tokenlist diff found")
 	}
