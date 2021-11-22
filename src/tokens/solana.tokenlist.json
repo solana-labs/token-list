@@ -749,7 +749,7 @@
       "symbol": "BIAD",
       "name": "daib test token",
       "decimals": 6,
-      "logoURI": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02242929-14bc-4204-ac71-56d855a07078/512_daia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20211104T051518Z\u0026X-Amz-Expires=86400\u0026X-Amz-Signature=df1424dcb1be408faa45ef6af1f7769edf977da365822e00c34a2150167bfe58\u0026X-Amz-SignedHeaders=host\u0026response-content-disposition=filename%20%3D%22512_daia.png%22",
+      "logoURI": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02242929-14bc-4204-ac71-56d855a07078/512_daia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T051518Z&X-Amz-Expires=86400&X-Amz-Signature=df1424dcb1be408faa45ef6af1f7769edf977da365822e00c34a2150167bfe58&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22512_daia.png%22",
       "extensions": {
         "website": "https://daios.io/"
       }
@@ -3021,7 +3021,7 @@
       "chainId": 101,
       "address": "CS4tNS523VCLiTsGnYEAd6GqfrZNLtA14C98DC6gE47g",
       "symbol": "SPY",
-      "name": "SPDR S\u0026P 500 ETF",
+      "name": "SPDR S&P 500 ETF",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CS4tNS523VCLiTsGnYEAd6GqfrZNLtA14C98DC6gE47g/logo.svg",
       "tags": [
@@ -3147,7 +3147,7 @@
       "chainId": 101,
       "address": "3LjkoC9FYEqRKNpy7xz3nxfnGVAt1SNS98rYwF2adQWB",
       "symbol": "VXX",
-      "name": "iPath B S\u0026P 500 VIX S/T Futs ETN",
+      "name": "iPath B S&P 500 VIX S/T Futs ETN",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3LjkoC9FYEqRKNpy7xz3nxfnGVAt1SNS98rYwF2adQWB/logo.png",
       "tags": [
@@ -23832,7 +23832,7 @@
         "meme-token"
       ],
       "extensions": {
-        "description": "This is a coin on a mission to inform you of the dangers investing \u0026 prevent you from being scammed.",
+        "description": "This is a coin on a mission to inform you of the dangers investing & prevent you from being scammed.",
         "twitter": "https://twitter.com/rug_puller",
         "website": "https://rug-pull-coin.com"
       }
@@ -30261,6 +30261,20 @@
       "extensions": {
         "coingeckoId": "ethereum",
         "website": "https://app.saber.so"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "Baa8rnbS2fo8WU6wjwQcKTQRAxqcHG6PMg66QbJkTcdo",
+      "symbol": "fSolstead-69",
+      "name": "Fractionalized Solstead-69",
+      "decimals": 2,
+      "logoURI": "https://i.imgur.com/QoVRRw9.png",
+      "tags": [
+        "bridgesplit-fraction"
+      ],
+      "extensions": {
+        "vault": "https://app.bridgesplit.com/vaults/Baa8rnbS2fo8WU6wjwQcKTQRAxqcHG6PMg66QbJkTcdo"
       }
     }
   ],
