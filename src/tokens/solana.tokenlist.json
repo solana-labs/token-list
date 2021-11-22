@@ -28335,8 +28335,15 @@
       "name": "Apricot",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/APTtJyaRX5yGTsJU522N4VYWg3vCvSb65eam5GrPT5Rt/logo.svg",
+      "tags": [
+        "apricot",
+        "lending",
+        "x-farm"
+      ],
       "extensions": {
+        "coingeckoId": "apricot",
         "discord": "https://discord.gg/Aw6MEUue",
+        "medium": "https://apricotfinance.medium.com/",
         "twitter": "https://twitter.com/ApricotFinance",
         "website": "https://apricot.one"
       }
@@ -29740,12 +29747,175 @@
       "name": "KOLONIE",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HZgj7qvCUSiF5sPE4VDKUUF63ogKrzdnp9KXSePuCCsh/logo.svg",
+      "address": "DJ5BWLXXceGR7DqjqfNYihDWf15jPEjQD8ZhCpW7ocNT",
+      "symbol": "PRDX",
+      "name": "Paradox Token",
+      "decimals": 9,
+      "logoURI": "https://cobaltlend.com/wp-content/uploads/2021/11/581-5813108_transparent-triskelion-png-celtic-spiral-white-transparent-png.png",
       "tags": [
         "utility-token"
       ],
       "extensions": {
         "twitter": "https://twitter.com/KolonieSystems",
         "website": "https://kolonie.io"
+        "discord": "https://discord.gg/QtdzCR9ZQn",
+        "instagram": "https://www.instagram.com/paradoxrealm13/",
+        "twitter": "https://twitter.com/ParadoxRealms",
+        "website": "https://paradoxrealm.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EQvh5nmHoD16dTTiZ7222EBSUQ563rh6o8kJ1W4Mwh7Z",
+      "symbol": "APEX",
+      "name": "Monster Apex",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EQvh5nmHoD16dTTiZ7222EBSUQ563rh6o8kJ1W4Mwh7Z/logo.png",
+      "tags": [
+        "NFT-Gaming"
+      ],
+      "extensions": {
+        "telegram": "https://t.me/monsterapex",
+        "twitter": "https://twitter.com/monsterapex"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8WyEJS6QQeR7kRBCTBNptRDKeNcjM9P2F6yPQPkLB1H7",
+      "symbol": "SOLP",
+      "name": "Solana Play",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8WyEJS6QQeR7kRBCTBNptRDKeNcjM9P2F6yPQPkLB1H7/logo.png",
+      "tags": [
+        "Community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "74zkWmfyLSvu4mWEYRNEmcjrZkgPG3yhJDY1TX684VeK",
+      "symbol": "WAR",
+      "name": "War Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/74zkWmfyLSvu4mWEYRNEmcjrZkgPG3yhJDY1TX684VeK/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/WarCoin_"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "HVVB2ZDw1ykyRYSwcMrDXsQ6sesGe7qyp5vB3zAuK4Hw",
+      "symbol": "fBoku-420",
+      "name": "Fractionalised Boku-420",
+      "decimals": 2,
+      "logoURI": "https://i.imgur.com/O3h1zUq.png",
+      "tags": [
+        "bridgesplit-fraction"
+      ],
+      "extensions": {
+        "vault": "https://devnet.bridgesplit.com/markets/HVVB2ZDw1ykyRYSwcMrDXsQ6sesGe7qyp5vB3zAuK4Hw"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3Ysmnbdddpxv9xK8FUKXexdhRzEA4yrCz8WaE6Za5sjV",
+      "symbol": "EDX",
+      "name": "edeXa Service Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3Ysmnbdddpxv9xK8FUKXexdhRzEA4yrCz8WaE6Za5sjV/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://edexa.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "F2Rsx71Rg64a2gi5wSGxihAeLvPWt76kaNbcAjSMnULF",
+      "symbol": "SOLCSH",
+      "name": "Solana Cash",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F2Rsx71Rg64a2gi5wSGxihAeLvPWt76kaNbcAjSMnULF/logo.png",
+      "tags": [
+        "Community-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "3sJWs1uNphtHMVrqqP6foFxNTi1XLa6BZiyftq41y6kQ",
+      "symbol": "SINGULARITY",
+      "name": "Singularity",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3sJWs1uNphtHMVrqqP6foFxNTi1XLa6BZiyftq41y6kQ/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://singularityonline.app"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "65aNqK5p43JhpFJLBiJPB1MmkW5uo2s6y5Dkj5KQdw3w",
+      "symbol": "TUI",
+      "name": "TradeUI",
+      "decimals": 3,
+      "logoURI": "https://i.imgur.com/nRoFh3f.png",
+      "tags": [
+        "currency",
+        "social-token",
+        "community-token",
+        "trading-token",
+        "reward-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "discord": "http://discord.gg/uSDVQRF",
+        "facebook": "https://facebook.com/tradeui",
+        "twitter": "https://twitter.com/tradeui",
+        "website": "https://tradeui.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AbJ2e39BhfPpvpnrf5gupAL9W9yZW3zXxd8hsi2ZjQb",
+      "symbol": "MTGVERSE",
+      "name": "MetaGameVerse",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AbJ2e39BhfPpvpnrf5gupAL9W9yZW3zXxd8hsi2ZjQb/logo.png",
+      "tags": [
+        "NFTs",
+        "Gaming",
+        "Ecosystem"
+      ],
+      "extensions": {
+        "discord": "https://medium.com/@MetaGameVerse",
+        "telegram": "https://t.me/MetaGameVerse",
+        "twitter": "https://twitter.com/MetaGameVerse",
+        "website": "https://metagameverse.info"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh",
+      "symbol": "DFL",
+      "name": "DeFi Land",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "coingeckoId": "defi-land",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/defi-land",
+        "discord": "https://discord.com/invite/defiland",
+        "medium": "https://defiland.medium.com/",
+        "telegram": "https://t.me/defiland_official",
+        "twitter": "https://twitter.com/DeFi_Land",
+        "website": "https://defiland.app/"
       }
     }
   ],
