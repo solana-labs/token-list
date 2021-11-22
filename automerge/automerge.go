@@ -38,6 +38,11 @@ import (
 //go:embed schema.cue
 var schema []byte
 
+type knownEntry struct {
+	ChainID int
+    Entry string
+}
+
 type Automerger struct {
 	client     *github.Client
 	owner      string
@@ -48,8 +53,8 @@ type Automerger struct {
 	tl         parser.TokenList
 	fs         billy.Filesystem
 	dryRun     bool
-	knownAddrs map[string]bool
-	knownNames map[string]bool
+	knownAddrs map[knownEntry]bool
+	knownNames map[knownEntry]bool
 }
 
 const (
@@ -92,8 +97,8 @@ func NewAutomerger(owner string, repo string, token string, dryRun bool) *Autome
 		cuer:       r,
 		cues:       *s,
 		dryRun:     dryRun,
-		knownAddrs: map[string]bool{},
-		knownNames: map[string]bool{},
+		knownAddrs: map[knownEntry]bool{},
+		knownNames: map[knownEntry]bool{},
 	}
 }
 
@@ -188,15 +193,15 @@ func (m *Automerger) InitTokenlist() error {
 }
 
 func (m *Automerger) storeKnownToken(t *parser.Token) {
-	m.knownAddrs[t.Address] = true
-	m.knownNames[t.Name] = true
+	m.knownAddrs[knownEntry{t.ChainId, t.Address}] = true
+	m.knownNames[knownEntry{t.ChainId, t.Name}] = true
 }
 
 func (m *Automerger) IsKnownToken(t *parser.Token) error {
-	if _, ok := m.knownAddrs[t.Address]; ok {
+	if _, ok := m.knownAddrs[knownEntry{t.ChainId, t.Address}]; ok {
 		return fmt.Errorf("token address %s is already used", t.Address)
 	}
-	if _, ok := m.knownNames[t.Name]; ok {
+	if _, ok := m.knownNames[knownEntry{t.ChainId, t.Name}]; ok {
 		return fmt.Errorf("token name %s is already used", t.Name)
 	}
 	return nil
@@ -605,8 +610,8 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 
 	var res []parser.Token
 
-	knownAddrs := map[string]bool{}
-	knownNames := map[string]bool{}
+	knownAddrs := map[knownEntry]bool{}
+	knownNames := map[knownEntry]bool{}
 	for _, h := range d.Hunks {
 		body := string(h.Body)
 		body = strings.Trim(body, "\n")
@@ -655,14 +660,14 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 		}
 
 		for _, t := range tt {
-			if knownAddrs[t.Address] {
+			if knownAddrs[knownEntry{t.ChainId, t.Address}] {
 				return nil, fmt.Errorf("duplicate address within PR")
 			}
-			if knownNames[t.Name] {
+			if knownNames[knownEntry{t.ChainId, t.Name}] {
 				return nil, fmt.Errorf("duplicate name within PR")
 			}
-			knownAddrs[t.Address] = true
-			knownNames[t.Name] = true
+			knownAddrs[knownEntry{t.ChainId, t.Address}] = true
+			knownNames[knownEntry{t.ChainId, t.Name}] = true
 
 			if err := m.IsKnownToken(&t); err != nil {
 				return nil, fmt.Errorf("duplicate token: %v", err)
