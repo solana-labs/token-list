@@ -28342,8 +28342,8 @@
       ],
       "extensions": {
         "coingeckoId": "apricot",
-        "medium": "https://apricotfinance.medium.com/",
         "discord": "https://discord.gg/Aw6MEUue",
+        "medium": "https://apricotfinance.medium.com/",
         "twitter": "https://twitter.com/ApricotFinance",
         "website": "https://apricot.one"
       }
@@ -29795,6 +29795,59 @@
       ],
       "extensions": {
         "twitter": "https://twitter.com/WarCoin_"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "HVVB2ZDw1ykyRYSwcMrDXsQ6sesGe7qyp5vB3zAuK4Hw",
+      "symbol": "fBoku-420",
+      "name": "Fractionalised Boku-420",
+      "decimals": 2,
+      "logoURI": "https://i.imgur.com/O3h1zUq.png",
+      "tags": [
+        "bridgesplit-fraction"
+      ],
+      "extensions": {
+        "vault": "https://devnet.bridgesplit.com/markets/HVVB2ZDw1ykyRYSwcMrDXsQ6sesGe7qyp5vB3zAuK4Hw"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3Ysmnbdddpxv9xK8FUKXexdhRzEA4yrCz8WaE6Za5sjV",
+      "symbol": "EDX",
+      "name": "edeXa Service Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3Ysmnbdddpxv9xK8FUKXexdhRzEA4yrCz8WaE6Za5sjV/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://edexa.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "F2Rsx71Rg64a2gi5wSGxihAeLvPWt76kaNbcAjSMnULF",
+      "symbol": "SOLCSH",
+      "name": "Solana Cash",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F2Rsx71Rg64a2gi5wSGxihAeLvPWt76kaNbcAjSMnULF/logo.png",
+      "tags": [
+        "Community-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "3sJWs1uNphtHMVrqqP6foFxNTi1XLa6BZiyftq41y6kQ",
+      "symbol": "SINGULARITY",
+      "name": "Singularity",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3sJWs1uNphtHMVrqqP6foFxNTi1XLa6BZiyftq41y6kQ/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://singularityonline.app"
       }
     }
   ],
