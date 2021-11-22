@@ -64,7 +64,7 @@ export class GitHubTokenListResolutionStrategy {
     'https://raw.githubusercontent.com/solana-labs/token-list/main/src/tokens/solana.tokenlist.json',
   ];
 
-  resolve = async () => {
+  resolve = () => {
     return queryJsonFiles(this.repositories);
   };
 }
@@ -74,7 +74,15 @@ export class CDNTokenListResolutionStrategy {
     'https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/solana.tokenlist.json',
   ];
 
-  resolve = async () => {
+  resolve = () => {
+    return queryJsonFiles(this.repositories);
+  };
+}
+
+export class SolanaTokenListResolutionStrategy {
+  repositories = ['https://token-list.solana.com/solana.tokenlist.json'];
+
+  resolve = () => {
     return queryJsonFiles(this.repositories);
   };
 }
@@ -107,14 +115,8 @@ export enum Strategy {
   CDN = 'CDN',
 }
 
-export class SolanaTokenListResolutionStrategy {
-  resolve = async () => {
-    throw new Error(`Not Implemented Yet.`);
-  };
-}
-
 export class StaticTokenListResolutionStrategy {
-  resolve = async () => {
+  resolve = () => {
     return tokenlist.tokens;
   };
 }
