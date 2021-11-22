@@ -28335,8 +28335,15 @@
       "name": "Apricot",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/APTtJyaRX5yGTsJU522N4VYWg3vCvSb65eam5GrPT5Rt/logo.svg",
+      "tags": [
+        "apricot",
+        "lending",
+        "x-farm"
+      ],
       "extensions": {
+        "coingeckoId": "apricot",
         "discord": "https://discord.gg/Aw6MEUue",
+        "medium": "https://apricotfinance.medium.com/",
         "twitter": "https://twitter.com/ApricotFinance",
         "website": "https://apricot.one"
       }
@@ -29805,45 +29812,175 @@
       }
     },
     {
-      "chainId": 103,
-      "address": "Baa8rnbS2fo8WU6wjwQcKTQRAxqcHG6PMg66QbJkTcdo",
-      "symbol": "fSolstead-69",
-      "name": "Fractionalized Solstead-69",
-      "decimals": 2,
-      "logoURI": "https://i.imgur.com/QoVRRw9.png",
+      "chainId": 101,
+      "address": "3Ysmnbdddpxv9xK8FUKXexdhRzEA4yrCz8WaE6Za5sjV",
+      "symbol": "EDX",
+      "name": "edeXa Service Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3Ysmnbdddpxv9xK8FUKXexdhRzEA4yrCz8WaE6Za5sjV/logo.svg",
       "tags": [
-        "bridgesplit-fraction"
+        "utility-token"
       ],
       "extensions": {
-        "vault": "https://app.bridgesplit.com/vaults/Baa8rnbS2fo8WU6wjwQcKTQRAxqcHG6PMg66QbJkTcdo"
+        "website": "https://edexa.com/"
       }
     },
     {
-      "chainId": 103,
-      "address": "Baa8rnbS2fo8WU6wjwQcKTQRAxqcHG6PMg66QbJkTcdo",
-      "symbol": "fSolstead-69",
-      "name": "Fractionalized Solstead-69",
-      "decimals": 2,
-      "logoURI": "https://i.imgur.com/QoVRRw9.png",
+      "chainId": 101,
+      "address": "F2Rsx71Rg64a2gi5wSGxihAeLvPWt76kaNbcAjSMnULF",
+      "symbol": "SOLCSH",
+      "name": "Solana Cash",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F2Rsx71Rg64a2gi5wSGxihAeLvPWt76kaNbcAjSMnULF/logo.png",
       "tags": [
-        "bridgesplit-fraction"
-      ],
-      "extensions": {
-        "vault": "https://app.bridgesplit.com/vaults/Baa8rnbS2fo8WU6wjwQcKTQRAxqcHG6PMg66QbJkTcdo"
-      }
+        "Community-token"
+      ]
     },
     {
       "chainId": 103,
-      "address": "Baa8rnbS2fo8WU6wjwQcKTQRAxqcHG6PMg66QbJkTcdo",
-      "symbol": "fSolstead-69",
-      "name": "Fractionalized Solstead-69",
-      "decimals": 2,
-      "logoURI": "https://i.imgur.com/QoVRRw9.png",
+      "address": "3sJWs1uNphtHMVrqqP6foFxNTi1XLa6BZiyftq41y6kQ",
+      "symbol": "SINGULARITY",
+      "name": "Singularity",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3sJWs1uNphtHMVrqqP6foFxNTi1XLa6BZiyftq41y6kQ/logo.png",
       "tags": [
-        "bridgesplit-fraction"
+        "utility-token"
       ],
       "extensions": {
-        "vault": "https://app.bridgesplit.com/vaults/Baa8rnbS2fo8WU6wjwQcKTQRAxqcHG6PMg66QbJkTcdo"
+        "website": "https://singularityonline.app"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "65aNqK5p43JhpFJLBiJPB1MmkW5uo2s6y5Dkj5KQdw3w",
+      "symbol": "TUI",
+      "name": "TradeUI",
+      "decimals": 3,
+      "logoURI": "https://i.imgur.com/nRoFh3f.png",
+      "tags": [
+        "currency",
+        "social-token",
+        "community-token",
+        "trading-token",
+        "reward-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "discord": "http://discord.gg/uSDVQRF",
+        "facebook": "https://facebook.com/tradeui",
+        "twitter": "https://twitter.com/tradeui",
+        "website": "https://tradeui.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AbJ2e39BhfPpvpnrf5gupAL9W9yZW3zXxd8hsi2ZjQb",
+      "symbol": "MTGVERSE",
+      "name": "MetaGameVerse",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AbJ2e39BhfPpvpnrf5gupAL9W9yZW3zXxd8hsi2ZjQb/logo.png",
+      "tags": [
+        "NFTs",
+        "Gaming",
+        "Ecosystem"
+      ],
+      "extensions": {
+        "discord": "https://medium.com/@MetaGameVerse",
+        "telegram": "https://t.me/MetaGameVerse",
+        "twitter": "https://twitter.com/MetaGameVerse",
+        "website": "https://metagameverse.info"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh",
+      "symbol": "DFL",
+      "name": "DeFi Land",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "coingeckoId": "defi-land",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/defi-land",
+        "discord": "https://discord.com/invite/defiland",
+        "medium": "https://defiland.medium.com/",
+        "telegram": "https://t.me/defiland_official",
+        "twitter": "https://twitter.com/DeFi_Land",
+        "website": "https://defiland.app/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GDoR2uR265AFrY7LTi5Epp6T2wMTcVPmCo6Xmq51cw6P",
+      "symbol": "PNGN",
+      "name": "Penguin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GDoR2uR265AFrY7LTi5Epp6T2wMTcVPmCo6Xmq51cw6P/penguLogo.png",
+      "tags": [
+        "utility-token",
+        "nft-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/CQQSSSgTDb"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8vJdZKtvqd7WDtMZM2gi7WiFqyNxVGqyk71p7vzK6YUQ",
+      "symbol": "YDDK",
+      "name": "YDDK",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8vJdZKtvqd7WDtMZM2gi7WiFqyNxVGqyk71p7vzK6YUQ/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "D4skewS3sjd5ak8Noto6brxcUHQC42McJW5duWvmerHK",
+      "symbol": "KW",
+      "name": "Kilowatt",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D4skewS3sjd5ak8Noto6brxcUHQC42McJW5duWvmerHK/logo.png",
+      "tags": [
+        "meme-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/kilowattproject",
+        "website": "https://kilo.solar"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4AHDENUSystAUR3VEgcUFLYAVL4BGNhLgq8uaAaKoQKq",
+      "symbol": "SHRIMP",
+      "name": "Shrimp Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4AHDENUSystAUR3VEgcUFLYAVL4BGNhLgq8uaAaKoQKq/logo.png",
+      "tags": [
+        "community-token",
+        "utility-token",
+        "flamingo-party",
+        "shrimp-coin"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/Flamingos_nft",
+        "website": "https://flamingoparty.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HCgybxq5Upy8Mccihrp7EsmwwFqYZtrHrsmsKwtGXLgW",
+      "symbol": "STARS",
+      "name": "StarLaunch",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HCgybxq5Upy8Mccihrp7EsmwwFqYZtrHrsmsKwtGXLgW/logo.png",
+      "extensions": {
+        "telegram": "https://t.me/StarLaunchOfficial",
+        "twitter": "https://twitter.com/StarLaunchSOL",
+        "website": "https://www.starlaunch.com/"
       }
     },
     {
