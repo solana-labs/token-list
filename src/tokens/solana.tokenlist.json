@@ -30970,6 +30970,56 @@
       "extensions": {
         "website": "https://ncoinchain.com"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "E77cpQ4VncGmcAXX16LHFFzNBEBb2U7Ar7LBmZNfCgwL",
+      "symbol": "abUSDT",
+      "name": "Wrapped USDT (Allbridge from BSC)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8XSsNvaKU9FDhYWAv7Yc7qSNwuJSzVrXBNEk7AFiWF69",
+      "symbol": "abUSDC",
+      "name": "Wrapped USDC (Allbridge from BSC)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3os2M3bX9qta154PRbU9rzaPUYAKAqVpaMMS8u2hoUQu",
+      "symbol": "abBTCB",
+      "name": "Wrapped BTC (Allbridge from BSC)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png",
+      "extensions": {
+        "coingeckoId": "wrapped-bitcoin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EyrnrbE5ujd3HQG5PZd9MbECN9yaQrqc8pRwGtaLoyC",
+      "symbol": "abETH",
+      "name": "Wrapped ETH (Allbridge from BSC)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png",
+      "extensions": {
+        "coingeckoId": "weth"
+      }
     }
   ],
   "version": {
