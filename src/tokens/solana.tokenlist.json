@@ -24298,6 +24298,7 @@
       "extensions": {
         "coingeckoId": "invictus",
         "discord": "https://discord.gg/invictusdao",
+        "serumV3Usdc": "49vwM54DX3JPXpey2daePZPmimxA4CrkXLZ6E1fGxx2Z",
         "twitter": "https://twitter.com/InvictusDAO",
         "website": "https://invictusdao.fi/"
       }
@@ -25579,6 +25580,9 @@
         "meme-token"
       ],
       "extensions": {
+        "coingeckoId": "solit",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/solit/",
+        "medium": "https://solit.medium.com",
         "serumV3Usdc": "DhmedYCzs57hspLjP3SKd3NRcsvDbuPSQdooSQof4vek",
         "twitter": "https://twitter.com/solitso",
         "website": "https://solit.so"
@@ -26440,6 +26444,7 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "sonarwatch",
         "discord": "https://discord.gg/sonarwatch",
         "twitter": "https://twitter.com/Sonarwatch",
         "website": "https://sonar.watch/"
@@ -29858,12 +29863,10 @@
       "symbol": "TUI",
       "name": "TradeUI",
       "decimals": 3,
-      "logoURI": "https://i.imgur.com/nRoFh3f.png",
+      "logoURI": "https://pbs.twimg.com/profile_images/1260288995323502598/9aAFR0pr_400x400.jpg",
       "tags": [
-        "currency",
         "social-token",
         "community-token",
-        "trading-token",
         "reward-token",
         "utility-token"
       ],
@@ -31525,6 +31528,259 @@
         "description": "Startupism is a community token for startup founders. It gamifies the entrepreneur's hero journey.",
         "twitter": "https://twitter.com/startupism_ai",
         "website": "https://www.startupism.ai"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HBiYxV9W4SAX4YS6JHHozGDDM62CdcMakiToed5rSZR",
+      "symbol": "SHTM",
+      "name": "SHIT MOON",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HBiYxV9W4SAX4YS6JHHozGDDM62CdcMakiToed5rSZR/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "FiER3ViRr6xU8DNFJK9of2sioUEjg6xMhtJrA7dAmfEP",
+      "symbol": "SRPD",
+      "name": "Surprised",
+      "decimals": 10,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FiER3ViRr6xU8DNFJK9of2sioUEjg6xMhtJrA7dAmfEP/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3St1AJT8p8GP3FKa8UjNekkzauesEuE2rmzqVyLcC3Wn",
+      "symbol": "MB",
+      "name": "Amoeba",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3St1AJT8p8GP3FKa8UjNekkzauesEuE2rmzqVyLcC3Wn/logo.jpg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/AmoebaEcosystem"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EeFrrySDy3mp8vHyqMFrFyHREfqcdrXPzkAyVjpwbfMk",
+      "symbol": "AMA",
+      "name": "AMA token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EeFrrySDy3mp8vHyqMFrFyHREfqcdrXPzkAyVjpwbfMk/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/financeQ8"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "YY85DMGbftvE4eKQauey4yAGWvUJ9LxbfFRQSnogF53",
+      "symbol": "DTOK",
+      "name": "Developer Utility Token",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/YY85DMGbftvE4eKQauey4yAGWvUJ9LxbfFRQSnogF53/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "description": "Developer utility token is a community reward token for developers of cryptourios.io.",
+        "website": "https://cryptourios.io/tokens/dtok"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3DTgQ3zv1oQ91NYYSAzdbM1HHxMwNmYQYy5CfE8pfnu9",
+      "symbol": "CITE",
+      "name": "Citation",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/citation-coin/citation-coin/main/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/citation_crypto",
+        "website": "https://github.com/citation-coin/citation-coin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EfYk923A6knsoSKRpi7uGozaevzAp4KcXe7C9qXxBbuv",
+      "symbol": "MOGO",
+      "name": "MONKE GOD",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EfYk923A6knsoSKRpi7uGozaevzAp4KcXe7C9qXxBbuv/logo.png",
+      "tags": [
+        "meme-token",
+        "monkey",
+        "monkeygod",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/monkegodcoin",
+        "website": "https://monkegodcoin.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "kZEn3aDxEzcFADPe2VQ6WcJRbS1hVGjUcgCw4HiuYSU",
+      "symbol": "KZEN",
+      "name": "Kaizen Finance",
+      "decimals": 9,
+      "logoURI": "https://kaizen.finance/assets/images/kaizen-assets/logo-kaizen-symbol.png",
+      "tags": [
+        "kaizen",
+        "kaizen-finance",
+        "locked-token",
+        "vesting-token",
+        "bridge",
+        "DEX"
+      ],
+      "extensions": {
+        "description": "Kaizen is the first-ever cross-chain token lifecycle management platform built with the needs of both projects and investors alike.",
+        "medium": "https://kaizenfinance.medium.com",
+        "telegram": "https://t.me/KaizenFinance",
+        "twitter": "https://twitter.com/kaizen_finance",
+        "website": "https://kaizen.finance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FADvkbzT3JY1gFqQRoaMyipfy6GvpVhbVfn3q3om7ZVG",
+      "symbol": "QTC",
+      "name": "Quantum",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FADvkbzT3JY1gFqQRoaMyipfy6GvpVhbVfn3q3om7ZVG/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/quantumQTC",
+        "website": "http://www.quantum-coin.co"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "JAzfmYG4WMDs8yeSLAR1rHrhS3QgknpQeMno9omsqeeo",
+      "symbol": "MNR",
+      "name": "Moon Raccoons token",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/JAzfmYG4WMDs8yeSLAR1rHrhS3QgknpQeMno9omsqeeo/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "description": "Major currency inside of Moon Raccoons Metaverse",
+        "discord": "https://discord.gg/66FX52eZrk",
+        "twitter": "https://twitter.com/moonraccoonsnft",
+        "website": "https://moonraccoon.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "95dZLhb9FkL7mP7mrBQcnLZdoHVzsyekNGSXmXnrL9S1",
+      "symbol": "BLACKMOON",
+      "name": "Blackmoon Finance",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/95dZLhb9FkL7mP7mrBQcnLZdoHVzsyekNGSXmXnrL9S1/logo.png",
+      "tags": [
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DRh7AedYnCCpEwhPHSVox24g2zxqBK84MroyuXCknP8c",
+      "symbol": "YOUC",
+      "name": "yOUcash",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DRh7AedYnCCpEwhPHSVox24g2zxqBK84MroyuXCknP8c/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.youengine.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "78PyZ96q9WpMBpxY89Ct9ovBBxuKYaUEzt9gGZsWXQQ2",
+      "symbol": "SOD",
+      "name": "SOLID",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solidsbs/asset/dc74c7250fb5b97e6c84c3fe1241dba47288b3eb/solid.png",
+      "tags": [
+        "currency",
+        "social-token",
+        "community-token",
+        "trading-token",
+        "reward-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/solidsbs",
+        "website": "https://solid.sbs/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BDCyYhw4zvf8wx3e8rXcrcYnmsX5BxF7R6g5ooXqu3uL",
+      "symbol": "SamoShib",
+      "name": "Samo Shib",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BDCyYhw4zvf8wx3e8rXcrcYnmsX5BxF7R6g5ooXqu3uL/logo.png",
+      "tags": [
+        "Meme-Token",
+        "NFTs",
+        "Meme-NFTs"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/samoshib",
+        "serumV3Usdc": "CBaYZDJktoYTrSc38Qd2dq3Kko9bzVKMx6i31nBRVSd4",
+        "twitter": "https://twitter.com/samoshib",
+        "website": "https://www.samoshib.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9eEwTum1ppuc5HnhwSR1HYFZ1F712eD8n6mwzT92HumG",
+      "symbol": "TCTY",
+      "name": "Traceability",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9eEwTum1ppuc5HnhwSR1HYFZ1F712eD8n6mwzT92HumG/icon.png",
+      "tags": [
+        "currency",
+        "social-token",
+        "community-token",
+        "trading-token",
+        "reward-token",
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DRE26YQhpsifRS2pQptiVMpidVVvVNL8kbSbaXQyHmqi",
+      "symbol": "TOAPP",
+      "name": "Appreciation",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DRE26YQhpsifRS2pQptiVMpidVVvVNL8kbSbaXQyHmqi/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "SLRCdL7ZiF8UUHCMqoeCCYhb4FDoHwDJG6MgEmVb9is",
+      "symbol": "SLRC",
+      "name": "Sollarion Crystal",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SLRCdL7ZiF8UUHCMqoeCCYhb4FDoHwDJG6MgEmVb9is/logo.png",
+      "tags": [
+        "utility-token",
+        "gaming",
+        "metaverse",
+        "nfts",
+        "play-to-earn",
+        "solana-ecosystem",
+        "staking"
+      ],
+      "extensions": {
+        "description": "SLRC tokens are built on the Solana blockchain. Users can use SLRC to participate in the game, buy cards on marketplace, bet with other players, win in matches and tournaments etc. Also staking rewards are paid in SLRC tokens.",
+        "discord": "https://discord.com/invite/x2DcJ4uRd9",
+        "instagram": "https://www.instagram.com/solanagalaxynft/",
+        "twitter": "https://twitter.com/SolanaGalaxyNFT",
+        "website": "https://sollarion.com/"
       }
     }
   ],
