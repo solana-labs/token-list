@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "Solana Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
   "keywords": [
@@ -31478,17 +31478,6 @@
       }
     },
     {
-    "chainId": 101,
-    "address": "9eEwTum1ppuc5HnhwSR1HYFZ1F712eD8n6mwzT92HumG",
-    "symbol": "TCTY",
-    "name": "Traceability",
-    "decimals": 10,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9eEwTum1ppuc5HnhwSR1HYFZ1F712eD8n6mwzT92HumG/icon.png",
-    "tags": [
-      "utility-token"
-    ]
-  },
-    {
       "chainId": 101,
       "address": "3RudPTAkfcq9Q9Jk8SVeCoecCBmdKMj6q5smsWzxqtqZ",
       "symbol": "pUSDT",
@@ -31534,6 +31523,22 @@
         "description": "Startupism is a community token for startup founders. It gamifies the entrepreneur's hero journey.",
         "twitter": "https://twitter.com/startupism_ai",
         "website": "https://www.startupism.ai"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9eEwTum1ppuc5HnhwSR1HYFZ1F712eD8n6mwzT92HumG",
+      "symbol": "TCTY",
+      "name": "Traceability ",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/167cb2a55411217eaa62e600d4f9a9a07931f85a/assets/mainnet/9eEwTum1ppuc5HnhwSR1HYFZ1F712eD8n6mwzT92HumG/icon.png",
+      "tags": [
+        "NFT",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.Traceability.COM"
+
       }
     }
   ],
