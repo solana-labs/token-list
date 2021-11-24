@@ -31145,6 +31145,142 @@
       "extensions": {
         "website": "https://brazier.app/"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "5MoDJmq3JqsNnottRdot3WHmhmD6h8VRodqsBKVu9LPk",
+      "symbol": "APEC",
+      "name": "APEC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5MoDJmq3JqsNnottRdot3WHmhmD6h8VRodqsBKVu9LPk/logo.png",
+      "tags": [
+        "DeFi",
+        "meme-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/apeccoin",
+        "website": "https://apecoin.money"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ALPX6x8FkkdQyn9YuoVZjPAapL4nUC7vjJ3AtwStmj9P",
+      "symbol": "abUSDC-USDC",
+      "name": "Saber abUSDC-USDC LP",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ALPX6x8FkkdQyn9YuoVZjPAapL4nUC7vjJ3AtwStmj9P/icon.png",
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-allbridge"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/abusdc"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ALPaPPo6xmeGv3a63Pc4S8NJFAAuchhD7XnkkWJqzvXJ",
+      "symbol": "abUSDT-USDT",
+      "name": "Saber abUSDT-USDT LP",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ALPaPPo6xmeGv3a63Pc4S8NJFAAuchhD7XnkkWJqzvXJ/icon.png",
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-allbridge"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/abusdt"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ALPb4SssuKFScyUFnTcXLtF3NAkwFuFpQFric5yo4Qpo",
+      "symbol": "abBTCB-renBTC",
+      "name": "Saber abBTCB-renBTC LP",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ALPb4SssuKFScyUFnTcXLtF3NAkwFuFpQFric5yo4Qpo/icon.png",
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-allbridge"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/abbtcb"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ALPi51sXwH9kNcQuneDwz7kPzJs3hJ5xV6SmnuyqodQP",
+      "symbol": "abETH-weWETH",
+      "name": "Saber abETH-weWETH LP",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ALPi51sXwH9kNcQuneDwz7kPzJs3hJ5xV6SmnuyqodQP/icon.png",
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-allbridge"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/abeth"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "WLPAEUgB95YrU7Vk1FVPeSP5C3e66bf63frHRgsyxHv",
+      "symbol": "wbUSDT-USDT",
+      "name": "Saber wbUSDT-USDT LP",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WLPAEUgB95YrU7Vk1FVPeSP5C3e66bf63frHRgsyxHv/icon.png",
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-wormhole-v2"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/wbusdt"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "WLPR8Sy6Fbnf2sZHVg8Z7uW1QnRThnjhb244kf4ddCS",
+      "symbol": "wbBUSD-USDC",
+      "name": "Saber wbBUSD-USDC LP",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WLPR8Sy6Fbnf2sZHVg8Z7uW1QnRThnjhb244kf4ddCS/icon.png",
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-wormhole-v2"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/wbusd"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "WLPsu8oyn1muh5nimxvBsgo6hh6t5jAdUtZ1VmJkohs",
+      "symbol": "wbUSDC-USDC",
+      "name": "Saber wbUSDC-USDC LP",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WLPsu8oyn1muh5nimxvBsgo6hh6t5jAdUtZ1VmJkohs/icon.png",
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-wormhole-v2"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/wbusdc"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Hq9MuLDvUAWqC29JhqP2CUJP9879LfqNBHyRRREEXwtZ",
+      "symbol": "FLOCK",
+      "name": "Flock",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Hq9MuLDvUAWqC29JhqP2CUJP9879LfqNBHyRRREEXwtZ/logo.png",
+      "tags": [
+        "utlity-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/DapperDucks",
+        "twitter": "https://twitter.com/Dapper_DucksNFT"
+      }
     }
   ],
   "version": {
