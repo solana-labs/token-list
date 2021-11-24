@@ -31342,6 +31342,70 @@
         "twitter": "https://twitter.com/solanacash_io",
         "website": "https://solanacash.io"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "3jasj72YfitGmo3jtHvmCQXFNqAoJoGxLiVnqaDeZdXf",
+      "symbol": "AIEA",
+      "name": "AI Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3jasj72YfitGmo3jtHvmCQXFNqAoJoGxLiVnqaDeZdXf/logo.png",
+      "tags": [
+        "community-token",
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://ai-token.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4RGQbaSi5YGySUmoiMZB6mFrmr7XzvokUF7oxneiMnDs",
+      "symbol": "CML",
+      "name": "CML IT",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4RGQbaSi5YGySUmoiMZB6mFrmr7XzvokUF7oxneiMnDs/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "B98YTvnDdVQ9NKT3pdbFwJn2TMTDitz1xzfxgA1zXCDC",
+      "symbol": "COS",
+      "name": "Wrapped COS Contentos (Wormhole)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/B98YTvnDdVQ9NKT3pdbFwJn2TMTDitz1xzfxgA1zXCDC/logo.svg",
+      "tags": [
+        "wrapped",
+        "wormhole",
+        "utility-token",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x589891a198195061cb8ad1a75357a3b7dbadd7bc",
+        "assetContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "coingeckoId": "contentos",
+        "medium": "https://medium.com/contentos-io",
+        "twitter": "https://twitter.com/contentosio",
+        "website": "https://www.contentos.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "yUSD1iVx5cgmRREB81pJW8byQTaY3HwsPzeMLCm26Ne",
+      "symbol": "yUSDC",
+      "name": "yUSDC (Parrot Stability Pool Token)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/yUSD1iVx5cgmRREB81pJW8byQTaY3HwsPzeMLCm26Ne/logo.svg",
+      "extensions": {
+        "discord": "https://discord.gg/gopartyparrot",
+        "medium": "https://gopartyparrot.medium.com/",
+        "telegram": "https://t.me/gopartyparrot",
+        "twitter": "https://twitter.com/gopartyparrot",
+        "website": "https://parrot.fi"
+      }
     }
   ],
   "version": {
