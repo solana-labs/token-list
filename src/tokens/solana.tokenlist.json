@@ -57,6 +57,23 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
+	{
+  "chainId": 101,
+  "address": "4U7hSJxbgDoAcQqL2SZpB3hik225ZuG3L33VyrpZD8BA",
+  "symbol": "ADA",
+  "name": "CARDASOL",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4U7hSJxbgDoAcQqL2SZpB3hik225ZuG3L33VyrpZD8BA/logo.png",
+  "tags": [
+    "Meme-token",
+  ],
+  "extensions": {
+    "website": "https://cardasoltoken.com",
+	"discord": "https://discord.com/invite/tusA7HfUD4",
+	"telegram": "https://t.me/cardasol",
+	"twitter": "https://twitter.com/Carda_sol",
+  }
+},
     {
       "chainId": 101,
       "address": "HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo",
@@ -24296,7 +24313,6 @@
       "extensions": {
         "coingeckoId": "invictus",
         "discord": "https://discord.gg/invictusdao",
-        "serumV3Usdc": "49vwM54DX3JPXpey2daePZPmimxA4CrkXLZ6E1fGxx2Z",
         "twitter": "https://twitter.com/InvictusDAO",
         "website": "https://invictusdao.fi/"
       }
@@ -25578,9 +25594,6 @@
         "meme-token"
       ],
       "extensions": {
-        "coingeckoId": "solit",
-        "coinmarketcap": "https://coinmarketcap.com/currencies/solit/",
-        "medium": "https://solit.medium.com",
         "serumV3Usdc": "DhmedYCzs57hspLjP3SKd3NRcsvDbuPSQdooSQof4vek",
         "twitter": "https://twitter.com/solitso",
         "website": "https://solit.so"
@@ -29860,10 +29873,12 @@
       "symbol": "TUI",
       "name": "TradeUI",
       "decimals": 3,
-      "logoURI": "https://pbs.twimg.com/profile_images/1260288995323502598/9aAFR0pr_400x400.jpg",
+      "logoURI": "https://i.imgur.com/nRoFh3f.png",
       "tags": [
+        "currency",
         "social-token",
         "community-token",
+        "trading-token",
         "reward-token",
         "utility-token"
       ],
@@ -31731,30 +31746,6 @@
         "twitter": "https://twitter.com/samoshib",
         "website": "https://www.samoshib.com"
       }
-    },
-    {
-      "chainId": 101,
-      "address": "9eEwTum1ppuc5HnhwSR1HYFZ1F712eD8n6mwzT92HumG",
-      "symbol": "TCTY",
-      "name": "Traceability",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9eEwTum1ppuc5HnhwSR1HYFZ1F712eD8n6mwzT92HumG/icon.png",
-      "tags": [
-        "currency",
-        "social-token",
-        "community-token",
-        "trading-token",
-        "reward-token",
-        "utility-token"
-      ]
-    },
-    {
-      "chainId": 101,
-      "address": "DRE26YQhpsifRS2pQptiVMpidVVvVNL8kbSbaXQyHmqi",
-      "symbol": "TOAPP",
-      "name": "Appreciation",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DRE26YQhpsifRS2pQptiVMpidVVvVNL8kbSbaXQyHmqi/logo.png"
     }
   ],
   "version": {
