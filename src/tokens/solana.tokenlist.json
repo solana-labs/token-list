@@ -12870,6 +12870,19 @@
     },
     {
       "chainId": 101,
+      "address": "GKPRqYYFApXW4j7fwBdqCV7ugQ6Rn56ZoJ6UVHeaEHWs",
+      "symbol": "MICRO",
+      "name": "Micro Sol",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GKPRqYYFApXW4j7fwBdqCV7ugQ6Rn56ZoJ6UVHeaEHWs/logo.png",
+      "tags": [
+      "social-token",
+      ],
+      "extensions": {
+      "website": "https://microsol.org"
+    },
+    {
+      "chainId": 101,
       "address": "EHkfnhKLLTUqo1xMZLxhM9EusEgpN6RXPpZsGpUsewaa",
       "symbol": "MAPS/SOL",
       "name": "Orca LP Token (MAPS/SOL)",
@@ -32289,42 +32302,6 @@
         "description": "The DocuChain project aims to establish a protocol and a platform that encompasses blockchainbased e-document/contract creation, sending, and authentication that have advanced from existing edocument/contract services in line with this trend.",
         "website": "https://docuchain.co/",
         "whitepaper": "https://docuchain.co/wp/DocuChain_WP_V1.0_EN.pdf"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "H84W8smQNsiHkwPJHvGDyecSRCCXTWew3stfMF1KGpYR",
-      "symbol": "LODE",
-      "name": "LODE Token",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H84W8smQNsiHkwPJHvGDyecSRCCXTWew3stfMF1KGpYR/logo.png",
-      "tags": [
-        "dividend"
-      ],
-      "extensions": {
-        "address": "0x897f505d9637622219e4687eC1A71b4Acf204816",
-        "assetContract": "https://etherscan.io/address/0x897f505d9637622219e4687eC1A71b4Acf204816",
-        "website": "https://lode.one"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "HZNpqL7RT9gxf9eWoWsWzC5DfjzQ41XTQgEA7p3VzaaD",
-      "symbol": "TWT",
-      "name": "Trust Wallet (Wormhole)",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HZNpqL7RT9gxf9eWoWsWzC5DfjzQ41XTQgEA7p3VzaaD/logo.png",
-      "tags": [
-        "wrapped",
-        "wormhole"
-      ],
-      "extensions": {
-        "address": "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
-        "assetContract": "https://bscscan.com/address/0x4B0F1812e5Df2A09796481Ff14017e6005508003",
-        "bridgeContract": "https://bscscan.com/address/0x4B0F1812e5Df2A09796481Ff14017e6005508003",
-        "coingeckoId": "trust-wallet-token",
-        "twitter": "https://twitter.com/trustwallet",
-        "website": "https://trustwallet.com"
       }
     }
   ],
