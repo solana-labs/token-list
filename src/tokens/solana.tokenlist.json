@@ -33105,45 +33105,24 @@
     },
     {
       "chainId": 101,
-      "address": "C9PXceoq8uho2RZDGdtxYmyGYXeJUABaUP4qn37wQCgB",
-      "symbol": "poUSDC",
-      "name": "Pole Aggregator USDC",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/C9PXceoq8uho2RZDGdtxYmyGYXeJUABaUP4qn37wQCgB/USDC.svg",
+      "address": "5L2YboFbHAUpBDDJjvDB5M6pu9CW2FRjyDB2asZyvjtE",
+      "symbol": "PIXL",
+      "name": "Pixels.so Token",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5L2YboFbHAUpBDDJjvDB5M6pu9CW2FRjyDB2asZyvjtE/logo.png",
       "tags": [
-        "pole",
-        "aggregator"
+        "utility-token",
+        "NFT",
+        "DeFi"
       ],
       "extensions": {
-        "website": "https://pole.finance/"
+        "description": "Borrow Against Your NFTs - Deposit NFTs to Earn Yield.",
+        "discord": "https://discord.gg/rMdRdhTQ",
+        "telegram": "https://t.me/pixels_official",
+        "twitter": "https://twitter.com/pixels_so",
+        "website": "https://www.pixels.so"
       }
-    },
-    {
-      "chainId": 101,
-      "address": "3oePHsi4fhoyuLAjqXEgBUPB1cs4bP9A8cZpc1dATS9c",
-      "symbol": "CHEEZE",
-      "name": "Cheeze",
-      "decimals": 3,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3oePHsi4fhoyuLAjqXEgBUPB1cs4bP9A8cZpc1dATS9c/logo.png",
-      "extensions": {
-        "website": "https://www.ratbastard.io"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "Ac7Q9QfNtwcjsDogkDh1rduRPJX21Tqe52t9NHXCfKRF",
-      "symbol": "ENDR",
-      "name": "Ender",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Ac7Q9QfNtwcjsDogkDh1rduRPJX21Tqe52t9NHXCfKRF/logo.png",
-      "tags": [
-        "community-token",
-        "meme-token"
-      ],
-      "extensions": {
-        "website": "https://discord.gg/4JzJfcMw8H"
-      }
-    }
+    } 
   ],
   "version": {
     "major": 0,
