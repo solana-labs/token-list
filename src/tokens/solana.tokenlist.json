@@ -11474,7 +11474,7 @@
       "tags": [
         "social-token",
         "loop"
-      ]
+	  ]
     },
     {
       "chainId": 101,
@@ -33103,6 +33103,14 @@
         "nfts"
       ]
     },
+	    {
+      "chainId": 101,
+      "address": "F17igWRYAaiEKHRqarczgo4j4XcorPbu5HfozKDJg9fm",
+      "symbol": "MED",
+      "name": "Mediverse",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F17igWRYAaiEKHRqarczgo4j4XcorPbu5HfozKDJg9fm/logo.png",
+    },
     {
       "chainId": 101,
       "address": "C9PXceoq8uho2RZDGdtxYmyGYXeJUABaUP4qn37wQCgB",
@@ -33283,11 +33291,19 @@
         "twitter": "https://twitter.com/eyeznft",
         "website": "https://nfteyez.global"
       }
-    }
-  ],
+    },
+	{
+  "chainId": 101,
+  "address": "F17igWRYAaiEKHRqarczgo4j4XcorPbu5HfozKDJg9fm",
+  "symbol": "MED",
+  "name": "Mediverse",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F17igWRYAaiEKHRqarczgo4j4XcorPbu5HfozKDJg9fm/logo.png",
+  },
+}
+  {
   "version": {
     "major": 0,
     "minor": 3,
     "patch": 3
   }
-}
