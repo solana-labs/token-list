@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "Solana Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
   "keywords": [
@@ -33585,6 +33585,20 @@
       ],
       "extensions": {
         "serumV3Usdc": "BTtbWNAVB3eYfPUBuztYpxwNQVWYKN7TKU5e8HDPXCd9"
+      }
+},
+    {
+      "chainId": 101,
+      "address": "E4UnArW48zsPCzNNCf4UUQRFsdFe8G8MxdgGnmtLm2BX",
+      "symbol": "SOLKITTY",
+      "name": "SOLKITTY NFT: VR PUNK",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E4UnArW48zsPCzNNCf4UUQRFsdFe8G8MxdgGnmtLm2BX/vrpunk.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solkitty.io/nft/social/vrpunks"
       }
     }
   ],
