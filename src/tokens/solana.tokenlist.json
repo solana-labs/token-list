@@ -11466,12 +11466,15 @@
     },
     {
       "chainId": 101,
-      "address": "EiJEQs1Hdo41RWvdFeRJi1umZLuvkgBYbipWS7Udpdxc",
-      "symbol": "ACE",
-      "name": "ACEVERSE",
-      "decimals": 2,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EiJEQs1Hdo41RWvdFeRJi1umZLuvkgBYbipWS7Udpdxc/logo.png",
-      
+      "address": "FxCvbCVAtNUEKSiKoF6xt2pWPfpXuYFWYbuQySaRnV5R",
+      "symbol": "LOOP",
+      "name": "LC Andy Social Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FxCvbCVAtNUEKSiKoF6xt2pWPfpXuYFWYbuQySaRnV5R/logo.png",
+      "tags": [
+        "social-token",
+        "loop"
+      ]
     },
     {
       "chainId": 101,
@@ -33697,6 +33700,20 @@
         "discord": "https://discord.gg/vP7kqKY",
         "website": "https://wondergeek.fr/"
       }
+    },
+	{
+      "chainId": 101,
+      "address": "EiJEQs1Hdo41RWvdFeRJi1umZLuvkgBYbipWS7Udpdxc",
+      "symbol": "ACE",
+      "name": "ACEVERSE",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EiJEQs1Hdo41RWvdFeRJi1umZLuvkgBYbipWS7Udpdxc/logo.png",
+      "tags": [
+        "community-token",
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://aceverse.net/"
     }
   ],
   "version": {
