@@ -60,13 +60,17 @@
     {
       "chainId": 101,
       "address": "7wKWd1kXz1wM5epW5hsu4Em3GAByGyDc3wr2AspMWjDG",
-      "symbol": "UFO",
+      "symbol": "$UFO",
       "name": "UFO Token",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7wKWd1kXz1wM5epW5hsu4Em3GAByGyDc3wr2AspMWjDG/logo.png",
       "tags": [
         "community-token"
-      ]
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/solian_s",
+        "website": "https://soliansnft.netlify.app/"
+      }
     },
     {
       "chainId": 101,
@@ -79,8 +83,7 @@
         "community-token",
         "meme-token"
       ],
-      "extensions": {
-      }
+      "extensions": {}
     },
     {
       "chainId": 101,
