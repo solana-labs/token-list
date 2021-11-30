@@ -27497,18 +27497,18 @@
       "address": "GLmaRDRmYd4u3YLfnj9eq1mrwxa1YfSweZYYZXZLTRdK",
       "symbol": "SOLAB",
       "name": "Solabrador",
-      "decimals": 6,
+      "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GLmaRDRmYd4u3YLfnj9eq1mrwxa1YfSweZYYZXZLTRdK/solabradon250x250.png",
       "tags": [
-        "Meme",
-        "Meme-Token",
-        "social-token"
+        "social-token",
+		"meme-token",
+		"community-token"
       ],
       "extensions": {
         "discord": "https://discord.gg/8HJK4apjd7",
         "twitter": "https://twitter.com/Solabrador",
         "website": "https://solabrador.com",
-        "coingeckoId": "solabrador"
+		"coingeckoId": "solabrador"
       }
     },
     {
@@ -34029,6 +34029,20 @@
       "tags": [
         "community-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "9JK1KNvGdWvZUX783nULvDZaZMVhdzohL2dKUUkjW2jZ",
+      "symbol": "NINJA/USDC",
+      "name": "ATRIX LP Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FgX1WD9WzMU3yLwXaFSarPfkgzjLb2DZCqmkx9ExpuvJ/logo.png",
+      "tags": [
+        "lp-token"
+      ],
+      "extensions": {
+        "website": "https://www.atrix.finance/"
+      }
     }
   ],
   "version": {
