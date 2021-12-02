@@ -17,9 +17,9 @@ DON'T modify any other token on the list.
 
 At minimum each entry should have
 
-- Token Address:
-- Token Name:
-- Token Symbol:
+- Token Address:AXUjVTpm2SWr2fjnQpJbLzy6dSGXPMTjPjWn4LxHjrKC
+- Token Name: doro
+- Token Symbol: DR
 - Logo: (logo should be uploaded under assets/mainnet/<mint address>/\*.<png/svg>)
 - Link to the official homepage of token:
 - Coingecko ID if available (https://www.coingecko.com/api/documentations/v3#/coins/get_coins__id_):
