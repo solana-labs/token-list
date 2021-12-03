@@ -1,3 +1,7 @@
+---
+# Please note: This repository is being rebuilt to accept the new volume of token additions and modifications. PR merges will be delayed.
+---
+
 # @solana/spl-token-registry
 
 [![npm](https://img.shields.io/npm/v/@solana/spl-token-registry)](https://unpkg.com/@solana/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/solana-labs/token-list/blob/b3fa86b3fdd9c817139e38641d46c5a892542a52/LICENSE)
@@ -64,7 +68,7 @@ Please follow the Uniswap Token List specification found here: https://github.co
 
 All claims, content, designs, algorithms, estimates, roadmaps,
 specifications, and performance measurements described in this project
-are done with the Solana Foundation's ("SF") best efforts. It is up to
+are done with the Solana Foundation's ("SF") good faith efforts. It is up to
 the reader to check and validate their accuracy and truthfulness.
 Furthermore nothing in this project constitutes a solicitation for
 investment.
