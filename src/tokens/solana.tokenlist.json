@@ -53,10 +53,21 @@
     "tokenized-stock": {
       "name": "tokenized-stock",
       "description": "Tokenized stocks are tokenized derivatives that represent traditional securities, particularly shares in publicly firms traded on regulated exchanges"
-    }
-  },
+    },
+},
   "timestamp": "2021-03-03T19:57:21+0000",
-  "tokens": [
+  "tokens": [ 
+   {
+      "chainId": 101,
+      "address": "2ADKYuqzwQwCKQtDb4fchL4Dxc8QZYcvrvTGGEGD6Ghh",
+      "symbol": "YID",
+      "name": "Yid Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2ADKYuqzwQwCKQtDb4fchL4Dxc8QZYcvrvTGGEGD6Ghh/logo.png",
+      "tags": [
+        "social-token"
+      ]
+  },
     {
       "chainId": 101,
       "address": "FCuoMii64H5Ee4eVWBjP18WTFS8iLUJmGi16Qti1xFQ2",
@@ -90,6 +101,14 @@
         "twitter": "https://twitter.com/CryowarDevs",
         "website": "https://cryowar.com"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "GjzLwTZvhdhswB1oyLZwH3tvL24Tv87UBmhNNnBgF42B",
+      "symbol": "NUNI",
+      "name": "Nuni Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GjzLwTZvhdhswB1oyLZwH3tvL24Tv87UBmhNNnBgF42B/logo.png"
     },
     {
       "chainId": 101,
