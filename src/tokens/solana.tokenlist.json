@@ -3122,7 +3122,7 @@
         "community-token"
       ],
       "extensions": {
-        "telegram":"https://t.me/+EWjQtq9l3GBjYzc0"
+        "telegram": "https://t.me/+EWjQtq9l3GBjYzc0"
       }
     },
     {
@@ -23331,11 +23331,11 @@
         "meme-token"
       ],
       "extensions": {
-		"coinmarketcap": "https://coinmarketcap.com/currencies/doggystyle-coin/",
-		"discord": "https://discord.gg/UACVDtQcCp",
-		"website": "https://dscsolana.io/",
-		"serumV3Usdc": "36wb7iVPv5Rn5Q1ppqVmtJaxLdwgUYkr6U3SGa9iL3W1",
-        "twitter": "https://twitter.com/dscoinsolana"
+        "coinmarketcap": "https://coinmarketcap.com/currencies/doggystyle-coin/",
+        "discord": "https://discord.gg/UACVDtQcCp",
+        "serumV3Usdc": "36wb7iVPv5Rn5Q1ppqVmtJaxLdwgUYkr6U3SGa9iL3W1",
+        "twitter": "https://twitter.com/dscoinsolana",
+        "website": "https://dscsolana.io/"
       }
     },
     {
@@ -33710,7 +33710,7 @@
         "community-token"
       ],
       "extensions": {
-	"coingeckoId": "dogelana",
+        "coingeckoId": "dogelana",
         "discord": "https://discord.gg/dogelana",
         "github": "https://github.com/dogelanaio",
         "telegram": "https://t.me/dogelana",
@@ -35323,6 +35323,32 @@
         "social-token",
         "utility-token"
       ]
+    },
+    {
+      "chainId": 103,
+      "address": "GzQ2JiAkyMDQuw5NGrhZzgcWCyAQdRGQSm9hQzCoLVKr",
+      "symbol": "FITT",
+      "name": "Fit Panda Test",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GzQ2JiAkyMDQuw5NGrhZzgcWCyAQdRGQSm9hQzCoLVKr/logo.png",
+      "tags": [
+        "security-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "AXUjVTpm2SWr2fjnQpJbLzy6dSGXPMTjPjWn4LxHjrKC",
+      "symbol": "DR",
+      "name": "doro Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AXUjVTpm2SWr2fjnQpJbLzy6dSGXPMTjPjWn4LxHjrKC/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "facebook": "https://www.facebook.com/meziane.allaoua19/",
+        "telegram": "https://t.me/Allaouabusiness"
+      }
     }
   ],
   "version": {
