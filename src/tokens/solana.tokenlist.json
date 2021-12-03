@@ -19258,6 +19258,23 @@
     },
     {
       "chainId": 101,
+      "address": "E2VmbootbVCBkMNNxKQgCLMS1X3NoGMaYAsufaAsf7M",
+      "symbol": "wpUSDC",
+      "name": "USD Coin (Wormhole from Polygon)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A9mUU4qviSctJVPJdBJWkb28deg915LYJKrzQ19ji3FM/logo.png",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "assetContract": "https://polygonscan.com/token/0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "bridgeContract": "https://polygonscan.com/address/0x5a58505a96d1dbf8df91cb21b54419fc36e93fde",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "FLhkrAUE3kjwQwZPvAqDTAXULTgBUgjcAVtyzvwkcNrJ",
       "symbol": "MBB",
       "name": "Fraktionalized MBB 2793",
@@ -19305,6 +19322,23 @@
     },
     {
       "chainId": 101,
+      "address": "5goWRao6a3yNC4d6UjMdQxonkCMvKBwdpubU3qhfcdf1",
+      "symbol": "wpUSDT",
+      "name": "Tether USD (Wormhole from Polygon)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dn4noZ5jgGfkntzcQSUZ8czkreiZ1ForXYoV2H8Dm7S1/logo.png",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "assetContract": "https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "bridgeContract": "https://polygonscan.com/address/0x5a58505a96d1dbf8df91cb21b54419fc36e93fde",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o",
       "symbol": "weDAI",
       "name": "Dai Stablecoin (Wormhole)",
@@ -19317,6 +19351,23 @@
         "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
         "assetContract": "https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f",
         "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "dai"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4Fo67MYQpVhZj9R7jQTd63FPAnWbPpaafAUxsMGX2geP",
+      "symbol": "wpDAI",
+      "name": "Dai Stablecoin (Wormhole from Polygon)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o/logo.png",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+        "assetContract": "https://polygonscan.com/token/0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+        "bridgeContract": "https://polygonscan.com/address/0x5a58505a96d1dbf8df91cb21b54419fc36e93fde",
         "coingeckoId": "dai"
       }
     },
@@ -24604,7 +24655,7 @@
       "chainId": 101,
       "address": "C7NNPWuZCNjZBfW5p6JvGsR8pUdsRpEdP1ZAhnoDwj7h",
       "symbol": "weMATIC",
-      "name": "Matic Token (Wormhole)",
+      "name": "Matic (Wormhole)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/C7NNPWuZCNjZBfW5p6JvGsR8pUdsRpEdP1ZAhnoDwj7h/logo.png",
       "tags": [
@@ -24616,6 +24667,42 @@
         "assetContract": "https://etherscan.io/address/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
         "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
         "coingeckoId": "polygon"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Gz7VkD4MacbEB6yC5XD3HcumEiYx2EtDYYrfikGsvopG",
+      "symbol": "wpWMATIC",
+      "name": "Wrapped Matic (Wormhole from Polygon)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/C7NNPWuZCNjZBfW5p6JvGsR8pUdsRpEdP1ZAhnoDwj7h/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "assetContract": "https://polygonscan.com/address/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "bridgeContract": "https://polygonscan.com/address/0x5a58505a96d1dbf8df91cb21b54419fc36e93fde",
+        "coingeckoId": "polygon"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5njTmK53Ss5jkiHHZvzabVzZj6ztu6WYWpAPYgbVnbjs",
+      "symbol": "wpQUICK",
+      "name": "Quickswap (Wormhole from Polygon)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5njTmK53Ss5jkiHHZvzabVzZj6ztu6WYWpAPYgbVnbjs/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x831753dd7087cac61ab5644b308642cc1c33dc13",
+        "assetContract": "https://polygonscan.com/address/0x831753dd7087cac61ab5644b308642cc1c33dc13",
+        "bridgeContract": "https://polygonscan.com/address/0x5a58505a96d1dbf8df91cb21b54419fc36e93fde",
+        "coingeckoId": "quickswap"
       }
     },
     {
