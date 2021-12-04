@@ -1602,9 +1602,9 @@
       "decimals": 9,
       "logoURI": "https://www.turtles.com/turtles.png",
       "extensions": {
+        "coingeckoId": "turtles-token",
         "serumV3Usdc": "2dKHkfJGKNxmtwdLcsqXFGcb8Xppw5RP6YVWEWjSfAHm",
         "website": "https://www.turtles.com/"
-        ,"coingeckoId": "turtles-token"
       }
     },
     {
@@ -28037,12 +28037,12 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3cAzWmrfovbkb3pU9mktcEzCiAXrVWRf2yp3T8PdJ2Zt/logo.jpg",
       "tags": [
         "drink",
-	      "NFT"
+        "NFT"
       ],
       "extensions": {
-        "website": "https://solanadrink.com",
         "discord": "https://discord.gg/solanadrink",
-        "twitter": "https://twitter.com/solanadrink"
+        "twitter": "https://twitter.com/solanadrink",
+        "website": "https://solanadrink.com"
       }
     },
     {
@@ -35871,6 +35871,37 @@
       ],
       "extensions": {
         "facebook": "https://www.facebook.com/pebbleztoken"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BXrwYC5E8p3X2Zc2keWRrBJ3khpAQEiTBzKpSBE22Dy9",
+      "symbol": "PTM",
+      "name": "PotatoesMoon",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXrwYC5E8p3X2Zc2keWRrBJ3khpAQEiTBzKpSBE22Dy9/logo.png",
+      "tags": [
+        "utility-token",
+        "meme-token",
+        "community-token",
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://www.youtube.com/c/lecarburodu63/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk",
+      "symbol": "BLOCK",
+      "name": "Blockasset",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk/logo.png",
+      "extensions": {
+        "discord": "https://discord.com/invite/mynn9p6uNw",
+        "telegram": "https://t.me/blockassetupdates",
+        "twitter": "https://twitter.com/Blockassetco",
+        "website": "https://blockasset.co"
       }
     }
   ],
