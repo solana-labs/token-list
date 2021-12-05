@@ -80,7 +80,7 @@ import (
 }
 
 #URL: =~ #"^(ipfs|http[s]?)://(?:[a-zA-Z]|[0-9]|[$-_@.&+#~]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+$"#
-#TelegramURL: =~ #"^https://t.me/((\w){5,32}|joinchat/[\w-]{16})$"#
+#TelegramURL: =~ #"^https://t.me/([\w\+]{5,32}|joinchat/[\w-]{16})$"#
 
 #Extensions: {
 	website?: #URL
