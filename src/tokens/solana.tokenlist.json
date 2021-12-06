@@ -59,6 +59,33 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A",
+      "symbol": "MBS",
+      "name": "MonkeyBucks",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A/logo.png",
+      "tags": [
+        "utility-token",
+        "game-token",
+        "game-currency",
+        "GameFi",
+        "Gaming"
+      ],
+      "extensions": {
+        "website": "https://www.monkeyball.com",
+        "telegram": "https://t.me/monkeyball_official",
+        "twitter": "https://twitter.com/MonkeyBallGame",
+        "discord": "https://discord.gg/monkeyball",
+        "instagram": "https://www.instagram.com/monkeyball_game",
+        "facebook": "https://facebook.com/monkeyballgames",
+        "medium": "https://medium.com/@MonkeyBall",
+        "reddit": "https://www.reddit.com/r/MonkeyBallGame",
+        "description": "MonkeyBall is the next-gen esports metaverse empowering players to create, play, compete, and earn.",
+        "coingeckoId": "monkeyball"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "FCuoMii64H5Ee4eVWBjP18WTFS8iLUJmGi16Qti1xFQ2",
       "symbol": "EDB",
       "name": "Emerald Block",
@@ -768,7 +795,7 @@
       "symbol": "BIAD",
       "name": "daib test token",
       "decimals": 6,
-      "logoURI": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02242929-14bc-4204-ac71-56d855a07078/512_daia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20211104T051518Z\u0026X-Amz-Expires=86400\u0026X-Amz-Signature=df1424dcb1be408faa45ef6af1f7769edf977da365822e00c34a2150167bfe58\u0026X-Amz-SignedHeaders=host\u0026response-content-disposition=filename%20%3D%22512_daia.png%22",
+      "logoURI": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02242929-14bc-4204-ac71-56d855a07078/512_daia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T051518Z&X-Amz-Expires=86400&X-Amz-Signature=df1424dcb1be408faa45ef6af1f7769edf977da365822e00c34a2150167bfe58&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22512_daia.png%22",
       "extensions": {
         "website": "https://daios.io/"
       }
@@ -2402,8 +2429,8 @@
     {
       "chainId": 101,
       "address": "5HHv6HAyBtaihyHEapCJvjE6iRbGLRmm3F5EZjz6EzHV",
-      "symbol": "wID",
-      "name": "Everest ID (Wormhole)",
+      "symbol": "wID_v1",
+      "name": "Everest ID (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5HHv6HAyBtaihyHEapCJvjE6iRbGLRmm3F5EZjz6EzHV/logo.png",
       "tags": [
@@ -3045,7 +3072,7 @@
       "chainId": 101,
       "address": "CS4tNS523VCLiTsGnYEAd6GqfrZNLtA14C98DC6gE47g",
       "symbol": "SPY",
-      "name": "SPDR S\u0026P 500 ETF",
+      "name": "SPDR S&P 500 ETF",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CS4tNS523VCLiTsGnYEAd6GqfrZNLtA14C98DC6gE47g/logo.svg",
       "tags": [
@@ -3186,7 +3213,7 @@
       "chainId": 101,
       "address": "3LjkoC9FYEqRKNpy7xz3nxfnGVAt1SNS98rYwF2adQWB",
       "symbol": "VXX",
-      "name": "iPath B S\u0026P 500 VIX S/T Futs ETN",
+      "name": "iPath B S&P 500 VIX S/T Futs ETN",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3LjkoC9FYEqRKNpy7xz3nxfnGVAt1SNS98rYwF2adQWB/logo.png",
       "tags": [
@@ -3935,8 +3962,8 @@
     {
       "chainId": 101,
       "address": "2oDxYGgTBmST4rc3yn1YtcSEck7ReDZ8wHWLqZAuNWXH",
-      "symbol": "xMARK",
-      "name": "Standard",
+      "symbol": "wxMARK_v1",
+      "name": "Standard (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2oDxYGgTBmST4rc3yn1YtcSEck7ReDZ8wHWLqZAuNWXH/logo.png",
       "tags": [
@@ -5497,8 +5524,8 @@
     {
       "chainId": 101,
       "address": "FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf",
-      "symbol": "wWETH",
-      "name": "Wrapped Ether (Wormhole)",
+      "symbol": "wWETH_v1",
+      "name": "Wrapped Ether (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png",
       "tags": [
@@ -5515,8 +5542,8 @@
     {
       "chainId": 101,
       "address": "FeLoyXk8ac2AYVmDhAWEKNWWT63Z9TczeidYbpDvxF3T",
-      "symbol": "wCAPS",
-      "name": "Wrapped Capsule Coin (Wormhole)",
+      "symbol": "wCAPS_v1",
+      "name": "Wrapped Capsule Coin (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeLoyXk8ac2AYVmDhAWEKNWWT63Z9TczeidYbpDvxF3T/logo.svg",
       "tags": [
@@ -5534,8 +5561,8 @@
     {
       "chainId": 101,
       "address": "GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi",
-      "symbol": "wFTT",
-      "name": "Wrapped FTT (Wormhole)",
+      "symbol": "wFTT_v1",
+      "name": "FTT (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi/logo.png",
       "tags": [
@@ -5552,8 +5579,8 @@
     {
       "chainId": 101,
       "address": "AbLwQCyU9S8ycJgu8wn6woRCHSYJmjMpJFcAHQ6vjq2P",
-      "symbol": "wTUSD",
-      "name": "TrueUSD (Wormhole)",
+      "symbol": "wTUSD_v1",
+      "name": "TrueUSD (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AbLwQCyU9S8ycJgu8wn6woRCHSYJmjMpJFcAHQ6vjq2P/logo.png",
       "tags": [
@@ -5570,8 +5597,8 @@
     {
       "chainId": 101,
       "address": "3JfuyCg5891hCX1ZTbvt3pkiaww3XwgyqQH6E9eHtqKD",
-      "symbol": "wLON",
-      "name": "Tokenlon (Wormhole)",
+      "symbol": "wLON_v1",
+      "name": "Tokenlon (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3JfuyCg5891hCX1ZTbvt3pkiaww3XwgyqQH6E9eHtqKD/logo.png",
       "tags": [
@@ -5588,8 +5615,8 @@
     {
       "chainId": 101,
       "address": "6k7mrqiAqEWnABVN8FhfuNUrmrnaMh44nNWydNXctbpV",
-      "symbol": "wALBT",
-      "name": "AllianceBlock Token (Wormhole)",
+      "symbol": "wALBT_v1",
+      "name": "AllianceBlock Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6k7mrqiAqEWnABVN8FhfuNUrmrnaMh44nNWydNXctbpV/logo.png",
       "tags": [
@@ -5606,8 +5633,8 @@
     {
       "chainId": 101,
       "address": "4b166BQEQunjg8oNTDcLeWU3nidQnVTL1Vni8ANU7Mvt",
-      "symbol": "wSKL",
-      "name": "SKALE (Wormhole)",
+      "symbol": "wSKL_v1",
+      "name": "SKALE (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4b166BQEQunjg8oNTDcLeWU3nidQnVTL1Vni8ANU7Mvt/logo.png",
       "tags": [
@@ -5624,8 +5651,8 @@
     {
       "chainId": 101,
       "address": "CcHhpEx9VcWx7UBJC8DJaR5h3wNdexsQtB1nEfekjSHn",
-      "symbol": "wUFT",
-      "name": "UniLend Finance Token (Wormhole)",
+      "symbol": "wUFT_v1",
+      "name": "UniLend Finance Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CcHhpEx9VcWx7UBJC8DJaR5h3wNdexsQtB1nEfekjSHn/logo.png",
       "tags": [
@@ -5642,8 +5669,8 @@
     {
       "chainId": 101,
       "address": "VPjCJkR1uZGT9k9q7PsLArS5sEQtWgij8eZC8tysCy7",
-      "symbol": "wORN",
-      "name": "Orion Protocol (Wormhole)",
+      "symbol": "wORN_v1",
+      "name": "Orion Protocol (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/VPjCJkR1uZGT9k9q7PsLArS5sEQtWgij8eZC8tysCy7/logo.png",
       "tags": [
@@ -5660,8 +5687,8 @@
     {
       "chainId": 101,
       "address": "CxzHZtzrm6bAz6iFCAGgCYCd3iQb5guUD7oQXKxdgk5c",
-      "symbol": "wSRK",
-      "name": "SparkPoint (Wormhole)",
+      "symbol": "wSRK_v1",
+      "name": "SparkPoint (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CxzHZtzrm6bAz6iFCAGgCYCd3iQb5guUD7oQXKxdgk5c/logo.png",
       "tags": [
@@ -5678,8 +5705,8 @@
     {
       "chainId": 101,
       "address": "FqMZWvmii4NNzhLBKGzkvGj3e3XTxNVDNSKDJnt9fVQV",
-      "symbol": "wUMA",
-      "name": "UMA Voting Token v1 (Wormhole)",
+      "symbol": "wUMA_v1",
+      "name": "UMA Voting Token v1 (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FqMZWvmii4NNzhLBKGzkvGj3e3XTxNVDNSKDJnt9fVQV/logo.png",
       "tags": [
@@ -5696,8 +5723,8 @@
     {
       "chainId": 101,
       "address": "6GGNzF99kCG1ozQbP7M7EYW9zPbQGPMwTCCi2Dqx3qhU",
-      "symbol": "wSkey",
-      "name": "SmartKey (Wormhole)",
+      "symbol": "wSkey_v1",
+      "name": "SmartKey (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6GGNzF99kCG1ozQbP7M7EYW9zPbQGPMwTCCi2Dqx3qhU/logo.png",
       "tags": [
@@ -5714,8 +5741,8 @@
     {
       "chainId": 101,
       "address": "Gc9rR2dUHfuYCJ8rU1Ye9fr8JoZZt9ZrfmXitQRLsxRW",
-      "symbol": "wMIR",
-      "name": "Wrapped MIR Token (Wormhole)",
+      "symbol": "wMIR_v1",
+      "name": "Wrapped MIR Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Gc9rR2dUHfuYCJ8rU1Ye9fr8JoZZt9ZrfmXitQRLsxRW/logo.png",
       "tags": [
@@ -5732,8 +5759,8 @@
     {
       "chainId": 101,
       "address": "B8xDqdrHpYLNHQKQ4ARDKurxhkhn2gfZa8WRosCEzXnF",
-      "symbol": "wGRO",
-      "name": "Growth (Wormhole)",
+      "symbol": "wGRO_v1",
+      "name": "Growth (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/B8xDqdrHpYLNHQKQ4ARDKurxhkhn2gfZa8WRosCEzXnF/logo.png",
       "tags": [
@@ -5750,8 +5777,8 @@
     {
       "chainId": 101,
       "address": "GE1X8ef7fcsJ93THx4CvV7BQsdEyEAyk61s2L5YfSXiL",
-      "symbol": "wSTAKE",
-      "name": "xDai (Wormhole)",
+      "symbol": "wSTAKE_v1",
+      "name": "xDai (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GE1X8ef7fcsJ93THx4CvV7BQsdEyEAyk61s2L5YfSXiL/logo.png",
       "tags": [
@@ -5768,8 +5795,8 @@
     {
       "chainId": 101,
       "address": "7TK6QeyTsnTT6KsnK2tHHfh62mbjNuFWoyUc8vo3CmmU",
-      "symbol": "wYFI",
-      "name": "yearn.finance (Wormhole)",
+      "symbol": "wYFI_v1",
+      "name": "yearn.finance (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7TK6QeyTsnTT6KsnK2tHHfh62mbjNuFWoyUc8vo3CmmU/logo.png",
       "tags": [
@@ -5786,7 +5813,7 @@
     {
       "chainId": 101,
       "address": "CTtKth9uW7froBA6xCd2MP7BXjGFESdT1SyxUmbHovSw",
-      "symbol": "wBAT",
+      "symbol": "wBAT_v1",
       "name": "Basic Attention Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CTtKth9uW7froBA6xCd2MP7BXjGFESdT1SyxUmbHovSw/logo.png",
@@ -5804,7 +5831,7 @@
     {
       "chainId": 101,
       "address": "EPeUFDgHRxs9xxEPVaL6kfGQvCon7jmAWKVUHuux1Tpz",
-      "symbol": "wBAT",
+      "symbol": "weBAT",
       "name": "Basic Attention Token (Wormhole)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPeUFDgHRxs9xxEPVaL6kfGQvCon7jmAWKVUHuux1Tpz/logo.png",
@@ -5815,15 +5842,15 @@
       "extensions": {
         "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
         "assetContract": "https://etherscan.io/address/0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
-        "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
         "coingeckoId": "basic-attention-token"
       }
     },
     {
       "chainId": 101,
       "address": "DrL2D4qCRCeNkQz3AJikLjBc3cS6fqqcQ3W7T9vbshCu",
-      "symbol": "wMANA",
-      "name": "Decentraland MANA (Wormhole)",
+      "symbol": "wMANA_v1",
+      "name": "Decentraland MANA (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DrL2D4qCRCeNkQz3AJikLjBc3cS6fqqcQ3W7T9vbshCu/logo.png",
       "tags": [
@@ -5840,8 +5867,8 @@
     {
       "chainId": 101,
       "address": "3cJKTW69FQDDCud7AhKHXZg126b3t73a2qVcVBS1BWjL",
-      "symbol": "wXIO",
-      "name": "XIO Network (Wormhole)",
+      "symbol": "wXIO_v1",
+      "name": "XIO Network (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3cJKTW69FQDDCud7AhKHXZg126b3t73a2qVcVBS1BWjL/logo.png",
       "tags": [
@@ -5858,8 +5885,8 @@
     {
       "chainId": 101,
       "address": "CQivbzuRQLvZbqefKc5gLzhSzZzAaySAdMmTG7pFn41w",
-      "symbol": "wLAYER",
-      "name": "Unilayer (Wormhole)",
+      "symbol": "wLAYER_v1",
+      "name": "Unilayer (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CQivbzuRQLvZbqefKc5gLzhSzZzAaySAdMmTG7pFn41w/logo.png",
       "tags": [
@@ -5876,8 +5903,8 @@
     {
       "chainId": 101,
       "address": "C1LpKYrkVvWF5imsQ7JqJSZHj9NXNmJ5tEHkGTtLVH2L",
-      "symbol": "wUMX",
-      "name": "https://unimex.network/ (Wormhole)",
+      "symbol": "wUMX_v1",
+      "name": "https://unimex.network/ (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/C1LpKYrkVvWF5imsQ7JqJSZHj9NXNmJ5tEHkGTtLVH2L/logo.png",
       "tags": [
@@ -5894,8 +5921,8 @@
     {
       "chainId": 101,
       "address": "8F3kZd9XEpFgNZ4fZnEAC5CJZLewnkNE8QCjdvorGWuW",
-      "symbol": "w1INCH",
-      "name": "1INCH Token (Wormhole)",
+      "symbol": "w1INCH_v1",
+      "name": "1INCH Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8F3kZd9XEpFgNZ4fZnEAC5CJZLewnkNE8QCjdvorGWuW/logo.png",
       "tags": [
@@ -5912,8 +5939,8 @@
     {
       "chainId": 101,
       "address": "H3UMboX4tnjba1Xw1a2VhUtkdgnrbmPvmDm6jaouQDN9",
-      "symbol": "wARMOR",
-      "name": "Armor (Wormhole)",
+      "symbol": "wARMOR_v1",
+      "name": "Armor (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H3UMboX4tnjba1Xw1a2VhUtkdgnrbmPvmDm6jaouQDN9/logo.png",
       "tags": [
@@ -5930,8 +5957,8 @@
     {
       "chainId": 101,
       "address": "Cw26Yz3rAN42mM5WpKriuGvbXnvRYmFA9sbBWH49KyqL",
-      "symbol": "warNXM",
-      "name": "Armor NXM (Wormhole)",
+      "symbol": "warNXM_v1",
+      "name": "Armor NXM (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Cw26Yz3rAN42mM5WpKriuGvbXnvRYmFA9sbBWH49KyqL/logo.png",
       "tags": [
@@ -5948,8 +5975,8 @@
     {
       "chainId": 101,
       "address": "3GVAecXsFP8xLFuAMMpg5NU4g5JK6h2NZWsQJ45wiw6b",
-      "symbol": "wDPI",
-      "name": "DefiPulse Index (Wormhole)",
+      "symbol": "wDPI_v1",
+      "name": "DefiPulse Index (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3GVAecXsFP8xLFuAMMpg5NU4g5JK6h2NZWsQJ45wiw6b/logo.png",
       "tags": [
@@ -5966,8 +5993,8 @@
     {
       "chainId": 101,
       "address": "AC4BK5yoEKn5hw6WpH3iWu56pEwigQdR48CiiqJ3R1pd",
-      "symbol": "wDHC",
-      "name": "DeltaHub Community (Wormhole)",
+      "symbol": "wDHC_v1",
+      "name": "DeltaHub Community (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AC4BK5yoEKn5hw6WpH3iWu56pEwigQdR48CiiqJ3R1pd/logo.png",
       "tags": [
@@ -5984,8 +6011,8 @@
     {
       "chainId": 101,
       "address": "7bXgNP7SEwrqbnfLBPgKDRKSGjVe7cjbuioRP23upF5H",
-      "symbol": "wKEX",
-      "name": "KIRA Network (Wormhole)",
+      "symbol": "wKEX_v1",
+      "name": "KIRA Network (Wormhole v1)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7bXgNP7SEwrqbnfLBPgKDRKSGjVe7cjbuioRP23upF5H/logo.png",
       "tags": [
@@ -6002,8 +6029,8 @@
     {
       "chainId": 101,
       "address": "5uC8Gj96sK6UG44AYLpbX3DUjKtBUxBrhHcM8JDtyYum",
-      "symbol": "wEWTB",
-      "name": "Energy Web Token Bridged (Wormhole)",
+      "symbol": "wEWTB_v1",
+      "name": "Energy Web Token Bridged (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5uC8Gj96sK6UG44AYLpbX3DUjKtBUxBrhHcM8JDtyYum/logo.png",
       "tags": [
@@ -6020,8 +6047,8 @@
     {
       "chainId": 101,
       "address": "EzeRaHuh1Xu1nDUypv1VWXcGsNJ71ncCJ8HeWuyg8atJ",
-      "symbol": "wCC10",
-      "name": "Cryptocurrency Top 10 Tokens Index (Wormhole)",
+      "symbol": "wCC10_v1",
+      "name": "Cryptocurrency Top 10 Tokens Index (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EzeRaHuh1Xu1nDUypv1VWXcGsNJ71ncCJ8HeWuyg8atJ/logo.png",
       "tags": [
@@ -6038,8 +6065,8 @@
     {
       "chainId": 101,
       "address": "CYzPVv1zB9RH6hRWRKprFoepdD8Y7Q5HefCqrybvetja",
-      "symbol": "wAUDIO",
-      "name": "Audius (Wormhole)",
+      "symbol": "wAUDIO_v1",
+      "name": "Audius (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CYzPVv1zB9RH6hRWRKprFoepdD8Y7Q5HefCqrybvetja/logo.png",
       "tags": [
@@ -6056,8 +6083,8 @@
     {
       "chainId": 101,
       "address": "9yPmJNUp1qFV6LafdYdegZ8sCgC4oy6Rgt9WsDJqv3EX",
-      "symbol": "wREP",
-      "name": "Reputation (Wormhole)",
+      "symbol": "wREP_v1",
+      "name": "Reputation (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9yPmJNUp1qFV6LafdYdegZ8sCgC4oy6Rgt9WsDJqv3EX/logo.png",
       "tags": [
@@ -6073,8 +6100,8 @@
     {
       "chainId": 101,
       "address": "CZxP1KtsfvMXZTGKR1fNwNChv8hGAfQrgVoENabN8zKU",
-      "symbol": "wVSP",
-      "name": "VesperToken (Wormhole)",
+      "symbol": "wVSP_v1",
+      "name": "VesperToken (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CZxP1KtsfvMXZTGKR1fNwNChv8hGAfQrgVoENabN8zKU/logo.png",
       "tags": [
@@ -6091,8 +6118,8 @@
     {
       "chainId": 101,
       "address": "8cGPyDGT1mgG1iWzNjPmCDKSK9veJhoBAguq7rp7CjTe",
-      "symbol": "wKP3R",
-      "name": "Keep3rV1 (Wormhole)",
+      "symbol": "wKP3R_v1",
+      "name": "Keep3rV1 (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8cGPyDGT1mgG1iWzNjPmCDKSK9veJhoBAguq7rp7CjTe/logo.png",
       "tags": [
@@ -6109,8 +6136,8 @@
     {
       "chainId": 101,
       "address": "DGghbWvncPL41U8TmUtXcGMgLeQqkaA2yM7UfcabftR8",
-      "symbol": "wLEAD",
-      "name": "Lead Token (Wormhole)",
+      "symbol": "wLEAD_v1",
+      "name": "Lead Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DGghbWvncPL41U8TmUtXcGMgLeQqkaA2yM7UfcabftR8/logo.png",
       "tags": [
@@ -6127,8 +6154,8 @@
     {
       "chainId": 101,
       "address": "3MVa4e32PaKmPxYUQ6n8vFkWtCma68Ld7e7fTktWDueQ",
-      "symbol": "wUNI",
-      "name": "Uniswap (Wormhole)",
+      "symbol": "wUNI_v1",
+      "name": "Uniswap (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3MVa4e32PaKmPxYUQ6n8vFkWtCma68Ld7e7fTktWDueQ/logo.png",
       "tags": [
@@ -6145,8 +6172,8 @@
     {
       "chainId": 101,
       "address": "qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL",
-      "symbol": "wWBTC",
-      "name": "Wrapped BTC (Wormhole)",
+      "symbol": "wWBTC_v1",
+      "name": "Wrapped BTC (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png",
       "tags": [
@@ -6163,8 +6190,8 @@
     {
       "chainId": 101,
       "address": "8My83RG8Xa1EhXdDKHWq8BWZN1zF3XUrWL3TXCLjVPFh",
-      "symbol": "wUNN",
-      "name": "UNION Protocol Governance Token (Wormhole)",
+      "symbol": "wUNN_v1",
+      "name": "UNION Protocol Governance Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8My83RG8Xa1EhXdDKHWq8BWZN1zF3XUrWL3TXCLjVPFh/logo.png",
       "tags": [
@@ -6181,8 +6208,8 @@
     {
       "chainId": 101,
       "address": "6jVuhLJ2mzyZ8DyUcrDj8Qr6Q9bqbJnq4fAnMeEduDM9",
-      "symbol": "wSOCKS",
-      "name": "Unisocks Edition 0 (Wormhole)",
+      "symbol": "wSOCKS_v1",
+      "name": "Unisocks Edition 0 (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6jVuhLJ2mzyZ8DyUcrDj8Qr6Q9bqbJnq4fAnMeEduDM9/logo.png",
       "tags": [
@@ -6199,8 +6226,8 @@
     {
       "chainId": 101,
       "address": "Az8PAQ7s6s5ZFgBiKKEizHt3SzDxXKZayDCtRZoC3452",
-      "symbol": "wDEXT",
-      "name": "DEXTools (Wormhole)",
+      "symbol": "wDEXT_v1",
+      "name": "DEXTools (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Az8PAQ7s6s5ZFgBiKKEizHt3SzDxXKZayDCtRZoC3452/logo.png",
       "tags": [
@@ -6217,8 +6244,8 @@
     {
       "chainId": 101,
       "address": "ELSnGFd5XnSdYFFSgYQp7n89FEbDqxN4npuRLW4PPPLv",
-      "symbol": "wHEX",
-      "name": "HEX (Wormhole)",
+      "symbol": "wHEX_v1",
+      "name": "HEX (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ELSnGFd5XnSdYFFSgYQp7n89FEbDqxN4npuRLW4PPPLv/logo.png",
       "tags": [
@@ -6235,8 +6262,8 @@
     {
       "chainId": 101,
       "address": "9iwfHhE7BJKNo4Eb1wX3p4uyJjEN9RoGLt4BvMdzZoiN",
-      "symbol": "wCREAM",
-      "name": "Cream (Wormhole)",
+      "symbol": "wCREAM_v1",
+      "name": "Cream (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9iwfHhE7BJKNo4Eb1wX3p4uyJjEN9RoGLt4BvMdzZoiN/logo.png",
       "tags": [
@@ -6253,8 +6280,8 @@
     {
       "chainId": 101,
       "address": "DdiXkfDGhLiKyw889QC4nmcxSwMqarLBtrDofPJyx7bt",
-      "symbol": "wYFIM",
-      "name": "yfi.mobi (Wormhole)",
+      "symbol": "wYFIM_v1",
+      "name": "yfi.mobi (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DdiXkfDGhLiKyw889QC4nmcxSwMqarLBtrDofPJyx7bt/logo.png",
       "tags": [
@@ -6271,8 +6298,8 @@
     {
       "chainId": 101,
       "address": "6wdcYNvUyHCerSiGbChkvGBF6Qzju1YP5qpXRQ4tqdZ3",
-      "symbol": "wZEE",
-      "name": "ZeroSwapToken (Wormhole)",
+      "symbol": "wZEE_v1",
+      "name": "ZeroSwapToken (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6wdcYNvUyHCerSiGbChkvGBF6Qzju1YP5qpXRQ4tqdZ3/logo.png",
       "tags": [
@@ -6304,8 +6331,8 @@
     {
       "chainId": 101,
       "address": "4xh8iC54UgaNpY4h34rxfZBSc9L2fBB8gWcYtDGHjxhN",
-      "symbol": "wwANATHA",
-      "name": "Wrapped ANATHA (Wormhole)",
+      "symbol": "wwANATHA_v1",
+      "name": "Wrapped ANATHA (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4xh8iC54UgaNpY4h34rxfZBSc9L2fBB8gWcYtDGHjxhN/logo.png",
       "tags": [
@@ -6322,8 +6349,8 @@
     {
       "chainId": 101,
       "address": "5Jq6S9HYqfG6TUMjjsKpnfis7utUAB69JiEGkkypdmgP",
-      "symbol": "wRAMP",
-      "name": "RAMP DEFI (Wormhole)",
+      "symbol": "wRAMP_v1",
+      "name": "RAMP DEFI (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5Jq6S9HYqfG6TUMjjsKpnfis7utUAB69JiEGkkypdmgP/logo.png",
       "tags": [
@@ -6340,8 +6367,8 @@
     {
       "chainId": 101,
       "address": "6uMUH5ztnj6AKYvL71EZgcyyRxjyBC5LVkscA5LrBc3c",
-      "symbol": "wPRQ",
-      "name": "Parsiq Token (Wormhole)",
+      "symbol": "wPRQ_v1",
+      "name": "Parsiq Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6uMUH5ztnj6AKYvL71EZgcyyRxjyBC5LVkscA5LrBc3c/logo.png",
       "tags": [
@@ -6358,8 +6385,8 @@
     {
       "chainId": 101,
       "address": "42gecM46tdSiYZN2CK1ek5raCxnzQf1xfhoKAf3F7Y5k",
-      "symbol": "wSLP",
-      "name": "Small Love Potion (Wormhole)",
+      "symbol": "wSLP_v1",
+      "name": "Small Love Potion (Wormhole v1)",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/42gecM46tdSiYZN2CK1ek5raCxnzQf1xfhoKAf3F7Y5k/logo.png",
       "tags": [
@@ -6376,8 +6403,8 @@
     {
       "chainId": 101,
       "address": "F6M9DW1cWw7EtFK9m2ukvT9WEvtEbdZfTzZTtDeBcnAf",
-      "symbol": "wSAND",
-      "name": "SAND (Wormhole)",
+      "symbol": "wSAND_v1",
+      "name": "SAND (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F6M9DW1cWw7EtFK9m2ukvT9WEvtEbdZfTzZTtDeBcnAf/logo.png",
       "tags": [
@@ -6394,8 +6421,8 @@
     {
       "chainId": 101,
       "address": "G27M8w6G4hwatMNFi46DPAUR1YkxSmRNFKus7SgYLoDy",
-      "symbol": "wCVP",
-      "name": "Concentrated Voting Power (Wormhole)",
+      "symbol": "wCVP_v1",
+      "name": "Concentrated Voting Power (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G27M8w6G4hwatMNFi46DPAUR1YkxSmRNFKus7SgYLoDy/logo.png",
       "tags": [
@@ -6412,8 +6439,8 @@
     {
       "chainId": 101,
       "address": "FjucGZpcdVXaWJH21pbrGQaKNszsGsJqbAXu4sJywKJa",
-      "symbol": "wREN",
-      "name": "Republic Token (Wormhole)",
+      "symbol": "wREN_v1",
+      "name": "Republic Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FjucGZpcdVXaWJH21pbrGQaKNszsGsJqbAXu4sJywKJa/logo.png",
       "tags": [
@@ -6430,8 +6457,8 @@
     {
       "chainId": 101,
       "address": "5kvugu18snfGRu1PykMfRzYfUxJYs3smk1PWQcGo6Z8a",
-      "symbol": "wXOR",
-      "name": "Sora (Wormhole)",
+      "symbol": "wXOR_v1",
+      "name": "Sora (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5kvugu18snfGRu1PykMfRzYfUxJYs3smk1PWQcGo6Z8a/logo.png",
       "tags": [
@@ -6448,8 +6475,8 @@
     {
       "chainId": 101,
       "address": "3EKQDmiXj8yLBFpZca4coxBpP8XJCzmjVgUdVydSmaaT",
-      "symbol": "wFUN",
-      "name": "FunFair (Wormhole)",
+      "symbol": "wFUN_v1",
+      "name": "FunFair (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3EKQDmiXj8yLBFpZca4coxBpP8XJCzmjVgUdVydSmaaT/logo.png",
       "tags": [
@@ -6466,8 +6493,8 @@
     {
       "chainId": 101,
       "address": "6J9soByB65WUamsEG8KSPdphBV1oCoGvr5QpaUaY3r19",
-      "symbol": "wPICKLE",
-      "name": "PickleToken (Wormhole)",
+      "symbol": "wPICKLE_v1",
+      "name": "PickleToken (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6J9soByB65WUamsEG8KSPdphBV1oCoGvr5QpaUaY3r19/logo.png",
       "tags": [
@@ -6484,8 +6511,8 @@
     {
       "chainId": 101,
       "address": "HEsqFznmAERPUmMWHtDWYAZRoFbNHZpuNuFrPio68Zp1",
-      "symbol": "wPAXG",
-      "name": "Paxos Gold (Wormhole)",
+      "symbol": "wPAXG_v1",
+      "name": "Paxos Gold (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HEsqFznmAERPUmMWHtDWYAZRoFbNHZpuNuFrPio68Zp1/logo.png",
       "tags": [
@@ -6502,8 +6529,8 @@
     {
       "chainId": 101,
       "address": "BrtLvpVCwVDH5Jpqjtiuhh8wKYA5b3NZCnsSftr61viv",
-      "symbol": "wQNT",
-      "name": "Quant (Wormhole)",
+      "symbol": "wQNT_v1",
+      "name": "Quant (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BrtLvpVCwVDH5Jpqjtiuhh8wKYA5b3NZCnsSftr61viv/logo.png",
       "tags": [
@@ -6520,8 +6547,8 @@
     {
       "chainId": 101,
       "address": "8DRgurhcQPJeCqQEpbeYGUmwAz2tETbyWUYLUU4Q7goM",
-      "symbol": "wORAI",
-      "name": "Oraichain Token (Wormhole)",
+      "symbol": "wORAI_v1",
+      "name": "Oraichain Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8DRgurhcQPJeCqQEpbeYGUmwAz2tETbyWUYLUU4Q7goM/logo.png",
       "tags": [
@@ -6538,8 +6565,8 @@
     {
       "chainId": 101,
       "address": "4e5cqAsZ7wQqwLi7AApS9CgN8Yaho5TvkhvcLaGyiuzL",
-      "symbol": "wTRU",
-      "name": "TrustToken (Wormhole)",
+      "symbol": "wTRU_v1",
+      "name": "TrustToken (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4e5cqAsZ7wQqwLi7AApS9CgN8Yaho5TvkhvcLaGyiuzL/logo.png",
       "tags": [
@@ -6556,8 +6583,8 @@
     {
       "chainId": 101,
       "address": "HkhBUKSct2V93Z35apDmXthkRvH4yvMovLyv8s8idDgP",
-      "symbol": "wMCB",
-      "name": "MCDEX Token (Wormhole)",
+      "symbol": "wMCB_v1",
+      "name": "MCDEX Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HkhBUKSct2V93Z35apDmXthkRvH4yvMovLyv8s8idDgP/logo.png",
       "tags": [
@@ -6574,8 +6601,8 @@
     {
       "chainId": 101,
       "address": "Eof7wbYsHZKaoyUGwM7Nfkoo6zQW4U7uWXqz2hoQzSkK",
-      "symbol": "wNU",
-      "name": "NuCypher (Wormhole)",
+      "symbol": "wNU_v1",
+      "name": "NuCypher (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Eof7wbYsHZKaoyUGwM7Nfkoo6zQW4U7uWXqz2hoQzSkK/logo.png",
       "tags": [
@@ -6592,8 +6619,8 @@
     {
       "chainId": 101,
       "address": "5CmA1HTVZt5NRtwiUrqWrcnT5JRW5zHe6uQXfP7SDUNz",
-      "symbol": "wRAZOR",
-      "name": "RAZOR (Wormhole)",
+      "symbol": "wRAZOR_v1",
+      "name": "RAZOR (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5CmA1HTVZt5NRtwiUrqWrcnT5JRW5zHe6uQXfP7SDUNz/logo.png",
       "tags": [
@@ -6610,8 +6637,8 @@
     {
       "chainId": 101,
       "address": "6msNYXzSVtjinqapq2xcvBb5NRq4YTPAi7wc5Jx8M8TS",
-      "symbol": "wLINK",
-      "name": "ChainLink Token (Wormhole)",
+      "symbol": "wLINK_v1",
+      "name": "ChainLink Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6msNYXzSVtjinqapq2xcvBb5NRq4YTPAi7wc5Jx8M8TS/logo.png",
       "tags": [
@@ -6628,8 +6655,8 @@
     {
       "chainId": 101,
       "address": "BX2gcRRS12iqFzKCpvTt4krBBYNymR9JBDZBxzfFLnbF",
-      "symbol": "weRSDL",
-      "name": "UnFederalReserveToken (Wormhole)",
+      "symbol": "weRSDL_v1",
+      "name": "UnFederalReserveToken (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BX2gcRRS12iqFzKCpvTt4krBBYNymR9JBDZBxzfFLnbF/logo.png",
       "tags": [
@@ -6646,8 +6673,8 @@
     {
       "chainId": 101,
       "address": "CCGLdsokcybeF8NrCcu1RSQK8isNBjBA58kVEMTHTKjx",
-      "symbol": "wsUSD",
-      "name": "Synth sUSD (Wormhole)",
+      "symbol": "wsUSD_v1",
+      "name": "Synth sUSD (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CCGLdsokcybeF8NrCcu1RSQK8isNBjBA58kVEMTHTKjx/logo.png",
       "tags": [
@@ -6664,8 +6691,8 @@
     {
       "chainId": 101,
       "address": "FP9ogG7hTdfcTJwn4prF9AVEcfcjLq1GtkqYM4oRn7eY",
-      "symbol": "wHEGIC",
-      "name": "Hegic (Wormhole)",
+      "symbol": "wHEGIC_v1",
+      "name": "Hegic (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FP9ogG7hTdfcTJwn4prF9AVEcfcjLq1GtkqYM4oRn7eY/logo.png",
       "tags": [
@@ -6682,8 +6709,8 @@
     {
       "chainId": 101,
       "address": "DboP5vvYUVjmKSHKJ1YFHwmv41KtUscnYgzjmPgHwQVn",
-      "symbol": "wXFI",
-      "name": "Xfinance (Wormhole)",
+      "symbol": "wXFI_v1",
+      "name": "Xfinance (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DboP5vvYUVjmKSHKJ1YFHwmv41KtUscnYgzjmPgHwQVn/logo.png",
       "tags": [
@@ -6700,8 +6727,8 @@
     {
       "chainId": 101,
       "address": "6c4U9yxGzVjejSJJXrdX8wtt532Et6MrBUZc2oK5j6w5",
-      "symbol": "wDEXTF",
-      "name": "DEXTF Token (Wormhole)",
+      "symbol": "wDEXTF_v1",
+      "name": "DEXTF Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6c4U9yxGzVjejSJJXrdX8wtt532Et6MrBUZc2oK5j6w5/logo.png",
       "tags": [
@@ -6718,8 +6745,8 @@
     {
       "chainId": 101,
       "address": "JuXkRYNw54rujC7SPWcAM4ArLgA5x8nDQbS8xHAr6MA",
-      "symbol": "wRLC",
-      "name": "iExec RLC (Wormhole)",
+      "symbol": "wRLC_v1",
+      "name": "iExec RLC (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/JuXkRYNw54rujC7SPWcAM4ArLgA5x8nDQbS8xHAr6MA/logo.png",
       "tags": [
@@ -6736,8 +6763,8 @@
     {
       "chainId": 101,
       "address": "7NfgSkv6kZ6ZWP6SJPtMuaUYGVEngVK8UFnaFTPk3QsM",
-      "symbol": "wCORE",
-      "name": "cVault.finance (Wormhole)",
+      "symbol": "wCORE_v1",
+      "name": "cVault.finance (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7NfgSkv6kZ6ZWP6SJPtMuaUYGVEngVK8UFnaFTPk3QsM/logo.png",
       "tags": [
@@ -6754,8 +6781,8 @@
     {
       "chainId": 101,
       "address": "AqLKDJiGL4wXKPAfzNom3xEdQwgj2LTCE4k34gzvZsE6",
-      "symbol": "wCFi",
-      "name": "CyberFi Token (Wormhole)",
+      "symbol": "wCFi_v1",
+      "name": "CyberFi Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AqLKDJiGL4wXKPAfzNom3xEdQwgj2LTCE4k34gzvZsE6/logo.png",
       "tags": [
@@ -6772,8 +6799,8 @@
     {
       "chainId": 101,
       "address": "FLrjpCRrd4GffHu8MVYGvuLxYLuBGVaXsnCecw3Effci",
-      "symbol": "wWISE",
-      "name": "Wise Token (Wormhole)",
+      "symbol": "wWISE_v1",
+      "name": "Wise Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FLrjpCRrd4GffHu8MVYGvuLxYLuBGVaXsnCecw3Effci/logo.png",
       "tags": [
@@ -6790,8 +6817,8 @@
     {
       "chainId": 101,
       "address": "GaMPhVyp1xd9xJuPskDEzQzp8mKfEjAmhny8NX7y7YKc",
-      "symbol": "wGNO",
-      "name": "Gnosis Token (Wormhole)",
+      "symbol": "wGNO_v1",
+      "name": "Gnosis Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GaMPhVyp1xd9xJuPskDEzQzp8mKfEjAmhny8NX7y7YKc/logo.png",
       "tags": [
@@ -6808,8 +6835,8 @@
     {
       "chainId": 101,
       "address": "CCAQZHBVWKDukT68PZ3LenDs7apibeSYeJ3jHE8NzBC5",
-      "symbol": "wPOOLZ",
-      "name": "Poolz Finance (Wormhole)",
+      "symbol": "wPOOLZ_v1",
+      "name": "Poolz Finance (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CCAQZHBVWKDukT68PZ3LenDs7apibeSYeJ3jHE8NzBC5/logo.png",
       "tags": [
@@ -6826,8 +6853,8 @@
     {
       "chainId": 101,
       "address": "FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1",
-      "symbol": "wDAI",
-      "name": "Dai Stablecoin (Wormhole)",
+      "symbol": "wDAI_v1",
+      "name": "Dai Stablecoin (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1/logo.png",
       "tags": [
@@ -6844,8 +6871,8 @@
     {
       "chainId": 101,
       "address": "HbMGwfGjGPchtaPwyrtJFy8APZN5w1hi63xnzmj1f23v",
-      "symbol": "wSUSHI",
-      "name": "SushiSwap (Wormhole)",
+      "symbol": "wSUSHI_v1",
+      "name": "SushiSwap (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HbMGwfGjGPchtaPwyrtJFy8APZN5w1hi63xnzmj1f23v/logo.png",
       "tags": [
@@ -6862,8 +6889,8 @@
     {
       "chainId": 101,
       "address": "6Tmi8TZasqdxWB59uE5Zw9VLKecuCbsLSsPEqoMpmozA",
-      "symbol": "wFYZ",
-      "name": "Fyooz (Wormhole)",
+      "symbol": "wFYZ_v1",
+      "name": "Fyooz (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6Tmi8TZasqdxWB59uE5Zw9VLKecuCbsLSsPEqoMpmozA/logo.png",
       "tags": [
@@ -6880,8 +6907,8 @@
     {
       "chainId": 101,
       "address": "3sHinPxEPqhEGip2Wy45TFmgAA1Atg2mctMjY5RKJUjk",
-      "symbol": "wQRX",
-      "name": "QuiverX (Wormhole)",
+      "symbol": "wQRX_v1",
+      "name": "QuiverX (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3sHinPxEPqhEGip2Wy45TFmgAA1Atg2mctMjY5RKJUjk/logo.png",
       "tags": [
@@ -6898,8 +6925,8 @@
     {
       "chainId": 101,
       "address": "4ighgEijHcCoLu9AsvwVz2TnGFqAgzQtQMr6ch88Jrfe",
-      "symbol": "wTRADE",
-      "name": "UniTrade (Wormhole)",
+      "symbol": "wTRADE_v1",
+      "name": "UniTrade (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4ighgEijHcCoLu9AsvwVz2TnGFqAgzQtQMr6ch88Jrfe/logo.png",
       "tags": [
@@ -6916,8 +6943,8 @@
     {
       "chainId": 101,
       "address": "FTPnEQ3NfRRZ9tvmpDW6JFrvweBE5sanxnXSpJL1dvbB",
-      "symbol": "wBIRD",
-      "name": "Bird.Money (Wormhole)",
+      "symbol": "wBIRD_v1",
+      "name": "Bird.Money (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FTPnEQ3NfRRZ9tvmpDW6JFrvweBE5sanxnXSpJL1dvbB/logo.png",
       "tags": [
@@ -6934,8 +6961,8 @@
     {
       "chainId": 101,
       "address": "QVDE6rhcGPSB3ex5T7vWBzvoSRUXULjuSGpVuKwu5XH",
-      "symbol": "wAXN",
-      "name": "Axion (Wormhole)",
+      "symbol": "wAXN_v1",
+      "name": "Axion (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/QVDE6rhcGPSB3ex5T7vWBzvoSRUXULjuSGpVuKwu5XH/logo.png",
       "tags": [
@@ -6952,8 +6979,8 @@
     {
       "chainId": 101,
       "address": "J6AbGG62yo9UJ2T9r9GM7pnoRNui5DsZDnPbiNAPqbVd",
-      "symbol": "wBMI",
-      "name": "Bridge Mutual (Wormhole)",
+      "symbol": "wBMI_v1",
+      "name": "Bridge Mutual (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J6AbGG62yo9UJ2T9r9GM7pnoRNui5DsZDnPbiNAPqbVd/logo.png",
       "tags": [
@@ -6970,8 +6997,8 @@
     {
       "chainId": 101,
       "address": "4wvHoaxxZxFeNrMTP8bLVRh1ziSBV7crN665WX4rRMqe",
-      "symbol": "wDYT",
-      "name": "DoYourTip (Wormhole)",
+      "symbol": "wDYT_v1",
+      "name": "DoYourTip (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4wvHoaxxZxFeNrMTP8bLVRh1ziSBV7crN665WX4rRMqe/logo.png",
       "tags": [
@@ -6988,8 +7015,8 @@
     {
       "chainId": 101,
       "address": "Fe5fWjCLDMJoi4sTmfR2VW4BT1LwsbR1n6QAjzJQvhhf",
-      "symbol": "wBBR",
-      "name": "BitberryToken (Wormhole)",
+      "symbol": "wBBR_v1",
+      "name": "BitberryToken (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fe5fWjCLDMJoi4sTmfR2VW4BT1LwsbR1n6QAjzJQvhhf/logo.png",
       "tags": [
@@ -7006,8 +7033,8 @@
     {
       "chainId": 101,
       "address": "5J9yhFRnQZx3RiqHzfQpAffX5UQz3k8vQCZH2g9Z9sDg",
-      "symbol": "wWAXE",
-      "name": "WAX Economic Token (Wormhole)",
+      "symbol": "wWAXE_v1",
+      "name": "WAX Economic Token (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5J9yhFRnQZx3RiqHzfQpAffX5UQz3k8vQCZH2g9Z9sDg/logo.png",
       "tags": [
@@ -7024,8 +7051,8 @@
     {
       "chainId": 101,
       "address": "4DHywS5EjUTF5AYisPZiJbWcCV4gfpH98oKxpgyKRnnQ",
-      "symbol": "wMATIC",
-      "name": "Matic Token (Wormhole)",
+      "symbol": "wMATIC_v1",
+      "name": "Matic Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4DHywS5EjUTF5AYisPZiJbWcCV4gfpH98oKxpgyKRnnQ/logo.png",
       "tags": [
@@ -7057,8 +7084,8 @@
     {
       "chainId": 101,
       "address": "Au9E8ygQdTJQZXmNKPdtLEP8rGjC4qsGRhkJgjFNPAr8",
-      "symbol": "wXRT",
-      "name": "Robonomics (Wormhole)",
+      "symbol": "wXRT_v1",
+      "name": "Robonomics (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Au9E8ygQdTJQZXmNKPdtLEP8rGjC4qsGRhkJgjFNPAr8/logo.png",
       "tags": [
@@ -7075,8 +7102,8 @@
     {
       "chainId": 101,
       "address": "5DQZ14hLDxveMH7NyGmTmUTRGgVAVXADp3cP2UHeH6hM",
-      "symbol": "wAAVE",
-      "name": "Aave Token (Wormhole)",
+      "symbol": "wAAVE_v1",
+      "name": "Aave Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5DQZ14hLDxveMH7NyGmTmUTRGgVAVXADp3cP2UHeH6hM/logo.png",
       "tags": [
@@ -7093,8 +7120,8 @@
     {
       "chainId": 101,
       "address": "Arc2ZVKNCdDU4vB8Ubud5QayDtjo2oJF9xVrUPQ6TWxF",
-      "symbol": "wLEND",
-      "name": "Lend (Wormhole)",
+      "symbol": "wLEND_v1",
+      "name": "Lend (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Arc2ZVKNCdDU4vB8Ubud5QayDtjo2oJF9xVrUPQ6TWxF/logo.png",
       "tags": [
@@ -7111,8 +7138,8 @@
     {
       "chainId": 101,
       "address": "2ctKUDkGBnVykt31AhMPhHvAQWJvoNGbLh7aRidjtAqv",
-      "symbol": "wPOLS",
-      "name": "PolkastarterToken (Wormhole)",
+      "symbol": "wPOLS_v1",
+      "name": "PolkastarterToken (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2ctKUDkGBnVykt31AhMPhHvAQWJvoNGbLh7aRidjtAqv/logo.png",
       "tags": [
@@ -7129,8 +7156,8 @@
     {
       "chainId": 101,
       "address": "8FnkznYpHvKiaBkgatVoCrNiS5y5KW62JqgjnxVhDejC",
-      "symbol": "wUBT",
-      "name": "Unibright (Wormhole)",
+      "symbol": "wUBT_v1",
+      "name": "Unibright (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8FnkznYpHvKiaBkgatVoCrNiS5y5KW62JqgjnxVhDejC/logo.png",
       "tags": [
@@ -7147,8 +7174,8 @@
     {
       "chainId": 101,
       "address": "4LLAYXVmT3U8Sew6k3tk66zk3btT91QRzQzxcNX8XhzV",
-      "symbol": "wDIA",
-      "name": "DIA (Wormhole)",
+      "symbol": "wDIA_v1",
+      "name": "DIA (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4LLAYXVmT3U8Sew6k3tk66zk3btT91QRzQzxcNX8XhzV/logo.png",
       "tags": [
@@ -7165,8 +7192,8 @@
     {
       "chainId": 101,
       "address": "8L8pDf3jutdpdr4m3np68CL9ZroLActrqwxi6s9Ah5xU",
-      "symbol": "wFRAX",
-      "name": "Frax (Wormhole)",
+      "symbol": "wFRAX_v1",
+      "name": "Frax (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8L8pDf3jutdpdr4m3np68CL9ZroLActrqwxi6s9Ah5xU/logo.png",
       "tags": [
@@ -7183,8 +7210,8 @@
     {
       "chainId": 101,
       "address": "H3oVL2zJpHJaDoRfQmSrftv3fkGzvsiQgugCZmcRBykG",
-      "symbol": "wKEEP",
-      "name": "KEEP Token (Wormhole)",
+      "symbol": "wKEEP_v1",
+      "name": "KEEP Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H3oVL2zJpHJaDoRfQmSrftv3fkGzvsiQgugCZmcRBykG/logo.png",
       "tags": [
@@ -7201,8 +7228,8 @@
     {
       "chainId": 101,
       "address": "64oqP1dFqqD8NEL4RPCpMyrHmpo31rj3nYxULVXvayfW",
-      "symbol": "wRSR",
-      "name": "Reserve Rights (Wormhole)",
+      "symbol": "wRSR_v1",
+      "name": "Reserve Rights (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/64oqP1dFqqD8NEL4RPCpMyrHmpo31rj3nYxULVXvayfW/logo.png",
       "tags": [
@@ -7219,8 +7246,8 @@
     {
       "chainId": 101,
       "address": "5SU7veiCRA16ZxnS24kCC1dwQYVwi3whvTdM48iNE1Rm",
-      "symbol": "wMPH",
-      "name": "88mph.app (Wormhole)",
+      "symbol": "wMPH_v1",
+      "name": "88mph.app (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5SU7veiCRA16ZxnS24kCC1dwQYVwi3whvTdM48iNE1Rm/logo.png",
       "tags": [
@@ -7237,8 +7264,8 @@
     {
       "chainId": 101,
       "address": "5fv26ojhPHWNaikXcMf2TBu4JENjLQ2PWgWYeitttVwv",
-      "symbol": "wPAID",
-      "name": "PAID Network (Wormhole)",
+      "symbol": "wPAID_v1",
+      "name": "PAID Network (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5fv26ojhPHWNaikXcMf2TBu4JENjLQ2PWgWYeitttVwv/logo.png",
       "tags": [
@@ -7255,8 +7282,8 @@
     {
       "chainId": 101,
       "address": "ACr98v3kv9qaGnR3p2BfsoSK9Q2ZmP6zUkm3qxv5ZJDd",
-      "symbol": "wSXP",
-      "name": "Swipe (Wormhole)",
+      "symbol": "wSXP_v1",
+      "name": "Swipe (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ACr98v3kv9qaGnR3p2BfsoSK9Q2ZmP6zUkm3qxv5ZJDd/logo.png",
       "tags": [
@@ -7273,8 +7300,8 @@
     {
       "chainId": 101,
       "address": "7gBuzBcJ7V48m8TiKJ1XWNDUerK2XfAbjxuRiKMb6S8Z",
-      "symbol": "wREQ",
-      "name": "Request Token (Wormhole)",
+      "symbol": "wREQ_v1",
+      "name": "Request Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7gBuzBcJ7V48m8TiKJ1XWNDUerK2XfAbjxuRiKMb6S8Z/logo.png",
       "tags": [
@@ -7291,8 +7318,8 @@
     {
       "chainId": 101,
       "address": "CtDjsryLtwZCLj8TeniV7tWHbkaREfjKDWpvyQvsTyek",
-      "symbol": "wWHALE",
-      "name": "WHALE (Wormhole)",
+      "symbol": "wWHALE_v1",
+      "name": "WHALE (Wormhole v1)",
       "decimals": 4,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CtDjsryLtwZCLj8TeniV7tWHbkaREfjKDWpvyQvsTyek/logo.png",
       "tags": [
@@ -7309,8 +7336,8 @@
     {
       "chainId": 101,
       "address": "JDUgn6JUSwufqqthRdnZZKWv2vEdYvHxigF5Hk79yxRm",
-      "symbol": "wPNK",
-      "name": "Pinakion (Wormhole)",
+      "symbol": "wPNK_v1",
+      "name": "Pinakion (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/JDUgn6JUSwufqqthRdnZZKWv2vEdYvHxigF5Hk79yxRm/logo.png",
       "tags": [
@@ -7366,8 +7393,8 @@
     {
       "chainId": 101,
       "address": "EJKqF4p7xVhXkcDNCrVQJE4osow76226bc6u3AtsGXaG",
-      "symbol": "wAPY",
-      "name": "APY Governance Token (Wormhole)",
+      "symbol": "wAPY_v1",
+      "name": "APY Governance Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EJKqF4p7xVhXkcDNCrVQJE4osow76226bc6u3AtsGXaG/logo.png",
       "tags": [
@@ -7384,8 +7411,8 @@
     {
       "chainId": 101,
       "address": "AF7Dv5Vzi1dT2fLnz4ysiRQ6FxGN1M6mrmHwgNpx7FVH",
-      "symbol": "wOCEAN",
-      "name": "Ocean Protocol (Wormhole)",
+      "symbol": "wOCEAN_v1",
+      "name": "Ocean Protocol (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AF7Dv5Vzi1dT2fLnz4ysiRQ6FxGN1M6mrmHwgNpx7FVH/logo.png",
       "tags": [
@@ -7402,8 +7429,8 @@
     {
       "chainId": 101,
       "address": "AyNULvvLGW11fThvhncqNRjEgmDbMEHdDL4HqXD6SM8V",
-      "symbol": "wSPI",
-      "name": "Shopping.io (Wormhole)",
+      "symbol": "wSPI_v1",
+      "name": "Shopping.io (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AyNULvvLGW11fThvhncqNRjEgmDbMEHdDL4HqXD6SM8V/logo.png",
       "tags": [
@@ -7420,8 +7447,8 @@
     {
       "chainId": 101,
       "address": "3UeKTABxz9XexDtyKq646rSQvx8GVpKNwfMoKKfxsTsF",
-      "symbol": "wBBTC",
-      "name": "Binance Wrapped BTC (Wormhole)",
+      "symbol": "wBBTC_v1",
+      "name": "Binance Wrapped BTC (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3UeKTABxz9XexDtyKq646rSQvx8GVpKNwfMoKKfxsTsF/logo.png",
       "tags": [
@@ -7438,8 +7465,8 @@
     {
       "chainId": 101,
       "address": "DsGbyCHbG4vSWBqAprR2eWuUAg8fXAgYkWL9psgvYZn5",
-      "symbol": "wUNISTAKE",
-      "name": "Unistake (Wormhole)",
+      "symbol": "wUNISTAKE_v1",
+      "name": "Unistake (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DsGbyCHbG4vSWBqAprR2eWuUAg8fXAgYkWL9psgvYZn5/logo.png",
       "tags": [
@@ -7456,8 +7483,8 @@
     {
       "chainId": 101,
       "address": "GBvv3jn9u6pZqPd2GVnQ7BKJzLwQnEWe4ci9k359PN9Z",
-      "symbol": "wMKR",
-      "name": "MakerDAO (Wormhole)",
+      "symbol": "wMKR_v1",
+      "name": "MakerDAO (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GBvv3jn9u6pZqPd2GVnQ7BKJzLwQnEWe4ci9k359PN9Z/logo.png",
       "tags": [
@@ -7474,8 +7501,8 @@
     {
       "chainId": 101,
       "address": "53ETjuzUNHG8c7rZ2hxQLQfN5R6tEYtdYwNQsa68xFUk",
-      "symbol": "wFARM",
-      "name": "FARM Reward Token (Wormhole)",
+      "symbol": "wFARM_v1",
+      "name": "FARM Reward Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/53ETjuzUNHG8c7rZ2hxQLQfN5R6tEYtdYwNQsa68xFUk/logo.png",
       "tags": [
@@ -7492,8 +7519,8 @@
     {
       "chainId": 101,
       "address": "FVsXUnbhifqJ4LiXQEbpUtXVdB8T5ADLKqSs5t1oc54F",
-      "symbol": "wUSDC",
-      "name": "USD Coin (Wormhole)",
+      "symbol": "wUSDC_v1",
+      "name": "USD Coin (Wormhole v1)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FVsXUnbhifqJ4LiXQEbpUtXVdB8T5ADLKqSs5t1oc54F/logo.png",
       "tags": [
@@ -7510,8 +7537,8 @@
     {
       "chainId": 101,
       "address": "EjBpnWzWZeW1PKzfCszLdHgENZLZDoTNaEmz8BddpWJx",
-      "symbol": "wANT",
-      "name": "Aragon Network Token (Wormhole)",
+      "symbol": "wANT_v1",
+      "name": "Aragon Network Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EjBpnWzWZeW1PKzfCszLdHgENZLZDoTNaEmz8BddpWJx/logo.png",
       "tags": [
@@ -7528,8 +7555,8 @@
     {
       "chainId": 101,
       "address": "Rs4LHZ4WogZCAkCzfsKJib5LLnYL6xcVAfTcLQiSjg2",
-      "symbol": "wNPXS",
-      "name": "Pundi X Token (Wormhole)",
+      "symbol": "wNPXS_v1",
+      "name": "Pundi X Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Rs4LHZ4WogZCAkCzfsKJib5LLnYL6xcVAfTcLQiSjg2/logo.png",
       "tags": [
@@ -7546,8 +7573,8 @@
     {
       "chainId": 101,
       "address": "65ribugkb42AANKYrEeuruhhfXffyE4jY22FUxFbpW7C",
-      "symbol": "wRFOX",
-      "name": "RFOX (Wormhole)",
+      "symbol": "wRFOX_v1",
+      "name": "RFOX (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/65ribugkb42AANKYrEeuruhhfXffyE4jY22FUxFbpW7C/logo.png",
       "tags": [
@@ -7564,8 +7591,8 @@
     {
       "chainId": 101,
       "address": "T2mo6dnFiutu26KMuCMSjCLBB4ofWvQ3qBJGEMc3JSe",
-      "symbol": "wMTA",
-      "name": "Meta (Wormhole)",
+      "symbol": "wMTA_v1",
+      "name": "Meta (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/T2mo6dnFiutu26KMuCMSjCLBB4ofWvQ3qBJGEMc3JSe/logo.png",
       "tags": [
@@ -7582,8 +7609,8 @@
     {
       "chainId": 101,
       "address": "HC8SaUm9rhvVZE5ZwBWiUhFAnCuG8byd5FxKYdpFm5MR",
-      "symbol": "wRBC",
-      "name": "Rubic (Wormhole)",
+      "symbol": "wRBC_v1",
+      "name": "Rubic (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HC8SaUm9rhvVZE5ZwBWiUhFAnCuG8byd5FxKYdpFm5MR/logo.png",
       "tags": [
@@ -7600,8 +7627,8 @@
     {
       "chainId": 101,
       "address": "9DdtKWoK8cBfLSLhHXHFZzzhxp4rdwHbFEAis8n5AsfQ",
-      "symbol": "wNOIA",
-      "name": "NOIA Token (Wormhole)",
+      "symbol": "wNOIA_v1",
+      "name": "NOIA Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9DdtKWoK8cBfLSLhHXHFZzzhxp4rdwHbFEAis8n5AsfQ/logo.png",
       "tags": [
@@ -7618,8 +7645,8 @@
     {
       "chainId": 101,
       "address": "DTQStP2z4DRqbNHRxtwThAujr9aPFPsv4y2kkXTVLVvb",
-      "symbol": "wCEL",
-      "name": "Celsius (Wormhole)",
+      "symbol": "wCEL_v1",
+      "name": "Celsius (Wormhole v1)",
       "decimals": 4,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DTQStP2z4DRqbNHRxtwThAujr9aPFPsv4y2kkXTVLVvb/logo.png",
       "tags": [
@@ -7636,8 +7663,8 @@
     {
       "chainId": 101,
       "address": "59NPV18vAbTgwC9aeEGikrmX3EbZHMEMkZfvcsHBNFr9",
-      "symbol": "wCWS",
-      "name": "Crowns (Wormhole)",
+      "symbol": "wCWS_v1",
+      "name": "Crowns (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/59NPV18vAbTgwC9aeEGikrmX3EbZHMEMkZfvcsHBNFr9/logo.png",
       "tags": [
@@ -7654,8 +7681,8 @@
     {
       "chainId": 101,
       "address": "4811JP9i35zgAxSFZjGXQwew6xd1qSBE4xdMFik2J14Z",
-      "symbol": "wROOM",
-      "name": "OptionRoom Token (Wormhole)",
+      "symbol": "wROOM_v1",
+      "name": "OptionRoom Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4811JP9i35zgAxSFZjGXQwew6xd1qSBE4xdMFik2J14Z/logo.png",
       "tags": [
@@ -7672,8 +7699,8 @@
     {
       "chainId": 101,
       "address": "2VAdvHWMpzMnDYYn64MgqLNpGQ19iCiusCet8JLMtxU5",
-      "symbol": "wYOP",
-      "name": "YOP (Wormhole)",
+      "symbol": "wYOP_v1",
+      "name": "YOP (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2VAdvHWMpzMnDYYn64MgqLNpGQ19iCiusCet8JLMtxU5/logo.png",
       "tags": [
@@ -7690,8 +7717,8 @@
     {
       "chainId": 101,
       "address": "AKiTcEWZarsnUbKkwQVRjJni5eqwiNeBQsJ3nrADacT4",
-      "symbol": "wLGCY",
-      "name": "LGCY Network (Wormhole)",
+      "symbol": "wLGCY_v1",
+      "name": "LGCY Network (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AKiTcEWZarsnUbKkwQVRjJni5eqwiNeBQsJ3nrADacT4/logo.png",
       "tags": [
@@ -7708,8 +7735,8 @@
     {
       "chainId": 101,
       "address": "4kPHTMfSD1k3SytAMKEVRWH5ip6WD5U52tC5q6TuXUNU",
-      "symbol": "wRFuel",
-      "name": "Rio Fuel Token (Wormhole)",
+      "symbol": "wRFuel_v1",
+      "name": "Rio Fuel Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4kPHTMfSD1k3SytAMKEVRWH5ip6WD5U52tC5q6TuXUNU/logo.png",
       "tags": [
@@ -7726,8 +7753,8 @@
     {
       "chainId": 101,
       "address": "E1w2uKRsVJeDf1Qqbk7DDKEDe7NCYwh8ySgqCaEZ4BTC",
-      "symbol": "wMAHA",
-      "name": "MahaDAO (Wormhole)",
+      "symbol": "wMAHA_v1",
+      "name": "MahaDAO (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E1w2uKRsVJeDf1Qqbk7DDKEDe7NCYwh8ySgqCaEZ4BTC/logo.png",
       "tags": [
@@ -7744,8 +7771,8 @@
     {
       "chainId": 101,
       "address": "4psmnTirimNyPEPEZtkQkdEPJagTXS3a7wsu1XN9MYK3",
-      "symbol": "wRPL",
-      "name": "Rocket Pool (Wormhole)",
+      "symbol": "wRPL_v1",
+      "name": "Rocket Pool (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4psmnTirimNyPEPEZtkQkdEPJagTXS3a7wsu1XN9MYK3/logo.png",
       "tags": [
@@ -7762,8 +7789,8 @@
     {
       "chainId": 101,
       "address": "FrhQauNRm7ecom9FRprNcyz58agDe5ujAbAtA9NG6jtU",
-      "symbol": "wNEXO",
-      "name": "Nexo (Wormhole)",
+      "symbol": "wNEXO_v1",
+      "name": "Nexo (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FrhQauNRm7ecom9FRprNcyz58agDe5ujAbAtA9NG6jtU/logo.png",
       "tags": [
@@ -7794,8 +7821,8 @@
     {
       "chainId": 101,
       "address": "AoU75vwpnWEVvfarxRALjzRc8vS9UdDhRMkwoDimt9ss",
-      "symbol": "wSFI",
-      "name": "Spice (Wormhole)",
+      "symbol": "wSFI_v1",
+      "name": "Spice (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AoU75vwpnWEVvfarxRALjzRc8vS9UdDhRMkwoDimt9ss/logo.png",
       "tags": [
@@ -7812,8 +7839,8 @@
     {
       "chainId": 101,
       "address": "CRZuALvCYjPLB65WFLHh9JkmPWK5C81TXpy2aEEaCjr3",
-      "symbol": "wSTBZ",
-      "name": "Stabilize Token (Wormhole)",
+      "symbol": "wSTBZ_v1",
+      "name": "Stabilize Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CRZuALvCYjPLB65WFLHh9JkmPWK5C81TXpy2aEEaCjr3/logo.png",
       "tags": [
@@ -7830,8 +7857,8 @@
     {
       "chainId": 101,
       "address": "HPYXGSdAwyK5GwmuivL8gDdUVRChtgXq6SRat44k4Pat",
-      "symbol": "wBAL",
-      "name": "Balancer (Wormhole)",
+      "symbol": "wBAL_v1",
+      "name": "Balancer (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HPYXGSdAwyK5GwmuivL8gDdUVRChtgXq6SRat44k4Pat/logo.png",
       "tags": [
@@ -7848,8 +7875,8 @@
     {
       "chainId": 101,
       "address": "AV7NgJV2BsgEukzUTrcUMz3LD37xLcLtygFig5WJ3kQN",
-      "symbol": "wBAND",
-      "name": "BandToken (Wormhole)",
+      "symbol": "wBAND_v1",
+      "name": "BandToken (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AV7NgJV2BsgEukzUTrcUMz3LD37xLcLtygFig5WJ3kQN/logo.png",
       "tags": [
@@ -7866,8 +7893,8 @@
     {
       "chainId": 101,
       "address": "4obZok5FFUcQXQoV39hhcqk9xSmo4WnP9wnrNCk1g5BC",
-      "symbol": "wSWFL",
-      "name": "Swapfolio (Wormhole)",
+      "symbol": "wSWFL_v1",
+      "name": "Swapfolio (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4obZok5FFUcQXQoV39hhcqk9xSmo4WnP9wnrNCk1g5BC/logo.png",
       "tags": [
@@ -7884,8 +7911,8 @@
     {
       "chainId": 101,
       "address": "HCP8hGKS6fUGfTA1tQxBKzbXuQk7yktzz71pY8LXVJyR",
-      "symbol": "wLRC",
-      "name": "LoopringCoin V2 (Wormhole)",
+      "symbol": "wLRC_v1",
+      "name": "LoopringCoin V2 (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HCP8hGKS6fUGfTA1tQxBKzbXuQk7yktzz71pY8LXVJyR/logo.png",
       "tags": [
@@ -7917,8 +7944,8 @@
     {
       "chainId": 101,
       "address": "9sNArcS6veh7DLEo7Y1ZSbBCYtkuPVE6S3HhVrcWR2Zw",
-      "symbol": "wPERP",
-      "name": "Perpetual (Wormhole)",
+      "symbol": "wPERP_v1",
+      "name": "Perpetual (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9sNArcS6veh7DLEo7Y1ZSbBCYtkuPVE6S3HhVrcWR2Zw/logo.png",
       "tags": [
@@ -7935,8 +7962,8 @@
     {
       "chainId": 101,
       "address": "3XnhArdJydrpbr9Nbj8wNUaozPL9WAo9YDyNWakhTm9X",
-      "symbol": "wCOMP",
-      "name": "Compound (Wormhole)",
+      "symbol": "wCOMP_v1",
+      "name": "Compound (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3XnhArdJydrpbr9Nbj8wNUaozPL9WAo9YDyNWakhTm9X/logo.png",
       "tags": [
@@ -7953,8 +7980,8 @@
     {
       "chainId": 101,
       "address": "CPLNm9UMKfiJKiySQathV99yeSgTVjPDZx4ucFrbp2MD",
-      "symbol": "wSNX",
-      "name": "Synthetix Network Token (Wormhole)",
+      "symbol": "wSNX_v1",
+      "name": "Synthetix Network Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CPLNm9UMKfiJKiySQathV99yeSgTVjPDZx4ucFrbp2MD/logo.png",
       "tags": [
@@ -7971,8 +7998,8 @@
     {
       "chainId": 101,
       "address": "D6eVKSfLdioqo2zG8LbQYFU2gf66FrjKA7afCYNo1GHt",
-      "symbol": "wDUCK",
-      "name": "DLP Duck Token (Wormhole)",
+      "symbol": "wDUCK_v1",
+      "name": "DLP Duck Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D6eVKSfLdioqo2zG8LbQYFU2gf66FrjKA7afCYNo1GHt/logo.png",
       "tags": [
@@ -7989,8 +8016,8 @@
     {
       "chainId": 101,
       "address": "9PwPi3DAf9Dy4Y6qJmUzF6fX9CjNwScBidsYqJmcApF8",
-      "symbol": "wCHAIN",
-      "name": "Chain Games (Wormhole)",
+      "symbol": "wCHAIN_v1",
+      "name": "Chain Games (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9PwPi3DAf9Dy4Y6qJmUzF6fX9CjNwScBidsYqJmcApF8/logo.png",
       "tags": [
@@ -8007,8 +8034,8 @@
     {
       "chainId": 101,
       "address": "BmxZ1pghpcoyT7aykj7D1o4AxWirTqvD7zD2tNngjirT",
-      "symbol": "wGRT",
-      "name": "Graph Token (Wormhole)",
+      "symbol": "wGRT_v1",
+      "name": "Graph Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BmxZ1pghpcoyT7aykj7D1o4AxWirTqvD7zD2tNngjirT/logo.png",
       "tags": [
@@ -8025,8 +8052,8 @@
     {
       "chainId": 101,
       "address": "FMr15arp651N6fR2WEL36pCMBnFecHcN6wDxne2Vf3SK",
-      "symbol": "wROOT",
-      "name": "RootKit (Wormhole)",
+      "symbol": "wROOT_v1",
+      "name": "RootKit (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FMr15arp651N6fR2WEL36pCMBnFecHcN6wDxne2Vf3SK/logo.png",
       "tags": [
@@ -8043,8 +8070,8 @@
     {
       "chainId": 101,
       "address": "E9X7rKAGfSh1gsHC6qh5MVLkDzRcT64KQbjzvHnc5zEq",
-      "symbol": "wSWAP",
-      "name": "TrustSwap Token (Wormhole)",
+      "symbol": "wSWAP_v1",
+      "name": "TrustSwap Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E9X7rKAGfSh1gsHC6qh5MVLkDzRcT64KQbjzvHnc5zEq/logo.png",
       "tags": [
@@ -8061,8 +8088,8 @@
     {
       "chainId": 101,
       "address": "5NEENV1mNvu7MfNNtKuGSDC8zoNStq1tuLkDXFtv6rZd",
-      "symbol": "wTVK",
-      "name": "Terra Virtua Kolect (Wormhole)",
+      "symbol": "wTVK_v1",
+      "name": "Terra Virtua Kolect (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5NEENV1mNvu7MfNNtKuGSDC8zoNStq1tuLkDXFtv6rZd/logo.png",
       "tags": [
@@ -8079,8 +8106,8 @@
     {
       "chainId": 101,
       "address": "5ZXLGj7onpitgtREJNYb51DwDPddvqV1YLC8jn2sgz48",
-      "symbol": "wOMG",
-      "name": "OMG Network (Wormhole)",
+      "symbol": "wOMG_v1",
+      "name": "OMG Network (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5ZXLGj7onpitgtREJNYb51DwDPddvqV1YLC8jn2sgz48/logo.png",
       "tags": [
@@ -8097,8 +8124,8 @@
     {
       "chainId": 101,
       "address": "2Xf2yAXJfg82sWwdLUo2x9mZXy6JCdszdMZkcF1Hf4KV",
-      "symbol": "wLUNA",
-      "name": "Wrapped LUNA Token (Wormhole)",
+      "symbol": "wLUNA_v1",
+      "name": "Wrapped LUNA Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Xf2yAXJfg82sWwdLUo2x9mZXy6JCdszdMZkcF1Hf4KV/logo.png",
       "tags": [
@@ -8115,8 +8142,8 @@
     {
       "chainId": 101,
       "address": "5Ro6JxJ4NjSTEppdX2iXUYgWkAEF1dcs9gqMX99E2vkL",
-      "symbol": "wBONDLY",
-      "name": "Bondly Token (Wormhole)",
+      "symbol": "wBONDLY_v1",
+      "name": "Bondly Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5Ro6JxJ4NjSTEppdX2iXUYgWkAEF1dcs9gqMX99E2vkL/logo.png",
       "tags": [
@@ -8133,8 +8160,8 @@
     {
       "chainId": 101,
       "address": "5jFzUEqWLnvGvKWb1Pji9nWVYy5vLG2saoXCyVNWEdEi",
-      "symbol": "wDETS",
-      "name": "Dextrust (Wormhole)",
+      "symbol": "wDETS_v1",
+      "name": "Dextrust (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5jFzUEqWLnvGvKWb1Pji9nWVYy5vLG2saoXCyVNWEdEi/logo.png",
       "tags": [
@@ -8151,8 +8178,8 @@
     {
       "chainId": 101,
       "address": "BV5tm1uCRWQCQKNgQVFnkseqAjxpmbJkRCXvzFWBdgMp",
-      "symbol": "wAMPL",
-      "name": "Ampleforth (Wormhole)",
+      "symbol": "wAMPL_v1",
+      "name": "Ampleforth (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BV5tm1uCRWQCQKNgQVFnkseqAjxpmbJkRCXvzFWBdgMp/logo.png",
       "tags": [
@@ -8169,8 +8196,8 @@
     {
       "chainId": 101,
       "address": "2PSvGigDY4MVUmv51bBiARBMcHBtXcUBnx5V9BwWbbi2",
-      "symbol": "wPOLK",
-      "name": "Polkamarkets (Wormhole)",
+      "symbol": "wPOLK_v1",
+      "name": "Polkamarkets (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2PSvGigDY4MVUmv51bBiARBMcHBtXcUBnx5V9BwWbbi2/logo.png",
       "tags": [
@@ -8187,8 +8214,8 @@
     {
       "chainId": 101,
       "address": "ApmXkxXCASdxRf3Ln6Ni7oAZ7E6CX1CcJAD8A5qBdhSm",
-      "symbol": "wCRV",
-      "name": "Curve DAO Token (Wormhole)",
+      "symbol": "wCRV_v1",
+      "name": "Curve DAO Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ApmXkxXCASdxRf3Ln6Ni7oAZ7E6CX1CcJAD8A5qBdhSm/logo.png",
       "tags": [
@@ -8205,8 +8232,8 @@
     {
       "chainId": 101,
       "address": "DWECGzR56MruYJyo5g5QpoxZbFoydt3oWUkkDsVhxXzs",
-      "symbol": "wMEME",
-      "name": "MEME (Wormhole)",
+      "symbol": "wMEME_v1",
+      "name": "MEME (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DWECGzR56MruYJyo5g5QpoxZbFoydt3oWUkkDsVhxXzs/logo.png",
       "tags": [
@@ -8223,8 +8250,8 @@
     {
       "chainId": 101,
       "address": "3Y2wTtM4kCX8uUSLrKJ8wpajCu1C9LaWWAd7b7Nb2BDw",
-      "symbol": "wEXNT",
-      "name": "ExNetwork Community Token (Wormhole)",
+      "symbol": "wEXNT_v1",
+      "name": "ExNetwork Community Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3Y2wTtM4kCX8uUSLrKJ8wpajCu1C9LaWWAd7b7Nb2BDw/logo.png",
       "tags": [
@@ -8241,8 +8268,8 @@
     {
       "chainId": 101,
       "address": "9w97GdWUYYaamGwdKMKZgGzPduZJkiFizq4rz5CPXRv2",
-      "symbol": "wUSDT",
-      "name": "Tether USD (Wormhole)",
+      "symbol": "wUSDT_v1",
+      "name": "Tether USD (Wormhole v1)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9w97GdWUYYaamGwdKMKZgGzPduZJkiFizq4rz5CPXRv2/logo.png",
       "tags": [
@@ -8259,8 +8286,8 @@
     {
       "chainId": 101,
       "address": "CqWSJtkMMY16q9QLnQxktM1byzVHGRr8b6LCPuZnEeiL",
-      "symbol": "wYLD",
-      "name": "Yield (Wormhole)",
+      "symbol": "wYLD_v1",
+      "name": "Yield (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CqWSJtkMMY16q9QLnQxktM1byzVHGRr8b6LCPuZnEeiL/logo.png",
       "tags": [
@@ -8277,8 +8304,8 @@
     {
       "chainId": 101,
       "address": "26ZzQVGZruwcZPs2sqb8n9ojKt2cviUjHcMjstFtK6ow",
-      "symbol": "wKNC",
-      "name": "Kyber Network Crystal (Wormhole)",
+      "symbol": "wKNC_v1",
+      "name": "Kyber Network Crystal (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/26ZzQVGZruwcZPs2sqb8n9ojKt2cviUjHcMjstFtK6ow/logo.png",
       "tags": [
@@ -8295,8 +8322,8 @@
     {
       "chainId": 101,
       "address": "HHoHTtntq2kiBPENyVM1DTP7pNrkBXX2Jye29PSyz3qf",
-      "symbol": "wCOTI",
-      "name": "COTI Token (Wormhole)",
+      "symbol": "wCOTI_v1",
+      "name": "COTI Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HHoHTtntq2kiBPENyVM1DTP7pNrkBXX2Jye29PSyz3qf/logo.png",
       "tags": [
@@ -8313,8 +8340,8 @@
     {
       "chainId": 101,
       "address": "4sEpUsJ6uJZYi6A2da8EGjKPacRSqYJaPJffPnTqoWVv",
-      "symbol": "wINJ",
-      "name": "Injective Token (Wormhole)",
+      "symbol": "wINJ_v1",
+      "name": "Injective Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4sEpUsJ6uJZYi6A2da8EGjKPacRSqYJaPJffPnTqoWVv/logo.png",
       "tags": [
@@ -8331,8 +8358,8 @@
     {
       "chainId": 101,
       "address": "G2jrxYSoCSzmohxERa2JzSJMuRM4kiNvRA3DnCv7Lzcz",
-      "symbol": "wZRX",
-      "name": "0x Protocol Token (Wormhole)",
+      "symbol": "wZRX_v1",
+      "name": "0x Protocol Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G2jrxYSoCSzmohxERa2JzSJMuRM4kiNvRA3DnCv7Lzcz/logo.png",
       "tags": [
@@ -8349,8 +8376,8 @@
     {
       "chainId": 101,
       "address": "3bkBFHyof411hGBdcsiM1KSDdErw63Xoj3eLB8yNknB4",
-      "symbol": "wSUPER",
-      "name": "SuperFarm (Wormhole)",
+      "symbol": "wSUPER_v1",
+      "name": "SuperFarm (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3bkBFHyof411hGBdcsiM1KSDdErw63Xoj3eLB8yNknB4/logo.png",
       "tags": [
@@ -8367,8 +8394,8 @@
     {
       "chainId": 101,
       "address": "7kkkoa1MB93ELm3vjvyC8GJ65G7eEgLhfaHU58riJUCx",
-      "symbol": "waEth",
-      "name": "aEthereum (Wormhole)",
+      "symbol": "waEth_v1",
+      "name": "aEthereum (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7kkkoa1MB93ELm3vjvyC8GJ65G7eEgLhfaHU58riJUCx/logo.png",
       "tags": [
@@ -8385,8 +8412,8 @@
     {
       "chainId": 101,
       "address": "F48zUwoQMzgCTf5wihwz8GPN23gdcoVMiT227APqA6hC",
-      "symbol": "wSURF",
-      "name": "SURF.Finance (Wormhole)",
+      "symbol": "wSURF_v1",
+      "name": "SURF.Finance (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F48zUwoQMzgCTf5wihwz8GPN23gdcoVMiT227APqA6hC/logo.png",
       "tags": [
@@ -8403,8 +8430,8 @@
     {
       "chainId": 101,
       "address": "EK6iyvvqvQtsWYcySrZVHkXjCLX494r9PhnDWJaX1CPu",
-      "symbol": "wrenBTC",
-      "name": "renBTC (Wormhole)",
+      "symbol": "wrenBTC_v1",
+      "name": "renBTC (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EK6iyvvqvQtsWYcySrZVHkXjCLX494r9PhnDWJaX1CPu/logo.png",
       "tags": [
@@ -8421,8 +8448,8 @@
     {
       "chainId": 101,
       "address": "B2m4B527oLo5WFWLgy2MitP66azhEW2puaazUAuvNgqZ",
-      "symbol": "wDMG",
-      "name": "DMM: Governance (Wormhole)",
+      "symbol": "wDMG_v1",
+      "name": "DMM: Governance (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/B2m4B527oLo5WFWLgy2MitP66azhEW2puaazUAuvNgqZ/logo.png",
       "tags": [
@@ -8439,8 +8466,8 @@
     {
       "chainId": 101,
       "address": "H3iuZNRwaqPsnGUGU5YkDwTU3hQMkzC32hxDko8EtzZw",
-      "symbol": "wHEZ",
-      "name": "Hermez Network Token (Wormhole)",
+      "symbol": "wHEZ_v1",
+      "name": "Hermez Network Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H3iuZNRwaqPsnGUGU5YkDwTU3hQMkzC32hxDko8EtzZw/logo.png",
       "tags": [
@@ -8457,8 +8484,8 @@
     {
       "chainId": 101,
       "address": "DL7873Hud4eMdGScQFD7vrbC6fzWAMQ2LMuoZSn4zUry",
-      "symbol": "wRLY",
-      "name": "Rally (Wormhole)",
+      "symbol": "wRLY_v1",
+      "name": "Rally (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DL7873Hud4eMdGScQFD7vrbC6fzWAMQ2LMuoZSn4zUry/logo.png",
       "tags": [
@@ -8507,8 +8534,8 @@
     {
       "chainId": 101,
       "address": "3N89w9KPUVYUK5MMGNY8yMXhrr89QQ1RQPJxVnQHgMdd",
-      "symbol": "wYf-DAI",
-      "name": "YfDAI.finance (Wormhole)",
+      "symbol": "wYf-DAI_v1",
+      "name": "YfDAI.finance (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3N89w9KPUVYUK5MMGNY8yMXhrr89QQ1RQPJxVnQHgMdd/logo.png",
       "tags": [
@@ -8525,8 +8552,8 @@
     {
       "chainId": 101,
       "address": "8ArKbnnDiq8eRR8hZ1eULMjd2iMAD8AqwyVJRAX7mHQo",
-      "symbol": "wFCL",
-      "name": "Fractal Protocol Token (Wormhole)",
+      "symbol": "wFCL_v1",
+      "name": "Fractal Protocol Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8ArKbnnDiq8eRR8hZ1eULMjd2iMAD8AqwyVJRAX7mHQo/logo.png",
       "tags": [
@@ -8543,8 +8570,8 @@
     {
       "chainId": 101,
       "address": "ZWGxcTgJCNGQqZn6vFdknwj4AFFsYRZ4SDJuhRn3J1T",
-      "symbol": "wAXS",
-      "name": "Axie Infinity (Wormhole)",
+      "symbol": "wAXS_v1",
+      "name": "Axie Infinity (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ZWGxcTgJCNGQqZn6vFdknwj4AFFsYRZ4SDJuhRn3J1T/logo.png",
       "tags": [
@@ -8561,8 +8588,8 @@
     {
       "chainId": 101,
       "address": "PEjUEMHFRtfajio8YHKZdUruW1vTzGmz6F7NngjYuou",
-      "symbol": "wENJ",
-      "name": "Enjin Coin (Wormhole)",
+      "symbol": "wENJ_v1",
+      "name": "Enjin Coin (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PEjUEMHFRtfajio8YHKZdUruW1vTzGmz6F7NngjYuou/logo.png",
       "tags": [
@@ -8579,8 +8606,8 @@
     {
       "chainId": 101,
       "address": "2cW5deMKeR97C7csq1aMMWUa5RNWkpQFz8tumxk4ZV8w",
-      "symbol": "wYLD",
-      "name": "Yield (Wormhole)",
+      "symbol": "wYLD_v1",
+      "name": "Yield (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2cW5deMKeR97C7csq1aMMWUa5RNWkpQFz8tumxk4ZV8w/logo.png",
       "tags": [
@@ -8597,8 +8624,8 @@
     {
       "chainId": 101,
       "address": "FR5qPX4gbKHPyKMK7Cey6dHZ7wtqmqRogYPJo6bpd5Uw",
-      "symbol": "wDDIM",
-      "name": "DuckDaoDime (Wormhole)",
+      "symbol": "wDDIM_v1",
+      "name": "DuckDaoDime (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FR5qPX4gbKHPyKMK7Cey6dHZ7wtqmqRogYPJo6bpd5Uw/logo.png",
       "tags": [
@@ -8615,8 +8642,8 @@
     {
       "chainId": 101,
       "address": "8HCWFQA2GsA6Nm2L5jidM3mus7NeeQ8wp1ri3XFF9WWH",
-      "symbol": "wRARI",
-      "name": "Rarible (Wormhole)",
+      "symbol": "wRARI_v1",
+      "name": "Rarible (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8HCWFQA2GsA6Nm2L5jidM3mus7NeeQ8wp1ri3XFF9WWH/logo.png",
       "tags": [
@@ -8633,8 +8660,8 @@
     {
       "chainId": 101,
       "address": "Egrv6hURf5o68xJ1AGYeRv8RNj2nXJVuSoA5wwiSALcN",
-      "symbol": "wAMP",
-      "name": "Amp (Wormhole)",
+      "symbol": "wAMP_v1",
+      "name": "Amp (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Egrv6hURf5o68xJ1AGYeRv8RNj2nXJVuSoA5wwiSALcN/logo.png",
       "tags": [
@@ -8651,8 +8678,8 @@
     {
       "chainId": 101,
       "address": "GXMaB6jm5cdoQgb65YpkEu61eDYtod3PuVwYYXdZZJ9r",
-      "symbol": "wFSW",
-      "name": "FalconSwap Token (Wormhole)",
+      "symbol": "wFSW_v1",
+      "name": "FalconSwap Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GXMaB6jm5cdoQgb65YpkEu61eDYtod3PuVwYYXdZZJ9r/logo.png",
       "tags": [
@@ -8669,8 +8696,8 @@
     {
       "chainId": 101,
       "address": "AJ1W9A9N9dEMdVyoDiam2rV44gnBm2csrPDP7xqcapgX",
-      "symbol": "wBUSD",
-      "name": "Binance USD (Wormhole)",
+      "symbol": "wBUSD_v1",
+      "name": "Binance USD (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AJ1W9A9N9dEMdVyoDiam2rV44gnBm2csrPDP7xqcapgX/logo.png",
       "tags": [
@@ -8687,8 +8714,8 @@
     {
       "chainId": 101,
       "address": "2VmKuXMwdzouMndWcK7BK2951tBEtYVmGsdU4dXbjyaY",
-      "symbol": "waDAI",
-      "name": "Aave Interest bearing DAI (Wormhole)",
+      "symbol": "waDAI_v1",
+      "name": "Aave Interest bearing DAI (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2VmKuXMwdzouMndWcK7BK2951tBEtYVmGsdU4dXbjyaY/logo.svg",
       "tags": [
@@ -8705,8 +8732,8 @@
     {
       "chainId": 101,
       "address": "AXvWVviBmySSdghmuomYHqYB3AZn7NmAWrHYHKKPJxoL",
-      "symbol": "waTUSD",
-      "name": "Aave Interest bearing TUSD (Wormhole)",
+      "symbol": "waTUSD_v1",
+      "name": "Aave Interest bearing TUSD (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AXvWVviBmySSdghmuomYHqYB3AZn7NmAWrHYHKKPJxoL/logo.svg",
       "tags": [
@@ -8723,8 +8750,8 @@
     {
       "chainId": 101,
       "address": "AkaisFPmasQYZUJsZLD9wPEo2KA7aCRqyRawX18ZRzGr",
-      "symbol": "waUSDC",
-      "name": "Aave Interest bearing USDC (Wormhole)",
+      "symbol": "waUSDC_v1",
+      "name": "Aave Interest bearing USDC (Wormhole v1)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AkaisFPmasQYZUJsZLD9wPEo2KA7aCRqyRawX18ZRzGr/logo.svg",
       "tags": [
@@ -8741,8 +8768,8 @@
     {
       "chainId": 101,
       "address": "FZfQtWMoTQ51Z4jxvHfmFcqj4862u9GzmugBnZUuWqR5",
-      "symbol": "waUSDT",
-      "name": "Aave Interest bearing USDT (Wormhole)",
+      "symbol": "waUSDT_v1",
+      "name": "Aave Interest bearing USDT (Wormhole v1)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FZfQtWMoTQ51Z4jxvHfmFcqj4862u9GzmugBnZUuWqR5/logo.svg",
       "tags": [
@@ -8759,8 +8786,8 @@
     {
       "chainId": 101,
       "address": "BMrbF8DZ9U5KGdJ4F2MJbH5d6KPi5FQVp7EqmLrhDe1f",
-      "symbol": "waSUSD",
-      "name": "Aave Interest bearing SUSD (Wormhole)",
+      "symbol": "waSUSD_v1",
+      "name": "Aave Interest bearing SUSD (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BMrbF8DZ9U5KGdJ4F2MJbH5d6KPi5FQVp7EqmLrhDe1f/logo.svg",
       "tags": [
@@ -8777,8 +8804,8 @@
     {
       "chainId": 101,
       "address": "Fzx4N1xJPDZENAhrAaH79k2izT9CFbfnDEcpcWjiusdY",
-      "symbol": "waLEND",
-      "name": "Aave Interest bearing LEND (Wormhole)",
+      "symbol": "waLEND_v1",
+      "name": "Aave Interest bearing LEND (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fzx4N1xJPDZENAhrAaH79k2izT9CFbfnDEcpcWjiusdY/logo.svg",
       "tags": [
@@ -8794,8 +8821,8 @@
     {
       "chainId": 101,
       "address": "GCdDiVgZnkWCAnGktUsjhoho2CHab9JfrRy3Q5W51zvC",
-      "symbol": "waBAT",
-      "name": "Aave Interest bearing BAT (Wormhole)",
+      "symbol": "waBAT_v1",
+      "name": "Aave Interest bearing BAT (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GCdDiVgZnkWCAnGktUsjhoho2CHab9JfrRy3Q5W51zvC/logo.svg",
       "tags": [
@@ -8812,8 +8839,8 @@
     {
       "chainId": 101,
       "address": "FBrfFh7fb7xKfyBMJA32KufMjEkgSgY4AuzLXFKdJFRj",
-      "symbol": "waETH",
-      "name": "Aave Interest bearing ETH (Wormhole)",
+      "symbol": "waETH_v1",
+      "name": "Aave Interest bearing ETH (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FBrfFh7fb7xKfyBMJA32KufMjEkgSgY4AuzLXFKdJFRj/logo.svg",
       "tags": [
@@ -8830,8 +8857,8 @@
     {
       "chainId": 101,
       "address": "Adp88WrQDgExPTu26DdBnbN2ffWMkXLxwqzjTdfRQiJi",
-      "symbol": "waLINK",
-      "name": "Aave Interest bearing LINK (Wormhole)",
+      "symbol": "waLINK_v1",
+      "name": "Aave Interest bearing LINK (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Adp88WrQDgExPTu26DdBnbN2ffWMkXLxwqzjTdfRQiJi/logo.svg",
       "tags": [
@@ -8848,8 +8875,8 @@
     {
       "chainId": 101,
       "address": "3p67dqghWn6reQcVCqNBkufrpU1gtA1ZRAYja6GMXySG",
-      "symbol": "waKNC",
-      "name": "Aave Interest bearing KNC (Wormhole)",
+      "symbol": "waKNC_v1",
+      "name": "Aave Interest bearing KNC (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3p67dqghWn6reQcVCqNBkufrpU1gtA1ZRAYja6GMXySG/logo.svg",
       "tags": [
@@ -8866,8 +8893,8 @@
     {
       "chainId": 101,
       "address": "A4qYX1xuewaBL9SeZnwA3We6MhG8TYcTceHAJpk7Etdt",
-      "symbol": "waREP",
-      "name": "Aave Interest bearing REP (Wormhole)",
+      "symbol": "waREP_v1",
+      "name": "Aave Interest bearing REP (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A4qYX1xuewaBL9SeZnwA3We6MhG8TYcTceHAJpk7Etdt/logo.svg",
       "tags": [
@@ -8883,8 +8910,8 @@
     {
       "chainId": 101,
       "address": "3iTtcKUVa5ouzwNZFc3SasuAKkY2ZuMxLERRcWfxQVN3",
-      "symbol": "waMKR",
-      "name": "Aave Interest bearing MKR (Wormhole)",
+      "symbol": "waMKR_v1",
+      "name": "Aave Interest bearing MKR (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3iTtcKUVa5ouzwNZFc3SasuAKkY2ZuMxLERRcWfxQVN3/logo.svg",
       "tags": [
@@ -8901,8 +8928,8 @@
     {
       "chainId": 101,
       "address": "EMS6TrCU8uBMumZukRSShGS1yzHGqYd3S8hW2sYULX3T",
-      "symbol": "waMANA",
-      "name": "Aave Interest bearing MANA (Wormhole)",
+      "symbol": "waMANA_v1",
+      "name": "Aave Interest bearing MANA (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EMS6TrCU8uBMumZukRSShGS1yzHGqYd3S8hW2sYULX3T/logo.svg",
       "tags": [
@@ -8919,8 +8946,8 @@
     {
       "chainId": 101,
       "address": "qhqzfH7AjeukUgqyPXncWHFXTBebFNu5QQUrzhJaLB4",
-      "symbol": "waZRX",
-      "name": "Aave Interest bearing ZRX (Wormhole)",
+      "symbol": "waZRX_v1",
+      "name": "Aave Interest bearing ZRX (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qhqzfH7AjeukUgqyPXncWHFXTBebFNu5QQUrzhJaLB4/logo.svg",
       "tags": [
@@ -8937,8 +8964,8 @@
     {
       "chainId": 101,
       "address": "FeU2J26AfMqh2mh7Cf4Lw1HRueAvAkZYxGr8njFNMeQ2",
-      "symbol": "waSNX",
-      "name": "Aave Interest bearing SNX (Wormhole)",
+      "symbol": "waSNX_v1",
+      "name": "Aave Interest bearing SNX (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeU2J26AfMqh2mh7Cf4Lw1HRueAvAkZYxGr8njFNMeQ2/logo.png",
       "tags": [
@@ -8955,8 +8982,8 @@
     {
       "chainId": 101,
       "address": "GveRVvWTUH1s26YxyjUnXh1J5mMdu5crC2K2uQy26KXi",
-      "symbol": "waWBTC",
-      "name": "Aave Interest bearing WBTC (Wormhole)",
+      "symbol": "waWBTC_v1",
+      "name": "Aave Interest bearing WBTC (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GveRVvWTUH1s26YxyjUnXh1J5mMdu5crC2K2uQy26KXi/logo.svg",
       "tags": [
@@ -8973,8 +9000,8 @@
     {
       "chainId": 101,
       "address": "F2WgoHLwV4pfxN4WrUs2q6KkmFCsNorGYQ82oaPNUFLP",
-      "symbol": "waBUSD",
-      "name": "Aave Interest bearing Binance USD (Wormhole)",
+      "symbol": "waBUSD_v1",
+      "name": "Aave Interest bearing Binance USD (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F2WgoHLwV4pfxN4WrUs2q6KkmFCsNorGYQ82oaPNUFLP/logo.svg",
       "tags": [
@@ -8991,8 +9018,8 @@
     {
       "chainId": 101,
       "address": "3rNUQJgvfZ5eFsZvCkvdYcbd9ZzS6YmtwQsoUTFKmVd4",
-      "symbol": "waENJ",
-      "name": "Aave Interest bearing ENJ (Wormhole)",
+      "symbol": "waENJ_v1",
+      "name": "Aave Interest bearing ENJ (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3rNUQJgvfZ5eFsZvCkvdYcbd9ZzS6YmtwQsoUTFKmVd4/logo.svg",
       "tags": [
@@ -9009,8 +9036,8 @@
     {
       "chainId": 101,
       "address": "BHh8nyDwdUG4uyyQYNqGXGLHPyb83R6Y2fqJrNVKtTsT",
-      "symbol": "waREN",
-      "name": "Aave Interest bearing REN (Wormhole)",
+      "symbol": "waREN_v1",
+      "name": "Aave Interest bearing REN (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BHh8nyDwdUG4uyyQYNqGXGLHPyb83R6Y2fqJrNVKtTsT/logo.png",
       "tags": [
@@ -9027,8 +9054,8 @@
     {
       "chainId": 101,
       "address": "EE58FVYG1UoY6Givy3K3GSRde9sHMj6X1BnocHBtd3sz",
-      "symbol": "waYFI",
-      "name": "Aave Interest bearing YFI (Wormhole)",
+      "symbol": "waYFI_v1",
+      "name": "Aave Interest bearing YFI (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EE58FVYG1UoY6Givy3K3GSRde9sHMj6X1BnocHBtd3sz/logo.png",
       "tags": [
@@ -9045,8 +9072,8 @@
     {
       "chainId": 101,
       "address": "8aYsiHR6oVTAcFUzdXDhaPkgRbn4QYRCkdk3ATmAmY4p",
-      "symbol": "waAAVE",
-      "name": "Aave Interest bearing Aave Token (Wormhole)",
+      "symbol": "waAAVE_v1",
+      "name": "Aave Interest bearing Aave Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8aYsiHR6oVTAcFUzdXDhaPkgRbn4QYRCkdk3ATmAmY4p/logo.svg",
       "tags": [
@@ -9062,8 +9089,8 @@
     {
       "chainId": 101,
       "address": "8kwCLkWbv4qTJPcbSV65tWdQmjURjBGRSv6VtC1JTiL8",
-      "symbol": "waUNI",
-      "name": "Aave Interest bearing Uniswap (Wormhole)",
+      "symbol": "waUNI_v1",
+      "name": "Aave Interest bearing Uniswap (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8kwCLkWbv4qTJPcbSV65tWdQmjURjBGRSv6VtC1JTiL8/logo.png",
       "tags": [
@@ -9079,8 +9106,8 @@
     {
       "chainId": 101,
       "address": "9NDu1wdjZ7GiY7foAXhia9h1wQU45oTUzyMZKJ31V7JA",
-      "symbol": "wstkAAVE",
-      "name": "Staked Aave (Wormhole)",
+      "symbol": "wstkAAVE_v1",
+      "name": "Staked Aave (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9NDu1wdjZ7GiY7foAXhia9h1wQU45oTUzyMZKJ31V7JA/logo.png",
       "tags": [
@@ -9096,8 +9123,8 @@
     {
       "chainId": 101,
       "address": "GNQ1Goajm3Za8uC1Eptt2yfsrbnkZh2eMJoqxg54sj3o",
-      "symbol": "wUniDAIETH",
-      "name": "Uniswap DAI LP (Wormhole)",
+      "symbol": "wUniDAIETH_v1",
+      "name": "Uniswap DAI LP (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GNQ1Goajm3Za8uC1Eptt2yfsrbnkZh2eMJoqxg54sj3o/logo.png",
       "tags": [
@@ -9113,8 +9140,8 @@
     {
       "chainId": 101,
       "address": "7NFin546WNvWkhtfftfY77z8C1TrxLbUcKmw5TpHGGtC",
-      "symbol": "wUniUSDCETH",
-      "name": "Uniswap USDC LP (Wormhole)",
+      "symbol": "wUniUSDCETH_v1",
+      "name": "Uniswap USDC LP (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7NFin546WNvWkhtfftfY77z8C1TrxLbUcKmw5TpHGGtC/logo.png",
       "tags": [
@@ -9130,8 +9157,8 @@
     {
       "chainId": 101,
       "address": "7gersKTtU65ERNBNTZKjYgKf7HypR7PDMprcuhQJChaq",
-      "symbol": "wUnisETHETH",
-      "name": "Uniswap sETH LP (Wormhole)",
+      "symbol": "wUnisETHETH_v1",
+      "name": "Uniswap sETH LP (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7gersKTtU65ERNBNTZKjYgKf7HypR7PDMprcuhQJChaq/logo.png",
       "tags": [
@@ -9147,8 +9174,8 @@
     {
       "chainId": 101,
       "address": "4aqNtSCr77eiEZJ9u9BhPErjEMju6FFdLeBKkE1pdxuK",
-      "symbol": "wUniLENDETH",
-      "name": "Uniswap LEND LP (Wormhole)",
+      "symbol": "wUniLENDETH_v1",
+      "name": "Uniswap LEND LP (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4aqNtSCr77eiEZJ9u9BhPErjEMju6FFdLeBKkE1pdxuK/logo.png",
       "tags": [
@@ -9164,8 +9191,8 @@
     {
       "chainId": 101,
       "address": "FDdoYCHwFghBSbnN6suvFR3VFw6kAzfhfGpkAQAGPLC3",
-      "symbol": "wUniMKRETH",
-      "name": "Uniswap MKR LP (Wormhole)",
+      "symbol": "wUniMKRETH_v1",
+      "name": "Uniswap MKR LP (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FDdoYCHwFghBSbnN6suvFR3VFw6kAzfhfGpkAQAGPLC3/logo.png",
       "tags": [
@@ -9181,8 +9208,8 @@
     {
       "chainId": 101,
       "address": "FSSTfbb1vh1TRe8Ja64hC65QTc7pPUhwHh5uTAWj5haH",
-      "symbol": "wUniLINKETH",
-      "name": "Uniswap LINK LP (Wormhole)",
+      "symbol": "wUniLINKETH_v1",
+      "name": "Uniswap LINK LP (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FSSTfbb1vh1TRe8Ja64hC65QTc7pPUhwHh5uTAWj5haH/logo.png",
       "tags": [
@@ -9198,8 +9225,8 @@
     {
       "chainId": 101,
       "address": "Aci9xBGywrgBxQoFnL6LCoCYuX5k6AqaYhimgSZ1Fhrk",
-      "symbol": "waUniETH",
-      "name": "Aave Interest bearing UniETH (Wormhole)",
+      "symbol": "waUniETH_v1",
+      "name": "Aave Interest bearing UniETH (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Aci9xBGywrgBxQoFnL6LCoCYuX5k6AqaYhimgSZ1Fhrk/logo.png",
       "tags": [
@@ -9215,8 +9242,8 @@
     {
       "chainId": 101,
       "address": "GqHK99sW4ym6zy6Kdoh8f7sb2c3qhtB3WRqeyPbAYfmy",
-      "symbol": "waUniDAI",
-      "name": "Aave Interest bearing UniDAI (Wormhole)",
+      "symbol": "waUniDAI_v1",
+      "name": "Aave Interest bearing UniDAI (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GqHK99sW4ym6zy6Kdoh8f7sb2c3qhtB3WRqeyPbAYfmy/logo.png",
       "tags": [
@@ -9232,8 +9259,8 @@
     {
       "chainId": 101,
       "address": "4e4TpGVJMYiz5UBrAXuNmiVJ9yvc7ppJeAn8sXmbnmDi",
-      "symbol": "waUniUSDC",
-      "name": "Aave Interest bearing UniUSDC (Wormhole)",
+      "symbol": "waUniUSDC_v1",
+      "name": "Aave Interest bearing UniUSDC (Wormhole v1)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4e4TpGVJMYiz5UBrAXuNmiVJ9yvc7ppJeAn8sXmbnmDi/logo.png",
       "tags": [
@@ -9262,8 +9289,8 @@
     {
       "chainId": 101,
       "address": "49LoAnQQdo9171zfcWRUoQLYSScrxXobbuwt14xjvfVm",
-      "symbol": "waUniUSDT",
-      "name": "Aave Interest bearing UniUSDT (Wormhole)",
+      "symbol": "waUniUSDT_v1",
+      "name": "Aave Interest bearing UniUSDT (Wormhole v1)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/49LoAnQQdo9171zfcWRUoQLYSScrxXobbuwt14xjvfVm/logo.png",
       "tags": [
@@ -9279,8 +9306,8 @@
     {
       "chainId": 101,
       "address": "CvG3gtKYJtKRzEUgMeb42xnd8HDjESgLtyJqQ2kuLncp",
-      "symbol": "waUniDAIETH",
-      "name": "Aave Interest bearing UniDAIETH (Wormhole)",
+      "symbol": "waUniDAIETH_v1",
+      "name": "Aave Interest bearing UniDAIETH (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CvG3gtKYJtKRzEUgMeb42xnd8HDjESgLtyJqQ2kuLncp/logo.svg",
       "tags": [
@@ -9296,8 +9323,8 @@
     {
       "chainId": 101,
       "address": "GSv5ECZaMfaceZK4WKKzA4tKVDkqtfBASECcmYFWcy4G",
-      "symbol": "waUniUSDCETH",
-      "name": "Aave Interest bearing UniUSDCETH (Wormhole)",
+      "symbol": "waUniUSDCETH_v1",
+      "name": "Aave Interest bearing UniUSDCETH (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GSv5ECZaMfaceZK4WKKzA4tKVDkqtfBASECcmYFWcy4G/logo.svg",
       "tags": [
@@ -9313,8 +9340,8 @@
     {
       "chainId": 101,
       "address": "7LUdsedi7qpTJGnFpZo6mWqVtKKpccr9XrQGxJ2xUDPT",
-      "symbol": "waUniSETHETH",
-      "name": "Aave Interest bearing UniSETHETH (Wormhole)",
+      "symbol": "waUniSETHETH_v1",
+      "name": "Aave Interest bearing UniSETHETH (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7LUdsedi7qpTJGnFpZo6mWqVtKKpccr9XrQGxJ2xUDPT/logo.svg",
       "tags": [
@@ -9330,8 +9357,8 @@
     {
       "chainId": 101,
       "address": "Hc1zHQxg1k2JVwvuv3kqbCyZDEJYfDdNftBMab4EMUx9",
-      "symbol": "waUniLENDETH",
-      "name": "Aave Interest bearing UniLENDETH (Wormhole)",
+      "symbol": "waUniLENDETH_v1",
+      "name": "Aave Interest bearing UniLENDETH (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Hc1zHQxg1k2JVwvuv3kqbCyZDEJYfDdNftBMab4EMUx9/logo.svg",
       "tags": [
@@ -9347,8 +9374,8 @@
     {
       "chainId": 101,
       "address": "9PejEmx6NKDHgf6jpgAWwZsibURKifBakjzDQdtCtAXT",
-      "symbol": "waUniMKRETH",
-      "name": "Aave Interest bearing UniMKRETH (Wormhole)",
+      "symbol": "waUniMKRETH_v1",
+      "name": "Aave Interest bearing UniMKRETH (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9PejEmx6NKDHgf6jpgAWwZsibURKifBakjzDQdtCtAXT/logo.svg",
       "tags": [
@@ -9364,8 +9391,8 @@
     {
       "chainId": 101,
       "address": "KcHygDp4o7ENsHjevYM4T3u6R7KHa5VyvkJ7kpmJcYo",
-      "symbol": "waUniLINKETH",
-      "name": "Aave Interest bearing UniLINKETH (Wormhole)",
+      "symbol": "waUniLINKETH_v1",
+      "name": "Aave Interest bearing UniLINKETH (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/KcHygDp4o7ENsHjevYM4T3u6R7KHa5VyvkJ7kpmJcYo/logo.svg",
       "tags": [
@@ -9381,8 +9408,8 @@
     {
       "chainId": 101,
       "address": "GNPAF84ZEtKYyfuY2fg8tZVwse7LpTSeyYPSyEKFqa2Y",
-      "symbol": "waUSDT",
-      "name": "Aave interest bearing USDT (Wormhole)",
+      "symbol": "waUSDT_v1",
+      "name": "Aave interest bearing USDT (Wormhole v1)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GNPAF84ZEtKYyfuY2fg8tZVwse7LpTSeyYPSyEKFqa2Y/logo.svg",
       "tags": [
@@ -9399,8 +9426,8 @@
     {
       "chainId": 101,
       "address": "3QTknQ3i27rDKm5hvBaScFLQ34xX9N7J7XfEFwy27qbZ",
-      "symbol": "waWBTC",
-      "name": "Aave interest bearing WBTC (Wormhole)",
+      "symbol": "waWBTC_v1",
+      "name": "Aave interest bearing WBTC (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3QTknQ3i27rDKm5hvBaScFLQ34xX9N7J7XfEFwy27qbZ/logo.svg",
       "tags": [
@@ -9417,8 +9444,8 @@
     {
       "chainId": 101,
       "address": "EbpkofeWyiQouGyxQAgXxEyGtjgq13NSucX3CNvucNpb",
-      "symbol": "waWETH",
-      "name": "Aave interest bearing WETH (Wormhole)",
+      "symbol": "waWETH_v1",
+      "name": "Aave interest bearing WETH (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EbpkofeWyiQouGyxQAgXxEyGtjgq13NSucX3CNvucNpb/logo.png",
       "tags": [
@@ -9434,8 +9461,8 @@
     {
       "chainId": 101,
       "address": "67uaa3Z7SX7GC6dqSTjpJLnySLXZpCAK9MHMi3232Bfb",
-      "symbol": "waYFI",
-      "name": "Aave interest bearing YFI (Wormhole)",
+      "symbol": "waYFI_v1",
+      "name": "Aave interest bearing YFI (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/67uaa3Z7SX7GC6dqSTjpJLnySLXZpCAK9MHMi3232Bfb/logo.svg",
       "tags": [
@@ -9451,8 +9478,8 @@
     {
       "chainId": 101,
       "address": "9xS6et5uvQ64QsmaGMfzfXrwTsfYPjwEWuiPnBGFgfw",
-      "symbol": "waZRX",
-      "name": "Aave interest bearing ZRX (Wormhole)",
+      "symbol": "waZRX_v1",
+      "name": "Aave interest bearing ZRX (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9xS6et5uvQ64QsmaGMfzfXrwTsfYPjwEWuiPnBGFgfw/logo.svg",
       "tags": [
@@ -9469,8 +9496,8 @@
     {
       "chainId": 101,
       "address": "2TZ8s2FwtWqJrWpdFsSf2uM2Fvjw474n6HhTdTEWoLor",
-      "symbol": "waUNI",
-      "name": "Aave interest bearing UNI (Wormhole)",
+      "symbol": "waUNI_v1",
+      "name": "Aave interest bearing UNI (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2TZ8s2FwtWqJrWpdFsSf2uM2Fvjw474n6HhTdTEWoLor/logo.svg",
       "tags": [
@@ -9486,8 +9513,8 @@
     {
       "chainId": 101,
       "address": "G1o2fHZXyPCeAEcY4o6as7SmVaUu65DRhcq1S4Cfap9T",
-      "symbol": "waAAVE",
-      "name": "Aave interest bearing AAVE (Wormhole)",
+      "symbol": "waAAVE_v1",
+      "name": "Aave interest bearing AAVE (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G1o2fHZXyPCeAEcY4o6as7SmVaUu65DRhcq1S4Cfap9T/logo.svg",
       "tags": [
@@ -9503,8 +9530,8 @@
     {
       "chainId": 101,
       "address": "8PeWkyvCDHpSgT5oiGFgZQtXSRBij7ZFLJTHAGBntRDH",
-      "symbol": "waBAT",
-      "name": "Aave interest bearing BAT (Wormhole)",
+      "symbol": "waBAT_v1",
+      "name": "Aave interest bearing BAT (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8PeWkyvCDHpSgT5oiGFgZQtXSRBij7ZFLJTHAGBntRDH/logo.svg",
       "tags": [
@@ -9521,8 +9548,8 @@
     {
       "chainId": 101,
       "address": "67opsuaXQ3JRSJ1mmF7aPLSq6JaZcwAmXwcMzUN5PSMv",
-      "symbol": "waBUSD",
-      "name": "Aave interest bearing BUSD (Wormhole)",
+      "symbol": "waBUSD_v1",
+      "name": "Aave interest bearing BUSD (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/67opsuaXQ3JRSJ1mmF7aPLSq6JaZcwAmXwcMzUN5PSMv/logo.svg",
       "tags": [
@@ -9539,8 +9566,8 @@
     {
       "chainId": 101,
       "address": "4JrrHRS56i9GZkSmGaCY3ZsxMo3JEqQviU64ki7ZJPak",
-      "symbol": "waDAI",
-      "name": "Aave interest bearing DAI (Wormhole)",
+      "symbol": "waDAI_v1",
+      "name": "Aave interest bearing DAI (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4JrrHRS56i9GZkSmGaCY3ZsxMo3JEqQviU64ki7ZJPak/logo.svg",
       "tags": [
@@ -9557,8 +9584,8 @@
     {
       "chainId": 101,
       "address": "3LmfKjsSU9hdxfZfcr873DMNR5nnrk8EvdueXg1dTSin",
-      "symbol": "waENJ",
-      "name": "Aave interest bearing ENJ (Wormhole)",
+      "symbol": "waENJ_v1",
+      "name": "Aave interest bearing ENJ (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3LmfKjsSU9hdxfZfcr873DMNR5nnrk8EvdueXg1dTSin/logo.svg",
       "tags": [
@@ -9575,8 +9602,8 @@
     {
       "chainId": 101,
       "address": "7VD2Gosm34hB7kughTqu1N3sW92hq3XwKLTi1N1tdKrj",
-      "symbol": "waKNC",
-      "name": "Aave interest bearing KNC (Wormhole)",
+      "symbol": "waKNC_v1",
+      "name": "Aave interest bearing KNC (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7VD2Gosm34hB7kughTqu1N3sW92hq3XwKLTi1N1tdKrj/logo.svg",
       "tags": [
@@ -9593,8 +9620,8 @@
     {
       "chainId": 101,
       "address": "4erbVWFvdvS5P8ews7kUjqfpCQbA8vurnWyvRLsnZJgv",
-      "symbol": "waLINK",
-      "name": "Aave interest bearing LINK (Wormhole)",
+      "symbol": "waLINK_v1",
+      "name": "Aave interest bearing LINK (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4erbVWFvdvS5P8ews7kUjqfpCQbA8vurnWyvRLsnZJgv/logo.svg",
       "tags": [
@@ -9611,8 +9638,8 @@
     {
       "chainId": 101,
       "address": "AXJWqG4SpAEwkMjKYkarKwv6Qfz5rLU3cwt5KtrDAAYe",
-      "symbol": "waMANA",
-      "name": "Aave interest bearing MANA (Wormhole)",
+      "symbol": "waMANA_v1",
+      "name": "Aave interest bearing MANA (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AXJWqG4SpAEwkMjKYkarKwv6Qfz5rLU3cwt5KtrDAAYe/logo.svg",
       "tags": [
@@ -9629,8 +9656,8 @@
     {
       "chainId": 101,
       "address": "4kJmfagJzQFuwto5RX6f1xScWYbEVBzEpdjmiqTCnzjJ",
-      "symbol": "waMKR",
-      "name": "Aave interest bearing MKR (Wormhole)",
+      "symbol": "waMKR_v1",
+      "name": "Aave interest bearing MKR (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4kJmfagJzQFuwto5RX6f1xScWYbEVBzEpdjmiqTCnzjJ/logo.svg",
       "tags": [
@@ -9647,8 +9674,8 @@
     {
       "chainId": 101,
       "address": "DN8jPo8YZTXhLMyDMKcnwFuKqY8wfn2UrpX8ct4rc8Bc",
-      "symbol": "waREN",
-      "name": "Aave interest bearing REN (Wormhole)",
+      "symbol": "waREN_v1",
+      "name": "Aave interest bearing REN (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DN8jPo8YZTXhLMyDMKcnwFuKqY8wfn2UrpX8ct4rc8Bc/logo.svg",
       "tags": [
@@ -9665,8 +9692,8 @@
     {
       "chainId": 101,
       "address": "HWbJZXJ7s1D1zi5P7yVgRUmZPXvYSFv6vsYU765Ti422",
-      "symbol": "waSNX",
-      "name": "Aave interest bearing SNX (Wormhole)",
+      "symbol": "waSNX_v1",
+      "name": "Aave interest bearing SNX (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HWbJZXJ7s1D1zi5P7yVgRUmZPXvYSFv6vsYU765Ti422/logo.svg",
       "tags": [
@@ -9683,8 +9710,8 @@
     {
       "chainId": 101,
       "address": "2LForywWWpHzmR5NjSEyF1kcw9ffyLuJX7V7hne2fHfY",
-      "symbol": "waSUSD",
-      "name": "Aave interest bearing SUSD (Wormhole)",
+      "symbol": "waSUSD_v1",
+      "name": "Aave interest bearing SUSD (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2LForywWWpHzmR5NjSEyF1kcw9ffyLuJX7V7hne2fHfY/logo.svg",
       "tags": [
@@ -9701,8 +9728,8 @@
     {
       "chainId": 101,
       "address": "Badj3S29a2u1auxmijwg5vGjhPLb1K6WLPoigtWjKPXp",
-      "symbol": "waTUSD",
-      "name": "Aave interest bearing TUSD (Wormhole)",
+      "symbol": "waTUSD_v1",
+      "name": "Aave interest bearing TUSD (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Badj3S29a2u1auxmijwg5vGjhPLb1K6WLPoigtWjKPXp/logo.svg",
       "tags": [
@@ -9719,8 +9746,8 @@
     {
       "chainId": 101,
       "address": "BZCPpva12M9SqJgcpf8jtP9Si6rMANFoUR3i7nchha7M",
-      "symbol": "waUSDC",
-      "name": "Aave interest bearing USDC (Wormhole)",
+      "symbol": "waUSDC_v1",
+      "name": "Aave interest bearing USDC (Wormhole v1)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BZCPpva12M9SqJgcpf8jtP9Si6rMANFoUR3i7nchha7M/logo.svg",
       "tags": [
@@ -9737,8 +9764,8 @@
     {
       "chainId": 101,
       "address": "D3ajQoyBGJz3JCXCPsxHZJbLQKGt9UgxLavgurieGNcD",
-      "symbol": "wSDT",
-      "name": "Stake DAO Token (Wormhole)",
+      "symbol": "wSDT_v1",
+      "name": "Stake DAO Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D3ajQoyBGJz3JCXCPsxHZJbLQKGt9UgxLavgurieGNcD/logo.png",
       "tags": [
@@ -10189,8 +10216,8 @@
     {
       "chainId": 103,
       "address": "7STJWT74tAZzhbNNPRH8WuGDy9GZg27968EwALWuezrH",
-      "symbol": "wSUSHI",
-      "name": "SushiSwap (Wormhole)",
+      "symbol": "wSUSHI_v1",
+      "name": "SushiSwap (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7STJWT74tAZzhbNNPRH8WuGDy9GZg27968EwALWuezrH/logo.png",
       "tags": [
@@ -10478,7 +10505,7 @@
         "nft"
       ],
       "extensions": {
-        "description": "At the core of Star Atlas lies a treasure trove of priceless data. After an unsuspecting deep space explorer discovers “The Cataclysm”, he scans its riches, creating what will once be known as the first intergalactic data block. He sells this invaluable information to all three rival factions, igniting a lethal spark that forever changes the course of history.",
+        "description": "At the core of Star Atlas lies a treasure trove of priceless data. After an unsuspecting deep space explorer discovers \u201cThe Cataclysm\u201d, he scans its riches, creating what will once be known as the first intergalactic data block. He sells this invaluable information to all three rival factions, igniting a lethal spark that forever changes the course of history.",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-2/the-heart-of-star-atlas.jpg",
         "serumV3Usdc": "5Erzgrw9pTjNWLeqHp2sChJq7smB7WXRQYw9wvkvA59t",
         "website": "https://www.staratlas.com"
@@ -10522,14 +10549,14 @@
       "chainId": 101,
       "address": "4G85c5aUsRTrRPqE5VjY7ebD9b2ktTF6NEVGiCddRBDX",
       "symbol": "LOVE",
-      "name": "B ❤ P",
+      "name": "B \u2764 P",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4G85c5aUsRTrRPqE5VjY7ebD9b2ktTF6NEVGiCddRBDX/logo.png",
       "tags": [
         "nft"
       ],
       "extensions": {
-        "description": "Paizul, the charismatic and brilliant leader of the ONI consortium, vividly recalls the first time she saw her one true love. It was a warm summer day, full of raging ionic storms. Lightning was piercing the sky as Bekalu took off his helmet and locked eyes with her. “What are the chances of nearly colliding with someone flying through these wastelands on a day like this”, he smiled with his booming voice. “Perhaps it’s destiny,” she smiled back mysteriously. There was another strike of lightning, but this time the sky remained calm.",
+        "description": "Paizul, the charismatic and brilliant leader of the ONI consortium, vividly recalls the first time she saw her one true love. It was a warm summer day, full of raging ionic storms. Lightning was piercing the sky as Bekalu took off his helmet and locked eyes with her. \u201cWhat are the chances of nearly colliding with someone flying through these wastelands on a day like this\u201d, he smiled with his booming voice. \u201cPerhaps it\u2019s destiny,\u201d she smiled back mysteriously. There was another strike of lightning, but this time the sky remained calm.",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-5/love-story.jpg",
         "serumV3Usdc": "AM9sNDh48N2qhYSgpA58m9dHvrMoQongtyYu2u2XoYTc",
         "website": "https://www.staratlas.com"
@@ -10563,7 +10590,7 @@
         "nft"
       ],
       "extensions": {
-        "description": "The sound of wailing echoes across the plains. The Sogmian procession solemnly marches in step past their ancestors’ gravestones, still haunted by the fate of their leader. The sun begins to set as they bring Paizul’s cryopod at the top of the Rock of Light. As a beam of light consumes the pod to upload it to eternal rest with the ancients, Bekalu falls to his knees with a wrathful howl. The crowd is rattled to the core, a foreboding of things to come.",
+        "description": "The sound of wailing echoes across the plains. The Sogmian procession solemnly marches in step past their ancestors\u2019 gravestones, still haunted by the fate of their leader. The sun begins to set as they bring Paizul\u2019s cryopod at the top of the Rock of Light. As a beam of light consumes the pod to upload it to eternal rest with the ancients, Bekalu falls to his knees with a wrathful howl. The crowd is rattled to the core, a foreboding of things to come.",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-7/paizul-funeral-procession.jpg",
         "serumV3Usdc": "7JzaEAuVfjkrZyMwJgZF5aQkiEyVyCaTWA3N1fQK7Y6V",
         "website": "https://www.staratlas.com"
@@ -10580,7 +10607,7 @@
         "nft"
       ],
       "extensions": {
-        "description": "Humankind is visited by Ahr, a mysterious being of pure light. But not all is as it seems… For through the power of illusion, we are tricked into forming a space-based religion, plundering the planet and launching ourselves towards the stars, permanently leaving the Earth.",
+        "description": "Humankind is visited by Ahr, a mysterious being of pure light. But not all is as it seems\u2026 For through the power of illusion, we are tricked into forming a space-based religion, plundering the planet and launching ourselves towards the stars, permanently leaving the Earth.",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-8/ahr-visits-earth.jpg",
         "serumV3Usdc": "8yQzsbraXJFoPG5PdX73B8EVYFuPR9aC2axAqWearGKu",
         "website": "https://www.staratlas.com"
@@ -10597,7 +10624,7 @@
         "nft"
       ],
       "extensions": {
-        "description": "When humans were racing to expand into outer space under Ahr’s influence, the devastation they inflicted upon the planet was so great that it weakened the Earth’s geomagnetic field. The reckless way the planet’s orbit was populated by machines and debris led to distortions in the gravity field. All this culminated in a disastrous slingshot effect for the many satellites orbiting the blue dot, altering their trajectories to loosen the direct gravity pull of the planet and scatter into deep space. Some of these satellites contained valuable data that was lost forever.  In 2621, the Council of Peace put a bounty on these ancient artifacts to integrate them into Star Atlas, leading to a hunt for them across the galaxy. One of the most sought-after satellites in history records bears the name of Neil Armstrong, the first human to set foot on the Moon.  Initially launched into medium Earth orbit as a cornerstone of the global positioning system (GPS), the satellite had untold additional capabilities that made it more and more valuable as it drifted off into the void.",
+        "description": "When humans were racing to expand into outer space under Ahr\u2019s influence, the devastation they inflicted upon the planet was so great that it weakened the Earth\u2019s geomagnetic field. The reckless way the planet\u2019s orbit was populated by machines and debris led to distortions in the gravity field. All this culminated in a disastrous slingshot effect for the many satellites orbiting the blue dot, altering their trajectories to loosen the direct gravity pull of the planet and scatter into deep space. Some of these satellites contained valuable data that was lost forever.  In 2621, the Council of Peace put a bounty on these ancient artifacts to integrate them into Star Atlas, leading to a hunt for them across the galaxy. One of the most sought-after satellites in history records bears the name of Neil Armstrong, the first human to set foot on the Moon.  Initially launched into medium Earth orbit as a cornerstone of the global positioning system (GPS), the satellite had untold additional capabilities that made it more and more valuable as it drifted off into the void.",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-15/armstrong-forever.jpg",
         "serumV3Usdc": "8yQzsbraXJFoPG5PdX73B8EVYFuPR9aC2axAqWearGKu",
         "website": "https://www.staratlas.com"
@@ -10705,7 +10732,7 @@
         "nft"
       ],
       "extensions": {
-        "description": "“The first to arrive at the universe’s next frontier is the first to knock on the gates of prosperity.” — Ustur Armi.eldr",
+        "description": "\u201cThe first to arrive at the universe\u2019s next frontier is the first to knock on the gates of prosperity.\u201d \u2014 Ustur Armi.eldr",
         "imageUrl": "https://storage.googleapis.com/nft-assets/ReBirth/poster-14/star-at-atlas-movie.jpg",
         "serumV3Usdc": "KHw8L2eE6kpp8ziWPghBTtiAVCUvdSKMvGtT1e9AuJd",
         "website": "https://www.staratlas.com"
@@ -10843,8 +10870,8 @@
     {
       "chainId": 101,
       "address": "4wTMJsh3q66PmAkmwEW47qVDevMZMVVWU3n1Yhqztwi6",
-      "symbol": "ARCD",
-      "name": "Arcade Token (Wormhole)",
+      "symbol": "wARCD_v1",
+      "name": "Arcade Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4wTMJsh3q66PmAkmwEW47qVDevMZMVVWU3n1Yhqztwi6/logo.png",
       "tags": [
@@ -14587,7 +14614,7 @@
       "chainId": 101,
       "address": "D3gHoiYT4RY5VSndne1fEnpM3kCNAyBhkp5xjNUqqPj9",
       "symbol": "PROEXIS",
-      "name": "ProExis Prova de Existência Blockchain",
+      "name": "ProExis Prova de Exist\u00eancia Blockchain",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D3gHoiYT4RY5VSndne1fEnpM3kCNAyBhkp5xjNUqqPj9/logo.png",
       "tags": [
@@ -14636,8 +14663,8 @@
     {
       "chainId": 101,
       "address": "5KV2W2XPdSo97wQWcuAVi6G4PaCoieg4Lhhi61PAMaMJ",
-      "symbol": "GÜ",
-      "name": "GÜ",
+      "symbol": "G\u00dc",
+      "name": "G\u00dc",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5KV2W2XPdSo97wQWcuAVi6G4PaCoieg4Lhhi61PAMaMJ/logo.png",
       "tags": [
@@ -15194,8 +15221,8 @@
     {
       "chainId": 101,
       "address": "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm",
-      "symbol": "wUST",
-      "name": "Wrapped UST (Wormhole)",
+      "symbol": "wUST_v1",
+      "name": "Wrapped UST (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm/logo.png",
       "tags": [
@@ -15601,8 +15628,8 @@
     {
       "chainId": 101,
       "address": "8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref",
-      "symbol": "wHBTC",
-      "name": "HBTC (Wormhole)",
+      "symbol": "wHBTC_v1",
+      "name": "HBTC (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref/logo.png",
       "tags": [
@@ -15661,8 +15688,8 @@
     {
       "chainId": 101,
       "address": "BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX",
-      "symbol": "wHUSD",
-      "name": "HUSD Stablecoin (Wormhole)",
+      "symbol": "wHUSD_v1",
+      "name": "HUSD Stablecoin (Wormhole v1)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX/logo.png",
       "tags": [
@@ -16864,8 +16891,8 @@
     {
       "chainId": 101,
       "address": "Fh4e5vX2euTBzyGK2FXN1P3A4VUoH73oPVuemfRWXK2Y",
-      "symbol": "FOX",
-      "name": "ShapeShift FOX Token (Wormhole)",
+      "symbol": "wFOX_v1",
+      "name": "ShapeShift FOX Token (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fh4e5vX2euTBzyGK2FXN1P3A4VUoH73oPVuemfRWXK2Y/logo.png",
       "tags": [
@@ -20932,8 +20959,8 @@
     {
       "chainId": 101,
       "address": "EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv",
-      "symbol": "weFTX Token",
-      "name": "FTT (Wormhole)",
+      "symbol": "weFTT",
+      "name": "FTX Token (Wormhole)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv/logo.png",
       "tags": [
@@ -23939,7 +23966,7 @@
         "meme-token"
       ],
       "extensions": {
-        "description": "This is a coin on a mission to inform you of the dangers investing \u0026 prevent you from being scammed.",
+        "description": "This is a coin on a mission to inform you of the dangers investing & prevent you from being scammed.",
         "twitter": "https://twitter.com/rug_puller",
         "website": "https://rug-pull-coin.com"
       }
@@ -30159,7 +30186,8 @@
       "extensions": {
         "telegram": "https://t.me/StarLaunchOfficial",
         "twitter": "https://twitter.com/StarLaunchSOL",
-        "website": "https://www.starlaunch.com/"
+        "website": "https://www.starlaunch.com/",
+        "coingeckoId": "starlaunch"
       }
     },
     {
@@ -31550,8 +31578,8 @@
     {
       "chainId": 101,
       "address": "B98YTvnDdVQ9NKT3pdbFwJn2TMTDitz1xzfxgA1zXCDC",
-      "symbol": "COS",
-      "name": "Wrapped COS Contentos (Wormhole)",
+      "symbol": "wCOS_v1",
+      "name": "COS Contentos (Wormhole v1)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/B98YTvnDdVQ9NKT3pdbFwJn2TMTDitz1xzfxgA1zXCDC/logo.svg",
       "tags": [
@@ -31562,7 +31590,7 @@
       ],
       "extensions": {
         "address": "0x589891a198195061cb8ad1a75357a3b7dbadd7bc",
-        "assetContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "assetContract": "https://etherscan.io/address/0x589891a198195061cb8ad1a75357a3b7dbadd7bc",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
         "coingeckoId": "contentos",
         "medium": "https://medium.com/contentos-io",
@@ -32933,7 +32961,7 @@
         "metaverse"
       ],
       "extensions": {
-        "description": "BofB is where Bank meets Bitcoin. BofB’s vision is to become a transitional platform that will help connect the old banking system with how everyone will bank in the future. Our mission is to help achieve the right to bank to everyone by allowing the entire world to be able to access our platform as long as they can meet the most simple requirement which is wanting to join our platform. KYC and AML will be mandatory but banking should be easy and for everyone in the world. Our main strategy will be to have the strongest presence in the Metaverse.",
+        "description": "BofB is where Bank meets Bitcoin. BofB\u2019s vision is to become a transitional platform that will help connect the old banking system with how everyone will bank in the future. Our mission is to help achieve the right to bank to everyone by allowing the entire world to be able to access our platform as long as they can meet the most simple requirement which is wanting to join our platform. KYC and AML will be mandatory but banking should be easy and for everyone in the world. Our main strategy will be to have the strongest presence in the Metaverse.",
         "discord": "https://discord.gg/7kcg2rxDxb",
         "instagram": "https://www.instagram.com/bofbdc",
         "telegram": "https://t.me/bofbdc",
@@ -34260,7 +34288,7 @@
     },
     {
       "chainId": 101,
-      "address": "GHHCSEu32vN7F3jQC3BqGktWfvrQT3XdardXKGAw4GUu",
+      "address": "BXVR8wqs8ixPMHnuUq65buJQmimwG9WG5pNKKKBRd2S4",
       "symbol": "GUMA",
       "name": "GUM ARABIC",
       "decimals": 9,
@@ -34478,7 +34506,7 @@
         "utility-token"
       ],
       "extensions": {
-        "description": "Co-founders hmu -\u003e ryan@kanelabs.com",
+        "description": "Co-founders hmu -> ryan@kanelabs.com",
         "discord": "https://discord.gg/6erTzYChXh",
         "website": "https://fora.co"
       }
@@ -34785,7 +34813,7 @@
       "symbol": "JGR",
       "name": "JAGUAR",
       "decimals": 8,
-      "logoURI": "https://pbs.twimg.com/media/FDi18oAWQAIEdWX?format=jpg\u0026name=240x240",
+      "logoURI": "https://pbs.twimg.com/media/FDi18oAWQAIEdWX?format=jpg&name=240x240",
       "tags": [
         "mem-token"
       ],
@@ -35217,7 +35245,7 @@
       "symbol": "BTT",
       "name": "Beleven Test Token",
       "decimals": 12,
-      "logoURI": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-exp1.licdn.com%2Fdms%2Fimage%2FC560BAQGT_8JiOehf2Q%2Fcompany-logo_200_200%2F0%2F1553000966716%3Fe%3D2159024400%26v%3Dbeta%26t%3DhL0TXFSFIAtPuEKiA_f6dweSEsOe0TDIbDuH04Kn88Q\u0026imgrefurl=https%3A%2F%2Fua.linkedin.com%2Fcompany%2Fgentledevs---%25D1%2580%25D0%25BE%25D0%25B7%25D1%2580%25D0%25BE%25D0%25B1%25D0%25BA%25D0%25B0-%25D0%25BC%25D0%25BE%25D0%25B1%25D1%2596%25D0%25BB%25D1%258C%25D0%25BD%25D0%25B8%25D1%2585-%25D0%25B4%25D0%25BE%25D0%25B4%25D0%25B0%25D1%2582%25D0%25BA%25D1%2596%25D0%25B2\u0026tbnid=FtHIxqUkOX5DTM\u0026vet=12ahUKEwig672M78X0AhVNCHcKHZ-lB1MQMygBegUIARCVAQ..i\u0026docid=Z-ph3rp8gPo9sM\u0026w=200\u0026h=200\u0026itg=1\u0026q=beleven\u0026ved=2ahUKEwig672M78X0AhVNCHcKHZ-lB1MQMygBegUIARCVAQ",
+      "logoURI": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-exp1.licdn.com%2Fdms%2Fimage%2FC560BAQGT_8JiOehf2Q%2Fcompany-logo_200_200%2F0%2F1553000966716%3Fe%3D2159024400%26v%3Dbeta%26t%3DhL0TXFSFIAtPuEKiA_f6dweSEsOe0TDIbDuH04Kn88Q&imgrefurl=https%3A%2F%2Fua.linkedin.com%2Fcompany%2Fgentledevs---%25D1%2580%25D0%25BE%25D0%25B7%25D1%2580%25D0%25BE%25D0%25B1%25D0%25BA%25D0%25B0-%25D0%25BC%25D0%25BE%25D0%25B1%25D1%2596%25D0%25BB%25D1%258C%25D0%25BD%25D0%25B8%25D1%2585-%25D0%25B4%25D0%25BE%25D0%25B4%25D0%25B0%25D1%2582%25D0%25BA%25D1%2596%25D0%25B2&tbnid=FtHIxqUkOX5DTM&vet=12ahUKEwig672M78X0AhVNCHcKHZ-lB1MQMygBegUIARCVAQ..i&docid=Z-ph3rp8gPo9sM&w=200&h=200&itg=1&q=beleven&ved=2ahUKEwig672M78X0AhVNCHcKHZ-lB1MQMygBegUIARCVAQ",
       "tags": [
         "meme-coin",
         "meme-token",
@@ -35329,7 +35357,7 @@
         "utility-token"
       ],
       "extensions": {
-        "description": "PTR is a community token for partnerships \u0026 collaborations. Visit Partneroid.com for more info.",
+        "description": "PTR is a community token for partnerships & collaborations. Visit Partneroid.com for more info.",
         "website": "https://partneroid.com"
       }
     },
@@ -35406,7 +35434,7 @@
       "chainId": 101,
       "address": "8pfJr8MUHjS5tDVajmRCP7abEvEj3oYbYFR6f5jEhPH3",
       "symbol": "SLT",
-      "name": "Soulé Token",
+      "name": "Soul\u00e9 Token",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8pfJr8MUHjS5tDVajmRCP7abEvEj3oYbYFR6f5jEhPH3/logo.png",
       "tags": [
@@ -36350,6 +36378,19 @@
     },
     {
       "chainId": 101,
+      "address": "2Ete4fPkfRpgEzA8ypZUxVoiRAv8ZdrD9rZ6YA9b9m3j",
+      "symbol": "$SSO",
+      "name": "Solly Solana",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Ete4fPkfRpgEzA8ypZUxVoiRAv8ZdrD9rZ6YA9b9m3j/logooo.png",
+      "extensions": {
+        "discord": "https://discord.gg/sollysolana",
+        "twitter": "https://twitter.com/sollysolana",
+        "website": "https://sollysolana.io"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "3vDfXEw3MZQgjYpLbjoZDYmgVci16CsC6ZDLgUzmcKR2",
       "symbol": "FLVR",
       "name": "Flokiverse",
@@ -36378,6 +36419,19 @@
       "extensions": {
         "instagram": "https://www.instagram.com/clement_aglr"
       }
+    },
+    {
+      "chainId": 103,
+      "address": "7SQq39bhiP45dwvmtEUpGqiddpycHjWQ6nzAM2sTJ9Bi",
+      "symbol": "YOC",
+      "name": "YOC token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7SQq39bhiP45dwvmtEUpGqiddpycHjWQ6nzAM2sTJ9Bi/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+      }
     }
   ],
   "version": {
@@ -36386,42 +36440,3 @@
     "patch": 3
   }
 }
-    {
-      "chainId": 101,
-      "address": "PEPSiFsZx6vvZvSqycBgCrqvGyhu31M1ytPc4gSsgYG",
-      "symbol": "PEPSI",
-      "name": "Pepsi tokens",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PEPSiFsZx6vvZvSqycBgCrqvGyhu31M1ytPc4gSsgYG/logo.png",
-      "tags": [
-        "thirst",
-        "hunger",
-        "obesity"
-      ]
-    },
-    {
-        "chainId": 101,
-        "address": "PEPSiFsZx6vvZvSqycBgCrqvGyhu31M1ytPc4gSsgYG",
-        "symbol": "PEPSI",
-        "name": "Pepsi tokens",
-        "decimals": 9,
-        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PEPSiFsZx6vvZvSqycBgCrqvGyhu31M1ytPc4gSsgYG/logo.png",
-        "tags": [
-          "thirst",
-          "hunger",
-          "obesity"
-        ]
-      },
-      {
-        "chainId": 101,
-        "address": "2Ete4fPkfRpgEzA8ypZUxVoiRAv8ZdrD9rZ6YA9b9m3j",
-        "symbol": "$SSO",
-        "name": "Solly Solana",
-        "decimals": 9,
-        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Ete4fPkfRpgEzA8ypZUxVoiRAv8ZdrD9rZ6YA9b9m3j/logooo.png",
-        "extensions": {
-          "discord": "https://discord.gg/sollysolana",
-          "twitter": "https://twitter.com/sollysolana",
-          "website": "https://sollysolana.io"
-        }
-      },
