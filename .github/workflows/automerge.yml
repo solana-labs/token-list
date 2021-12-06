@@ -1,0 +1,47 @@
+name: Automerge
+
+on:
+  pull_request_target:
+  push:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronized
+      - reopened
+      - edited
+      - labeled
+      - unlabeled
+      - ready_for_review
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: yarn
+      - run: yarn test
+
+      - name: Get changes
+        id: git_diff
+        uses: swmd/get-pr-diff@v0.1.2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ steps.git_diff.outputs.valid == 'VALID' }}
+        with:
+          labels: automerge
+
+      - name: Merge pull request
+        if: ${{ steps.git_diff.outputs.valid == 'VALID' }}
+        uses: 'pascalgn/automerge-action@v0.14.3'
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'

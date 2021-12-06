@@ -2,13 +2,11 @@ name: Build&Publish
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'solana-labs'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -20,7 +18,6 @@ jobs:
   publish:
     needs: build
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'solana-labs'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
