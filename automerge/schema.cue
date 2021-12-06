@@ -19,7 +19,6 @@ import (
 // Grandfathered non-compliant symbol names.
 #SymbolWhitelist: ("GÜ" |
 	"W technology" |
-	"weFTX Token" |
 	"SHBL LP token" |
 	"Unlimited Energy" |
 	"Need for Speed" |
