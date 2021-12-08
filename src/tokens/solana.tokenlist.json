@@ -1,4 +1,4 @@
-{
+"{
   "name": "Solana Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
   "keywords": [
@@ -37912,6 +37912,23 @@
         "twitter": "https://twitter.com/robotoio",
         "website": "http://www.roboto.io/"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "54J1tQbQVVPvEcnDqCYNfMe2pEyWEWmix2cb3t1ENim8",
+      "symbol": "BAMBOO",
+      "name": "BAMBOO (Gorillaz Club)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/54J1tQbQVVPvEcnDqCYNfMe2pEyWEWmix2cb3t1ENim8/logo.png",
+      "tags": [
+        "utility-token",
+        "community-token",
+        "nfts"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/gorillaz_nft",
+        "website": "http://www.gorillaznft.com"
+      }
     }
   ],
   "version": {
@@ -37919,4 +37936,4 @@
     "minor": 3,
     "patch": 3
   }
-}
+}"
