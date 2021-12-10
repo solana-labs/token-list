@@ -325,7 +325,7 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			}
 
 			switch path.Ext(p[3]) {
-			case ".png", ".jpg", ".svg":
+			case ".png", ".jpg", ".svg", ".PNG", ".JPG", ".SVG":
 			default:
 				return nil, nil, fmt.Errorf("invalid asset extension: %s (wants png, jpg, svg)", newFile)
 			}

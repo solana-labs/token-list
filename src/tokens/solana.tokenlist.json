@@ -59,6 +59,22 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "G6nZYEvhwFxxnp1KZr1v9igXtipuB5zL6oDGNMRZqF3q",
+      "symbol": "BAD",
+      "name": "EA Bad",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G6nZYEvhwFxxnp1KZr1v9igXtipuB5zL6oDGNMRZqF3q/EABadlogo.PNG",
+      "tags": [
+        "utility-token",
+        "community-token",
+        "meme-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/EABadtoken"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A",
       "symbol": "MBS",
       "name": "MonkeyBucks",
@@ -16251,7 +16267,7 @@
     {
       "chainId": 101,
       "address": "4dydh8EGNEdTz6grqnGBxpduRg55eLnwNZXoNZJetadu",
-      "symbol": "MIMSWARM",
+      "symbol": "SWARM",
       "name": "MIM",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4dydh8EGNEdTz6grqnGBxpduRg55eLnwNZXoNZJetadu/logo.png",
@@ -20939,6 +20955,9 @@
         "meta-verse"
       ],
       "extensions": {
+        "coingeckoId": "sator",
+        "github": "https://github.com/SatorNetwork",
+        "medium": "https://satortoken.medium.com",
         "telegram": "https://t.me/SatorSAO",
         "twitter": "https://twitter.com/SatorSAO",
         "website": "https://sator.io"
@@ -24354,6 +24373,7 @@
         "cat"
       ],
       "extensions": {
+        "coingeckoId": "kitty-coin-solana",
         "discord": "https://discord.gg/kittycoinsolana",
         "serumV3Usdc": "FAHa34qbNbvtEBHgjuALk4WLJMwxJTtV6Z3V3p79XLWG",
         "serumV3Usdt": "H8VLs7VYaBg3rg1NvVNJKb1QWMf3kzieTPkgPmVffXTx",
@@ -31181,6 +31201,20 @@
     },
     {
       "chainId": 101,
+      "address": "BXHUUQvD8YaEv4eModMzK9ds1f5g6Zx3iUY7MgTANjGf",
+      "symbol": "HFaourTest",
+      "name": "HFaourTest",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/HFaour/token-list/main/assets/mainnet/BXHUUQvD8YaEv4eModMzK9ds1f5g6Zx3iUY7MgTANjGf/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://github.com/HFaour"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "FNFKRV3V8DtA3gVJN6UshMiLGYA8izxFwkNWmJbFjmRj",
       "symbol": "TTT",
       "name": "TabTrader Token",
@@ -35427,7 +35461,9 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "partneroid",
         "description": "PTR is a community token for partnerships \u0026 collaborations. Visit Partneroid.com for more info.",
+        "discord": "https://discord.gg/JAN3fNCPQG",
         "website": "https://partneroid.com"
       }
     },
@@ -35701,7 +35737,7 @@
       ],
       "extensions": {
         "discord": "https://discord.com/invite/UmbV22ZK88",
-        "twitter": "https://twitter.com/Caiqueskullcool",
+        "twitter": "https://twitter.com/skullcoolnft",
         "website": "https://skullcoolnft.com/"
       }
     },
@@ -35831,22 +35867,6 @@
         "climate-token",
         "utility-token"
       ]
-    },
-    {
-      "chainId": 101,
-      "address": "BXHUUQvD8YaEv4eModMzK9ds1f5g6Zx3iUY7MgTANjGf",
-      "symbol": "Zion",
-      "name": "Zion",
-      "decimals": 2,
-      "logoURI": "https://raw.githubusercontent.com/HFaour/token-list/main/assets/mainnet/BXHUUQvD8YaEv4eModMzK9ds1f5g6Zx3iUY7MgTANjGf/logo.jpg",
-      "tags": [
-        "utility-token"
-      ],
-      "extensions": {
-        "discord": "http://discord.gg/CV46gmTuPM",
-        "twitter": "https://twitter.com/SolanaCatCartel",
-        "website": "https://catcartel.io"
-      }
     },
     {
       "chainId": 101,
@@ -38440,6 +38460,22 @@
     },
     {
       "chainId": 101,
+      "address": "Bn94VJuH9LtBfNsjWffGzfjfMewbQFL2B26493Evv6zz",
+      "symbol": "SQRC",
+      "name": "Squarecoin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bn94VJuH9LtBfNsjWffGzfjfMewbQFL2B26493Evv6zz/logo.png",
+      "tags": [
+        "meme-token",
+        "nft-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/SquareheadzNFT",
+        "website": "https://squareheadz.xyz/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "BA7Kht54DCCaNyoRG7Te2Ynbwxk3QJ9fnSCHLY8qJazF",
       "symbol": "DOJO",
       "name": "Dojo coin",
@@ -38818,6 +38854,51 @@
       ],
       "extensions": {
         "website": "https://port.finance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "J7WYVzFNynk9D28eBCccw2EYkygygiLDCVCabV7CupWL",
+      "symbol": "MONGOOSE",
+      "name": "Mongoose Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J7WYVzFNynk9D28eBCccw2EYkygygiLDCVCabV7CupWL/logo.png",
+      "tags": [
+        "MEME",
+        "Community-token",
+        "Mongoose"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/mongoosescoin",
+        "website": "https://www.mongoosecoin.space/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AHGXtqajWiph31bh5y3MfSK4Bo6JGyt3xpveEZ41ZLaX",
+      "symbol": "ARAB",
+      "name": "ARAB MONEY",
+      "decimals": 9,
+      "logoURI": "https://rawcdn.githack.com/arabpunkz/oillogo/8f141fb5d74220e3c8a5261508847b716a1b5b4b/arab.png",
+      "tags": [
+        "community-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/4GS8A4VQWR",
+        "twitter": "https://twitter.com/arabpunkz",
+        "website": "https://arabpunkz.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CooL7VvP1BoSmnPDTXUnKQgRo1tMUo9mHfmwMWn4sm9F",
+      "symbol": "$COOL",
+      "name": "COOLTURA",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CooL7VvP1BoSmnPDTXUnKQgRo1tMUo9mHfmwMWn4sm9F/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/danipass0s",
+        "website": "https://cooltura.wtf"
       }
     }
   ],
