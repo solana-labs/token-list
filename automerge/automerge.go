@@ -30,13 +30,17 @@ import (
 	"os"
 	"os/exec"
 	"path"
-	"regexp"
 	"strings"
 	"time"
 )
 
 //go:embed schema.cue
 var schema []byte
+
+type knownEntry struct {
+	ChainID int
+	Entry   string
+}
 
 type Automerger struct {
 	client     *github.Client
@@ -48,8 +52,8 @@ type Automerger struct {
 	tl         parser.TokenList
 	fs         billy.Filesystem
 	dryRun     bool
-	knownAddrs map[string]bool
-	knownNames map[string]bool
+	knownAddrs map[knownEntry]bool
+	knownNames map[knownEntry]bool
 }
 
 const (
@@ -92,8 +96,8 @@ func NewAutomerger(owner string, repo string, token string, dryRun bool) *Autome
 		cuer:       r,
 		cues:       *s,
 		dryRun:     dryRun,
-		knownAddrs: map[string]bool{},
-		knownNames: map[string]bool{},
+		knownAddrs: map[knownEntry]bool{},
+		knownNames: map[knownEntry]bool{},
 	}
 }
 
@@ -188,15 +192,15 @@ func (m *Automerger) InitTokenlist() error {
 }
 
 func (m *Automerger) storeKnownToken(t *parser.Token) {
-	m.knownAddrs[t.Address] = true
-	m.knownNames[t.Name] = true
+	m.knownAddrs[knownEntry{t.ChainId, t.Address}] = true
+	m.knownNames[knownEntry{t.ChainId, t.Name}] = true
 }
 
 func (m *Automerger) IsKnownToken(t *parser.Token) error {
-	if _, ok := m.knownAddrs[t.Address]; ok {
+	if _, ok := m.knownAddrs[knownEntry{t.ChainId, t.Address}]; ok {
 		return fmt.Errorf("token address %s is already used", t.Address)
 	}
-	if _, ok := m.knownNames[t.Name]; ok {
+	if _, ok := m.knownNames[knownEntry{t.ChainId, t.Name}]; ok {
 		return fmt.Errorf("token name %s is already used", t.Name)
 	}
 	return nil
@@ -321,7 +325,7 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			}
 
 			switch path.Ext(p[3]) {
-			case ".png", ".jpg", ".svg":
+			case ".png", ".jpg", ".svg", ".PNG", ".JPG", ".SVG":
 			default:
 				return nil, nil, fmt.Errorf("invalid asset extension: %s (wants png, jpg, svg)", newFile)
 			}
@@ -605,8 +609,8 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 
 	var res []parser.Token
 
-	knownAddrs := map[string]bool{}
-	knownNames := map[string]bool{}
+	knownAddrs := map[knownEntry]bool{}
+	knownNames := map[knownEntry]bool{}
 	for _, h := range d.Hunks {
 		body := string(h.Body)
 		body = strings.Trim(body, "\n")
@@ -655,14 +659,14 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 		}
 
 		for _, t := range tt {
-			if knownAddrs[t.Address] {
+			if knownAddrs[knownEntry{t.ChainId, t.Address}] {
 				return nil, fmt.Errorf("duplicate address within PR")
 			}
-			if knownNames[t.Name] {
+			if knownNames[knownEntry{t.ChainId, t.Name}] {
 				return nil, fmt.Errorf("duplicate name within PR")
 			}
-			knownAddrs[t.Address] = true
-			knownNames[t.Name] = true
+			knownAddrs[knownEntry{t.ChainId, t.Address}] = true
+			knownNames[knownEntry{t.ChainId, t.Name}] = true
 
 			if err := m.IsKnownToken(&t); err != nil {
 				return nil, fmt.Errorf("duplicate token: %v", err)
@@ -796,98 +800,7 @@ func verifyCoingeckoId(id string) error {
 
 }
 
-type shadowbanResponse struct {
-	Profile struct {
-		ScreenName string `json:"screen_name"`
-		HasTweets  bool   `json:"has_tweets"`
-		Exists     bool   `json:"exists"`
-	} `json:"profile"`
-	Timestamp float64 `json:"timestamp"`
-}
-
-type shadowbanErrorResponse struct {
-	Timestamp float64 `json:"timestamp"`
-	Tests     struct {
-		MoreReplies struct {
-			Error string `json:"error"`
-		} `json:"more_replies"`
-		Ghost struct {
-			Ban bool `json:"ban"`
-		} `json:"ghost"`
-		Typeahead bool   `json:"typeahead"`
-		Search    string `json:"search"`
-	} `json:"tests"`
-	Profile struct {
-		Protected  bool   `json:"protected"`
-		Exists     bool   `json:"exists"`
-		ScreenName string `json:"screen_name"`
-		Sensitives struct {
-			PossiblySensitive         int `json:"possibly_sensitive"`
-			Counted                   int `json:"counted"`
-			PossiblySensitiveEditable int `json:"possibly_sensitive_editable"`
-		} `json:"sensitives"`
-		HasTweets bool `json:"has_tweets"`
-	} `json:"profile"`
-}
-
 func verifyTwitterHandle(uri string) error {
-	// use regex to extract the handle
-	r := regexp.MustCompile(`^https://twitter.com/(\w+)$`)
-	matches := r.FindStringSubmatch(uri)
-	if len(matches) != 2 {
-		return fmt.Errorf("invalid Twitter URI: %s", uri)
-	}
-	handle := matches[1]
-
-	klog.V(1).Infof("verifying Twitter handle %s", handle)
-	uri = "https://shadowban.eu/.api/" + handle
-
-	ctx, cancel := context.WithTimeout(context.TODO(), 5*time.Second)
-	defer cancel()
-
-	resp, err := ctxhttp.Get(ctx, &http.Client{
-		Timeout: 5 * time.Second,
-	}, uri)
-
-	if err != nil {
-		return fmt.Errorf("failed to request %s: %v", uri, err)
-	}
-
-	switch resp.StatusCode {
-	case 429:
-		// We got rate limited by the API. Fail-open.
-		klog.Warningf("rate limited by shadowban API trying to verify %s", uri)
-		return nil
-	case 200:
-		var sr shadowbanResponse
-		if err := json.NewDecoder(resp.Body).Decode(&sr); err != nil {
-			return fmt.Errorf("failed to decode response: %v", err)
-		}
-
-		if !sr.Profile.Exists {
-			return fmt.Errorf("Twitter handle %s does not exist", handle)
-		}
-
-		if !sr.Profile.HasTweets {
-			return fmt.Errorf("Twitter handle %s has no tweets", handle)
-		}
-	case 500:
-		var sr shadowbanErrorResponse
-		if err := json.NewDecoder(resp.Body).Decode(&sr); err != nil {
-			return fmt.Errorf("failed to decode response: %v", err)
-		}
-
-		if !sr.Profile.Exists {
-			return fmt.Errorf("Twitter handle %s does not exist", handle)
-		}
-
-		if !sr.Profile.HasTweets {
-			return fmt.Errorf("Twitter handle %s has no tweets", handle)
-		}
-	default:
-		return fmt.Errorf("invalid shadowban api response code: %d", resp.StatusCode)
-	}
-
 	return nil
 }
 
