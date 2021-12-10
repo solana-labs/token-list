@@ -57,7 +57,7 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
-{
+    {
       "chainId": 101,
       "address": "G6nZYEvhwFxxnp1KZr1v9igXtipuB5zL6oDGNMRZqF3q",
       "symbol": "BAD",
@@ -66,11 +66,11 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G6nZYEvhwFxxnp1KZr1v9igXtipuB5zL6oDGNMRZqF3q/EABadlogo.PNG",
       "tags": [
         "utility-token",
-	"community-token",
-	"meme-token"
+        "community-token",
+        "meme-token"
       ],
       "extensions": {
-        "twitter": "https://twitter.com/EABadtoken",
+        "twitter": "https://twitter.com/EABadtoken"
       }
     },
     {
@@ -459,15 +459,16 @@
     },
     {
       "chainId": 101,
-      "address": "6JEK47yGkULH4ezouZ8X4X4qEiyd3QZn7emaQhAXQuam",
-      "symbol": "LEON",
-      "name": "chameleon token",
+      "address": "zWxLppNEHinqYbQffzp2T5yNXUzyQUsHZ39nxjTqk6F",
+      "symbol": "METAS",
+      "name": "Meta Syndrome",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6JEK47yGkULH4ezouZ8X4X4qEiyd3QZn7emaQhAXQuam/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/zWxLppNEHinqYbQffzp2T5yNXUzyQUsHZ39nxjTqk6F/logo.png",
       "tags": [
-        "gaming-nft",
-        "gaming-metaverse",
-        "nft-marketplace",
+        "community-token",
+        "meta-token",
+        "meta-mark",
+        "nfts"
       ]
     },
     {
@@ -38744,17 +38745,6 @@
         "website": "https://destinyofwar.com/"
       }
     },
-	{
-		"chainId": 101,
-		"address": "6JEK47yGkULH4ezouZ8X4X4qEiyd3QZn7emaQhAXQuam",
-		"symbol": "LEON",
-		"name": "Chempleon",
-		"decimals": 9,
-		"logo": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6JEK47yGkULH4ezouZ8X4X4qEiyd3QZn7emaQhAXQuam/logo.png",
-		"tags": [
-			"meta-verse"
-			],
-	},
     {
       "chainId": 101,
       "address": "D2DWXG6oDhywmYeFXQy3pCkLp7RKiwuoSZgjhNSqx14N",
@@ -38827,6 +38817,25 @@
         "discord": "https://discord.gg/4GS8A4VQWR",
         "twitter": "https://twitter.com/arabpunkz",
         "website": "https://arabpunkz.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6nY5u2KWywfY6ERXgBBr6YNfBATHi13HT1fge64vCAKo",
+      "symbol": "HOHOHO",
+      "name": "Santa Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6nY5u2KWywfY6ERXgBBr6YNfBATHi13HT1fge64vCAKo/santa.png",
+      "tags": [
+        "meme-token",
+        "community-token",
+        "bull",
+        "nft",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://santacoin.xyz",
+        "discord": "https://discord.gg/XE2PjtcyXs"
       }
     }
   ],
