@@ -57,22 +57,6 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
-{
-      "chainId": 101,
-      "address": "G6nZYEvhwFxxnp1KZr1v9igXtipuB5zL6oDGNMRZqF3q",
-      "symbol": "BAD",
-      "name": "EA Bad",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G6nZYEvhwFxxnp1KZr1v9igXtipuB5zL6oDGNMRZqF3q/EABadlogo.PNG",
-      "tags": [
-        "utility-token",
-	"community-token",
-	"meme-token"
-      ],
-      "extensions": {
-        "twitter": "https://twitter.com/EABadtoken",
-      }
-    },
     {
       "chainId": 101,
       "address": "Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A",
@@ -38786,6 +38770,20 @@
         "website": "https://port.finance"
       }
     },
+	{
+	  "chainId": 101,
+	  "address": "6JEK47yGkULH4ezouZ8X4X4qEiyd3QZn7emaQhAXQuam",
+	  "symbol": "LEON",
+	  "name": "chempeleon",
+	  "decimals": 9,
+	  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6JEK47yGkULH4ezouZ8X4X4qEiyd3QZn7emaQhAXQuam/logo.png",
+	  "tags": [
+		"Gaming-nft"
+		],
+		"extensions": {
+		  "website": "https://chempeleon.space",
+		}
+	},
     {
       "chainId": 101,
       "address": "J7WYVzFNynk9D28eBCccw2EYkygygiLDCVCabV7CupWL",
@@ -38826,3 +38824,5 @@
     "patch": 3
   }
 }
+	
+	
