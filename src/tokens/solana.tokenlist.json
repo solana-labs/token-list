@@ -1,13 +1,11 @@
-{
-  "name": "Solana Token List",
+"name": "Solana Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
   "keywords": [
     "solana",
     "spl"
   ],
   "tags": {
-    "stablecoin": {
-      "name": "stablecoin",
+    "stablecoin": {     "name": "stablecoin",
       "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
     },
     "ethereum": {
@@ -39798,6 +39796,18 @@
       ]
     }
   ],
+  {
+    "chainId": 101,
+    "address": "EoyNPxZhy4hWAse1GZbAGG5oCfEtngsxcuytUFztTx1g",
+    "symbol": "Sola",
+    "name": "Solano",
+    "decimals": 0,
+    "logoURI": "https://raw.githubusercontent.com/Hacker8840/Crypto/main/Solarflare.webp",
+    "tags": [
+      "social-token"
+    ]
+  },
+  {
   "version": {
     "major": 0,
     "minor": 3,
