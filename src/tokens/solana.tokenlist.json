@@ -142,8 +142,7 @@
       "decimals": 9,
       "logoURI": "https://i.imgur.com/HnnxQND.png",
       "tags": [
-        "utility-token",
-        "DAO-fork"
+        "utility-token"
       ],
       "extensions": {
         "discord": "https://discord.com/invite/NtvVPs4WnY",
@@ -253,8 +252,7 @@
       }
     },
     {
-      "chainId": 101,
-      "address": "6TgvYd7eApfcZ7K5Mur7MaUQ2xT7THB4cLHWuMkQdU5Z",
+      "chainId": 101  "address": "6TgvYd7eApfcZ7K5Mur7MaUQ2xT7THB4cLHWuMkQdU5Z",
       "symbol": "OTR",
       "name": "Otter Finance",
       "decimals": 9,
@@ -41529,11 +41527,23 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "BKhnxia237WhJr2dGoBfb7ebREDwV3vFeDT9goidJieJ",
+      "symbol": "SCNS",
+      "name": "SchmidyCoins",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/theNetworkChuck/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
     }
+     
   ],
   "version": {
     "major": 0,
     "minor": 3,
-    "patch": 3
-  }
-}
+    "patch": 3,
+    
+  
