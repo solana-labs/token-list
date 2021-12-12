@@ -42068,14 +42068,17 @@
     },
     {
       "chainId": 101,
-      "address": "9pypdozsBG1KVABkQvHTzgEuAXfSj5cQour9cB73SLLg",
-      "symbol": "$TBS",
-      "name": "Texaglo Blockchain Service",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/Texaglo/-TBS/main/logo.png",
+      "address": "2XSuy8RSESbtYRBbVHxGWuoikn3B6iXKVKzN4i3owTCf",
+      "symbol": "BSAMO",
+      "name": "BUFF SAMO",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2XSuy8RSESbtYRBbVHxGWuoikn3B6iXKVKzN4i3owTCf/logo.png",
       "tags": [
-        "social-token"
-      ]
+        "community-token"
+      ],
+      "extensions": {
+        "website": "http://dualorigin.com/"
+      }
     },
     {
       "chainId": 101,
@@ -42122,17 +42125,17 @@
         "community-token"
       ]
     },
-  },
-  {
-    "chainId": 101,
-    "address": "9uvPWLQuNZtJXbDu877YG3ZXZrgUdhREh2CJk8cWk1Bj",
-    "symbol": "DOTK",
-    "name": "DualOrigin Coin",
-    "decimals": 0,
-    "logoURI": "https://raw.githubusercontent.com/sforlenz/Dual-origin-cypto/main/logo.png",
-    "tags": [
-      "social-token"
-    ]
+    {
+      "chainId": 101,
+      "address": "9uvPWLQuNZtJXbDu877YG3ZXZrgUdhREh2CJk8cWk1Bj",
+      "symbol": "DOTK",
+      "name": "DualOrigin Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/sforlenz/Dual-origin-cypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    }
   ],
   "version": {
     "major": 0,
