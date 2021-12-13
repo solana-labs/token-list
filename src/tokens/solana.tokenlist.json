@@ -3255,6 +3255,18 @@
     },
     {
       "chainId": 101,
+      "address": "2Ete4fPkfRpgEzA8ypZUxVoiRAv8ZdrD9rZ6YA9b9m3j",
+      "symbol": "$SSO",
+      "name": "Solly Solana",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Ete4fPkfRpgEzA8ypZUxVoiRAv8ZdrD9rZ6YA9b9m3j/logooo.png",
+      "extensions": {
+        "discord": "https://discord.gg/sollysolana",
+        "twitter": "https://twitter.com/sollysolana",
+      }
+    },
+    {
+      "chainId": 101,
       "address": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
       "symbol": "BTC",
       "name": "Wrapped Bitcoin (Sollet)",
@@ -36735,18 +36747,6 @@
     },
     {
       "chainId": 101,
-      "address": "2Ete4fPkfRpgEzA8ypZUxVoiRAv8ZdrD9rZ6YA9b9m3j",
-      "symbol": "$SSO",
-      "name": "Solly Solana",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Ete4fPkfRpgEzA8ypZUxVoiRAv8ZdrD9rZ6YA9b9m3j/logooo.png",
-      "extensions": {
-        "discord": "https://discord.gg/sollysolana",
-        "twitter": "https://twitter.com/sollysolana"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "RDRnT9rLYT2QRJpHwtKBAzJTQnPnnzJgCCqfeUP4Sf1",
       "symbol": "RDR",
       "name": "Red Dead Redemption",
@@ -44503,9 +44503,13 @@
       "tags": [
         "meme-token"
       ],
+<<<<<<< HEAD
       "extensions": {
         "website": "https://kininu.com"
       }
+=======
+      "extensions": {}
+>>>>>>> ffd1294f95625ec25640caf94f1278cc8eca3dfc
     }
   ],
   "version": {
