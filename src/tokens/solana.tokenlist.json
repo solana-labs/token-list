@@ -39583,12 +39583,15 @@
       "chainId": 101,
       "address": "5itxjY1UM58Z2y77rkW5cRZt6qx8WGAtg6Q36NszDaXa",
       "symbol": "VORT",
-      "name": "VortX Token",
-      "decimals": 0,
+      "name": "VortX",
+      "decimals": 9,
       "logoURI": "https://github.com/MilesBellum/VortX-Token/blob/main/VortX_Token_logo.png",
       "tags": [
-        "social-token"
-      ]
+        "social-token", "Community-Token"
+      ],
+      "extensions": {
+        "website": "https://vortxtoken.com/"
+      }
     }
   ],
   "version": {
