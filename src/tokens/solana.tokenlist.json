@@ -42832,14 +42832,18 @@
       "address": "9uvPWLQuNZtJXbDu877YG3ZXZrgUdhREh2CJk8cWk1Bj",
       "symbol": "DUAL",
       "name": "Dual Origin Coin",
-      "decimals": 0,
+      "decimals": 5,
       "logoURI": "https://raw.githubusercontent.com/sforlenz/Dual-origin-cypto/main/logo.png",
       "tags": [
-        "social-token"
-      ]
+        "tech",
+        "utility-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://www.dualorigin.com"
+      }
     }
   ],
-
   "version": {
     "major": 0,
     "minor": 3,
