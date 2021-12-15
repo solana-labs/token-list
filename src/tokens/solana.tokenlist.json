@@ -21845,10 +21845,10 @@
       ],
       "extensions": {
         "coingeckoId": "samusky-token",
-	"coinmarketcap" : "https://coinmarketcap.com/currencies/samusky/",
-	"serumV3Usdc" : "7PX2k66ecaUJHJweNbdCocR4kvPotvDn2FPu69svCsnu",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/samusky/",
+        "discord": "https://discord.gg/samuskyio",
         "github": "https://github.com/samuskyio",
-	"discord": "https://discord.gg/samuskyio",
+        "serumV3Usdc": "7PX2k66ecaUJHJweNbdCocR4kvPotvDn2FPu69svCsnu",
         "telegram": "https://t.me/samuskyio",
         "twitter": "https://twitter.com/samuskyio",
         "website": "https://samusky.io"
@@ -28376,12 +28376,12 @@
         "community-token"
       ],
       "extensions": {
+        "coingeckoId": "solar",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/solardex/",
+        "serumV3Usdc": "BHfFJM36MirbBtLCcnZokwRvxUPxk7Ez6EAT6k44q6Go",
         "telegram": "https://t.me/solardexofficialchat",
         "twitter": "https://twitter.com/solar_dex",
-        "website": "https://solardex.finance/",
-		"serumV3Usdc" :  "BHfFJM36MirbBtLCcnZokwRvxUPxk7Ez6EAT6k44q6Go",
-		"coingeckoId" :  "solar",
-		"coinmarketcap" :  "https://coinmarketcap.com/currencies/solardex/"
+        "website": "https://solardex.finance/"
       }
     },
     {
@@ -40191,8 +40191,8 @@
       ],
       "extensions": {
         "discord": "https://discord.gg/tzQuHSzn",
-        "website": "https://banana.lamhng.com",
-        "twitter": "https://twitter.com/bananatokensol"
+        "twitter": "https://twitter.com/bananatokensol",
+        "website": "https://banana.lamhng.com"
       }
     },
     {
@@ -48494,6 +48494,85 @@
       "extensions": {
         "twitter": "https://twitter.com/blockmectechno1"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "EudmQA7EZLicfxomqHKjj4yEtM1HfMRXb7eik1RByUAq",
+      "symbol": "LOOTKEY",
+      "name": "Loot Key",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EudmQA7EZLicfxomqHKjj4yEtM1HfMRXb7eik1RByUAq/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "8F2AE5AythfwBt864XGExVBiTn7THD9iSWcUP61vjkM3",
+      "symbol": "UNCR",
+      "name": "UniCOINs",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/FearfulSquirrel/unicoin/main/Marta'sUniCOIN.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "6156vEwBw11hGF6rkr3um5RPNWfBCYBFH7XcbEF47erH",
+      "symbol": "STEPN",
+      "name": "STEPN - Run To Earn",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6156vEwBw11hGF6rkr3um5RPNWfBCYBFH7XcbEF47erH/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/Stepnofficial",
+        "website": "https://stepn.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6kerT9GaHmCj4MkVzo4mqBaxmwYDBHY3DddGFaLVuNyx",
+      "symbol": "MLAND",
+      "name": "Mineland Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6kerT9GaHmCj4MkVzo4mqBaxmwYDBHY3DddGFaLVuNyx/logo.png",
+      "tags": [
+        "social-token",
+        "mineland",
+        "ml",
+        "mlt",
+        "mland"
+      ],
+      "extensions": {
+        "website": "https://mineland.net"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7RY638ykd3eU2uxrSe16gjPGQ2u6kyohEoCyFxwWHweN",
+      "symbol": "MKITSOL",
+      "name": "MkITSol COIN",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/mkitsol/crypto/main/Logo.png",
+      "tags": [
+        "social-token",
+        "Community-Token",
+        "Utility-Token",
+        "fan-token",
+        "tech-token",
+        "currency-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "Dv2yLQoTpLx4arCZGXiVvp7wyYURsNeoQzUifd2gTKQD",
+      "symbol": "XAMO",
+      "name": "XAmore",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/aminamor/logo/main/CryLogo.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
