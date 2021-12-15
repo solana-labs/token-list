@@ -16873,8 +16873,12 @@
       "symbol": "SYP",
       "name": "Sypool",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FnKE9n6aGjQoNWRBZXy4RW6LZVao7qwBonUbiD7edUmZ/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/b0e47e39f84cffb655f406eb569c57a88b5211cc/assets/mainnet/FnKE9n6aGjQoNWRBZXy4RW6LZVao7qwBonUbiD7edUmZ/logo.png",
+      "tags": [
+        "platform"
+      ],
       "extensions": {
+        "coingeckoId": "sypool",
         "website": "https://www.sypool.io/"
       }
     },
@@ -48475,6 +48479,17 @@
       "extensions": {
         "website": "https://domtoken.net"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "71SNm8WZPKV6FpKshwQtpNWmA4Qvs5bBhJycwLLfcRuz",
+      "symbol": "SCRC",
+      "name": "SCARCE",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/scarce-sol/scarce/main/scarce.png",
+      "tags": [
+        "social-token"
+      ]
     },
     {
       "chainId": 101,
