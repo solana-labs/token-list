@@ -21845,10 +21845,10 @@
       ],
       "extensions": {
         "coingeckoId": "samusky-token",
-	"coinmarketcap" : "https://coinmarketcap.com/currencies/samusky/",
-	"serumV3Usdc" : "7PX2k66ecaUJHJweNbdCocR4kvPotvDn2FPu69svCsnu",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/samusky/",
+        "discord": "https://discord.gg/samuskyio",
         "github": "https://github.com/samuskyio",
-	"discord": "https://discord.gg/samuskyio",
+        "serumV3Usdc": "7PX2k66ecaUJHJweNbdCocR4kvPotvDn2FPu69svCsnu",
         "telegram": "https://t.me/samuskyio",
         "twitter": "https://twitter.com/samuskyio",
         "website": "https://samusky.io"
@@ -28376,12 +28376,12 @@
         "community-token"
       ],
       "extensions": {
+        "coingeckoId": "solar",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/solardex/",
+        "serumV3Usdc": "BHfFJM36MirbBtLCcnZokwRvxUPxk7Ez6EAT6k44q6Go",
         "telegram": "https://t.me/solardexofficialchat",
         "twitter": "https://twitter.com/solar_dex",
-        "website": "https://solardex.finance/",
-		"serumV3Usdc" :  "BHfFJM36MirbBtLCcnZokwRvxUPxk7Ez6EAT6k44q6Go",
-		"coingeckoId" :  "solar",
-		"coinmarketcap" :  "https://coinmarketcap.com/currencies/solardex/"
+        "website": "https://solardex.finance/"
       }
     },
     {
@@ -40191,8 +40191,8 @@
       ],
       "extensions": {
         "discord": "https://discord.gg/tzQuHSzn",
-        "website": "https://banana.lamhng.com",
-        "twitter": "https://twitter.com/bananatokensol"
+        "twitter": "https://twitter.com/bananatokensol",
+        "website": "https://banana.lamhng.com"
       }
     },
     {
@@ -48494,6 +48494,14 @@
       "extensions": {
         "twitter": "https://twitter.com/blockmectechno1"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "EudmQA7EZLicfxomqHKjj4yEtM1HfMRXb7eik1RByUAq",
+      "symbol": "LOOTKEY",
+      "name": "Loot Key",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EudmQA7EZLicfxomqHKjj4yEtM1HfMRXb7eik1RByUAq/logo.png"
     }
   ],
   "version": {
