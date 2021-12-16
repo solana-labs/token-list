@@ -48610,12 +48610,25 @@
       ],
       "extensions": {
         "website": "https://orkacoin.com"
+      },
+      {
+        "chainId": 101,
+        "address": "Dw31GE3Ba4WS9kyy64SHMXSx8GoK2ZfkBks13tGtvjT1",
+        "symbol": "FRSH",
+        "name": "Fresh Token by arcavacatalab",
+        "decimals": 4,
+        "logoURI": "https://github.com/arcavacatalab/FreshToken/blob/main/fresh.png",
+        "tags": [
+          "social-token"
+        ],
+        "extensions": {
+          "website": "https://github.com/arcavacatalab"
+        }
       }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
   }
-}
