@@ -21845,10 +21845,10 @@
       ],
       "extensions": {
         "coingeckoId": "samusky-token",
-	"coinmarketcap" : "https://coinmarketcap.com/currencies/samusky/",
-	"serumV3Usdc" : "7PX2k66ecaUJHJweNbdCocR4kvPotvDn2FPu69svCsnu",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/samusky/",
+        "serumV3Usdc": "7PX2k66ecaUJHJweNbdCocR4kvPotvDn2FPu69svCsnu",
         "github": "https://github.com/samuskyio",
-	"discord": "https://discord.gg/samuskyio",
+        "discord": "https://discord.gg/samuskyio",
         "telegram": "https://t.me/samuskyio",
         "twitter": "https://twitter.com/samuskyio",
         "website": "https://samusky.io"
@@ -28379,9 +28379,9 @@
         "telegram": "https://t.me/solardexofficialchat",
         "twitter": "https://twitter.com/solar_dex",
         "website": "https://solardex.finance/",
-		"serumV3Usdc" :  "BHfFJM36MirbBtLCcnZokwRvxUPxk7Ez6EAT6k44q6Go",
-		"coingeckoId" :  "solar",
-		"coinmarketcap" :  "https://coinmarketcap.com/currencies/solardex/"
+        "serumV3Usdc": "BHfFJM36MirbBtLCcnZokwRvxUPxk7Ez6EAT6k44q6Go",
+        "coingeckoId": "solar",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/solardex/"
       }
     },
     {
@@ -48494,11 +48494,25 @@
       "extensions": {
         "twitter": "https://twitter.com/blockmectechno1"
       }
+      {
+        "chainId": 101,
+        "address": "H4LV58aDdSfTaamEsg4wpUSRprNGY3soj4hDwhvv3WnZ",
+        "symbol": "FNL",
+        "name": "Funnel",
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/FunnelAdmin/Funnel/Logo/Logo%20PNG.png",
+        "tags": [
+          "utility-token",
+          "fnl"
+        ],
+        "extensions": {
+          "website": "https://joinfunnel.io"
+        }
+      }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
   }
-}
