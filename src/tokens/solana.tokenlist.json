@@ -45538,14 +45538,20 @@
     },
     {
       "chainId": 101,
-      "address": "BWeWGe646b92CUerrphZnFNRfqqAd33WdQSerS5hZ4eB",
+      "address": "5aFQyKyuzJnLmiE3yvHm3yb5ELBoz9Un9ghUkpkAARWY",
       "symbol": "CA93",
       "name": "Cambrian Alumni 93",
-      "decimals": 0,
-      "logoURI": "https://github.com/rellikeno/CA93_Coin/blob/main/CA93_Coin.png",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/rellikeno/CA93_Coin/main/CA93_Coin.png",
       "tags": [
-        "social-token"
-      ]
+        "social-token",        
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.cambrianalumni93.org/",
+        "youtube": "https://www.youtube.com/channel/UCPgDNcJSX2Ix629azkojIUA",
+        "facebook": "https://m.facebook.com/PWCCA93/"
+      }
     },
     {
       "chainId": 101,
