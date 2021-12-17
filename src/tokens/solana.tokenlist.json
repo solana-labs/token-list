@@ -342,10 +342,10 @@
         "meme-token"
       ],
       "extensions": {
-        "serumV3Usdc": "21eq7jsx59jPFo2gt4npreKu1voURzcjyPniBdgupuQC",
-        "website": "https://www.raincsol.com/",
         "discord": "https://discord.io/rainc",
-        "twitter": "https://twitter.com/raincproject"
+        "serumV3Usdc": "21eq7jsx59jPFo2gt4npreKu1voURzcjyPniBdgupuQC",
+        "twitter": "https://twitter.com/raincproject",
+        "website": "https://www.raincsol.com/"
       }
     },
     {
@@ -50877,6 +50877,17 @@
       "name": "Floody Token",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/Glitchm/floodytoken/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "BhD4xWQEyMCmKr88vGHjHoUwwo985QGkwWiQm22Uek9S",
+      "symbol": "SHRTB",
+      "name": "Schrute Bucks",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/haircutfish/crypto/main/schrutebucks.png",
       "tags": [
         "social-token"
       ]
