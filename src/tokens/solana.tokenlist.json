@@ -51523,6 +51523,29 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "9LzCMqDgTKYz9Drzqnpgee3SGa89up3a247ypMj2xrqM",
+      "symbol": "AUDIO",
+      "name": "Audius (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CYzPVv1zB9RH6hRWRKprFoepdD8Y7Q5HefCqrybvetja/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
+        "assetContract": "https://etherscan.io/address/0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18b2214aff97000d974cf647e7c347e8fa585",
+        "coingeckoId": "audius",
+        "discord": "https://discord.gg/audius",
+        "twitter": "https://twitter.com/AudiusProject",
+        "instagram": "https://www.instagram.com/audiusmusic",
+        "reddit": "https://www.reddit.com/r/audius",
+        "website": "https://audius.org"
+      }
     }
   ],
   "version": {
