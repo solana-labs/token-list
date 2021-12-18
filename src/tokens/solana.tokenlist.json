@@ -250,7 +250,7 @@
       "symbol": "KITTY",
       "name": "KITTY SOLANA",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6JdcMdhqgCtcP4U9tieRqmKLhPLxRMLC67QfmdXAJBvZ.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6JdcMdhqgCtcP4U9tieRqmKLhPLxRMLC67QfmdXAJBvZ/logo.png",
       "tags": [
         "meme-token"
       ],
@@ -352,8 +352,14 @@
       "name": "Rainc",
       "decimals": 4,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EH49ziLeKhJtzUzdys5238pSKpvrgJvmi3EStrZ9QaY7/logo.png",
+      "tags": [
+        "meme-token"
+      ],
       "extensions": {
-        "twitter": "https://twitter.com/rainc_1"
+        "discord": "https://discord.io/rainc",
+        "serumV3Usdc": "21eq7jsx59jPFo2gt4npreKu1voURzcjyPniBdgupuQC",
+        "twitter": "https://twitter.com/raincproject",
+        "website": "https://www.raincsol.com/"
       }
     },
     {
@@ -17032,7 +17038,7 @@
       "symbol": "BST",
       "name": "Balisari",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EYDEQW4xQzLqHcFwHTgGvpdjsa5EFn74KzuqLX5emjD2.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EYDEQW4xQzLqHcFwHTgGvpdjsa5EFn74KzuqLX5emjD2/logo.png",
       "tags": [
         "social-token"
       ],
@@ -26262,11 +26268,11 @@
     },
     {
       "chainId": 101,
-      "address": "JFgnsmpFP3e8vTtWEBsKonPaCsb3cmdyhHwhN7HTAGW",
+      "address": "3aAYh35n81F8HPG2QBdE48aYdzGFj2fsLccg91X4AcRc",
       "symbol": "MAYA",
       "name": "Maya",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/JFgnsmpFP3e8vTtWEBsKonPaCsb3cmdyhHwhN7HTAGW/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3aAYh35n81F8HPG2QBdE48aYdzGFj2fsLccg91X4AcRc/logo.png",
       "tags": [
         "solana-token",
         "utility-token",
@@ -45556,11 +45562,21 @@
       "address": "BWeWGe646b92CUerrphZnFNRfqqAd33WdQSerS5hZ4eB",
       "symbol": "CA93",
       "name": "Cambrian Alumni 93",
-      "decimals": 0,
-      "logoURI": "https://github.com/rellikeno/CA93_Coin/blob/main/CA93_Coin.png",
+      "decimals": 10,
+      "logoURI": "https://raw.githubusercontent.com/rellikeno/CA93_Coin/main/CA93_Coin.png",
       "tags": [
-        "social-token"
-      ]
+        "social-token",
+        "community-token",
+        "utility-token",
+        "fan-token",
+        "tech-token",
+        "currency-token"
+      ],
+      "extensions": {
+        "facebook": "https://m.facebook.com/PWCCA93/",
+        "website": "https://www.cambrianalumni93.org",
+        "youtube": "https://www.youtube.com/channel/UCPgDNcJSX2Ix629azkojIUA"
+      }
     },
     {
       "chainId": 101,
@@ -46591,7 +46607,7 @@
       "symbol": "MARIER",
       "name": "Marier Coin",
       "decimals": 0,
-      "logoURI": "https://github.com/jonshadow12/twelvecrypto/blob/main/12logo.png",
+      "logoURI": "https://raw.githubusercontent.com/jonshadow12/twelvecrypto/main/12logo.png",
       "tags": [
         "social-token"
       ]
@@ -48000,9 +48016,9 @@
       "chainId": 101,
       "address": "5QW1HrbmwcYq36XS4VFEzjAezXBqqXBmBYDKgcdDbwu2",
       "symbol": "WvzG",
-      "name": "Wilhelm von zur Gathen 1880 Coin",
+      "name": "Wilhelm von zur Gathen 1880",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/wvzg1880/coin/main/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/wvzg1880/coin/main/1880coin.png",
       "tags": [
         "social-token"
       ],
@@ -48087,8 +48103,7 @@
         "utility-token"
       ],
       "extensions": {
-        "telegram": "https://t.me/dragonwarann",
-        "website": "https://dragonwar.io"
+        "telegram": "https://t.me/dragonwarann"
       }
     },
     {
@@ -49393,14 +49408,6 @@
     },
     {
       "chainId": 101,
-      "address": "13cbpw6uN6wXVaQk6ngedAErceLLhyo1mgzoDpoUgCJE",
-      "symbol": "SOLNFTEvent.com",
-      "name": "SOLNFTEvent.com",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/13cbpw6uN6wXVaQk6ngedAErceLLhyo1mgzoDpoUgCJE/logo.png"
-    },
-    {
-      "chainId": 101,
       "address": "5Zg5Uxu8XfNfcPwdLv6aZRjW4aLSrYZ3SZDeweuzeS4b",
       "symbol": "PINSOL",
       "name": "PinaSolana",
@@ -49483,7 +49490,7 @@
       "symbol": "DEKA",
       "name": "Dekadus",
       "decimals": 4,
-      "logoURI": "https://github.com/JayPi89/crypto/blob/main/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/JayPi89/crypto/main/logo.png",
       "tags": [
         "social-token"
       ]
@@ -50513,6 +50520,1640 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "EkbaCuCgwwt19zrL5LKupCy3XaoFBFbB9zuRrWEXhR6N",
+      "symbol": "DUK",
+      "name": "DooksTesting",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EkbaCuCgwwt19zrL5LKupCy3XaoFBFbB9zuRrWEXhR6N/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "description": "The goal is simple, to spread love. How we spread it.. well that's where our community comes in.",
+        "website": "https://sighducks.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9Wyt5txGT5Npd5McH1wTVRBeZiWXeQfrzqHCnMprRWD",
+      "symbol": "SHARKY",
+      "name": "SharkyCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/SharkyCoin/Sharky/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "7r9iDa6YMkxPsz5BXSKQo2zGiGoGZbLGWUL84AUwBQMd",
+      "symbol": "HZI",
+      "name": "Heinzi",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/MrWaffelXD/heinzi/main/Heinzi.png",
+      "tags": [
+        "social-token"
+      ],
+      "extensions": {
+        "linkedin": "https://www.linkedin.com/in/jonas-heinze-347879195/",
+        "website": "https://heinzi.jonas-heinze.de"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "793ApJzBMCdQrTiRS5eL3GokVzUr9U3YRLp62CrRJaCJ",
+      "symbol": "DSL",
+      "name": "DeSol Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/793ApJzBMCdQrTiRS5eL3GokVzUr9U3YRLp62CrRJaCJ/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "JAYDueSTMuhLYZEHZVXJrbSaYtgMfg78zGMpeiPRhxXA",
+      "symbol": "ELXR",
+      "name": "Elixir",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/CryptoMoon8/token-list/main/assets/mainnet/JAYDueSTMuhLYZEHZVXJrbSaYtgMfg78zGMpeiPRhxXA/symbol.png",
+      "tags": [
+        "general-token",
+        "game-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3ty9oaBfP2LU5BwaHZng1oVCtmLwvn4qWu6RM25mAkcX",
+      "symbol": "CAST",
+      "name": "Caviar Store Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/rubensilva09/cscoin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4GEcMq4yZM3YvYNJSwkfhtwCZrEt8gtrJKQ3nCGLFD5z",
+      "symbol": "SLOTH",
+      "name": "Sloth Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4GEcMq4yZM3YvYNJSwkfhtwCZrEt8gtrJKQ3nCGLFD5z/logo.png",
+      "tags": [
+        "social-token",
+        "game-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "7PWvDdwAieKUSfaDVhF8VD2RyLNk1Na12XoxN7Semegk",
+      "symbol": "TERM",
+      "name": "Termoenergetica Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/mihnea2kx/crypto-termo/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5hhA9PEToRcQtvSvFuvSQC15kkxHJoqG2yF2SSCs4znM",
+      "symbol": "LITZ",
+      "name": "Litz Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/theNetworkChuck/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "59vMocrR3QWa6cLwQBiiYhFdHfDFRodLuUkYkNyyhBJ4",
+      "symbol": "INRC",
+      "name": "INR Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/gsingh72/coin/main/inr-coin-inrc-logo.png",
+      "tags": [
+        "social-token",
+        "general-token",
+        "stable-coin",
+        "stablecoin"
+      ],
+      "extensions": {
+        "description": "Indian Rupee Coin, Stable Coin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5vUBtmmHjSfpY1h24XhzEjRKjDyK5jNL9gT2BfM3wcnb",
+      "symbol": "gFIDA",
+      "name": "Bonfida Governance Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5vUBtmmHjSfpY1h24XhzEjRKjDyK5jNL9gT2BfM3wcnb/logo.svg",
+      "tags": [
+        "governance-token"
+      ],
+      "extensions": {
+        "website": "https://bonfida.org/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6wzzefNX8BhyQumboz4y12X1Ys3RwpLdsc7tkvDzMaNk",
+      "symbol": "QUOKKA",
+      "name": "Quokka Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6wzzefNX8BhyQumboz4y12X1Ys3RwpLdsc7tkvDzMaNk/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/snft2022",
+        "website": "https://solana-nft.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "D9VLqjZqjy5MNPSzSMnoFmUEjmTHmPEsvb3cfzAppiHU",
+      "symbol": "GHFT",
+      "name": "Gherghina Family Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/mihnea2kx/crypto-family/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "2GuQGvfvS7rNiYpysU4iDHbB9nF4aSjJ5c6TL3ALEgjv",
+      "symbol": "MAP",
+      "name": "Thirdmap",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solanadevv/token-list/157bf21ad4a5ecdc6103f139c21490060225fd1a/assets/mainnet/2GuQGvfvS7rNiYpysU4iDHbB9nF4aSjJ5c6TL3ALEgjv/logo.svg",
+      "tags": [
+        "utility-token",
+        "nft"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "CtGhNVXnG28qMAHHRbU5KcCPRmN2DeGKAtgb5e8spPk2",
+      "symbol": "FOCK",
+      "name": "Fockn Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CtGhNVXnG28qMAHHRbU5KcCPRmN2DeGKAtgb5e8spPk2/logo.png",
+      "tags": [
+        "social-token",
+        "FOCK"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GUAXo4yYqY335t9esybM4wDPcDeAc7m2mW2xQ2svXzy1",
+      "symbol": "SOUTHPARK",
+      "name": "South Park Memes",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GUAXo4yYqY335t9esybM4wDPcDeAc7m2mW2xQ2svXzy1/logo.png",
+      "tags": [
+        "meme-token",
+        "community-token",
+        "southpark"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/southparknfts",
+        "website": "https://www.southpark.space"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GCPHeGhYawX3hUEx2Zxezp3QyLvDCXuC1RuQJYtjh2bp",
+      "symbol": "DUNK",
+      "name": "SolJordan",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GCPHeGhYawX3hUEx2Zxezp3QyLvDCXuC1RuQJYtjh2bp/logo.png",
+      "tags": [
+        "NFT",
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/SolJordanLabs"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2aUguEhEae4SMTLKBYtf3GLzoSQaASwVnZMgE1vC4cPZ",
+      "symbol": "FBC",
+      "name": "Freebies Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/pozitivamatt/crypto/main/cropped-freebiesfavico-NEW-192x192.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "29m33R3FKwdFTLTQUneh8GM2KQCpg3wYViTBwZ7ssJ7Z",
+      "symbol": "SYD",
+      "name": "Sydney",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ostersepp/coins/main/sydney.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "E2KVvQKqnymv6dpbML59TDQEuy7GbDKCagpGQuCDYNoJ",
+      "symbol": "JJC",
+      "name": "JJC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E2KVvQKqnymv6dpbML59TDQEuy7GbDKCagpGQuCDYNoJ/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "HAErKxnzi2KvbpgDZ4m7D7Drv7nu1kNRtMSLEUSJLVfX",
+      "symbol": "BELO",
+      "name": "Beloane",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/beloane/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9niH1tb31znADrhJJTUVBjxN9sf43d2C9W6pMCoxWyat",
+      "symbol": "JHX",
+      "name": "Jimmy Hendrix",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/humanpong/avatars/master/jhx.jpeg",
+      "tags": [
+        "utility-token",
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "AuJzg9V1XwCjFQvBFVzt1rtpxbCf766KSa4YyfHkBHz7",
+      "symbol": "CVC",
+      "name": "CoViD Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/AdrianOverdijk/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "EvB2m5VFGoAsVHdCwif1nKiuUwHt8zWdrrtWtJAYxpBt",
+      "symbol": "NENE",
+      "name": "Nene Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/MatsWeckhorst/crypto/main/nenelogo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "RACE5fnTKB9obGtCusArTQ6hhdNXAtf3HarvJM17rxJ",
+      "symbol": "RACE",
+      "name": "RAce Game",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/NutsPokerTeam/token-list/main/assets/mainnet/RACE5fnTKB9obGtCusArTQ6hhdNXAtf3HarvJM17rxJ/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.racepoker.app/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "F3DDbJQHiDkmgUt33thXPRPp8NmQ3g2AuaqPiiuRGLjz",
+      "symbol": "DG",
+      "name": "DG Coin",
+      "decimals": 9,
+      "logoURI": "https://github.dev/dangilroy/token-list/blob/ec38aedc5e0c587f7b532717df492f2d1207c77b/assets/mainnet/F3DDbJQHiDkmgUt33thXPRPp8NmQ3g2AuaqPiiuRGLjz/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4a7GrANFXmUmheGpQAMcwaZnHr39zEwc6joUYHgDpPcF",
+      "symbol": "VIRGO",
+      "name": "Virgo Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/virgo-coin/virgo-coin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FskUXF4aK3irwhueuv4psgqJE7PaZ3cM3gZb4rjTYPW8",
+      "symbol": "SSND",
+      "name": "SSND Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/TacoNite99/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4pnTkobcmPYTZatmtmTJq3WoqNb3EfR8r8PJLnZYQctU",
+      "symbol": "POO",
+      "name": "Chihuahua Poo",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/techroomjohn/chipoo/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FB5aw2j2qPZQiVwZgXFMjZFQrFREpHfy1mXcLGLyHXTk",
+      "symbol": "LRFT",
+      "name": "LRFTech Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/lrftech/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "i3WkGyyxhsorMmpxRbe7Z4c1GGHyXWJN6u3RC9YahHL",
+      "symbol": "FLDY",
+      "name": "Floody Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Glitchm/floodytoken/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "BhD4xWQEyMCmKr88vGHjHoUwwo985QGkwWiQm22Uek9S",
+      "symbol": "SHRTB",
+      "name": "Schrute Bucks",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/haircutfish/crypto/main/schrutebucks.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "79AHd9CjwuWYfMXJ4W6SHAVN4gehmHey4VhA1JQJAR8y",
+      "symbol": "VALY",
+      "name": "Valley View Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ds2600/crypto_valy/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5J1p27QBPS6pQK8mijYv7HfhhvZnCce72xEUMw2Zm7Jv",
+      "symbol": "AXSORG",
+      "name": "Axie Scholar Dot Org",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/geovanigoncalves/goncalves/master/Untitled.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8qNxN7oC2W1Bxq37Bk4uq2ryCLix8jeWty9ZdCMwUAvk",
+      "symbol": "2KX",
+      "name": "2kx Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/mihnea2kx/crypto-2kx/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4fqGB44HMXtPbxKebXu2PbR2MoSv2f91fqEBkEHG4i5p",
+      "symbol": "LORMU",
+      "name": "LoreMure",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/loremure/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "G6giteuUaL63u6jaBr8MNfNvtzUdyud16eUT68sce6AA",
+      "symbol": "BVC",
+      "name": "BeaverCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/bobbybeaver/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "ETDLKXFxyJsXMnANdfBUGBAqG4PRK9guqdiBhFVLhHGA",
+      "symbol": "NFTFUNG",
+      "name": "SOLKITTY NFT Fun Girl",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ETDLKXFxyJsXMnANdfBUGBAqG4PRK9guqdiBhFVLhHGA/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solkitty.io/nft/fun-girl"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DCp9Mef5CAbRTuSB4kf1wzemk87dRsdkjhypLBoQmJCK",
+      "symbol": "SLB",
+      "name": "SALIBACOIN",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Krissal1234/Crypto/main/received_358990772277187_217x218.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DJQBoQPPXC2SMvF1t9Kb2YmFEEha7PBSQDgU2LwCRSz3",
+      "symbol": "SOST",
+      "name": "Solstallion Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/Osawejustice/solstallions@main/solstallion%20logo.jpeg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/xRKGExcdJu",
+        "telegram": "https://t.me/solstallion",
+        "twitter": "https://twitter.com/solstallion",
+        "website": "https://solstallion.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BUKPWSqsKcbQLwGBPLpihKTy56nqWJEetDAJMtk6tRzf",
+      "symbol": "DEX",
+      "name": "DEX",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/sciencemonk/DEX/main/DEX.png",
+      "tags": [
+        "utility-token",
+        "education-token",
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DbnTECYvQm1ZKssruNYLQLs8qRu4rDvMmvQHoemznkmW",
+      "symbol": "RKRK",
+      "name": "RaivoKoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/raivolalala/raivocoin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GvmkvNUQPvHR7J68e1YuyabSLzuMCE4GPTuAUcwL3V6Z",
+      "symbol": "BTZR",
+      "name": "BitZera",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/grglzrv/bitzera/main/logo.png",
+      "tags": [
+        "social-token",
+        "community-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "description": "BitZera - Decentralized Cryptocurrency Token going to be used in the new generation of internet platforms.",
+        "discord": "https://discord.gg/bWbCnQfvEW"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7gGWV8z5sowGG8RvZvc4bbSDz1jnx5AucUkpueVLhsqx",
+      "symbol": "LEKE",
+      "name": "Lefche Kefche",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/paranoya1/chunch_coin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FrREY3stxwMyuqWtS8c7u3j2n2353EVQW5rp1hRnycUc",
+      "symbol": "ERRT",
+      "name": "404 ET",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/3Banan3/tokenas/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8JjBJdV73zPPmZvkgC91ni8RsbXWTkhpuSdxeZgaw6hD",
+      "symbol": "BABYTIGER",
+      "name": "Baby Tiger",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8JjBJdV73zPPmZvkgC91ni8RsbXWTkhpuSdxeZgaw6hD/logo.png",
+      "tags": [
+        "meme-token",
+        "community-token",
+        "babytiger"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/babytigergold",
+        "website": "https://www.babytiger.gold"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FCuFJFTx6cvuK9CV2X8UciVyR7KP5HWBDuwB4WErWrAX",
+      "symbol": "PXR",
+      "name": "Precious",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FCuFJFTx6cvuK9CV2X8UciVyR7KP5HWBDuwB4WErWrAX/logo.png",
+      "tags": [
+        "nft-token",
+        "Precious"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "2eCU7FUA6q5UZTPvCLuw9bLq5T9vy5QJYaxSS9u3AABs",
+      "symbol": "Lily",
+      "name": "LilyCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/VladSabra/Crypto/main/lily22-min%20(1).png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9uvPWLQuNZtJXbDu877YG3ZXZrgUdhREh2CJk8cWk1Bj",
+      "symbol": "DUAL",
+      "name": "Dual Origin Coin",
+      "decimals": 7,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9uvPWLQuNZtJXbDu877YG3ZXZrgUdhREh2CJk8cWk1Bj/logo.png",
+      "tags": [
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4BoeDsCbJ9jwoukFtczsXzfevXWZ58RiwXL2ykvVrLvy",
+      "symbol": "BAMBOO",
+      "name": "BAMBOO",
+      "decimals": 9,
+      "logoURI": "https://cdn.discordapp.com/attachments/507517222772539392/921458551334010960/2cbf72b5a5509d79f2945157f63f743b_1.jpg"
+    },
+    {
+      "chainId": 101,
+      "address": "EiJb6S5zo9a5Gfbu5PhteHCCxPRUMG7jVt5NiRdVfd1x",
+      "symbol": "UES",
+      "name": "Unreal Bridge",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/UnrealBridge/Unreal-Bridge/main/logo.png",
+      "tags": [
+        "nft-token",
+        "game-token",
+        "metaverse"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "BtK64nGUZxxpeR2HcV51VrUW3LW9KhogfozLzS68HdYL",
+      "symbol": "MSTK",
+      "name": "msris108-token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/msris108/msris108.github.io/master/img/logo.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "2doxC6be1paV35FDHwwHhSKgmghW4EqRzRbGLaZvuj85",
+      "symbol": "O_N_I_O_N",
+      "name": "ONIONTOKEN",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2doxC6be1paV35FDHwwHhSKgmghW4EqRzRbGLaZvuj85/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "e7khjBdGmTPNX6wZ4FjoCW8fzmyTGuX4CRgCuinwwTn",
+      "symbol": "SKY",
+      "name": "Sky Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/nicholhai/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5n7qf5U9FFdirZzSYQqZh9L1YS91hESKSB4fJXj8XEu3",
+      "symbol": "Raymond",
+      "name": "OMR",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/obimark/crypto/main/image.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GRN4AeoF6jut2ofGpgx8AMdPEuSAZDSXiftV8DULnMRK",
+      "symbol": "MED",
+      "name": "Medusa token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Qalander/medusatoken/main/red.png",
+      "tags": [
+        "NFT-token",
+        "community-token",
+        "Game"
+      ],
+      "extensions": {
+        "description": "Medusa token - Decentralized Cryptocurrency Token going to be used along with Medusa, Perseus NFT's and blockchain game.",
+        "discord": "https://discord.gg/bWbCnQfvEW",
+        "telegram": "https://t.me/project_medusa_NFT",
+        "twitter": "https://twitter.com/medusa_token",
+        "website": "https://www.projectmedusa.art/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3G2oiYqzx6r3SAY8zdioQ6v21HvrMJtwGoQ7SywS8AVY",
+      "symbol": "PIXIE",
+      "name": "PIXIEDUST",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3G2oiYqzx6r3SAY8zdioQ6v21HvrMJtwGoQ7SywS8AVY/logo.png",
+      "extensions": {
+        "discord": "https://discord.gg/y8JCHKSxaQ",
+        "twitter": "https://twitter.com/PixieDustToken",
+        "website": "https://pixiedust.network"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "N1CfKy2UEQmvQeQgELMXuHX9KRGQa6ayTrYUSqsL7TG",
+      "symbol": "LMAO",
+      "name": "Solana Alien Business",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/Chiwax/assets/main/logo.png",
+      "tags": [
+        "NFT",
+        "nft-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/HWVM99HhNb",
+        "twitter": "https://twitter.com/SolanaAB"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "JE1TvFnYcyCFqMDqCokDVX1mtyD9oeB8KGB68EEm3mG2",
+      "symbol": "R1SK",
+      "name": "R1skCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/i0r0me/crypto/main/logo.png",
+      "tags": [
+        "Multipurpose-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "6YYzxoYNjjCPUyH6tb2tZJvMP3a2BWMrnocpeDDXS2Qu",
+      "symbol": "DOJE",
+      "name": "DeeOOgee",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/deeoogee/crypto/main/cryptologo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "Cb7Wf27erQQAyFcE33cQ3pgFtAqeXAiNe75Tev8mckY7",
+      "symbol": "NIKO",
+      "name": "NICOIN",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/iTzNikolovich/crypto/main/NICOIN-FINAL.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3VNoGbvXWXMWjdwM2zTNv731dx2pdxvRWRE9gEDWKWW9",
+      "symbol": "KFC",
+      "name": "Kentucky Fried Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/borisgrigorov/kfc/master/kfc.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "D8f4ioijfrxec3exkJvt6GBZJmHcT38TVDamwzzCjEsx",
+      "symbol": "MSPIR",
+      "name": "MSProgramming",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/msprogramming/mspcrypto/cf2699102283d2b7fce30acaf044be61ca6fac59/001Logo.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3dsqqQcFmW4YUR6C7MQmy25czHNebQt91PWhk2NkDDg3",
+      "symbol": "LST",
+      "name": "LUSTKOIN",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/itnowpb/lust/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3xDhNZt1aTEuwgeLrxmcqbkZBNyDgXoWVzJqUFVtcP2S",
+      "symbol": "RND",
+      "name": "Random Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/dandanmygithub/crypto/main/random.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "B1Yqn992SNem2yeEiSKsnWELCq3J8JcprZyf17E3Yfp2",
+      "symbol": "DMAC",
+      "name": "DillyMacko",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Dmac500/Crypto-/main/pic.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "EP6M2Wt6NNTDHrSS1mQAjvauWFBZGRuaQ3H65nxrv7x5",
+      "symbol": "JEFF",
+      "name": "Jeff Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/thevaliantviking/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "7T5yrjKEwi1zot4iu4bqzB5wKArHbZJDU99nWBh5T9hN",
+      "symbol": "B1SH",
+      "name": "B1tch Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Fnineone/crypto/main/logo.png",
+      "tags": [
+        "social-token",
+        "fantasy-football"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "7o9SZBfN4Pka4Kbff6ndyr4fWEQ7vktRs7tiZFMG9KTE",
+      "symbol": "BLLB",
+      "name": "Bilal Bayrak Test Coin",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7o9SZBfN4Pka4Kbff6ndyr4fWEQ7vktRs7tiZFMG9KTE/logo.png",
+      "tags": [
+        "test-token"
+      ],
+      "extensions": {
+        "website": "https://bilalbayrak.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8QdWAqc2pQwJPP4EvdJGUv7fUCZEYn5JvF24NcpRAR8H",
+      "symbol": "VOS",
+      "name": "VossenCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/CubeQuence/solana/main/vos.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "Dv7kpiZDrdecYuhsu2oJpBTzxPBmu2w8wmBwwhKP6svD",
+      "symbol": "BUTZI",
+      "name": "Butzi Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dv7kpiZDrdecYuhsu2oJpBTzxPBmu2w8wmBwwhKP6svD/logo.jpg",
+      "tags": [
+        "social-token",
+        "BUTZI"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "ApToJQDQ9awk5jaUhJd6ZUQ8f5mbwVtkhmHSoJojkpxc",
+      "symbol": "PAC",
+      "name": "Pingüino Anarquista Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/martinvox/mvox-solana-token/main/logo.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "HtwpV19fNwDLzXCA4kbQzmoeVrHdJauw4yt6zAxptnuB",
+      "symbol": "KETO",
+      "name": "KetoCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/K5rlx/Crypto-Keto-Coin/main/Logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GhkR4r9KknG1VG6pQQckQ1HwgnjmnZHdZwY4kHcxyVwg",
+      "symbol": "BEP",
+      "name": "BEP Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/BlakePerrin13/Crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "7o1F8Rubumyz9hghzLWuLtmJVTHPL5nTPj3n51QzeTFL",
+      "symbol": "EMAIL",
+      "name": "Email 5",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7o1F8Rubumyz9hghzLWuLtmJVTHPL5nTPj3n51QzeTFL/logo.svg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "AUL7w7AwMEWRemqUP2Z14aEkPPAT8NDpnRoAPCUS2k5Q",
+      "symbol": "IOU",
+      "name": "IOweYou",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/xMaxix/Crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "7H5nr8n3xPbgUYXzx1ykZJoyppVcV4E4KN8mCaCrfvSd",
+      "symbol": "SWA",
+      "name": "Swami",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Glitch3086/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "CeVHjx6EmDSGyet2TrRL3Wo4iSah2aQcstSmeoLLfrno",
+      "symbol": "SIML",
+      "name": "Simoleon",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/alex-dp/simoleon/main/simoleon.svg",
+      "tags": [
+        "utility-token",
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FQnWLBsBDPXP9AdAUyLkyhh8e29avRaSGS76w3ubnc6n",
+      "symbol": "zsyc",
+      "name": "zsycoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/zsy450/zsycoin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "EF7mcTH7ZQXzHmdX3QEsumc8pdi2EzAcDrmM86ddUzNq",
+      "symbol": "AIDS",
+      "name": "EydanCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/EthanLavi/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "D9ipP4vhuFYUKY8FXijXb76XLBhfjkj2GHWotQTc7CN",
+      "symbol": "DOODOO",
+      "name": "DOODOOKoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/GoofyDaytrader/doodoo/main/DOODOO.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9Y61XE4TV7J8B8r9N19drrVRftsEdqP89mGzkbUP8Shy",
+      "symbol": "MRTZ",
+      "name": "MoritzCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/moritzengineering/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "H9k2cWgLfADao2FMoBCV3KNb4HCTeK7HiybDR7WTVEPK",
+      "symbol": "KBC",
+      "name": "Koal Bear Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/BloodRose86/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GrCQkoCQDmh4XGjDohPvDiAndDH5uBpEXPWVGSoAqWa3",
+      "symbol": "RIZ",
+      "name": "RIZ coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/OG-RizNaz/crypto/main/rizcoin_logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "52jhieJCcQQPk3L81BxEuG6kyihAvcUvbwMKSVHJEK7r",
+      "symbol": "ISAAC",
+      "name": "Isaac Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Firebros1/crypto/main/Logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "ALTXQKzksWFHrwBR2P2xVNWXCw7uNZCXrSaAo3NLrZCn",
+      "symbol": "EDD",
+      "name": "EDDARI Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/EDDARI/MyCrypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9shzY9jupopFajZbKP1sdhzwVwofZRejQgq7Kvw6jQKY",
+      "symbol": "KAGD",
+      "name": "KAGED KOIN",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9shzY9jupopFajZbKP1sdhzwVwofZRejQgq7Kvw6jQKY/logo.png",
+      "tags": [
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://www.kagedmuscle.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "H14zbo6gHzCemWpzPJFSEjSjmdWuv28XS6JzwGrYiMQE",
+      "symbol": "NFTBEARD",
+      "name": "SOLKITTY NFT Beard Man",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H14zbo6gHzCemWpzPJFSEjSjmdWuv28XS6JzwGrYiMQE/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solkitty.io/nft/beard-man"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DKdtHH3GRTRfSBbESqzNiq61Q3XzLMXtJiVLvo7uoWPM",
+      "symbol": "NFTBABAA",
+      "name": "SOLKITTY NFT Baba Ape first ever",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DKdtHH3GRTRfSBbESqzNiq61Q3XzLMXtJiVLvo7uoWPM/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solkitty.io/nft/baba-ape-first-ever"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EooEcetGTsGCq1EN9ZjHqQDybFFwPP9MZvy4JHqCVf3S",
+      "symbol": "KMR",
+      "name": "Comrade Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/hamcreation/crypto/main/logo-main.png",
+      "tags": [
+        "social-token",
+        "community-token",
+        "reward-token",
+        "utility-token",
+        "nft"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8piC4Rswbd4dkaMokYDVAVpurwCfu4PUWCoSdHUckjzR",
+      "symbol": "MZC",
+      "name": "Maunz Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/datamaunz/maunzCoin/main/MaunzCoin.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5jjao6fQ9v7UcUZW4VjgroVE6k6bCj2HU2vUKrA73rS6",
+      "symbol": "LIVE",
+      "name": "LivePlus",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/rodolfo-vargas/live/main/L!.png",
+      "tags": [
+        "payment-protocol",
+        "Payment",
+        "Videos",
+        "OTT",
+        "utility-token",
+        "Live-TV",
+        "LivePlus",
+        "Live-Plus",
+        "live-stream"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/Isjustlive",
+        "website": "https://solscan.io/token/5jjao6fQ9v7UcUZW4VjgroVE6k6bCj2HU2vUKrA73rS6"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "G6FsRAEAzvAZ2Z9fx68kuHWGyzmziJWwNao3gEmJ8Lmy",
+      "symbol": "ORO",
+      "name": "FamiLees",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/arain11/crp/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3Wi7fWMzK3Ap9jGTTCtCavzBXZpZriVMo93udwo9ZrEr",
+      "symbol": "CMCN",
+      "name": "Comet Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/FlamingComet/crypto/main/Comet.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "B9Ej4ooSjae7xdgMhcUzCGtT6HcCL4cA8LSse3QqaibX",
+      "symbol": "CGBC",
+      "name": "CaGaBre Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/felipecadar/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "BkQ4y8qNkZENFZojgVFtGig9WTFLk7nkHG1aYfUPUgt9",
+      "symbol": "CPAY",
+      "name": "ChorPay",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Tactictoes/Crypto/main/Chor%20Icon.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4VixcNJEegoSMBBZxsey8SFTreA6cWTKADdvRARcJQdu",
+      "symbol": "RTTY",
+      "name": "Retty Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/bretterer/crypto/main/RTTY/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8sSLUDCbGABLgRWAqoWnAryG6vQaAbMhWdSmSshaBbp6",
+      "symbol": "ILVPSSY",
+      "name": "PussDSTRYER",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/egf-vv/crypto/main/logo%20crypto.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "7khbh7NsnKb5NGo6uFCTX4ec3viu2nhxJZ7ZK1fAmTFM",
+      "symbol": "DRKO",
+      "name": "DarkoKoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ranxxaa/crypto/main/logoo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FryjpgnHCT3zS3jkBJ1Tc1Xrkq9CrtHin6Gxv7HbhQup",
+      "symbol": "MTVB",
+      "name": "Magic TV Box",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/jemerocay/crypto/main/logo300x300bb.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "EUYmNJg561X12YzYHAy8tSpYVo8SHgau48GrqS76vuRb",
+      "symbol": "LWIZ",
+      "name": "LwizCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/tomkonikkara/lwiz-crypto/main/LOGO.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8bkuvExu7LPDY8H37SrUaqncLwKKmudjhSFWwD6wfpA9",
+      "symbol": "NOSS",
+      "name": "Noss Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ItsNoss/noss-token/main/transparent-128.png?token=ANSJD3YSMXV7IRIZRXTVVPTBY2HB2",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "2LG52mHVTjHLZ1xoQjzPk2fvTnmePNWqL5Gx7zWrRV25",
+      "symbol": "SALTS",
+      "name": "SALTS",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/SycoSonic/Salts-Coin/e19694d9ae64ea08f9b0670042e06373719eb63a/SALTS.png",
+      "tags": [
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "EFTYdAfC9GbhNt6gcrRBUNM8Mtia1gEr4k7CWJpsZjBj",
+      "symbol": "NFTCATAR",
+      "name": "SOLKITTY NFT Catari 1",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EFTYdAfC9GbhNt6gcrRBUNM8Mtia1gEr4k7CWJpsZjBj/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solkitty.io/nft/catari-1"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CHWGcZnAYu4szCpTQ6e6SZ9BnQCejLwCBR7h3ekfsfXT",
+      "symbol": "NFTSKULL",
+      "name": "SOLKITTY NFT Skull Art",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CHWGcZnAYu4szCpTQ6e6SZ9BnQCejLwCBR7h3ekfsfXT/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solkitty.io/nft/skull-art"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4yNRp5Ap8TfG6oYPSPDHJjy5G3h3LjfWpdPZVBRb3KGT",
+      "symbol": "TNC",
+      "name": "TeamNote Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/tonytong830-apptask/token-list/main/assets/mainnet/4yNRp5Ap8TfG6oYPSPDHJjy5G3h3LjfWpdPZVBRb3KGT/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3cq3zUJd8fJ9GT7NEuB5yvUJy56LySKT3tTyaYKxJ6wu",
+      "symbol": "RNBN",
+      "name": "RONIN",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/kevbot00/crypto/master/ronin.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "TaUdunJo5TcdJzt9kyB4cd6HTYUdFXJHCSL2yc3sbg4",
+      "symbol": "TRUESIGHT",
+      "name": "TrueSight Governance",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TaUdunJo5TcdJzt9kyB4cd6HTYUdFXJHCSL2yc3sbg4/logo.png",
+      "tags": [
+        "governance-token",
+        "community-token",
+        "utility-token",
+        "social-token"
+      ],
+      "extensions": {
+        "description": "TrueSight.Me is a decentralized oracle for world sentiments. We believe making decisions under ignorance is to the root cause of human suffering. Our purpose is to build a better world based on fundamental truth. Our mission is to provide individuals with crowd-sourced actionable insights to make critical decisions in their daily lives. This has became imperative in our increasingly chaotic world.",
+        "facebook": "https://www.facebook.com/TrueSightMe",
+        "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TaUdunJo5TcdJzt9kyB4cd6HTYUdFXJHCSL2yc3sbg4/logo.png",
+        "reddit": "https://www.reddit.com/r/truesightme/",
+        "website": "https://truesight.me"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DK4rfyNuMN4VRnRJq4Ue6pRBvuCADePE9SGUYMVTNZ6k",
+      "symbol": "NTFT",
+      "name": "NineTailFox",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/vaatsalya123/Ninetailfox/main/crypto_logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "HhDZibDm5QUfU1dWbvuEu4iSfqfWLtvu5hVJFi4bZfJ4",
+      "symbol": "NOAH",
+      "name": "NoahCoin",
+      "decimals": 0,
+      "logoURI": "https://github.com/nspahn/noahCoin/blob/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5hUanQop7uL6V1S1U7tydn7SBuieRSW6wYsbXWea3Lsi",
+      "symbol": "XP",
+      "name": "Elite XP",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5hUanQop7uL6V1S1U7tydn7SBuieRSW6wYsbXWea3Lsi/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "description": "Elite XP is a new skill-based wagering platform for gamers to play and earn crypto based on their own in-game performance. We’re bringing play-to-earn functionality to existing popular games like Fortnite, Dota 2, and more! Powered by Solana.",
+        "discord": "https://discord.gg/zAKmq5N279",
+        "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5hUanQop7uL6V1S1U7tydn7SBuieRSW6wYsbXWea3Lsi/logo.svg",
+        "twitter": "https://twitter.com/XPcorp",
+        "website": "https://elite.xpfantasy.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FkHzJkQudpz9sQf1s75dFhFZXnNvYpFeb41bjAirJmZa",
+      "symbol": "LNT",
+      "name": "LentCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Lento47/LentCoin/main/LNT.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FLoD6AwcJCnbznnWfV6HkBHh5FYtr8wJYj3mBnwNdLLg",
+      "symbol": "DOOK",
+      "name": "Dook Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FLoD6AwcJCnbznnWfV6HkBHh5FYtr8wJYj3mBnwNdLLg/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "description": "The goal is simple, to spread love. How we spread it.. well that's where our community comes in.",
+        "website": "https://sighducks.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "aGyPX4YeSJcb4Y3GMDNnk8CBhQvq1G6fXmcUbHYJEjD",
+      "symbol": "MYTH",
+      "name": "ChainMyth",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/aGyPX4YeSJcb4Y3GMDNnk8CBhQvq1G6fXmcUbHYJEjD/logo.png",
+      "tags": [
+        "NFT",
+        "community-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "description": "5v5 FPS game with MOBA mechanics, featuring character NFTs! Tokenised 5K 3D characters!",
+        "discord": "https://discord.gg/chainmyth",
+        "twitter": "https://twitter.com/ChainMyth",
+        "website": "http://chainmyth.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BBoMMw3MCHBvgzJf1TBdcztjWWVuJxFYu5kQcbpnrK6C",
+      "symbol": "MORS",
+      "name": "MoroSteel",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BBoMMw3MCHBvgzJf1TBdcztjWWVuJxFYu5kQcbpnrK6C/logo.png",
+      "tags": [
+        "DEX",
+        "utility-token",
+        "COMMERCE"
+      ],
+      "extensions": {
+        "description": "Token used to trade international steel",
+        "website": "https://morosteel.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EiMNcA5UGw9jxCwaH3ncd1yYD8bEtNXCARWuXKTvCP2E",
+      "symbol": "SPRKL",
+      "name": "Sparkle",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/PapaBearDoes/SparkleCrypto/main/logo.png",
+      "tags": [
+        "meme-token",
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "description": "The Alphabet Cartel is a community of content creators that have banded together to provide a safe place for LGBTQIA+ members / allies and provide awareness / education on the issues that the Cartel experiences through games, discussion, and community.",
+        "discord": "https://discord.gg/uxKaw7K4UQ",
+        "twitter": "https://twitter.com/alphabetcartel"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4rA2iVsDroL1AEpK6wQjRr82YujboyFuiPrEUQ9Lt36H",
+      "symbol": "QUEEN",
+      "name": "Qoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/QueendomDAO/media/main/logo.svg",
+      "tags": [
+        "Multipurpose-token",
+        "utility-token",
+        "community-token",
+        "metaverse"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8NioZ3twxQnNA9UgxfeGHB8fXpEEVs2v6MgVEU1cNWkM",
+      "symbol": "STWC",
+      "name": "Stormwind Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/dubde1/Crypto/main/Logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "eG7L3PRqzNZLrrzoei93zHK2oDmq1dtyVwjFu83RBki",
+      "symbol": "DREAM",
+      "name": "Dreamland Currency",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/dreamlandmonkeys/assets/main/assets/dream.png",
+      "tags": [
+        "metaverse-token",
+        "community-token",
+        "Dreamland-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "AGRpSFvJiYLu726eyrEQTbT5KRyLtcfAiaDJBLVjp82Q",
+      "symbol": "BRENDA",
+      "name": "TJs Lover",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/tjslover/crypto/main/brendaheart%402x.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "6Qyt6ULtyXkT8C83mcdi5RA6oJF7K3Kg9HroUz4kHgAL",
+      "symbol": "PNDA",
+      "name": "Panpan Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/PandaDevolper/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "67W6AdXTzKxGp1556GF45Wh7sENBxNmXpGFHKCk8mH87",
+      "symbol": "BRLC",
+      "name": "Brasil Real",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/silvionetto/crypto/main/tupinamba.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "EzaS1S9ziDooyaqLeVU245eeia5dfNpZYNiJuxagA5iy",
+      "symbol": "PIO",
+      "name": "PEERSIO",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/peersio/peersiocoin/main/PIO.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8p7fEr1TC12osTi5EdnntYd8hjA6aSL1MfNr37xhiYCi",
+      "symbol": "FRKS",
+      "name": "Freakscoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/leocapuzzi/freakscoin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "SrkAxNG82cyXmCBDrqLqdZWmeYc7yxymexRKuEeSSYA",
+      "symbol": "ISCO",
+      "name": "Andoniar",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Andoniar/insertcoin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "6cvXk6byhVKKMmVR1hLMjYp4SXVt9RyFHvuVsGRzA3Sy",
+      "symbol": "TNLI",
+      "name": "Tonoli Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ricktonoli/cdn/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "BQqo6Xwu7NzMvL813DkdWzcShWdbW6EiAnvr2HJVmdjg",
+      "symbol": "LKEB",
+      "name": "LukeBux",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/lmcewen9/lukebux/main/logo.PNG",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5pemBJT45oNvBYPvML1svLz6WXfEPHzsiEwHKCt85tSH",
+      "symbol": "AVLN",
+      "name": "AvianCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/z3r0-k3lv1n/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "2qycUc4D7p24BJz5SijoVmcx8o2kJirQqXGaK51THQso",
+      "symbol": "AVES",
+      "name": "A Very Efficient Server Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/garylin/token-images/main/aves.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "6oiYnLCtsoyVua2KsJ9um1kdW28rMPPaQzZp95WrpcC5",
+      "symbol": "RW",
+      "name": "RACEWARS",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/AftershockNFTs/crypto/main/logo.png",
+      "tags": [
+        "NFT",
+        "community-token",
+        "gaming",
+        "betting",
+        "metaverse"
+      ],
+      "extensions": {
+        "description": "In community purchases and bets within 'Aftershock NFT Collection' VR Racing Game",
+        "discord": "https://discord.gg/S5kBZbCC2c",
+        "facebook": "https://fb.me/AftershockNFTs",
+        "telegram": "https://t.me/AftershockNFTs",
+        "twitter": "https://twitter.com/AftershockNFTs",
+        "website": "http://AftershockNFTs.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9RrcgceVyBPGD7cQnS9RFvThLmmwFLGCRNPhd9BdzM51",
+      "symbol": "EGGY",
+      "name": "eggyCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/eggyBones/eggyCoin/main/egg.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "21kcPGWam5J8H4Ppa4C9NvbUswrA1SqQ5fWfXimAScay",
+      "symbol": "EAST",
+      "name": "EASTSIDE GmbH Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/project-play/crypto/main/logo.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "HfMVgG3fQr45JtrQD3jpVki6E5H5BSdjN8kCAvDEDKMQ",
+      "symbol": "INA",
+      "name": "Inanna",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/781d71f6cb76d2921c7f101fac3aa3010c627cdc/assets/mainnet/HfMVgG3fQr45JtrQD3jpVki6E5H5BSdjN8kCAvDEDKMQ/logo.png",
+      "extensions": {
+        "website": "https://www.inannafinance.com"
+      }
     }
   ],
   "version": {
