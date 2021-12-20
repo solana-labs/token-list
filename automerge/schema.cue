@@ -18,7 +18,6 @@ import (
 
 // Grandfathered non-compliant symbol names.
 #SymbolWhitelist: ("GÜ" |
-	"PHISHING SCAM TOKEN, PLEASE IGNORE" |
 	"W technology" |
 	"SHBL LP token" |
 	"Unlimited Energy" |
@@ -49,7 +48,9 @@ import (
 
 // Grandfathered non-compliant token names.
 #NameWhitelist: (
-		"Mike Krow's Official Best Friend Super Kawaii Kasu Token" | "B ❤ P")
+	"Mike Krow's Official Best Friend Super Kawaii Kasu Token" |
+	"B ❤ P" |
+	"PHISHING SCAM TOKEN, PLEASE IGNORE" )
 
 // INCOMPATIBLE: may contain -
 // INCOMPATIBLE: max 20 characters (vs. 10)
