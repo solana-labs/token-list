@@ -48,9 +48,7 @@ import (
 
 // Grandfathered non-compliant token names.
 #NameWhitelist: (
-	"Mike Krow's Official Best Friend Super Kawaii Kasu Token" |
-	"B ❤ P" |
-	"PHISHING SCAM TOKEN, PLEASE IGNORE" )
+		"Mike Krow's Official Best Friend Super Kawaii Kasu Token" | "B ❤ P")
 
 // INCOMPATIBLE: may contain -
 // INCOMPATIBLE: max 20 characters (vs. 10)
