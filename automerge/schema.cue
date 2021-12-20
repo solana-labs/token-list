@@ -18,6 +18,7 @@ import (
 
 // Grandfathered non-compliant symbol names.
 #SymbolWhitelist: ("GÜ" |
+	"PHISHING SCAM TOKEN, PLEASE IGNORE" |
 	"W technology" |
 	"SHBL LP token" |
 	"Unlimited Energy" |
