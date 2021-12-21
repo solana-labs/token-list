@@ -39785,13 +39785,18 @@
     {
       "chainId": 101,
       "address": "5itxjY1UM58Z2y77rkW5cRZt6qx8WGAtg6Q36NszDaXa",
-      "symbol": "VORT",
-      "name": "VortX Token",
-      "decimals": 0,
-      "logoURI": "https://github.com/MilesBellum/VortX-Token/blob/main/VortX_Token_logo.png",
+      "symbol": "VRTX",
+      "name": "VortX",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/MilesBellum/VortX-Token/main/logo/VortX_Token_logo.png",
       "tags": [
-        "social-token"
-      ]
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+      	"website": "https://vortxtoken.com",
+      	"twitter": "https://twitter.com/VortXToken"
+      }
     },
     {
       "chainId": 101,
