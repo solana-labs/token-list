@@ -21135,7 +21135,26 @@
       "extensions": {
         "address": "uluna",
         "bridgeContract": "https://finder.terra.money/columbus-5/address/terra10nmmwe8r3g99a9newtqa7a75xfgs2e8z87r2sf",
-        "coingeckoId": "terra-luna"
+        "coingeckoId": "terra-luna",
+        "serumV3Usdc": "HBTu8hNaoT3VyiSSzJYa8jwt9sDGKtJviSwFa11iXdmE"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "KgV1GvrHQmRBY8sHQQeUKwTm2r2h8t4C8qt12Cw1HVE",
+      "symbol": "AVAX",
+      "name": "AVAX (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/KgV1GvrHQmRBY8sHQQeUKwTm2r2h8t4C8qt12Cw1HVE/logo.png",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+        "assetContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+        "bridgeContract": "https://snowtrace.io/address/0x0e082f06ff657d94310cb8ce8b0d9a04541d8052",
+        "coingeckoId": "avalanche",
+        "serumV3Usdc": "E8JQstcwjuqN5kdMyUJLNuaectymnhffkvfg1j286UCr"
       }
     },
     {
@@ -24870,7 +24889,8 @@
         "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
         "assetContract": "https://polygonscan.com/address/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
         "bridgeContract": "https://polygonscan.com/address/0x5a58505a96d1dbf8df91cb21b54419fc36e93fde",
-        "coingeckoId": "polygon"
+        "coingeckoId": "polygon",
+        "serumV3Usdc": "5WRoQxE59966N2XfD2wYy1uhuyKeoVJ9NBMH6r6RNYEF"
       }
     },
     {
@@ -58388,6 +58408,67 @@
       ],
       "extensions": {
         "website": "https://solkitty.io/nft/boss-ape-28"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DeNXzrqbCxhi8xMXsnyrPGdWxrgSb2X82Aa2FL2yKmot",
+      "symbol": "raff",
+      "name": "RaffBit",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/nasher207/cripto-stuff/main/logo1.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9mnngHc1pAt5x6vHz4JRLexVWjGk9j7eJWs9QkJzh9RH",
+      "symbol": "jm",
+      "name": "JackCoin",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/nasher207/cripto-stuff/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DiEZQ5dYjLZnW8ABCna8KoZU8QCL1UMvwgF4BPCKey7t",
+      "symbol": "EDHK",
+      "name": "EDHKoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/shonen787/crypto/main/logo.png",
+      "tags": [
+        "social-token",
+        "meme-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "6RfRLkMZjW4PhXGezHE43njrEYSpYKEBMRtja4XzyeNp",
+      "symbol": "PINTO21",
+      "name": "Pinto 21 Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/npinto21/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4N1nzo4rAFHGHvAm7ioE7dHZarxVNJpKemjSC45KXAxe",
+      "symbol": "BELL",
+      "name": "Michelle Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/kerouacwannabe/crypto/main/bell-480-458437.png",
+      "tags": [
+        "social-token",
+        "meme-token",
+        "community-token"
+      ],
+      "extensions": {
+        "description": "Michelle, ma belle, These are words that go together well, My Michelle"
       }
     }
   ],
