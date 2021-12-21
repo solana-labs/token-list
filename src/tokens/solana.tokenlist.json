@@ -5604,7 +5604,7 @@
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "assetContract": "https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "bridgeContract": "https://etherscan.io/address/0xf92cD566Ea4864356C5491c177A430C222d7e678",
-        "coingeckoId": "weth"
+        "coingeckoId": "ethereum"
       }
     },
     {
@@ -19507,8 +19507,8 @@
     {
       "chainId": 101,
       "address": "EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o",
-      "symbol": "DAIet",
-      "name": "Dai Stablecoin (Wormhole from Ethereum)",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin (Wormhole)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o/logo.png",
       "tags": [
@@ -21100,7 +21100,8 @@
         "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
         "assetContract": "https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
         "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
-        "coingeckoId": "weth"
+        "coingeckoId": "ethereum",
+        "serumV3Usdc": "8Gmi2HhZmwQPVdCwzS7CM66MGstMXPcTVHA7jF19cLZz"
       }
     },
     {
@@ -21262,7 +21263,8 @@
         "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
         "assetContract": "https://etherscan.io/address/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
         "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
-        "coingeckoId": "sushi"
+        "coingeckoId": "sushi",
+        "serumV3Usdc": "3uWVMWu7cwMnYMAAdtsZNwaaqeeeZHARGZwcExnQiFay"
       }
     },
     {
@@ -21298,7 +21300,8 @@
         "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "assetContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
-        "coingeckoId": "wbnb"
+        "coingeckoId": "binance-coin",
+        "serumV3Usdc": "3zzTxtDCt9PimwzGrgWJEbxZfSLetDMkdYegPanGNpMf"
       }
     },
     {
@@ -21316,7 +21319,8 @@
         "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
         "assetContract": "https://etherscan.io/address/0x514910771af9ca656af840dff83e8264ecf986ca",
         "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
-        "coingeckoId": "chainlink"
+        "coingeckoId": "chainlink",
+        "serumV3Usdc": "Bs2B1hcC3QWGTD9kgtaoWCDDriu96HDNE4BT4ziLpfiF"
       }
     },
     {
@@ -24897,7 +24901,7 @@
       "chainId": 101,
       "address": "5njTmK53Ss5jkiHHZvzabVzZj6ztu6WYWpAPYgbVnbjs",
       "symbol": "QUICK",
-      "name": "Quickswap (Wormhole from Polygon)",
+      "name": "Quickswap (Wormhole)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5njTmK53Ss5jkiHHZvzabVzZj6ztu6WYWpAPYgbVnbjs/logo.png",
       "tags": [
@@ -24926,7 +24930,7 @@
         "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
         "assetContract": "https://bscscan.com/address/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
         "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
-        "coingeckoId": "polygon"
+        "coingeckoId": "pancakeswap"
       }
     },
     {
@@ -58480,6 +58484,392 @@
       ],
       "extensions": {
         "description": "Michelle, ma belle, These are words that go together well, My Michelle"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "J95KxdcBUgG7V4ecrtN4GLxZEz9GESbeLsEMyD8N6yX3",
+      "symbol": "WHAT",
+      "name": "WHAT Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J95KxdcBUgG7V4ecrtN4GLxZEz9GESbeLsEMyD8N6yX3/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DA4zFZot5fEcuKSNPbeYEhNQ6xP9jUbK9akXGAfG7FVq",
+      "symbol": "BLCS",
+      "name": "Black Lotus Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/obiwonjacoby/Black_Lotus/main/Black_Lotus_Logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "85d7BpwfBJNurB6t4S4vN1x4vMaDPjWNiMetWWco2vUe",
+      "symbol": "VIPR",
+      "name": "Viper",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/viperguy07/coin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "75w8S3Du1Rd4KphUYiusWavqt1EUoeVKTphhrfgqPCeU",
+      "symbol": "IGNFTWSD",
+      "name": "Instagram NFT WSD",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/75w8S3Du1Rd4KphUYiusWavqt1EUoeVKTphhrfgqPCeU/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/75w8S3Du1Rd4KphUYiusWavqt1EUoeVKTphhrfgqPCeU"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HD2oWUXqnLfXqpR4giDndZisEeqVq7EZbCTBgjAEdDVH",
+      "symbol": "IGNFTHDO",
+      "name": "Instagram NFT HDO",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HD2oWUXqnLfXqpR4giDndZisEeqVq7EZbCTBgjAEdDVH/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/HD2oWUXqnLfXqpR4giDndZisEeqVq7EZbCTBgjAEdDVH"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DzAr46UdBPeEamVRwUb6HR3cKJyzEunMia45cAQv5Pd",
+      "symbol": "IGNFTDZA",
+      "name": "Instagram NFT DZA",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DzAr46UdBPeEamVRwUb6HR3cKJyzEunMia45cAQv5Pd/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/DzAr46UdBPeEamVRwUb6HR3cKJyzEunMia45cAQv5Pd"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CpSYD5rJE8coHfBQyWYAFpE1Rm5YvgGbnF46cvemBLPx",
+      "symbol": "IGNFTCPS",
+      "name": "Instagram NFT CPS",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CpSYD5rJE8coHfBQyWYAFpE1Rm5YvgGbnF46cvemBLPx/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/CpSYD5rJE8coHfBQyWYAFpE1Rm5YvgGbnF46cvemBLPx"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HoU6QHcbNwUEn5emrSrZaM3HcwV6dZaA2vUJoUbAzQkP",
+      "symbol": "IGNFTHOU",
+      "name": "Instagram NFT HOU",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HoU6QHcbNwUEn5emrSrZaM3HcwV6dZaA2vUJoUbAzQkP/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/HoU6QHcbNwUEn5emrSrZaM3HcwV6dZaA2vUJoUbAzQkP"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3eEwnZksgg8mADgSyLzcMQQyVzt2ZCGyQxNet7wcyhBZ",
+      "symbol": "IGNFTEEW",
+      "name": "Instagram NFT EEW",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3eEwnZksgg8mADgSyLzcMQQyVzt2ZCGyQxNet7wcyhBZ/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/3eEwnZksgg8mADgSyLzcMQQyVzt2ZCGyQxNet7wcyhBZ"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E4P45hsc4WJ61EkJkoKg4HRps68WhnfBMqDWvNYBAVZ7",
+      "symbol": "IGNFTEPH",
+      "name": "Instagram NFT EPH",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E4P45hsc4WJ61EkJkoKg4HRps68WhnfBMqDWvNYBAVZ7/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/E4P45hsc4WJ61EkJkoKg4HRps68WhnfBMqDWvNYBAVZ7"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7WWYJ6xZLDDU8aVw5e8F3Xvp3QxRYJWMFhKLBUsMMx1z",
+      "symbol": "IGNFTWWY",
+      "name": "Instagram NFT WWY",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7WWYJ6xZLDDU8aVw5e8F3Xvp3QxRYJWMFhKLBUsMMx1z/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/7WWYJ6xZLDDU8aVw5e8F3Xvp3QxRYJWMFhKLBUsMMx1z"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8UVQCYwBHGhHWeNZvYwCE8WcGmCpzA8AgxP2FaCUn3H4",
+      "symbol": "IGNFTUVQ",
+      "name": "Instagram NFT UVQ",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8UVQCYwBHGhHWeNZvYwCE8WcGmCpzA8AgxP2FaCUn3H4/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/8UVQCYwBHGhHWeNZvYwCE8WcGmCpzA8AgxP2FaCUn3H4"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Akgos26wxMj1XDoY9uojm4KMsALT87QtgbZEB2GENH8X",
+      "symbol": "IGNFTAKG",
+      "name": "Instagram NFT AKG",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Akgos26wxMj1XDoY9uojm4KMsALT87QtgbZEB2GENH8X/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/Akgos26wxMj1XDoY9uojm4KMsALT87QtgbZEB2GENH8X"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "78yaZuBb6qmFec4Jz59MMLtdDu5wBMzKsXaQAWXjpALF",
+      "symbol": "IGNFTYAZ",
+      "name": "Instagram NFT YAZ",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/78yaZuBb6qmFec4Jz59MMLtdDu5wBMzKsXaQAWXjpALF/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/78yaZuBb6qmFec4Jz59MMLtdDu5wBMzKsXaQAWXjpALF"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4iPKfHxmYX29fr5nnXdNifA52GJKokWeRmQ67hApGySJ",
+      "symbol": "IGNFTIPK",
+      "name": "Instagram NFT IPK",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4iPKfHxmYX29fr5nnXdNifA52GJKokWeRmQ67hApGySJ/logo.jpg",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/4iPKfHxmYX29fr5nnXdNifA52GJKokWeRmQ67hApGySJ"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DT4omrwKUL4cWRjNoBSkbqAhxyexeJjXnXEGCHJFEPGT",
+      "symbol": "IGNFTDTO",
+      "name": "Instagram NFT SOLKITTYNFT 2",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DT4omrwKUL4cWRjNoBSkbqAhxyexeJjXnXEGCHJFEPGT/logo.png",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/DT4omrwKUL4cWRjNoBSkbqAhxyexeJjXnXEGCHJFEPGT"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7dnB3tTmjeS1rAdeVB8CBkcNTDZQeuBoSvg17woVrs6n",
+      "symbol": "IGNFTDNB",
+      "name": "Instagram NFT SOLKITTYNFT 3",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dnB3tTmjeS1rAdeVB8CBkcNTDZQeuBoSvg17woVrs6n/logo.png",
+      "tags": [
+        "nft",
+        "instagram"
+      ],
+      "extensions": {
+        "website": "https://rocketsola.com/nft/instagram/7dnB3tTmjeS1rAdeVB8CBkcNTDZQeuBoSvg17woVrs6n"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "46E32Wnki9A1Labyq8Y2kCE58NWoLVdJhnMh3Cg5pDj3",
+      "symbol": "KGC",
+      "name": "Knife Guys Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Tim-Zahler/KnifeGuysCoin/main/logo.png",
+      "tags": [
+        "meme-token",
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "55EZVKbY9u9vdouob88QiKQ4g9nfYUoAu7aWQUiuQ8pc",
+      "symbol": "ZKB",
+      "name": "KolaZoin",
+      "decimals": 0,
+      "logoURI": "https://github.com/Aceboone011/cryptoZKB/blob/9232cad70e918c9f02b46f4d2b287af0dc6dffa3/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "Fse2oFDfbwT89CqtuoFaHCBnGTMFLartDYDjPLZyc7e",
+      "symbol": "TRPY",
+      "name": "Trippy Leaf",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fse2oFDfbwT89CqtuoFaHCBnGTMFLartDYDjPLZyc7e/logo.png",
+      "tags": [
+        "utility-token",
+        "community-token",
+        "general-token"
+      ],
+      "extensions": {
+        "serumV3Usdc": "3N4UgbUHUkwMU5DKFYRvz3HASbFjs3q9JLAYVRdEQvbp",
+        "twitter": "https://twitter.com/Real_TrippyLeaf",
+        "website": "https://trippyleaf.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3fL38iNdhYHYhN94yX59DVDPqbcXaa7CmHjzbpUUaEG3",
+      "symbol": "MKJF",
+      "name": "MKJFamily Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/alfaquad/crypto/main/mkjf-logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "7myzfdENcWPcbdcMrGcNHjpmnoMrpDp455qJ1imifsm5",
+      "symbol": "CTCN",
+      "name": "Curit Coin",
+      "decimals": 0,
+      "logoURI": "https://github.com/acurit1/crypto/blob/main/CuritCoinLogo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "7ADr9mxYhTrDLHfx1eVVLZW3v4t43yo6JbYxY5h8F3Xr",
+      "symbol": "NFTADRM",
+      "name": "SOLKITTY NFT BABA APE ",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7ADr9mxYhTrDLHfx1eVVLZW3v4t43yo6JbYxY5h8F3Xr/logo.jpg",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solkitty.io/nft/baba-ape--"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2PzHzfcZAcTEntMHFLAFp6QYMsFuXxb8DDc1C6F1q1GT",
+      "symbol": "NFTSANTA",
+      "name": "SOLKITTY NFT SANTA APE",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2PzHzfcZAcTEntMHFLAFp6QYMsFuXxb8DDc1C6F1q1GT/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solkitty.io/nft/santa-ape"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9WJiJAsTy54df2tYhF9eXrrC6L5E8hdV9qDVQ5dCVC7u",
+      "symbol": "DYNO",
+      "name": "Dynocoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/lilshoota/token-list/main/assets/mainnet/9WJiJAsTy54df2tYhF9eXrrC6L5E8hdV9qDVQ5dCVC7u/logo.png",
+      "tags": [
+        "social-token",
+        "meme-token",
+        "community-token"
+      ],
+      "extensions": {
+        "description": "Dyno is a token I developed for fun. Maybe will be purposed eventually, but invest if you'd like. -Dev"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6xQFz3z8paL5Z2a3HscQQWhVPqhGo9ff4kYEsXC7Q2VG",
+      "symbol": "FUN",
+      "name": "The Fun Coupon",
+      "decimals": 9,
+      "logoURI": "https://github.dev/Keoki-TFC/token-list/blob/2f13b2bca784f12ac2e2525e66759b8b9a617af4/assets/mainnet/6xQFz3z8paL5Z2a3HscQQWhVPqhGo9ff4kYEsXC7Q2VG/Logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8cgJdvtxKYRJ4xmjGFUmF2jncsvmrjjvcnmFUQRB7Rrd",
+      "symbol": "MSM",
+      "name": "SAMCOIN",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/salik111/crypto/main/Drawing.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "76ijxiMkj4DX8q9QMtqpzTxFnT4KPmWv47sZf2kKoVwk",
+      "symbol": "QF",
+      "name": "QuietFire",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/76ijxiMkj4DX8q9QMtqpzTxFnT4KPmWv47sZf2kKoVwk/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/anderlaxe"
       }
     }
   ],
