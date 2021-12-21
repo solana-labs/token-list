@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "Solana Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
   "keywords": [
@@ -55523,7 +55523,24 @@
       "extensions": {
         "description": "Metanium is a Token that was created with the aim of helping people in financial difficulty, we are committed to making donations to people in precarious situations."
       }
-    }
+    },
+    {
+      "chainId": 101,
+      "address": "EkQxbzgM1eB7EjUJx5boRHWPmWuxScGvXouYE7wZB3vp",
+      "symbol": "LMN",
+      "name": "Solana Lemon",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EkQxbzgM1eB7EjUJx5boRHWPmWuxScGvXouYE7wZB3vp/logo.png",
+      "tags": [
+        "utility-token",
+        "community-token",
+        "currency-token"
+      ],
+	"extensions": {
+        "twitter": "https://twitter.com/SolanaLemons",
+        "website": "https://solanalemon.com"
+      }
+    },
   ],
   "version": {
     "major": 0,
