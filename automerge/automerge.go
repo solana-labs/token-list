@@ -28,8 +28,8 @@ import (
 	"k8s.io/klog/v2"
 	"net/http"
 	"os"
+	"os/exec"
 	"path"
-	"regexp"
 	"strings"
 	"time"
 )
@@ -37,19 +37,23 @@ import (
 //go:embed schema.cue
 var schema []byte
 
+type knownEntry struct {
+	ChainID int
+	Entry   string
+}
+
 type Automerger struct {
-	client       *github.Client
-	owner        string
-	repo         string
-	cuer         *cue.Context
-	cues         cue.Value
-	r  *git.Repository
-	tl parser.TokenList
-	fs billy.Filesystem
-	dryRun       bool
-	knownAddrs   map[string]bool
-	knownSymbols map[string]bool
-	knownNames   map[string]bool
+	client     *github.Client
+	owner      string
+	repo       string
+	cuer       *cue.Context
+	cues       cue.Value
+	r          *git.Repository
+	tl         parser.TokenList
+	fs         billy.Filesystem
+	dryRun     bool
+	knownAddrs map[knownEntry]bool
+	knownNames map[knownEntry]bool
 }
 
 const (
@@ -86,15 +90,14 @@ func NewAutomerger(owner string, repo string, token string, dryRun bool) *Autome
 	}
 
 	return &Automerger{
-		client:       github.NewClient(tc),
-		owner:        owner,
-		repo:         repo,
-		cuer:         r,
-		cues:         *s,
-		dryRun:       dryRun,
-		knownAddrs:   map[string]bool{},
-		knownSymbols: map[string]bool{},
-		knownNames:   map[string]bool{},
+		client:     github.NewClient(tc),
+		owner:      owner,
+		repo:       repo,
+		cuer:       r,
+		cues:       *s,
+		dryRun:     dryRun,
+		knownAddrs: map[knownEntry]bool{},
+		knownNames: map[knownEntry]bool{},
 	}
 }
 
@@ -189,19 +192,15 @@ func (m *Automerger) InitTokenlist() error {
 }
 
 func (m *Automerger) storeKnownToken(t *parser.Token) {
-	m.knownAddrs[t.Address] = true
-	m.knownSymbols[t.Symbol] = true
-	m.knownNames[t.Name] = true
+	m.knownAddrs[knownEntry{t.ChainId, t.Address}] = true
+	m.knownNames[knownEntry{t.ChainId, t.Name}] = true
 }
 
 func (m *Automerger) IsKnownToken(t *parser.Token) error {
-	if _, ok := m.knownAddrs[t.Address]; ok {
+	if _, ok := m.knownAddrs[knownEntry{t.ChainId, t.Address}]; ok {
 		return fmt.Errorf("token address %s is already used", t.Address)
 	}
-	if _, ok := m.knownSymbols[t.Symbol]; ok {
-		return fmt.Errorf("token symbol %s is already used", t.Symbol)
-	}
-	if _, ok := m.knownNames[t.Name]; ok {
+	if _, ok := m.knownNames[knownEntry{t.ChainId, t.Name}]; ok {
 		return fmt.Errorf("token name %s is already used", t.Name)
 	}
 	return nil
@@ -212,10 +211,10 @@ func (m *Automerger) ProcessPR(ctx context.Context, pr *github.PullRequest) erro
 
 	var hasErrorLabel bool
 	for _, l := range pr.Labels {
-        if l.GetName() == "automerge-error" {
-            hasErrorLabel = true
-        }
-    }
+		if l.GetName() == "automerge-error" {
+			hasErrorLabel = true
+		}
+	}
 
 	if hasErrorLabel {
 		lastRun, err := m.getLastCheckTimestamp(ctx, pr)
@@ -326,7 +325,7 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			}
 
 			switch path.Ext(p[3]) {
-			case ".png", ".jpg", ".svg":
+			case ".png", ".jpg", ".svg", ".PNG", ".JPG", ".SVG":
 			default:
 				return nil, nil, fmt.Errorf("invalid asset extension: %s (wants png, jpg, svg)", newFile)
 			}
@@ -338,6 +337,9 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			}
 			tlDiff = z
 			klog.V(1).Infof("found solana.tokenlist.json")
+		case newFile == "CHANGELOG.md" || newFile == "package.json":
+			klog.V(1).Infof("ignoring spurious %s change", newFile)
+			continue
 		default:
 			// Unknown file modified - fail
 			return nil, nil, fmt.Errorf("unsupported file modified: %s", newFile)
@@ -436,7 +438,7 @@ func (m *Automerger) commitTokenDiff(tt []parser.Token, pr *github.PullRequest, 
 	h, err := w.Commit(
 		fmt.Sprintf("%s\n\nCloses #%d", title, pr.GetNumber()),
 		&git.CommitOptions{
-			Author: author,
+			Author:    author,
 			Committer: author,
 		})
 	if err != nil {
@@ -607,9 +609,8 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 
 	var res []parser.Token
 
-	knownSymbols := map[string]bool{}
-	knownAddrs := map[string]bool{}
-	knownNames := map[string]bool{}
+	knownAddrs := map[knownEntry]bool{}
+	knownNames := map[knownEntry]bool{}
 	for _, h := range d.Hunks {
 		body := string(h.Body)
 		body = strings.Trim(body, "\n")
@@ -652,24 +653,20 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 		}
 
 		s := plain.String()
-        tt, err := parser.NormalizeWhatever(s)
+		tt, err := parser.NormalizeWhatever(s)
 		if err != nil {
-            return nil, fmt.Errorf("failed to normalize: %w", err)
-        }
+			return nil, fmt.Errorf("failed to normalize: %w", err)
+		}
 
 		for _, t := range tt {
-			if knownSymbols[t.Symbol] {
-				return nil, fmt.Errorf("duplicate symbol within PR")
-			}
-			if knownAddrs[t.Address] {
+			if knownAddrs[knownEntry{t.ChainId, t.Address}] {
 				return nil, fmt.Errorf("duplicate address within PR")
 			}
-			if knownNames[t.Name] {
+			if knownNames[knownEntry{t.ChainId, t.Name}] {
 				return nil, fmt.Errorf("duplicate name within PR")
 			}
-			knownSymbols[t.Symbol] = true
-			knownAddrs[t.Address] = true
-			knownNames[t.Name] = true
+			knownAddrs[knownEntry{t.ChainId, t.Address}] = true
+			knownNames[knownEntry{t.ChainId, t.Name}] = true
 
 			if err := m.IsKnownToken(&t); err != nil {
 				return nil, fmt.Errorf("duplicate token: %v", err)
@@ -803,105 +800,29 @@ func verifyCoingeckoId(id string) error {
 
 }
 
-type shadowbanResponse struct {
-	Profile struct {
-		ScreenName string `json:"screen_name"`
-		HasTweets  bool   `json:"has_tweets"`
-		Exists     bool   `json:"exists"`
-	} `json:"profile"`
-	Timestamp float64 `json:"timestamp"`
-}
-
-type shadowbanErrorResponse struct {
-	Timestamp float64 `json:"timestamp"`
-	Tests     struct {
-		MoreReplies struct {
-			Error string `json:"error"`
-		} `json:"more_replies"`
-		Ghost struct {
-			Ban bool `json:"ban"`
-		} `json:"ghost"`
-		Typeahead bool   `json:"typeahead"`
-		Search    string `json:"search"`
-	} `json:"tests"`
-	Profile struct {
-		Protected  bool   `json:"protected"`
-		Exists     bool   `json:"exists"`
-		ScreenName string `json:"screen_name"`
-		Sensitives struct {
-			PossiblySensitive         int `json:"possibly_sensitive"`
-			Counted                   int `json:"counted"`
-			PossiblySensitiveEditable int `json:"possibly_sensitive_editable"`
-		} `json:"sensitives"`
-		HasTweets bool `json:"has_tweets"`
-	} `json:"profile"`
-}
-
 func verifyTwitterHandle(uri string) error {
-	// use regex to extract the handle
-	r := regexp.MustCompile(`^https://twitter.com/(\w+)$`)
-	matches := r.FindStringSubmatch(uri)
-	if len(matches) != 2 {
-		return fmt.Errorf("invalid Twitter URI: %s", uri)
-	}
-	handle := matches[1]
-
-	klog.V(1).Infof("verifying Twitter handle %s", handle)
-	uri = "https://shadowban.eu/.api/" + handle
-
-	ctx, cancel := context.WithTimeout(context.TODO(), 5*time.Second)
-	defer cancel()
-
-	resp, err := ctxhttp.Get(ctx, &http.Client{
-		Timeout: 5 * time.Second,
-	}, uri)
-
-	if err != nil {
-		return fmt.Errorf("failed to request %s: %v", uri, err)
-	}
-
-	switch resp.StatusCode {
-	case 429:
-		// We got rate limited by the API. Fail-open.
-		klog.Warningf("rate limited by shadowban API trying to verify %s", uri)
-		return nil
-	case 200:
-		var sr shadowbanResponse
-		if err := json.NewDecoder(resp.Body).Decode(&sr); err != nil {
-			return fmt.Errorf("failed to decode response: %v", err)
-		}
-
-		if !sr.Profile.Exists {
-			return fmt.Errorf("Twitter handle %s does not exist", handle)
-		}
-
-		if !sr.Profile.HasTweets {
-			return fmt.Errorf("Twitter handle %s has no tweets", handle)
-		}
-	case 500:
-		var sr shadowbanErrorResponse
-		if err := json.NewDecoder(resp.Body).Decode(&sr); err != nil {
-			return fmt.Errorf("failed to decode response: %v", err)
-		}
-
-		if !sr.Profile.Exists {
-			return fmt.Errorf("Twitter handle %s does not exist", handle)
-		}
-
-		if !sr.Profile.HasTweets {
-			return fmt.Errorf("Twitter handle %s has no tweets", handle)
-		}
-	default:
-		return fmt.Errorf("invalid shadowban api response code: %d", resp.StatusCode)
-	}
-
 	return nil
 }
 
 var (
-	flagDryRun = flag.Bool("dryRun", false, "Simulate only")
-	flagMax    = flag.Int("max", 0, "Maximum number of tokens to process")
+	flagDryRun    = flag.Bool("dryRun", false, "Simulate only")
+	flagMax       = flag.Int("max", 0, "Maximum number of tokens to process")
+	flagSetRemote = flag.Bool("setRemoteForCI", false, "[FOR CI] add app origin to local repo")
 )
+
+// Helper function for GitHub actions, allowing it to push to main using
+// the app's identity rather than GITHUB_TOKEN, allowing subsequent
+// workflows to trigger.
+func configureLocalGitRemoteToken(token string) {
+	// git remote add --push origin https://your_username:${token}@github.com/solana-labs/token-list.git
+	remote := fmt.Sprintf("https://token-list-automerger:%s@github.com/solana-labs/token-list.git", token)
+	cmd := exec.Command("git", "remote", "add", "app", remote)
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	if err := cmd.Run(); err != nil {
+		klog.Fatalf("failed to add remote: %v", err)
+	}
+}
 
 func main() {
 	klog.InitFlags(nil)
@@ -916,13 +837,17 @@ func main() {
 			klog.Exitf("failed to decode GITHUB_APP_PEM as base64: %v", err)
 		}
 
-		t, err := auth.GetInstallationToken([]byte(key), appId)
+		t, err := auth.GetInstallationToken([]byte(key), appId, "solana-labs")
 		if err != nil {
 			klog.Exitf("failed to get installation token: %v", err)
 		}
 		token = t
 	} else {
 		klog.Exit("GITHUB_TOKEN or GITHUB_APP_PEM environment variable is not set")
+	}
+
+	if *flagSetRemote {
+		configureLocalGitRemoteToken(token)
 	}
 
 	klog.Info("starting automerge")
