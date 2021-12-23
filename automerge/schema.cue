@@ -18,6 +18,8 @@ import (
 
 // Grandfathered non-compliant symbol names.
 #SymbolWhitelist: ("GÜ" |
+	"fair3d.me" |
+	"BAHI.log" |
 	"W technology" |
 	"SHBL LP token" |
 	"Unlimited Energy" |
@@ -132,7 +134,7 @@ import (
 	name: strings.MinRunes(1) & strings.MaxRunes(50) & =~"^[ \\w.'+\\-%/À-ÖØ-öø-ÿ:&\\[\\]\\(\\)]+$" | #NameWhitelist
 
 	// The symbol for the token; must be alphanumeric
-	symbol: =~"^[a-zA-Z0-9+\\-%/$_.]+$" & strings.MinRunes(1) & strings.MaxRunes(20) | #SymbolWhitelist
+	symbol: =~"^[a-zA-Z0-9+\\-%/$_]+$" & strings.MinRunes(1) & strings.MaxRunes(20) | #SymbolWhitelist
 
 	// A URI to the token logo asset; if not set, interface will
 	// attempt to find a logo based on the token address; suggest SVG
