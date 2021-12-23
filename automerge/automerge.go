@@ -30,7 +30,6 @@ import (
 	"os"
 	"os/exec"
 	"path"
-	"regexp"
 	"strings"
 	"time"
 )
@@ -40,7 +39,7 @@ var schema []byte
 
 type knownEntry struct {
 	ChainID int
-    Entry string
+	Entry   string
 }
 
 type Automerger struct {
@@ -197,6 +196,15 @@ func (m *Automerger) storeKnownToken(t *parser.Token) {
 	m.knownNames[knownEntry{t.ChainId, t.Name}] = true
 }
 
+func (m *Automerger) IsBlacklistedToken(t *parser.Token) error {
+	// see #10163: user is spamming token-list by listing individual NFTs
+	// TODO: move blacklist to list
+	if strings.HasPrefix(t.Name, "SOLKITTY NFT") {
+		return fmt.Errorf("name %s blacklisted; NFT in fungible token repo", t.Name)
+	}
+	return nil
+}
+
 func (m *Automerger) IsKnownToken(t *parser.Token) error {
 	if _, ok := m.knownAddrs[knownEntry{t.ChainId, t.Address}]; ok {
 		return fmt.Errorf("token address %s is already used", t.Address)
@@ -326,7 +334,7 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			}
 
 			switch path.Ext(p[3]) {
-			case ".png", ".jpg", ".svg":
+			case ".png", ".jpg", ".svg", ".PNG", ".JPG", ".SVG":
 			default:
 				return nil, nil, fmt.Errorf("invalid asset extension: %s (wants png, jpg, svg)", newFile)
 			}
@@ -672,6 +680,9 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 			if err := m.IsKnownToken(&t); err != nil {
 				return nil, fmt.Errorf("duplicate token: %v", err)
 			}
+			if err := m.IsBlacklistedToken(&t); err != nil {
+				return nil, fmt.Errorf("blacklisted token: %v", err)
+			}
 
 			v := m.cuer.Encode(t)
 			if v.Err() != nil {
@@ -801,98 +812,7 @@ func verifyCoingeckoId(id string) error {
 
 }
 
-type shadowbanResponse struct {
-	Profile struct {
-		ScreenName string `json:"screen_name"`
-		HasTweets  bool   `json:"has_tweets"`
-		Exists     bool   `json:"exists"`
-	} `json:"profile"`
-	Timestamp float64 `json:"timestamp"`
-}
-
-type shadowbanErrorResponse struct {
-	Timestamp float64 `json:"timestamp"`
-	Tests     struct {
-		MoreReplies struct {
-			Error string `json:"error"`
-		} `json:"more_replies"`
-		Ghost struct {
-			Ban bool `json:"ban"`
-		} `json:"ghost"`
-		Typeahead bool   `json:"typeahead"`
-		Search    string `json:"search"`
-	} `json:"tests"`
-	Profile struct {
-		Protected  bool   `json:"protected"`
-		Exists     bool   `json:"exists"`
-		ScreenName string `json:"screen_name"`
-		Sensitives struct {
-			PossiblySensitive         int `json:"possibly_sensitive"`
-			Counted                   int `json:"counted"`
-			PossiblySensitiveEditable int `json:"possibly_sensitive_editable"`
-		} `json:"sensitives"`
-		HasTweets bool `json:"has_tweets"`
-	} `json:"profile"`
-}
-
 func verifyTwitterHandle(uri string) error {
-	// use regex to extract the handle
-	r := regexp.MustCompile(`^https://twitter.com/(\w+)$`)
-	matches := r.FindStringSubmatch(uri)
-	if len(matches) != 2 {
-		return fmt.Errorf("invalid Twitter URI: %s", uri)
-	}
-	handle := matches[1]
-
-	klog.V(1).Infof("verifying Twitter handle %s", handle)
-	uri = "https://shadowban.eu/.api/" + handle
-
-	ctx, cancel := context.WithTimeout(context.TODO(), 5*time.Second)
-	defer cancel()
-
-	resp, err := ctxhttp.Get(ctx, &http.Client{
-		Timeout: 5 * time.Second,
-	}, uri)
-
-	if err != nil {
-		return fmt.Errorf("failed to request %s: %v", uri, err)
-	}
-
-	switch resp.StatusCode {
-	case 429:
-		// We got rate limited by the API. Fail-open.
-		klog.Warningf("rate limited by shadowban API trying to verify %s", uri)
-		return nil
-	case 200:
-		var sr shadowbanResponse
-		if err := json.NewDecoder(resp.Body).Decode(&sr); err != nil {
-			return fmt.Errorf("failed to decode response: %v", err)
-		}
-
-		if !sr.Profile.Exists {
-			return fmt.Errorf("Twitter handle %s does not exist", handle)
-		}
-
-		if !sr.Profile.HasTweets {
-			return fmt.Errorf("Twitter handle %s has no tweets", handle)
-		}
-	case 500:
-		var sr shadowbanErrorResponse
-		if err := json.NewDecoder(resp.Body).Decode(&sr); err != nil {
-			return fmt.Errorf("failed to decode response: %v", err)
-		}
-
-		if !sr.Profile.Exists {
-			return fmt.Errorf("Twitter handle %s does not exist", handle)
-		}
-
-		if !sr.Profile.HasTweets {
-			return fmt.Errorf("Twitter handle %s has no tweets", handle)
-		}
-	default:
-		return fmt.Errorf("invalid shadowban api response code: %d", resp.StatusCode)
-	}
-
 	return nil
 }
 
