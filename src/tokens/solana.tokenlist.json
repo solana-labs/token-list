@@ -460,16 +460,16 @@
       "name": "Dogecoin Cash",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GGupQCMnyEmHKcqFu72qCTm6yEYpVyhouY9dSAMEXLsC/logo.png",
-      "extensions": {
-        "twitter": "https://twitter.com/dogec_cash",
-        "website": "https://www.dogecoincash.info"
-      },
       "tags": [
         "community-token",
         "meme-token",
         "doge",
         "dogecoin"
-      ]
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/dogec_cash",
+        "website": "https://www.dogecoincash.info"
+      }
     },
     {
       "chainId": 101,
@@ -39696,8 +39696,8 @@
         "community-token"
       ],
       "extensions": {
-      	"website": "https://vortxtoken.com",
-      	"twitter": "https://twitter.com/VortXToken"
+        "twitter": "https://twitter.com/VortXToken",
+        "website": "https://vortxtoken.com"
       }
     },
     {
@@ -58829,7 +58829,7 @@
         "community-token",
         "general-token"
       ],
-     "extensions": {
+      "extensions": {
         "description": "Dintcoin is a decentralized global payments infrastructure that enables greater economic opportunity for everyone, everywhere.",
         "instagram": "https://instagram.com/dint",
         "twitter": "https://twitter.com/dint",
@@ -63658,6 +63658,20 @@
         "discord": "https://discord.com/invite/jDr6sCM3jE",
         "twitter": "https://twitter.com/SharkSociety_",
         "website": "https://billionairesharksociety.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HRTjPxVy6f7q2L9tajRm3fDZnDQc2cpaFVPukjbwftqS",
+      "symbol": "NFTHRTJ",
+      "name": "SOLKITTY NFT COOL APE NFT 69",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HRTjPxVy6f7q2L9tajRm3fDZnDQc2cpaFVPukjbwftqS/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://solkitty.io/nft/cool-ape-nft-69"
       }
     }
   ],
