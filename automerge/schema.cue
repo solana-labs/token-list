@@ -19,7 +19,6 @@ import (
 // Grandfathered non-compliant symbol names.
 #SymbolWhitelist: ("GÜ" |
 	"W technology" |
-	"weFTX Token" |
 	"SHBL LP token" |
 	"Unlimited Energy" |
 	"Need for Speed" |
@@ -49,7 +48,9 @@ import (
 
 // Grandfathered non-compliant token names.
 #NameWhitelist: (
-		"Mike Krow's Official Best Friend Super Kawaii Kasu Token" | "B ❤ P")
+	"Mike Krow's Official Best Friend Super Kawaii Kasu Token" |
+	"B ❤ P" |
+	"PHISHING SCAM TOKEN, PLEASE IGNORE" )
 
 // INCOMPATIBLE: may contain -
 // INCOMPATIBLE: max 20 characters (vs. 10)
@@ -80,7 +81,7 @@ import (
 }
 
 #URL: =~ #"^(ipfs|http[s]?)://(?:[a-zA-Z]|[0-9]|[$-_@.&+#~]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+$"#
-#TelegramURL: =~ #"^https://t.me/((\w){5,32}|joinchat/[\w-]{16})$"#
+#TelegramURL: =~ #"^https://t.me/([\w\+]{5,32}|joinchat/[\w-]{16})$"#
 
 #Extensions: {
 	website?: #URL
@@ -131,7 +132,7 @@ import (
 	name: strings.MinRunes(1) & strings.MaxRunes(50) & =~"^[ \\w.'+\\-%/À-ÖØ-öø-ÿ:&\\[\\]\\(\\)]+$" | #NameWhitelist
 
 	// The symbol for the token; must be alphanumeric
-	symbol: =~"^[a-zA-Z0-9+\\-%/$.]+$" & strings.MinRunes(1) & strings.MaxRunes(20) | #SymbolWhitelist
+	symbol: =~"^[a-zA-Z0-9+\\-%/$_.]+$" & strings.MinRunes(1) & strings.MaxRunes(20) | #SymbolWhitelist
 
 	// A URI to the token logo asset; if not set, interface will
 	// attempt to find a logo based on the token address; suggest SVG
