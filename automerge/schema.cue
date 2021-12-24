@@ -58,6 +58,7 @@ import (
 	"Bird.Money (Wormhole v1)" |
 	"Ustur Wod.bod" |
 	"rendo.club" |
+	"probably.legal" |
 	"Kaizen.Finance" |
 	"1sol.io Token" |
 	"Kaizen.Finance Locked" |
