@@ -24343,38 +24343,56 @@
     {
       "chainId": 101,
       "address": "CiKu4eHsVrc1eueVQeHn7qhXTcVu95gSQmBpX4utjL9z",
-      "symbol": "weSHIB",
+      "symbol": "SHIB",
       "name": "SHIBA INU (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmU8BZDCVQuVGyX25ApGGkRy2KKG2QDqe4UhKrxYbNMjwr/",
       "tags": [
         "wrapped",
-        "wormhole"
-      ]
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+        "assetContract": "https://etherscan.io/address/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "shiba-inu"
+      }
     },
     {
       "chainId": 101,
       "address": "HysWcbHiYY9888pHbaqhwLYZQeZrcQMXKQWRqS7zcPK5",
-      "symbol": "weAXS",
-      "name": "Axie Infinity Shard (Wormhole)",
+      "symbol": "AXSet",
+      "name": "Axie Infinity Shard (Wormhole from Ethereum)",
       "decimals": 8,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmVUzbiJP2xm2rH69Y42rmTxD8MZxEpGmvdfVKe551zZcR/",
       "tags": [
         "wrapped",
-        "wormhole"
-      ]
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+        "assetContract": "https://etherscan.io/address/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "axie-infinity"
+      }
     },
     {
       "chainId": 101,
       "address": "4Hx6Bj56eGyw8EJrrheM6LBQAvVYRikYCWsALeTrwyRU",
-      "symbol": "weDYDX",
+      "symbol": "DYDX",
       "name": "dYdX (Wormhole)",
       "decimals": 8,
       "logoURI": "https://cloudflare-ipfs.com/ipfs/QmWvzRABL7bNs3wjMy6vjvaZs3525XwQDaPspibkqwa1wQ/",
       "tags": [
         "wrapped",
-        "wormhole"
-      ]
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x92d6c1e31e14520e676a687f0a93788b716beff5",
+        "assetContract": "https://etherscan.io/address/0x92d6c1e31e14520e676a687f0a93788b716beff5",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "dydx"
+      }
     },
     {
       "chainId": 101,
@@ -25989,25 +26007,31 @@
     {
       "chainId": 101,
       "address": "7dgHoN8wBZCc5wbnQ2C47TDnBMAxG4Q5L3KjP67z8kNi",
-      "symbol": "weMANA",
+      "symbol": "MANA",
       "name": "Decentraland (Wormhole)",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/878/thumb/decentraland-mana.png",
       "tags": [
         "wrapped",
-        "wormhole"
-      ]
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+        "assetContract": "https://etherscan.io/address/0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "decentraland"
+      }
     },
     {
       "chainId": 101,
       "address": "49c7WuCZkQgc3M4qH8WuEUNXfgwupZf1xqWkDQ7gjRGt",
-      "symbol": "weSAND",
+      "symbol": "SAND",
       "name": "Sandbox (Wormhole)",
       "decimals": 8,
       "logoURI": "https://gemini.com/images/currencies/icons/default/sand.svg",
       "tags": [
         "wrapped",
-        "wormhole"
+        "ethereum"
       ]
     },
     {
