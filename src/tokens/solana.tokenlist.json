@@ -20874,7 +20874,7 @@
       "chainId": 101,
       "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
       "symbol": "ETH",
-      "name": "Wrapped Ether (Wormhole)",
+      "name": "Ether (Wormhole)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs/logo.png",
       "tags": [
@@ -21078,7 +21078,7 @@
       "chainId": 101,
       "address": "9gP2kCy3wA1ctvYWQk75guqXuHfrEomqydHLtcTCqiLa",
       "symbol": "BNB",
-      "name": "Wrapped BNB (Wormhole)",
+      "name": "Binance Coin (Wormhole)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9gP2kCy3wA1ctvYWQk75guqXuHfrEomqydHLtcTCqiLa/logo.png",
       "tags": [
@@ -23168,7 +23168,8 @@
       "extensions": {
         "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "assetContract": "https://bscscan.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7"
+        "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+        "coingeckoId": "usd-coin"
       }
     },
     {
@@ -23214,7 +23215,8 @@
       "extensions": {
         "address": "0x55d398326f99059ff775485246999027b3197955",
         "assetContract": "https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955",
-        "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7"
+        "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+        "coingeckoId": "tether"
       }
     },
     {
@@ -24618,7 +24620,7 @@
       "chainId": 101,
       "address": "Gz7VkD4MacbEB6yC5XD3HcumEiYx2EtDYYrfikGsvopG",
       "symbol": "MATICpo",
-      "name": "Wrapped Matic (Wormhole from Polygon)",
+      "name": "Matic (Wormhole from Polygon)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/C7NNPWuZCNjZBfW5p6JvGsR8pUdsRpEdP1ZAhnoDwj7h/logo.png",
       "tags": [
