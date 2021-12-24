@@ -58529,6 +58529,286 @@
       "extensions": {
         "twitter": "https://twitter.com/solitairetoken"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "3vAs4D1WE6Na4tCgt4BApgFfENbm8WY7q4cSPD1yM4Cg",
+      "symbol": "AAVE",
+      "name": "Aave Token (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5DQZ14hLDxveMH7NyGmTmUTRGgVAVXADp3cP2UHeH6hM/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "assetContract": "https://etherscan.io/address/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "aave",
+        "serumV3Usdc": "8WZrmdpLckptiVKd2fPHPjewRVYQGQkjxi9vzRYG1sfs",
+        "serumV3Usdt": "LghsMERQWQFK3zWMTrUkoyAJARQw2wSmcYZjexeN3zy"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "G3h8NZgJozk9crme2me6sKDJuSQ12mNCtvC9NbSWqGuk",
+      "symbol": "AKRO",
+      "name": "Akropolis (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G3h8NZgJozk9crme2me6sKDJuSQ12mNCtvC9NbSWqGuk/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7",
+        "assetContract": "https://etherscan.io/address/0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "akropolis",
+        "serumV3Usdc": "G3h8NZgJozk9crme2me6sKDJuSQ12mNCtvC9NbSWqGuk",
+        "serumV3Usdt": "DvbiPxKzuXZPcmUcYDqBz1tvUrXYPsNrRAjSeuwHtmEA"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3UCMiSnkcnkPE1pgQ5ggPCBv6dXgVUy16TmMUe1WpG9x",
+      "symbol": "ALEPH",
+      "name": "Aleph.im (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3UCMiSnkcnkPE1pgQ5ggPCBv6dXgVUy16TmMUe1WpG9x/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x27702a26126e0B3702af63Ee09aC4d1A084EF628",
+        "assetContract": "https://etherscan.io/address/0x27702a26126e0B3702af63Ee09aC4d1A084EF628",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "aleph-im",
+        "serumV3Usdc": "Fw4mvuE7KZmTjQPxP2sRpHwPDfRMWnKBupFZGyW9CAQH",
+        "serumV3Usdt": "GZeHR8uCTVoHVDZFRVXTgm386DK1EKehy9yMS3BFChcL"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CU5L8JC83hyYZdf1phzy6a7X58eTtPjs7mHL3QKCcLfh",
+      "symbol": "COMP",
+      "name": "Compound (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3XnhArdJydrpbr9Nbj8wNUaozPL9WAo9YDyNWakhTm9X/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        "assetContract": "https://etherscan.io/address/0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "compound-governance-token",
+        "serumV3Usdc": "CU5L8JC83hyYZdf1phzy6a7X58eTtPjs7mHL3QKCcLfh",
+        "serumV3Usdt": "9gA6T3HRCMTVTULte5pJsXjMDUGRtygTKLbMny6eRcyM"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "A9ik2NrpKRRG2snyTjofZQcTuav9yH3mNVHLsLiDQmYt",
+      "symbol": "FRONT",
+      "name": "Frontier Token (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A9ik2NrpKRRG2snyTjofZQcTuav9yH3mNVHLsLiDQmYt/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0xf8C3527CC04340b208C854E985240c02F7B7793f",
+        "assetContract": "https://etherscan.io/address/0xf8C3527CC04340b208C854E985240c02F7B7793f",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "frontier",
+        "serumV3Usdc": "B95oZN5HCLGmFAhbzReWBA9cuSGPFQAXeuhm2FfpdrML",
+        "serumV3Usdt": "DZTYyy1L5Pr6DmTtYY5bEuU9g3LQ4XGvuYiN3zS25yG7"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HGsLG4PnZ28L8A4R5nPqKgZd86zUUdmfnkTRnuFJ5dAX",
+      "symbol": "GRT",
+      "name": "Graph Token (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BmxZ1pghpcoyT7aykj7D1o4AxWirTqvD7zD2tNngjirT/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        "assetContract": "https://etherscan.io/address/0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "the-graph",
+        "serumV3Usdc": "4PD799gihM2SdM8g7PxfSWgQR8cWGNiuzmNzcL2RgpSu",
+        "serumV3Usdt": "5bzmeSmiCzeyDQvaSsQhEega7e2jhH39cFCkT4eqSDSx"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2ueY1bLcPHfuFzEJq7yN1V2Wrpu8nkun9xG2TVCE1mhD",
+      "symbol": "HGET",
+      "name": "Hedget (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2ueY1bLcPHfuFzEJq7yN1V2Wrpu8nkun9xG2TVCE1mhD/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x7968bc6a03017eA2de509AAA816F163Db0f35148",
+        "assetContract": "https://etherscan.io/address/0x7968bc6a03017eA2de509AAA816F163Db0f35148",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "hedget",
+        "serumV3Usdc": "27e1mB6UoPohbc3MmwMXu5QM7b2E3k5Mbhwv6JguwyXg",
+        "serumV3Usdt": "BdRzTEKb7Qdu4tWts5zXjwcpQErZxEzvShKZ5QcthMag"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5Wc4U1ZoQRzF4tPdqKQzBwRSjYe8vEf3EvZMuXgtKUW6",
+      "symbol": "LUA",
+      "name": "LuaToken (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5Wc4U1ZoQRzF4tPdqKQzBwRSjYe8vEf3EvZMuXgtKUW6/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0xb1f66997a5760428d3a87d68b90bfe0ae64121cc",
+        "assetContract": "https://etherscan.io/address/0xb1f66997a5760428d3a87d68b90bfe0ae64121cc",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "luaswap",
+        "serumV3Usdc": "J9imTcEeahZqKuaoQaPcCeSGCMWL8qSACpK4B7bC8NN4",
+        "serumV3Usdt": "BMJ3CvQZ57cNnuc3Lz5Pb6cW6Sr9kZGz3qz2bJQTE24A"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CaGa7pddFXS65Gznqwp42kBhkJQdceoFVT7AQYo8Jr8Q",
+      "symbol": "MATH",
+      "name": "MATH Token (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CaGa7pddFXS65Gznqwp42kBhkJQdceoFVT7AQYo8Jr8Q/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x08d967bb0134f2d07f7cfb6e246680c53927dd30",
+        "assetContract": "https://etherscan.io/address/0x08d967bb0134f2d07f7cfb6e246680c53927dd30",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "math",
+        "serumV3Usdc": "G8L1YLrktaG1t8YBMJs3CwV96nExvJJCSpw3DARPDjE2",
+        "serumV3Usdt": "CkvNfATB7nky8zPLuwS9bgcFbVRkQdkd5zuKEovyo9rs"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9BsnSWDPfbusseZfnXyZ3un14CyPMZYvsKjWY3Y8Gbqn",
+      "symbol": "PERP",
+      "name": "Perpetual (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9sNArcS6veh7DLEo7Y1ZSbBCYtkuPVE6S3HhVrcWR2Zw/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+        "assetContract": "https://etherscan.io/address/0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "perpetual-protocol",
+        "serumV3Usdc": "Ao8HgYFCT2BJHxSusZbpJCPhvFMFXZApqN2uy2trbQRa",
+        "serumV3Usdt": "5EoZqJZrmKmq1yeRkYAerbJhcs92DZbCtW86EhPYCio2"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DkbE8U4gSRuGHcVMA1LwyZPYUjYbfEbjW8DMR3iSXBzr",
+      "symbol": "RSR",
+      "name": "Reserve Rights (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/64oqP1dFqqD8NEL4RPCpMyrHmpo31rj3nYxULVXvayfW/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8",
+        "assetContract": "https://etherscan.io/address/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "reserve-rights-token",
+        "serumV3Usdc": "GqgkxEswUwHBntmzb5GpUhKrVpJhzreSruZycuJwdNwB",
+        "serumV3Usdt": "2j2or38X2FUbpkK4gkgvjDtqN3ibkKw3v5yn7o2gHqPc"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5hcdG6NjQwiNhVa9bcyaaDsCyA1muPQ6WRzQwHfgeeKo",
+      "symbol": "SWAG",
+      "name": "Swag Token (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5hcdG6NjQwiNhVa9bcyaaDsCyA1muPQ6WRzQwHfgeeKo/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x87eDfFDe3E14c7a66c9b9724747a1C5696b742e6",
+        "assetContract": "https://etherscan.io/address/0x87eDfFDe3E14c7a66c9b9724747a1C5696b742e6",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "swag-finance",
+        "serumV3Usdc": "wSkeLMv3ktJyLm51bvQWxY2saGKqGxbnUFimPxbgEvQ",
+        "serumV3Usdt": "6URQ4zFWvPm1fhJCKKWorrh8X3mmTFiDDyXEUmSf8Rb2"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FTtXEUosNn6EKG2SQtfbGuYB4rBttreQQcoWn1YDsuTq",
+      "symbol": "UBXT",
+      "name": "UpBots (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FTtXEUosNn6EKG2SQtfbGuYB4rBttreQQcoWn1YDsuTq/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x8564653879a18C560E7C0Ea0E084c516C62F5653",
+        "assetContract": "https://etherscan.io/address/0x8564653879a18C560E7C0Ea0E084c516C62F5653",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "upbots",
+        "serumV3Usdc": "Hh4p7tJpqkGW6xsHM2LiPPMpJg43fwn5TbmVmfrURdLY",
+        "serumV3Usdt": "5xhjc3ZtAwnBK3qsaro28VChL7WrxY9N4SG6UZpYxpGc"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BXZX2JRJFjvKazM1ibeDFxgAngKExb74MRXzXKvgikxX",
+      "symbol": "YFI",
+      "name": "yearn.finance (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7TK6QeyTsnTT6KsnK2tHHfh62mbjNuFWoyUc8vo3CmmU/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+        "assetContract": "https://etherscan.io/address/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "yearn-finance",
+        "serumV3Usdc": "BiJXGFc1c4gyPpv9HLRJoKbZewWQrTCHGuxYKjYMQJpC",
+        "serumV3Usdt": "9sue9TZAeUhNtNAPPGb9dke7rkJeXktGD3u8ZC37GWnQ"
+      }
     }
   ],
   "version": {
