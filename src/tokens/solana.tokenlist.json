@@ -18,17 +18,7 @@
       "name": "lp-token",
       "description": "Asset representing liquidity provider token"
     },
-    "wrapped-sollet": {
-      "name": "wrapped-sollet",
-      "description": "Asset wrapped using sollet bridge"
-    },
-    "wrapped": {
-      "name": "wrapped",
-      "description": "Asset wrapped using wormhole bridge"
-    },
-    "leveraged": {
-      "name": "leveraged",
-      "description": "Leveraged asset"
+…      "description": "Leveraged asset"
     },
     "bull": {
       "name": "bull",
@@ -58419,6 +58409,17 @@
       "name": "Fakir coin",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/faki16/crypto/main/crypto.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4fs5LAN4kpfefkEtuLW8MGY9GD8A34Ey6AMCGkiNGfnH",
+      "symbol": "CBAS",
+      "name": "CBas Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/retro-token/CBas-token/main/logo.png",
       "tags": [
         "social-token"
       ]
