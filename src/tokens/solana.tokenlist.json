@@ -33787,18 +33787,6 @@
     },
     {
       "chainId": 101,
-      "address": "CobcsUrt3p91FwvULYKorQejgsm5HoQdv5T8RUZ6PnLA",
-      "symbol": "wePEOPLE",
-      "name": "ConstitutionDAO (Wormhole)",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/20612/large/GN_UVm3d_400x400.jpg",
-      "tags": [
-        "wrapped",
-        "wormhole"
-      ]
-    },
-    {
-      "chainId": 101,
       "address": "7v5K9VFiqNTWnmkK4wofVfRzG7f7AGQ7WLXLmP91UibU",
       "symbol": "DOGExTESLA",
       "name": "DogeTesla",
@@ -59654,6 +59642,114 @@
         "assetContract": "https://etherscan.io/address/0x15d4c048f83bd7e37d49ea4c83a07267ec4203da",
         "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
         "coingeckoId": "gala"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Gq2norJ1kBemBp3mPfkgAUMhMMmnFmY4zEyi26tRcxFB",
+      "symbol": "ANKR",
+      "name": "Ankr Network (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Gq2norJ1kBemBp3mPfkgAUMhMMmnFmY4zEyi26tRcxFB/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+        "assetContract": "https://etherscan.io/address/0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "ankr-network"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CLQsDGoGibdNPnVCFp8BAsN2unvyvb41Jd5USYwAnzAg",
+      "symbol": "ENS",
+      "name": "Ethereum Name Service (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CLQsDGoGibdNPnVCFp8BAsN2unvyvb41Jd5USYwAnzAg/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+        "assetContract": "https://etherscan.io/address/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "ethereum-name-service"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ABAq2R9gSpDDGguQxBk4u13s4ZYW6zbwKVBx15mCMG8",
+      "symbol": "GT",
+      "name": "GateChainToken (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ABAq2R9gSpDDGguQxBk4u13s4ZYW6zbwKVBx15mCMG8/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0xe66747a101bff2dba3697199dcce5b743b454759",
+        "assetContract": "https://etherscan.io/address/0xe66747a101bff2dba3697199dcce5b743b454759",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "gatetokenGT"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CobcsUrt3p91FwvULYKorQejgsm5HoQdv5T8RUZ6PnLA",
+      "symbol": "PEOPLE",
+      "name": "ConstitutionDAO (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CobcsUrt3p91FwvULYKorQejgsm5HoQdv5T8RUZ6PnLA/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
+        "assetContract": "https://etherscan.io/address/0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "constitutiondao"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6Q5fvsJ6kgAFmisgDqqyaFd9FURYzHf8MCUbpAUaGZnE",
+      "symbol": "SOS",
+      "name": "SOS (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6Q5fvsJ6kgAFmisgDqqyaFd9FURYzHf8MCUbpAUaGZnE/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x3b484b82567a09e2588a13d54d032153f0c0aee0",
+        "assetContract": "https://etherscan.io/address/0x3b484b82567a09e2588a13d54d032153f0c0aee0",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "opendao"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FUGsN8H74WjRBBMfQWcf9Kk32gebA9VnNaGxqwcVvUW7",
+      "symbol": "gOHM",
+      "name": "Governance OHM (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FUGsN8H74WjRBBMfQWcf9Kk32gebA9VnNaGxqwcVvUW7/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x0ab87046fbb341d058f17cbc4c1133f25a20a52f",
+        "assetContract": "https://etherscan.io/address/0x0ab87046fbb341d058f17cbc4c1133f25a20a52f",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "governance-ohm"
       }
     }
   ],
