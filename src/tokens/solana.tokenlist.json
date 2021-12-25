@@ -28578,15 +28578,15 @@
       ],
       "extensions": {
         "address": "D3cm6WRnyBct3p7vFqyTt2CaynsGPuVQT2zW6WHSTX6q",
+        "coingeckoId": "theca",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/theca/",
         "description": "Theca has the mission to protect, spread and promote knowledge through blockchain technology, making the works of authors accessible to anyone. Theca: the first blockchain library",
         "discord": "https://discord.com/invite/YfbVenPbvq",
         "instagram": "https://www.instagram.com/theca_org",
         "medium": "https://theca.medium.com/",
+        "serumV3Usdc": "6uH2rvVUySwnVFw7CMNV4HTzuxHTUNC7pK22pXcqgSey",
         "twitter": "https://twitter.com/Theca_org",
-        "website": "https://theca.org",
-        "coingeckoId": "theca",
-        "coinmarketcap": "https://coinmarketcap.com/currencies/theca/",
-        "serumV3Usdc": "6uH2rvVUySwnVFw7CMNV4HTzuxHTUNC7pK22pXcqgSey"
+        "website": "https://theca.org"
       }
     },
     {
@@ -33522,8 +33522,8 @@
         "community-token"
       ],
       "extensions": {
-        "description": "The Leading Play-to-Earn Fantasy Game on Solana",
         "coingeckoId": "solchicks-token",
+        "description": "The Leading Play-to-Earn Fantasy Game on Solana",
         "discord": "https://discord.gg/solchicks",
         "telegram": "https://t.me/solchicksnft",
         "twitter": "https://twitter.com/SolChicksNFT",
@@ -33693,10 +33693,10 @@
         "NFT-Gaming"
       ],
       "extensions": {
-        "discord": "https://discord.com/invite/rDX8uwd2sg",
         "coingeckoId": "racefi",
-        "telegram": "https://t.me/racefi_io",
         "description": "The fist AI/ML Play-to-Earn Racing Game on Solana",
+        "discord": "https://discord.com/invite/rDX8uwd2sg",
+        "telegram": "https://t.me/racefi_io",
         "website": "https://racefi.io/"
       }
     },
@@ -54335,9 +54335,9 @@
         "utility-token"
       ],
       "extensions": {
+        "discord": "https://discord.gg/3TwxDEZ2Ss",
         "github": "https://github.com/nanoX-finance",
         "medium": "https://medium.com/@nano.x",
-        "discord": "https://discord.gg/3TwxDEZ2Ss",
         "twitter": "https://twitter.com/nanox_finance",
         "website": "https://nanox.finance"
       }
@@ -59751,6 +59751,17 @@
         "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
         "coingeckoId": "governance-ohm"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "6nhvTcjTTWXvy2QHyXN8RuhUdu7jS37tn4TjLNZFKdDq",
+      "symbol": "MATE",
+      "name": "Matecoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ellocomoli/matecoin/main/matecoin1.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
