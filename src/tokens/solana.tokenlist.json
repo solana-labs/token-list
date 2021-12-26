@@ -31492,10 +31492,16 @@
       "chainId": 101,
       "address": "EKSM2sjtptnvkqq79kwfAaSfVudNAtFYZSBdPe5jeRSt",
       "symbol": "SOLCH",
-      "name": "Solanacash",
+      "name": "SolanaCash",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EKSM2sjtptnvkqq79kwfAaSfVudNAtFYZSBdPe5jeRSt/logo.png",
+      "tags": [
+        "DeFi"
+      ],
       "extensions": {
+        "address": "0x7c8acC8803c5A9637F31713adAb5b4Cca5525037",
+        "assetContract": "https://bscscan.com/address/0x7c8acC8803c5A9637F31713adAb5b4Cca5525037",
+        "bridgeContract": "https://bscscan.com/address/0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
         "twitter": "https://twitter.com/solanacash_io",
         "website": "https://solanacash.io"
       }
