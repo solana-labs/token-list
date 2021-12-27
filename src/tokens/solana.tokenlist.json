@@ -62032,18 +62032,19 @@
       "decimals": 6,
       "logoURI": "https://creatorpro.live/simbolo-creator-white.jpg"
     },
-    ",
-      "symbol": "ANCH",
-      "name": "AnchorToken",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/Amsterdam-Lawyers/anchor/main/anchorPNG.png",
+    {
+      "chainId": 101,
+      "address": "BdCoGbymX5oVmuD48oMt2GcgG8K7E4pxUYuuA8RNNaJd",
+      "symbol": "ADD-BLOCKXCH",
+      "name": "Account of BlockExchange",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/Amsterdam-Lawyers/new/main/anchorPNG.png",
       "tags": [
-        "anchortoken",
-        "anchor-token",
-        "BlockExchange"
-      ]
-    }
-  ],
+      ],
+      "extensions": {
+        "website":
+      }
+    },
   "version": {
     "major": 0,
     "minor": 3,
