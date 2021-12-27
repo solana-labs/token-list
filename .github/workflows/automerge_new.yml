@@ -19,7 +19,7 @@ jobs:
 
       - run: cd automerge && go build -o ~/automerge github.com/solana-labs/token-list/automerge
 
-      - run: ~/automerge -v=1 -setRemoteForCI
+      - run: ~/automerge -v = 1 -setRemoteForCI
         env:
           GITHUB_APP_PEM: "${{ secrets.TL_APP_PEM }}"
 
