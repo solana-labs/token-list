@@ -1,0 +1,21 @@
+name: Build
+
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - uses: actions/setup-go@v2
+        with:
+          go-version: '^1.17.3'
+
+      - run: yarn
+      - run: yarn test
+      - run: go install cuelang.org/go/cmd/cue@v0.4.0
+      - run: PATH=$PATH:~/go/bin ./validate.sh
