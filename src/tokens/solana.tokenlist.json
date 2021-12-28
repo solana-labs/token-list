@@ -35251,12 +35251,17 @@
       "extensions": {
         "website": "https://www.thepandas.io/"
       }
-    },
-    {
+    },{
       "chainId": 101,
-      "address": "HdCxSk9RNi2FofU1VSmcBAxYgJXbb5DHY3K613M66iPC",
-      "symbol": "UPY",
-      "name": "Upsilon",
+      "address": "AJnZPCRayvrPheXpEcJDCDU7pHvsRvVsxD8UfSEyMa4p",
+      "symbol": "KEIK",
+      "name": "KeithKoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/theNetworkChuck/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    }
       "decimals": 9,
       "logoURI": "https://imgur.com/f3K0KJG",
       "tags": [
@@ -36159,7 +36164,17 @@
       }
     },
     {
-      "chainId": 101,
+      "chainId": 101,{
+        "chainId": 101,
+        "address": "AJnZPCRayvrPheXpEcJDCDU7pHvsRvVsxD8UfSEyMa4p",
+        "symbol": "KEIK",
+        "name": "KeithKoin",
+        "decimals": 0,
+        "logoURI": "https://raw.githubusercontent.com/theNetworkChuck/crypto/main/logo.png",
+        "tags": [
+          "social-token"
+        ]
+      }
       "address": "sHitufpUtFkrAGTNnhsoGaV7KhPNE4XHMp8PA5PuMwd",
       "symbol": "SHIT",
       "name": "Shitcoins",
@@ -37051,7 +37066,17 @@
     },
     {
       "chainId": 103,
-      "address": "ENhqgyaVeCWzR3AUhVTXDWmqhELFoigU9pdg6GfS9JAN",
+      "address": "ENhqgyaVeCWzR3AUhVTXDWmqhELFoigU9pdg6GfS9JAN",{
+        "chainId": 101,
+        "address": "AJnZPCRayvrPheXpEcJDCDU7pHvsRvVsxD8UfSEyMa4p",
+        "symbol": "KEIK",
+        "name": "KeithKoin",
+        "decimals": 0,
+        "logoURI": "https://raw.githubusercontent.com/theNetworkChuck/crypto/main/logo.png",
+        "tags": [
+          "social-token"
+        ]
+      }
       "symbol": "SDK",
       "name": "SDK-Dev",
       "decimals": 6,
@@ -62530,6 +62555,19 @@
       "tags": [
         "social-token",
         "meme-coin"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4n5gki64NixRwDenKNmMYNprcy8BhdN9onEDXoi2WCX5",
+      "symbol": "TAKA",
+      "name": "Taka Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/TAKACOIN/crypto/main/taka.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "community-token"
       ]
     }
   ],
