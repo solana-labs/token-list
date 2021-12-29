@@ -12,7 +12,7 @@ import {
 
 test('Token list is filterable by a tag', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
-    .filterByChainId(ENV.Devnet)
+    .filterByChainId(ENV.MainnetBeta)
     .filterByTag('nft')
     .getList();
 
@@ -21,7 +21,7 @@ test('Token list is filterable by a tag', async (t) => {
 
 test('Token list can exclude by a tag', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
-    .filterByChainId(ENV.Devnet)
+    .filterByChainId(ENV.MainnetBeta)
     .excludeByTag('nft')
     .getList();
 
@@ -30,15 +30,15 @@ test('Token list can exclude by a tag', async (t) => {
 
 test('Token list can exclude by a chain', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
-    .excludeByChainId(ENV.Devnet)
+    .excludeByChainId(ENV.MainnetBeta)
     .getList();
 
-  t.false(list.some((item) => item.chainId === ENV.Devnet));
+  t.false(list.some((item) => item.chainId === ENV.MainnetBeta));
 });
 
 test('Token list returns new object upon filter', async (t) => {
   const list = await new TokenListProvider().resolve(Strategy.Static);
-  const filtered = list.filterByChainId(ENV.Devnet);
+  const filtered = list.filterByChainId(ENV.MainnetBeta);
   t.true(list !== filtered);
   t.true(list.getList().length !== filtered.getList().length);
 });
@@ -67,7 +67,7 @@ test('Token list is a valid json', async (t) => {
 test('Token list does not have duplicate entries', async (t) => {
   const list = await new TokenListProvider().resolve(Strategy.Static);
   list
-    .filterByChainId(ENV.Devnet)
+    .filterByChainId(ENV.MainnetBeta)
     .getList()
     .reduce((agg, item) => {
       if (agg.has(item.address)) {
