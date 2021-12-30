@@ -56857,14 +56857,6 @@
     },
     {
       "chainId": 101,
-      "address": "8NXzq2GgXJBfXswhG46tQWTjt6NpiTsBseKs46yuTrVr",
-      "symbol": "creatorPRO",
-      "name": "creatorPRO",
-      "decimals": 6,
-      "logoURI": "https://creatorpro.live/simbolo-creator-white.jpg"
-    },
-    {
-      "chainId": 101,
       "address": "B6aJ3TGfme3SMnLSouHXqWXjVFqYyqj7czzhzr8WJFAi",
       "symbol": "RAD",
       "name": "RAD",
@@ -57496,17 +57488,6 @@
       "tags": [
         "social-token",
         "utility-token"
-      ]
-    },
-    {
-      "chainId": 101,
-      "address": "GV3MjuGin8aTG6Rhc1vR1QFYp8gq5vW39jnNPLrbzmPi",
-      "symbol": "creatorpro",
-      "name": "creator",
-      "decimals": 6,
-      "logoURI": "https://creatorpro.live/simbolo-creator.png",
-      "tags": [
-        "creator-token"
       ]
     },
     {
@@ -60496,20 +60477,6 @@
       "logoURI": "https://raw.githubusercontent.com/Raggastan/RaggaTkn/main/raggatoken.png",
       "tags": [
         "social-token"
-      ]
-    },
-    {
-      "chainId": 101,
-      "address": "H2rMQMa6kPpWwg2GraKyiiPwnayDBoBNg9WNVuafqXKc",
-      "symbol": "creator",
-      "name": "creators",
-      "decimals": 6,
-      "logoURI": "https://creatorpro.live/simbolo-creator.jpg",
-      "tags": [
-        "creator",
-        "creators",
-        "creator-token",
-        "artist"
       ]
     },
     {
@@ -65565,18 +65532,22 @@
       ]
     },
     {
-      "chainId": 101,
+      "chainId": 103,
       "address": "BH3BxwXgk1PGwM7wKXNaxVEFTATjHaoJqRx4QcETquK3",
       "symbol": "OLY",
       "name": "Solympic",
-      "decimals": 4,
-      "logoURI": "https://github.com/denizTutuncu/SOLympic/blob/main/SOLympic.png",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BH3BxwXgk1PGwM7wKXNaxVEFTATjHaoJqRx4QcETquK3/logo.png",
       "tags": [
         "sports-token",
         "social-token",
         "community-token",
         "oly"
-      ]
+      ],
+      "extensions": {
+        "description": "OLY is a virtual sports gaming cryptocurrency",
+        "website": "https://github.com/denizTutuncu/SOLympic"
+      }
     },
     {
       "chainId": 101,
@@ -66104,6 +66075,17 @@
       "name": "the Cute Guineapig Token",
       "decimals": 0,
       "logoURI": "https://github.com/dgloverwork/cuteguineapig/raw/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "BCaiBkEkDGoPddGsYH65iSLTZW7tr58QsmQ3Vfs6oCWv",
+      "symbol": "HC",
+      "name": "Hosting Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BCaiBkEkDGoPddGsYH65iSLTZW7tr58QsmQ3Vfs6oCWv/logo.png",
       "tags": [
         "social-token"
       ]
