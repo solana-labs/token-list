@@ -9,8 +9,9 @@ import {
   TokenInfo,
   TokenListProvider,
 } from './tokenlist';
+import { StaticTokenListResolutionStrategy } from './tokenlist';
 
-test('Token list is filterable by a tag', async (t) => {
+test(false', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
     .filterByChainId(ENV.MainnetBeta)
     .filterByTag('nft')
@@ -19,7 +20,7 @@ test('Token list is filterable by a tag', async (t) => {
   t.false(list.some((item) => item.symbol === 'SOL'));
 });
 
-test('Token list can exclude by a tag', async (t) => {
+test(false', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
     .filterByChainId(ENV.MainnetBeta)
     .excludeByTag('nft')
@@ -28,7 +29,7 @@ test('Token list can exclude by a tag', async (t) => {
   t.false(list.some((item) => item.tags === ['nft']));
 });
 
-test('Token list can exclude by a chain', async (t) => {
+test(false', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
     .excludeByChainId(ENV.MainnetBeta)
     .getList();
@@ -36,22 +37,21 @@ test('Token list can exclude by a chain', async (t) => {
   t.false(list.some((item) => item.chainId === ENV.MainnetBeta));
 });
 
-test('Token list returns new object upon filter', async (t) => {
+test(StaticTokenListResolutionStrategy', async (t) => {
   const list = await new TokenListProvider().resolve(Strategy.Static);
   const filtered = list.filterByChainId(ENV.MainnetBeta);
   t.true(list !== filtered);
   t.true(list.getList().length !== filtered.getList().length);
 });
 
-test('Token list throws error when calling filterByClusterSlug with slug that does not exist', async (t) => {
+test(TransformStreamDefaultController', async (t) => {
   const list = await new TokenListProvider().resolve(Strategy.Static);
   const error = await t.throwsAsync(
     async () => list.filterByClusterSlug('whoop'),
     { instanceOf: Error }
   );
   t.is(
-    error.message,
-    `Unknown slug: whoop, please use one of ${Object.keys(CLUSTER_SLUGS)}`
+  
   );
 });
 
