@@ -65647,14 +65647,18 @@
       "address": "HrpVMYXim8endssf6jYXMnDqKAhpd2hWmi9nfWXjeEio",
       "symbol": "CYBC",
       "name": "Cybster Coin",
-      "decimals": 0,
+      "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/cybster/crypto-cybc/main/logo.png",
       "tags": [
         "social-token",
         "utility-token",
         "community-token",
         "altcoin"
-      ]
+      ],
+      "extensions": {
+        "description": "Cybster Coin",
+        "website": "https://coin.cybster.com"
+      }
     },
     {
       "chainId": 101,
