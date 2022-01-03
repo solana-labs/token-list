@@ -67882,6 +67882,7 @@
     },
     {
       "chainId": 101,
+<<<<<<< HEAD
       "address": "J8UCMUQTTjthdRMHsYNoZTSfbVypD8JProEytWep4xMg",
       "symbol": "XXY",
       "name": "XXY Token",
@@ -67892,6 +67893,57 @@
         "utility-token",
         "community-token"
       ]
+=======
+      "address": "9a1QRtcd2drso6NqP5SSDw33JY4FzKjvPJup5Q5KS1JK",
+      "symbol": "JIN",
+      "name": "Jin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/jakelovescoding/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FGLe9dhZGUAKJrPeDyCTc5bAEzcf5eTg22uPBktNCCjb",
+      "symbol": "BMKN",
+      "name": "Boomer Koin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/fibrou/boomerKoin/main/ouSauna.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "F8jzEHiKCTure7oCQZBfzsB48guwk6REh7dSLbXamBvz",
+      "symbol": "QBLB",
+      "name": "CubaLibre Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/QubaLibre/CyrptoCubaLibre/main/cuba-libre-cocktail-can-be-used-as-icon-logo-vector-5024289.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "51Yi21CBG7sejLmV7StpSWDdxdLAAzE8G7vK3r4VbUZh",
+      "symbol": "DOJAKOIN",
+      "name": "Doja Koin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/51Yi21CBG7sejLmV7StpSWDdxdLAAzE8G7vK3r4VbUZh/logo.png",
+      "tags": [
+        "utility-token",
+        "game-token",
+        "game-currency",
+        "GameFi",
+        "Gaming"
+      ],
+      "extensions": {
+        "description": "Doja Koin is the future of gaming economies empowering players to transact across completely separate digital worlds.",
+        "twitter": "https://twitter.com/DojaKoin"
+      }
+>>>>>>> 79ff9129c71c9e37b59b6f7353599e147170ec61
     }
   ],
   "version": {
