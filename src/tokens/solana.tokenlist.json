@@ -19139,6 +19139,19 @@
     },
     {
       "chainId": 101,
+      "address": "HtxznfExBatdX28kMFDvmvU1rXVwiG3JSWcNPdFQ4PLh",
+      "symbol": "xAVAX",
+      "name": "Synthetic AVAX",
+      "decimals": 6,
+      "logoURI": "https://www.synthetify.io/icons/xavax.svg",
+      "extensions": {
+        "coingeckoId": "avalanche-2",
+        "twitter": "https://twitter.com/synthetify",
+        "website": "https://synthetify.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "3fBzUqm2tJuWVUHSBVULBS6W8FGcMiszMyuCdsddrqFZ",
       "symbol": "LAG",
       "name": "Lagrange",
@@ -24065,6 +24078,7 @@
         "Gaming"
       ],
       "extensions": {
+        "coingeckoId": "particle-technology",
         "twitter": "https://twitter.com/particle_techno",
         "website": "https://particle.technology/"
       }
@@ -37580,6 +37594,7 @@
         "DOGE"
       ],
       "extensions": {
+        "coingeckoId": "sol-baby-doge",
         "serumV3Usdc": "GCmfmqvNbY9LXWJ39fD8wNDn1HLj4sF2m9WAoNVVYaFt",
         "twitter": "https://twitter.com/sbabydogecoin",
         "website": "http://solbabydoge.com/"
@@ -67814,6 +67829,75 @@
       "extensions": {
         "twitter": "https://twitter.com/beeman_nl"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "3SVkD1JwJVoHujqLUA8PDjk7YzvqhEaPLjvtJW5B4VkJ",
+      "symbol": "PCOW",
+      "name": "Puppy Cow",
+      "decimals": 0,
+      "logoURI": "https://github.com/0xjpuff/puppycow/blob/main/puppycow2.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "C4ZUAZkaKRYTxbqqGz6kTgLhimxisBLYhWQvL16mTNdy",
+      "symbol": "EHT",
+      "name": "EggHead Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/ossiHQ/eggtoken/token_picture.png",
+      "tags": [
+        "community-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.com/invite/etUarp4x8y",
+        "twitter": "https://twitter.com/eggheadnft"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "84TbR3kru8bRL4dtrZQkjn9csbxY59dWemv1v1nyt4ix",
+      "symbol": "TRICK",
+      "name": "TrickCoin",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/TrickCoin/Trick/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "E6s1cJi6Qs8EE14FNkF9pbNu1pwhLWGH2jMRZeStWsAk",
+      "symbol": "DAYC",
+      "name": "Dumb Ape Yacht Club Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E6s1cJi6Qs8EE14FNkF9pbNu1pwhLWGH2jMRZeStWsAk/logo.png",
+      "tags": [
+        "game-token",
+        "meme-token",
+        "nft",
+        "gaming"
+      ],
+      "extensions": {
+        "description": "10,000 Seed phrases phished and stored on Solana.",
+        "discord": "https://discord.gg/8eHfqeyx3T",
+        "twitter": "https://twitter.com/DAYCNFT69",
+        "website": "https://dayc.art"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DBpegaZtddc9ux5HcRaTz1JRzGpQAYVxuMNrmYfXeMYP",
+      "symbol": "GSK",
+      "name": "GSKoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/mustacheman6000/GSKoin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
