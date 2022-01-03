@@ -69062,7 +69062,6 @@
       "decimals": 7,
       "logoURI": "https://raw.githubusercontent.com/rhinogroup/catch_logos/main/catch_logo.png",
       "tags": [
-        "social-token",
         "utility-token"
       ],        
         "extensions": {
@@ -69076,10 +69075,12 @@
       "name": "CatchUS",
       "decimals": 7,
       "logoURI": "https://raw.githubusercontent.com/rhinogroup/catch_logos/main/catch_us_logo.png",
-      "tags": [
-        "social-token",
-        "utility-token"
-      ],        
+      "tags": {
+        "stablecoin": {
+          "name": "stablecoin",
+          "description": "Fixed to an external asset, the US dollar"
+        }
+      },
       "extensions": {
         "website": "https://www.catchcoin.me/"
       }
@@ -69091,10 +69092,12 @@
       "name": "CatchER",
       "decimals": 7,
       "logoURI": "https://raw.githubusercontent.com/rhinogroup/catch_logos/main/catch_eu_logo.png",
-      "tags": [
-        "social-token",
-        "utility-token"
-      ],
+      "tags": {
+        "stablecoin": {
+          "name": "stablecoin",
+          "description": "Fixed to an external asset, the Euro"
+        }
+      },
       "extensions": {
         "website": "https://www.catchcoin.me/"
       }
