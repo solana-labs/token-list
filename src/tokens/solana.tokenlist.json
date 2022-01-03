@@ -62043,8 +62043,24 @@
       ],
       "extensions": {
         "website":
+      },
+      {
+        "chainId": 101,
+        "address": "5GM7CaQgs95NzHZLvYv3swkwKHbYYip8JCPWLagbBasH",
+        "symbol": "STONE",
+        "name": "EURO Stone",
+        "decimals": 2,
+        "logoURI": "https://raw.githubusercontent.com/Amsterdam-Lawyers/stone/main/new-stones.png",
+        "tags": [
+          "blockstone",
+          "DeFi",
+          "euro"
+        ],
+        "extensions": {
+          "website": "https://blocksto.ne/euro-stone"
+        }
       }
-    },
+    ]
   "version": {
     "major": 0,
     "minor": 3,
