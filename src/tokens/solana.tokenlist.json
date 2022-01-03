@@ -68953,7 +68953,23 @@
       "tags": [
         "social-token"
       ]
-    }
+    },
+	{
+	  "chainId": 101,
+      "address": "HLXyg4tHL5yyaXrwhW75B7gPSKF5vmrfJhKVzHMjpMAM",
+      "symbol": "SST",
+      "name": "Shiba Sol",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HLXyg4tHL5yyaXrwhW75B7gPSKF5vmrfJhKVzHMjpMAM/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token"
+      ],
+      "extensions": {
+		"description": "Shiba Sol creates tools for the metaverse.",
+        "twitter": "https://twitter.com/ShibaSolToken"
+      }
+	}
   ],
   "version": {
     "major": 0,
