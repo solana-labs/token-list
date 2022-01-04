@@ -69107,14 +69107,8 @@
       "tags": [
         "social-token"
       ]
-    }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
-  },
-  {
+    },
+    {
       "chainId": 101,
       "address": "FhGkz2uJRDkTKsFMeGPhreeM8E2yNmVmbyv6ny2zm8YD",
       "symbol": "MTVR",
@@ -69130,9 +69124,17 @@
         "play2earn",
         "governance"
       ],
-      "extensions":
-        "telegram: "https://t.me/MetaVersana",
+      "extensions": {
+        "telegram": "https://t.me/MetaVersana",
         "discord": "https://discord.gg/nBmznwNacT",
         "twitter": "https://twitter.com/MetaVersana",
         "website": "https://metaversana.com"
-          }
+      }
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 3,
+    "patch": 3
+  }
+}
