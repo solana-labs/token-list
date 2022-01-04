@@ -29438,10 +29438,10 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "vitall-markets",
         "discord": "https://discord.gg/Z3cFSSZKwU",
-		"website": "https://www.vitallmarkets.com/",
-		"twitter": "https://twitter.com/vitallmarkets",
-		"coingeckoId": "vitall-markets"
+        "twitter": "https://twitter.com/vitallmarkets",
+        "website": "https://www.vitallmarkets.com/"
       }
     },
     {
@@ -70011,6 +70011,34 @@
       "name": "Bill Bucks",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/johnson1776/crypto/main/coin_photo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "HUUvafwSaQ4XGyRuwSHfTRjTGMT4fdkZtbBgcXtBcLh7",
+      "symbol": "SpongeBob",
+      "name": "BOB",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HUUvafwSaQ4XGyRuwSHfTRjTGMT4fdkZtbBgcXtBcLh7/logo.png",
+      "tags": [
+        "MEME",
+        "SpongeBob-token",
+        "BOB-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/spongebob_sol",
+        "website": "https://www.sponge-bob.space/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "C9t8kDQk2oPRC7awv1wfW9NCPZWY4EoXVZGyPnydWG9G",
+      "symbol": "RNC",
+      "name": "Royal Nugget Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/royalnuggetgaming/crypto/main/logo.png",
       "tags": [
         "social-token"
       ]
