@@ -19156,23 +19156,6 @@
     },
     {
       "chainId": 101,
-      "address": "3fBzUqm2tJuWVUHSBVULBS6W8FGcMiszMyuCdsddrqFZ",
-      "symbol": "LAG",
-      "name": "Lagrange",
-      "decimals": 9,
-      "logoURI": "https://cdn.jsdelivr.net/gh/Lagrange-fi/Lag-Token-/logo.png",
-      "tags": [
-        "exchange-token"
-      ],
-      "extensions": {
-        "discord": "https://discord.gg/cwydgMVT",
-        "github": "https://github.com/Lagrange-fi",
-        "twitter": "https://twitter.com/Lagrange_fi",
-        "website": "https://lagrange.fi/"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "EAniGDVY2VKUtZxvpHnbazHfZgfo3bp61TxUGHzw3Cn7",
       "symbol": "007E",
       "name": "007 Exchange",
@@ -29448,14 +29431,17 @@
       "address": "2FKuYE5D75e9Fjg3ymGBrFfVc8tVKac4SeyvZn5dGNUz",
       "symbol": "VITAL",
       "name": "VITAL Token",
-      "decimals": 8,
+      "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2FKuYE5D75e9Fjg3ymGBrFfVc8tVKac4SeyvZn5dGNUz/logo.png",
       "tags": [
         "community-token",
         "utility-token"
       ],
       "extensions": {
-        "discord": "https://discord.gg/Z3cFSSZKwU"
+        "coingeckoId": "vitall-markets",
+        "discord": "https://discord.gg/Z3cFSSZKwU",
+        "twitter": "https://twitter.com/vitallmarkets",
+        "website": "https://www.vitallmarkets.com/"
       }
     },
     {
@@ -43005,8 +42991,15 @@
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/andreamarin23/crypto/main/My_logo.png",
       "tags": [
-        "social-token"
-      ]
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/wWThnqNrud",
+        "instagram": "https://instagram.com/breezymodels/",
+        "website": "https://www.breezymodels.ml/",
+        "youtube": "https://www.youtube.com/c/BreezyChannel"
+      }
     },
     {
       "chainId": 101,
@@ -45113,8 +45106,10 @@
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MEANeD3XDdUmNMsRGjASkSWdC8prLYsoRJ61pPeHctD/logo.svg",
       "extensions": {
+        "coingeckoId": "meanfi",
         "discord": "https://discord.meanfi.com/",
         "medium": "https://meandao.medium.com",
+        "serumV3Usdc": "3WXrxhrj4PXYUwW4ozBjxdSxwEp9ELKf3vETxXTqdiQJ",
         "twitter": "https://twitter.com/meanfinance",
         "website": "https://www.meanfi.com/"
       }
@@ -45261,7 +45256,9 @@
         "utility-token"
       ],
       "extensions": {
-        "twitter": "https://twitter.com/kunci_coin",
+        "instagram": "https://instagram.com/kuncicoin_id",
+        "telegram": "https://t.me/kunciofficial",
+        "twitter": "https://twitter.com/Kuncicoin_id",
         "website": "https://kuncicoin.com/"
       }
     },
@@ -45590,8 +45587,8 @@
       "address": "G3MRfuriArrzbCN148ftKJbTeMhxxrnM5zrQGJvnAEM5",
       "symbol": "KONG",
       "name": "Kong",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G3MRfuriArrzbCN148ftKJbTeMhxxrnM5zrQGJvnAEM5/logo.png"
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G3MRfuriArrzbCN148ftKJbTeMhxxrnM5zrQGJvnAEM5/shinylogo.png"
     },
     {
       "chainId": 101,
@@ -69949,6 +69946,102 @@
         "twitter": "https://twitter.com/cryptoquedogs",
         "website": "https://cryptoquedogs.com"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "5kMBto3Eu1sUKM6h9E5x4Lj6QBqaJcpr9V5GqP44EbU3",
+      "symbol": "SSCSTK",
+      "name": "SSC NFT Stake Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5kMBto3Eu1sUKM6h9E5x4Lj6QBqaJcpr9V5GqP44EbU3/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "AknLt433zhYv2mpoHAMqCBBe4fTjWRWEamAkDu6yJJnU",
+      "symbol": "CLEM",
+      "name": "SUPERCLEMTOKEN",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AknLt433zhYv2mpoHAMqCBBe4fTjWRWEamAkDu6yJJnU/logo.png",
+      "tags": [
+        "community-token",
+        "meme-token"
+      ],
+      "extensions": {
+        "website": "http://clementlefevre.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "APeybLoCHSYMPTnijUNsrMN1jNmJoYP6EAHRD6H91ZXX",
+      "symbol": "SIGN",
+      "name": "SIGN token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/calebkow/sign-solana/main/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "facebook": "https://www.facebook.com/signdotnet/",
+        "linkedin": "https://www.linkedin.com/company/signdotnet",
+        "twitter": "https://twitter.com/SignDotNet",
+        "website": "https://www.sign.net/",
+        "youtube": "https://www.youtube.com/channel/UCnJ076pE1Cd2kdneAtveKkQ"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4LJ3u1972PSqD48aDiYZrhZ2QjaEaHgpChWth7mnMDtC",
+      "symbol": "WJT",
+      "name": "Winjit",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4LJ3u1972PSqD48aDiYZrhZ2QjaEaHgpChWth7mnMDtC/logo.png",
+      "tags": [
+        "social-token",
+        "solana",
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "A8mWck4HsvTWt5QkvAPsg3sK5g5b8Aoh1eCydUB5Q6Cc",
+      "symbol": "BBUX",
+      "name": "Bill Bucks",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/johnson1776/crypto/main/coin_photo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "HUUvafwSaQ4XGyRuwSHfTRjTGMT4fdkZtbBgcXtBcLh7",
+      "symbol": "SpongeBob",
+      "name": "BOB",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HUUvafwSaQ4XGyRuwSHfTRjTGMT4fdkZtbBgcXtBcLh7/logo.png",
+      "tags": [
+        "MEME",
+        "SpongeBob-token",
+        "BOB-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/spongebob_sol",
+        "website": "https://www.sponge-bob.space/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "C9t8kDQk2oPRC7awv1wfW9NCPZWY4EoXVZGyPnydWG9G",
+      "symbol": "RNC",
+      "name": "Royal Nugget Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/royalnuggetgaming/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
