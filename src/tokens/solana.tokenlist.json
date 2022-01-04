@@ -70094,6 +70094,53 @@
         "omniscoin",
         "solana"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "2oQnVjGZ1Knmbd84aF6RV6Hw4Yexqa78DvGrQg9xzktP",
+      "symbol": "CTH",
+      "name": "Catch",
+      "decimals": 7,
+      "logoURI": "https://raw.githubusercontent.com/rhinogroup/catch_logos/main/catch_logo.png",
+      "tags": [
+        "social-token",
+        "utility-token"
+      ],        
+        "extensions": {
+        "website": "https://www.catchcoin.me/"
+      }
+    },
+    {   
+      "chainId": 101,
+      "address": "5ngVgVwMsWUKeQXYdrgq78qZU29sbnMr9bC3WngHo2Bd",
+      "symbol": "CTHU",
+      "name": "CatchUS",
+      "decimals": 7,
+      "logoURI": "https://raw.githubusercontent.com/rhinogroup/catch_logos/main/catch_us_logo.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "stable-coin"
+      ],        
+      "extensions": {
+        "website": "https://www.catchcoin.me/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6dqyQdTKApZiMMiAnJQhV6fkQVYWdoMw1BPBgtJ1hCCG",
+      "symbol": "CTHE",
+      "name": "CatchER",
+      "decimals": 7,
+      "logoURI": "https://raw.githubusercontent.com/rhinogroup/catch_logos/main/catch_eu_logo.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "stable-coin"
+      ],
+      "extensions": {
+        "website": "https://www.catchcoin.me/"
+      }
     }
   ],
   "version": {
