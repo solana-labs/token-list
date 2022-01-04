@@ -18972,13 +18972,17 @@
         "dgln"
       ],
       "extensions": {
-        "blog": "http://dogelana.com/blog",
+        "blog": "https://dogelana.com/blog",
         "coingeckoId": "dogelana",
         "coinmarketcap": "https://coinmarketcap.com/currencies/dogelana/",
+        "discord": "https://discord.gg/UNjbTguY5x",
         "facebook": "https://facebook.com/dogelana",
-        "telegram": "https://t.me/dogelana",
-        "twitter": "https://twitter.com/dogelana",
-        "website": "http://www.dogelana.com"
+        "instagram": "https://www.instagram.com/realdogelana/",
+        "reddit": "https://www.reddit.com/r/dogelana",
+        "telegram": "https://t.me/realdogelana",
+        "twitter": "https://twitter.com/realdogelana",
+        "website": "https://www.dogelana.com",
+        "youtube": "https://www.youtube.com/channel/UCkUS4exbXFaEVx5wBypMKaQ"
       }
     },
     {
@@ -55338,18 +55342,20 @@
     },
     {
       "chainId": 101,
-      "address": "29UbCm4714GQjbNBjpukFhyzSNSfL3UXjU2KSMQhGD4R",
+      "address": "5SBKK5btXjeaS8w96eCCopwCHQd1g4hbckegtV4MkJhR",
       "symbol": "Wen",
       "name": "Wen Token",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/29UbCm4714GQjbNBjpukFhyzSNSfL3UXjU2KSMQhGD4R/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5SBKK5btXjeaS8w96eCCopwCHQd1g4hbckegtV4MkJhR/logo.png",
       "tags": [
         "community-token",
         "meme-token",
         "social-token"
       ],
       "extensions": {
-        "twitter": "https://twitter.com/notifbutwen"
+        "discord": "https://discord.gg/EMWVVXQnMy",
+        "twitter": "https://twitter.com/notifbutwen",
+        "website": "https://notifbutwen.com"
       }
     },
     {
@@ -68996,12 +69002,15 @@
       "chainId": 101,
       "address": "2BoMWBCQhXx6XJyQG1T6SiPb2gMoFdbei4eGoKJLrHb4",
       "symbol": "TYL",
-      "name": "Toyuli Coin",
+      "name": "ToYuLi Coin",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2BoMWBCQhXx6XJyQG1T6SiPb2gMoFdbei4eGoKJLrHb4/logo.png",
       "tags": [
         "social-token"
-      ]
+      ],
+      "extensions": {
+        "website": "https://toyuli.shop"
+      }
     },
     {
       "chainId": 101,
@@ -69435,6 +69444,94 @@
         "twitter": "https://twitter.com/plutusfi",
         "website": "https://plutusfi.io"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "Fnh2L7St6meFyNamoKa2axffnbLJgpJkASJMT5k51Dro",
+      "symbol": "TSRCT",
+      "name": "Tesseract",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/PapaBearDoes/TesseractCrypto/main/logo.png",
+      "tags": [
+        "meme-token",
+        "community-token"
+      ],
+      "extensions": {
+        "description": "Tesseract Comics and Games, Glenwood Springs, CO",
+        "twitter": "https://twitter.com/tesseractcomics",
+        "website": "http://tesseractcomicsandgames.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EVRDAsLpiJ8VYQU34vUfdcyVqhZBMDaEzb6RFKJ4NWqQ",
+      "symbol": "CRUM",
+      "name": "Bread Crumbz",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/sirEgghead/breadcrumbz/main/bread_crumbz.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "6mCgDJDgVQfM5jdXPxwxXBmkBLafnqsBuyKPmTrwwb6h",
+      "symbol": "MEIST",
+      "name": "Meist Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/sayedaman1/meist/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FAxygYQuLWUZNYh18b7ikn4oaeCJB63ATEga4fDxDvpX",
+      "symbol": "LGB",
+      "name": "Lets Go Brandon Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/FreedomSeeds/logo/main/LGB-logo.png",
+      "tags": [
+        "social-token",
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8HpZjkbjCTFNP4o1guxMuNC4LqbauAoyKZdTBv9cBnR6",
+      "symbol": "EAST",
+      "name": "Easter Inu",
+      "decimals": 0,
+      "logoURI": "https://storage.cloud.google.com/solana-crypto/easter-bunny.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4oKouQ3Q97Ns2EjdiGp9NFHvXnXBXZfKaYU22KLpxpjR",
+      "symbol": "BBC",
+      "name": "BB Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/madtc/BB_Coin/main/bb.PNG",
+      "tags": [
+        "social-token",
+        "meme-token",
+        "sol-token",
+        "BB-Coin",
+        "BBC"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9xST7WVW9m92rojrv7tQk3NDeLmvzTiRzMErJvKBqWTM",
+      "symbol": "INSC",
+      "name": "Instant Coin",
+      "decimals": 0,
+      "logoURI": "https://github.com/spenserbuck/crypto/blob/main/InstantCoin.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
