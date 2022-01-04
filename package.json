@@ -2,6 +2,7 @@
   "name": "@solana/spl-token-registry",
   "version": "0.2.1221",
   "description": "Solana Token Registry",
+  "sideEffects": false,
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
   "module": "dist/module/index.js",
