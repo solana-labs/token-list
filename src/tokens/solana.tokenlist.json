@@ -71118,23 +71118,38 @@
       "symbol": "PIF",
       "name": "Pay It Forward",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PiFfYeSabfSPhxnXUdy5GMoG84nbLG1Y4D9ZmHBGjpZ/logo.jpg"
-    },
-    {
-      "chainId": 101,
-      "address": "7dHWMDQf9TDopoFdaJfg8kREq1u4hFFfLRMvEMrzV17C",
-      "symbol": "PH",
-      "name": "Peace Heaven",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/Pralad120/amg/main/amg1.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PiFfYeSabfSPhxnXUdy5GMoG84nbLG1Y4D9ZmHBGjpZ/logo.jpg",
       "tags": [
         "social-token"
       ]
+    },
+    
+      {
+        "chainId": 101,
+        "address": "7dHWMDQf9TDopoFdaJfg8kREq1u4hFFfLRMvEMrzV17C",
+        "symbol": "PH",
+        "name": "Peace Heaven",
+        "decimals": 9,
+        "logoURI": "https://raw.githubusercontent.com/Pralad120/amg/main/amg1.png",
+        "tags": [
+          "social-token"
+        ]
+      },
+      {
+        "chainId": 101,
+        "address": "GcogbzLCZnbo8SHLFLL1DsD5xBWKoDMvo1Tw4YxcUuaN",
+        "symbol": "KAZ",
+        "name": "saveKAZ",
+        "decimals": 0,
+        "logoURI": "https://github.com/dkolesni-prog/ma-baker/blob/main/index.png",
+        "tags": [
+          "prophet"
+        ]
+      }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
   }
-}
