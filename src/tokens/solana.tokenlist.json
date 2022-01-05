@@ -69375,6 +69375,17 @@
     },
     {
       "chainId": 101,
+      "address": "4c9WaR8GXXckgEjZpF6QS6ztzF16HDmNJgvVo91cT3EQ",
+      "symbol": "BUCK",
+      "name": "Bucks",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/RobotBuck/token/main/Buck%20logo.png",
+      "extensions": {
+      "website": "https://en.wikipedia.org/wiki/Deer"
+      }
+      },
+      {
+      "chainId": 101,
       "address": "DQEkgMHfaAU4GwdLar3Q6Qj7mGqrc8mqddcTM2Cndf3V",
       "symbol": "KIRA",
       "name": "Poochie Pie",
@@ -69383,23 +69394,11 @@
       "tags": [
       "social-token"
       ]
-      },
-      
-      {
-      "chainId": 101,
-      "address": "4c9WaR8GXXckgEjZpF6QS6ztzF16HDmNJgvVo91cT3EQ",
-      "symbol": "BUCK",
-      "name": "Bucks",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/RobotBuck/token/main/Buck%20logo.png",
-      "tags": [
-      "social-token"
-      ]
       }
       ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
-  }
-}
+      "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
+      }
+      }
