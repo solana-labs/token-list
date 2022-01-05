@@ -69097,18 +69097,7 @@
         "social-token"
       ]
     },
-    {
-      "chainId": 101,
-      "address": "619Bg4JtPfsZ68qQYHwejq97nn2PQMPziS8dTWeu9ARK",
-      "symbol": "GNC",
-      "name": "GnestaCoin",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/ratman75/GnestaCoin/main/logo.png",
-      "tags": [
-        "social-token"
-      ]
-    },
-    {
+	{
       "chainId": 101,
       "address": "FhGkz2uJRDkTKsFMeGPhreeM8E2yNmVmbyv6ny2zm8YD",
       "symbol": "MTVR",
@@ -69124,12 +69113,22 @@
         "play2earn",
         "governance"
       ],
-      "extensions": {
+      "extensions":
         "telegram": "https://t.me/MetaVersana",
         "discord": "https://discord.gg/nBmznwNacT",
         "twitter": "https://twitter.com/MetaVersana",
         "website": "https://metaversana.com"
-      }
+    },
+    {
+      "chainId": 101,
+      "address": "619Bg4JtPfsZ68qQYHwejq97nn2PQMPziS8dTWeu9ARK",
+      "symbol": "GNC",
+      "name": "GnestaCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ratman75/GnestaCoin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
@@ -69137,4 +69136,4 @@
     "minor": 3,
     "patch": 3
   }
-}
+  
