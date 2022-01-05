@@ -70271,11 +70271,103 @@
       "tags": [
         "solana"
       ]
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "chainId": 101,
+<<<<<<< Updated upstream
+      "address": "5DENpiMn7EfJyJT98PaVVPUPJQYbDSCF76D9fX11G1Nw",
+      "symbol": "NxTB",
+      "name": "NxToken Beta",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/nexfortisme/asset-store/main/NxTokenBeta.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "6jKtpdVu1QSPe88BprZB8rqTXmGuQNiX49mH3ePJZSqF",
+      "symbol": "LND",
+      "name": "Lend 2 Us Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/lend2-us/resources/main/images/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "github": "https://github.com/lend2-us",
+        "twitter": "https://twitter.com/Lend2Us",
+        "website": "https://lend2.us/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4TT62MBAWgE1m9hJ7ABG7VvgGvnth3eXe6N3MB6xKSqt",
+      "symbol": "ELL",
+      "name": "Elliel",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4TT62MBAWgE1m9hJ7ABG7VvgGvnth3eXe6N3MB6xKSqt/logo.png",
+      "tags": [
+        "artists-token",
+        "charity-token",
+        "community-token",
+        "ott-platform",
+        "social-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://elliel.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5xEbwdxKaB8T2fNatZi8CGg99EjJoTFnnBssJXqEU6SZ",
+      "symbol": "FBMP",
+      "name": "ForgeBots Mint Pass",
+      "decimals": 0,
+      "logoURI": "https://i.ibb.co/NWYJs2W/forgebots-mintpass.gif",
+      "extensions": {
+        "description": "Mint pass for ForgeBots",
+        "imageUrl": "https://i.ibb.co/NWYJs2W/forgebots-mintpass.gif",
+        "twitter": "https://twitter.com/forgebots",
+        "website": "https://forgebots.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "BoAiSzbhzDZb3kXVA3J1pCYNUEaKBKFrGZqvQWMVtB1v",
+      "symbol": "BOM",
+      "name": "BOM",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Roastoth/BOM/main/1641341675907.png",
+      "tags": [
+        "social-token"
+      ]
+=======
+   {
+        "chainId": 101,
+        "address": "8ssNv1qPnN1UAfGzLjT9gDTPed2eqXsJgKq5wMB8ESan",
+        "symbol": "$WHALES",
+        "name": "INTERSTELLAR WHALES TOKEN",
+        "decimals": 6,
+        "logoURI": "https://github.com/Interstellarwhales/Assests/blob/main/1459.png?raw=true",
+        "tags": [
+          "utility-token"
+        ],
+        "extensions": {
+          "discord": "https://discord.gg/xJjUYsWPN3",
+          "twitter": "https://twitter.com/STELLAR_WHALES",
+          "website": "https://interstellarwhalesnft.com"
+        }
+>>>>>>> Stashed changes
+      }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
+>>>>>>> Stashed changes
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
   }
-}
