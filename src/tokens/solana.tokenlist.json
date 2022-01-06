@@ -14583,8 +14583,8 @@
         "utility-token"
       ],
       "extensions": {
-        "description": "GU token for the Kugle play to earn game.",
         "coingeckoId": "gu",
+        "description": "GU token for the Kugle play to earn game.",
         "twitter": "https://twitter.com/Kuglesworld",
         "website": "https://kugle.org"
       }
@@ -71912,6 +71912,36 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "HzQZrkhxN39E36qL7qa1tgpexTcwTresKCz2w9ff6f5r",
+      "symbol": "PLCN",
+      "name": "Pelican",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Medicante/pelican-coin/main/pell.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "G8naNPQvUYHT4r93WjNJAjefPAyQk94FbkPkzucxycE1",
+      "symbol": "HSMINT",
+      "name": "High Society WL Mint Pass",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G8naNPQvUYHT4r93WjNJAjefPAyQk94FbkPkzucxycE1/logo.png",
+      "tags": [
+        "NFT",
+        "general-token",
+        "community-token",
+        "mint-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/a9Btmz4m4c",
+        "twitter": "https://twitter.com/highsocietynfts",
+        "website": "https://highsocietynft.io"
+      }
     }
   ],
   "version": {
