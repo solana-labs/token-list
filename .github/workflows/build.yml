@@ -19,3 +19,5 @@ jobs:
       - run: yarn test
       - run: go install cuelang.org/go/cmd/cue@v0.4.0
       - run: PATH=$PATH:~/go/bin ./validate.sh
+      - name: fusionner les demandes d'extraction (action de fusion automatique)
+      - uses: pascalgn/automerge-action@v0.14.3
