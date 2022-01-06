@@ -14583,8 +14583,8 @@
         "utility-token"
       ],
       "extensions": {
-        "description": "GU token for the Kugle play to earn game.",
         "coingeckoId": "gu",
+        "description": "GU token for the Kugle play to earn game.",
         "twitter": "https://twitter.com/Kuglesworld",
         "website": "https://kugle.org"
       }
@@ -71909,6 +71909,17 @@
       "name": "Ferdosia",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/FerdosiaEngine/FRD-Coin/main/favicon.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "HzQZrkhxN39E36qL7qa1tgpexTcwTresKCz2w9ff6f5r",
+      "symbol": "PLCN",
+      "name": "Pelican",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Medicante/pelican-coin/main/pell.png",
       "tags": [
         "social-token"
       ]
