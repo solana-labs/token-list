@@ -32627,10 +32627,10 @@
         "meme-token"
       ],
       "extensions": {
+        "coingeckoId": "cry-coin",
         "discord": "https://discord.gg/kkY6dT4ARX",
         "twitter": "https://twitter.com/crycoinofficial",
-        "website": "https://crycoin.io",
-        "coingeckoId": "cry-coin"
+        "website": "https://crycoin.io"
       }
     },
     {
@@ -73447,7 +73447,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AtEMmWJkSk1RWBwzXc3hGvzhJjsR95SprEqjiLxjWRnC/logo.png",
       "extensions": {
-        "twitter":"https://twitter.com/AtEMWORLD",
+        "twitter": "https://twitter.com/AtEMWORLD",
         "website": "https://artiswarrecords.com"
       }
     },
@@ -74432,6 +74432,123 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "5pAprHtXs9k4L3tYPVMGrUkMt24r9GN8Z7AkSbMooGNN",
+      "symbol": "MLC",
+      "name": "MallCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/alinftminter/sol.mall/main/logo.pnj.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FhUtknp2SYWNJrbrpHDWr2nF6HpBVCUbehD7VWAy2Nt9",
+      "symbol": "LDY",
+      "name": "Lovely DanDy Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FhUtknp2SYWNJrbrpHDWr2nF6HpBVCUbehD7VWAy2Nt9/logo.png",
+      "tags": [
+        "social-token"
+      ],
+      "extensions": {
+        "website": "http://lovelydandy.ch"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "G3Yp8RSzAKbkYyB8cX1RW1uRd8Vm7ZgfGvPxPiqnMXyU",
+      "symbol": "HSKY",
+      "name": "HSKY Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/lukapiplica/cryptotoken/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "2EKzQjEbEBqygpy7sqBk7E9Bj7NFsFJp9PDqqxTzVA2E",
+      "symbol": "LILI",
+      "name": "lilium",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/hamdielhamdi/token-list/main/assets/mainnet/2EKzQjEbEBqygpy7sqBk7E9Bj7NFsFJp9PDqqxTzVA2E/lilium.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "D33w6Fc6m54oEx4h44BYXAWa2LGur1N7twafs9iBSVLj",
+      "symbol": "GINKGO",
+      "name": "GinkCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D33w6Fc6m54oEx4h44BYXAWa2LGur1N7twafs9iBSVLj/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8U4GvLbQqVbgAQMpkEQKNtF2B37KuxCXiuG6g2mxo6oC",
+      "symbol": "LION",
+      "name": "CryptoLions Coin",
+      "decimals": 7,
+      "logoURI": "https://raw.githubusercontent.com/jrwesty23/CryptoLions/main/CryptoLionToken.jpg",
+      "tags": [
+        "utility-token",
+        "security-token",
+        "etherum",
+        "nft",
+        "social-token",
+        "lions",
+        "cubs"
+      ],
+      "extensions": {
+        "address": "8U4GvLbQqVbgAQMpkEQKNtF2B37KuxCXiuG6g2mxo6oC",
+        "description": "CryptoLions Metaverse Coin",
+        "facebook": "https://facebook.com/CryptoLIONsCanada",
+        "website": "http://cryptolions.ca"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "78uaHEgTUELYBUbNX2FgijH64FudDJERGZHzrArSV3Le",
+      "symbol": "PIDT",
+      "name": "Pixel Drone Ticket",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/78uaHEgTUELYBUbNX2FgijH64FudDJERGZHzrArSV3Le/logo.png",
+      "tags": [
+        "game",
+        "nft",
+        "mint",
+        "mint-ticket",
+        "ticket",
+        "pixel",
+        "pixelinvaderz"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/ms4ZPsCVvr",
+        "twitter": "https://twitter.com/pixelinvaderz",
+        "website": "https://pixelinvaderz.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Fm6Fb91iMW48S8cSJVVenMZDm1jS284r1a5z9264fvws",
+      "symbol": "FRISCO",
+      "name": "Frisco",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/andyfife/crypto/main/frisco.png",
+      "tags": [
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://milkywayfiasco.com/"
+      }
     }
   ],
   "version": {
