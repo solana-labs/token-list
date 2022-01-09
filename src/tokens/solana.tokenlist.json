@@ -32627,10 +32627,10 @@
         "meme-token"
       ],
       "extensions": {
+        "coingeckoId": "cry-coin",
         "discord": "https://discord.gg/kkY6dT4ARX",
         "twitter": "https://twitter.com/crycoinofficial",
-        "website": "https://crycoin.io",
-        "coingeckoId": "cry-coin"
+        "website": "https://crycoin.io"
       }
     },
     {
@@ -73447,7 +73447,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AtEMmWJkSk1RWBwzXc3hGvzhJjsR95SprEqjiLxjWRnC/logo.png",
       "extensions": {
-        "twitter":"https://twitter.com/AtEMWORLD",
+        "twitter": "https://twitter.com/AtEMWORLD",
         "website": "https://artiswarrecords.com"
       }
     },
@@ -74429,6 +74429,17 @@
       "name": "Crypto Frog",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/BartKmiecik/CryptoFrog/main/Logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5pAprHtXs9k4L3tYPVMGrUkMt24r9GN8Z7AkSbMooGNN",
+      "symbol": "MLC",
+      "name": "MallCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/alinftminter/sol.mall/main/logo.pnj.jpg",
       "tags": [
         "social-token"
       ]
