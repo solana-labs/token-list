@@ -28272,7 +28272,10 @@
         "serumV3Usdc": "BHfFJM36MirbBtLCcnZokwRvxUPxk7Ez6EAT6k44q6Go",
         "telegram": "https://t.me/solardexofficialchat",
         "twitter": "https://twitter.com/solar_dex",
-        "website": "https://solardex.finance/"
+        "website": "https://solardex.finance/",
+		"serumV3Usdc" :  "BHfFJM36MirbBtLCcnZokwRvxUPxk7Ez6EAT6k44q6Go",
+		"coingeckoId" :  "solar",
+		"coinmarketcap" :  "https://coinmarketcap.com/currencies/solardex/"
       }
     },
     {
@@ -75531,6 +75534,21 @@
         "payment-token",
         "NFT"
       ]
+    }
+	,{
+      "chainId": 101,
+      "address": "9RxfJAtr4T6s7uvj1zdjvwviKRwnDCJdKQqUZmX5FYiC",
+      "symbol": "SXMAS",
+      "name": "Sockmas",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9RxfJAtr4T6s7uvj1zdjvwviKRwnDCJdKQqUZmX5FYiC/logo.png",
+      "tags": [
+        "utility"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/socksonsolana",
+        "website": "https://www.solsocks.exchange/"
+      }
     }
   ],
   "version": {
