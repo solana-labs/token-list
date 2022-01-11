@@ -1376,11 +1376,11 @@
       ],
       "extensions": {
         "discord": "https://discord.gta.live",
-        "telegram": "https://t.me/gtanft",
-        "website": "https://gta.live",
-        "twitter": "https://twitter.com/gtanft",
         "medium": "https://gtanft.medium.com/",
-        "reddit": "https://reddit.com/user/gtanft"
+        "reddit": "https://reddit.com/user/gtanft",
+        "telegram": "https://t.me/gtanft",
+        "twitter": "https://twitter.com/gtanft",
+        "website": "https://gta.live"
       }
     },
     {
@@ -16064,12 +16064,11 @@
       ],
       "extensions": {
         "discord": "https://discord.gg/WTwm2V45UZ",
-        "serumV3Usdc": "DukWnNjNS1qQYUNGYj5NJViEfQW793mHwxij3wi9dazM",
-        "twitter": "https://twitter.com/parasol_finance",
-        "telegram": "https://t.me/parasolfinance",
-        "medium": "https://medium.com/@parasol.finance",
         "github": "https://github.com/parasol-finance",
-
+        "medium": "https://medium.com/@parasol.finance",
+        "serumV3Usdc": "DukWnNjNS1qQYUNGYj5NJViEfQW793mHwxij3wi9dazM",
+        "telegram": "https://t.me/parasolfinance",
+        "twitter": "https://twitter.com/parasol_finance",
         "website": "https://parasol-labs.org"
       }
     },
@@ -31093,14 +31092,14 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "tabtrader",
         "description": "TabTrader allows users to trade anywhere and anytime from their mobile device with all the main crypto exchanges accessible through a unified interface.",
         "discord": "https://discord.gg/pSMjEh7paU",
         "medium": "https://medium.com/@tabtraderbtc",
         "telegram": "https://t.me/tabtrader_token_en",
         "twitter": "https://twitter.com/tabtraderpro",
         "website": "https://tab-trader.com/",
-        "youtube": "https://www.youtube.com/c/TabTrader",
-        "coingeckoId": "tabtrader"
+        "youtube": "https://www.youtube.com/c/TabTrader"
       }
     },
     {
@@ -73207,8 +73206,8 @@
       ],
       "extensions": {
         "discord": "https://discord.gg/kPqxFYJUsq",
-        "twitter": "https://twitter.com/xarible",
         "instagram": "https://instagram.com/xarible",
+        "twitter": "https://twitter.com/xarible",
         "website": "http://www.xarible.com/"
       }
     },
@@ -75853,6 +75852,28 @@
         "twitter": "https://twitter.com/garitoken",
         "website": "https://gari.network"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "HFVzTS9Fp558HF9cAcGsTY6NR63naDE86RjcjAVM6VYZ",
+      "symbol": "SGC",
+      "name": "SushiGarden Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Rkm1999/crypto/main/mobile-85f244bc61af3ebce6e6.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3iVT5eeMT67ywdr3jEQVjZnvwhR5gzQtESLhGcH6pN4u",
+      "symbol": "KORN",
+      "name": "Korn Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/FullMoonMiningCo/crypto/main/korn-logo.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
