@@ -1383,17 +1383,19 @@
       "symbol": "GTA",
       "name": "GTA LIVE",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6H87YFkp5LHyN3KzDXa5r3QYce7WTcwYJi9SqwH3TXkQ/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9YdABeMBMjh5Pu8yPkJ9GETGWUT8KUK3B2RYBpjKNPsU/logo.svg",
       "tags": [
-        "GameFi",
-        "DeFi",
-        "MetaVerse",
-        "stablecoin"
+        "game-fi",
+        "utility-token",
+        "meta-verse"
       ],
       "extensions": {
         "discord": "https://discord.gta.live",
-        "telegram": "https://t.me/gta_fiverp",
-        "website": "https://gta.live"
+        "telegram": "https://t.me/gtanft",
+        "website": "https://gta.live",
+        "twitter": "https://twitter.com/gtanft",
+        "medium": "https://gtanft.medium.com/",
+        "reddit": "https://reddit.com/user/gtanft"
       }
     },
     {
@@ -16077,6 +16079,12 @@
       ],
       "extensions": {
         "discord": "https://discord.gg/WTwm2V45UZ",
+        "serumV3Usdc": "DukWnNjNS1qQYUNGYj5NJViEfQW793mHwxij3wi9dazM",
+        "twitter": "https://twitter.com/parasol_finance",
+        "telegram": "https://t.me/parasolfinance",
+        "medium": "https://medium.com/@parasol.finance",
+        "github": "https://github.com/parasol-finance",
+
         "website": "https://parasol-labs.org"
       }
     },
@@ -31106,7 +31114,8 @@
         "telegram": "https://t.me/tabtrader_token_en",
         "twitter": "https://twitter.com/tabtraderpro",
         "website": "https://tab-trader.com/",
-        "youtube": "https://www.youtube.com/c/TabTrader"
+        "youtube": "https://www.youtube.com/c/TabTrader",
+        "coingeckoId": "tabtrader"
       }
     },
     {
@@ -64128,7 +64137,13 @@
       "logoURI": "https://res.cloudinary.com/dpelmr6sl/image/upload/v1640772454/Screenshot_2021-12-29_at_3.37.25_PM_zteryp.png",
       "tags": [
         "social-token"
-      ]
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/d8z7TAz5WB",
+        "reddit": "https://www.reddit.com/r/TheSolanDAO",
+        "twitter": "https://twitter.com/TheSolanDAO",
+        "website": "https://thesolandao.com"
+      }
     },
     {
       "chainId": 101,
@@ -74870,7 +74885,7 @@
       "chainId": 101,
       "address": "A1KWZzcUrsX9MAsL8XtZkuS4RX6fjZazc7K5UoX42M3M",
       "symbol": "ARTZ",
-      "name": "ARTOZO NFT Marketplace",
+      "name": "Artozo",
       "decimals": 4,
       "logoURI": "https://artozo.mypinata.cloud/ipfs/QmdBoJK2HTRc7B71Xo36VqEXpME7JeexZPJkF1tamdQTTy",
       "tags": [
@@ -75832,6 +75847,57 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "5B4UWAFCVdivK6dqte7g5NzUhEnAcWWzEHfVAKiybVoY",
+      "symbol": "MINE",
+      "name": "FullMoonMiningCompany",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/FullMoonMiningCo/crypto/main/mine-logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "2pLgW8DsTrSgMT7NeXoyKV3avWn5fbaYZyC1kjofgLXU",
+      "symbol": "SILU",
+      "name": "Sofi ILoveU",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/rjdrar/my-solana-tokens/master/assets/mainnet/2pLgW8DsTrSgMT7NeXoyKV3avWn5fbaYZyC1kjofgLXU/sofi-001.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "BSsbGzUvWnsKoenarTd9vuiFmWcb7MFVKn2wuQuJCnFc",
+      "symbol": "SATL",
+      "name": "Selanthelas",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/MasterDianite/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "CKaKtYvz6dKPyMvYq9Rh3UBrnNqYZAyd7iF4hJtjUvks",
+      "symbol": "GARI",
+      "name": "Gari",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CKaKtYvz6dKPyMvYq9Rh3UBrnNqYZAyd7iF4hJtjUvks/logo.png",
+      "tags": [
+        "community-token",
+        "utility-token",
+        "social-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/garitoken",
+        "twitter": "https://twitter.com/garitoken",
+        "website": "https://gari.network"
+      }
     }
   ],
   "version": {
