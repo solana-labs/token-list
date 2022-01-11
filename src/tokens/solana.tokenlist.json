@@ -75348,19 +75348,21 @@
     "minor": 3,
     "patch": 3
   }
-    },
-    {
+},
+{
       "chainId": 101,
       "address": "Cu1mWsE3JeEzMz1AzHezDJ99a45KheQWxWpLPkHKtsxu",
       "symbol": "HCR",
-      "name": "Hunt Crypto Reward",
+      "name": "Hunt Crypto Rewards",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HuntCryptoReward/logo.png",
       "tags": [
-        "social-token",
-        "community-token",
-        "Utility-token",
-        "payment-token",
-],
-  }
-},
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "3V3f1mdwQT23RU8Gf3AvBwNhcgSFY9H598p5zRhAMFnK",
+        
+      }
+    },
+
