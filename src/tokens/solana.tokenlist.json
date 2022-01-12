@@ -16063,8 +16063,8 @@
         "utility-token"
       ],
       "extensions": {
-        "discord": "https://discord.gg/WTwm2V45UZ",
         "coingeckoId": "parasol-finance",
+        "discord": "https://discord.gg/WTwm2V45UZ",
         "github": "https://github.com/parasol-finance",
         "medium": "https://medium.com/@parasol.finance",
         "serumV3Usdc": "DukWnNjNS1qQYUNGYj5NJViEfQW793mHwxij3wi9dazM",
@@ -69272,9 +69272,9 @@
         "play-to-contribute"
       ],
       "extensions": {
-        "serumV3Usdc": "GPa4iZhDPJfGUj3RAdpuR1EZ4Xgmstn2CC7E9QVDukKC",
         "discord": "https://discord.gg/WgxU6RSakP",
         "github": "https://github.com/LegendOfPooShi",
+        "serumV3Usdc": "GPa4iZhDPJfGUj3RAdpuR1EZ4Xgmstn2CC7E9QVDukKC",
         "twitter": "https://twitter.com/legendofpooshi",
         "website": "https://LegendOfPooShi.com"
       }
@@ -76597,6 +76597,81 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "HYM7xQ7Txze9H2oHpeR2MRqucu6jFcYJ7KU1yXVwbu4z",
+      "symbol": "MyEggs",
+      "name": "MyEggs",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/BrightTechnologies1/myeggs--logo@master/logo.png",
+      "tags": [
+        "social-token",
+        "commodity-token",
+        "Utility-Token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/MyEggsNFT",
+        "website": "https://myeggs.art"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "wDyvn5CYbfaEvcRHVs9tsCrjC6dhhiYSfnLy6yJu3Ky",
+      "symbol": "LFC",
+      "name": "The Levy Family Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Shinobialt/Crypto/main/logo-imresizer.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5jcSAr8zge9gvX9tPoG6YDpM74EASn1kk9o11ZFxahDx",
+      "symbol": "ROSE",
+      "name": "ROSE (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5jcSAr8zge9gvX9tPoG6YDpM74EASn1kk9o11ZFxahDx/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x5C78A65AD6D0eC6618788b6E8e211F31729111Ca",
+        "assetContract": "https://explorer.oasis.updev.si/address/0x5C78A65AD6D0eC6618788b6E8e211F31729111Ca",
+        "bridgeContract": "https://explorer.oasis.updev.si/address/0x5848C791e09901b40A9Ef749f2a6735b418d7564",
+        "coingeckoId": "oasis-network",
+        "serumV3Usdc": "2NXBNEJedqYEaQjRyjQzxx7kLkrAkFBknviGPgWmSMcr"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ArdsPHY5LsCjvxSxZz8f3vTkv5qoYihmCCPMYvr6aQza",
+      "symbol": "MPI",
+      "name": "Meta Paradise Island",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ArdsPHY5LsCjvxSxZz8f3vTkv5qoYihmCCPMYvr6aQza/Mpi-new.png",
+      "tags": [
+        "social-token",
+        "solana",
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "As5t6W78oDg78LuS7LWcNu1FfCtfSkRXiN9yVL77DDn8",
+      "symbol": "PEECH",
+      "name": "peach dot fun",
+      "decimals": 9,
+      "logoURI": "https://cdn.discordapp.com/attachments/903834329287897109/930672804523835422/Logo_Round.png",
+      "tags": [
+        "virtual-currency"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/_PeachFun",
+        "website": "https://peach.fun/"
+      }
     }
   ],
   "version": {
