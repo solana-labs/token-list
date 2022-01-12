@@ -76625,6 +76625,25 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "5jcSAr8zge9gvX9tPoG6YDpM74EASn1kk9o11ZFxahDx",
+      "symbol": "ROSE",
+      "name": "ROSE (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5jcSAr8zge9gvX9tPoG6YDpM74EASn1kk9o11ZFxahDx/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0x5C78A65AD6D0eC6618788b6E8e211F31729111Ca",
+        "assetContract": "https://explorer.oasis.updev.si/address/0x5C78A65AD6D0eC6618788b6E8e211F31729111Ca",
+        "bridgeContract": "https://explorer.oasis.updev.si/address/0x5848C791e09901b40A9Ef749f2a6735b418d7564",
+        "coingeckoId": "oasis-network",
+        "serumV3Usdc": "2NXBNEJedqYEaQjRyjQzxx7kLkrAkFBknviGPgWmSMcr"
+      }
     }
   ],
   "version": {
