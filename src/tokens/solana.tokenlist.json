@@ -77191,6 +77191,161 @@
       ]
     },
     {
+      "name": "Saber Wrapped Cashio Dollar (8 decimals)",
+      "address": "CASHedBw9NfhsLBXq1WNVfueVznx255j8LLTScto3S6s",
+      "decimals": 8,
+      "symbol": "sCASH-8",
+      "chainId": 101,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CASHedBw9NfhsLBXq1WNVfueVznx255j8LLTScto3S6s/icon.png",
+      "tags": [
+        "stablecoin",
+        "saber-mkt-usd",
+        "saber-dec-wrapped"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so",
+        "twitter": "https://twitter.com/CashioApp",
+        "coingeckoId": "usd-coin",
+        "discord": "https://discord.com/invite/GmkRRKJkuh",
+        "medium": "https://medium.com/@cashioapp"
+      }
+    },
+    {
+      "name": "Saber Wrapped agEUR (Wormhole) (9 decimals)",
+      "address": "EU9aLffrTckFCs16da6CppHy63fAxMPF9ih1erQTuuRt",
+      "decimals": 9,
+      "symbol": "sagEUR-9",
+      "chainId": 101,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EU9aLffrTckFCs16da6CppHy63fAxMPF9ih1erQTuuRt/icon.png",
+      "tags": [
+        "ethereum",
+        "wrapped",
+        "wormhole",
+        "saber-mkt-eur",
+        "wormhole-v2",
+        "saber-dec-wrapped"
+      ],
+      "extensions": {
+        "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "ageur",
+        "description": "Angle is the first decentralized, capital efficient and over-collateralized stablecoin protocol",
+        "discord": "https://discord.gg/z3kCpTaKMh",
+        "twitter": "https://twitter.com/AngleProtocol",
+        "website": "https://app.saber.so"
+      }
+    },
+    {
+      "symbol": "TRYB-TRYB",
+      "name": "Saber TRYB-TRYB LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Lirav2gsqs7jL1PFRUBp8uKACT8LYjDBV8c6nzchoer/icon.png",
+      "decimals": 6,
+      "address": "Lirav2gsqs7jL1PFRUBp8uKACT8LYjDBV8c6nzchoer",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-wormhole-v2"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/bilira"
+      }
+    },
+    {
+      "name": "Saber Wrapped UST (Wormhole) (8 decimals)",
+      "address": "UST8SCn7jrqsq51odVLqcmvnC658HkqrKrPL3w2hHQ7",
+      "decimals": 8,
+      "symbol": "sUST-8",
+      "chainId": 101,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/UST8SCn7jrqsq51odVLqcmvnC658HkqrKrPL3w2hHQ7/icon.png",
+      "tags": [
+        "wrapped",
+        "wormhole",
+        "saber-mkt-usd",
+        "wormhole-v2",
+        "saber-dec-wrapped"
+      ],
+      "extensions": {
+        "address": "uusd",
+        "bridgeContract": "https://finder.terra.money/columbus-5/address/terra10nmmwe8r3g99a9newtqa7a75xfgs2e8z87r2sf",
+        "coingeckoId": "terra-usd",
+        "website": "https://app.saber.so"
+      }
+    },
+    {
+      "symbol": "FRAX-UST",
+      "name": "Saber FRAX-UST LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WLPGfDvnSsJg888FydDCRKkmKTwu4L3MHjfqBFj5LJD/icon.png",
+      "decimals": 8,
+      "address": "WLPGfDvnSsJg888FydDCRKkmKTwu4L3MHjfqBFj5LJD",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-wormhole-v2"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/frax_ust"
+      }
+    },
+    {
+      "symbol": "acEUR-agEUR",
+      "name": "Saber acEUR-agEUR LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WLPJD4jW6gnWKfwfL5jyJwcxEPHKLMbncNfQwMmkzKz/icon.png",
+      "decimals": 9,
+      "address": "WLPJD4jW6gnWKfwfL5jyJwcxEPHKLMbncNfQwMmkzKz",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-allbridge",
+        "saber-lp-wormhole-v2"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/aceur_ageur"
+      }
+    },
+    {
+      "symbol": "FRAX-CASH",
+      "name": "Saber FRAX-CASH LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WLPv9tHDgkx3ekW8Kyp1TC222oYpr5BMZXTyBTLbk2n/icon.png",
+      "decimals": 8,
+      "address": "WLPv9tHDgkx3ekW8Kyp1TC222oYpr5BMZXTyBTLbk2n",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-cashio"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/frax_cash"
+      }
+    },
+    {
+      "symbol": "daoSOL-SOL",
+      "name": "Saber daoSOL-SOL LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/monKYjV2bHTjbJVWCCcwhxE8C96sdTKR2HUNUHCjh4z/icon.png",
+      "decimals": 9,
+      "address": "monKYjV2bHTjbJVWCCcwhxE8C96sdTKR2HUNUHCjh4z",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/monkedao"
+      }
+    },
+    {
+      "symbol": "JSOL-SOL",
+      "name": "Saber JSOL-SOL LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/son4WQ39xri8sqMqNQZAEtEEPTuUcCRHg7t1ZcYdkSw/icon.png",
+      "decimals": 9,
+      "address": "son4WQ39xri8sqMqNQZAEtEEPTuUcCRHg7t1ZcYdkSw",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/jsol"
+      }
+    },
+    {
       "chainId": 101,
       "address": "SoLotgMEBV3epFVmbM89ERaAs5srvsEN3cghDVTwcmT",
       "symbol": "SOLO",
