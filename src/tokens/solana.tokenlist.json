@@ -16064,6 +16064,7 @@
       ],
       "extensions": {
         "discord": "https://discord.gg/WTwm2V45UZ",
+        "coingeckoId": "parasol-finance",
         "github": "https://github.com/parasol-finance",
         "medium": "https://medium.com/@parasol.finance",
         "serumV3Usdc": "DukWnNjNS1qQYUNGYj5NJViEfQW793mHwxij3wi9dazM",
@@ -69271,6 +69272,7 @@
         "play-to-contribute"
       ],
       "extensions": {
+        "serumV3Usdc": "GPa4iZhDPJfGUj3RAdpuR1EZ4Xgmstn2CC7E9QVDukKC",
         "discord": "https://discord.gg/WgxU6RSakP",
         "github": "https://github.com/LegendOfPooShi",
         "twitter": "https://twitter.com/legendofpooshi",
@@ -70977,10 +70979,13 @@
       "symbol": "GMZA",
       "name": "GMZREA",
       "decimals": 9,
-      "logoURI": "https://github.com/mohudwan/gmzrea/blob/main/GMZREA%20COIN%20LOGO%20520x520.png",
+      "logoURI": "https://raw.githubusercontent.com/mohudwan/gmzrea/main/assets/logo.png",
       "tags": [
         "social-token"
-      ]
+      ],
+      "extensions": {
+        "website": "https://gmzrea.com/"
+      }
     },
     {
       "chainId": 101,
@@ -73160,7 +73165,10 @@
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/HustlinSharks/crypto/main/logo.png",
       "tags": [
-        "social-token"
+        "utility-token",
+        "nft-token",
+        "community-token",
+        "play-2-earn"
       ]
     },
     {
@@ -75904,10 +75912,10 @@
     {
       "chainId": 101,
       "address": "8SNnEqCrwEtBh15M6KVqfPgX8zJGfvSioQFaKQ9oEnr4",
-      "symbol": "TDC",
+      "symbol": "TPDC",
       "name": "Topodoco",
       "decimals": 0,
-      "logoURI": "https://github.com/rjdrar/my-solana-tokens/blob/master/assets/mainnet/8SNnEqCrwEtBh15M6KVqfPgX8zJGfvSioQFaKQ9oEnr4/heart-128.png",
+      "logoURI": "https://raw.githubusercontent.com/rjdrar/my-solana-tokens/master/assets/mainnet/8SNnEqCrwEtBh15M6KVqfPgX8zJGfvSioQFaKQ9oEnr4/heart-128.png",
       "tags": [
         "social-token"
       ]
@@ -76111,7 +76119,7 @@
       "symbol": "NOLO",
       "name": "No lo Token",
       "decimals": 9,
-      "logoURI": "https://github.com/rjdrar/my-solana-tokens/blob/master/assets/mainnet/logo-1.png",
+      "logoURI": "https://raw.githubusercontent.com/rjdrar/my-solana-tokens/master/assets/mainnet/logo-1.png",
       "tags": [
         "social-token",
         "nft",
