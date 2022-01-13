@@ -76129,11 +76129,17 @@
       "address": "GXw4cMzffjshUqcTw7WtdsndVos32hRCEZcYgKsS2XTN",
       "symbol": "MTZY",
       "name": "Mitzy",
-      "decimals": 0,
+      "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/MorrrisK/mitzy/main/logo.png",
       "tags": [
-        "utility-token"
-      ]
+        "utility-token",
+        "nft",
+        "payment-token",
+        "solana"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/MitzyToken"
+      }
     },
     {
       "chainId": 101,
