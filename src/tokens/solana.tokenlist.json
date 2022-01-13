@@ -73108,18 +73108,6 @@
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/GhostImpact/crypto-Image/main/my-crypto-imge_optimized.png",
       "tags": [
-        "social-token"
-      ]
-    },
-    {
-      "chainId": 101,
-      "address": "ELEhJznM6WZdR2CVnnkT3Yyj8NUGJpq186tr2MvBKKND",
-      "symbol": "RCT",
-      "name": "Real-Gold-Token",
-      "decimals": 5,
-      "logoURI": "https://raw.githubusercontent.com/hhhogannwo/Real-Gold-Coin/main/money.png",
-      "tags": [
-        "social-token"
       ]
     },
     {
@@ -78337,12 +78325,28 @@
       ],
       "extensions": {
         "website": "https://tsrb.shop"
+        }
+      },
+      {
+        "chainId": 101,
+        "address": "ELEhJznM6WZdR2CVnnkT3Yyj8NUGJpq186tr2MvBKKND",
+        "symbol": "RGT",
+        "name": "Real-Gold-Token",
+        "decimals": 5,
+        "logoURI": "https://raw.githubusercontent.com/hhhogannwo/Real-Gold-Coin/main/money.png",
+        "tags": [
+          "community-token",
+          "utility-token",
+          "social-token"
+        ],
+          "extensions": {
+          "website": "https://real-gold-token.com"
+        }
       }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
   }
-}
