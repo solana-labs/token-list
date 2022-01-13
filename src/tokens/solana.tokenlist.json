@@ -78322,20 +78322,25 @@
       "logoURI": "https://raw.githubusercontent.com/JakovGlavac/TSRB-Coin/main/logo.png",
       "tags": [
         "social-token"
-       ]
+      ],
+      "extensions": {
+        "website": "https://tsrb.shop"
+        }
       },
-    {
-          "chainId": 101,
-          "address": "ELEhJznM6WZdR2CVnnkT3Yyj8NUGJpq186tr2MvBKKND",
-          "symbol": "RGT",
-          "name": "Real-Gold-Token",
-          "decimals": 5,
-          "logoURI": "https://raw.githubusercontent.com/hhhogannwo/Real-Gold-Coin/main/money.png",
-          "tags": [
+      {
+        "chainId": 101,
+        "address": "ELEhJznM6WZdR2CVnnkT3Yyj8NUGJpq186tr2MvBKKND",
+        "symbol": "RGT",
+        "name": "Real-Gold-Token",
+        "decimals": 5,
+        "logoURI": "https://raw.githubusercontent.com/hhhogannwo/Real-Gold-Coin/main/money.png",
+        "tags": [
+          "community-token",
+          "utility-token",
           "social-token"
         ],
-        "extensions": {
-          "website": "https://Real-Gold-Token.com"
+          "extensions": {
+          "website": "https://real-gold-token.com"
         }
       }
     ],
