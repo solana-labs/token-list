@@ -79264,17 +79264,6 @@
     },
     {
       "chainId": 101,
-      "address": "4fRea2p9hpWEMddLraYAaMr7rcQHAAVkk2cQXxUN4yrh",
-      "symbol": "CTZWL",
-      "name": "Crypto Tradiez WL Token",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4fRea2p9hpWEMddLraYAaMr7rcQHAAVkk2cQXxUN4yrh/logo.png",
-      "tags": [
-        "utility-token"
-      ]
-    },
-    {
-      "chainId": 101,
       "address": "E44QppzpSronbUVHADa7p7VQYFRA7UjeXnPAMzXij2zV",
       "symbol": "VRSX",
       "name": "VRDOLL",
@@ -80021,7 +80010,22 @@
       "tags": [
         "social-token"
       ]
-    }
+    },
+      {
+        "chainId": 101,
+        "address": "4fRea2p9hpWEMddLraYAaMr7rcQHAAVkk2cQXxUN4yrh",
+        "symbol": "CTZWL",
+        "name": "Crypto Tradiez WL Token",
+        "decimals": 0,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4fRea2p9hpWEMddLraYAaMr7rcQHAAVkk2cQXxUN4yrh/logo.png",
+        "tags": [
+          "utility-token"
+        ],
+        "extensions": {
+          "discord": "https://discord.gg/5Rg6xyzYzU",
+          "website": "https://cryptotradiez.com/"
+        }
+      }
   ],
   "version": {
     "major": 0,
