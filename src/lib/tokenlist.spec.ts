@@ -1,6 +1,14 @@
+import fs from 'fs';
+
 import test from 'ava';
 
-import { CLUSTER_SLUGS, ENV, Strategy, TokenListProvider } from './tokenlist';
+import {
+  CLUSTER_SLUGS,
+  ENV,
+  Strategy,
+  TokenInfo,
+  TokenListProvider,
+} from './tokenlist';
 
 test('Token list is filterable by a tag', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
@@ -45,4 +53,29 @@ test('Token list throws error when calling filterByClusterSlug with slug that do
     error.message,
     `Unknown slug: whoop, please use one of ${Object.keys(CLUSTER_SLUGS)}`
   );
+});
+
+test('Token list is a valid json', async (t) => {
+  t.notThrows(() => {
+    const content = fs
+      .readFileSync('./src/tokens/solana.tokenlist.json')
+      .toString();
+    JSON.parse(content.toString());
+  });
+});
+
+test('Token list does not have duplicate entries', async (t) => {
+  const list = await new TokenListProvider().resolve(Strategy.Static);
+  list
+    .filterByChainId(ENV.MainnetBeta)
+    .getList()
+    .reduce((agg, item) => {
+      if (agg.has(item.address)) {
+        console.log(item.address);
+      }
+
+      t.false(agg.has(item.address));
+      agg.set(item.address, item);
+      return agg;
+    }, new Map<string, TokenInfo>());
 });
