@@ -24190,12 +24190,12 @@
         "cat"
       ],
       "extensions": {
-        "coinmarketcap": "https://coinmarketcap.com/currencies/kitty-coin-solana/",
         "coingeckoId": "kitty-coin-solana",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/kitty-coin-solana/",
         "discord": "https://discord.gg/kittycoinsolana",
-        "telegram": "https://t.me/kittycoinsolana_off",
         "serumV3Usdc": "FAHa34qbNbvtEBHgjuALk4WLJMwxJTtV6Z3V3p79XLWG",
         "serumV3Usdt": "H8VLs7VYaBg3rg1NvVNJKb1QWMf3kzieTPkgPmVffXTx",
+        "telegram": "https://t.me/kittycoinsolana_off",
         "twitter": "https://twitter.com/KittyCoinSolana",
         "website": "https://kittycoinsolana.com/"
       }
@@ -30577,9 +30577,9 @@
         "DeFi"
       ],
       "extensions": {
-        "serumV3Usdc": "E9XAtU18PXeSMcz5gkAkZ6yfj1E5nzY21x576ZvEg9VA",
         "coingeckoId": "crypto-mushroomz",
         "coinmarketcap": "https://coinmarketcap.com/currencies/crypto-mushroomz/",
+        "serumV3Usdc": "E9XAtU18PXeSMcz5gkAkZ6yfj1E5nzY21x576ZvEg9VA",
         "twitter": "https://twitter.com/cryptomushroomz",
         "website": "https://www.cryptomushroomz.io"
       }
@@ -72232,7 +72232,7 @@
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E1s2muWwiLT2n3EQUL27hgviaPRRXWkpXD7ShpfgRvVz/logo.png",
       "extensions": {
-        "coingeckoId":"cosmic-ape-coin",
+        "coingeckoId": "cosmic-ape-coin",
         "twitter": "https://twitter.com/cosmicapesnft",
         "website": "https://cosmicapes.xyz"
       }
@@ -81723,6 +81723,85 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "57FSXkhL191HvuDeCgzczcx1RGWZaQJrmUESvicnXQN4",
+      "symbol": "SKATECO",
+      "name": "Skate Collective",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/RAWBrand/SkateCollective/main/logo.png",
+      "tags": [
+        "utility-token",
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "description": "The Skate Collective Represents the Global Skateboarding Movement"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3Hi27r9kUtSmiPYtpRJNYCCGTGosnqC5Dhz812TrjpaY",
+      "symbol": "DJIB",
+      "name": "Djib Decentralized Storage On Solana",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3Hi27r9kUtSmiPYtpRJNYCCGTGosnqC5Dhz812TrjpaY/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://djib.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "2sbusqQv9kp6DoW23cCnRdRgHt4cDdB2Je8qddJtmKGT",
+      "symbol": "XRIZ",
+      "name": "XriZ Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ChrisX33/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "ChvNm6CWcUgjSMXwCjhC8eYLjZircvnsV9HT3iJkV9oa",
+      "symbol": "OZ",
+      "name": "Ozzy Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ChrisX33/crypto-ozzy/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "G4iSJWW63sU8yRWtV4AkcQ5JJmEdbUHEG68aDyHbaqr3",
+      "symbol": "LNFTxK2SOLAND",
+      "name": "Key 2 SolanaLand",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G4iSJWW63sU8yRWtV4AkcQ5JJmEdbUHEG68aDyHbaqr3/logo.png",
+      "extensions": {
+        "discord": "https://discord.gg/PYZWRHgVwM",
+        "twitter": "https://twitter.com/liqnft",
+        "website": "https://www.liqnft.com/gallery/SOLAND"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3VDMeDMgXK4RFGtQ6Sr4PwPHG7T8aDeuUctKLEav317p",
+      "symbol": "MILEI",
+      "name": "Milei Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/ilov-eu/assets/main/milei-001.png",
+      "tags": [
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://milei.ilov.eu"
+      }
     }
   ],
   "version": {
