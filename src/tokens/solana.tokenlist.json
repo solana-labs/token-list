@@ -24190,12 +24190,12 @@
         "cat"
       ],
       "extensions": {
-        "coinmarketcap": "https://coinmarketcap.com/currencies/kitty-coin-solana/",
         "coingeckoId": "kitty-coin-solana",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/kitty-coin-solana/",
         "discord": "https://discord.gg/kittycoinsolana",
-        "telegram": "https://t.me/kittycoinsolana_off",
         "serumV3Usdc": "FAHa34qbNbvtEBHgjuALk4WLJMwxJTtV6Z3V3p79XLWG",
         "serumV3Usdt": "H8VLs7VYaBg3rg1NvVNJKb1QWMf3kzieTPkgPmVffXTx",
+        "telegram": "https://t.me/kittycoinsolana_off",
         "twitter": "https://twitter.com/KittyCoinSolana",
         "website": "https://kittycoinsolana.com/"
       }
@@ -30577,9 +30577,9 @@
         "DeFi"
       ],
       "extensions": {
-        "serumV3Usdc": "E9XAtU18PXeSMcz5gkAkZ6yfj1E5nzY21x576ZvEg9VA",
         "coingeckoId": "crypto-mushroomz",
         "coinmarketcap": "https://coinmarketcap.com/currencies/crypto-mushroomz/",
+        "serumV3Usdc": "E9XAtU18PXeSMcz5gkAkZ6yfj1E5nzY21x576ZvEg9VA",
         "twitter": "https://twitter.com/cryptomushroomz",
         "website": "https://www.cryptomushroomz.io"
       }
@@ -72229,7 +72229,7 @@
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E1s2muWwiLT2n3EQUL27hgviaPRRXWkpXD7ShpfgRvVz/logo.png",
       "extensions": {
-        "coingeckoId":"cosmic-ape-coin",
+        "coingeckoId": "cosmic-ape-coin",
         "twitter": "https://twitter.com/cosmicapesnft",
         "website": "https://cosmicapes.xyz"
       }
@@ -81720,6 +81720,22 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "57FSXkhL191HvuDeCgzczcx1RGWZaQJrmUESvicnXQN4",
+      "symbol": "SKATECO",
+      "name": "Skate Collective",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/RAWBrand/SkateCollective/main/logo.png",
+      "tags": [
+        "utility-token",
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "description": "The Skate Collective Represents the Global Skateboarding Movement"
+      }
     }
   ],
   "version": {
