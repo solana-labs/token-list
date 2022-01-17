@@ -143,8 +143,24 @@ var testData = []string{`
 	"logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9qXxEVGagc9ccd6b135Z8ZLr4VAWUd7T5KcmMyjYKBdB/logo.png",
 	"tags":[],
 	"extensions":{}
-}`
-
+}`,
+`{
+  "chainId": 101,
+  "address": "3fWFRdC9VFtDUwQjgFTdAJ7Jgah6VYMNbzijDFdBFEAU",
+  "symbol": "Atom Solana",
+  "name": "Atom Solana",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3fWFRdC9VFtDUwQjgFTdAJ7Jgah6VYMNbzijDFdBFEAU/logo.png",
+  "tags": [
+    "stake-pool-token",
+    "utility-token",
+    "meme-token",
+    "community-token"
+  ],
+  "extensions": {
+    "twitter": "https://twitter.com/atom_solana"
+  }
+}`,
 }
 
 func TestNormalizeWhatever(t *testing.T) {
