@@ -196,6 +196,15 @@ func (m *Automerger) storeKnownToken(t *parser.Token) {
 	m.knownNames[knownEntry{t.ChainId, t.Name}] = true
 }
 
+func (m *Automerger) IsBlacklistedToken(t *parser.Token) error {
+	// see #10163: user is spamming token-list by listing individual NFTs
+	// TODO: move blacklist to list
+	if strings.HasPrefix(t.Name, "SOLKITTY NFT") {
+		return fmt.Errorf("name %s blacklisted; NFT in fungible token repo", t.Name)
+	}
+	return nil
+}
+
 func (m *Automerger) IsKnownToken(t *parser.Token) error {
 	if _, ok := m.knownAddrs[knownEntry{t.ChainId, t.Address}]; ok {
 		return fmt.Errorf("token address %s is already used", t.Address)
@@ -325,7 +334,7 @@ func (m *Automerger) parseDiff(md []*diff.FileDiff) ([]string, *diff.FileDiff, e
 			}
 
 			switch path.Ext(p[3]) {
-			case ".png", ".jpg", ".svg":
+			case ".png", ".jpg", ".svg", ".PNG", ".JPG", ".SVG":
 			default:
 				return nil, nil, fmt.Errorf("invalid asset extension: %s (wants png, jpg, svg)", newFile)
 			}
@@ -671,6 +680,9 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 			if err := m.IsKnownToken(&t); err != nil {
 				return nil, fmt.Errorf("duplicate token: %v", err)
 			}
+			if err := m.IsBlacklistedToken(&t); err != nil {
+				return nil, fmt.Errorf("blacklisted token: %v", err)
+			}
 
 			v := m.cuer.Encode(t)
 			if v.Err() != nil {
@@ -707,6 +719,11 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 			if website, ok := t.Extensions["website"]; ok {
 				if err := tryHEADRequest(website); err != nil {
 					return nil, fmt.Errorf("failed to verify website: %s: %v", website, err)
+				}
+				// see #10163: user is spamming token-list by listing individual NFTs
+				// TODO: move blacklist to list
+				if strings.HasPrefix(t.Extensions["website"], "https://solkitty.io/nft") {
+					return nil, fmt.Errorf("blacklisted solkitty: %s:", website)
 				}
 			}
 
