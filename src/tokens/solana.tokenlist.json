@@ -19200,14 +19200,13 @@
     },
     {
       "chainId": 101,
-      "address": "H5kMHghGUKo4MnGEp4mpAMxveDwnRZ4hXeZMWfp5EzGF",
+      "address": "7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT",
       "symbol": "UXD",
       "name": "UXD Stablecoin",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/H5kMHghGUKo4MnGEp4mpAMxveDwnRZ4hXeZMWfp5EzGF/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT/logo.png",
       "tags": [
-        "UXD",
-        "Stablecoin"
+        "stablecoin"
       ],
       "extensions": {
         "discord": "https://discord.com/invite/BHfpYmjsBM",
@@ -35048,8 +35047,8 @@
         "solvent-droplet"
       ],
       "extensions": {
+        "coingeckoId": "solvent",
         "discord": "https://discord.gg/thK8BCtQbM",
-      "coingeckoId": "solvent",
         "github": "https://github.com/solventprotocol",
         "medium": "https://medium.com/@solventprotocol",
         "serumV3Usdc": "3XRsg7YRVcvZme9rHpATL55WPHrnGXvVL8E7ycNNFu4f",
@@ -41770,10 +41769,10 @@
         "utility-token"
       ],
       "extensions": {
-        "discord": "https://discord.gg/y86HPCkk",
-        "serumV3Usdc": "CVJVpXU9xksCt2uSduVDrrqVw6fLZCAtNusuqLKc5DhW",
         "coingeckoId": "genesysgo-shadow",
         "coinmarketcap": "https://coinmarketcap.com/currencies/genesysgo-shadow/",
+        "discord": "https://discord.gg/y86HPCkk",
+        "serumV3Usdc": "CVJVpXU9xksCt2uSduVDrrqVw6fLZCAtNusuqLKc5DhW",
         "website": "https://www.shadowysupercoderdao.com"
       }
     },
@@ -46105,9 +46104,9 @@
         "MEME"
       ],
       "extensions": {
+        "coingeckoId": "tiger-coin",
         "twitter": "https://twitter.com/tigercoin_",
-        "website": "https://www.tigercoin.space",
-        "coingeckoId": "tiger-coin"
+        "website": "https://www.tigercoin.space"
       }
     },
     {
@@ -81802,6 +81801,61 @@
       "extensions": {
         "website": "https://milei.ilov.eu"
       }
+    },
+    {
+      "chainId": 103,
+      "address": "8mAXWJXfz7v3zuBoPEvumadN4CTXciggGbGxsA2gEH78",
+      "symbol": "SFT",
+      "name": "Scorpion Fit Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8mAXWJXfz7v3zuBoPEvumadN4CTXciggGbGxsA2gEH78/logo.png",
+      "tags": [
+        "SFT"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "7nHUGFRz5En7obQUD39xfZgHNJdKq5GUfGe6oT4XVxDy",
+      "symbol": "SMW",
+      "name": "Scorpion Metaverse World",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7nHUGFRz5En7obQUD39xfZgHNJdKq5GUfGe6oT4XVxDy/logo.png",
+      "tags": [
+        "SMW"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DTj795ZfgnJtvyARmzse7YimF1PjBVsJQFWL5RAk6hop",
+      "symbol": "HAPE",
+      "name": "HAPEBEAST Coin",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/HelloCryptoHub/HAPEBEAST_coin/main/HAPE_Coin.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3ghhbwWSs4CCBY5hwDe37LG4GRyF1p1puZGFpqgZumzh",
+      "symbol": "BIGM",
+      "name": "Bigmos",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/BIGMOS/crypto/main/Logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "a45A2uc6XCPpRsqFbZEjUSf7eUqGCqDMbcw7UwWwqd9",
+      "symbol": "LC",
+      "name": "Ladinien Coins",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/LadineinCoins/Crypto/main/ladinien.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
