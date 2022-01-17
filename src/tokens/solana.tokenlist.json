@@ -35047,8 +35047,8 @@
         "solvent-droplet"
       ],
       "extensions": {
+        "coingeckoId": "solvent",
         "discord": "https://discord.gg/thK8BCtQbM",
-      "coingeckoId": "solvent",
         "github": "https://github.com/solventprotocol",
         "medium": "https://medium.com/@solventprotocol",
         "serumV3Usdc": "3XRsg7YRVcvZme9rHpATL55WPHrnGXvVL8E7ycNNFu4f",
@@ -41769,10 +41769,10 @@
         "utility-token"
       ],
       "extensions": {
-        "discord": "https://discord.gg/y86HPCkk",
-        "serumV3Usdc": "CVJVpXU9xksCt2uSduVDrrqVw6fLZCAtNusuqLKc5DhW",
         "coingeckoId": "genesysgo-shadow",
         "coinmarketcap": "https://coinmarketcap.com/currencies/genesysgo-shadow/",
+        "discord": "https://discord.gg/y86HPCkk",
+        "serumV3Usdc": "CVJVpXU9xksCt2uSduVDrrqVw6fLZCAtNusuqLKc5DhW",
         "website": "https://www.shadowysupercoderdao.com"
       }
     },
@@ -46104,9 +46104,9 @@
         "MEME"
       ],
       "extensions": {
+        "coingeckoId": "tiger-coin",
         "twitter": "https://twitter.com/tigercoin_",
-        "website": "https://www.tigercoin.space",
-        "coingeckoId": "tiger-coin"
+        "website": "https://www.tigercoin.space"
       }
     },
     {
@@ -81801,6 +81801,28 @@
       "extensions": {
         "website": "https://milei.ilov.eu"
       }
+    },
+    {
+      "chainId": 103,
+      "address": "8mAXWJXfz7v3zuBoPEvumadN4CTXciggGbGxsA2gEH78",
+      "symbol": "SFT",
+      "name": "Scorpion Fit Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8mAXWJXfz7v3zuBoPEvumadN4CTXciggGbGxsA2gEH78/logo.png",
+      "tags": [
+        "SFT"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "7nHUGFRz5En7obQUD39xfZgHNJdKq5GUfGe6oT4XVxDy",
+      "symbol": "SMW",
+      "name": "Scorpion Metaverse World",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7nHUGFRz5En7obQUD39xfZgHNJdKq5GUfGe6oT4XVxDy/logo.png",
+      "tags": [
+        "SMW"
+      ]
     }
   ],
   "version": {
