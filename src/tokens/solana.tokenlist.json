@@ -80047,13 +80047,18 @@
     {
       "chainId": 101,
       "address": "AYKCSsAAeg7zL3QywPUnc2bPmtmvVTV5EnskmnLVRWCH",
-      "symbol": "DBKS",
+      "symbol": "$DB",
       "name": "Dollar Bucks",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/TuckerBrady/DollarBucks/main/Dollar-Bucks-Logo.png",
+      "logoURI": "https://raw.githubusercontent.com/TuckerBrady/DollarBucks/main/logo.png",
       "tags": [
-        "social-token"
-      ]
+        "social-token",
+        "learning-token",
+        "teaching-token"
+      ],
+      "extensions": {
+        "description": "A tool to help parents teach their kids financial responsibility and the basics of crypto currency."
+      }
     },
     {
       "chainId": 101,
