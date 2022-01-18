@@ -80490,11 +80490,28 @@
         "twitter": "https://twitter.com/kosher_token",
         "website": "https://koshertoken.com"
       }
+      {
+        "chainId": 101,
+        "address": "ADRDJyPK1JdgrEsvqsjeNey7NfWEVzhTs8xNjtq6tfTLN",
+        "symbol": "CRONEP",
+        "name": "Nepokoreni Coin",
+        "decimals": 0,
+        "logoURI": "https://raw.githubusercontent.com/p1nkhr/test/main/logo.png",
+        "tags": [
+          "social-token",
+          "community-token"
+        ],
+        "extensions": {
+          "telegram": "https://t.me/nepokorenijavno",
+         
+        }
+      },
     }
   ],
   "version": {
     "major": 0,
     "minor": 3,
     "patch": 3
-  }
+  },
+  
 }
