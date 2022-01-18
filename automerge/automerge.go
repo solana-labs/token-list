@@ -720,6 +720,11 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 				if err := tryHEADRequest(website); err != nil {
 					return nil, fmt.Errorf("failed to verify website: %s: %v", website, err)
 				}
+				// see #10163: user is spamming token-list by listing individual NFTs
+				// TODO: move blacklist to list
+				if strings.HasPrefix(t.Extensions["website"], "https://solkitty.io/nft") {
+					return nil, fmt.Errorf("blacklisted solkitty: %s:", website)
+				}
 			}
 
 			if twitter, ok := t.Extensions["twitter"]; ok {
