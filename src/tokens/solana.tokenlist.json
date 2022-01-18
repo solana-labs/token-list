@@ -17365,7 +17365,7 @@
     },
     {
       "chainId": 101,
-      "address": "51LAPRbcEvheteGQjSgAFV6rrEvjL4P2igvzPH8bu88",
+      "address": "SNSNkV9zfG5ZKWQs6x4hxvBRV6s8SqMfSGCtECDvdMd",
       "symbol": "SNS",
       "name": "SynesisOne",
       "decimals": 3,
@@ -82653,19 +82653,49 @@
     },
     {
       "chainId": 101,
-      "address": "8Ggd9FGkA8q6YJaAMFL3PrBcFipKbU3HBtpUAGtd6EQP",
-      "symbol": "SVEN",
-      "name": "7Realms",
+      "address": "DbNYgaX2Q1mMkSQvu6c9PzMAvAkGQxc6KR3MMhePE6un",
+      "symbol": "ARTB",
+      "name": "Artbank Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DbNYgaX2Q1mMkSQvu6c9PzMAvAkGQxc6KR3MMhePE6un/logo.png",
+      "extensions": {
+        "website": "https://artbank.ai/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9sENJYFAJVqZ1kMo9R3rJ5LdhNkFgDAbYbPDdiCWVAbK",
+      "symbol": "DMP",
+      "name": "DMP coin",
       "decimals": 9,
-      "logoURI": "https://ipfs.io/ipfs/Qmen5B4bFVvcpRLfd8esrnemyaji4azEi2BvdpReNqTq5a",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9sENJYFAJVqZ1kMo9R3rJ5LdhNkFgDAbYbPDdiCWVAbK/logo.png",
       "tags": [
-        "game-token",
-        "community-token",
-        "utility-token",
-        "governance-token"
+        "master-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8mEwLo9B32uGdq5sY4bGzbuXKVdWfXm6unzbwkDpXGDJ",
+      "symbol": "FUC",
+      "name": "FuCoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8mEwLo9B32uGdq5sY4bGzbuXKVdWfXm6unzbwkDpXGDJ/logo.png",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 102,
+      "address": "6CYxiyUo2pgMHkCWpWf4TU47f3Q1rMUWP1R4WtFmVLLA",
+      "symbol": "PC",
+      "name": "Pin Club",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6CYxiyUo2pgMHkCWpWf4TU47f3Q1rMUWP1R4WtFmVLLA/logo.png",
+      "tags": [
+        "utility-token"
       ],
       "extensions": {
-        "website": "https://www.sevenrealms.io"
+        "website": "https://pinclub.io/"
       }
     }
   ],
