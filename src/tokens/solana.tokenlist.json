@@ -82227,12 +82227,31 @@
         "telegram": "https://t.me/shibainfinitygroup",
         "twitter": "https://twitter.com/shibainfinity_",
         "website": "https://shibainfinity.org"
+       }
+      },
+      {
+        "chainId": 101,
+        "address": "37NPZJBQVSTXcyorSYoR537jQGmQ4svSpfBCJdMjUrV9",
+        "symbol": "DLNX",
+        "name": "Debian Linux",
+        "decimals": 10,
+        "logoURI": "https://github.com/SquareandCompass/Debian-Linux/blob/main/debian.png",
+        "tags": [
+          "social-token",
+          "Stablecoin",
+          "wormhole"
+        ],
+        "extensions": {
+                  "description": "A decentralized token for use on different blockchain platforms",
+          "telegram": "https://t.me/linuxtokens.com",
+          "twitter": "https://twitter.com/linuxtokens",
+          "website": "https://www.linuxtokens.com"
+        } 
       }
-    }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
+   ],
+   "version": {
+     "major": 0,
+     "minor": 3,
+     "patch": 3
   }
 }
