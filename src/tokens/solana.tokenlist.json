@@ -82227,31 +82227,50 @@
         "telegram": "https://t.me/shibainfinitygroup",
         "twitter": "https://twitter.com/shibainfinity_",
         "website": "https://shibainfinity.org"
-       }
-      },
-      {
-        "chainId": 101,
-        "address": "37NPZJBQVSTXcyorSYoR537jQGmQ4svSpfBCJdMjUrV9",
-        "symbol": "DLNX",
-        "name": "Debian Linux",
-        "decimals": 10,
-        "logoURI": "https://github.com/SquareandCompass/Debian-Linux/blob/main/debian.png",
-        "tags": [
-          "social-token",
-          "Stablecoin",
-          "wormhole"
-        ],
-        "extensions": {
-                  "description": "A decentralized token for use on different blockchain platforms",
-          "telegram": "https://t.me/linuxtokens.com",
-          "twitter": "https://twitter.com/linuxtokens",
-          "website": "https://www.linuxtokens.com"
-        } 
       }
-   ],
-   "version": {
-     "major": 0,
-     "minor": 3,
-     "patch": 3
-  }
+    },   
+   {
+     "chainId": 101,
+     "address": "Ht1w3UzKmjZrDaEpyzNjs5YfZqiC9oPR1bHKxp8yCkuT",
+     "symbol": "MXLNX",
+     "name": "MX Linux",
+     "decimals": 9,
+     "logoURI": "https://github.com/SquareandCompass/MX-Linux/blob/main/mx-linux.png",
+     "tags": [
+       "social-token",
+       "Stablecoin",
+       "wormhole"
+     ],
+     "extensions": {
+               "description": "A decentralized token for use on different blockchain platforms",
+       "telegram": "https://t.me/linuxtokens.com",
+       "twitter": "https://twitter.com/linuxtokens",
+       "website": "https://www.linuxtokens.com"
+     }
+    },   
+    {
+     "chainId": 101,
+     "address": "8BryHGGaNCCR7MWa9JoX7mRU3ZyChHMabNFVNw5Dy52x",
+     "symbol": "PLNX",
+     "name": "Parot Linux",
+     "decimals": 9,
+     "logoURI": "https://github.com/SquareandCompass/Parot-Linux/blob/main/Parot.png",
+     "tags": [
+       "social-token",
+       "Stablecoin",
+       "wormhole"
+     ],
+     "extensions": {
+               "description": "A decentralized token for use on different blockchain platforms",
+       "telegram": "https://t.me/linuxtokens.com",
+       "twitter": "https://twitter.com/linuxtokens",
+       "website": "https://www.linuxtokens.com"
+     }
+   }
+ ],
+ "version": {
+   "major": 0,
+   "minor": 3,
+   "patch": 3
+ }
 }
