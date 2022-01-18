@@ -80051,10 +80051,15 @@
       "symbol": "DBKS",
       "name": "Dollar Bucks",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/TuckerBrady/DollarBucks/main/Dollar-Bucks-Logo.png",
+      "logoURI": "https://raw.githubusercontent.com/TuckerBrady/DollarBucks/main/logo.png",
       "tags": [
-        "social-token"
-      ]
+        "social-token",
+        "learning-token",
+        "education-token"
+      ],
+      "extensions": {
+        "description": "A tool to be used by parents to teach their kids financial responsibility and the basics of the blockchain."
+      }
     },
     {
       "chainId": 101,
