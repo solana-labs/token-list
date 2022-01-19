@@ -35063,7 +35063,6 @@
         "solvent-droplet"
       ],
       "extensions": {
-        "coingeckoId": "solvent",
         "discord": "https://discord.gg/thK8BCtQbM",
         "github": "https://github.com/solventprotocol",
         "medium": "https://medium.com/@solventprotocol",
@@ -75263,6 +75262,7 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "solvent",
         "discord": "https://discord.gg/thK8BCtQbM",
         "github": "https://github.com/solventprotocol",
         "medium": "https://medium.com/@solventprotocol",
@@ -83126,6 +83126,36 @@
         "discord": "https://discord.gg/TeTk4GZfgh",
         "twitter": "https://twitter.com/xapeslab",
         "website": "https://xapeslab.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ByKDq6iMUgYFHAyQxm53FNgyYtaxnakA3ZRJQd4ZQSoG",
+      "symbol": "PBT",
+      "name": "PiggyBank Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/PMEinc/tmlogo/main/logo.png?token=GHSAT0AAAAAABQJ32OH5VNMPZTFCXB6VOGYYPQ4M7Q"
+    },
+    {
+      "chainId": 102,
+      "address": "vkG3Qrz6vCWjzDt5yCLEKYMYZ8hFZ27dmKe92btaZE3",
+      "symbol": "FYFY",
+      "name": "FYFY Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/vkG3Qrz6vCWjzDt5yCLEKYMYZ8hFZ27dmKe92btaZE3/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/6jEMcEVU",
+        "facebook": "https://www.facebook.com/fyfy.io",
+        "github": "https://github.com/fyfylabs",
+        "instagram": "https://www.instagram.com/fyfy.official",
+        "linkedin": "https://www.linkedin.com/company/fyfy",
+        "medium": "https://fyfy-io.medium.com",
+        "twitter": "https://twitter.com/fyfyio",
+        "website": "https://fyfy.io",
+        "whitepaper": "https://fyfy-labs-ltd.gitbook.io/fyfy-documentation/"
       },
       {
         "chainId": 101,
@@ -83137,6 +83167,7 @@
         "tags": [
           "utility-token"
         ]
+      
       }
   ],
   "version": {
