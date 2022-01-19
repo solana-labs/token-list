@@ -28702,8 +28702,11 @@
         "utility-token"
       ],
       "extensions": {
+        "description": "Singularity Online in-game currency Token",
+        "website": "https://singularityonline.app",
         "twitter": "https://twitter.com/SingularityMeta",
-        "website": "https://singularityonline.app"
+        "whitepaper": "https://whitepaper.singularityonline.app",
+        "blog": "https://blog.singularityonline.app"
       }
     },
     {
@@ -30047,8 +30050,11 @@
         "utility-token"
       ],
       "extensions": {
+        "description": "Singularity Online in-game currency Token",
+        "website": "https://singularityonline.app",
         "twitter": "https://twitter.com/SingularityMeta",
-        "website": "https://singularityonline.app"
+        "whitepaper": "https://whitepaper.singularityonline.app",
+        "blog": "https://blog.singularityonline.app"
       }
     },
     {
@@ -66072,8 +66078,10 @@
       ],
       "extensions": {
         "description": "Singularity Online DAO Token",
+        "website": "https://singularityonline.app",
         "twitter": "https://twitter.com/SingularityMeta",
-        "website": "https://singularityonline.app"
+        "whitepaper": "https://whitepaper.singularityonline.app",
+        "blog": "https://blog.singularityonline.app"
       }
     },
     {
@@ -66088,8 +66096,10 @@
       ],
       "extensions": {
         "description": "Singularity Online DAO Token",
+        "website": "https://singularityonline.app",
         "twitter": "https://twitter.com/SingularityMeta",
-        "website": "https://singularityonline.app"
+        "whitepaper": "https://whitepaper.singularityonline.app",
+        "blog": "https://blog.singularityonline.app"
       }
     },
     {
@@ -75858,10 +75868,10 @@
     {
       "chainId": 101,
       "address": "2pLgW8DsTrSgMT7NeXoyKV3avWn5fbaYZyC1kjofgLXU",
-      "symbol": "SILU",
-      "name": "Sofi ILoveU",
+      "symbol": "QRYES",
+      "name": "QRYES Token",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/rjdrar/my-solana-tokens/master/assets/mainnet/2pLgW8DsTrSgMT7NeXoyKV3avWn5fbaYZyC1kjofgLXU/sofi-001.png",
+      "logoURI": "https://raw.githubusercontent.com/rjdrar/my-solana-tokens/d4b3c396334b5c9bdaee49d36b8ae0ae4bff7867/qryes-icon.png",
       "tags": [
         "social-token"
       ]
@@ -80260,20 +80270,6 @@
     },
     {
       "chainId": 101,
-      "address": "6V7SuBWjR8aBCy8xYXpiwvapELJsZkzYSk9tBvivFTB4",
-      "symbol": "BRSC",
-      "name": "Bruspal Coin",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/bruspal/bruscoin/main/ressources/logo.png",
-      "tags": [
-        "social-token"
-      ],
-      "extensions": {
-        "website": "http://www.bruspal.net"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "8H9qSSJnJ32LNkxU9t1BdHmLrWS6mG18XNrF4xUgDff5",
       "symbol": "JC",
       "name": "JaeCoin",
@@ -81389,23 +81385,6 @@
       "extensions": {
         "twitter": "https://twitter.com/IRC_Coin",
         "website": "https://irc-chat.io"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "Gx54wvBd9n5LwtAgBC8n125ty96KEEFFedMD5Vqs3idk",
-      "symbol": "KK",
-      "name": "Krabby Kooks",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/ODENSAMAOG/Krabby-logo/main/Logo.png",
-      "tags": [
-        "social-token",
-        "community-token"
-      ],
-      "extensions": {
-        "twitter": "https://twitter.com/krabbykooks",
-        "website": "https://krabbykooks.com/",
-        "youtube": "https://www.youtube.com/c/KrabbyKooks/featured"
       }
     },
     {
@@ -83024,6 +83003,29 @@
       "tags": [
         "social-token",
         "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "Dy66WHU3DqSKZeCMt3S7645oyP1D3mkJzB2CevjPmm1F",
+      "symbol": "REX",
+      "name": "Ryok Haka Rex coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dy66WHU3DqSKZeCMt3S7645oyP1D3mkJzB2CevjPmm1F/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/RyokHakaREX",
+        "website": "https://www.ryokhakarex.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9gkgThnU59MixF7SzWuCxG7zqsWYazeUAKwmrCVfYMFu",
+      "symbol": "FUNC",
+      "name": "Fun Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9gkgThnU59MixF7SzWuCxG7zqsWYazeUAKwmrCVfYMFu/logo.svg",
+      "tags": [
+        "utility-token"
       ]
     }
   ],
