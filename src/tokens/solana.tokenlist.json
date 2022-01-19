@@ -34109,12 +34109,12 @@
         "website": "https://solsphere.io"
       }
     },
-    {
+{
       "chainId": 101,
       "address": "A4zyBooAFkpfy7osonRJMQ8a6zArGxN5fNXjXo1ZTZK2",
       "symbol": "NTCK",
       "name": "NetworkChuck Coin",
-      "decimals": 0,
+      "decimals": 0,    
       "logoURI": "https://raw.githubusercontent.com/theNetworkChuck/crypto/main/NetworkChuckCoin/logo.png",
       "tags": [
         "social-token",
@@ -83030,7 +83030,19 @@
           "community-token"
         ],
     }
-  ]
+  ],
+  {
+    "chainId": 101,
+    "address": "HrGoF1XHG13uqkEm3TvxZtAS6uh5z848zic3VMKdBtus",
+    "symbol": "REEF",
+    "name": "ReefToken",
+    "decimals": 0,    
+    "logoURI": "https://raw.githubusercontent.com/evenmorecowbell/Crypto/main/ReefTokenLogo-bluenewsquare.png",
+    "tags": [
+      "social-token",
+      "community-token"
+    ],
+  
   "version": {
     "major": 0,
     "minor": 3,
