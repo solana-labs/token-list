@@ -5486,8 +5486,8 @@
     {
       "chainId": 101,
       "address": "dK83wTVypEpa1pqiBbHY3MNuUnT3ADUZM4wk9VZXZEc",
-      "symbol": "AAVE",
-      "name": "Wrapped Aave",
+      "symbol": "soAAVE",
+      "name": "Wrapped Aave (Sollet)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/dK83wTVypEpa1pqiBbHY3MNuUnT3ADUZM4wk9VZXZEc/logo.png",
       "extensions": {
@@ -10818,6 +10818,7 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4dmKkXNHdgYsXqBHCuMikNQWwVomZURhYvkkX5c4pQ7y/logo.png",
       "extensions": {
         "coingeckoId": "synthetify-token",
+        "serumV3Usdc": "DPfj2jYwPaezkCmUNm5SSYfkrkz8WFqwGLcxDDUsN3gA",
         "twitter": "https://twitter.com/synthetify",
         "website": "https://synthetify.io/"
       }
@@ -14317,6 +14318,7 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EdAhkbj5nF9sRM7XN7ewuW8C9XEUMs8P7cnoQ57SYE96/logo.png",
       "extensions": {
         "coingeckoId": "fabric",
+        "serumV3Usdc": "Cud48DK2qoxsWNzQeTL5D8sAiHsGwG8Ev1VMNcYLayxt",
         "twitter": "https://twitter.com/official_fabric",
         "website": "https://fsynth.io/"
       }
@@ -14831,6 +14833,7 @@
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/JET6zMJWkCN9tpRT2v2jfAmm5VnQFDpUBCyaKojmGtz/logo.png",
       "extensions": {
         "coingeckoId": "jet",
+        "serumV3Usdc": "6pQMoHDC2o8eeFxyTKtfnsr8d48hKFWsRpLHAqVHH2ZP",
         "website": "https://jetprotocol.io/"
       }
     },
@@ -16500,6 +16503,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj/logo.png",
       "extensions": {
+        "serumV3Usdc": "5F7LGsP1LPtaRV7vVKgxwNYX4Vf22xvuzyXjyar7jJqp",
         "twitter": "https://twitter.com/LidoFinance",
         "website": "https://solana.lido.fi/"
       }
@@ -17484,6 +17488,7 @@
         "coingeckoId": "socean-staked-sol",
         "discord": "https://discord.gg/k8ZcW27bq9",
         "medium": "https://medium.com/@soceanfinance",
+        "serumV3Usdc": "D52sefGCWho2nd5UGxWd7wCftAzeNEMNYZkdEPGEdQTb",
         "twitter": "https://twitter.com/soceanfinance",
         "website": "https://socean.fi/"
       }
@@ -83407,6 +83412,302 @@
         "twitter": "https://twitter.com/iwaiterMENA",
         "website": "https://iwaiter.net"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "CjwaoVnLG9xb2M9sSCp9g8r4jhV4FnMGufRXiUVnVND1",
+      "symbol": "KAMA",
+      "name": "Karma Koin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/anthonybakx/crypto/main/Karma.png",
+      "tags": [
+        "social-token",
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8AZE7sB9h76ERo6y2kopyg82njCqCXz55R1D8WidAekF",
+      "symbol": "DBwT",
+      "name": "Dead Bros Whitelist Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/c792a3c9a4a9966c297afd9d81135b0481fa9d7a/assets/mainnet/8AZE7sB9h76ERo6y2kopyg82njCqCXz55R1D8WidAekF/logo.jpg",
+      "tags": [
+        "DeadBros",
+        "DBT",
+        "NFT",
+        "Whitelist",
+        "Zombie",
+        "Undead"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/DeadBros666"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6zZJ6LbpJJtN7SRYujyS5RRxJzvRVxPfwwfunMkh8Vbp",
+      "symbol": "NARA",
+      "name": "Nara Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/zectro/crypto/main/nara.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5n94vqEA5yNNnMvEunANoHnrDwKkcHcc6BAKNc8CZh21",
+      "symbol": "ATT",
+      "name": "ATT RentalCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/eightbit6510/crypto/main/attcoin.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "BiFAEWzRg5smZuYbkExWCejYLMJThqd7t2HewvLcsmJT",
+      "symbol": "CCY",
+      "name": "Cryptic Currency",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/CrypticToken/Crypto/main/Coin.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "sBUDzitkrHNZAR2gAoRorwSo6nqBEsHfRmdybHCsw8o",
+      "symbol": "sBUD",
+      "name": "BunnyDucky Staking Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sBUDzitkrHNZAR2gAoRorwSo6nqBEsHfRmdybHCsw8o/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/BunnyDuckyHQ",
+        "website": "https://bunnyducky.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EWL2aMkx1j7XcjdKniVMKmuK7Vds3CgMXJv28HohVBUx",
+      "symbol": "$GOOD",
+      "name": "Commit Good",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EWL2aMkx1j7XcjdKniVMKmuK7Vds3CgMXJv28HohVBUx/logo.png",
+      "tags": [
+        "NFT",
+        "Philanthropic",
+        "Charity",
+        "Volunteer-Reward"
+      ],
+      "extensions": {
+        "description": "Commit GOOD is an NFT philanthropic ecosystem built on the Solana Blockchain",
+        "facebook": "https://www.facebook.com/CommitGood/",
+        "twitter": "https://twitter.com/commitgdoffical",
+        "website": "https://commitgood.com/"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "EmT8DDai6qoiVrvUaFRLAu3pVoqChkYyWS8WexQVjt8m",
+      "symbol": "ALBINO",
+      "name": "ApesAgainst WL Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EmT8DDai6qoiVrvUaFRLAu3pVoqChkYyWS8WexQVjt8m/logo.png",
+      "extensions": {
+        "website": "http://apesagainst.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "D77wfRvxzFgdAHd1C1gE5JuwuSq4QLSTxc3huB52WBXH",
+      "symbol": "$Yakuza",
+      "name": "Yakuza Wars",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D77wfRvxzFgdAHd1C1gE5JuwuSq4QLSTxc3huB52WBXH/logo.png",
+      "extensions": {
+        "discord": "https://discord.gg/YUHDjmcssG",
+        "twitter": "https://twitter.com/yakuzawarsnft",
+        "website": "https://yakuzawars.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EcDWaqgfWre56VhCCjHbtqeVoPVWGtRkyWSA4H4GCXRD",
+      "symbol": "BITC",
+      "name": "BitondCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Elod044/BitondCoin/main/bitondcoin.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3Mtinr77fvdW3jBUkimTHmm4DsTUcm6YyhPRmijwrqa6",
+      "symbol": "HML",
+      "name": "HamalCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/florianHamal/coin/main/pic.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "CYnW72dNBZcjv2rVH7QEChdynPWU6AwhWnLfCyVjAFBX",
+      "symbol": "CMV",
+      "name": "CINEMetAverse's",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Izsook/Cinemetaverses/main/Logo3.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5fTwKZP2AK39LtFN9Ayppu6hdCVKfMGVm79F2EgHCtsi",
+      "symbol": "WHEY",
+      "name": "Shredded Apes Gym Club",
+      "decimals": 6,
+      "logoURI": "https://secureservercdn.net/160.153.138.53/cjm.06a.myftpupload.com/wp-content/uploads/2021/12/whey-coin-2048x2048.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/shreddedapes",
+        "website": "https://shreddedapes.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9w56YQTqukyTDckwvX1q3otDDqoHZKvZRfyxRs66714Q",
+      "symbol": "PKLWFM",
+      "name": "Pickle Law Firm Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/SpyicyDev/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "G4ZgnP3AuaLZBeKghrf8wGaLtkPiZEZZ7mnJ2rMYRKnR",
+      "symbol": "SUDO",
+      "name": "Sudo Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/redneki/Sudo-Coin/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3yfKWgVECDBJMUbxEXEMbFpR3GfHK688v7yqaX6eHYVH",
+      "symbol": "CPA",
+      "name": "Cute Pixel Ape Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3yfKWgVECDBJMUbxEXEMbFpR3GfHK688v7yqaX6eHYVH/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/CutePixelApe",
+        "website": "https://www.cutepixelape.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3EX6ZMvGJQHmPxp21YZooDd4fWa7FQM5ANPbvR56FBeo",
+      "symbol": "SWMP",
+      "name": "Swamp Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/papacroc/swamp/main/Logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4qMrzbUFmuVnNSb1Q1LyaW2hDzQJ2iJ9W3BT173tAa1a",
+      "symbol": "KK",
+      "name": "Krabby Kooks",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ELmo1589/Logo/main/Logo.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/krabbykooks",
+        "website": "https://krabbykooks.com/",
+        "youtube": "https://www.youtube.com/c/KrabbyKooks/featured"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "dnqqARmAuYFAuGwJDoCtqiG1r596UevadbWFLN53RUJ",
+      "symbol": "MYLO",
+      "name": "My Low Carbon",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/AllyByers/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "TVPjsECdZdgHqdBAbo2WBve5Qnon5WhWE7pGrkRNYkr",
+      "symbol": "BWRGO",
+      "name": "BWRGO Chips",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/swampcoin/solana-bwrgo/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "2tWC4JAdL4AxEFJySziYJfsAnW2MHKRo98vbAPiRDSk8",
+      "symbol": "USDC",
+      "name": "USD Coin (Saber Devnet)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "usd-coin",
+        "website": "https://saber.so/"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "EJwZgeZrdC8TXTQbQBoL6bfuAnFUUy1PVCMB4DYPzVaS",
+      "symbol": "USDT",
+      "name": "USDT (Saber Devnet)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "coingeckoId": "tether",
+        "website": "https://saber.so/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DgHF6XLh1qgiyCQMadT9nqXub2XjzmTbbrUYeYXctyDV",
+      "symbol": "PPF",
+      "name": "PepperFire",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/pent65/crypto/main/logo.png",
+      "tags": [
+        "multi-purpose"
+      ]
     }
   ],
   "version": {
