@@ -19940,10 +19940,10 @@
         "utility-token"
       ],
       "extensions": {
-		"coingeckoId": "phant",
+        "coingeckoId": "phant",
         "coinmarketcap": "https://coinmarketcap.com/currencies/phant/",
-        "serumV3Usdc": "9GWz5exH52JAHhe4MyKmo96SRAJy96ZKhEpqrnbVzYqU",
         "discord": "https://discord.gg/HsHwWGtuaz",
+        "serumV3Usdc": "9GWz5exH52JAHhe4MyKmo96SRAJy96ZKhEpqrnbVzYqU",
         "twitter": "https://twitter.com/wecap_io",
         "website": "https://wecap.io/"
       }
@@ -27533,8 +27533,8 @@
         "reddit": "https://www.reddit.com/r/next_defi_protocol/",
         "telegram": "https://t.me/nxdfarmy",
         "twitter": "https://twitter.com/NXDF16",
-        "youtube": "https://www.youtube.com/channel/UCMdPUPpCTVf-OHvMLCdzxOQ",
-        "website": "https://nxdf.io/"
+        "website": "https://nxdf.io/",
+        "youtube": "https://www.youtube.com/channel/UCMdPUPpCTVf-OHvMLCdzxOQ"
       }
     },
     {
@@ -28425,8 +28425,8 @@
         "reddit": "https://www.reddit.com/r/next_defi_protocol/",
         "telegram": "https://t.me/nxdfarmy",
         "twitter": "https://twitter.com/NXDF16",
-        "youtube": "https://www.youtube.com/channel/UCMdPUPpCTVf-OHvMLCdzxOQ",
-        "website": "https://nxdf.io/"
+        "website": "https://nxdf.io/",
+        "youtube": "https://www.youtube.com/channel/UCMdPUPpCTVf-OHvMLCdzxOQ"
       }
     },
     {
@@ -50969,9 +50969,9 @@
         "babytiger"
       ],
       "extensions": {
+        "coingeckoId": "babytigergold",
         "twitter": "https://twitter.com/babytigergold",
-        "website": "https://www.babytiger.gold",
-        "coingeckoId": "babytigergold"
+        "website": "https://www.babytiger.gold"
       }
     },
     {
@@ -58407,11 +58407,11 @@
         "solmergeaicom"
       ],
       "extensions": {
-        "twitter": "https://twitter.com/1safu_sol",
-        "telegram": "https://t.me/sol1safu",
+        "coingeckoId": "1safu",
         "discord": "https://discord.gg/avdNF9s4CF",
         "serumV3Usdc": "H8sjxDJWVxC3kP5uZ3p9eZncc4Czn9pTWEA6bH2XX7rM",
-        "coingeckoId": "1safu",
+        "telegram": "https://t.me/sol1safu",
+        "twitter": "https://twitter.com/1safu_sol",
         "website": "https://www.1safu.com/"
       }
     },
@@ -68837,9 +68837,9 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "mindfolk-wood",
         "discord": "https://discord.gg/mindfolk",
         "twitter": "https://twitter.com/mindfolkART",
-        "coingeckoId": "mindfolk-wood",
         "website": "https://www.mindfolk.art/"
       }
     },
@@ -84428,6 +84428,24 @@
         "social-token",
         "utility-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "DMvWyuGPCWzAHCiQ1cq6NcGGyAC1Rne1RPiCaz4fDQMy",
+      "symbol": "AP",
+      "name": "Ape Power",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DMvWyuGPCWzAHCiQ1cq6NcGGyAC1Rne1RPiCaz4fDQMy/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "gaming-token"
+      ],
+      "extensions": {
+        "discord": "http://discord.gg/degenapesociety",
+        "twitter": "https://twitter.com/DegenApeSociety",
+        "website": "https://degenapesociety.com/"
+      }
     }
   ],
   "version": {
