@@ -16414,7 +16414,7 @@
     },
     {
       "chainId": 101,
-      "address": "6veSH51HZGQKP9icyDis69v21eWUmJLfKNgPADzngEWJ",
+      "address": "AsWigW5KeEKsiDAgdjxpWQEBMFk4BEgmmmHZMYwVfUVN",
       "symbol": "ZKL",
       "name": "zkrollup cross chain link",
       "decimals": 9,
@@ -16425,7 +16425,7 @@
     },
     {
       "chainId": 101,
-      "address": "3N4MaMn4fPm7puzE6oPEwAUody9h5pLUTxc6hZGFdpgM",
+      "address": "EwHqbMUMX33JjWAhxSg9vsX3miWqncsgpnAbqn9nhJwZ",
       "symbol": "ULA",
       "name": "Solana Mobile App UlaPay Token",
       "decimals": 9,
@@ -19942,8 +19942,8 @@
       "extensions": {
         "coingeckoId": "phant",
         "coinmarketcap": "https://coinmarketcap.com/currencies/phant/",
-        "serumV3Usdc": "9GWz5exH52JAHhe4MyKmo96SRAJy96ZKhEpqrnbVzYqU",
         "discord": "https://discord.gg/HsHwWGtuaz",
+        "serumV3Usdc": "9GWz5exH52JAHhe4MyKmo96SRAJy96ZKhEpqrnbVzYqU",
         "twitter": "https://twitter.com/wecap_io",
         "website": "https://wecap.io/"
       }
@@ -27533,8 +27533,8 @@
         "reddit": "https://www.reddit.com/r/next_defi_protocol/",
         "telegram": "https://t.me/nxdfarmy",
         "twitter": "https://twitter.com/NXDF16",
-        "youtube": "https://www.youtube.com/channel/UCMdPUPpCTVf-OHvMLCdzxOQ",
-        "website": "https://nxdf.io/"
+        "website": "https://nxdf.io/",
+        "youtube": "https://www.youtube.com/channel/UCMdPUPpCTVf-OHvMLCdzxOQ"
       }
     },
     {
@@ -28425,8 +28425,8 @@
         "reddit": "https://www.reddit.com/r/next_defi_protocol/",
         "telegram": "https://t.me/nxdfarmy",
         "twitter": "https://twitter.com/NXDF16",
-        "youtube": "https://www.youtube.com/channel/UCMdPUPpCTVf-OHvMLCdzxOQ",
-        "website": "https://nxdf.io/"
+        "website": "https://nxdf.io/",
+        "youtube": "https://www.youtube.com/channel/UCMdPUPpCTVf-OHvMLCdzxOQ"
       }
     },
     {
@@ -50969,9 +50969,9 @@
         "babytiger"
       ],
       "extensions": {
+        "coingeckoId": "babytigergold",
         "twitter": "https://twitter.com/babytigergold",
-        "website": "https://www.babytiger.gold",
-        "coingeckoId": "babytigergold"
+        "website": "https://www.babytiger.gold"
       }
     },
     {
@@ -58407,11 +58407,11 @@
         "solmergeaicom"
       ],
       "extensions": {
-        "twitter": "https://twitter.com/1safu_sol",
-        "telegram": "https://t.me/sol1safu",
+        "coingeckoId": "1safu",
         "discord": "https://discord.gg/avdNF9s4CF",
         "serumV3Usdc": "H8sjxDJWVxC3kP5uZ3p9eZncc4Czn9pTWEA6bH2XX7rM",
-        "coingeckoId": "1safu",
+        "telegram": "https://t.me/sol1safu",
+        "twitter": "https://twitter.com/1safu_sol",
         "website": "https://www.1safu.com/"
       }
     },
@@ -68837,9 +68837,9 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "mindfolk-wood",
         "discord": "https://discord.gg/mindfolk",
         "twitter": "https://twitter.com/mindfolkART",
-        "coingeckoId": "mindfolk-wood",
         "website": "https://www.mindfolk.art/"
       }
     },
@@ -84441,6 +84441,145 @@
       "tags": [
         "social-token",
         "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DMvWyuGPCWzAHCiQ1cq6NcGGyAC1Rne1RPiCaz4fDQMy",
+      "symbol": "AP",
+      "name": "Ape Power",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DMvWyuGPCWzAHCiQ1cq6NcGGyAC1Rne1RPiCaz4fDQMy/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "gaming-token"
+      ],
+      "extensions": {
+        "discord": "http://discord.gg/degenapesociety",
+        "twitter": "https://twitter.com/DegenApeSociety",
+        "website": "https://degenapesociety.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5H9Kmyewa2caQMpwsfQYMgt6UEzobSBwJsFUE8ioZXjp",
+      "symbol": "JNGL",
+      "name": "JungleSoulsToken",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/Raph990/Jungle/main/Token.jpeg"
+    },
+    {
+      "chainId": 101,
+      "address": "5cKFNtooCQSkLhdFukk8R3PTdT4Rvm9cJr8Et49TxchR",
+      "symbol": "TSI",
+      "name": "Tesla Shiba Inu",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5cKFNtooCQSkLhdFukk8R3PTdT4Rvm9cJr8Et49TxchR/logo.png",
+      "tags": [
+        "utility-token",
+        "meme"
+      ],
+      "extensions": {
+        "discord": "https://discord.io/tesla_shibainu",
+        "telegram": "https://t.me/tesla_shibainu",
+        "twitter": "https://twitter.com/tesla_shibainu",
+        "website": "https://teslashibainu.dog"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4XSCR35F1z39PmumAMG6C1ZeBrezanmCJehjZdLqaGwX",
+      "symbol": "UXS",
+      "name": "United XS",
+      "decimals": 2,
+      "logoURI": "https://drive.google.com/file/d/1l3oid6HweYhVsFy5ROjkzsTrQrU5IXVf/view?usp=sharing",
+      "tags": [
+        "social-token",
+        "trading-token",
+        "utility-token",
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4HDPJgU4TfJroZJq2MmXJey7LPFBvr4iw11MfQVeQehp",
+      "symbol": "BRCN",
+      "name": "Beer Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/beercoin2022/pic/main/lobo%20beerc.jpg"
+    },
+    {
+      "chainId": 101,
+      "address": "GTuDe5yneFKaWSsPqqKgu413KTk8WyDnUZcZUGxuNYsT",
+      "symbol": "DASCH",
+      "name": "Dasch Coin",
+      "decimals": 0,
+      "logoURI": "https://github.com/kennethoqs/dasch/blob/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9XZR8Y5ZbRAvbCMMzeoSPzj8haAaUBaa9XoFBDHJAy2Z",
+      "symbol": "SVBL",
+      "name": "Sievable",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9XZR8Y5ZbRAvbCMMzeoSPzj8haAaUBaa9XoFBDHJAy2Z/logo.png",
+      "tags": [
+        "utility-token",
+        "svbl",
+        "sievable"
+      ],
+      "extensions": {
+        "description": "Sievable is a universal filter-based search engine powered by machine learning.",
+        "discord": "https://discord.gg/x9rmRNvdnS",
+        "twitter": "https://twitter.com/Sievable",
+        "website": "https://www.sievable.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3EH9uuM4T1Zyh27g2QBwA2f5mJyKbjtGc8e8Gurrg7v7",
+      "symbol": "MUFI",
+      "name": "Music Finance",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/hedde22/crypto2/main/large2.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "HBB111SCo9jkCejsZfz8Ec8nH7T6THF8KEKSnvwT6XK6",
+      "symbol": "HBB",
+      "name": "Hubble Protocol Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HBB111SCo9jkCejsZfz8Ec8nH7T6THF8KEKSnvwT6XK6/logo.svg",
+      "tags": [
+        "stake-pool-token",
+        "utility-token",
+        "community-token"
+      ],
+      "extensions": {
+        "coingeckoId": "hubble",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/hubble-protocol/",
+        "discord": "https://discord.gg/d44A8WvK",
+        "twitter": "https://twitter.com/hubbleprotocol",
+        "website": "https://hubbleprotocol.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6uZmhU7YfKzKaV9kkv73oXgjiDKnnKriB1gQYPxjce3H",
+      "symbol": "DEER",
+      "name": "Bruces Deer Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Floridanative60/crytologo/main/deer.PNG",
+      "tags": [
+        "social-token",
+        "community-token"
       ]
     }
   ],
