@@ -85167,90 +85167,29 @@
         "website": "https://www.nftsolanagallery.com/"
       }
     },
-    { 
-          "chainId": 101,
-          "address": "EBJNRwAJGeiinx15QW3wYXkqDcr1tPnH8Cx7CgsQHUV8",
-          "symbol": "CLNX",
-          "name": "Linux Centos)",
-          "decimals": 9,
-          "logoURI": "https://github.com/SquareandCompass/Centos-Linux/blob/main/centos.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
-            "extensions": {
-            "telegram": "https://t.me/linuxtokens.com",
-            "twitter": "https://twitter.com/linuxtokens",
-            "website": "https://www.linuxtokens.com"
-          }
-        },
-        {
-          "chainId": 101,
-          "address": "37NPZJBQVSTXcyorSYoR537jQGmQ4svSpfBCJdMjUrV9",
-          "symbol": "DLNX",
-          "name": "Linux Debian)",
-          "decimals": 9,
-          "logoURI": "https://github.com/SquareandCompass/Debian-Linux/blob/main/debian.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
-            "extensions": {
-            "telegram": "https://t.me/linuxtokens.com",
-            "twitter": "https://twitter.com/linuxtokens",
-            "website": "https://www.linuxtokens.com"
+    {
+        "chainId": 101,
+        "address": "37NPZJBQVSTXcyorSYoR537jQGmQ4svSpfBCJdMjUrV9",
+        "symbol": "DLNX",
+        "name": "Linux Debian)",      
+        "decimals": 9,
+        "logoURI": "https://github.com/SquareandCompass/Debian-Linux/blob/main/debian.png",
+        "tags": [
+          "wrapped",
+           "ethereum",
+           "stablecoin",
+           "development",
+           "social token",
+           "utility-token",
+           "wrapped-sollet",
+           "community token",
+           "Non-fungible token"
+        ],
+        "extensions": {
+          "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens, bridged from etherium,non-fungable tokens,asset wrapped tokens and for linux os community tokens.",
+          "telegram": "https://t.me/linuxtokens.com",
+          "twitter": "https://twitter.com/linuxtokens",
+           "website": "https://www.linuxtokens.com"
           }
         },
         {
@@ -85260,37 +85199,19 @@
           "name": "Linux Oracle)",
           "decimals": 9,
           "logoURI": "https://github.com/SquareandCompass/Oracle-Linux/blob/main/oracle.lnx.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
-            "extensions": {
+          "tags": [
+            "wrapped",
+            "ethereum",
+            "stablecoin",
+            "development",
+            "social token",
+            "utility-token",
+            "wrapped-sollet",
+            "community token",
+            "Non-fungible token"
+          ],
+          "extensions": {
+            "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens, bridged from etherium,non-fungable tokens,asset wrapped tokens and for linux os community tokens.",
             "telegram": "https://t.me/linuxtokens.com",
             "twitter": "https://twitter.com/linuxtokens",
             "website": "https://www.linuxtokens.com"
@@ -85303,37 +85224,19 @@
           "name": "Linux FX",
           "decimals": 9,
           "logoURI": "https://github.com/SquareandCompass/FX-Linux/blob/main/linuxfx.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
-            "extensions": {
+          "tags": [
+            "wrapped",
+            "ethereum",
+            "stablecoin",
+            "development",
+            "social token",
+            "utility-token",
+            "wrapped-sollet",
+            "community token",
+            "Non-fungible token"
+          ],
+          "extensions": {
+            "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens, bridged from etherium,non-fungable tokens,asset wrapped tokens and for linux os community tokens.",
             "telegram": "https://t.me/linuxtokens.com",
             "twitter": "https://twitter.com/linuxtokens",
             "website": "https://www.linuxtokens.com"
@@ -85346,37 +85249,19 @@
           "name": "Linux Ubuntu",
           "decimals": 9,
           "logoURI": "https://github.com/SquareandCompass/Ubuntu-Linux/blob/main/ubuntu.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
-            "extensions": {
+          "tags": [
+            "wrapped",
+            "ethereum",
+            "stablecoin",
+            "development",
+            "social token",
+            "utility-token",
+            "wrapped-sollet",
+            "community token",
+            "Non-fungible token"
+          ],
+          "extensions": {
+            "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens, bridged from etherium,non-fungable tokens,asset wrapped tokens and for linux os community tokens.",
             "telegram": "https://t.me/linuxtokens.com",
             "twitter": "https://twitter.com/linuxtokens",
             "website": "https://www.linuxtokens.com"
@@ -85389,37 +85274,19 @@
           "name": "Linux Dragonfly",
           "decimals": 9,
           "logoURI": "https://github.com/SquareandCompass/DragonBSD-Linux/blob/main/lnx.dragon.bsd.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
-            "extensions": {
+          "tags": [
+            "wrapped",
+            "ethereum",
+            "stablecoin",
+            "development",
+            "social token",
+            "utility-token",
+            "wrapped-sollet",
+            "community token",
+            "Non-fungible token"
+          ],
+          "extensions": {
+            "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens, bridged from etherium,non-fungable tokens,asset wrapped tokens and for linux os community tokens.",
             "telegram": "https://t.me/linuxtokens.com",
             "twitter": "https://twitter.com/linuxtokens",
             "website": "https://www.linuxtokens.com"
@@ -85432,37 +85299,19 @@
           "name": "Linux RHL",
           "decimals": 9,
           "logoURI": "https://github.com/SquareandCompass/RHEL-Linux/blob/main/redhat.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
-            "extensions": {
+          "tags": [
+            "wrapped",
+            "ethereum",
+            "stablecoin",
+            "development",
+            "social token",
+            "utility-token",
+            "wrapped-sollet",
+            "community token",
+            "Non-fungible token"
+          ],
+          "extensions": {
+            "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens, bridged from etherium,non-fungable tokens,asset wrapped tokens and for linux os community tokens.",
             "telegram": "https://t.me/linuxtokens.com",
             "twitter": "https://twitter.com/linuxtokens",
             "website": "https://www.linuxtokens.com"
@@ -85475,37 +85324,19 @@
           "name": "Linux MX",
           "decimals": 9,
           "logoURI": "https://github.com/SquareandCompass/MX-Linux/blob/main/mx-linux.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
-            "extensions": {
+          "tags": [
+            "wrapped",
+            "ethereum",
+            "stablecoin",
+            "development",
+            "social token",
+            "utility-token",
+            "wrapped-sollet",
+            "community token",
+            "Non-fungible token"
+          ],
+          "extensions": {
+            "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens, bridged from etherium,non-fungable tokens,asset wrapped tokens and for linux os community tokens.",
             "telegram": "https://t.me/linuxtokens.com",
             "twitter": "https://twitter.com/linuxtokens",
             "website": "https://www.linuxtokens.com"
@@ -85518,40 +85349,22 @@
           "name": "Linux Parot",
           "decimals": 9,
           "logoURI": "https://github.com/SquareandCompass/Arch-Linux/blob/main/arch.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
+          "tags": [
+              "wrapped",
+              "ethereum",
+              "stablecoin",
+              "development",
+              "social token",
+              "utility-token",
+              "wrapped-sollet",
+              "community token",
+              "Non-fungible token"
+            ],
             "extensions": {
-            "telegram": "https://t.me/linuxtokens.com",
-            "twitter": "https://twitter.com/linuxtokens",
-            "website": "https://www.linuxtokens.com"
+              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens, bridged from etherium,non-fungable tokens,asset wrapped tokens and for linux os community tokens.",
+              "telegram": "https://t.me/linuxtokens.com",
+              "twitter": "https://twitter.com/linuxtokens",
+              "website": "https://www.linuxtokens.com"
           }
         },
         {
@@ -85561,41 +85374,23 @@
           "name": "Linux Arch",
           "decimals": 9,
           "logoURI": "https://github.com/SquareandCompass/Parot-Linux/blob/main/Parot.png",
-          "tags": {
-            "stablecoin": {
-              "name": "nft",
-              "description": "Non-fungible token"
-            },
-            "ethereum": {
-              "name": "ethereum",
-              "description": "Asset bridged from ethereum"
-            },
-            "wrapped": {
-              "name": "wrapped",
-              "description": "Asset wrapped using wormhole bridge"
-            },
-            "community token": {
-              "name": "community token",
-              "description": "Research and development linux os communities"
-            },
-            "lp-token": {
-              "name": "lp-token",
-              "description": "Asset representing liquidity provider token"
-            },
-            "security-token": {
-              "name": "security-token",
-              "description": "Tokens that are used to gain access to an electronically restricted resource"
-            },
-            "utility-token": {
-              "name": "utility-token",
-              "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
-            }
-          },
-            "extensions": {
+          "tags": [
+            "wrapped",
+            "ethereum",
+            "stablecoin",
+            "development",
+            "social token",
+            "utility-token",
+            "wrapped-sollet",
+            "community token",
+            "Non-fungible token"
+          ],
+          "extensions": {
+            "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens, bridged from etherium,non-fungable tokens,asset wrapped tokens and for linux os community tokens.",
             "telegram": "https://t.me/linuxtokens.com",
             "twitter": "https://twitter.com/linuxtokens",
             "website": "https://www.linuxtokens.com"
-
+    
       }
     }
   ],
