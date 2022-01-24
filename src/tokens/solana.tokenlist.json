@@ -951,8 +951,8 @@
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/p31qJ7LDLNRC57rU5GsXxFGBsnXheFXSsEn3avPoKDc/logo.png",
       "tags": [
-        "nft",
-        "nft-marketplace",
+        "utility-token",
+        "community-token",
         "governance-token"
       ],
       "extensions": {
@@ -84836,8 +84836,8 @@
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/An4iSjm5RtWMAeUGrbbkZ7EJNCaQutmkoSKjXNMKZSyE/logo.png",
       "tags": [
-        "nft",
-        "nft-marketplace",
+        "utility-token",
+        "community-token",
         "governance-token"
       ],
       "extensions": {
@@ -88457,11 +88457,143 @@
     },
     {
       "chainId": 101,
-      "address": "ADNUG4Y8LW9jTticE9VaPs8xfSVXg1j8UKC8VzcEKXHe",
-      "symbol": "THS",
-      "name": "Thesis",
+      "address": "9By8YbnSZc2xNhSy6SE2mDpb9X9vF7qArp1jshawvd3d",
+      "symbol": "ZNT",
+      "name": "ZerberusNetworkToken",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Luapix/ZerberusNetwork/main/bbe13b80b4804217801a654a158980b7.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "F52RcGHrdGiSfKSXmoWd5YBAYsmkftmBWhbjSD5DDq6o",
+      "symbol": "STONKIS",
+      "name": "Stonkis coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/saltvatten/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9WR2z4LSgWtr7nyfzmGaH5T8dBqJtCJbea62m6ynQ5zL",
+      "symbol": "NILAISH",
+      "name": "Nilan Aish Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9WR2z4LSgWtr7nyfzmGaH5T8dBqJtCJbea62m6ynQ5zL/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "Bk7BtQVbzh3aqHS8XntmA6xXZZYwBemqscYbWLD4VbXU",
+      "symbol": "GHSTX",
+      "name": "GHOST OPTIONS",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bk7BtQVbzh3aqHS8XntmA6xXZZYwBemqscYbWLD4VbXU/logo.png",
+      "extensions": {
+        "website": "https://ghostoptions.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CwpXvAZDNK8n6FVqHxdATvgvSLBfwkm5AJqdDTCT4L38",
+      "symbol": "SM",
+      "name": "Solana Miners WL",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CwpXvAZDNK8n6FVqHxdATvgvSLBfwkm5AJqdDTCT4L38/logo.png",
+      "extensions": {
+        "discord": "https://discord.com/invite/JDTqAGFnNd",
+        "twitter": "https://twitter.com/SolanaMiners",
+        "website": "https://solanaminers.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FwwxaPRAEBx7Bp98goCYknGK4NLmZSJfQR16vJzJVrr7",
+      "symbol": "DBT",
+      "name": "DatBug",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/azaek/DatBugToken/7679d6daa5272585b57352a084b85dd05d151799/DBT.png"
+    },
+    {
+      "chainId": 101,
+      "address": "iV4DSeDNjWasKVywvu8Mp4mMc2Te7uioGEWrfTnAQxF",
+      "symbol": "SOULS",
+      "name": "HornsvsHalos",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/hornsvshalos/token/main/soulstoken.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DumWh3LbSTP7iE9oRSLeptfjK3NoJLkWXTgHGDqybunZ",
+      "symbol": "CRAP",
+      "name": "Crap",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/FullMoonMiningCo/logos/main/crap-logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DpbsGSHBZQrKkvxkFU8snmx6KzFK7RRUCiRksN7ojEqx",
+      "symbol": "SYMPATHY",
+      "name": "Sympathy",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/FullMoonMiningCo/logos/main/sympathy-logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "HNMjpQYNdY3xjFt91X2Rg4sbNi3WKySJsPMJHq2yKNiQ",
+      "symbol": "CHOICE",
+      "name": "Choice",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/FullMoonMiningCo/logos/main/choice-logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3P7TBkAZjRQdEQgLj2y8cSCPpjhsmyvWHNgc4G9VYn2n",
+      "symbol": "ATTN",
+      "name": "Attention",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/FullMoonMiningCo/logos/main/attn-logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "65ih6bwSeUeLdDyB8BggwVwrRaMofvLvthubv4Spu9MC",
+      "symbol": "GRNDGT",
+      "name": "GRANGD's Global Token",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/DekreedStudios/varkalai/main/thesis.png"
+      "logoURI": "https://raw.githubusercontent.com/joelshu1/frenchclass/main/logo-yuanbao.png",
+      "tags": [
+        "social-token",
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8Q2z5MAAHxmquedtmnFJ5zXf8FDrpq2DH4bBodHYuG3w",
+      "symbol": "VTC",
+      "name": "VerdeCoin",
+      "decimals": 7,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8Q2z5MAAHxmquedtmnFJ5zXf8FDrpq2DH4bBodHYuG3w/logo.png"
     }
   ],
   "version": {
