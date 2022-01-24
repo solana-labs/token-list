@@ -86822,16 +86822,27 @@
       "address": "CQqo3KXd3HPLxvkTojCN6a4yhUKnHyVeY36iFKgv7Hug",
       "symbol": "OneCoin",
       "name": "OneCoin",
-      "decimals": 9,
+      "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/onecoin2022/Onecoin/main/one.png",
       "tags": [
         "social-token"
       ]
-    }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
+    },
+  {
+    "chainId": 101,
+    "address": "GG3gVKEb9K48aSYkYvMmBLU9HaCUkLKxeC4c8oZuJG2W",
+    "symbol": "OneLife",
+    "name": "OneLife Coin",
+    "decimals": 0,
+    "logoURI": "https://raw.githubusercontent.com/onecoin2022/OneLife/main/life.png",
+    "tags": [
+      "social-token"
+    ]
   }
+],
+"version": {
+"major": 0,
+"minor": 3,
+"patch": 3
+}
 }
