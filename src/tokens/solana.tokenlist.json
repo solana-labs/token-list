@@ -88723,7 +88723,6 @@
       "extensions": {
         "discord": "https://discord.gg/zZedFkuybR"
       }
-<<<<<<< HEAD
     },
     {
       "chainId": 101,
@@ -88735,24 +88734,30 @@
     },
     {
       "chainId": 101,
-      "address": "PartumKFrDhAkoGaQw3o1eLs1MXmpBjKfU5eMpzwyxW",
-      "symbol": "PAR",
-      "name": "Partum",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PartumKFrDhAkoGaQw3o1eLs1MXmpBjKfU5eMpzwyxW/logo.png",
+
+      "address": "CLd797uarSBWHmD7rFiypQQNsTZZMmRjgxTbEV15k4g6",
+      "symbol": "HYPR",
+      "name": "HYPRCOIN",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/kmpunk/crypto/main/logo.png",
       "tags": [
-        "utility-token",
-		"nfts",
-		"governance-token"
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "ADNUG4Y8LW9jTticE9VaPs8xfSVXg1j8UKC8VzcEKXHe",
+      "symbol": "THS",
+      "name": "Thesis",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/DekreedStudios/varkalai/main/thesis.png",
+      "tags": [
+        "utility-token"
       ],
       "extensions": {
-        "discord": "https://discord.gg/ynCfkSMfwK",
-        "telegram": "https://t.me/PartumRiseOfAGladiator",
-        "twitter": "https://twitter.com/PartumNFT",
-        "website": "https://riseofagladiator.com/"
+        "description": "Varkalai Token",
+        "website": "https://www.varkalai.com"
       }
-=======
->>>>>>> parent of 4d78be948... Update solana.tokenlist.json
     }
   ],
   "version": {
