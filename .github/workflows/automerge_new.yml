@@ -15,11 +15,11 @@ jobs:
           go-version: '^1.17.3'
 
       # Required for automerge to clone from the local working copy
-      #- run: git checkout -b work
+      - run: git checkout -b work
 
-      #- run: cd automerge && go build -o ~/automerge github.com/solana-labs/token-list/automerge
+      - run: cd automerge && go build -o ~/automerge github.com/solana-labs/token-list/automerge
 
-      #- run: ~/automerge -v=1 -setRemoteForCI
+      - run: ~/automerge -v=1 -setRemoteForCI
        # env:
         #  GITHUB_APP_PEM: "${{ secrets.TL_APP_PEM }}"
 
