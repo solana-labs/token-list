@@ -91900,7 +91900,7 @@
       "symbol": "PUGS",
       "name": "PUGS Token",
       "decimals": 0,s
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/assets/mainnet/6thgyjUZ5Vfsy1CpDPGuyJkJxMVyzUY4mNvE797S3Eey/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6thgyjUZ5Vfsy1CpDPGuyJkJxMVyzUY4mNvE797S3Eey/logo.png",
       "tags": [
         "social-token"
       ]
@@ -91916,6 +91916,75 @@
         "social-token",
         "meme-token"
       ]
+<<<<<<< HEAD:src/tokens/solana.tokenlist.json.bak
+=======
+    },
+    {
+      "chainId": 101,
+      "address": "6XCZB7vqgmcNazYJRgQaQqYrig49SbeE18oBb6CpLRwc",
+      "symbol": "DRUNK",
+      "name": "CryptoDistillation",
+      "decimals": 0,
+      "logoURI": "https://github.com/rynoroot/crypto/blob/main/DrunkPug.png",
+      "tags": [
+        "utility-token",
+        "community-token",
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "56eg63pjkbYB3XYBWu23scue61W6emtNEuYNEBtsCWDy",
+      "symbol": "ARK",
+      "name": "arkayde-monkey",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/yoavshmariahu/token-list/main/assets/mainnet/56eg63pjkbYB3XYBWu23scue61W6emtNEuYNEBtsCWDy/logo.png",
+      "tags": [
+        "nft"
+      ],
+      "extensions": {
+        "website": "https://www.arkayde.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HT5cCnN9kugN7V3D3CLiskkREfKxBcJnAPdoxCz4Ciju",
+      "symbol": "NWFP",
+      "name": "New World Federation Pound",
+      "decimals": 12,
+      "logoURI": "https://raw.githubusercontent.com/newworldfederation/nwfp/main/logo.png",
+      "tags": [
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://nwf.earth/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5HEu2bEscWLvYUwSof3wAzLciqUXLLzaa7e6WWPfZzxh",
+      "symbol": "VOID",
+      "name": "VoidCoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/fpetruololo/void/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "2qKKBY3P6n2e2kFQdMmkvBvDKc5wRbtjTCbaNy2TGHeU",
+      "symbol": "ZIGI",
+      "name": "ZigiCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/DaviZigiJones/ZigiCoin/main/ZigiCoin.png",
+      "tags": [
+        "social-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/DavidZigiJones"
+      }
+>>>>>>> b6dd0e2cb0920659a4280332579d452dba773a6c:src/tokens/solana.tokenlist.json
     }
   ],
   "version": {
