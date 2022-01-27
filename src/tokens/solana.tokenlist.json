@@ -88597,16 +88597,31 @@
     },
     {
       "chainId": 101,
-      "address": "5P1ZqF9UspfEA3foGywTbjm5UxCjLLu7hfaPh5gSCgDM",
+      "address": "ADNUG4Y8LW9jTticE9VaPs8xfSVXg1j8UKC8VzcEKXHe",
       "symbol": "THS",
       "name": "Thesis",
-      "decimals": 9,
+      "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/DekreedStudios/varkalai/main/thesis.png",
       "tags": [
         "utility-token"
       ],
       "extensions": {
         "description": "Varkalai Token",
+        "website": "https://www.varkalai.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5P1ZqF9UspfEA3foGywTbjm5UxCjLLu7hfaPh5gSCgDM",
+      "symbol": "VRK",
+      "name": "Varkalai Founder",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/DekreedStudios/varkalai/main/varkalai-founder.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "description": "Varkalai DAO Token",
         "website": "https://www.varkalai.com"
       }
     }
