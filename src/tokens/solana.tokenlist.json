@@ -92778,12 +92778,20 @@
       }
     },
     {
-      chainId: 101,
-      address: “Kqk68qjE8zVNhtjeKioSHY1EhSdyym33TDX6PhbrBn5”,
-      symbol: “FAM”,
-      name: “Family Token”,
-      decimals: 9,
-      logoURI: “https: //raw.githubusercontent.com/soldevo/family/main/logo.png"
+      "chainId": 101,
+      "address": "Kqk68qjE8zVNhtjeKioSHY1EhSdyym33TDX6PhbrBn5",
+      "symbol": "FAM",
+      "name": "Family Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/soldevo/family/main/logo.png",
+      "tags": [
+        "utility-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/SolSavages",
+        "website": "https://www.solsavages.com"
+      }
     }
   ],
   "version": {
