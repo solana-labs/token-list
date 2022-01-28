@@ -89728,16 +89728,26 @@
         "social-token"
       ]
     },
-	   {
+	  {
       "chainId": 101,
       "address": "12HddxSoYCL5SYekxabqVVxaBtcJc2Wi3eEwZrLoQ1nx",
       "symbol": "LVL",
       "name": "levlups",
       "decimals": 6,
-      "logoURI": "https://github.com/levlups/levlupsToken/blob/main/galamini.png?raw=true",
+      "logoURI": "https://raw.githubusercontent.com/levlups/levlupsToken/main/logo.png",
       "tags": [
-        "social-token"
-      ]
+        "social-token",
+        "game-token",
+        "game-currency",
+        "GameFi",
+        "Gaming"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/egwUcdfqrv",
+        "twitter": "https://twitter.com/levlups",
+        "youtube": "https://www.youtube.com/channel/UCmBbOgb66HChuHNDXCEEELQ",
+        "website": "https://galacticau.fun/"
+      }
     }
   ],
   "version": {
