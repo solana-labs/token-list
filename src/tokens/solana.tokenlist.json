@@ -92701,10 +92701,26 @@
         "social-token"
       ]
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
+    {
+      "chainId": 101,
+      "address": "GUdX84edZH14HfnDuD3AYjKxQdm52ztJnXpzoHdTwMSt",
+      "symbol": "GEM",
+      "name": "Gemstone",
+      "decimals": 6,
+      "logoURI": "https://user-images.githubusercontent.com/23665754/150893304-f9391d19-a332-45d6-be74-fdab73cbd422.png",
+      "tags": [
+        "general",
+        "finance"
+      ],
+      "extensions": {
+        "discord": "https://discord.com/channels/935349294863630378/935349295354372249",
+        "telegram": "https://t.me/+fbcx57omegbhnmu8",
+        "website": "https://www.gemtoken.online/",
+      }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
+    }
   }
-}
