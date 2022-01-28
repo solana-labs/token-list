@@ -64,18 +64,18 @@ test('Token list is a valid json', async (t) => {
   });
 });
 
-test('Token list does not have duplicate entries', async (t) => {
-  const list = await new TokenListProvider().resolve(Strategy.Static);
-  list
-    .filterByChainId(ENV.MainnetBeta)
-    .getList()
-    .reduce((agg, item) => {
-      if (agg.has(item.address)) {
-        console.log(item.address);
-      }
+test('Token list does not have duplicate entries', async function (t: { false: (arg0: boolean) => void; }) {
+    const list = await new TokenListProvider().resolve(Strategy.Static);
+    list
+      .filterByChainId(ENV.MainnetBeta)
+      .getList()
+      .reduce((agg, item) => {
+        if (agg.has(item.address)) {
+          console.log(item.address);
+        }
 
-      t.false(agg.has(item.address));
-      agg.set(item.address, item);
-      return agg;
-    }, new Map<string, TokenInfo>());
-});
+        t.false(agg.has(item.address));
+        agg.set(item.address, item);
+        return agg;
+      }, new Map<string, TokenInfo>());
+  });
