@@ -93173,11 +93173,24 @@
       "extensions": {
         "website": "https://www.genmakers.com"
       }
+    {
+        "chainId": 101,
+        "address": "GUdX84edZH14HfnDuD3AYjKxQdm52ztJnXpzoHdTwMSt",
+        "symbol": "GEM",
+        "name": "Gemstone",
+        "decimals": 0,
+        "logoURI": "https://user-images.githubusercontent.com/23665754/150893304-f9391d19-a332-45d6-be74-fdab73cbd422.png",
+        "tags": [
+          "social-token"
+        ],
+        "extensions": {
+          "website": "https://www.gemstone.online"
+        }
+      }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
   }
-}
