@@ -26558,7 +26558,7 @@
       "chainId": 101,
       "address": "5Wgco6reiMwazERpAm3JS1xD7JBHNJJQdNEE9MrUkwtJ",
       "symbol": "SHIB",
-      "name": "SHIBA INU",
+      "name": "Shiba Inu Solana",
       "decimals": 9,
       "logoURI": "https://shibainusolana.com/shibainusolana.png",
       "tags": [
@@ -34839,6 +34839,7 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "run",
         "discord": "https://discord.com/invite/V2f74X8Zrt",
         "telegram": "https://t.me/RunNode",
         "twitter": "https://twitter.com/runnode",
@@ -79762,12 +79763,19 @@
       "chainId": 101,
       "address": "2q39pHwFJUURyfypPaGgW2Y87pmAkj8iC8DV4z3DF19D",
       "symbol": "CXC",
-      "name": "CommonXCoin)",
+      "name": "CommonXCoin",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/immacrypt/LOGO/main/LOGO.png",
       "tags": [
-        "community-token"
-      ]
+        "community-token",
+        "social-token",
+        "raydium",
+        "solana-blockchain",
+        "defi-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/CommonXCoin"
+      }
     },
     {
       "chainId": 101,
@@ -80587,6 +80595,8 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "human",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/human-coin/",
         "discord": "http://discord.gg/5m6cBdry6y",
         "twitter": "https://twitter.com/thecyberkatz",
         "website": "https://cyberkatz.space"
@@ -86423,7 +86433,7 @@
       "chainId": 101,
       "address": "GPneEd9G1xunrPPicdRGfh8qmx7HPbVjqB7FfKHTC5CC",
       "symbol": "BILL",
-      "name": "Billo Coin",
+      "name": "One Billion Club",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/Cyborg360/Bill/master/logo.png",
       "tags": [
@@ -94046,7 +94056,7 @@
       "symbol": "FUAT",
       "name": "FuatCoin",
       "decimals": 0,
-      "logoURI": "https://github.com/ByteLock/ImageHost/blob/main/fuat-coin.png",
+      "logoURI": "https://github.com/ByteLock/ImageHost/blob/main/fuat-coin.png?raw=true",
       "tags": [
         "social-token"
       ]
@@ -94457,6 +94467,269 @@
       "name": "Token of Diamond",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/gem117wcyhYdU4247o3nmCQ3cPZL4DpJWBkTgX8ZvZN/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "Ct8kkYmeNZqofEcv3VibzoZPm75kiabs3VAdwdHFy4B4",
+      "symbol": "DNK",
+      "name": "Danaka",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/honeybkk/crypto/main/coin.PNG",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9Y46b1AZFgoAbPq9oddoaDSahCaZWTh7AmdvgPZa9nN7",
+      "symbol": "TASH",
+      "name": "Magara Tash",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/viol3/magara-solana/main/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "6vVD6QjoFjghKhXQtSc2yTSQaGTBxcUGnWfjnzbeeENK",
+      "symbol": "CHIPS",
+      "name": "Universe Chips",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6vVD6QjoFjghKhXQtSc2yTSQaGTBxcUGnWfjnzbeeENK/logo.png",
+      "tags": [
+        "utiliy-token",
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/cxmgnKtZBF",
+        "twitter": "https://twitter.com/u_niverseNFT",
+        "website": "https://twitter.com/u_niverseNFT"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5Wddj4FevPALWn655YTC5wGktWM7vViQTzLJLr2dhGFF",
+      "symbol": "UPASS",
+      "name": "Universe Pass",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5Wddj4FevPALWn655YTC5wGktWM7vViQTzLJLr2dhGFF/logo.png",
+      "tags": [
+        "utiliy-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/cxmgnKtZBF",
+        "twitter": "https://twitter.com/u_niverseNFT",
+        "website": "https://twitter.com/u_niverseNFT"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6MxMHdu9xfnMC8ruHv3x4TdxR8W3S9J2hKBWBMyxtkTY",
+      "symbol": "CUBR",
+      "name": "Cubric",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/crypterix/cubr-token/main/logo.png",
+      "tags": [
+        "metaverse",
+        "game-token",
+        "payment-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3ju4tKmMrJUX981gWg6icbB7DWMFAmo8MFwKHZReZYpp",
+      "symbol": "FPA",
+      "name": "OFS-FPA-COIN",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/wedd2626/roncrypto/main/OFSICON.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "CTQBjyrX8pYyqbNa8vAhQfnRXfu9cUxnvrxj5PvbzTmf",
+      "symbol": "BACH",
+      "name": "BACH Token",
+      "decimals": 12,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/badd1dbe8c2d1e38c4f77b77f1d5fd5c60d3cccb/assets/mainnet/CTQBjyrX8pYyqbNa8vAhQfnRXfu9cUxnvrxj5PvbzTmf/bach-token-logo-Est.2022.png",
+      "tags": [
+        "music-token",
+        "social-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://musik88.com/BACH"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9LwVPhjXZ2vc4yGmZu9buifRJvf6enWowzFRouAwAedj",
+      "symbol": "AQLA",
+      "name": "Aqualibre Project",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/Aqualibre/AQLAlogo/main/AQLA.png",
+      "tags": [
+        "utility-token",
+        "offset-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/LibreAqua",
+        "website": "https://www.aqualibreproject.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3mybJECUrNVJoqf8K84AzoLQHzpjBRtn1uTnY8gbiDrv",
+      "symbol": "BUNI",
+      "name": "Happy Bunnies Gold Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/HappyBunniesNFT/Happy-Bunnies/main/Happy-Bunnies-Gold-Token.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "96TaRFYTJceZSm5Y5m4wkdRjRS8NTUf8DzrcVGqL85F8",
+      "symbol": "HBWT",
+      "name": "Happy Bunnies Whitelist Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/HappyBunniesNFT/Happy-Bunnies/main/Happy-Bunnies-Silver-Token.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "37yAJGaaqP5dPwTyVdTCWKr7YeiH9U8maCtGNEDky3si",
+      "symbol": "ALIEN",
+      "name": "Alien Universe Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/alien-universe/assets/main/logo.png",
+      "tags": [
+        "game-token",
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8o6wCFnz4H3tNQf3P3jwc5Q38QksZmGi3WyiKsEDWpWF",
+      "symbol": "ROTC",
+      "name": "Rotar Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/potatos12333/Crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "B5g4fUcVox9q6dowqAxm2EXNLuz45jiW2iFZcmvP2KvK",
+      "symbol": "PQT",
+      "name": "Pixel Quest Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/B5g4fUcVox9q6dowqAxm2EXNLuz45jiW2iFZcmvP2KvK/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "community-token"
+      ],
+      "extensions": {
+        "description": "The Solana Pixel Quest token",
+        "twitter": "https://twitter.com/SolPixelQuest",
+        "website": "https://solanapixelquest.xyz"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "ErPsVLjNj8sFWFui5JnaavLh4ZtpLq2rffJR1f1GNQAq",
+      "symbol": "MFT",
+      "name": "MetaFootwear Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/SilverBM/logo/main/logo.png.png",
+      "tags": [
+        "NFT-Token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "2y7wUCJdtqTbjnKBNEB3DpAYCuwA1atCtdfkGt9VR4sM",
+      "symbol": "$PSYn",
+      "name": "PSYn",
+      "decimals": 5,
+      "logoURI": "https://github.com/charliebakerr/psy-token/blob/main/photo_2022-01-30%2012.23.01.jpeg",
+      "tags": [
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://psynetwork.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AXSJtZsAw4SCrJwt9vAVeNycKDKTUrEQ6rxzoimNUVoo",
+      "symbol": "HPC",
+      "name": "HpaCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/MasterC0derr/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "8AY9mo8fTDdeuhCC3fAxV313gVKxko8SGWuPFuPFyrAF",
+      "symbol": "MEIO",
+      "name": "Meio Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/evzonic/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "EXAzCuUPFRgq2vG5naJYJVW6Z68j45RfequsmYfwPfQy",
+      "symbol": "FORS",
+      "name": "Fors Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Thunberg087/ForsCoin/master/ForsCoin.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "D4F6Qkn6DYpCQFnuFmABSuKRPzdMGTvqVU4NovYJo8JD",
+      "symbol": "DEFI",
+      "name": "Crypto",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/BlockchainWizard/Crypto/main/Crypto.png",
+      "tags": [
+        "utility-token",
+        "social-token",
+        "nft-token",
+        "community",
+        "Crypto",
+        "DEFI"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4mJ6N65rD9w6sFPQ17UDWot2H64UtzR31biVLaKpZT6J",
+      "symbol": "ALIEN",
+      "name": "AlienUniverse Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/alien-universe/assets/main/logo.png",
+      "tags": [
+        "game-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/AlienUniversNFT",
+        "website": "https://alienuniverse.io/"
+      }
     }
   ],
   "version": {
