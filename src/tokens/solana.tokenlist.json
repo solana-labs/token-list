@@ -59273,7 +59273,9 @@
       "extensions": {
         "medium": "https://atlasdex.medium.com/",
         "twitter": "https://twitter.com/atlas_dex",
-        "website": "https://atlasdex.finance/"
+        "website": "https://atlasdex.finance/",
+        "coingeckoId": "atlas-dex",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/atlas-dex/"
       }
     },
     {
@@ -69072,7 +69074,7 @@
       "symbol": "SWBO",
       "name": "SweetBoiCoin",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/C7gENDPyayjE2iw6p55J5ELtcDYzQbe91JEhLjH2yxAR/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/sweetboicoin/crypto/main/bret-coin.png",
       "tags": [
         "social-token"
       ]
@@ -92369,7 +92371,6 @@
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GRfw4aEVY12C7vFjs1u1GQ1eLEsaEiUjrfMNfmjrD1W/logo.png",
       "tags": [
-        "nft",
         "utility-token"
       ],
       "extensions": {
@@ -92386,7 +92387,6 @@
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HM9mt39fiUqeYnnV1FzHeW421Uq61t3t6Qyp7PzWFfHN/logo.png",
       "tags": [
-        "nft",
         "utility-token"
       ],
       "extensions": {
@@ -92886,7 +92886,7 @@
     },
     {
       "chainId": 101,
-      "address": "7aENbEssDsZZ7T1HP7LLgoHJF8q4JDKfxArkmdLReUZc",
+      "address": "282Weh31UZ1yw99dYV8JqxPLtFBNbN1UfZhjBiKNk9Zb",
       "symbol": "UGA",
       "name": "BAPC Native Token",
       "decimals": 0,
@@ -93235,8 +93235,8 @@
       "address": "7bFfvNZqJr2KFDjdP58MVud7kM9AMbXvoFcfAmgBHtfx",
       "symbol": "MTSC",
       "name": "Sami Coin",
-      "decimals": 0,
-      "logoURI": "https://github.com/MTSami/sami_coin/blob/main/sami_coin.png",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/MTSami/sami_coin/main/Sami_Coin.png",
       "tags": [
         "social-token"
       ]
@@ -94716,7 +94716,7 @@
       "symbol": "DEFI",
       "name": "Crypto",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/BlockchainWizard/Crypto/main/Crypto.png",
+      "logoURI": "https://raw.githubusercontent.com/BlockchainWizard/Crypto/main/CryptoCoin.png",
       "tags": [
         "utility-token",
         "social-token",
@@ -95885,6 +95885,44 @@
       "name": "Gulf Cooperation Council Riyal",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/theashin197/logo/main/gccr%20Small.png"
+    },
+    {
+      "chainId": 101,
+      "address": "FA49FHHB1DUCL9WPykw9yf58voRk92WwYNDjMa5Gq7tc",
+      "symbol": "HYPE",
+      "name": "ByteHype",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FA49FHHB1DUCL9WPykw9yf58voRk92WwYNDjMa5Gq7tc/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://ByteHype.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CEXwCLooS5Bf2qrzf18QoePYESD1JrzErGSdeaBd6Uwj",
+      "symbol": "SKET",
+      "name": "Sketch Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/kekhongdau01/crypto1/main/istockphoto-535498384-612x612.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "AuxoBFAsVZ6Ez5TKK8cmnQ8cktCpYmE1bjp98M4Zeuju",
+      "symbol": "AK$",
+      "name": "AlienKoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Melsatan/Crypto/main/aliencoin.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
