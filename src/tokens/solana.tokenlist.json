@@ -59259,11 +59259,11 @@
         "swap"
       ],
       "extensions": {
+        "coingeckoId": "atlas-dex",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/atlas-dex/",
         "medium": "https://atlasdex.medium.com/",
         "twitter": "https://twitter.com/atlas_dex",
-        "website": "https://atlasdex.finance/",
-        "coingeckoId": "atlas-dex",
-        "coinmarketcap": "https://coinmarketcap.com/currencies/atlas-dex/"
+        "website": "https://atlasdex.finance/"
       }
     },
     {
@@ -95911,6 +95911,90 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ",
+      "symbol": "DUST",
+      "name": "DUST Protocol",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ/logo.png",
+      "tags": [
+        "NFT",
+        "utility-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.com/invite/degods",
+        "twitter": "https://twitter.com/degodsnft",
+        "website": "https://www.dustprotocol.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3bBzthYLDgF58nE5khLJ88Ub7MAehsZPAD5V1uxS17Tg",
+      "symbol": "VIK",
+      "name": "Vikriyah",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/vikriyah/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "SLBwAxvWSfYqh2ZmPpNQ3Lo2Qxu8nn5D5mjbpNap5Yr",
+      "symbol": "SLB",
+      "name": "Benfica Fan Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SLBwAxvWSfYqh2ZmPpNQ3Lo2Qxu8nn5D5mjbpNap5Yr/logo.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/BenficaToken",
+        "website": "https://www.slbenfica.pt"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "SCP22eJcC3eSXxG51BQqfxsf3S2nQnGjXpnT3KT72Tu",
+      "symbol": "SCP",
+      "name": "Sporting CP Fan Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SCP22eJcC3eSXxG51BQqfxsf3S2nQnGjXpnT3KT72Tu/logo.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/SportingToken",
+        "website": "https://www.sporting.pt"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FCPtL4RqWGLjstUxWpniCkHHNYuYFnVY7po2hoWgFEhT",
+      "symbol": "FCP",
+      "name": "FC Porto Fan Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FCPtL4RqWGLjstUxWpniCkHHNYuYFnVY7po2hoWgFEhT/logo.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/PortoToken",
+        "website": "https://www.fcporto.pt"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "To6BjpcUwXXP2XGUe8KeFFXjJos8wayUmHuM9ePkGWj",
+      "symbol": "IHRV",
+      "name": "IHrTeam NFT Valentine",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/valentinenft/token/main/IHR-ihrteam.png"
     }
   ],
   "version": {
