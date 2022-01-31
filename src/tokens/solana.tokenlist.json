@@ -77199,8 +77199,8 @@
       "tags": [
         "social-token"
       ],
-      "extensions":{
-        "description":"This token is could be used as your retirement issurance. There is your portfolio for your retirement."
+      "extensions": {
+        "description": "This token is could be used as your retirement issurance. There is your portfolio for your retirement."
       }
     },
     {
@@ -95418,10 +95418,83 @@
         "dev-token",
         "company-token"
       ],
-      "extensions":{
-        "website":"https://www.hdcrypto.cz",
-        "description":"This is company of HD Crypto token, used for testing all cryptocurrencies on Solana Network."
+      "extensions": {
+        "website": "https://www.hdcrypto.cz",
+        "description": "This is company of HD Crypto token, used for testing all cryptocurrencies on Solana Network."
       }
+    },
+    {
+      "address": "F6ZyzgtCU37NgFGTKYfdBy7BKwzxNZVBDkB68v9Qp1ch",
+      "symbol": "STECH",
+      "name": "SolTech",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/Ob1iviou5/CrazyCoin/main/logo.png",
+      "tags": [
+        "utility-token",
+        "social-token",
+        "nft-token",
+        "community",
+        "Crypto",
+        "DEFI"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3xbqJgCsf2PjKQsjACGUvH2Eo8ZyGxW2hWGY9TZW2q8D",
+      "symbol": "ALPHA",
+      "name": "Alpha",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3xbqJgCsf2PjKQsjACGUvH2Eo8ZyGxW2hWGY9TZW2q8D/logo.jpg",
+      "tags": [
+        "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5iTsXxzEm2msviveLGCXJpQYDqaCJHJfUvKDUMQiS2QF",
+      "symbol": "911",
+      "name": "911Academy",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5iTsXxzEm2msviveLGCXJpQYDqaCJHJfUvKDUMQiS2QF/logo.png",
+      "tags": [
+        "social-token",
+        "util-token"
+      ],
+      "extensions": {
+        "website": "https://policeacademynft.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GdK4LNeHCMnBgWJewgeJ11usnd59UHQ7avUmVmFomUz3",
+      "symbol": "SolanaIdols",
+      "name": "Solana Idols Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GdK4LNeHCMnBgWJewgeJ11usnd59UHQ7avUmVmFomUz3/logo.png",
+      "tags": [
+        "utility-token",
+        "community-token",
+        "meme-token",
+        "Anime",
+        "NFT",
+        "nfts"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/k2mAEUKhcs",
+        "twitter": "https://twitter.com/SolanaIdols",
+        "website": "https://www.solanaidols.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "HX8kZQDV5oqyM1md8Z6nxEhfPdM4GFfPEYdyhehM8vBY",
+      "symbol": "ISCC",
+      "name": "Iskald Cola",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/IskaldBrus/8FAF47FE52A4DAAC2CEEE7E46EBC7/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
