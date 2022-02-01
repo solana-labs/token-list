@@ -82476,12 +82476,12 @@
         "community",
         "Crypto"
       ],
-      "extensions":{
-        "website": "https://www.crazycoin.co.uk",
+      "extensions": {
+        "description": "CrazyCOin is a Solana Token that can be used to pay for CrazyBabyNFT sales and Tech Sales on the CrazyCoin Website",
         "facebook": "https://www.facebook.com/The-Crazy-Baby-NFT-111999381365589/",
         "instagram": "https://instagram.com/crazybabynft",
         "twitter": "https://twitter.com/crazybabynft",
-        "description": "CrazyCOin is a Solana Token that can be used to pay for CrazyBabyNFT sales and Tech Sales on the CrazyCoin Website"
+        "website": "https://www.crazycoin.co.uk"
       }
     },
     {
@@ -95410,7 +95410,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RAVA1HRJpVu1eiLQ7EpAuBk8N6PxAfENfpXbSVCL1Wc/logo.png"
     },
-      {
+    {
       "chainId": 101,
       "address": "3xbqJgCsf2PjKQsjACGUvH2Eo8ZyGxW2hWGY9TZW2q8D",
       "symbol": "ALPHA",
@@ -96615,6 +96615,45 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "38G9b9JjjkYsGHV5QYD35oeAVvnAjVoBpSD31u1RDeXu",
+      "symbol": "HYPE",
+      "name": "HYPER",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/HYPERWARRI0R/hypercoin/main/logo.png",
+      "tags": [
+        "gaming-token",
+        "NFT"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GACtwBgE4T6SrwDk9Va8PShVR7Q9ZYfrJShygz8D2dJr",
+      "symbol": "MSA",
+      "name": "Muscida",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Rutcraft2/Crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "Fr9Ze1rnhC6djPuRQEW1aSsVCLR1iRqWweg5gbgFjECm",
+      "symbol": "SCHOOL",
+      "name": "School Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/YoungMonksNFT/YoungMonksToken/main/School.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/youngmonksnft",
+        "website": "https://youngmonksnft.com/"
+      }
     }
   ],
   "version": {
