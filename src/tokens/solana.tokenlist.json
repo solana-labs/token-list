@@ -26181,9 +26181,6 @@
         "community-token"
       ],
       "extensions": {
-        "coingeckoId": "clash-of-cars",
-        "discord": "https://discord.gg/KP8pUYGc",
-        "twitter": "https://twitter.com/ClashOfCars",
         "website": "https://clashofcars.io"
       }
     },
@@ -82463,25 +82460,20 @@
       }
     },
     {
-      "chainId": 101,
+      "chainId": 103,
       "address": "F6ZyzgtCU37NgFGTKYfdBy7BKwzxNZVBDkB68v9Qp1ch",
-      "symbol": "Crazy",
+      "symbol": "CRAZE",
       "name": "CrazyCoin",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/Ob1iviou5/CrazyCoin-Token/main/CrazyCoin%20Logo.png",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Ob1iviou5/CrazyCoin/main/logo.png",
       "tags": [
         "utility-token",
-        "social-token",
-        "nft-token",
-        "community",
-        "Crypto"
+        "community-token"
       ],
-      "extensions":{
-        "website": "https://www.crazycoin.co.uk",
-        "facebook": "https://www.facebook.com/The-Crazy-Baby-NFT-111999381365589/",
-        "instagram": "https://instagram.com/crazybabynft",
-        "twitter": "https://twitter.com/crazybabynft",
-        "description": "CrazyCOin is a Solana Token that can be used to pay for CrazyBabyNFT sales and Tech Sales on the CrazyCoin Website"
+      "extensions": {
+        "facebook": "https://facebook.com/CrazyBabyNFT",
+        "instagram": "https://www.instagram.com/crazybabynft/",
+        "twitter": "https://twitter.com/CrazyBabyNFT"
       }
     },
     {
@@ -95410,7 +95402,23 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RAVA1HRJpVu1eiLQ7EpAuBk8N6PxAfENfpXbSVCL1Wc/logo.png"
     },
-      {
+    {
+      "chainId": 101,
+      "address": "F6ZyzgtCU37NgFGTKYfdBy7BKwzxNZVBDkB68v9Qp1ch",
+      "symbol": "STECH",
+      "name": "SolTech",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/Ob1iviou5/CrazyCoin/main/logo.png",
+      "tags": [
+        "utility-token",
+        "social-token",
+        "nft-token",
+        "community",
+        "Crypto",
+        "DEFI"
+      ]
+    },
+    {
       "chainId": 101,
       "address": "3xbqJgCsf2PjKQsjACGUvH2Eo8ZyGxW2hWGY9TZW2q8D",
       "symbol": "ALPHA",
@@ -95966,17 +95974,6 @@
     },
     {
       "chainId": 101,
-      "address": "62Unc9Dm8buA2iY35tTUCJ4ERoUp5Q7K8EWFiRTDfBp2",
-      "symbol": "OOMintTicket",
-      "name": "OO Golden Ticket",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/matlirman/token-list/main/assets/mainnet/62Unc9Dm8buA2iY35tTUCJ4ERoUp5Q7K8EWFiRTDfBp2/logo.png",
-      "tags": [
-        "social-token"
-      ]
-    },
-    {
-      "chainId": 101,
       "address": "FCPtL4RqWGLjstUxWpniCkHHNYuYFnVY7po2hoWgFEhT",
       "symbol": "FCP",
       "name": "FC Porto Fan Token",
@@ -96333,24 +96330,6 @@
     },
     {
       "chainId": 101,
-      "address": "UUGAAWxhG2TXnyZHA4jDUaSJQQi2nf6UymtsBspRihz",
-      "symbol": "UUGAA",
-      "name": "UUGAA",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/gorillazmaster/UUGAA/main/logo.png",
-      "tags": [
-        "social-token",
-        "game-token",
-        "utility-token"
-      ],
-      "extensions": {
-        "discord": "https://discord.com/invite/fHbsnvSraj",
-        "twitter": "https://twitter.com/GorillazReborn",
-        "website": "https://gorillazreborn.xyz"
-      }
-    },
-    {
-      "chainId": 101,
       "address": "9usSKpVhb4PXthq5RuLc87JvFaCTobiMTNsCqWVwcPz1",
       "symbol": "FNT",
       "name": "FYFY NFT Token",
@@ -96516,102 +96495,6 @@
       "name": "DoCoin",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/docoin2022/crypto/main/docoin_logo.png",
-      "tags": [
-        "social-token"
-      ]
-    },
-    {
-      "chainId": 101,
-      "address": "DAEhUmgrWxSjw3YgCsgkRXg5A2w3wN2juGdsgLV7Ughn",
-      "symbol": "LIV",
-      "name": "OLIVIACOIN",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/Mistrnomad/crypto/main/logo.fw.png",
-      "tags": [
-        "social-token"
-      ]
-    },
-    {
-      "chainId": 101,
-      "address": "DiVtPXzfKQcBy9nyHxfTxXQjLG6XjCF5inExCGSQ8zVa",
-      "symbol": "DIV",
-      "name": "DIVERGENTI",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DiVtPXzfKQcBy9nyHxfTxXQjLG6XjCF5inExCGSQ8zVa/logo.png",
-      "tags": [
-        "utility-token"
-      ],
-      "extensions": {
-        "website": "https://divergenti.cl/"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "DwgiPBuMVcV84hGUtSzSiiPy5RYwA1PjDnXa2cnhskaw",
-      "symbol": "PAZO",
-      "name": "Harpazo",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/baymonex/token/main/Harpazo_logo.png",
-      "tags": [
-        "gaming-token",
-        "NFT"
-      ]
-    },
-    {
-      "chainId": 101,
-      "address": "ToTYKUcdnb2pt16b2TzPRoKJirPx4zQQjcawDQVTLUX",
-      "symbol": "SPW",
-      "name": "SPW Whitelist Token",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ToTYKUcdnb2pt16b2TzPRoKJirPx4zQQjcawDQVTLUX/logo.png",
-      "tags": [
-        "utility-token",
-        "whitelist-token"
-      ],
-      "extensions": {
-        "discord": "https://discord.gg/ssj",
-        "twitter": "https://twitter.com/SolanaJourney",
-        "website": "https://solpetwar.io/"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "HCW4kbsPuZiRSSnuyFf896WHtsVvnVkDWtbBi46vkEaM",
-      "symbol": "UNIM",
-      "name": "UniMint",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/unimintco/token-logos/main/Unimint.png",
-      "tags": [
-        "general-token",
-        "social-token"
-      ]
-    },
-    {
-      "chainId": 101,
-      "address": "EfGAveovMu59SpE5gNzoB4NtXmFiTw3EyQjikDBrvznb",
-      "symbol": "KISS",
-      "name": "KISSES and ROSES",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/sonfero/crypto/main/KISS_logo.png",
-      "tags": [
-        "social-token"
-      ]
-    },
-    {
-      "chainId": 101,
-      "address": "webCtmAsLtNszwVRdi1AzQrGLRLhHQy4boxxxjT4ypZ",
-      "symbol": "SIMI",
-      "name": "DR SIMI COIN",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/JorgeLoredo-1852/DrSimi/main/logo.png"
-    },
-    {
-      "chainId": 101,
-      "address": "8tyHzSLPonrknXft8UfVRVWyVSFo12Cq9xoB12rCfWFk",
-      "symbol": "OIRA",
-      "name": "oikeaRahe",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/Atzuni/cryptoRahe/main/logo.png",
       "tags": [
         "social-token"
       ]
