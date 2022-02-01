@@ -59259,6 +59259,8 @@
         "swap"
       ],
       "extensions": {
+        "coingeckoId": "atlas-dex",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/atlas-dex/",
         "medium": "https://atlasdex.medium.com/",
         "twitter": "https://twitter.com/atlas_dex",
         "website": "https://atlasdex.finance/"
@@ -69060,7 +69062,7 @@
       "symbol": "SWBO",
       "name": "SweetBoiCoin",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/C7gENDPyayjE2iw6p55J5ELtcDYzQbe91JEhLjH2yxAR/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/sweetboicoin/crypto/main/bret-coin.png",
       "tags": [
         "social-token"
       ]
@@ -92357,7 +92359,6 @@
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GRfw4aEVY12C7vFjs1u1GQ1eLEsaEiUjrfMNfmjrD1W/logo.png",
       "tags": [
-        "nft",
         "utility-token"
       ],
       "extensions": {
@@ -92374,7 +92375,6 @@
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HM9mt39fiUqeYnnV1FzHeW421Uq61t3t6Qyp7PzWFfHN/logo.png",
       "tags": [
-        "nft",
         "utility-token"
       ],
       "extensions": {
@@ -92874,7 +92874,7 @@
     },
     {
       "chainId": 101,
-      "address": "7aENbEssDsZZ7T1HP7LLgoHJF8q4JDKfxArkmdLReUZc",
+      "address": "282Weh31UZ1yw99dYV8JqxPLtFBNbN1UfZhjBiKNk9Zb",
       "symbol": "UGA",
       "name": "BAPC Native Token",
       "decimals": 0,
@@ -93223,8 +93223,8 @@
       "address": "7bFfvNZqJr2KFDjdP58MVud7kM9AMbXvoFcfAmgBHtfx",
       "symbol": "MTSC",
       "name": "Sami Coin",
-      "decimals": 0,
-      "logoURI": "https://github.com/MTSami/sami_coin/blob/main/sami_coin.png",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/MTSami/sami_coin/main/Sami_Coin.png",
       "tags": [
         "social-token"
       ]
@@ -94704,7 +94704,7 @@
       "symbol": "DEFI",
       "name": "Crypto",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/BlockchainWizard/Crypto/main/Crypto.png",
+      "logoURI": "https://raw.githubusercontent.com/BlockchainWizard/Crypto/main/CryptoCoin.png",
       "tags": [
         "utility-token",
         "social-token",
@@ -95914,11 +95914,95 @@
     },
     {
       "chainId": 101,
+      "address": "DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ",
+      "symbol": "DUST",
+      "name": "DUST Protocol",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ/logo.png",
+      "tags": [
+        "NFT",
+        "utility-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.com/invite/degods",
+        "twitter": "https://twitter.com/degodsnft",
+        "website": "https://www.dustprotocol.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3bBzthYLDgF58nE5khLJ88Ub7MAehsZPAD5V1uxS17Tg",
+      "symbol": "VIK",
+      "name": "Vikriyah",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/vikriyah/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "SLBwAxvWSfYqh2ZmPpNQ3Lo2Qxu8nn5D5mjbpNap5Yr",
+      "symbol": "SLB",
+      "name": "Benfica Fan Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SLBwAxvWSfYqh2ZmPpNQ3Lo2Qxu8nn5D5mjbpNap5Yr/logo.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/BenficaToken",
+        "website": "https://www.slbenfica.pt"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "SCP22eJcC3eSXxG51BQqfxsf3S2nQnGjXpnT3KT72Tu",
+      "symbol": "SCP",
+      "name": "Sporting CP Fan Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SCP22eJcC3eSXxG51BQqfxsf3S2nQnGjXpnT3KT72Tu/logo.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/SportingToken",
+        "website": "https://www.sporting.pt"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FCPtL4RqWGLjstUxWpniCkHHNYuYFnVY7po2hoWgFEhT",
+      "symbol": "FCP",
+      "name": "FC Porto Fan Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FCPtL4RqWGLjstUxWpniCkHHNYuYFnVY7po2hoWgFEhT/logo.png",
+      "tags": [
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/PortoToken",
+        "website": "https://www.fcporto.pt"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "To6BjpcUwXXP2XGUe8KeFFXjJos8wayUmHuM9ePkGWj",
+      "symbol": "IHRV",
+      "name": "IHrTeam NFT Valentine",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/valentinenft/token/main/IHR-ihrteam.png"
+    },
+    {
+      "chainId": 101,
       "address": "UUGAAWxhG2TXnyZHA4jDUaSJQQi2nf6UymtsBspRihz",
       "symbol": "UUGAA",
       "name": "UUGAA",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/gorillazmaster/UUGAA/main/logo.png",
+      "logoURI": "hhttps://raw.githubusercontent.com/gorillazmaster/UUGAA/main/logo.png",
       "tags": [
         "social-token",
         "game-token",
@@ -95926,7 +96010,7 @@
       ],
       "extensions": {
         "discord": "https://discord.com/invite/fHbsnvSraj",
-        "twitter": "https://twitter.com/GorillazReborn",
+        "twitter": "https://https://twitter.com/GorillazReborn",
         "website": "https://gorillazreborn.xyz"
       }
     }
