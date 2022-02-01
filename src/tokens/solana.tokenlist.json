@@ -75869,7 +75869,16 @@
       "symbol": "AMMO",
       "name": "Ammo",
       "decimals": 9,
-      "logoURI": "https://arweave.net/w-BsZ7ATxUedExQ3MU2xZtW3FV1SzCKLjV9tqk-efrc"
+      "logoURI": "https://arweave.net/rjP_BdMqFsXBWoInFYuVNDdqLzW1xo82egb74WRl3Hc",
+      "tags": [
+        "nft-token",
+        "staking"
+      ],
+      "extensions": {
+        "discord": "https://discord.com/invite/cryptostraps",
+        "twitter": "https://twitter.com/CryptoStraps",
+        "website": "https://cryptostraps.io"
+      }
     },
     {
       "chainId": 101,
@@ -96657,6 +96666,91 @@
     },
     {
       "chainId": 101,
+      "address": "5bwwZ41kzLWAZy1MqKttc5GW2vrE42hZ49EbJg6dpxSV",
+      "symbol": "MINTYWL",
+      "name": "Minty Whitelist",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/MintyAutomation/minty-logo/main/logo.png",
+      "tags": [
+        "whitelist-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/MintyAutomation"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "GkPeYwnggoxmUx7bSRKL8UmgUHhkENAdGVgWVpT5T6nY",
+      "symbol": "HOGS",
+      "name": "Hoglympics",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GkPeYwnggoxmUx7bSRKL8UmgUHhkENAdGVgWVpT5T6nY/logo.png",
+      "tags": [
+        "gaming-token",
+        "NFT"
+      ],
+      "extensions": {
+        "description": "The Hoglympics is a next-gen crypto metaverse project incorporating esports with blockchain, NFTs, and DeFi to produce immersive, P2E Olympic Games.",
+        "discord": "https://discord.com/invite/6kVjb99aqx",
+        "telegram": "https://t.me/hoglympics",
+        "twitter": "https://twitter.com/hoglympics",
+        "website": "https://hoglympics.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4Y75QsYX8fayufQD2ottjgc1jAbaFpoA4Z8QcSFk63wi",
+      "symbol": "HOWL",
+      "name": "HOWL",
+      "decimals": 9,
+      "logoURI": "https://arweave.net/9WBYgIcpJNldRxozBXSmZ7Mm-Wt8ug2y0A6TXy2XZd4?ext=png",
+      "extensions": {
+        "twitter": "https://twitter.com/HonshuWolves"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CboZhKpk2VCFKXhHWqNWregP5t5vxTcpcgw5agQaCFdQ",
+      "symbol": "$DSOULS",
+      "name": "DragonSouls",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Soulsdragon/SoulsIcon-v2/main/%24DSOUL.png",
+      "tags": [
+        "general-token",
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9e6nnqbsTjWx3ss6a3x7Q9ZvpupLNYLb8cTbVmm6UD2K",
+      "symbol": "SHUT",
+      "name": "Shuttlecoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Mikkel76543/crypto9/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "DKrjaRTyhRozuKS1euhsmdLNc2K1fTYrrRXBjFdeec1o",
+      "symbol": "KINY",
+      "name": "KinnyCoin",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/kinnycoin/kinnycoin/main/logo.jpg",
+      "tags": [
+        "media",
+        "social-token",
+        "payments",
+        "solana-ecosystem",
+        "web3"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/kinnycoin"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "9AtZcfJn1xVHukAnw3LPmveDYiDjMK4vBcQ4ajkf8U9q",
       "symbol": "MCOP",
       "name": "Metacop Token",
@@ -96671,10 +96765,10 @@
         "liquidity-pool-token"
       ],
       "extensions": {
-        "website": "https://staking.basis.markets",
         "discord": "https://discord.gg/fucn68GYbH",
+        "github": "https://github.com/whiterabbit-hub",
         "twitter": "https://twitter.com/cops_nft",
-        "github": "https://github.com/whiterabbit-hub"
+        "website": "https://staking.basis.markets"
       }
     }
   ],
