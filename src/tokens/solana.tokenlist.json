@@ -96843,17 +96843,21 @@
     {
       "chainId": 101,
       "address": "8yQuj5v4s72UqZi3sYZL5rAD4NPV4ueUwBKzChBDWMVf",
-      "symbol": "MRX",
+      "symbol": "MAARS",
       "name": "Maars",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/maarstoken/crypto/main/maars-800x800.png",
+      "logoURI": "https://raw.githubusercontent.com/maarstoken/crypto/main/maars-logo.png",
       "tags": [
         "social-token",
         "community-token",
-        "nft-token",
-        "gaming-token",
-        "web3-token"
-      ]
+        "nft",
+        "gaming",
+        "web3"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/maarstoken",
+        "website": "https://maarstoken.com"
+      }
     }
   ],
   "version": {
