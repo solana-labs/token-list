@@ -98121,6 +98121,28 @@
     },
     {
       "chainId": 101,
+      "address": "WNZzxM1WqWFH8DpDZSqr6EoHKWXeMx9NLLd2R5RzGPA",
+      "symbol": "$WNZ",
+      "name": "Winerz",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WNZzxM1WqWFH8DpDZSqr6EoHKWXeMx9NLLd2R5RzGPA/logo.png",
+      "tags": [
+        "utility-token",
+        "community-token",
+        "payment-token",
+        "game-token"
+      ],
+      "extensions": {
+        "facebook": "https://www.facebook.com/winerz.official",
+        "instagram": "https://www.instagram.com/winerz.official/",
+        "medium": "https://medium.com/@winerz",
+        "twitter": "https://twitter.com/Winerz_official",
+        "website": "https://winerz.com/",
+        "whitepaper": "https://ico.winerz.com/assets/docs/Winerz-Token-Economics.pdf"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "6sy3PgbjxNtTJuujA8Ppwxz7JLQDdpt5m1y3iuv9gnG6",
       "symbol": "GCC-PRESALE",
       "name": "Galactic Chimp Club Pre-Sale",
@@ -98143,10 +98165,11 @@
         "twitter": "https://twitter.com/galacticchimps",
         "website": "https://galacticchimps.com"
       }
-    ],
-    "version": {
-      "major": 0,
-      "minor": 3,
-      "patch": 3
     }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 3,
+    "patch": 3
   }
+}
