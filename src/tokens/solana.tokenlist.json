@@ -97606,7 +97606,20 @@
         "website": "https://coin.fubar.icu/"
       }
     },
-    {
+     {
+      "chainId": 101,
+      "address": "A9Nc6Yo9YGKsaeAb2nsQFSQpLcdotGqjEJmEQFzZeeqX",
+      "symbol": "GM",
+      "name": "Good Morning Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A9Nc6Yo9YGKsaeAb2nsQFSQpLcdotGqjEJmEQFzZeeqX/logo.png",
+      "tags": [
+        "meme-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://goodmorning.money"
+      }{
       "chainId": 101,
       "address": "GtBwdtJvjyh3f7auZpABP7gswsiimw8D7geWZc8rzH9Q",
       "symbol": "GEEXO",
@@ -97616,13 +97629,27 @@
       "tags": [
         "utility-token"
       ],
-      "extensions": {
-        "discord": "https://discord.com/invite/NAvfaa3vJg",
-        "instagram": "https://www.instagram.com/geexolotls/",
-        "twitter": "https://twitter.com/geexolotls",
-        "website": "https://www.geexolotls.com/"
-      }
-    },
+        "extensions": {
+          "discord": "https://discord.com/invite/NAvfaa3vJg",
+          "instagram": "https://www.instagram.com/geexolotls/",
+          "twitter": "https://twitter.com/geexolotls",
+          "website": "https://www.geexolotls.com/"
+        }
+        {
+          "chainId": 101,
+          "address": "E6HdfEAvaY8Fz9avWHvP9iJLWhVrdvmRjvXNc2v3vzb7",
+          "symbol": "NANA",
+          "name": "Golden Banana",
+          "decimals": 9,
+          "logoURI": "https://github.com/2beyondWRLD/token-list/blob/b5280cdf7fe40a6158740c20b9354d6a0663d8c2/assets/mainnet/E6HdfEAvaY8Fz9avWHvP9iJLWhVrdvmRjvXNc2v3vzb7/logo.png",
+          "tags": [
+            "P2E",
+            "community-token"
+          ],
+          "extensions": {
+            "website": "https://riseofthesolapes.com/"
+          }
+        },
     {
       "chainId": 101,
       "address": "AEZNG2XxvjBumWsuKmZDUcF7qcA54d1WDssGcYzyDcww",
