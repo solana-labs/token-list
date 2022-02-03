@@ -95353,7 +95353,6 @@
       }
     },
     {
-      "chainId": 101,
       "address": "HG2UzJS8rbgsd16tZorT1mNiPJBjE7Xq4ifqsfZNK6h6",
       "symbol": "UXD-3Pool",
       "name": "Mercurial LP Token (UXD-3Pool)",
@@ -95378,6 +95377,7 @@
         "website": "https://skolsnft.com/"
       }
     },
+	
     {
       "chainId": 101,
       "address": "6n9VoqhzkNZzZxfoFhCvFNFVYPetzxD9qBvoUPE3Z9XF",
@@ -97928,8 +97928,22 @@
         "twitter": "https://twitter.com/darvaszoltan",
         "website": "https://darvaszoltan.com/"
       }
-    }
-  ],
+    },
+	{ 
+      "chainId": 101,
+      "address": "7CeDq7g178wgQeDPQea5Mvh3i1ACy9AMjrLBqogw8yG3",
+      "symbol": "CHECKRED",
+      "name": "CHECKRED Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7CeDq7g178wgQeDPQea5Mvh3i1ACy9AMjrLBqogw8yG3/logo.png",
+      "tags": [
+        "utily-token"
+      ],
+      "extensions": {
+        "website": "https://checkred.com"
+	  }
+     }
+],
   "version": {
     "major": 0,
     "minor": 3,
