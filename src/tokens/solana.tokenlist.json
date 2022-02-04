@@ -94730,19 +94730,22 @@
         "website": "https://alienuniverse.io/"
       }
     },
+
     {
       "chainId": 101,
       "address": "7UvdsFnozNCQNkkvy3tw1he4is5z1sJGPY86L8kmo8Nq",
-      "symbol": "KILO",
+      "symbol": "KILO TOKEN",
       "name": "KILO",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/lpbcmain/kilo/main/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/lpbcmain/kilo-token/main/kilotoken.png",
       "tags": [
-        "community-token",
-        "education-token"
-      ]
-      
+        "social-token"
+      ],
+      "extensions": {
+        "website": "https://kilo-token.com"
+      }
     }
+
   
   ],
   "version": {
