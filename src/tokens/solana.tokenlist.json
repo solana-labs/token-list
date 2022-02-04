@@ -99229,6 +99229,7 @@
     },
     {
       "chainId": 101,
+<<<<<<< HEAD
       "address": "5XiE2JApnDwGc24PSY7y7stD4JxStkYPAH5tFVKAcrow",
       "symbol": "ORIA",
       "name": "Memoria",
@@ -99241,6 +99242,48 @@
       ],
       "extensions": {
         "telegram": "https://t.me/moonboyTECH"
+=======
+      "address": "HVVQoWkpEGiZ1ASk8KMdmJTCD16ap1cxYqnupVPcPme7",
+      "symbol": "SKA",
+      "name": "Dedska",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/ShogDev/Dedska/main/Dedska2.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "telegram": "https://t.me/+x9YbzrNSda5iMGVk",
+        "website": "https://github.com/ShogDev"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EasTB1F65QLPwMMpyESgCVy4wrkfbCwLzG6Epf1Lq4Rv",
+      "symbol": "GDXC",
+      "name": "GDX Token",
+      "decimals": 2,
+      "logoURI": "https://gdxc.greydotx.network/gdxc.png",
+      "tags": [
+        "community",
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://gdxc.greydotx.network"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FTvYdHBYKoAfqZzFWPH14zLQAyrm1xbvVKE69Xo6Wpps",
+      "symbol": "BRCN",
+      "name": "Brain Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/dskupinski8/crypto/main/logo.png",
+      "tags": [
+        "community"
+      ],
+      "extensions": {
+        "website": "https://bit.ly/3unsVny"
+>>>>>>> a4128bdfa392d4ebd30dbc139e15b2b37b0ad117
       }
     }
   ],
