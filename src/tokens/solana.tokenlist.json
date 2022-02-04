@@ -17047,11 +17047,11 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "swanlana",
         "discord": "http://discord.gg/swanlanafinance",
         "medium": "https://medium.com/@swanlana23",
-        "twitter": "https://twitter.com/swan_solana",
-        "coingeckoId": "swanlana",
         "serumV3Usdc": "8zPVSrun5AnePjXWjC4EgMdBaLdHtkSUtYbFNobzQHRN",
+        "twitter": "https://twitter.com/swan_solana",
         "website": "https://www.swanlana.com"
       }
     },
@@ -80554,10 +80554,10 @@
       "logoURI": "https://raw.githubusercontent.com/ant-dev-panda/OKKAMI_dev_crypto/main/logo.png",
       "tags": [
         "social-token"
-    ],
-    "extensions": {
-      "website": "https://www.okkami.com/"
-    }
+      ],
+      "extensions": {
+        "website": "https://www.okkami.com/"
+      }
     },
     {
       "chainId": 101,
@@ -98629,9 +98629,9 @@
       ],
       "extensions": {
         "description": "DoughDAO Token",
-        "website": "https://soldough.com",
+        "discord": "https://discord.gg/soldough",
         "twitter": "https://twitter.com/SolDough",
-        "discord": "https://discord.gg/soldough"
+        "website": "https://soldough.com"
       }
     },
     {
@@ -98857,6 +98857,17 @@
         "meme-token",
         "community-token",
         "trading-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4BzQc4659DGHLNye2kFFYFh2SsPvaiH3yEVcVBiUdjXb",
+      "symbol": "STRW",
+      "name": "StirWave",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/SunCrypto/stirwave/main/logo.png",
+      "tags": [
+        "social-token"
       ]
     }
   ],
