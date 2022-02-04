@@ -18118,9 +18118,25 @@
     },
     {
       "chainId": 101,
-      "address": "AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa",
+      "address": "CPDiKagfozERtJ33p7HHhEfJERjvfk1VAjMXAFLrvrKP",
       "symbol": "cETH",
       "name": "Solend ETH",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CPDiKagfozERtJ33p7HHhEfJERjvfk1VAjMXAFLrvrKP/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa",
+      "symbol": "csoETH",
+      "name": "Solend soETH",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa/logo.png",
       "tags": [
@@ -18183,10 +18199,26 @@
     {
       "chainId": 101,
       "address": "A38TjtcYrfutXT6nfRxhqwoGiXyzwJsGPmekoZYYmfgP",
+      "symbol": "csoFTT",
+      "name": "Solend soFTT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A38TjtcYrfutXT6nfRxhqwoGiXyzwJsGPmekoZYYmfgP/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8bDyV3N7ctLKoaSVqUoEwUzw6msS2F65yyNPgAVUisKm",
       "symbol": "cFTT",
       "name": "Solend FTT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A38TjtcYrfutXT6nfRxhqwoGiXyzwJsGPmekoZYYmfgP/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8bDyV3N7ctLKoaSVqUoEwUzw6msS2F65yyNPgAVUisKm/logo.png",
       "tags": [
         "solend",
         "lending",
@@ -18235,6 +18267,118 @@
       "name": "Solend MER",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BsWLxf6hRJnyytKR52kKBiz7qU7BB3SH77mrBxNnYU1G/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "D3Cu5urZJhkKyNZQQq2ne6xSfzbXLU4RrywVErMA2vf8",
+      "symbol": "cSLND",
+      "name": "Solend SLND",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D3Cu5urZJhkKyNZQQq2ne6xSfzbXLU4RrywVErMA2vf8/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6XrbsKScacEwpEW5DVNko9t5vW3cim9wktAeT9mmiYHS",
+      "symbol": "cUSDT-USDC",
+      "name": "Solend USDT-USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6XrbsKScacEwpEW5DVNko9t5vW3cim9wktAeT9mmiYHS/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "4icXEpFVMrcqob6fnd3jZ6KjKrc6cqre6do1f8kKAC1u",
+      "symbol": "cmSOL-SOL",
+      "name": "Solend mSOL-SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4icXEpFVMrcqob6fnd3jZ6KjKrc6cqre6do1f8kKAC1u/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "QQ6WK86aUCBvNPkGeYBKikk15sUg6aMUEi5PTL6eB4i",
+      "symbol": "cstSOL",
+      "name": "Solend stSOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/QQ6WK86aUCBvNPkGeYBKikk15sUg6aMUEi5PTL6eB4i/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AFq1sSdevxfqWGcmcz7XpPbfjHevcJY7baZf9RkyrzoR",
+      "symbol": "cscnSOL",
+      "name": "Solend scnSOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AFq1sSdevxfqWGcmcz7XpPbfjHevcJY7baZf9RkyrzoR/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3JFC4cB56Er45nWVe29Bhnn5GnwQzSmHVf6eUq9ac91h",
+      "symbol": "cmSOL",
+      "name": "Solend mSOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3JFC4cB56Er45nWVe29Bhnn5GnwQzSmHVf6eUq9ac91h/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E9LAZYxBVhJr9Cdfi9Tn4GSiJHDWSZDsew5tfgJja6Cu",
+      "symbol": "cORCA",
+      "name": "Solend ORCA",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E9LAZYxBVhJr9Cdfi9Tn4GSiJHDWSZDsew5tfgJja6Cu/logo.png",
       "tags": [
         "solend",
         "lending",
