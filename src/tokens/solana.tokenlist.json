@@ -17047,11 +17047,11 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "swanlana",
         "discord": "http://discord.gg/swanlanafinance",
         "medium": "https://medium.com/@swanlana23",
-        "twitter": "https://twitter.com/swan_solana",
-        "coingeckoId": "swanlana",
         "serumV3Usdc": "8zPVSrun5AnePjXWjC4EgMdBaLdHtkSUtYbFNobzQHRN",
+        "twitter": "https://twitter.com/swan_solana",
         "website": "https://www.swanlana.com"
       }
     },
@@ -80554,10 +80554,10 @@
       "logoURI": "https://raw.githubusercontent.com/ant-dev-panda/OKKAMI_dev_crypto/main/logo.png",
       "tags": [
         "social-token"
-    ],
-    "extensions": {
-      "website": "https://www.okkami.com/"
-    }
+      ],
+      "extensions": {
+        "website": "https://www.okkami.com/"
+      }
     },
     {
       "chainId": 101,
@@ -98629,9 +98629,9 @@
       ],
       "extensions": {
         "description": "DoughDAO Token",
-        "website": "https://soldough.com",
+        "discord": "https://discord.gg/soldough",
         "twitter": "https://twitter.com/SolDough",
-        "discord": "https://discord.gg/soldough"
+        "website": "https://soldough.com"
       }
     },
     {
@@ -98858,6 +98858,106 @@
         "community-token",
         "trading-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "4BzQc4659DGHLNye2kFFYFh2SsPvaiH3yEVcVBiUdjXb",
+      "symbol": "STRW",
+      "name": "StirWave",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/SunCrypto/stirwave/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FxKngPeyV2mM4oZPiF5EQ7xPBBAj5WtrzpBcf7n8HHaH",
+      "symbol": "FXKNG",
+      "name": "Fox King Whitelist",
+      "decimals": 0,
+      "logoURI": "https://arweave.net/V0fJBa_DsUCxCBta_8WPxWAtK8h30qvPxLCnD7cj2Hs",
+      "tags": [
+        "whitelist-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/W8fra6bABu",
+        "twitter": "https://twitter.com/rationalasf",
+        "website": "https://linktr.ee/rationalasfuck",
+        "youtube": "https://www.youtube.com/c/RationalAF"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3ZYsJZ7wb4hNEkfaDnR4JKT6Rok4hEfbxjGqDA3cRxGS",
+      "symbol": "TTCS",
+      "name": "TTCS Token",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/tongtongchain/token-list/main/assets/mainnet/3ZYsJZ7wb4hNEkfaDnR4JKT6Rok4hEfbxjGqDA3cRxGS/TTCS.png",
+      "tags": [
+        "tongtongcoin",
+        "tongtongchain",
+        "dex",
+        "finance"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "CaNiNGW7fasuC6Z3zGGuVt1j9WYX94KG7UN1SMY7gQqP",
+      "symbol": "CANIN",
+      "name": "DFLDAO",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/cultureclap/cultureclap/main/CANIN.logo.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "community-token"
+      ],
+      "extensions": {
+        "address": "CaNiNGW7fasuC6Z3zGGuVt1j9WYX94KG7UN1SMY7gQqP",
+        "assetContract": "https://solscan.io/token/CaNiNGW7fasuC6Z3zGGuVt1j9WYX94KG7UN1SMY7gQqP",
+        "description": "CANIN is the initial currency for DreamFreely Labs, as orchestrated by Culture Clap.",
+        "discord": "https://discord.gg/bwMRRbs",
+        "twitter": "https://twitter.com/CultureClap",
+        "website": "https://www.cultureclap.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "DkNihsQs1hqEwf9TgKP8FmGv7dmMQ7hnKjS2ZSmMZZBE",
+      "symbol": "QTCON",
+      "name": "QUIZTOK (SOL)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/quiztok/token-list/main/assets/mainnet/DkNihsQs1hqEwf9TgKP8FmGv7dmMQ7hnKjS2ZSmMZZBE/logo.png",
+      "extensions": {
+        "coingeckoId": "quiztok",
+        "facebook": "https://www.facebook.com/quiztok.kr",
+        "github": "https://github.com/quiztok",
+        "instagram": "https://www.instagram.com/quiztok_kr/",
+        "telegram": "https://t.me/QuiztokCS",
+        "twitter": "https://twitter.com/quiztokkr",
+        "website": "https://quiztok.com/",
+        "youtube": "https://www.youtube.com/channel/UCtl9jTbXMa43F17zrnr1AeQ"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "RVMgn3H2x5EjZsQ5Z561Kvx6tRDxkkFsXEtH1hMuJ7k",
+      "symbol": "RVM",
+      "name": "RAVIUM",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RVMgn3H2x5EjZsQ5Z561Kvx6tRDxkkFsXEtH1hMuJ7k/logo.png",
+      "tags": [
+        "Utility-token",
+        "Gaming",
+        "NFT",
+        "Metaverse"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/Sr9epbgEW4",
+        "telegram": "https://t.me/Ravaverse",
+        "twitter": "https://twitter.com/Ravaverse"
+      }
     }
   ],
   "version": {
