@@ -61,15 +61,41 @@
       "chainId": 101,
       "address": "7gDoUkqmkjX8BEVrkYQs6cawFB4ronky8AfkCEyHbzB2",
       "symbol": "PLASMA",
-      "name": "Metaballix",
+      "name": "PlasmaVerse",
       "decimals": 4,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7gDoUkqmkjX8BEVrkYQs6cawFB4ronky8AfkCEyHbzB2/logo.png",
       "tags": [
+	"metaballix",
+	"metaballs",
+	"plasma-density",
         "gamification-token",
         "metaverse-token",
+        "game-token",
+        "plasmaverse"
+      ],
+      "extensions": {
+        "website": "https://plasmaver.se/",
+        "twitter": "https://twitter.com/metaballix",
+        "discord": "https://discord.gg/AG2Y93emkf",
+	"github": "https://github.com/metaballix"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "E359HKTV192s4kpg4QXTmj7eQ6fzvsL2KbU9QJGDrM3e",
+      "symbol": "MBALL",
+      "name": "Metaballs",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E359HKTV192s4kpg4QXTmj7eQ6fzvsL2KbU9QJGDrM3e/logo.png",
+      "tags": [
+	"metaballix",
+	"metaballs",
+        "whitelist-token",
         "nft-token",
         "metaverse-currency",
-        "metaballs"
+        "metaball-nft",
+	"solana-nft",
+	"nft-collection"
       ],
       "extensions": {
         "website": "https://www.metaballix.com",
