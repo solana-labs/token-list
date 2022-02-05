@@ -45774,6 +45774,7 @@
         "social-token"
       ],
       "extensions": {
+        "coingeckoId": "whalemap",
         "website": "https://whalemap.io/"
       }
     },
@@ -95431,7 +95432,19 @@
       "symbol": "RAVA",
       "name": "RAVAverse",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RAVA1HRJpVu1eiLQ7EpAuBk8N6PxAfENfpXbSVCL1Wc/logo.png"
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RAVA1HRJpVu1eiLQ7EpAuBk8N6PxAfENfpXbSVCL1Wc/logo.png",
+      "tags": [
+        "Governance-token",
+        "Gaming",
+        "NFT",
+        "Exchange",
+        "Metaverse"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/Sr9epbgEW4",
+        "telegram": "https://t.me/Ravaverse",
+        "twitter": "https://twitter.com/Ravaverse"
+      }
     },
     {
       "chainId": 101,
@@ -99127,11 +99140,11 @@
     },
     {
       "chainId": 101,
-      "address": "5oBGUNhEqtpdeuANBMWFafufXY9WEJY4bHuETEA4v73p",
+      "address": "3dUP24FewyxEpT6qY1f6pMhPsZ1yqJEw2XWqStSxqCCV",
       "symbol": "9LIVES-SOL",
       "name": "9LIVES-SOL LP Token",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5oBGUNhEqtpdeuANBMWFafufXY9WEJY4bHuETEA4v73p/9livesLP.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3dUP24FewyxEpT6qY1f6pMhPsZ1yqJEw2XWqStSxqCCV/9livesLP.png",
       "tags": [
         "lp-token"
       ],
@@ -99773,6 +99786,79 @@
       "extensions": {
         "website": "https://www.savingaustraliankoalas.com/"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "Cvvh8nsKZet59nsDDo3orMa3rZnPWQhpgrMCVcRDRgip",
+      "symbol": "tsUSDC",
+      "name": "tsUSDC",
+      "decimals": 6,
+      "logoURI": "https://user-images.githubusercontent.com/8619106/152620671-249ada62-ced7-4959-bc92-f16837ca83b1.png",
+      "tags": [
+        "solfarm",
+        "tulip",
+        "lending",
+        "strategy"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "78ZnfsncDVyhE2HVPe5LscUrgKsJpwP3wJDHRF2TuC1v",
+      "symbol": "SLNT",
+      "name": "SLNT",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/78ZnfsncDVyhE2HVPe5LscUrgKsJpwP3wJDHRF2TuC1v/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/TheSolitarians"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "F2Wvo3sDsTN4okhcSCh4ttAieJmesJiD2HhHcfrgdNRU",
+      "symbol": "PXLC",
+      "name": "Pixel Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Pixel-Coin/cypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GuwfcBtgvxpzyb11ucAbjH5hwALPQNqQ4By5AF12BBLu",
+      "symbol": "CWC",
+      "name": "Crypto Wealth Capital",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/nicholas104/assets/main/CWC.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "E1vVoJmfr3Jyvwd8iFB7F1u9uwAeFNqkNxfzybHNyHuD",
+      "symbol": "Met4",
+      "name": "Meta 4",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E1vVoJmfr3Jyvwd8iFB7F1u9uwAeFNqkNxfzybHNyHuD/logo.png",
+      "tags": [
+        "utility-token",
+        "metaverse"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GUrngDJstwofUvg6mbKLy886XEqk3bG2uEtmgdHbWn9o",
+      "symbol": "BBSC",
+      "name": "Booth Boys StableCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Vo1dedParad0x/BoothBoys/main/BBS1.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
