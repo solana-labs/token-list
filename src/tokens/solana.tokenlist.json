@@ -101098,9 +101098,25 @@
         "utility-token"
       ],
       "extensions": {
+<<<<<<< Updated upstream
         "website": "https://www.hornsvshalosnft.com/"
       }
     },
+=======
+        "twitter": "https://twitter.com/dexsol",
+        },
+    },
+    {
+      "chainId": 101,
+      "address": "6LfAcu6synrK4KYfdP1ng9yY15h9h3c5hSqPvM761QgV",
+      "symbol": "DSL",
+      "name": "DexSol",
+      "decimals": 9,
+      "logoURI": "https://github.com/Veprunchuk/DexSol/commit/bdc8aa259d3303ed5061a20d2d69f6e264972410",
+      "extensions": {
+        "twitter": "https://twitter.com/dexsol",
+        },
+>>>>>>> Stashed changes
     {
       "chainId": 101,
       "address": "426zJLfE2sV6UkQsYJXQrLkJTZo995ZVZodq1LTMfo7Y",
@@ -101722,10 +101738,4 @@
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/36pVTMos1K66AHSk8N3R27dPCzvMMziUpU8bHBHn2Qky/logo.jpg"
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
-  }
-}
+  ]
