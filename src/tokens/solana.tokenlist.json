@@ -11929,7 +11929,7 @@
       "symbol": "DXL",
       "name": "Dexlab",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GsNzxJfFn6zQdJGeYsupJWzUAm57Ba7335mfhWvFiE9Z/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/dexlab-project/assets/master/dexlab/dexlab_symbol_logo.svg",
       "extensions": {
         "coingeckoId": "dexlab",
         "serumV3Usdc": "DYfigimKWc5VhavR4moPBibx9sMcWYVSjVdWvPztBPTa",
@@ -96425,10 +96425,10 @@
     {
       "chainId": 101,
       "address": "Q3nSH2htJ1jZBbBmMpFDFuZAGK3QwNUN3uHDosQiW9n",
-      "symbol": "MRC",
+      "symbol": "mickies",
       "name": "Mickey Rose",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/mrninjastyle/mickeyrosecoin/main/heartlogo.png",
+      "logoURI": "https://raw.githubusercontent.com/mrninjastyle/mickeyrosecoin/main/heartlogoo.png",
       "tags": [
         "social-token"
       ]
@@ -99839,7 +99839,11 @@
       "tags": [
         "utility-token",
         "metaverse"
-      ]
+      ],
+     "extensions": {
+        "website":"https://meta4labs.org",
+        "twitter": "https://twitter.com/Meta4labs1"
+      }
     },
     {
       "chainId": 101,
@@ -100772,7 +100776,7 @@
       "symbol": "WLTH",
       "name": "Wealthy",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/unimintco/token-logos/main/WLTH/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/unimintco/token-logos/main/WLTH/logo-larger.png",
       "tags": [
         "social-token"
       ]
@@ -101286,6 +101290,60 @@
       "logoURI": "https://raw.githubusercontent.com/solisium/solisium/main/logo.png",
       "tags": [
         "utility-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "4aJiwFd8bscKH6tBfvK9j3vFD4YnKSQGJfhttYismubf",
+      "symbol": "NERTIA",
+      "name": "Nertia",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Kadeaus/CC/main/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "community-token",
+        "NFT-Token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "Et3k45YA6ZMur4GcjuYJiiZSdnr78Jt2AhMbWs4cs3B",
+      "symbol": "GNOM",
+      "name": "GnomToken",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/onuraladi/CoinGnom/main/gnomcoin.png",
+      "tags": [
+        "utility-token",
+        "community-token",
+        "nft-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.com/invite/CFgTvwDEHf",
+        "twitter": "https://twitter.com/GnarlyGnomies",
+        "website": "https://gnomiezgen2.fun/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "H7KGAGLpfKnPUcLUR521R13gKys5vVnjTrD5tyGgKP1D",
+      "symbol": "KKOIN",
+      "name": "KristenKoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/klauducci/klauducci/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "6U9zAUz4gGANpwMuXKFYzfWZp6VVd3BWromTKabMLFL5",
+      "symbol": "HUMA",
+      "name": "Huma Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/HumaCoin/icon/main/logo.png",
+      "tags": [
+        "social-token"
       ]
     }
   ],
