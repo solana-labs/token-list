@@ -99840,8 +99840,8 @@
         "utility-token",
         "metaverse"
       ],
-     "extensions": {
-        "website":"https://meta4labs.org",
+      "extensions": {
+        "website": "https://meta4labs.org",
         "twitter": "https://twitter.com/Meta4labs1"
       }
     },
@@ -101308,22 +101308,37 @@
     },
     {
       "chainId": 101,
-      "address": "Et3k45YA6ZMur4GcjuYJiiZSdnr78Jt2AhMbWs4cs3B",
-      "symbol": "GNOM",
-      "name": "GnomToken",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/onuraladi/CoinGnom/main/gnomcoin.png",
+      "address": "E6HdfEAvaY8Fz9avWHvP9iJLWhVrdvmRjvXNc2v3vzb7",
+      "symbol": "GNANA",
+      "name": "Golden Banana",
+      "decimals": 9,
+      "logoURI": "https://github.com/2beyondWRLD/token-list/blob/main/assets/mainnet/E6HdfEAvaY8Fz9avWHvP9iJLWhVrdvmRjvXNc2v3vzb7/logo.png?raw=true",
       "tags": [
-        "utility-token",
-        "community-token",
-        "nft-token"
+        "social-token"
       ],
       "extensions": {
-        "discord": "https://discord.com/invite/CFgTvwDEHf",
-        "twitter": "https://twitter.com/GnarlyGnomies",
-        "website": "https://gnomiezgen2.fun/"
-      }
+        "discord": "https://discord.gg/awFhms4VYx",
+        "twitter": "https://twitter.com/riseofsolapes"
+    },
+    {
+    "chainId": 101,
+    "address": "Et3k45YA6ZMur4GcjuYJiiZSdnr78Jt2AhMbWs4cs3B",
+    "symbol": "GNOM",
+    "name": "GnomToken",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/onuraladi/CoinGnom/main/gnomcoin.png",
+    "tags": [
+      "utility-token",
+      "community-token",
+      "nft-token"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/CFgTvwDEHf",
+      "twitter": "https://twitter.com/GnarlyGnomies",
+      "website": "https://gnomiezgen2.fun/"
     }
+
+  },
   ],
   "version": {
     "major": 0,
