@@ -101362,6 +101362,42 @@
     },
     {
       "chainId": 101,
+      "address": "AGqKX7F4mqJ8x2mUQVangJb5pWQJApaKoUfe5gXM53CV",
+      "symbol": "USDCav",
+      "name": "USDCav (Wormhole from Avalanche)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AGqKX7F4mqJ8x2mUQVangJb5pWQJApaKoUfe5gXM53CV/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+        "assetContract": "https://snowtrace.io/address/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+        "bridgeContract": "https://snowtrace.io/address/0x0e082f06ff657d94310cb8ce8b0d9a04541d8052",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "B2wfeYz5VtBnQVrX4M8F6FeDrprVrzKPws5qg1in8bzR",
+      "symbol": "USDTav",
+      "name": "USDTav (Wormhole from Avalanche)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/B2wfeYz5VtBnQVrX4M8F6FeDrprVrzKPws5qg1in8bzR/logo.png",
+      "tags": [
+        "wrapped",
+        "wormhole"
+      ],
+      "extensions": {
+        "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+        "assetContract": "https://snowtrace.io/address/0xc7198437980c041c805a1edcba50c1ce5db95118",
+        "bridgeContract": "https://snowtrace.io/address/0x0e082f06ff657d94310cb8ce8b0d9a04541d8052",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "CrDKsTDUursFNeTu5neSg4x8MGM6UkDbmmXYfe7xk4Qa",
       "symbol": "SPEVE",
       "name": "Speve Coin",
