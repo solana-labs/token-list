@@ -102651,6 +102651,7 @@
     },
     {
       "chainId": 101,
+<<<<<<< HEAD
       "address": "77Aw7fW4dMQLV1tzJdtepQQsrZddMPwjskWTqv7qdv17",
       "symbol": "NAU",
       "name": "NaughtyFingers",
@@ -102664,6 +102665,50 @@
       "extensions": {
         "website": "https://naughtyfingers.io/",
         "twitter": "https://twitter.com/NaughtyFingerss"
+=======
+      "address": "H1CHW4k7e8PMrhT4DuaEQSaXMvhtkLtuuBFY24JfbzZ3",
+      "symbol": "SNC",
+      "name": "SnowCoin",
+      "decimals": 0,
+      "logoURI": "https://github.com/ri3m4nn/crypto/blob/main/Polish_20220207_030852210.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3vXYrqQkKpebReDPUaD1CseA3cWiqfxgPuKTe5aGL17U",
+      "symbol": "SOUL",
+      "name": "Lost Souls",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/9635375b050718ed272108309818f1d4347e0ca2/assets/mainnet/soul.png",
+      "extensions": {
+        "twitter": "https://twitter.com/solanalostsouls",
+        "website": "https://discord.com/invite/efkrna3jbs"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "5d7twcViTUiQVLdbKBYSv9Je1DeKkTsTyfEhx6vVvLpL",
+      "symbol": "MUSK",
+      "name": "Musk Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/haydenzeller/MUSK/main/musk.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "tABbYiZsg2msMsPx9wZeJVJpBdCBdGBKDMTuy3XnH2V",
+      "symbol": "TABBY",
+      "name": "TABBY",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/tABbYiZsg2msMsPx9wZeJVJpBdCBdGBKDMTuy3XnH2V/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/tabbycoinmeow",
+        "website": "https://tabbylaunch.io"
+>>>>>>> e41d0eb2fc629fdba02c1263e070d44cc8faf08e
       }
     }
   ],
