@@ -20984,7 +20984,7 @@
         "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
         "assetContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
         "bridgeContract": "https://snowtrace.io/address/0x0e082f06ff657d94310cb8ce8b0d9a04541d8052",
-        "coingeckoId": "avalanche",
+        "coingeckoId": "avalanche-2",
         "serumV3Usdc": "E8JQstcwjuqN5kdMyUJLNuaectymnhffkvfg1j286UCr"
       }
     },
@@ -24761,7 +24761,7 @@
         "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
         "assetContract": "https://polygonscan.com/address/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
         "bridgeContract": "https://polygonscan.com/address/0x5a58505a96d1dbf8df91cb21b54419fc36e93fde",
-        "coingeckoId": "polygon",
+        "coingeckoId": "matic-network",
         "serumV3Usdc": "5WRoQxE59966N2XfD2wYy1uhuyKeoVJ9NBMH6r6RNYEF"
       }
     },
@@ -102814,6 +102814,71 @@
       "name": "Webbeat",
       "decimals": 2,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2CyctHvyb8ioWM35doYQHaGk6UpYX5jo24oL3mgGKwe6/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "Cf31XKvBYx287TL8C1XBmDuLPDL8BKzozwkFC58RTqC6",
+      "symbol": "NEU",
+      "name": "Neuron",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Cf31XKvBYx287TL8C1XBmDuLPDL8BKzozwkFC58RTqC6/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/SolanaBrains",
+        "website": "https://solbrains.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "CnzCjrBQNzcwG1XEfBtP6kfvsbkLmXmSsHxR6UwgfXYQ",
+      "symbol": "$INV",
+      "name": "Invokers Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CnzCjrBQNzcwG1XEfBtP6kfvsbkLmXmSsHxR6UwgfXYQ/logo-iv.png",
+      "tags": [
+        "social-token",
+        "nft",
+        "game"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "MoscKLpTs9EV4ADTCGYATt1cHLdmybZ7215gKTdWAq7",
+      "symbol": "MOSC",
+      "name": "Moscovium",
+      "decimals": 0,
+      "logoURI": "https://arweave.net/i1bb-mYGWpJyDivUpnyExbYfvefgH-NcsLhsCMGeAjc",
+      "tags": [
+        "nft",
+        "metaverse",
+        "staking"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "2mXvNjEjY4QaQaWEAcaxojCHP7m8iujD97hZ3KEx13k6",
+      "symbol": "OGN",
+      "name": "Okegani",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/slaveofcode/okegani-assets/master/images/ogn.png",
+      "tags": [
+        "social-token",
+        "community-token",
+        "nfts"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "HDzAraAsi2WaxmyAby7W4xQHx6Z5VgfweAcPxRHwnefE",
+      "symbol": "MDL",
+      "name": "MDL Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/mihbo75/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
