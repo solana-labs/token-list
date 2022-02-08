@@ -103637,6 +103637,47 @@
       "tags": [
         "MANAGEMENT"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "6A1uWJRgUVmJYSVYxACXjsvxcy3EzzPdMxHt12j9J1dx",
+      "symbol": "BENJI",
+      "name": "BENJI",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/stefanylaforest/benji/main/BENJI.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "5Kts7TQFVrBseq9GokZ71o2gBiAmQNQc1ykdVZtH1JhS",
+      "symbol": "TON",
+      "name": "The Open Network",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/unimintco/token-logos/main/TON/logo.png",
+      "tags": [
+        "general-token",
+        "wrapped"
+      ],
+      "extensions": {
+        "coingeckoId": "the-open-network",
+        "description": "TON is a third-generation proof-of-stake blockchain designed in 2018 by the Durov brothers, the founders of Telegram Messenger. Later, it was handed over to our open TON Community, which has been supporting and developing it ever since.",
+        "github": "https://github.com/newton-blockchain",
+        "telegram": "https://t.me/tonblockchain",
+        "website": "https://ton.org"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8U72UUryrh6xtHyAsHbyEvESj8X5ARQtNAu3XY7ZtkJd",
+      "symbol": "ZENY",
+      "name": "ZenCoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/badeafrost/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
