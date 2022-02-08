@@ -1,6 +1,15 @@
 {
   "version": "0.2.0",
   "configurations": [
+    {
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "request": "attach",
+      "type": "pwa-chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+
+
     // To debug, make sure a *.spec.ts file is active in the editor, then run a configuration
     {
       "type": "node",
