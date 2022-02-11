@@ -105330,13 +105330,14 @@
     },
     {
       "chainId": 101,
-<<<<<<< HEAD
       "address": "6z484cGkS5Nxg1XvZR2wkivCHYXvTwMp5intiA59kWCP",
       "symbol": "LSTN",
       "name": "Listen Token",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/izetrom/token/master/logo.png"
-=======
+    },
+    {
+      "chainId": 101,
       "address": "KuTHacd5KQF9F7akJY3LSUhuACdPhfRLyCm8AWTkYrE",
       "symbol": "KWT",
       "name": "Kuroda Whitelist Tokens",
@@ -107138,7 +107139,24 @@
       "tags": [
         "social-token"
       ]
+<<<<<<< HEAD
 >>>>>>> 5750bdf42e33e6696fe60c5ac21ab908a7c49071
+=======
+    },
+    {
+      "chainId": 101,
+      "address": "FXTaYTiqvXChz1ASom1ngEqt7LTjr5hfdwHoRkfjJfkd",
+      "symbol": "MDR",
+      "name": "Madori",
+      "decimals": 7,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FXTaYTiqvXChz1ASom1ngEqt7LTjr5hfdwHoRkfjJfkd/logo.svg",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.madori.tech/"
+      }
+>>>>>>> bd9f2aa37d147e87553811713a562407a1806f6a
     }
   ],
   "version": {
