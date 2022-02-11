@@ -58,6 +58,24 @@
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens": [
     {
+    "chainId": 101,
+    "address": "L14YyRSeQxkXgQXU7DyqAdipviLmKsLAUUptSLsrCdQ",
+    "symbol": "$BD",
+    "name": "$BREAD",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/L14YyRSeQxkXgQXU7DyqAdipviLmKsLAUUptSLsrCdQ/logo.png",
+    "tags": [
+      "dunkin-ducks-token",
+      "DunkinDucks"
+    ],
+    "extensions": {
+      "Website": "https://dunkinducksnft.com",
+      "Twitter": "https://twitter.com/DunkinDucksNft",
+      "Discord": "https://discord.gg/xAmYshe9K4"
+    }
+  },
+
+    {
       "chainId": 101,
       "address": "CbNYA9n3927uXUukee2Hf4tm3xxkffJPPZvGazc2EAH1",
       "symbol": "agEUR",
@@ -88772,11 +88790,11 @@
         "gaming-token"
       ],
       "extensions": {
-        "discord": "https://discord.gg/zFDBEKSq",
-        "medium": "https://medium.com/@primordialsgame",
-        "serumV3Usdc": "9wmsybKvBWKatj7FxkYhauna6z4mcMDXQrjNvdy2kdgE",
         "twitter": "https://twitter.com/Primordialsgame",
-        "website": "https://primordialsgame.com/"
+        "website": "https://primordialsgame.com/",
+	"medium": "https://medium.com/@primordialsgame",
+        "serumV3Usdc": "9wmsybKvBWKatj7FxkYhauna6z4mcMDXQrjNvdy2kdgE",
+	"discord": "https://discord.gg/zFDBEKSq"
       }
     },
     {
@@ -106393,108 +106411,6 @@
       "name": "Solleo",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GmEvUrfkmWzJSqua5UkK3KZMUWjLieDK6iatBd7QzEAN/logo.png"
-    },
-    {
-      "chainId": 101,
-      "address": "BsnpN8xvDpY7uKo4gnk5B3Z6pHnyL8RXgmMTQFpEETLa",
-      "symbol": "NRC",
-      "name": "Nearcoin",
-      "decimals": 2,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BsnpN8xvDpY7uKo4gnk5B3Z6pHnyL8RXgmMTQFpEETLa/logo.png",
-      "tags": [
-        "social-token",
-        "utility-token",
-        "currency-token"
-      ],
-      "extensions": {
-        "facebook": "https://www.facebook.com/NearcastHQ",
-        "instagram": "https://www.instagram.com/NearcastHQ/",
-        "linkedin": "https://www.linkedin.com/company/nearcast",
-        "twitter": "https://twitter.com/NearcastHQ",
-        "website": "https://www.nearcoin.com/",
-        "youtube": "https://www.youtube.com/channel/UCqvbKHoV0xaReGts8oedmnQ"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "Kir4NUgYeLoHN7aBjNTfiyn3vHwZVKiyhBqN5RYBqnA",
-      "symbol": "KIRIN",
-      "name": "Kirin Kingdom",
-      "decimals": 9,
-      "logoURI": "https://i.ibb.co/CtjdKgQ/unknown.png",
-      "tags": [
-        "NFT",
-        "Staking",
-        "Passive-income",
-        "Breeding"
-      ],
-      "extensions": {
-        "twitter": "https://twitter.com/Kirin_Kingdom",
-        "website": "https://kirin-kingdom.com"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "7XmXhKmngJJvK3k1dSbCNDB9pfMyGtgm8QUcczUY1c4R",
-      "symbol": "GAL",
-      "name": "Galapagos",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/galapagos-coin/crypto/main/logo.png",
-      "tags": [
-        "utility-token",
-        "community-token",
-        "NFTs",
-        "Metaverse"
-      ],
-      "extensions": {
-        "discord": "https://discord.gg/bVvZWvFRAT",
-        "telegram": "https://t.me/GalapagosNFTs",
-        "twitter": "https://twitter.com/GalapagosNFTs",
-        "website": "https://GalapagosNFT.com"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "38vopEvoU5cdKX33noN793669JweG2KA5afW18BrLBFZ",
-      "symbol": "GJJ-LDV",
-      "name": "Lady with an Ermine",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/38vopEvoU5cdKX33noN793669JweG2KA5afW18BrLBFZ/hermelijn.png",
-      "tags": [
-        "Geert-Jan-Jansen",
-        "in-the-style-of",
-        "Leonardo-da-Vinci",
-        "NFT"
-      ],
-      "extensions": {
-        "website": "https://blocksto.ne/leonardo-da-vinci/"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "ViCeSQqiKWD3LGZv6W9tjLLwgXed3iPZpSLhurYZkXY",
-      "symbol": "VICE",
-      "name": "Vice",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ViCeSQqiKWD3LGZv6W9tjLLwgXed3iPZpSLhurYZkXY/logo.png",
-      "tags": [
-        "vice",
-        "sports"
-      ],
-      "extensions": {
-        "twitter": "https://twitter.com/Vicehood"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "9wB5JMdWYGtzygwo8GygrJFg6PY6QhtWK5HdK3PwJraV",
-      "symbol": "CRTK",
-      "name": "CRYTOK",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/mamoamo/cryotok/main/crytok_logo.png",
-      "tags": [
-        "promo-token"
-      ]
     }
   ],
   "version": {
