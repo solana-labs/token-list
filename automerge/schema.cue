@@ -142,7 +142,7 @@ import (
 
 	// The checksummed address of the token on the specified chain ID
 	// INCOMPATIBLE: base58
-	address: #Base58Address
+	address: #Base58Address & != "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
 
 	// The number of decimals for the token balance
 	decimals: int & >=0 & <=255
