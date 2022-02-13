@@ -95774,8 +95774,8 @@
       "tags": [
         "social-token"
       ]
-    }
-  ],
+    },
+    {
       "chainId": 101,
       "address": "399N5NddQ2rpRyUHku1UAmZzqUdanDhxe1kN9MnUBhQW",
       "symbol": "FWF",
@@ -95783,13 +95783,20 @@
       "decimals": 4,
       "logoURI": "https://raw.githubusercontent.com/frameworkfortune/chain-things/main/350%20x%20350%20token%20logo.png?token=GHSAT0AAAAAABQX64KTOOP25USSBJUIV6NQYPYGVYQ",
       "tags": [
-        "utility token"
-  ]
-}
+        "utility token",
+        "governance token",
+        "community token"
+      ],
+      "extensions": {
+        "description": "Communnity Token for Framework Fortune",
+        "twitter": "https://twitter.com/FramewkFortune",
+        "website": "https://www.frameworkfortune.com/"
+      }
+    }
 ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
-  }
+"version": {
+  "major": 0,
+  "minor": 3,
+  "patch": 3
+}
 }
