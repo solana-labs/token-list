@@ -89,6 +89,7 @@ Tips:
   * `serumV3Usdc` and `serumV3Usdt` are the addresses of serum markets for your token (either paired with USDC or USDT)
   * `coingeckoId` is the string that appears as 'API id' on the corresponding coingecko page
 * it's recommended to not add your token as the final element to the list (second-to-last is best).  This is because adding the token as the final element will create merge conflicts that are more difficult for maintainers to manually resolve.
+* please squash commits into a single commit for cleanliness
 
 Changes will be automerged.  If automerge fails, you can click the 'Details' link for more information. 
 
@@ -99,7 +100,8 @@ Please follow the Uniswap Token List specification found here: https://github.co
 
 Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR in order to request manual review.
 
-Please check the 'Files changed' tab on your PR to ensure that your change is as expected.
+* please check the 'Files changed' tab on your PR to ensure that your change is as expected
+* please squash commits into a single commit for cleanliness
 
 
 ## Common issues
