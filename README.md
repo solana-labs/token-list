@@ -6,6 +6,11 @@
 * [Usage](#usage)
 * [Adding new token](#adding-new-token)
 * [Modifying existing token](#modifying-existing-token)
+  * [Common issues](#common-issues)
+    * [Automerge failure: found removed line](#automerge-failure-found-removed-line)
+    * [Duplicate token](#duplicate-token)
+    * [Scanner/wallet hasn't updated yet](#scannerwallet-hasnt-updated-yet)
+    * [error validating schema: chainId: conflicting values 103 and 0](#error-validating-schema-chainid-conflicting-values-103-and-0)
 * [Disclaimer](#disclaimer)
 
 
@@ -84,22 +89,45 @@ Tips:
   * `serumV3Usdc` and `serumV3Usdt` are the addresses of serum markets for your token (either paired with USDC or USDT)
   * `coingeckoId` is the string that appears as 'API id' on the corresponding coingecko page
 * it's recommended to not add your token as the final element to the list (second-to-last is best).  This is because adding the token as the final element will create merge conflicts that are more difficult for maintainers to manually resolve.
-* solscan, solana explorer, and wallets all pull from this repo at different cadences; some update every few days.  Please do not raise issues with us saying 'solscan has updated but phantom has not'.
 
 Changes will be automerged.  If automerge fails, you can click the 'Details' link for more information. 
 
 Please follow the Uniswap Token List specification found here: https://github.com/Uniswap/token-lists
 
 
-
 # Modifying existing token
 
 Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR in order to request manual review.
 
-Tips:
-* Please be sure to modify the existing JSON block instead of adding a new one.  We see many commits that just add a new block instead of amending the existing one.
-* Please check the 'Files changed' tab on your PR to ensure that your change is as expected.
+Please check the 'Files changed' tab on your PR to ensure that your change is as expected.
 
+
+## Common issues
+
+### Automerge failure: found removed line
+Any modifications must be manually merged; please submit an issue linking to your PR.
+
+
+### Duplicate token
+"duplicate token: token address `...` is already used"
+
+This occurs because your diff is re-adding a completely new block for a token that already exists.  For modifications to existing tokens, be sure to locate the existing block in `solana.tokenlist.json` and modify the appropriate fields.
+
+Please check the 'Files changed' tab on your PR to ensure that your change is as expected.
+
+
+### Scanner/wallet hasn't updated yet
+Solscan, solana explorer, and wallets all pull from this repo at different cadences.  Some update every few days.  
+
+If your change has landed in the `HEAD` of `main` branch, it was successful, but it might take a few days for downstream users to reflect that change.
+
+Please especially do not raise issues saying 'solscan has updated but phantom has not', that definitely means your change is in this repo!
+
+
+### error validating schema: chainId: conflicting values 103 and 0
+This automerge error arises if you touched a line outside of your token block.  Some text editors introduce a diff to the final line of the file.
+
+These currently need to be manually merged; please submit an issue and link your PR.
 
 
 # Disclaimer
