@@ -59,6 +59,41 @@
   "tokens": [
     {
       "chainId": 101,
+      "address": "8uhGf3XCJkBQoRxBycsEFWao3TPPajcTEbdXeJk1mFS7",
+      "symbol": "RIL",
+      "name": "Rilum",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/abbas-bachari/logo/main/src/RIL.png",
+      "tags": [
+        "wallet",
+        "payment",
+        "Token"
+      ],
+      "extensions": {
+        "telegram": "https://t.me/Rilum",
+        "description": "Rilum is SPL telegram wallet for buy and sell products and currencies."
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7yejJw7D5khrhETFZjahaD3LfKpi1XDSLYSCb5jYVkuN",
+      "symbol": "CCT",
+      "name": "Coin98 Community Token",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/abbas-bachari/logo/main/src/cct.png",
+      "tags": [
+        "CCT",
+        "Coin98",
+        "Community",
+        "Token"
+      ],
+      "extensions": {
+        "telegram": "https://t.me/coin98",
+        "description": "This token is used to reward active members of the @COIN98 Telegram channel."
+      }
+    },
+    {
+      "chainId": 101,
       "address": "CbNYA9n3927uXUukee2Hf4tm3xxkffJPPZvGazc2EAH1",
       "symbol": "agEUR",
       "name": "agEUR (Wormhole)",
