@@ -8,6 +8,7 @@
 * [Modifying existing token](#modifying-existing-token)
 * [Common issues](#common-issues)
   * [Automerge failure: found removed line](#automerge-failure-found-removed-line)
+  * [Failed to normalize: failed to parse JSON: json: unknown field](#failed-to-normalize-failed-to-parse-json-json-unknown-field)
   * [Duplicate token](#duplicate-token)
   * [Scanner/wallet hasn't updated yet](#scannerwallet-hasnt-updated-yet)
   * [error validating schema: chainId: conflicting values 103 and 0](#error-validating-schema-chainid-conflicting-values-103-and-0)
@@ -108,7 +109,16 @@ Modifications currently must be manually reviewed.  For any modifications, pleas
 # Common issues
 
 ## Automerge failure: found removed line
-Any modifications must be manually merged; please submit an issue linking to your PR.
+Any modifications must be manually merged; please submit an issue with a link to your PR.
+
+
+## Failed to normalize: failed to parse JSON: json: unknown field
+e.g. `failed to normalize: failed to parse JSON: json: unknown field "coingeckoId"`
+
+If this error is encountered while modifying an existing entry, note that this error is misleading; 
+it is the automerger's way of saying that adding `coingeckoId` to an existing entry is not allowed.
+
+Any modifications must be manually merged; please submit an issue with a link to your PR.
 
 
 ## Duplicate token
