@@ -84,6 +84,7 @@ Tips:
   * `serumV3Usdc` and `serumV3Usdt` are the addresses of serum markets for your token (either paired with USDC or USDT)
   * `coingeckoId` is the string that appears as 'API id' on the corresponding coingecko page
 * it's recommended to not add your token as the final element to the list (second-to-last is best).  This is because adding the token as the final element will create merge conflicts that are more difficult for maintainers to manually resolve.
+* solscan, solana explorer, and wallets all pull from this repo at different cadences; some update every few days.  Please do not raise issues with us saying 'solscan has updated but phantom has not'.
 
 Changes will be automerged.  If automerge fails, you can click the 'Details' link for more information. 
 
