@@ -2,7 +2,16 @@
 # Please note: This repository is being rebuilt to accept the new volume of token additions and modifications. PR merges will be delayed.
 ---
 
-# @solana/spl-token-registry
+# Contents
+* [Usage](#usage)
+* [Adding new token](#adding-new-token)
+* [Modifying existing token](#modifying-existing-token)
+* [Disclaimer](#disclaimer)
+
+
+# Usage
+
+@solana/spl-token-registry
 
 [![npm](https://img.shields.io/npm/v/@solana/spl-token-registry)](https://unpkg.com/@solana/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/solana-labs/token-list/blob/b3fa86b3fdd9c817139e38641d46c5a892542a52/LICENSE)
 
@@ -58,11 +67,39 @@ export const Icon = (props: { mint: string }) => {
 
 ```
 
-## Adding new token
+# Adding new token
 
-Submit PR with changes to JSON file `src/tokens/solana.tokenlist.json`
+To add a new token, add another json block to the large `tokens` list in `src/tokens/solana.tokenlist.json` and submit a PR.
+
+Tips:
+* `logoURI` 
+  * should point to a `png`, `jpg`, or `svg`.
+  * the logo can be hosted in this repo in `assets/mainnet/TOKEN_ADDRESS/FILE` 
+    * in that case, the image should be added to this repo and logoURI should point to `https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TOKEN_ADDRESS/FILE`)
+  * if your logo is hosted in any other repo or any other location, no need to add it here
+* `tags`
+  * please don't go crazy here, note that the valid tags are in the toplevel `tags` section and any other tags will likely have no effect
+* `extensions: 
+  * the `extensions` block can contain links to your twitter, discord, etc.  A list of allowed extensions is [here](automerge/schema.cue#L105).
+  * `serumV3Usdc` and `serumV3Usdt` are the addresses of serum markets for your token (either paired with USDC or USDT)
+  * `coingeckoId` is the string that appears as 'API id' on the corresponding coingecko page
+* it's recommended to not add your token as the final element to the list (second-to-last is best).  This is because adding the token as the final element will create merge conflicts that are more difficult for maintainers to manually resolve.
+
+Changes will be automerged.  If automerge fails, you can click the 'Details' link for more information. 
 
 Please follow the Uniswap Token List specification found here: https://github.com/Uniswap/token-lists
+
+
+
+# Modifying existing token
+
+Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR in order to request manual review.
+
+Tips:
+* Please be sure to modify the existing JSON block instead of adding a new one.  We see many commits that just add a new block instead of amending the existing one.
+* Please check the 'Files changed' tab on your PR to ensure that your change is as expected.
+
+
 
 # Disclaimer
 
