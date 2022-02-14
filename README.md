@@ -1,16 +1,16 @@
 ---
-# Please note: This repository is being rebuilt to accept the new volume of token additions and modifications. PR merges will be delayed.
+### Please note: This repository is being rebuilt to accept the new volume of token additions and modifications. PR merges will be delayed.
 ---
 
 # Contents
 * [Usage](#usage)
 * [Adding new token](#adding-new-token)
 * [Modifying existing token](#modifying-existing-token)
-  * [Common issues](#common-issues)
-    * [Automerge failure: found removed line](#automerge-failure-found-removed-line)
-    * [Duplicate token](#duplicate-token)
-    * [Scanner/wallet hasn't updated yet](#scannerwallet-hasnt-updated-yet)
-    * [error validating schema: chainId: conflicting values 103 and 0](#error-validating-schema-chainid-conflicting-values-103-and-0)
+* [Common issues](#common-issues)
+  * [Automerge failure: found removed line](#automerge-failure-found-removed-line)
+  * [Duplicate token](#duplicate-token)
+  * [Scanner/wallet hasn't updated yet](#scannerwallet-hasnt-updated-yet)
+  * [error validating schema: chainId: conflicting values 103 and 0](#error-validating-schema-chainid-conflicting-values-103-and-0)
 * [Disclaimer](#disclaimer)
 
 
@@ -101,24 +101,33 @@ Please follow the Uniswap Token List specification found here: https://github.co
 Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR in order to request manual review.
 
 * please check the 'Files changed' tab on your PR to ensure that your change is as expected
+* please link the commit or PR where the token was originally added.  If the token was added by someone else, they will be asked to confirm that this change is authorized
 * please squash commits into a single commit for cleanliness
 
 
-## Common issues
+# Common issues
 
-### Automerge failure: found removed line
+## Automerge failure: found removed line
 Any modifications must be manually merged; please submit an issue linking to your PR.
 
 
-### Duplicate token
+## Duplicate token
 "duplicate token: token address `...` is already used"
 
-This occurs because your diff is re-adding a completely new block for a token that already exists.  For modifications to existing tokens, be sure to locate the existing block in `solana.tokenlist.json` and modify the appropriate fields.
+This occurs because your diff is re-adding a completely new block for a token that was already previously added (probably by you).  A common sequence of events that leads to this error is:
+1. you checked out the repo
+2. you added a token, committed, pushed back to github, and opened a PR
+3. the PR was merged back to main
+4. sometime later, you decided to modify something on the token (e.g. name), so you made the change, made another commit, pushed to github, and opened another PR.
 
-Please check the 'Files changed' tab on your PR to ensure that your change is as expected.
+If you do the above, the new PR will encompass commits for both step 2 and 4, so it will look like a new token addition, and will collide with the existing one.  You MUST rebase your local checkout back to `origin/main` before opening a PR.  (You can do this with `git fetch origin main` followed by `git rebase main`.)
+
+More generally, for modifications to existing tokens, be sure to checkout the `HEAD` of the `main` branch, locate the existing block in `solana.tokenlist.json`, and modify the appropriate fields.
+
+Please check the 'Files changed' tab on your PR to see the impact of your change.
 
 
-### Scanner/wallet hasn't updated yet
+## Scanner/wallet hasn't updated yet
 Solscan, solana explorer, and wallets all pull from this repo at different cadences.  Some update every few days.  
 
 If your change has landed in the `HEAD` of `main` branch, it was successful, but it might take a few days for downstream users to reflect that change.
@@ -126,7 +135,7 @@ If your change has landed in the `HEAD` of `main` branch, it was successful, but
 Please especially do not raise issues saying 'solscan has updated but phantom has not', that definitely means your change is in this repo!
 
 
-### error validating schema: chainId: conflicting values 103 and 0
+## error validating schema: chainId: conflicting values 103 and 0
 This automerge error arises if you touched a line outside of your token block.  Some text editors introduce a diff to the final line of the file.
 
 These currently need to be manually merged; please submit an issue and link your PR.
