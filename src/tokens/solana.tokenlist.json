@@ -72,7 +72,7 @@
         "twitter": "https://twitter.com/everyonecoin",
         "website": "https://everyonecoin.com/"
       }
-    },    
+    },
     {
       "chainId": 101,
       "address": "CbNYA9n3927uXUukee2Hf4tm3xxkffJPPZvGazc2EAH1",
@@ -78190,10 +78190,10 @@
       ],
       "extensions": {
         "coingeckoId": "arte",
-        "serumV3Usdc": "4wqFtfechUSNW1nJ3WK5ogy478GTa66H99RrKnz45fa9",
         "description": "Utility token which is the fuel of the blockchain-art ARTE ecosystem.",
         "discord": "http://discord.gg/artpunks",
         "medium": "https://medium.com/@artpunknft",
+        "serumV3Usdc": "4wqFtfechUSNW1nJ3WK5ogy478GTa66H99RrKnz45fa9",
         "twitter": "https://twitter.com/ArtPunksNFT",
         "website": "http://artpunks.fun/"
       }
@@ -110640,6 +110640,58 @@
       "extensions": {
         "twitter": "https://twitter.com/ARxolotl"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "3HYVcsFMDWSyvoUQthCTJX2MW96ciVMkFEnoHhheNqL7",
+      "symbol": "ODNR",
+      "name": "ODNR Deer Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/RealKevin1960/Crypto/main/ohioDNR3.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "hone3CJTYjczb5nJh45KCNMkjrKMt7SCnHkWGWsVfVu",
+      "symbol": "HONE",
+      "name": "Yokoito Crew Hone",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/hone3CJTYjczb5nJh45KCNMkjrKMt7SCnHkWGWsVfVu/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/kcYuqWu9Qr",
+        "twitter": "https://twitter.com/yokoitocrew",
+        "website": "https://yokoitocrew.org/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "56bFarytGNPXnA34WbghfHoHQJ7NqKSKyTSnfmACdYtk",
+      "symbol": "KCRWN",
+      "name": "Kingdom Crown",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/56bFarytGNPXnA34WbghfHoHQJ7NqKSKyTSnfmACdYtk/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "website": "https://www.kingdomofdwarves.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Ge59QW4WJMgi4esSWr6fy8nndhLhp9u9CtF8fBqcZjv5",
+      "symbol": "USPC",
+      "name": "United States Patriot Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Artenen/USPCoin/main/Patriot-Coin-Logo.png",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
