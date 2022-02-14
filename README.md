@@ -1,5 +1,5 @@
 ---
-# Please note: This repository is being rebuilt to accept the new volume of token additions and modifications. PR merges will be delayed.
+### Please note: This repository is being rebuilt to accept the new volume of token additions and modifications. PR merges will be delayed.
 ---
 
 # Contents
