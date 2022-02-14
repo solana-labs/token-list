@@ -101,6 +101,7 @@ Please follow the Uniswap Token List specification found here: https://github.co
 Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR in order to request manual review.
 
 * please check the 'Files changed' tab on your PR to ensure that your change is as expected
+* please link the commit or PR where the token was originally added.  If the token was added by someone else, they will be asked to confirm that this change is authorized
 * please squash commits into a single commit for cleanliness
 
 
