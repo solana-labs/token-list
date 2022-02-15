@@ -78953,13 +78953,20 @@
     {
       "chainId": 101,
       "address": "71wTsTQJS2BPhduyXmZZkSUwpVDGnSr12t7bVfJQ5pZR",
-      "symbol": "MIC",
-      "name": "MindaCoin",
+      "symbol": "PG",
+      "name": "PARO GHUB",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/acecard15/LOGO/main/logo.png",
       "tags": [
-        "community-token"
-      ]
+        "community-token",
+		"solana",
+		"philippines"
+      ],
+      "extensions": {
+        "facebook": "https://www.facebook.com/Paro-Paro-G-HUB-100917682527562",
+        "telegram": "https://t.me/+t58ZtvzV7kYwMjg1",
+        "website": "https://www.paro-ghub.site"
+      }
     },
     {
       "chainId": 101,
@@ -111038,6 +111045,17 @@
         "twitter": "https://twitter.com/FramewkFortune",
         "website": "https://www.frameworkfortune.com/"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "7TFkZszsBijKKdxhLn2PkTJsbBv8a9CfsB61LsSFQmnZ",
+      "symbol": "PHORK",
+      "name": "Phork Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7TFkZszsBijKKdxhLn2PkTJsbBv8a9CfsB61LsSFQmnZ/logo.svg",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
