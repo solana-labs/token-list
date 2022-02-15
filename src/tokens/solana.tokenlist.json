@@ -109593,12 +109593,16 @@
       "chainId": 101,
       "address": "yxTU2PghnfPgcLiUSamfiKWufLtRyQAEUsqoG45kMjm",
       "symbol": "GLIDE",
-      "name": "Glide Coin",
+      "name": "Glide",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/tsbsoltn/soltn/main/logo.png",
       "tags": [
-        "social-token"
-      ]
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "website": "https://glidecoin.com/"
+      }
     },
     {
       "chainId": 101,
