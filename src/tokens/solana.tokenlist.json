@@ -103195,17 +103195,6 @@
     },
     {
       "chainId": 101,
-      "address": "B9LtfDZWWRrihYu8jDN57thcqqi7xfWAvj8yq4o2YJxw",
-      "symbol": "UPB",
-      "name": "Upbring Token",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/SOLreaper88/Upbring-Logo/main/UpbringLogo.PNG",
-      "tags": [
-        "social-token"
-      ]
-    },
-    {
-      "chainId": 101,
       "address": "e66ioN3eaRDSnKfHZrB72Nr6eBUZxxq1ZDHxnHdnFmo",
       "symbol": "BLDRA",
       "name": "Balandra",
@@ -112266,6 +112255,24 @@
         "community"
       ]
     }
+    {
+      "chainId": 101,
+      "address": "B9LtfDZWWRrihYu8jDN57thcqqi7xfWAvj8yq4o2YJxw",
+      "symbol": "UPB",
+      "name": "Upbring Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/SOLreaper88/Upbring-Logo/main/UpbringLogo.PNG",
+      "tags": [
+        "social-token"
+        "staking"
+        "community-token"
+      ],
+    "extensions": {
+        "github": "https://github.com/SOLreaper88",
+        "email": "upbringtoken@gmail.com",
+        "telegram": "t.me/upbringtoken",
+        "twitter": "https://twitter.com/UpbringToken",
+        "website": "https://www.upbringtoken.com"
   ],
   "version": {
     "major": 0,
