@@ -83300,14 +83300,15 @@
       "logoURI": "https://raw.githubusercontent.com/PMEinc/tmlogo/main/logo.png?token=GHSAT0AAAAAABQJ32OH5VNMPZTFCXB6VOGYYPQ4M7Q"
     },
     {
-      "chainId": 102,
+      "chainId": 101,
       "address": "vkG3Qrz6vCWjzDt5yCLEKYMYZ8hFZ27dmKe92btaZE3",
       "symbol": "FYFY",
       "name": "FYFY Token",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/vkG3Qrz6vCWjzDt5yCLEKYMYZ8hFZ27dmKe92btaZE3/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/vkG3Qrz6vCWjzDt5yCLEKYMYZ8hFZ27dmKe92btaZE3/logo.svg",
       "tags": [
-        "utility-token"
+        "utility-token",
+        "governance-token"
       ],
       "extensions": {
         "discord": "https://discord.gg/6jEMcEVU",
@@ -83315,6 +83316,7 @@
         "github": "https://github.com/fyfylabs",
         "instagram": "https://www.instagram.com/fyfy.official",
         "linkedin": "https://www.linkedin.com/company/fyfy",
+        "telegram": "https://t.me/fyfyio",
         "medium": "https://fyfy-io.medium.com",
         "twitter": "https://twitter.com/fyfyio",
         "website": "https://fyfy.io",
@@ -95497,6 +95499,77 @@
       ],
       "extensions": {
         "twitter": "https://twitter.com/sarhanilabs"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7FzVSAJVxpgC7WkXdypLfdAhBfc1ZmkEoW49cxpAaw8T",
+      "symbol": "FAT",
+      "name": "FYFY Airdrop Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7FzVSAJVxpgC7WkXdypLfdAhBfc1ZmkEoW49cxpAaw8T/logo.png",
+      "tags": [
+        "airdrop-token",
+        "reward-token"
+      ],
+      "extensions": {
+        "facebook": "https://www.facebook.com/fyfy.io",
+        "twitter": "https://twitter.com/fyfyio",
+        "instagram": "https://www.instagram.com/fyfy.official",
+        "linkedin": "https://www.linkedin.com/company/fyfy",
+        "discord": "https://discord.gg/6jEMcEVU",
+        "github": "https://github.com/fyfylabs",
+        "medium": "https://fyfy-io.medium.com",
+        "website": "https://fyfy.io",
+        "whitepaper": "https://fyfy-labs-ltd.gitbook.io/fyfy-documentation/"
+      }
+    },
+    {
+    "chainId": 101,
+      "address": "7rdCoFnW6kvzr3fEinFUw51CJKQBsuLQSQ2boBiqqPkC",
+      "symbol": "FGT",
+      "name": "FYFY Governance Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7rdCoFnW6kvzr3fEinFUw51CJKQBsuLQSQ2boBiqqPkC/logo.png",
+      "tags": [
+        "governance-token",
+        "utility-token",
+        "liguidity-pool-token"
+      ],
+      "extensions": {
+        "facebook": "https://www.facebook.com/fyfy.io",
+        "twitter": "https://twitter.com/fyfyio",
+        "instagram": "https://www.instagram.com/fyfy.official",
+        "linkedin": "https://www.linkedin.com/company/fyfy",
+        "discord": "https://discord.gg/6jEMcEVU",
+        "github": "https://github.com/fyfylabs",
+        "medium": "https://fyfy-io.medium.com",
+        "website": "https://fyfy.io",
+        "whitepaper": "https://fyfy-labs-ltd.gitbook.io/fyfy-documentation/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9usSKpVhb4PXthq5RuLc87JvFaCTobiMTNsCqWVwcPz1",
+      "symbol": "FNT",
+      "name": "FYFY NFT Token",
+      "decimals": 7,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9usSKpVhb4PXthq5RuLc87JvFaCTobiMTNsCqWVwcPz1/logo.png",
+      "tags": [
+        "nft",
+        "social-token",
+        "marketplace"
+      ],
+      "extensions": {
+        "facebook": "https://www.facebook.com/fyfy.io",
+        "twitter": "https://twitter.com/fyfyio",
+        "instagram": "https://www.instagram.com/fyfy.official",
+        "linkedin": "https://www.linkedin.com/company/fyfy",
+        "discord": "https://discord.gg/6jEMcEVU",
+        "github": "https://github.com/fyfylabs",
+        "medium": "https://fyfy-io.medium.com",
+        "website": "https://fyfy.io",
+        "whitepaper": "https://fyfy-labs-ltd.gitbook.io/fyfy-documentation/"
       }
     },
     {
