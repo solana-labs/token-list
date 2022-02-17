@@ -99,7 +99,7 @@ Please follow the Uniswap Token List specification found here: https://github.co
 
 # Modifying existing token
 
-Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR in order to request manual review.
+Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR (and leave the PR open) in order to request manual review.
 
 * please check the 'Files changed' tab on your PR to ensure that your change is as expected
 * please link the commit or PR where the token was originally added.  If the token was added by someone else, they will be asked to confirm that this change is authorized
@@ -109,7 +109,7 @@ Modifications currently must be manually reviewed.  For any modifications, pleas
 # Common issues
 
 ## Automerge failure: found removed line
-Any modifications must be manually merged; please submit an issue with a link to your PR.
+Any modifications must be manually merged; please submit an issue with a link to your PR (and leave the PR open).
 
 
 ## Failed to normalize: failed to parse JSON: json: unknown field
@@ -118,7 +118,7 @@ e.g. `failed to normalize: failed to parse JSON: json: unknown field "coingeckoI
 If this error is encountered while modifying an existing entry, note that this error is misleading; 
 it is the automerger's way of saying that adding `coingeckoId` to an existing entry is not allowed.
 
-Any modifications must be manually merged; please submit an issue with a link to your PR.
+Any modifications must be manually merged; please submit an issue with a link to your PR (and leave the PR open).
 
 
 ## Duplicate token
