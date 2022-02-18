@@ -18134,9 +18134,25 @@
     },
     {
       "chainId": 101,
-      "address": "AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa",
+      "address": "CPDiKagfozERtJ33p7HHhEfJERjvfk1VAjMXAFLrvrKP",
       "symbol": "cETH",
       "name": "Solend ETH",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CPDiKagfozERtJ33p7HHhEfJERjvfk1VAjMXAFLrvrKP/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa",
+      "symbol": "csoETH",
+      "name": "Solend soETH",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa/logo.png",
       "tags": [
@@ -18199,10 +18215,26 @@
     {
       "chainId": 101,
       "address": "A38TjtcYrfutXT6nfRxhqwoGiXyzwJsGPmekoZYYmfgP",
+      "symbol": "csoFTT",
+      "name": "Solend soFTT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A38TjtcYrfutXT6nfRxhqwoGiXyzwJsGPmekoZYYmfgP/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8bDyV3N7ctLKoaSVqUoEwUzw6msS2F65yyNPgAVUisKm",
       "symbol": "cFTT",
       "name": "Solend FTT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A38TjtcYrfutXT6nfRxhqwoGiXyzwJsGPmekoZYYmfgP/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8bDyV3N7ctLKoaSVqUoEwUzw6msS2F65yyNPgAVUisKm/logo.png",
       "tags": [
         "solend",
         "lending",
@@ -113437,6 +113469,43 @@
       "tags": [
         "social-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "E8763URMT8FSo2Hg9WrQZfVbUKMrK8EVTNt3jXzr2dzY",
+      "symbol": "LIFT",
+      "name": "Lucifer",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/diontr101/Lucifer/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "prwjbiQ3EQf8WqTqheZwr4Fa7gHfnFYYgPJJuC3CB7B",
+      "symbol": "PL-FE-WL",
+      "name": "ProLeague FE Whitelist Token",
+      "decimals": 0,
+      "logoURI": "https://proleague.gg/wp-content/uploads/2020/12/cropped-favicon-512px.png",
+      "extensions": {
+        "website": "https://proleague-mint.prolaunch.gg/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6ahac3aYrkq5kvUdDaJquBXbcR1xH58GkTBchcgHWkh7",
+      "symbol": "AWOO",
+      "name": "Retro Wolves Token",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/rxrxrxrx/RetroWolves/logo.png",
+      "tags": [
+        "retro-coin"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/RetroWolvesNFT",
+        "website": "https://discord.gg/Dm4tQEwERh"
+      }
     }
   ],
   "version": {
