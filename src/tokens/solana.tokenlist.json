@@ -18146,9 +18146,25 @@
     },
     {
       "chainId": 101,
-      "address": "AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa",
+      "address": "CPDiKagfozERtJ33p7HHhEfJERjvfk1VAjMXAFLrvrKP",
       "symbol": "cETH",
       "name": "Solend ETH",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CPDiKagfozERtJ33p7HHhEfJERjvfk1VAjMXAFLrvrKP/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa",
+      "symbol": "csoETH",
+      "name": "Solend soETH",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa/logo.png",
       "tags": [
@@ -18211,10 +18227,26 @@
     {
       "chainId": 101,
       "address": "A38TjtcYrfutXT6nfRxhqwoGiXyzwJsGPmekoZYYmfgP",
+      "symbol": "csoFTT",
+      "name": "Solend soFTT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A38TjtcYrfutXT6nfRxhqwoGiXyzwJsGPmekoZYYmfgP/logo.png",
+      "tags": [
+        "solend",
+        "lending",
+        "collateral-tokens"
+      ],
+      "extensions": {
+        "website": "https://solend.fi"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8bDyV3N7ctLKoaSVqUoEwUzw6msS2F65yyNPgAVUisKm",
       "symbol": "cFTT",
       "name": "Solend FTT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A38TjtcYrfutXT6nfRxhqwoGiXyzwJsGPmekoZYYmfgP/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8bDyV3N7ctLKoaSVqUoEwUzw6msS2F65yyNPgAVUisKm/logo.png",
       "tags": [
         "solend",
         "lending",
@@ -92045,7 +92077,7 @@
       "symbol": "STNE",
       "name": "Stone Coin",
       "decimals": 0,
-      "logoURI": "https://github.com/AlanBeez/Stone_Coin/blob/main/Logo.png.png",
+      "logoURI": "https://raw.githubusercontent.com/AlanBeez/Stone_Coin/main/Logo.png.png",
       "tags": [
         "social-token"
       ]
@@ -98224,7 +98256,8 @@
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Mix4UnSBefX8ym3mHndLyTgvqUq2kt7QsYQ4pCL4jr3/logo.png",
       "extensions": {
-        "twitter": "https://twitter.com/matrixmix"
+        "twitter": "https://twitter.com/matrixmix",
+        "website": "https://matrixx.site"
       }
     },
     {
@@ -113485,6 +113518,85 @@
       "extensions": {
         "twitter": "https://twitter.com/RetroWolvesNFT",
         "website": "https://discord.gg/Dm4tQEwERh"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "3adAUq2Z7sNfcmxSvgjXmxcgKF8bsQfUL76UpLMj8CqG",
+      "symbol": "PEPE$",
+      "name": "Pepe Coin",
+      "decimals": 3,
+      "logoURI": "https://raw.githubusercontent.com/virdagreat147/Pepe-army-Logo/main/Pepe%20Coin%20Logo%20small.png",
+      "tags": [
+        "currency",
+        "NFT",
+        "staking",
+        "access-token",
+        "gamble",
+        "utility"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/ySkaUa2rpy",
+        "twitter": "https://twitter.com/pepearmynft"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "FfpMkqyZS1EpvdjamVUY14Em988wEqBEZxMvKLZ2WE1m",
+      "symbol": "CF",
+      "name": "CLERGY666",
+      "decimals": 0,
+      "logoURI": "https://user-images.githubusercontent.com/98871398/153300652-6905b72c-1cfb-4972-9b92-f9a00d81626d.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "clergy",
+        "666",
+        "clowst"
+      ],
+      "extensions": {
+        "description": "Clowst, the ghost clown is set to build a new civilization by collecting his monstrous friends we've left behind and build a new clergy. CLERGY666.",
+        "discord": "https://discord.gg/CWmjPqxfuZ",
+        "instagram": "https://www.instagram.com/clowst666",
+        "twitter": "https://twitter.com/clowst666",
+        "website": "https://www.clowst666.io"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8s1FdbTFy6RozVcrtydnJ8KkAd5XdpXqcLmAk3BixybK",
+      "symbol": "BIGK",
+      "name": "BiggieKoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/bkmdchw7/crypto/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GA1a332k3RjL1MsYyqBsRyK1n9ssvEEXTk4DTAybva11",
+      "symbol": "KAUHL",
+      "name": "PanditCoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Gitlycool/Crtyo/main/diy-silk-screen-print-design-stencil-om-mantra-symbol-hindu-buddhist2.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FXSLj3g5u9SEm62bErBs8895YgrfJPyn5q36V4KpZQFc",
+      "symbol": "$BURGER",
+      "name": "BRBB - Burger Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FXSLj3g5u9SEm62bErBs8895YgrfJPyn5q36V4KpZQFc/logo.png",
+      "tags": [
+        "social-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/zKfTy88rvx",
+        "twitter": "https://twitter.com/BrokenRobotNFT"
       }
     }
   ],
