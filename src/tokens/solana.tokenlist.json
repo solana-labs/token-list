@@ -114144,25 +114144,41 @@
     },
     {
       "chainId": 101,
-      "address": "2Tp4hCJ24aRnsLShz9U96VtTSDHuaKL7eD7vj8Stvxhn",
-      "symbol": "HENDX",
-      "name": "Hendrix Token",
-      "decimals": 6,
-      "logoURI": "https://github.com/thejoshuahendrix/hennyscript/blob/main/IMG_20180803_100044.jpg?raw=true",
+      "address": "Da1ZmLE5Z8m8W1tx7QVcjyhr6DqcVv7JNA5JUzg5rwuU",
+      "symbol": "MSWL",
+      "name": "MetaSuite Whitelist",
+      "decimals": 0,
+      "logoURI": "https://uploads-ssl.webflow.com/61f06b392013fd69135ff718/62102954dec0272187b8658f_WLCoin.png",
       "tags": [
         "utility-token",
-        "social-token",
-        "community-token",
-        "game-token"
+        "community-token"
       ],
       "extensions": {
-        "website": "https://hennyscript.netlify.app/"
+        "website": "https://metasuitenft.com",
+        "discord": "https://discord.gg/zkdjyypdpj",
+        "twitter": "https://twitter.com/MetaSuiteNFT"
+      },
+      {
+        "chainId": 101,
+        "address": "2Tp4hCJ24aRnsLShz9U96VtTSDHuaKL7eD7vj8Stvxhn",
+        "symbol": "HENDX",
+        "name": "Hendrix Token",
+        "decimals": 6,
+        "logoURI": "https://github.com/thejoshuahendrix/hennyscript/blob/main/IMG_20180803_100044.jpg?raw=true",
+        "tags": [
+          "utility-token",
+          "social-token",
+          "community-token",
+          "game-token"
+        ],
+        "extensions": {
+          "website": "https://hennyscript.netlify.app/"
+        }
       }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
   }
-}
