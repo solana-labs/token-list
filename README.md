@@ -152,7 +152,7 @@ This automerge error arises if you touched a line outside of your token block.  
 These currently need to be manually merged; please submit an issue and link your PR.
 
 
-# Warning about the last element in the list
+## Warning about the last element in the list
 Please do not add your token as the final element to the list (second-to-last is best).
 This is because when the token is the final element, the closing brace won't be followed by a comma, which creates a specialcase which will create a merge conflict if the commit doesn't get automerged.  This prevents the maintainers from manually merging your change in the event that it needs to be automerged.
 
