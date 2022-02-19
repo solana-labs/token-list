@@ -109282,8 +109282,8 @@
     {
       "chainId": 101,
       "address": "EbmZ9fE3XxMUr1vEcjvrRqLJv3p9Zjs5fXeZBUGFgC7y",
-      "symbol": "BOTX",
-      "name": "botXcoin",
+      "symbol": "wBOTX",
+      "name": "botXcoin (Wormhole)",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EbmZ9fE3XxMUr1vEcjvrRqLJv3p9Zjs5fXeZBUGFgC7y/logo.png",
       "tags": [
@@ -109292,6 +109292,9 @@
         "wormhole-v2"
       ],
       "extensions": {
+        "address": "0xef19f4e48830093ce5bc8b3ff7f903a0ae3e9fa1",
+        "assetContract": "https://etherscan.io/address/0xef19f4e48830093ce5bc8b3ff7f903a0ae3e9fa1",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18b2214aff97000d974cf647e7c347e8fa585",
         "coingeckoId": "botxcoin",
         "coinmarketcap": "https://coinmarketcap.com/currencies/botxcoin/",
         "instagram": "https://www.instagram.com/botxofficial/",
