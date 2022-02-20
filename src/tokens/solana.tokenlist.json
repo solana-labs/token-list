@@ -114855,7 +114855,9 @@
       "name": "PDX Coin",
       "decimals": 0,
       "logoURI": "https://raw.githubusercontent.com/PDX-Coin/PDX-Coin/main/logo.png",
-      "website": "https://www.pdxcoin.info",
+      "extensions":{
+        "website": "https://www.pdxcoin.info"
+      },
       "tags": [
         "social-token",
         "community-token",
