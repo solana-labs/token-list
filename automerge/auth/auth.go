@@ -65,12 +65,27 @@ func GetInstallationToken(privateKey []byte, appId int64, org string) (string, e
 	)
 	tc := oauth2.NewClient(ctx, ts)
 	client := github.NewClient(tc)
-	is, _, err := client.Apps.ListInstallations(ctx, nil)
-	if err != nil {
-		klog.Exitf("failed to list installations: %v", err)
+
+
+	var installations []*github.Installation
+	var page int
+	for {
+		klog.Infof("getting installations for org %s, page %d", org, page)
+		is, resp, err := client.Apps.ListInstallations(ctx, &github.ListOptions{
+			Page:    page,
+			PerPage: 100,
+		})
+		if err != nil {
+			klog.Exitf("failed to list installations: %v", err)
+		}
+		installations = append(installations, is...)
+		if resp.NextPage == 0 {
+			break
+		}
+		page = resp.NextPage
 	}
 
-	for _, i := range is {
+	for _, i := range installations {
 		if i.GetAppID() == appId && i.GetAccount().GetLogin() == org && i.GetTargetType() == "Organization" {
 			klog.Infof("installation id: %v", i.GetID())
 			klog.Infof("installed on %s: %s", i.GetTargetType(), i.GetAccount().GetLogin())
