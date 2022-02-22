@@ -116874,6 +116874,74 @@
       "extensions": {
         "website": "https://soi.ink"
       }
+    },
+    {
+      "chainId": 103,
+      "address": "2Q1WAAgnpEox5Y4b6Y8YyXVwFNhDdGot467XfvdBJaPf",
+      "symbol": "tUSDC",
+      "name": "Test USD Coin (LP Finance Devnet)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/LP-Finance-Inc/token-image/main/USDC.png",
+      "tags": [
+        "stablecoin",
+        "LP-Finance"
+      ],
+      "extensions": {
+        "telegram": "https://t.me/LP_Defi_Official_group",
+        "twitter": "https://twitter.com/LPFinance_",
+        "website": "https://www.lp.finance"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "Hv96pk4HkhGcbNxkBvb7evTU88KzedvgVy2oddBB1ySB",
+      "symbol": "tBTC",
+      "name": "Test Bitcoin (LP Finance Devnet)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/LP-Finance-Inc/token-image/47faa0410931bbdee2164773bffa906060c45c82/BTC.svg",
+      "tags": [
+        "wrapped"
+      ],
+      "extensions": {
+        "telegram": "https://t.me/LP_Defi_Official_group",
+        "twitter": "https://twitter.com/LPFinance_",
+        "website": "https://www.lp.finance"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "7TEcMnoVJtZgpWCdnLu8X15bTtnt4J2zZyBxfV7i2uw7",
+      "symbol": "xDOGE",
+      "name": "Synthetic DOGE",
+      "decimals": 9,
+      "logoURI": "https://www.synthetify.io/icons/xdoge.svg",
+      "extensions": {
+        "coingeckoId": "dogecoin",
+        "twitter": "https://twitter.com/synthetify",
+        "website": "https://synthetify.io/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "PkwrevuR6k3QHAdPUHWWhdqMmjgnHUvdSun9GJmsRvk",
+      "symbol": "EDIN",
+      "name": "Edinar",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/mrreith/edinar/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3jb1kbPZjhFx9hdGE9CPs838B5UZDmrirbhw6aKMJmEA",
+      "symbol": "HNYDRP",
+      "name": "Honeydrop",
+      "decimals": 0,
+      "logoURI": "https://github.com/kipland-m/Honeydrop/blob/master/logo.png?raw=true",
+      "tags": [
+        "social-token"
+      ]
     }
   ],
   "version": {
