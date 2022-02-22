@@ -20592,8 +20592,11 @@
         "security-token"
       ],
       "extensions": {
+        "coingeckoId": "avocadocoin",
+        "coinmarketcap": "https://coinmarketcap.com/currencies/avocadocoin/",
         "facebook": "https://www.facebook.com/avocadocoins/",
         "instagram": "https://www.instagram.com/avocadocoin",
+        "telegram": "https://t.me/AvocadoCoinOfficial",
         "twitter": "https://twitter.com/avocadocoin",
         "website": "http://www.avocadocoin.com",
         "youtube": "https://www.youtube.com/channel/UCnMds055w0M3-_4GDjJsUKw"
@@ -116939,6 +116942,85 @@
       "name": "Honeydrop",
       "decimals": 0,
       "logoURI": "https://github.com/kipland-m/Honeydrop/blob/master/logo.png?raw=true",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GKbCjKB7jLjUiSHPReXA6c7VkSRRt4iMeGqTqrSBMkPA",
+      "symbol": "FROST",
+      "name": "Frost",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/nooballday8/tatocrypto/main/Frost.PNG",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "GurTvmWDmaZmUTqMFsctZaKGVPocbDXyrT6UJiT5YR9X",
+      "symbol": "STY",
+      "name": "STRAY",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GurTvmWDmaZmUTqMFsctZaKGVPocbDXyrT6UJiT5YR9X/Logo.png",
+      "tags": [
+        "gaming-token",
+        "utility-token",
+        "social-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.gg/strayapes",
+        "twitter": "https://twitter.com/StrayApesNFT",
+        "website": "https://strayapesnft.com"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "6VnsFohk6CQbaXoPTiQr5bHruEnuCqg94iwmnwrUj72M",
+      "symbol": "IMMORTAL",
+      "name": "IMMORTAL Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/DemonKingdomNFT/DemonKingdomN/main/DemonKingdomPFP.jpg",
+      "tags": [
+        "Community-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/demonkingdomnft",
+        "website": "https://demonkingdom.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "WLmzvH6aA31vA8hZ1bptVemSoiBc8fm6J4LRXzHZmCF",
+      "symbol": "matE",
+      "name": "MateysDAO 2/22 Whitelist token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WLmzvH6aA31vA8hZ1bptVemSoiBc8fm6J4LRXzHZmCF/icon.png",
+      "tags": [
+        "social-token",
+        "whitelist"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3mnScz1CPoHdtRxsakdT8LH7b4VC3AUBeUh1GyGZUqq1",
+      "symbol": "NXA",
+      "name": "NXA Bra",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/cryptopher17/crypto/main/Logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "SYDetWjb2SZ4G2PsEkdk1xX9Hmu4WV3Dn2CyGG2sKq9",
+      "symbol": "ANYM",
+      "name": "anymous3",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/anymouse20/crypto/main/logo_size_invert.jpg",
       "tags": [
         "social-token"
       ]
