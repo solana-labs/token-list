@@ -116400,6 +116400,21 @@
       "tags": [
         "security-token"
       ]
+    },
+    {
+      "chainId": 101,
+      "address": "etCPUaMghWobVwxug5Vgxb6r3A7DEBdLKUywrnDrJeZ",
+      "symbol": "JFICALL",
+      "name": "May 1 $2 Strike JFI Call",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/etCPUaMghWobVwxug5Vgxb6r3A7DEBdLKUywrnDrJeZ/logo.png",
+      "tags": [
+        "option-contract"
+      ],
+      "extensions": {
+        "description": "Psyoptions call option on the Jungle Finance token.",
+        "website": "https://psyoptions.io/"
+      }
     }
   ],
   "version": {
