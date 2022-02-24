@@ -131,7 +131,13 @@ This occurs because your diff is re-adding a completely new block for a token th
 3. the PR was merged back to main
 4. sometime later, you decided to modify something on the token (e.g. name), so you made the change, made another commit, pushed to github, and opened another PR.
 
-If you do the above, the new PR will encompass commits for both step 2 and 4, so it will look like a new token addition, and will collide with the existing one.  You MUST rebase your local checkout back to `origin/main` before opening a PR.  (You can do this with `git fetch origin main` followed by `git rebase main`.)
+If you do the above, the new PR will encompass commits for both step 2 and 4, so it will look like a new token addition, and will collide with the existing one.  You MUST rebase your local checkout back to `origin/main` before opening a PR.  You can do this with:
+```
+git remote add pub-origin git@github.com:solana-labs/token-list.git
+git fetch pub-origin main 
+git rebase pub-origin/main
+git push origin main -f
+```
 
 More generally, for modifications to existing tokens, be sure to checkout the `HEAD` of the `main` branch, locate the existing block in `solana.tokenlist.json`, and modify the appropriate fields.
 
