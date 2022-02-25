@@ -12,6 +12,7 @@
   * [Duplicate token](#duplicate-token)
   * [Scanner/wallet hasn't updated yet](#scannerwallet-hasnt-updated-yet)
   * [error validating schema: chainId: conflicting values 103 and 0](#error-validating-schema-chainid-conflicting-values-103-and-0)
+  * [warning about the last element in the list](#warning-about-the-last-element-in-the-list)
 * [Disclaimer](#disclaimer)
 
 
@@ -130,7 +131,13 @@ This occurs because your diff is re-adding a completely new block for a token th
 3. the PR was merged back to main
 4. sometime later, you decided to modify something on the token (e.g. name), so you made the change, made another commit, pushed to github, and opened another PR.
 
-If you do the above, the new PR will encompass commits for both step 2 and 4, so it will look like a new token addition, and will collide with the existing one.  You MUST rebase your local checkout back to `origin/main` before opening a PR.  (You can do this with `git fetch origin main` followed by `git rebase main`.)
+If you do the above, the new PR will encompass commits for both step 2 and 4, so it will look like a new token addition, and will collide with the existing one.  You MUST rebase your local checkout back to `origin/main` before opening a PR.  You can do this with:
+```
+git remote add pub-origin git@github.com:solana-labs/token-list.git
+git fetch pub-origin main 
+git rebase pub-origin/main
+git push origin main -f
+```
 
 More generally, for modifications to existing tokens, be sure to checkout the `HEAD` of the `main` branch, locate the existing block in `solana.tokenlist.json`, and modify the appropriate fields.
 
@@ -149,6 +156,15 @@ Please especially do not raise issues saying 'solscan has updated but phantom ha
 This automerge error arises if you touched a line outside of your token block.  Some text editors introduce a diff to the final line of the file.
 
 These currently need to be manually merged; please submit an issue and link your PR.
+
+
+## Warning about the last element in the list
+Please do not add your token as the final element to the list (second-to-last is best).
+This is because when the token is the final element, the closing brace won't be followed by a comma, which creates a specialcase which will create a merge conflict if the commit doesn't get automerged.  This prevents the maintainers from manually merging your change in the event that it needs to be automerged.
+
+If the maintainers link you to this comment, it means you need to move your block in order for them to merge it.
+
+Addressing this more seamlessly is an open item; bear with us for now.
 
 
 # Disclaimer
