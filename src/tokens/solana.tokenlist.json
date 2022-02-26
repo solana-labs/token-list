@@ -12058,13 +12058,13 @@
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8s9FCz99Wcr3dHpiauFRi6bLXzshXfcGTfgQE7UEopVx/logo.svg",
       "extensions": {
-        "twitter": "https://twitter.com/ChikinDev",
         "discord": "https://discord.gg/rsQQsAcAn7",
         "facebook": "https://www.facebook.com/Chikin-114453524487432",
         "github": "https://github.com/ChikinDeveloper",
         "instagram": "https://www.instagram.com/chikintuttut",
         "telegram": "https://t.me/+BG1HI84WGdwyMmU0",
         "tiktok": "https://www.tiktok.com/@chikintuttut",
+        "twitter": "https://twitter.com/ChikinDev",
         "website": "https://chikin.run"
       }
     },
@@ -33819,6 +33819,7 @@
         "community-token"
       ],
       "extensions": {
+        "coingeckoId": "shibana",
         "discord": "https://discord.com/invite/X8tKR52E32",
         "twitter": "https://twitter.com/ShibanaCoin",
         "website": "https://www.shibana.io/"
@@ -93883,7 +93884,7 @@
         "blog": "https://blog.myquantex.com",
         "description": "QTX is the native exchange token on the Quantex (formerly Cryptiswap), which is a global crypto exchange featuring an instant swap platform \u0026 an advanced trading platform. Customers choose between taking custody of their own funds on the non-custodial swap platform, or allow us to take custody on the trading platform.",
         "reddit": "https://www.reddit.com/user/CryptiSwap",
-        "twitter": "https://twitter.com/cryptiswap",
+        "twitter": "https://twitter.com/Quantex_Global",
         "website": "https://myquantex.com",
         "whitepaper": "https://1drv.ms/w/s!Al2HWrZhIdn3hL0AW2D-LkLo4X9-eA?e=NKN7CT"
       }
@@ -101304,7 +101305,7 @@
       "symbol": "ODSY",
       "name": "Odyssey Coin",
       "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/soutrikdeylive/odyssey_logo/main/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/soutrikdeylive/odyssey_logo_solchain/main/new_logo.png",
       "tags": [
         "utility-token"
       ]
@@ -106389,8 +106390,8 @@
     {
       "chainId": 101,
       "address": "StiMWryqUXqFfQUBX51bbxhMJqS9RqJqsAvrsuh2aYi",
-      "symbol": "STIMMY",
-      "name": "STIMMY",
+      "symbol": "SER",
+      "name": "SER",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/StiMWryqUXqFfQUBX51bbxhMJqS9RqJqsAvrsuh2aYi/logo.png",
       "tags": [
@@ -118665,7 +118666,7 @@
     {
       "chainId": 101,
       "address": "7Pe63gqDvC62U5YiLnL92zDkcQwFb2Gn51WYmKfrc3eY",
-      "symbol": "LlamaCoin",
+      "symbol": "LLAMA",
       "name": "LlamaCoin",
       "decimals": 10,
       "logoURI": "https://solgats.io/wp-content/uploads/2022/02/llamacoin.png",
@@ -118895,7 +118896,7 @@
     {
       "chainId": 101,
       "address": "dR9WzcdHTXrW57eM9kkVmkP7CpZGmTQq834JyTRxGjw",
-      "symbol": "MooseCoin",
+      "symbol": "MOOSE",
       "name": "MooseCoin",
       "decimals": 10,
       "logoURI": "https://solgats.io/wp-content/uploads/2022/02/moosecoin.png",
@@ -119408,6 +119409,24 @@
     },
     {
       "chainId": 101,
+      "address": "9rfJFmAa3eynZ6mNMaPmTks2JDSQ3YCnCg3Y2LokWegJ",
+      "symbol": "$MARS",
+      "name": "MARS Coin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9rfJFmAa3eynZ6mNMaPmTks2JDSQ3YCnCg3Y2LokWegJ/logo.png",
+      "tags": [
+        "currency",
+        "game-token",
+        "social-token",
+        "community-token"
+      ],
+      "extensions": {
+        "discord": "https://discord.com/channels/932827372464513085/943416696964780132",
+        "website": "https://www.martianarmy.space"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "FUHqX4aEQCofiHFcLoscQ9Y16zuB9mLuqMTwzLGWZbin",
       "symbol": "f3k",
       "name": "f3token",
@@ -119681,6 +119700,33 @@
       "extensions": {
         "twitter": "https://twitter.com/MonkeCrew"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "3FzFyEk3NRvA2EKtSW2FSrGp67R8cnDoEWTZQ36AiUxE",
+      "symbol": "DPC",
+      "name": "Dozy Panda Club",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3FzFyEk3NRvA2EKtSW2FSrGp67R8cnDoEWTZQ36AiUxE/logo.png",
+      "tags": [
+        "game-token",
+        "staking",
+        "gamble"
+      ],
+      "extensions": {
+        "description": "A Unique Collection Of 3333 Dozy Pandas Sleeping On The Solana Blockchain.",
+        "discord": "https://discord.gg/Q22K998ra9",
+        "twitter": "https://twitter.com/DozyPandaClub",
+        "website": "http://dozypandaclub.com/"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "TokeZFFFFmeWFEEGiXy9DYszxKz5yYT2WqBSc4uVrge",
+      "symbol": "MTSPL",
+      "name": "My Test SPL Token",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/mean-training/spl_token/main/images-1.png"
     }
   ],
   "version": {
