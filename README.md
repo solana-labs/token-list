@@ -125,7 +125,11 @@ Any modifications must be manually merged; please submit an issue with a link to
 ## Duplicate token
 "duplicate token: token address `...` is already used"
 
-This occurs because your diff is re-adding a completely new block for a token that was already previously added (probably by you).  A common sequence of events that leads to this error is:
+This occurs because the diff in your PR is re-adding a completely new block for a token that was already previously added (probably by you).  This usually happens because your PR includes the commits to add the original token (which were previously merged).  You can verify this by checking the 'commits' tab of the PR.
+
+A PR is a request relative to the current state of the repo; you cannot resubmit commits that already were added!
+
+A common sequence of events that leads to this error is:
 1. you checked out the repo
 2. you added a token, committed, pushed back to github, and opened a PR
 3. the PR was merged back to main
