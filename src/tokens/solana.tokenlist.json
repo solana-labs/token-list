@@ -119187,26 +119187,44 @@
         "website": "https://soljuggernauts.000webhostapp.com/"
       }
     },
-  {
+    {
+      "chainId": 101,
+      "address": "5MqqCDLDf1EoBE5KRhQDRTP6XZyn9ToVeuZ2RzDemJCk",
+      "symbol": "RBWC",
+      "name": "Reborn Baby Wukong Coin",
+      "decimals": 6,
+      "logoURI": "https://github.com/gilffinder/RBW-Coin/blob/main/coin%20pic.png?raw=true",
+      "tags": [
+        "NFT-token",
+        "Farming-token",
+        "staking"
+      ],
+      "extensions": {
+        "description": " Reborn Wukongs Taking Over the Solana Chain",
+        "discord": "https://discord.gg/uYM3Hzz4Gd",
+        "twitter": "https://twitter.com/rebornbabykongz",
+        "website": "https://www.rebornbabywukongs.io/"
+      }
+      },
+    {
       "chainId": 101,
       "address": "G2uWAcSQJRJigA81e7hx9zoMrN4YryEJg7JHJdxuG6sr",
       "symbol": "MTZ",
-      "name": "METACRAZE",
+      "name": "Metacraze",
       "decimals": 4,
       "logoURI": "https://raw.githubusercontent.com/metacraze/assets/main/inverse.png",
       "tags": [
         "Metaverse-token",
-        "Community-token",
-        "Wealth-generator-token",
-        "Voting-token"
+        "staking-token",
+        "voting-token"
       ],
       "extensions": {
-        "description": "Metacraze is a multiverse token for talent contests, wealth generation and voting in our apps with blockchain validation",
+        "description": "Metaverse talent contests and wealth generation with blockchain validation",
+        "twitter": "https://twitter.com/Metacraze_io",
         "telegram": "https://t.me/Metacraze_Official",
-        "website": "https://metacraze.io",
-        "twitter": "https://twitter.com/Metacraze_io"
+        "website": "https://metacraze.io/"
       }
-    },
+    }
   ],
   "version": {
     "major": 0,
