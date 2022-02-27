@@ -125,13 +125,16 @@ Any modifications must be manually merged; please submit an issue with a link to
 ## Duplicate token
 "duplicate token: token address `...` is already used"
 
-This occurs because your diff is re-adding a completely new block for a token that was already previously added (probably by you).  A common sequence of events that leads to this error is:
-1. you checked out the repo
-2. you added a token, committed, pushed back to github, and opened a PR
-3. the PR was merged back to main
-4. sometime later, you decided to modify something on the token (e.g. name), so you made the change, made another commit, pushed to github, and opened another PR.
+This occurs because the diff in your PR is re-adding a completely new block for a token that was already previously added.
 
-If you do the above, the new PR will encompass commits for both step 2 and 4, so it will look like a new token addition, and will collide with the existing one.  You MUST rebase your local checkout back to `origin/main` before opening a PR.  You can do this with:
+This usually happens because your PR is intended to update an existing token, but it still includes the commits to add the original token (which were previously merged).  You can verify this by checking the 'commits' tab of the PR.  If you see the original commit in there, that's bad!  The PR should be relative to the current `HEAD` of `main`.
+
+To fix this, you can either:
+
+1. checkout the latest `HEAD` of `main` and then re-apply your change (simpler for git newbies but incurring a bit of duplicate work), or 
+2. rebase your local checkout back to `origin/main` before opening a PR.  
+
+For option (2), you can do this with:
 ```
 git remote add pub-origin git@github.com:solana-labs/token-list.git
 git fetch pub-origin main 
@@ -141,7 +144,7 @@ git push origin main -f
 
 More generally, for modifications to existing tokens, be sure to checkout the `HEAD` of the `main` branch, locate the existing block in `solana.tokenlist.json`, and modify the appropriate fields.
 
-Please check the 'Files changed' tab on your PR to see the impact of your change.
+Always check the 'Files changed' tab on your PR to see the impact of your change.
 
 
 ## Scanner/wallet hasn't updated yet
