@@ -50174,10 +50174,14 @@
       "symbol": "GBYQ",
       "name": "GoobyQuest",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/theNetworkChuck/crypto/main/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/GoobyFRS/GoobyQuest-SolCoin/main/logo.png",
       "tags": [
         "social-token"
-      ]
+      ],
+      "extensions": {
+        "description": "GoobyQuest - Matts Mini-Crypto Project",
+        "website": "https://mattfaulkner.net/"
+      }
     },
     {
       "chainId": 101,
@@ -119631,8 +119635,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2RXSV7qPvPoPz7djG5fTT7teb61EJ1VRiC6ysHWm8F6c/logo.png",
       "tags": [
-        "utility-token",
-        "nft"
+        "utility-token"
       ],
       "extensions": {
         "twitter": "https://twitter.com/TheMetanoids"
@@ -119646,8 +119649,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3nH3vsMyAWPxwRdbwT2tcmXGiYm6eYGf1Mi8bTXGt8CF/logo.png",
       "tags": [
-        "utility-token",
-        "nft"
+        "utility-token"
       ],
       "extensions": {
         "twitter": "https://twitter.com/ProjectAkira_"
@@ -119661,8 +119663,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4bgRUBC4gPoTs38TytDwujhcdn7reRoKynecvK7fJ5VW/logo.png",
       "tags": [
-        "utility-token",
-        "nft"
+        "utility-token"
       ],
       "extensions": {
         "twitter": "https://twitter.com/RCollectorsClub"
@@ -119676,8 +119677,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Exz2u9EhSXzGDef4v8bfXVjcUbsFm4kMKoXxn58fDUSa/logo.png",
       "tags": [
-        "utility-token",
-        "nft"
+        "utility-token"
       ],
       "extensions": {
         "twitter": "https://twitter.com/MonkeCrew"
@@ -119818,6 +119818,22 @@
       "extensions": {
         "twitter": "https://twitter.com/WezeshaCoin",
         "website": "https://www.wezesha.co"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "8w2PWW9XddU28eqAS3ig9E7m8hqWWGKELhUqqyJSUugz",
+      "symbol": "WIFE",
+      "name": "NFT Wives WL",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8w2PWW9XddU28eqAS3ig9E7m8hqWWGKELhUqqyJSUugz/logo.png",
+      "tags": [
+        "utility-token",
+        "community-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/thenftwives",
+        "website": "https://www.thenftwives.com"
       }
     },
     {
@@ -120126,6 +120142,111 @@
       "tags": [
         "social-token",
         "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "G2WKCVbT9oEZN3yQgeTfUz4CVe5zQDWQaEtckFnxnB4r",
+      "symbol": "KAP",
+      "name": "Kawaii Animals Pass",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G2WKCVbT9oEZN3yQgeTfUz4CVe5zQDWQaEtckFnxnB4r/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "EHinbFyVA4VckqJ54wxFXHWLxCCYCKxy62oVtRDTCoRD",
+      "symbol": "$SKULL",
+      "name": "Skull Invasion",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EHinbFyVA4VckqJ54wxFXHWLxCCYCKxy62oVtRDTCoRD/logo.png",
+      "tags": [
+        "utility-token",
+        "community-token"
+      ],
+      "extensions": {
+        "description": "$SKULL is the whitelist community token for the Skull Invasion NFT collection.",
+        "discord": "https://discord.gg/UxX7FFV577",
+        "twitter": "https://twitter.com/Skullinvasionn",
+        "website": "https://www.skullinvasionnft.com"
+      }
+    },
+    {
+      "chainId": 103,
+      "address": "Cjx3nM3AzhECVCkaGPp5GXcEG4JQiGaNR9iYWxTuyFp5",
+      "symbol": "PURR",
+      "name": "PURR Coin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Edli-AW422/aw-solana-token/main/aw-logo.png"
+    },
+    {
+      "chainId": 103,
+      "address": "ByEWiEXkwMXzHTT5FkuWzcHY3MzkYT814jFxxN1QLh3g",
+      "symbol": "UREP",
+      "name": "UNIVERS REPUBLIK",
+      "decimals": 9,
+      "logoURI": "https://github.dev/POPE001/token-list/blob/a59c01f6fdf9ef7a4b9603f72e8d811a0ee8a830/assets/mainnet/ByEWiEXkwMXzHTT5FkuWzcHY3MzkYT814jFxxN1QLh3g/unilever.jpg",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "83Mme81p8fbNGaiRmNJMTx9wn5o6RezHq5ztvN1pYpdf",
+      "symbol": "DOME",
+      "name": "DOME",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/83Mme81p8fbNGaiRmNJMTx9wn5o6RezHq5ztvN1pYpdf/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "3onFNex9u7DdhLoeYVskfamBBdLWRJkwy1RaP4VjwfQQ",
+      "symbol": "RBT",
+      "name": "ROYAL EBANK TOKEN",
+      "decimals": 4,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3onFNex9u7DdhLoeYVskfamBBdLWRJkwy1RaP4VjwfQQ/logo.png",
+      "tags": [
+        "social-token",
+        "utility-token",
+        "community-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "FGtc75KTsueEXeRKRaQXPqUybH6zhszn3cth8PkTFxr5",
+      "symbol": "LMY",
+      "name": "LilMissy",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/lokie861/LYM_logo/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "9t6F4UJXr9B4xzoSmgC9LwYHb87maYeM58PsoXgNjyVW",
+      "symbol": "SMBC",
+      "name": "SambuCoin",
+      "decimals": 0,
+      "logoURI": "https://github.com/alexserra/crypto/blob/main/logo.png",
+      "tags": [
+        "social-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "AqMikDiApiwrHEwusrqaWZ1uBH182WUXsHwp4CS1UMaD",
+      "symbol": "YOAD",
+      "name": "YOADcoin",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/yoadib/crypto/main/%D7%9E%D7%99%D7%96%D7%9D%20%D7%97%D7%93%D7%A9%20(1).jpg",
+      "tags": [
+        "social-token"
       ]
     }
   ],
