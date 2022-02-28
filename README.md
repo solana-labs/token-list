@@ -156,9 +156,15 @@ Please especially do not raise issues saying 'solscan has updated but phantom ha
 
 
 ## error validating schema: chainId: conflicting values 103 and 0
-This automerge error arises if you touched a line outside of your token block.  Some text editors introduce a diff to the final line of the file.
+This automerge error arises if you touched a line outside of your token block.  Some text editors introduce a diff to the final line of the file.  You can see this by looking at the "Files changed" tab of your PR.
 
-These currently need to be manually merged; please submit an issue and link your PR.
+If using vim, you can probably address this by adding
+```
+set nofixendofline
+```
+to `~/.vimrc`
+
+If you don't address this yourself, the PR will need to be manually merged; please submit an issue and link your PR.
 
 
 ## Warning about the last element in the list
