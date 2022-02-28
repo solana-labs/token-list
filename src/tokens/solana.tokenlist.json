@@ -119215,6 +119215,22 @@
       "logoURI": "https://github.com/CryptoPique/token-list/tree/main/assets/mainnet/WLTdgwdNi91RGojhM6Wk5rXNKsVgLA5cZbgL7XGTETX/logowhite.png"
     },
     {
+        "chainId": 101,
+        "address": "6Nej2Nvgvfjm8uRtsJgQe4UeA1ycoSn6dDLruSKxNrz8",
+        "symbol": "SNORT",
+        "name": "Snortcoin",
+        "decimals": 4,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6Nej2Nvgvfjm8uRtsJgQe4UeA1ycoSn6dDLruSKxNrz8/SNORTcoin.png",
+        "tags": [
+          "social-token",
+          "share-with-a-friend",
+        ],
+        "extensions": {
+        	"description": "Share a SNORT with a friend",
+          "website": "https://snort.zedazi.com"
+        }
+    },
+    {
       "chainId": 101,
       "address": "HhXYhtFqfjxe5iBuBQ3RedmmAbgFrjW2DBzPak14ejQq",
       "symbol": "KAMP",
@@ -119226,25 +119242,9 @@
       ]
     }
   ],
-  {
-    "chainId": 101,
-    "address": "6Nej2Nvgvfjm8uRtsJgQe4UeA1ycoSn6dDLruSKxNrz8",
-    "symbol": "SNORT",
-    "name": "Snortcoin",
-    "decimals": 4,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6Nej2Nvgvfjm8uRtsJgQe4UeA1ycoSn6dDLruSKxNrz8/SNORTcoin.png",
-    "tags": [
-      "social-token",
-      "share-with-a-friend",
-    ],
-    "extensions": {
-    	"description": "Share a SNORT with a friend",
-      "website": "https://snort.zedazi.com"
-    }
-  },
   "version": {
     "major": 0,
     "minor": 3,
     "patch": 3
   }
-}
+} 
