@@ -121826,6 +121826,297 @@
       ]
     },
     {
+      "symbol": "stSOL-mSOL",
+      "name": "Saber stSOL-mSOL LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4FKZsej5FonJWj24xhgG13wV4FSMQqTDwABBQaoQNMZF/icon.png",
+      "decimals": 9,
+      "address": "4FKZsej5FonJWj24xhgG13wV4FSMQqTDwABBQaoQNMZF",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/stsol_msol"
+      }
+    },
+    {
+      "symbol": "atUST-CASH",
+      "name": "Saber atUST-CASH LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ALPBPdBQf8ibRm3PRCycDC8bdFZQhFgjUwZMtnxA3rAA/icon.png",
+      "decimals": 6,
+      "address": "ALPBPdBQf8ibRm3PRCycDC8bdFZQhFgjUwZMtnxA3rAA",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-cashio"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/atust_cash"
+      }
+    },
+    {
+      "symbol": "eSOL-SOL",
+      "name": "Saber eSOL-SOL LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ESoLEkfqBkqti137xAmnEHXB4omZpGXUdSPpfBWe9sau/icon.png",
+      "decimals": 9,
+      "address": "ESoLEkfqBkqti137xAmnEHXB4omZpGXUdSPpfBWe9sau",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/everstake_sol"
+      }
+    },
+    {
+      "symbol": "scnSOL-mSOL",
+      "name": "Saber scnSOL-mSOL LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FP9C3p1r19tVyUDLgN98wcu4Rdzsu5hAcqFwY3MzbLpE/icon.png",
+      "decimals": 9,
+      "address": "FP9C3p1r19tVyUDLgN98wcu4Rdzsu5hAcqFwY3MzbLpE",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/scn_msol"
+      }
+    },
+    {
+      "name": "Saber Wrapped Wrapped FTT (Sollet) (8 decimals)",
+      "address": "FTT8cGNp3rfTC6c44uPTuEFLqmsVDhjd2BhH65v2uppr",
+      "decimals": 8,
+      "symbol": "ssoFTT-8",
+      "chainId": 101,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FTT8cGNp3rfTC6c44uPTuEFLqmsVDhjd2BhH65v2uppr/icon.png",
+      "tags": [
+        "wrapped-sollet",
+        "ethereum",
+        "saber-mkt-ftt",
+        "saber-dec-wrapped"
+      ],
+      "extensions": {
+        "bridgeContract": "https://etherscan.io/address/0xeae57ce9cc1984f202e15e038b964bb8bdf7229a",
+        "coingeckoId": "ftx-token",
+        "serumV3Usdc": "2Pbh1CvRVku1TgewMfycemghf6sU9EyuFDcNXqvRmSxc",
+        "serumV3Usdt": "Hr3wzG8mZXNHV7TuL6YqtgfVUesCqMxGYCEyP3otywZE",
+        "waterfallbot": "https://bit.ly/FTTwaterfall",
+        "website": "https://app.saber.so"
+      }
+    },
+    {
+      "symbol": "USDH-USDC",
+      "name": "Saber USDH-USDC LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HUBBGekfLpdZhZcqjLeecLVz39o1ysDkicZpgMgZgPFS/icon.png",
+      "decimals": 6,
+      "address": "HUBBGekfLpdZhZcqjLeecLVz39o1ysDkicZpgMgZgPFS",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/usdh"
+      }
+    },
+    {
+      "symbol": "USDH-CASH",
+      "name": "Saber USDH-CASH LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HUBBMrYrYpxkPbBbULdsvSrcoa6Qv526AGuosrhF8V59/icon.png",
+      "decimals": 6,
+      "address": "HUBBMrYrYpxkPbBbULdsvSrcoa6Qv526AGuosrhF8V59",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-cashio"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/usdh_cash"
+      }
+    },
+    {
+      "symbol": "atLUNA-LUNA",
+      "name": "Saber atLUNA-LUNA LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/KWAMdUrCdQ2j1t9S1HD29Z4RxXymXkwSh2c94598amY/icon.png",
+      "decimals": 9,
+      "address": "KWAMdUrCdQ2j1t9S1HD29Z4RxXymXkwSh2c94598amY",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-allbridge",
+        "saber-lp-wormhole-v2"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/atust_wust"
+      }
+    },
+    {
+      "name": "Saber Wrapped LUNA (Wormhole) (9 decimals)",
+      "address": "LUNGEjUXyP48nrC1GYY5o4eTAkwm4RdX8BxFUxWJBLB",
+      "decimals": 9,
+      "symbol": "sLUNA-9",
+      "chainId": 101,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/LUNGEjUXyP48nrC1GYY5o4eTAkwm4RdX8BxFUxWJBLB/icon.png",
+      "tags": [
+        "wrapped",
+        "wormhole",
+        "saber-mkt-luna",
+        "wormhole-v2",
+        "saber-dec-wrapped"
+      ],
+      "extensions": {
+        "address": "uluna",
+        "bridgeContract": "https://finder.terra.money/columbus-5/address/terra10nmmwe8r3g99a9newtqa7a75xfgs2e8z87r2sf",
+        "coingeckoId": "terra-luna",
+        "serumV3Usdc": "HBTu8hNaoT3VyiSSzJYa8jwt9sDGKtJviSwFa11iXdmE",
+        "website": "https://app.saber.so"
+      }
+    },
+    {
+      "symbol": "xLUNA-LUNA",
+      "name": "Saber xLUNA-LUNA LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/LUNbjQA8GAwotiHPiq9cmdVkEfYgZFGhBFnHhicjZtP/icon.png",
+      "decimals": 6,
+      "address": "LUNbjQA8GAwotiHPiq9cmdVkEfYgZFGhBFnHhicjZtP",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-synthetify"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/xluna"
+      }
+    },
+    {
+      "symbol": "cSOL-cmSOL",
+      "name": "Saber cSOL-cmSOL LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SSoxcNry3qU1wN5Vj6zMJKTSqJPyPLks5KNfCJCmUPa/icon.png",
+      "decimals": 9,
+      "address": "SSoxcNry3qU1wN5Vj6zMJKTSqJPyPLks5KNfCJCmUPa",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-solend"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/solend_sol_msol"
+      }
+    },
+    {
+      "symbol": "cUSDC-cUSDT",
+      "name": "Saber cUSDC-cUSDT LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SUSeGZEV69Xy7rQfhDffyTysHgEP3nJUDMxEZJSvJr1/icon.png",
+      "decimals": 6,
+      "address": "SUSeGZEV69Xy7rQfhDffyTysHgEP3nJUDMxEZJSvJr1",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-solend"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/solend_usdc_usdt"
+      }
+    },
+    {
+      "symbol": "mSOL-JSOL",
+      "name": "Saber mSOL-JSOL LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SoLWs9Av7ss1jHXqVLDVCBiDaAYuT4o5uRNMMuBFhB9/icon.png",
+      "decimals": 9,
+      "address": "SoLWs9Av7ss1jHXqVLDVCBiDaAYuT4o5uRNMMuBFhB9",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/msol_jsol"
+      }
+    },
+    {
+      "symbol": "scnSOL-JSOL",
+      "name": "Saber scnSOL-JSOL LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SoLaUA1vvCaidtQLYwt4yszBv1LtbYJDjEbwC4bzxca/icon.png",
+      "decimals": 9,
+      "address": "SoLaUA1vvCaidtQLYwt4yszBv1LtbYJDjEbwC4bzxca",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/scn_jsol"
+      }
+    },
+    {
+      "symbol": "solUST-UST",
+      "name": "Saber solUST-UST LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/USTKgR66nvdkCc4bUKsirzEnyFoPtRyZzT2xsqB5t7c/icon.png",
+      "decimals": 6,
+      "address": "USTKgR66nvdkCc4bUKsirzEnyFoPtRyZzT2xsqB5t7c",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/solust"
+      }
+    },
+    {
+      "symbol": "solUST-USDH",
+      "name": "Saber solUST-USDH LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/USTRHDiTkhjE1oDydHqNkPJNDeBKTTbz9crTmiYc2w9/icon.png",
+      "decimals": 6,
+      "address": "USTRHDiTkhjE1oDydHqNkPJNDeBKTTbz9crTmiYc2w9",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/solust_usdh"
+      }
+    },
+    {
+      "symbol": "UXD-USDC",
+      "name": "Saber UXD-USDC LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/UXDgmqLd1roNYkC4TmJzok61qcM9oKs5foDADiFoCiJ/icon.png",
+      "decimals": 6,
+      "address": "UXDgmqLd1roNYkC4TmJzok61qcM9oKs5foDADiFoCiJ",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/uxd"
+      }
+    },
+    {
+      "symbol": "UXD-CASH",
+      "name": "Saber UXD-CASH LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/UXDjCH2xGyyLWa92stSUDftWPKGFFPEvqvk28gQA8bW/icon.png",
+      "decimals": 6,
+      "address": "UXDjCH2xGyyLWa92stSUDftWPKGFFPEvqvk28gQA8bW",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-cashio"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/uxd_cash"
+      }
+    },
+    {
+      "symbol": "soFTT-FTT",
+      "name": "Saber soFTT-FTT LP",
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WLPmZgnajNcCzYv68gQDsix4NNjTxGTPmKRMtiXMuFg/icon.png",
+      "decimals": 8,
+      "address": "WLPmZgnajNcCzYv68gQDsix4NNjTxGTPmKRMtiXMuFg",
+      "chainId": 101,
+      "tags": [
+        "saber-stableswap-lp",
+        "saber-lp-wormhole-v2"
+      ],
+      "extensions": {
+        "website": "https://app.saber.so/#/pools/sollet_ftt"
+      }
+    },
+    {
       "chainId": 101,
       "address": "DarkRc495tLsH1ULeXtP2tShUG4iFMDw6dv55oG6AwjZ",
       "symbol": "DET",
