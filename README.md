@@ -125,9 +125,9 @@ Any modifications must be manually merged; please submit an issue with a link to
 ## Duplicate token
 "duplicate token: token address `...` is already used"
 
-This occurs because the diff in your PR is re-adding a completely new block for a token that was already previously added.
+This occurs because the diff in your PR is re-adding a completely new block for a token that was already previously added. (You can verify this by looking at the 'Files changed' tab of your PR.)
 
-This usually happens because your PR is intended to update an existing token, but it still includes the commits to add the original token (which were previously merged).  You can verify this by checking the 'commits' tab of the PR.  If you see the original commit in there, that's bad!  The PR should be relative to the current `HEAD` of `main`.
+This usually happens because your PR is intended to _update_ an existing token, but it still includes the commits that _added_ the original token (which were previously merged).  You can verify this by checking the 'commits' tab of the PR.  If you see the original commit in there, that's bad!  The PR should be relative to the current `HEAD` of `main`, i.e. your checkout should be [rebased](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 To fix this, you can either:
 
