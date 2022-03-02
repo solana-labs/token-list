@@ -122627,17 +122627,6 @@
     },
     {
       "chainId": 101,
-      "address": "FezCBjaR6ZRnwpYuZ8dL2h7kqPWXnwBHcBACzV2B8kRT",
-      "symbol": "BYTE",
-      "name": "Byte Buddies",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Kennyaldez/assets/main/assets/token%20logo.png",
-      "tags": [
-        "utility-token"
-      ]
-    },
-    {
-      "chainId": 101,
       "address": "wrBTCqVjkpqktbqN3CeGVSzQ9PFiPonHN98uwEpwMsy",
       "symbol": "wrBTC",
       "name": "Wrapped BTC (Player 2)",
@@ -122738,7 +122727,19 @@
       "extensions": {
         "twitter": "https://twitter.com/BohemiaArtFair"
       }
+    },
+    {
+      "chainId": 101,
+      "address": "GCqCS6YNe9L9Q4uP1hYQftwe4Lw3zUugC7co9hEqJBjB",
+      "symbol": "BYTE",
+      "name": "Byte Buddies",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/Kennyaldez/crypto/main/token%20logo.png",
+      "tags": [
+        "utility-token"
+      ]
     }
+
   ],
   "version": {
     "major": 0,
