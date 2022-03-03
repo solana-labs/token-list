@@ -86,7 +86,7 @@ Tips:
   * if your logo is hosted in any other repo or any other location, no need to add it here
 * `tags`
   * please don't go crazy here, note that the valid tags are in the toplevel `tags` section and any other tags will likely have no effect
-* `extensions: 
+* `extensions`: 
   * the `extensions` block can contain links to your twitter, discord, etc.  A list of allowed extensions is [here](automerge/schema.cue#L105).
   * `serumV3Usdc` and `serumV3Usdt` are the addresses of serum markets for your token (either paired with USDC or USDT)
   * `coingeckoId` is the string that appears as 'API id' on the corresponding coingecko page
