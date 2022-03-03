@@ -116,6 +116,7 @@ import (
 	discord?: #URL
 	medium?: #URL
 	instagram?: #URL
+	tiktok?: #URL
 	reddit?: #URL
 	coinmarketcap?: #URL
 	facebook?: #URL
