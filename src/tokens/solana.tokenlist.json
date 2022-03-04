@@ -124549,13 +124549,16 @@
     {
       "chainId": 101,
       "address": "2L6xk4AZLLGPQHwMnEmKCk7UP1QnAAy1JiFZnYW5PDrB",
-      "symbol": "OSOL",
-      "name": "Off Grid Solar",
+      "symbol": "OGSOL",
+      "name": "Off Grid Solar Coin",
       "decimals": 0,
-      "logoURI": "https://github.com/morwic/solarcoin/blob/main/SolarCoin-Logo.png",
+      "logoURI": "https://raw.githubusercontent.com/morwic/solarcoin/6c758de71aa851f172ef4fcdcb96829662557311/SolarCoin-Logo.png",
       "tags": [
         "social-token"
-      ]
+      ],
+      "extensions":{
+        "discord": "https://discord.gg/cc5vmGeN5V"
+      }
     }
   ],
   "version": {
