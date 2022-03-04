@@ -107793,10 +107793,16 @@
       "symbol": "TRBE",
       "name": "Tribe Token",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/TribeLeaderNFT/TribeTokenImage/main/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/TribeLeaderNFT/TribeTokenImage/main/%24TRIBE3.png",
       "tags": [
-        "social-token"
-      ]
+        "utility-token"
+      ],
+      "extensions":{
+        "description" : "Currency of the Tribe Foundation",
+        "twitter" : "https://twitter.com/TribeToken",
+        "website" : "https://whitepaper.tribefoundation.xyz",
+        "discord" : "https://discord.gg/JP9wVCJE7a"
+      }
     }
   ],
   "version": {
