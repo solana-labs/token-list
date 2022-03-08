@@ -125544,6 +125544,25 @@
     },
     {
       "chainId": 101,
+      "address": "DKHzgFWPRoGqzsbnk6bmaVw8t32tujJsqCMiMJ5PpmR4",
+      "symbol": "AVAG",
+      "name": "Avago",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/tecfay/token/main/avago.png",
+      "tags": [
+        "Metaverse",
+		    "Play to earn",
+        "Community",
+	    	"Finance",
+        "NTF"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/avagoficial"
+      }
+    },
+
+    {
+      "chainId": 101,
       "address": "C6drMh42qtqW8at6HmyXM6p45GrRNgMCYpWTFoxx5BEC",
       "symbol": "BTH",
       "name": "Beyond The Harmony",
@@ -125553,7 +125572,9 @@
         "social-token"
       ]
     }
+
   ],
+
   "version": {
     "major": 0,
     "minor": 3,
