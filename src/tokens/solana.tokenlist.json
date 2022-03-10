@@ -128930,6 +128930,21 @@
     },
     {
       "chainId": 101,
+      "address": "SUga2NsMBxwPDJd8ccjUw98LTCgTVkLNNBoRppm9DKE",
+      "symbol": "SUG",
+      "name": "Sugar Realm NFT WL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SUga2NsMBxwPDJd8ccjUw98LTCgTVkLNNBoRppm9DKE/logo.png",
+      "tags": [
+        "whitelist-token"
+      ],
+      "extensions": {
+        "twitter": "https://twitter.com/SugarRealmNFT",
+        "website": "https://sugarrealm.io/"
+      }
+    },
+    {
+      "chainId": 101,
       "address": "ECPAzxsa4VBALQ4kh4i9mtUdRTBRhGwrzu7Y2YqwZjsi",
       "symbol": "BZT",
       "name": "Electons Coin",
@@ -128944,11 +128959,10 @@
         "twitter": "https://twitter.com/Electons_",
         "website": "https://electons.io/"
       }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 3,
+      "patch": 3
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
   }
-}
