@@ -885,6 +885,7 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dihi9zPutTATSsYGZdtsq35ECaf4minQ1ZxxsoegCtT1/logo.png",
       "extensions": {
+        "serumV3Usdc": "DYfigimKWc5VhavR4moPBibx9sMcWYVSjVdWvPztBPTa",
         "twitter": "https://twitter.com/miojounft",
         "website": "https://www.miojou.io/"
       }
@@ -11528,10 +11529,22 @@
     {
       "chainId": 101,
       "address": "EQTyTPidQAoGJBRYS4mLpS8ej5sZrdt5TziRgwDkoVXX",
-      "symbol": "USDT",
+      "symbol": "USD-T",
       "name": "USD stablecoin",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EQTyTPidQAoGJBRYS4mLpS8ej5sZrdt5TziRgwDkoVXX/logo.png"
+    },
+    {
+      "chainId": 101,
+      "address": "Dihi9zPutTATSsYGZdtsq35ECaf4minQ1ZxxsoegCtT1",
+      "symbol": "Rbit",
+      "name": "Rbit",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dihi9zPutTATSsYGZdtsq35ECaf4minQ1ZxxsoegCtT1/logo.png",
+      "extensions": {
+        "twitter": "https://twitter.com/miojounft",
+        "website": "https://www.miojou.io/"
+      }
     },
     {
       "chainId": 101,
