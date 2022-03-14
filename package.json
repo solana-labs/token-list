@@ -8,6 +8,12 @@
   "repository": "https://github.com/solana-labs/token-list",
   "license": "Apache",
   "keywords": [],
+	"browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
   "scripts": {
     "prepublish": "run-s build:*",
     "build": "run-p build:*",
