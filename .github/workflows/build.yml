@@ -11,15 +11,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - uses: actions/setup-go@v2
-        with:
-          go-version: '^1.17.3'
-
       - run: yarn
       - run: yarn test
-      - run: go install cuelang.org/go/cmd/cue@v0.4.0
-      - run: PATH=$PATH:~/go/bin ./validate.sh
-
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
@@ -27,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ['javascript']
+        language: [ 'javascript' ]
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python' ]
         # Learn more:
         # https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/configuring-code-scanning#changing-the-languages-that-are-analyzed
@@ -64,3 +57,13 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+  mergepal-merge: # run merge pal in the end
+    runs-on: ubuntu-latest
+    needs:
+      - build
+      - analyze
+    steps:
+      - uses: actions/checkout@v1
+      - uses: maxkomarychev/merge-pal-action@v0.5.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
