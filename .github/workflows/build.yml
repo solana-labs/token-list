@@ -3,6 +3,7 @@ name: Build
 on:
   pull_request:
   workflow_dispatch:
+on:  
   push:
     branches: [ main ]
   pull_request:
@@ -10,6 +11,7 @@ on:
     branches: [ main ]
   schedule:
     - cron: '33 9 * * 4'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,6 +28,7 @@ jobs:
       - run: yarn test
       - run: go install cuelang.org/go/cmd/cue@v0.4.0
       - run: PATH=$PATH:~/go/bin ./validate.sh
+
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
