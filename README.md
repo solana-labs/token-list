@@ -25,7 +25,7 @@
 Solana Token Registry is a package that allows application to query for list of tokens.
 The JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.
 
-## Installation (make sure you have at least 2GB RAM on your server to avoid; error: could not compile libsecp256k1)
+## Installation
 
 ```bash
 npm install @solana/spl-token-registry
