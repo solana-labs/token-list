@@ -33,6 +33,6 @@ jobs:
       - run: yarn run version --patch
       - run: git push --follow-tags origin main
       - run: yarn run purge:cdn
-      - run: yarn publish
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
