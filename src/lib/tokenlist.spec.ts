@@ -73,7 +73,6 @@ test('Token list does not have duplicate entries', async (t) => {
       if (agg.has(item.address)) {
         console.log(item.address);
       }
-
       t.false(agg.has(item.address));
       agg.set(item.address, item);
       return agg;
