@@ -116,6 +116,7 @@ import (
 	discord?: #URL
 	medium?: #URL
 	instagram?: #URL
+	tiktok?: #URL
 	reddit?: #URL
 	coinmarketcap?: #URL
 	facebook?: #URL
@@ -142,7 +143,7 @@ import (
 
 	// The checksummed address of the token on the specified chain ID
 	// INCOMPATIBLE: base58
-	address: #Base58Address
+	address: #Base58Address & != "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
 
 	// The number of decimals for the token balance
 	decimals: int & >=0 & <=255
@@ -175,7 +176,7 @@ import (
 	version:   #Version
 
 	// The list of tokens included in the list
-	tokens: list.MaxItems(10000) & [...#TokenInfo] & [_, ...]
+	tokens: list.MaxItems(20000) & [...#TokenInfo] & [_, ...]
 
 	// Keywords associated with the contents of the list; may be used
 	// in list discoverability.
