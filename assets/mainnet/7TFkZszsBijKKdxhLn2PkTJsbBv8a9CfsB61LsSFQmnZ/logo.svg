@@ -1,39 +1,39 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-	<title>phork</title>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+	<title>Phork</title>
 	<defs>
-		<linearGradient id="phorkGradientComplete" gradientUnits="userSpaceOnUse"  x1="399.738" y1="32.595" x2="1" y2="367.177">
-			<stop offset="0" stop-color="#ff3232"  />
-			<stop offset="1" stop-color="#f41150"  />
+		<linearGradient id="phorkGradientComplete" x1="257.9" y1="58.3" x2="58.5" y2="225.6" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ff3232"/>
+			<stop offset="1" stop-color="#f41150"/>
 		</linearGradient>
-		<linearGradient id="phorkGradientBottom3" gradientUnits="userSpaceOnUse"  x1="76" y1="54.764" x2="399.738" y2="378.502">
-			<stop offset="0" stop-color="#ff3232"  />
-			<stop offset="1" stop-color="#ff6020"  />
+		<linearGradient id="phorkGradientBottom3" x1="96" y1="69.4" x2="257.9" y2="231.3" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ff3232"/>
+			<stop offset="1" stop-color="#ff6020"/>
 		</linearGradient>
-		<linearGradient id="phorkGradientBottom2" gradientUnits="userSpaceOnUse"  x1="142" y1="92.885" x2="399.738" y2="350.623">
-			<stop offset="0" stop-color="#ff8e0d"  />
-			<stop offset="0.74" stop-color="#fca60a"  />
+		<linearGradient id="phorkGradientBottom2" x1="129" y1="88.4" x2="257.9" y2="217.3" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ff8e0d"/>
+			<stop offset=".7" stop-color="#fca60a"/>
 		</linearGradient>
-		<linearGradient id="phorkGradientTop3" gradientUnits="userSpaceOnUse"  x1="1" y1="161.937" x2="366.295" y2="161.937">
-			<stop offset="0" stop-color="#ff8e0d"  />
-			<stop offset="1" stop-color="#ff6020"  />
+		<linearGradient id="phorkGradientTop3" x1="58.5" y1="123" x2="241.1" y2="123" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ff8e0d"/>
+			<stop offset="1" stop-color="#ff6020"/>
 		</linearGradient>
-		<linearGradient id="phorkGradientTop2" gradientUnits="userSpaceOnUse"  x1="310.843" y1="257" x2="45.617" y2="0.874">
-			<stop offset="0" stop-color="#ffffff"  />
-			<stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+		<linearGradient id="phorkGradientTop2" x1="213.4" y1="170.5" x2="80.8" y2="42.4" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
 		</linearGradient>
 	</defs>
 	<style>
-		.phorkComplete { fill: url(#phorkGradientComplete) } 
-		.phorkBottom3 { fill: url(#phorkGradientBottom3) } 
-		.phorkBottom2 { fill: url(#phorkGradientBottom2) } 
-		.phorkTop3 { opacity: 0.4; fill: url(#phorkGradientTop3) } 
-		.phorkTop2 { opacity: 0.10; fill: url(#phorkGradientTop2) } 
+		.phorkGradientComplete { fill: url(#phorkGradientComplete) } 
+		.phorkGradientBottom3 { fill: url(#phorkGradientBottom3) } 
+		.phorkGradientBottom2 { fill: url(#phorkGradientBottom2) } 
+		.phorkGradientTop3 { opacity: .4;fill: url(#phorkGradientTop3) } 
+		.phorkGradientTop2 { opacity: .1;fill: url(#phorkGradientTop2) } 
 	</style>
 	<g id="phorkLogo">
-		<path class="phorkComplete" d="M258.74 323.19C231.51 363.62 191.4 396.08 145.17 398.9L40.05 398.85C15.33 398.82 0.59 385.69 1.12 354.95L1 254.73C3.09 207.77 37.4 169.75 76.71 141.16L273 4.42C288.8 -6.58 306.2 10.42 291.2 22.42C256.57 50.13 122.33 172.04 122.33 172.04C110 183.7 125.33 198.37 137 187.37L307.2 38.42C322.2 26.42 339 43.62 325 56.55L168 216.7C155.67 229.7 170.67 244.04 183 231.7C197.01 217.69 343.99 73.86 344.17 73.68C357.17 61.33 374.63 78.62 361.83 92.02C361.83 92.02 214.5 260.15 214 260.7C201.67 274.37 216.67 290.37 228.33 277.37C228.33 277.37 377.64 108.06 377.83 107.85C390.33 93.85 407 111.02 396.33 125.04L258.74 323.19Z" />
-		<path class="phorkBottom3" d="M258.74 323.19C231.51 363.62 191.4 396.08 145.17 398.9L139.69 398.9C101.22 372.73 76 328.61 76 278.5C76 234.03 95.87 194.26 127.23 167.59C124.08 170.45 122.33 172.04 122.33 172.04C110 183.7 125.33 198.37 137 187.37L307.2 38.42C322.2 26.42 339 43.62 325 56.55L168 216.7C155.67 229.7 170.67 244.04 183 231.7C197.01 217.69 343.99 73.86 344.17 73.68C357.17 61.33 374.63 78.62 361.83 92.02C361.83 92.02 214.5 260.15 214 260.7C201.67 274.37 216.67 290.37 228.33 277.37C228.33 277.37 377.64 108.06 377.83 107.85C390.33 93.85 407 111.02 396.33 125.04L258.74 323.19Z" />
-		<path class="phorkBottom2" d="M258.74 323.19C245.49 342.86 229.19 360.65 210.62 374.05C170.91 362.29 142 325.57 142 282C142 252.89 154.9 226.84 175.31 209.24L168 216.7C155.67 229.7 170.67 244.04 183 231.7C197.01 217.69 343.99 73.86 344.17 73.68C357.17 61.33 374.63 78.62 361.83 92.02C361.83 92.02 214.5 260.15 214 260.7C201.67 274.37 216.67 290.37 228.33 277.37C228.33 277.37 377.64 108.06 377.83 107.85C390.33 93.85 407 111.02 396.33 125.04L258.74 323.19Z" />
-		<path class="phorkTop3" d="M1 254.73C3.09 207.77 37.4 169.75 76.71 141.16L273 4.42C288.8 -6.58 306.2 10.42 291.2 22.42C256.57 50.13 122.33 172.04 122.33 172.04C110 183.7 125.33 198.37 137 187.37L307.2 38.42C322.2 26.42 339 43.62 325 56.55L168 216.7C155.67 229.7 170.67 244.04 183 231.7C197.01 217.69 343.99 73.86 344.17 73.68C357.17 61.33 374.63 78.62 361.83 92.02C361.83 92.02 214.5 260.15 214 260.7C203.18 272.69 213.39 286.47 223.94 280.91C197.66 306.94 161.48 323 121.5 323C71.33 323 27.15 297.71 1.01 259.17L1 254.73Z" />
-		<path class="phorkTop2" d="M76.71 141.16L273 4.42C288.8 -6.58 306.2 10.42 291.2 22.42C256.57 50.13 122.33 172.04 122.33 172.04C110 183.7 125.33 198.37 137 187.37L307.2 38.42C322.2 26.42 339 43.62 325 56.55L168 216.7C156.24 229.1 169.34 242.71 181.27 233.25C164.39 248.04 142.26 257 118 257C74.75 257 38.26 228.53 26.22 189.27C39.82 171.06 57.68 155.01 76.71 141.16ZM183.08 231.62C184.1 230.61 185.77 228.95 188 226.75C186.42 228.43 184.78 230.06 183.08 231.62Z" />
+		<path class="phorkGradientComplete" d="m187.4 203.6c-13.6 20.2-33.7 36.4-56.8 37.8h-52.6c-12.3 0-19.7-6.6-19.4-21.9l-0.1-50.1c1-23.5 18.2-42.5 37.9-56.8l98.1-68.4c7.9-5.5 16.6 3 9.1 9c-17.3 13.9-84.4 74.8-84.4 74.8c-6.2 5.8 1.5 13.2 7.3 7.7l85.1-74.5c7.5-6 15.9 2.6 8.9 9.1l-78.5 80c-6.2 6.5 1.3 13.7 7.5 7.5c7-7 80.5-78.9 80.6-79c6.5-6.1 15.2 2.5 8.8 9.2c0 0-73.7 84.1-73.9 84.3c-6.2 6.9 1.3 14.9 7.2 8.4c0 0 74.6-84.7 74.7-84.8c6.3-7 14.6 1.6 9.3 8.6z" />
+		<path class="phorkGradientBottom3" d="m187.4 203.6c-13.6 20.2-33.7 36.4-56.8 37.8h-2.8c-19.2-13-31.8-35.1-31.8-60.2c0-22.2 9.9-42.1 25.6-55.4c-1.6 1.4-2.4 2.2-2.4 2.2c-6.2 5.8 1.5 13.2 7.3 7.7l85.1-74.5c7.5-6 15.9 2.6 8.9 9.1l-78.5 80c-6.2 6.5 1.3 13.7 7.5 7.5c7-7 80.5-78.9 80.6-79c6.5-6.1 15.2 2.5 8.8 9.2c0 0-73.7 84.1-73.9 84.3c-6.2 6.9 1.3 14.9 7.2 8.4c0 0 74.6-84.7 74.7-84.8c6.3-7 14.6 1.6 9.3 8.6z" />
+		<path class="phorkGradientBottom2" d="m187.4 203.6c-6.7 9.8-14.8 18.7-24.1 25.4c-19.8-5.9-34.3-24.2-34.3-46c0-14.6 6.4-27.6 16.7-36.4l-3.7 3.7c-6.2 6.5 1.3 13.7 7.5 7.5c7-7 80.5-78.9 80.6-79c6.5-6.1 15.2 2.5 8.8 9.2c0 0-73.7 84.1-73.9 84.3c-6.2 6.9 1.3 14.9 7.2 8.4c0 0 74.6-84.7 74.7-84.8c6.3-7 14.6 1.6 9.3 8.6z" />
+		<path class="phorkGradientTop3" d="m58.5 169.4c1-23.5 18.2-42.5 37.9-56.8l98.1-68.4c7.9-5.5 16.6 3 9.1 9c-17.3 13.9-84.4 74.8-84.4 74.8c-6.2 5.8 1.5 13.2 7.3 7.7l85.1-74.5c7.5-6 15.9 2.6 8.9 9.1l-78.5 80c-6.2 6.5 1.3 13.7 7.5 7.5c7-7 80.5-78.9 80.6-79c6.5-6.1 15.2 2.5 8.8 9.2c0 0-73.7 84.1-73.9 84.3c-5.4 6-0.3 12.9 5 10.2c-13.2 13-31.3 21-51.3 21c-25 0-47.1-12.6-60.2-31.9z" />
+		<path class="phorkGradientTop2" d="m96.4 112.6l98.1-68.4c7.9-5.5 16.6 3 9.1 9c-17.3 13.9-84.4 74.8-84.4 74.8c-6.2 5.8 1.5 13.2 7.3 7.7l85.1-74.5c7.5-6 15.9 2.6 8.9 9.1l-78.5 80c-5.9 6.2 0.7 13.1 6.6 8.3c-8.4 7.4-19.5 11.9-31.6 11.9c-21.6 0-39.9-14.2-45.9-33.9c6.8-9.1 15.7-17.1 25.3-24zm53.1 45.2c0.5-0.5 1.4-1.3 2.5-2.4q-1.2 1.2-2.5 2.4z" />
 	</g>
 </svg>

@@ -12,6 +12,7 @@
   * [Duplicate token](#duplicate-token)
   * [Scanner/wallet hasn't updated yet](#scannerwallet-hasnt-updated-yet)
   * [error validating schema: chainId: conflicting values 103 and 0](#error-validating-schema-chainid-conflicting-values-103-and-0)
+  * [warning about the last element in the list](#warning-about-the-last-element-in-the-list)
 * [Disclaimer](#disclaimer)
 
 
@@ -99,7 +100,7 @@ Please follow the Uniswap Token List specification found here: https://github.co
 
 # Modifying existing token
 
-Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR in order to request manual review.
+Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR (and leave the PR open) in order to request manual review.
 
 * please check the 'Files changed' tab on your PR to ensure that your change is as expected
 * please link the commit or PR where the token was originally added.  If the token was added by someone else, they will be asked to confirm that this change is authorized
@@ -109,7 +110,7 @@ Modifications currently must be manually reviewed.  For any modifications, pleas
 # Common issues
 
 ## Automerge failure: found removed line
-Any modifications must be manually merged; please submit an issue with a link to your PR.
+Any modifications must be manually merged; please submit an issue with a link to your PR (and leave the PR open).
 
 
 ## Failed to normalize: failed to parse JSON: json: unknown field
@@ -118,23 +119,32 @@ e.g. `failed to normalize: failed to parse JSON: json: unknown field "coingeckoI
 If this error is encountered while modifying an existing entry, note that this error is misleading; 
 it is the automerger's way of saying that adding `coingeckoId` to an existing entry is not allowed.
 
-Any modifications must be manually merged; please submit an issue with a link to your PR.
+Any modifications must be manually merged; please submit an issue with a link to your PR (and leave the PR open).
 
 
 ## Duplicate token
 "duplicate token: token address `...` is already used"
 
-This occurs because your diff is re-adding a completely new block for a token that was already previously added (probably by you).  A common sequence of events that leads to this error is:
-1. you checked out the repo
-2. you added a token, committed, pushed back to github, and opened a PR
-3. the PR was merged back to main
-4. sometime later, you decided to modify something on the token (e.g. name), so you made the change, made another commit, pushed to github, and opened another PR.
+This occurs because the diff in your PR is re-adding a completely new block for a token that was already previously added. (You can verify this by looking at the 'Files changed' tab of your PR.)
 
-If you do the above, the new PR will encompass commits for both step 2 and 4, so it will look like a new token addition, and will collide with the existing one.  You MUST rebase your local checkout back to `origin/main` before opening a PR.  (You can do this with `git fetch origin main` followed by `git rebase main`.)
+This usually happens because your PR is intended to _update_ an existing token, but it still includes the commits that _added_ the original token (which were previously merged).  You can verify this by checking the 'commits' tab of the PR.  If you see the original commit in there, that's bad!  The PR should be relative to the current `HEAD` of `main`, i.e. your checkout should be [rebased](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+
+To fix this, you can either:
+
+1. checkout the latest `HEAD` of `main` and then re-apply your change (simpler for git newbies but incurring a bit of duplicate work), or 
+2. rebase your local checkout back to `origin/main` before opening a PR.  
+
+For option (2), you can do this with:
+```
+git remote add pub-origin git@github.com:solana-labs/token-list.git
+git fetch pub-origin main 
+git rebase pub-origin/main
+git push origin main -f
+```
 
 More generally, for modifications to existing tokens, be sure to checkout the `HEAD` of the `main` branch, locate the existing block in `solana.tokenlist.json`, and modify the appropriate fields.
 
-Please check the 'Files changed' tab on your PR to see the impact of your change.
+Always check the 'Files changed' tab on your PR to see the impact of your change.
 
 
 ## Scanner/wallet hasn't updated yet
@@ -146,9 +156,24 @@ Please especially do not raise issues saying 'solscan has updated but phantom ha
 
 
 ## error validating schema: chainId: conflicting values 103 and 0
-This automerge error arises if you touched a line outside of your token block.  Some text editors introduce a diff to the final line of the file.
+This automerge error arises if you touched a line outside of your token block.  Some text editors introduce a diff to the final line of the file.  You can see this by looking at the "Files changed" tab of your PR.
 
-These currently need to be manually merged; please submit an issue and link your PR.
+If using vim, you can probably address this by adding
+```
+set nofixendofline
+```
+to `~/.vimrc`
+
+If you don't address this yourself, the PR will need to be manually merged; please submit an issue and link your PR.
+
+
+## Warning about the last element in the list
+Please do not add your token as the final element to the list (second-to-last is best).
+This is because when the token is the final element, the closing brace won't be followed by a comma, which creates a specialcase which will create a merge conflict if the commit doesn't get automerged.  This prevents the maintainers from manually merging your change in the event that it needs to be automerged.
+
+If the maintainers link you to this comment, it means you need to move your block in order for them to merge it.
+
+Addressing this more seamlessly is an open item; bear with us for now.
 
 
 # Disclaimer
