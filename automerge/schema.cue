@@ -116,6 +116,7 @@ import (
 	discord?: #URL
 	medium?: #URL
 	instagram?: #URL
+	tiktok?: #URL
 	reddit?: #URL
 	coinmarketcap?: #URL
 	facebook?: #URL
@@ -175,7 +176,7 @@ import (
 	version:   #Version
 
 	// The list of tokens included in the list
-	tokens: list.MaxItems(10000) & [...#TokenInfo] & [_, ...]
+	tokens: list.MaxItems(20000) & [...#TokenInfo] & [_, ...]
 
 	// Keywords associated with the contents of the list; may be used
 	// in list discoverability.
