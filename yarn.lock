@@ -482,6 +482,13 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
+"@solana/spl-token-registry@^0.2.3178":
+  version "0.2.3178"
+  resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.3178.tgz#246415cfc92052879ff52630b3662e3787bba090"
+  integrity sha512-R5h2tmUWUxRrSQOuTKD0UakRH7R1246MMSq6Hls7XdjWeoY+t3lHieODiNKLmEiFJjhTgP9275qzCe8tv9F8ng==
+  dependencies:
+    cross-fetch "3.0.6"
+
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-1.1.2.tgz#b1665e2c461a2cd92f4c1bbf50d5454de0d4b421"
