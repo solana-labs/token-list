@@ -1,0 +1,28 @@
+name: AutomergeCron
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 * * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-go@v2
+        with:
+          go-version: '^1.17.3'
+
+      # Required for automerge to clone from the local working copy
+      - run: git checkout -b work
+
+      - run: cd automerge && go build -o ~/automerge github.com/solana-labs/token-list/automerge
+
+      - run: ~/automerge -v=1 -setRemoteForCI
+        env:
+          GITHUB_APP_PEM: "${{ secrets.TL_APP_PEM }}"
+
+      - run: git config user.name "token-list-automerger[bot]" && git config user.email "94544671+token-list-automerger[bot]@users.noreply.github.com"
+      - run: git fetch --unshallow origin main:main && git checkout main && git merge --no-ff automerge-pending
+      - run: git -c "http.https://github.com/.extraheader=" push app main:main
