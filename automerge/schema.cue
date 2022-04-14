@@ -52,9 +52,9 @@ import (
 #NameWhitelist: (
 	"Mike Krow's Official Best Friend Super Kawaii Kasu Token" |
 	"B ❤ P" |
-	"Aleph.im (Wormhole)" |
-	"Crypto.com Coin (Wormhole)" |
-	"yearn.finance (Wormhole)" |
+	"Aleph.im (Portal)" |
+	"Crypto.com Coin (Portal)" |
+	"yearn.finance (Portal)" |
 	"yearn.finance (Wormhole v1)" |
 	"Bird.Money (Wormhole v1)" |
 	"Ustur Wod.bod" |
@@ -116,6 +116,7 @@ import (
 	discord?: #URL
 	medium?: #URL
 	instagram?: #URL
+	tiktok?: #URL
 	reddit?: #URL
 	coinmarketcap?: #URL
 	facebook?: #URL
@@ -175,7 +176,7 @@ import (
 	version:   #Version
 
 	// The list of tokens included in the list
-	tokens: list.MaxItems(10000) & [...#TokenInfo] & [_, ...]
+	tokens: list.MaxItems(20000) & [...#TokenInfo] & [_, ...]
 
 	// Keywords associated with the contents of the list; may be used
 	// in list discoverability.
