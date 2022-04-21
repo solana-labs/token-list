@@ -105,6 +105,8 @@
     ]
   },
   "dependencies": {
+    "@solana/spl-token-registry": "^0.2.3548",
+    "automerge": "^1.0.1-preview.7",
     "cross-fetch": "3.0.6"
   }
 }
