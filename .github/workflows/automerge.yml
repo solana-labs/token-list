@@ -1,9 +1,10 @@
 name: Automerge
 
 on:
-  schedule:
-    - cron: 0 * * * *
   pull_request_target:
+  push:
+    branches:
+      - main
     types:
       - opened
       - synchronized
@@ -14,11 +15,14 @@ on:
       - ready_for_review
 
 jobs:
-  automerge:
+  auto-merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: reitermarkus/automerge@v1.5.2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          merge-method: rebase
-          do-not-merge-labels: never-merge
+    - uses: LouisBrunner/checks-action@v1.1.1
+      if: always()
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        name: Automerge / auto-merge (pull_request_target)
+        conclusion: neutral
+        output: |
+          {"summary": "Disregard - please see new automerge" }

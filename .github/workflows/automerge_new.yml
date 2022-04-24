@@ -1,0 +1,24 @@
+name: AutomergeCron
+
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-go@v2
+        with:
+          go-version: '^1.17.3'
+
+      # Required for automerge to clone from the local working copy
+      - run: git checkout -b work
+
+      - run: cd automerge && go build -o ~/automerge github.com/solana-labs/token-list/automerge
+
+      - run: ~/automerge -v=1
+        env:
+          GITHUB_APP_PEM: "${{ secrets.TL_APP_PEM }}"
+
+      - run: git push -f origin automerge-pending:automerge-pending
