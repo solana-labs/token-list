@@ -5,13 +5,13 @@ import test from 'ava';
 import {
   CLUSTER_SLUGS,
   ENV,
-  Strategy,
+  StaticStrategy,
   TokenInfo,
   TokenListProvider,
 } from './tokenlist';
 
 test('Token list is filterable by a tag', async (t) => {
-  const list = (await new TokenListProvider().resolve(Strategy.Static))
+  const list = (await new TokenListProvider().resolve(new StaticStrategy()))
     .filterByChainId(ENV.MainnetBeta)
     .filterByTag('nft')
     .getList();
@@ -20,7 +20,7 @@ test('Token list is filterable by a tag', async (t) => {
 });
 
 test('Token list can exclude by a tag', async (t) => {
-  const list = (await new TokenListProvider().resolve(Strategy.Static))
+  const list = (await new TokenListProvider().resolve(new StaticStrategy()))
     .filterByChainId(ENV.MainnetBeta)
     .excludeByTag('nft')
     .getList();
@@ -29,7 +29,7 @@ test('Token list can exclude by a tag', async (t) => {
 });
 
 test('Token list can exclude by a chain', async (t) => {
-  const list = (await new TokenListProvider().resolve(Strategy.Static))
+  const list = (await new TokenListProvider().resolve(new StaticStrategy()))
     .excludeByChainId(ENV.MainnetBeta)
     .getList();
 
@@ -37,14 +37,14 @@ test('Token list can exclude by a chain', async (t) => {
 });
 
 test('Token list returns new object upon filter', async (t) => {
-  const list = await new TokenListProvider().resolve(Strategy.Static);
+  const list = await new TokenListProvider().resolve(new StaticStrategy());
   const filtered = list.filterByChainId(ENV.MainnetBeta);
   t.true(list !== filtered);
   t.true(list.getList().length !== filtered.getList().length);
 });
 
 test('Token list throws error when calling filterByClusterSlug with slug that does not exist', async (t) => {
-  const list = await new TokenListProvider().resolve(Strategy.Static);
+  const list = await new TokenListProvider().resolve(new StaticStrategy());
   const error = await t.throwsAsync(
     async () => list.filterByClusterSlug('whoop'),
     { instanceOf: Error }
@@ -65,7 +65,7 @@ test('Token list is a valid json', async (t) => {
 });
 
 test('Token list does not have duplicate entries', async (t) => {
-  const list = await new TokenListProvider().resolve(Strategy.Static);
+  const list = await new TokenListProvider().resolve(new StaticStrategy());
   list
     .filterByChainId(ENV.MainnetBeta)
     .getList()
