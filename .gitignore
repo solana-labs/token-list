@@ -1,12 +1,2 @@
-*.swo
-*.swp
-*.log
-.idea/*
-.nyc_output
-dist
-node_modules
-test
-src/**.js
-coverage
-package-lock.json
-.DS_Store
+git rm -r --cached 
+git add .
