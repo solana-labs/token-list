@@ -90169,7 +90169,7 @@
       ]
     },
     {
-      "chainId": 101,
+      "chainId": 101
       "address": "5pnEnSsky1L2xrd4Nqj4oiKgsDLqPHstnkVP4XwKicmX",
       "symbol": "Zues",
       "name": "Carlos Verbelen",
@@ -90179,15 +90179,17 @@
         "social-token"
       ]
     },
-      "chainId": 101,
+    {
+      "chainId": 101
       "address": "CBoa6CMrKRHyxayyP3ws7ysQCmXJnNKcJYkTQi4tu44q",
       "symbol": "HYPE",
       "name": "Hype BA",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Atrahasis369/Hype/main/Hype.jpg",
+      "logoURI": "https://raw.githubusercontent.com/Atrahasis369/crypto/main/logo.png",
       "tags": [
-        "nft" "Utility-Token"
+        "Utility-token"
       ],
+    }
       "extensions": {
         "description": "Hype B.A Official NFT VIP Pass for Kika 5339 every Tuesday x Wed 00:30 ART",
         "discord": "https://discord.gg/3yNwFyPzUb",
@@ -90196,11 +90198,3 @@
         "twitter": "https://twitter.com/hypeba",
         "website": "https://linktr.ee/hypeba"
       }
-    
-  ],
-  "version": {
-    "major": 0,
-    "minor": 3,
-    "patch": 3
-  }
-}
