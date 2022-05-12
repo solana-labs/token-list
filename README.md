@@ -1,7 +1,3 @@
-WNDY Token
-https://www.wandyclub.com
-
-
 ---
 ### Please note: This repository is being rebuilt to accept the new volume of token additions and modifications. PR merges will be delayed.
 ---
