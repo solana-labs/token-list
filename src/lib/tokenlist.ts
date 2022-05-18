@@ -104,7 +104,7 @@ const queryJsonFiles = async (files: string[]) => {
   )) as TokenList[];
 
   return responses
-    .map((tokenlist: TokenList) => tokenlist.tokens)
+    .map((tokenlist: TokenList) => tokenlist.tokens || [])
     .reduce((acc, arr) => (acc as TokenInfo[]).concat(arr), []);
 };
 
@@ -117,7 +117,7 @@ export enum Strategy {
 
 export class StaticTokenListResolutionStrategy {
   resolve = () => {
-    return tokenlist.tokens;
+    return tokenlist.tokens || [];
   };
 }
 
