@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="100%" height="100%" class="logo" viewBox="0 0 500 500"><defs>
+<style>
+
+.one-part {
+    fill: #ffab1c;
+    box-shadow: 12px 10px 10px #230017;
+    filter: url(#glow)
+}
+
+.second-part {
+    filter: url(#inner-glow)
+}
+
+.logo {
+    background: radial-gradient(circle, #FFAB1C 0%, #230017 70%)
+}
+
+.logo .l1 {
+    stroke: #ffab1c;
+    fill: none;
+    mix-blend-mode: hard-light;
+    animation: dash 120s backwards
+}
+
+.logo .l2 {
+    stroke: #ffab1c;
+    fill: none;
+    mix-blend-mode: screen;
+    animation: dash2 120s linear forwards
+}
+
+.logo .l3 {
+    stroke: #ffab1c;
+    fill: none;
+    mix-blend-mode: screen
+}
+
+.logo .l4 {
+    stroke: #ffab1c;
+    fill: none;
+    mix-blend-mode: hard-light
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: -100
+    }
+}
+
+@keyframes dash2 {
+    to {
+        stroke-dashoffset: -1000
+    }
+}
+
+</style>
+ <filter id="inner-glow">
+    <feFlood flood-color="#fffc39"></feFlood>
+    <feComposite in2="SourceAlpha" operator="out"></feComposite>
+    <feGaussianBlur stdDeviation="12" result="blur"></feGaussianBlur>
+    <feComposite operator="atop" in2="SourceGraphic"></feComposite>
+</filter> 
+
+  <filter id="neon" color-interpolation-filters="sRGB">
+    <feFlood flood-color="rgb(255,255,128)" flood-opacity="0.5" in="SourceGraphic"></feFlood>
+    <feComposite operator="in" in2="SourceGraphic"></feComposite>
+    <feGaussianBlur stdDeviation="10"></feGaussianBlur>
+    <feComponentTransfer result="glow1">
+      <feFuncA type="linear" slope="4" intercept="0"></feFuncA>
+    </feComponentTransfer>
+    <feMerge>
+       <feMergeNode in="glow1"></feMergeNode>
+       <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+  
+    <filter id="blur-in" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="4.5" flood-color="#230017" flood-opacity="0.5"></feDropShadow>
+      <feComposite operator="out" in2="SourceGraphic"></feComposite>
+    </filter>
+<filter id="glow" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%">
+       <!-- blur the text at different levels-->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0" result="blur5"></feGaussianBlur>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur10"></feGaussianBlur>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur20"></feGaussianBlur>
+<!--      <feGaussianBlur in="SourceGraphic" stdDeviation="30" result="blur30"/>-->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="30" result="blur50"></feGaussianBlur>
+      <!-- merge all the blurs except for the first one -->
+      <feMerge result="blur-merged">
+        <feMergeNode in="blur10"></feMergeNode>
+        <feMergeNode in="blur50"></feMergeNode>
+      </feMerge>
+      <feColorMatrix result="blur" in="blur-merged" type="matrix" values="0.2 0 0 0 0
+                             0 0.03 0 0 0
+                             0.1 0 0.4 0 0
+                             0 0 0 1 0"></feColorMatrix>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>     
+        <feMergeNode in="blur5"></feMergeNode>         
+        <feMergeNode in="SourceGraphic"></feMergeNode> 
+      </feMerge>
+    </filter>
+
+</defs><g class="one-part"><circle r="50" fill="#FFAB1C" cx="250" cy="193"></circle><circle r="50" fill="#FFAB1C" cx="200.64" cy="278.5"></circle><circle r="50" fill="#FFAB1C" cx="299.36" cy="278.5"></circle></g><g class="second-part"><circle r="50" fill="#FFAB1C" cx="250" cy="193"></circle><circle r="50" fill="#FFAB1C" cx="200.64" cy="278.5"></circle><circle r="50" fill="#FFAB1C" cx="299.36" cy="278.5"></circle></g><g><circle r="160" fill="white" opacity="0.2" class="l1" stroke-width="7%" stroke-dasharray="130, 900" stroke-dashoffset="224.5871444736195" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="165" fill="white" opacity="0.2" class="l1" stroke-width="3%" stroke-dasharray="300, 30" stroke-dashoffset="203.62423723465773" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="170" fill="white" opacity="0.3" class="l3" stroke-width="0.3%" stroke-dasharray="8" stroke-dashoffset="272.06756772328436" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="125.75894057754847" fill="white" opacity="0.1550589155934981" class="l1" stroke-width="1.6210935612727362" stroke-dasharray="219.89450418629764 25.402400140858372 657.3402176354458" stroke-dashoffset="154.9186709233863" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="192.4249478409892" fill="white" opacity="0.3019166999074902" class="l1" stroke-width="0.09372304480684435" stroke-dasharray="194.51521987779387 328.2863360785487 384.20979548770936" stroke-dashoffset="840.0252230731576" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="165.30127137156887" fill="white" opacity="0.32000505130369467" class="l1" stroke-width="4.899223118304283" stroke-dasharray="290.589716568036 445.41766074348425 899.6472029100088" stroke-dashoffset="690.8860744075967" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="202.05254478415685" fill="white" opacity="0.06586992080738857" class="l1" stroke-width="3.797715415057529" stroke-dasharray="353.16554623562047 399.4796991881705 664.5663359988112" stroke-dashoffset="660.0053537909324" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="205.80800217081426" fill="white" opacity="0.6327606559769496" class="l1" stroke-width="0.46278960488218335" stroke-dasharray="145.4518492112412 277.58083068014554 153.38939873980067" stroke-dashoffset="451.1936734720227" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="153.788363491714" fill="white" opacity="0.558622910445737" class="l1" stroke-width="4.599389886830138" stroke-dasharray="374.3462565221768 351.5902515539096 861.6873330178911" stroke-dashoffset="735.0125555325453" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="156.311700125827" fill="white" opacity="0.584206970178414" class="l1" stroke-width="4.134425468588462" stroke-dasharray="200.94071201536994 245.51245107579282 856.6443617579603" stroke-dashoffset="669.8792897958682" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="142.39367498852033" fill="white" opacity="0.17479495562877972" class="l1" stroke-width="0.7113227866423838" stroke-dasharray="402.37869964931804 331.551057345976 391.83094714149905" stroke-dashoffset="757.9103932616518" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="180.78607585682124" fill="white" opacity="0.40696650814562213" class="l1" stroke-width="1.0567752378352824" stroke-dasharray="113.69596813983406 94.6221325415818 806.668629684898" stroke-dashoffset="506.05535271736414" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="214.03060654595316" fill="white" opacity="0.1585746784841074" class="l1" stroke-width="2.9332829055216965" stroke-dasharray="377.21592463621346 317.64198021931094 350.2393310239096" stroke-dashoffset="565.7998100537615" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="162.90515640284002" fill="white" opacity="0.12581508269569924" class="l1" stroke-width="1.7056416815699005" stroke-dasharray="264.3450585800685 496.676092143888 291.8749939787241" stroke-dashoffset="76.14114132196259" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="182.2897940502698" fill="white" opacity="0.15115369910710058" class="l1" stroke-width="1.4917820422829464" stroke-dasharray="47.66909816663567 403.7729319378474 417.4745519503152" stroke-dashoffset="823.8113363598616" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="156.94265182322857" fill="white" opacity="0.017505210981179242" class="l1" stroke-width="12.026138248062711" stroke-dasharray="338.2660954478807 271.7412604328 390.98710381577916" stroke-dashoffset="285.714807732282" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="204.88555206430803" fill="white" opacity="0.21317223325528972" class="l1" stroke-width="10.59067587867979" stroke-dasharray="352.90443821271566 868.7584400081978 828.1842198006673" stroke-dashoffset="851.9760391635033" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="129.76760348390937" fill="white" opacity="0.3515569964097612" class="l1" stroke-width="8.291822428987912" stroke-dasharray="206.4829416697984 386.63238891308185 835.6107918499641" stroke-dashoffset="549.0037921229704" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="199.18977874217734" fill="white" opacity="0.28325358495310055" class="l1" stroke-width="10.23696739839593" stroke-dasharray="184.68972566947468 319.2402223332138 646.9728104504816" stroke-dashoffset="802.0184173672963" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="130.75546411459072" fill="white" opacity="0.12650878000098015" class="l1" stroke-width="6.823777933565173" stroke-dasharray="296.1487010228697 896.397291936014 29.874731426895618" stroke-dashoffset="409.1001020133075" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="136.65242109041793" fill="white" opacity="0.07555560308382053" class="l1" stroke-width="7.177181040091652" stroke-dasharray="315.7238184686849 287.8915628885375 238.6096132404807" stroke-dashoffset="671.8022696108494" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="171.13111726016842" fill="white" opacity="-0.017676624017419373" class="l1" stroke-width="2.5143716472368585" stroke-dasharray="322.8920317981246 780.9072322751164 816.1463857669672" stroke-dashoffset="651.0230312267827" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="180.8104411381073" fill="white" opacity="0.15248410613641988" class="l1" stroke-width="7.8093927883253995" stroke-dasharray="254.98460415900593 876.0491089531291 611.76125371574" stroke-dashoffset="837.7125563326506" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="209.3943955890793" fill="white" opacity="-0.049805799994748046" class="l1" stroke-width="1.3308115168399903" stroke-dasharray="275.2162799821787 187.4789605905601 268.66136894835364" stroke-dashoffset="192.52917986354944" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="146.4818568207221" fill="white" opacity="0.6860315307827829" class="l1" stroke-width="5.760429549345398" stroke-dasharray="300.1361128113587 210.1160580147865 257.99343093019627" stroke-dashoffset="599.8527821176176" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="171.39540143490197" fill="white" opacity="0.14371076469033267" class="l1" stroke-width="12.285089024689773" stroke-dasharray="28.479199541010136 768.1217549397844 333.96336826651407" stroke-dashoffset="626.9825949206511" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="128.99522634819692" fill="white" opacity="0.30339418418361813" class="l1" stroke-width="13.0338968982837" stroke-dasharray="208.83762388275645 768.170268785019 308.80087649907733" stroke-dashoffset="276.4943682971692" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="167.15893760051512" fill="white" opacity="0.02970985286730876" class="l2" stroke-width="11.72565318399891" stroke-dasharray="201.14075829450974 386.9137218359662 112.0749864022365" stroke-dashoffset="263.787459559628" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="141.17888339172586" fill="white" opacity="0.11870674542798187" class="l2" stroke-width="2.884358167054387" stroke-dasharray="481.4599273305301 207.8643417144058 712.4474977403736" stroke-dashoffset="361.8764914666345" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="155.79050789850922" fill="white" opacity="-0.3486423301718129" class="l2" stroke-width="11.528223937451326" stroke-dasharray="228.83255346366914 310.2338792730798 430.374019307644" stroke-dashoffset="437.6834560498601" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="166.26813243881233" fill="white" opacity="0.17266959451100095" class="l2" stroke-width="6.640308107670548" stroke-dasharray="341.0825661283437 480.13796482972475 111.22126289966066" stroke-dashoffset="234.22159304479717" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="220" fill="white" opacity="0.0022772588627448798" class="l3" stroke-width="0.3%" stroke-dasharray="8" stroke-dashoffset="206.37218430790526" stroke-linecap="butt" cx="250" cy="250"></circle><circle r="120" fill="white" opacity="0.12149525038779019" class="l4" stroke-width="0.3%" stroke-dasharray="7.265907360268268" stroke-dashoffset="622.2135605093331" stroke-linecap="butt" cx="250" cy="250"></circle></g></svg>
