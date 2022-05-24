@@ -116,7 +116,7 @@ export enum Strategy {
 }
 
 export class StaticTokenListResolutionStrategy {
-  resolve = () => {
+  resolve = (): TokenInfo[] => {
     return tokenlist.tokens || [];
   };
 }
