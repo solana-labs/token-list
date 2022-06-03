@@ -92119,16 +92119,17 @@
     {
       "chainId": 101,
       "address": "FnmSHBjt45RAWhcKCTPgbmJbNcBGu1KXXFbEYd5HxGoc",
-      "symbol": "TRB",
-      "name": "Toros",
-      "decimals": 4,
-      "logoURI": "https://raw.githubusercontent.com/Copyrightsworld/cwcoin/main/torocoin-logo.png",
+      "symbol": "CWC",
+      "name": "cwCoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Copyrightsworld/cwcoin/main/cwcoin-logo2.png",
       "tags": [
-        "community-token"
+        "community-token",
+        "utility-token"
       ],
       "extensions": {
-        "description": "Toroblocks Official Token",
-        "website": "https://www.toroblocks.com/toros/"
+        "description": "CopyrightsWorld Official Token",
+        "website": "https://www.copyrightsworld.com/cwcoin/"
       }
     },
     {
@@ -92548,6 +92549,22 @@
         "discord": "https://discord.gg/solarmy",
         "twitter": "https://twitter.com/thesolarmy",
         "website": "https://solarmy.io/"
+      }
+    }
+    {
+      "chainId": 101,
+      "address": "HSD3FWjqEbzEAdrWhP5cycjKapG3yVsEAFfAa7VUATTK",
+      "symbol": "TBCoin",
+      "name": "Toros",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Copyrightsworld/cwcoin/main/torocoin-logo.png",
+      "tags": [
+        "community-token",
+        "utility-token"
+      ],
+      "extensions": {
+        "description": "CopyrightsWorld Official Token",
+        "website": "https://www.toroblocks.coin"
       }
     }
   ],
