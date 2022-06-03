@@ -1,7 +1,5 @@
 import fs from 'fs';
-
 import test from 'ava';
-
 import {
   CLUSTER_SLUGS,
   ENV,
@@ -9,7 +7,6 @@ import {
   TokenInfo,
   TokenListProvider,
 } from './tokenlist';
-
 test('Token list is filterable by a tag', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
     .filterByChainId(ENV.MainnetBeta)
@@ -18,7 +15,6 @@ test('Token list is filterable by a tag', async (t) => {
 
   t.false(list.some((item) => item.symbol === 'SOL'));
 });
-
 test('Token list can exclude by a tag', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
     .filterByChainId(ENV.MainnetBeta)
@@ -27,7 +23,6 @@ test('Token list can exclude by a tag', async (t) => {
 
   t.false(list.some((item) => item.tags === ['nft']));
 });
-
 test('Token list can exclude by a chain', async (t) => {
   const list = (await new TokenListProvider().resolve(Strategy.Static))
     .excludeByChainId(ENV.MainnetBeta)
@@ -35,14 +30,12 @@ test('Token list can exclude by a chain', async (t) => {
 
   t.false(list.some((item) => item.chainId === ENV.MainnetBeta));
 });
-
 test('Token list returns new object upon filter', async (t) => {
   const list = await new TokenListProvider().resolve(Strategy.Static);
   const filtered = list.filterByChainId(ENV.MainnetBeta);
   t.true(list !== filtered);
   t.true(list.getList().length !== filtered.getList().length);
 });
-
 test('Token list throws error when calling filterByClusterSlug with slug that does not exist', async (t) => {
   const list = await new TokenListProvider().resolve(Strategy.Static);
   const error = await t.throwsAsync(
@@ -63,7 +56,6 @@ test('Token list is a valid json', async (t) => {
     JSON.parse(content.toString());
   });
 });
-
 test('Token list does not have duplicate entries', async (t) => {
   const list = await new TokenListProvider().resolve(Strategy.Static);
   list
@@ -73,7 +65,6 @@ test('Token list does not have duplicate entries', async (t) => {
       if (agg.has(item.address)) {
         console.log(item.address);
       }
-
       t.false(agg.has(item.address));
       agg.set(item.address, item);
       return agg;
