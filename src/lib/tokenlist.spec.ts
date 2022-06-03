@@ -1,5 +1,7 @@
 import fs from 'fs';
+
 import test from 'ava';
+
 import {
   CLUSTER_SLUGS,
   ENV,
