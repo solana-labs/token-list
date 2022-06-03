@@ -50,7 +50,7 @@ new TokenListProvider().resolve().then((tokens) => {
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
-import { TokenListProvider, TokenInfo } from '@solana/spl-token-registry';
+import { TokenListProvider, TokenInfo, ENV } from '@solana/spl-token-registry';
 
 
 export const Icon = (props: { mint: string }) => {
@@ -70,8 +70,8 @@ export const Icon = (props: { mint: string }) => {
   const token = tokenMap.get(props.mint);
   if (!token || !token.logoURI) return null;
 
-  return (<img src={token.logoURI} />);
-
+  return (<img src={token.logoURI} alt={token.name + " logo"} />);
+}
 ```
 
 # Adding new token
