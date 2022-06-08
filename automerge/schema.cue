@@ -52,9 +52,9 @@ import (
 #NameWhitelist: (
 	"Mike Krow's Official Best Friend Super Kawaii Kasu Token" |
 	"B ❤ P" |
-	"Aleph.im (Wormhole)" |
-	"Crypto.com Coin (Wormhole)" |
-	"yearn.finance (Wormhole)" |
+	"Aleph.im (Portal)" |
+	"Crypto.com Coin (Portal)" |
+	"yearn.finance (Portal)" |
 	"yearn.finance (Wormhole v1)" |
 	"Bird.Money (Wormhole v1)" |
 	"Ustur Wod.bod" |
