@@ -79,6 +79,10 @@ export const Icon = (props: { mint: string }) => {
 To add a new token, add another json block to the large `tokens` list in `src/tokens/solana.tokenlist.json` and submit a PR.
 
 Tips:
+* `chainId`
+  * MainnetBeta = 101
+  * Testnet = 102
+  * Devnet = 103
 * `logoURI` 
   * should point to a `png`, `jpg`, or `svg`.
   * the logo can be hosted in this repo in `assets/mainnet/TOKEN_ADDRESS/FILE` 
