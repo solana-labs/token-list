@@ -1,4 +1,21 @@
+
 {
+      "chainId": 101,
+      "address": "5bex6uTwdAVdkEXwLHywzGm8xtvsirTi4PYsSTw4ScFY",
+      "symbol": "T2G",
+      "name": "FashCoin",
+      "decimalsq": 9,
+      "logoURI": "https://raw.githubusercontent.com/2oonchi/MemeMuG/main/doglogo.png",
+      "tags": [
+        "utility-token",
+        "DAO-fork"
+      ],
+      "extensions": {
+        "website": "https://github.com/2oonchi/MemeMuG"
+        "website": "https://github.com/2oonchi/token-list"
+      }
+    },
+    {
     "version": "0.1",
     "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
     "language": "en",
@@ -39,4 +56,4 @@
         "tsconfig.json",
         "node_modules/**"
     ]
-}
+},
