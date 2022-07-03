@@ -105,7 +105,7 @@ new TokenListProvider().resolve().then((tokens) => {
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
-import { TokenListProvider, TokenInfo } from '@solana/spl-token-registry';
+import { ENV, TokenListProvider, TokenInfo } from '@solana/spl-token-registry';
 
 
 export const Icon = (props: { mint: string }) => {
