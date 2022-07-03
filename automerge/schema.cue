@@ -18,8 +18,9 @@ import (
 
 // Grandfathered non-compliant symbol names.
 #SymbolWhitelist: ("GÜ" |
+	"fair3d.me" |
+	"BAHI.log" |
 	"W technology" |
-	"weFTX Token" |
 	"SHBL LP token" |
 	"Unlimited Energy" |
 	"Need for Speed" |
@@ -49,7 +50,26 @@ import (
 
 // Grandfathered non-compliant token names.
 #NameWhitelist: (
-		"Mike Krow's Official Best Friend Super Kawaii Kasu Token" | "B ❤ P")
+	"Mike Krow's Official Best Friend Super Kawaii Kasu Token" |
+	"B ❤ P" |
+	"Aleph.im (Portal)" |
+	"Crypto.com Coin (Portal)" |
+	"yearn.finance (Portal)" |
+	"yearn.finance (Wormhole v1)" |
+	"Bird.Money (Wormhole v1)" |
+	"Ustur Wod.bod" |
+	"rendo.club" |
+	"probably.legal" |
+	"Kaizen.Finance" |
+	"1sol.io Token" |
+	"Kaizen.Finance Locked" |
+	"LIQNFT.com" |
+	"Pixels.so Token" |
+	"3.14" |
+	"Hamingja 2.0" |
+	"RNG.Fail" |
+	"Shiba Inu 2.0" |
+	"PHISHING SCAM TOKEN, PLEASE IGNORE" )
 
 // INCOMPATIBLE: may contain -
 // INCOMPATIBLE: max 20 characters (vs. 10)
@@ -80,7 +100,7 @@ import (
 }
 
 #URL: =~ #"^(ipfs|http[s]?)://(?:[a-zA-Z]|[0-9]|[$-_@.&+#~]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+$"#
-#TelegramURL: =~ #"^https://t.me/((\w){5,32}|joinchat/[\w-]{16})$"#
+#TelegramURL: =~ #"^https://t.me/([\w\+]{5,32}|joinchat/[\w-]{16})$"#
 
 #Extensions: {
 	website?: #URL
@@ -96,6 +116,7 @@ import (
 	discord?: #URL
 	medium?: #URL
 	instagram?: #URL
+	tiktok?: #URL
 	reddit?: #URL
 	coinmarketcap?: #URL
 	facebook?: #URL
@@ -122,16 +143,16 @@ import (
 
 	// The checksummed address of the token on the specified chain ID
 	// INCOMPATIBLE: base58
-	address: #Base58Address
+	address: #Base58Address & != "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
 
 	// The number of decimals for the token balance
 	decimals: int & >=0 & <=255
 
 	// The name of the token
-	name: strings.MinRunes(1) & strings.MaxRunes(50) & =~"^[ \\w.'+\\-%/À-ÖØ-öø-ÿ:&\\[\\]\\(\\)]+$" | #NameWhitelist
+	name: strings.MinRunes(1) & strings.MaxRunes(50) & =~"^[ \\w'+\\-%/À-ÖØ-öø-ÿ:&\\[\\]\\(\\)]+$" | #NameWhitelist
 
 	// The symbol for the token; must be alphanumeric
-	symbol: =~"^[a-zA-Z0-9+\\-%/$.]+$" & strings.MinRunes(1) & strings.MaxRunes(20) | #SymbolWhitelist
+	symbol: =~"^[a-zA-Z0-9+\\-%/$_]+$" & strings.MinRunes(1) & strings.MaxRunes(20) | #SymbolWhitelist
 
 	// A URI to the token logo asset; if not set, interface will
 	// attempt to find a logo based on the token address; suggest SVG
@@ -155,7 +176,7 @@ import (
 	version:   #Version
 
 	// The list of tokens included in the list
-	tokens: list.MaxItems(10000) & [...#TokenInfo] & [_, ...]
+	tokens: list.MaxItems(20000) & [...#TokenInfo] & [_, ...]
 
 	// Keywords associated with the contents of the list; may be used
 	// in list discoverability.

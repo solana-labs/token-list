@@ -51,7 +51,7 @@ func signJWT(privateKey *rsa.PrivateKey, appId int64) (string, error) {
 	return tokenString, nil
 }
 
-func GetInstallationToken(privateKey []byte, appId int64) (string, error) {
+func GetInstallationToken(privateKey []byte, appId int64, org string) (string, error) {
 	token, err := signJWTFromPEM(privateKey, appId)
 	if err != nil {
 		klog.Exitf("failed to sign JWT: %v", err)
@@ -65,24 +65,38 @@ func GetInstallationToken(privateKey []byte, appId int64) (string, error) {
 	)
 	tc := oauth2.NewClient(ctx, ts)
 	client := github.NewClient(tc)
-	is, _, err := client.Apps.ListInstallations(ctx, nil)
-	if err != nil {
-		klog.Exitf("failed to list installations: %v", err)
+
+
+	var installations []*github.Installation
+	var page int
+	for {
+		klog.Infof("getting installations for org %s, page %d", org, page)
+		is, resp, err := client.Apps.ListInstallations(ctx, &github.ListOptions{
+			Page:    page,
+			PerPage: 100,
+		})
+		if err != nil {
+			klog.Exitf("failed to list installations: %v", err)
+		}
+		installations = append(installations, is...)
+		if resp.NextPage == 0 {
+			break
+		}
+		page = resp.NextPage
 	}
 
-	for _, i := range is {
-		if i.GetAppID() == appId {
+	for _, i := range installations {
+		if i.GetAppID() == appId && i.GetAccount().GetLogin() == org && i.GetTargetType() == "Organization" {
 			klog.Infof("installation id: %v", i.GetID())
 			klog.Infof("installed on %s: %s", i.GetTargetType(), i.GetAccount().GetLogin())
-		}
 
-		// Get an installation token
-		it, _, err := client.Apps.CreateInstallationToken(ctx, i.GetID(), nil)
-		if err != nil {
-			klog.Exitf("failed to create installation token: %v", err)
+			// Get an installation token
+			it, _, err := client.Apps.CreateInstallationToken(ctx, i.GetID(), nil)
+			if err != nil {
+				klog.Exitf("failed to create installation token: %v", err)
+			}
+			return it.GetToken(), nil
 		}
-
-		return it.GetToken(), nil
 	}
 
 	return "", errors.New("no installation found")
