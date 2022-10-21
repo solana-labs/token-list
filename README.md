@@ -1,30 +1,86 @@
 ---
-### Please note: This repository is being rebuilt to accept the new volume of token additions and modifications. PR merges will be delayed.
+# 🚨🚨🚨This repository is EOL 🚨🚨🚨
+## Read below for instructions on new token metadata flow
 ---
 
-# Contents
-* [Usage](#usage)
-* [Adding new token](#adding-new-token)
-* [Modifying existing token](#modifying-existing-token)
-* [Common issues](#common-issues)
-  * [Automerge failure: found removed line](#automerge-failure-found-removed-line)
-  * [Failed to normalize: failed to parse JSON: json: unknown field](#failed-to-normalize-failed-to-parse-json-json-unknown-field)
-  * [Duplicate token](#duplicate-token)
-  * [Scanner/wallet hasn't updated yet](#scannerwallet-hasnt-updated-yet)
-  * [error validating schema: chainId: conflicting values 103 and 0](#error-validating-schema-chainid-conflicting-values-103-and-0)
-* [Disclaimer](#disclaimer)
+As of June 20th, this repository will be archived and will receive no more updates. The repository will be set to read-only and the npm package will still exist at `@solana/spl-token-registry`.
+
+## Adding a New Token
+
+You can use one of two tools at the time of writing:
+
+1. [Strata Protocol Token Launchpad](https://app.strataprotocol.com/launchpad/manual/new)
+2. [Token Creator Demo](https://token-creator-lac.vercel.app/)
+
+All new token metadata will be added using Metaplex Fungible Token Metadata. The steps to add new Fungible Token Metadata are as follows:
+
+1. Use `CreateMetadataV2` instruction from Metaplex token metadata to create new metadata for token.
+2. Make sure you use the correct format for the token metadata.
+3. You must have mint authority in order to create or update the metadata
+
+The token metadata for Metaplex Metadata Schema is in the following format:
+
+```json
+{
+  "name": "TOKEN_NAME", 
+  "symbol": "TOKEN_SYMBOL",
+  "uri": "TOKEN_URI",
+  "sellerFeeBasisPoints": 0,
+  "creators": null,
+  "collection": null,
+  "uses": null
+}
+```
+
+The `TOKEN_URI` must point to a file with the following format:
+
+```json
+{
+  "name": "TOKEN_NAME",
+  "symbol": "TOKEN_SYMBOL",
+  "description": "TOKEN_DESC",
+  "image": "TOKEN_IMAGE_URL"
+}
+```
+
+Where `TOKEN_IMAGE_URL` is the image url.
+
+An example of the `TOKEN_URI`: https://token-creator-lac.vercel.app/token_metadata.json
+
+Which resolves to:
+
+```json
+{
+  "name": "A test token",
+  "symbol": "TEST",
+  "description": "Fully for testing purposes only",
+  "image": "https://token-creator-lac.vercel.app/token_image.png"
+}
+```
+
+## Updating Token Metadata
+
+To update token metadata you must use `createUpdateMetadataAccountV2Instruction` in `@metaplex-foundation/js` in order to update an existing token's metadata.
+
+While updating, you provide the same details as when creating.
+
+## Tools for Adding/Updating/Migrating
+
+Update/migrate token metadata using [Strata Protocol update token tool](https://app.strataprotocol.com/edit-metadata).
+
+A tutorial for adding/updating metadata can be found at the [Token-Creator demo](https://github.com/jacobcreech/Token-Creator).
 
 
-# Usage
+## Reading Legacy Token-list
 
-@solana/spl-token-registry
+`@solana/spl-token-registry`
 
 [![npm](https://img.shields.io/npm/v/@solana/spl-token-registry)](https://unpkg.com/@solana/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/solana-labs/token-list/blob/b3fa86b3fdd9c817139e38641d46c5a892542a52/LICENSE)
 
 Solana Token Registry is a package that allows application to query for list of tokens.
 The JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.
 
-## Installation
+### Installation
 
 ```bash
 npm install @solana/spl-token-registry
@@ -34,9 +90,9 @@ npm install @solana/spl-token-registry
 yarn add @solana/spl-token-registry
 ```
 
-## Examples
+### Examples
 
-### Query available tokens
+#### Query available tokens
 
 ```typescript
 new TokenListProvider().resolve().then((tokens) => {
@@ -45,7 +101,7 @@ new TokenListProvider().resolve().then((tokens) => {
 });
 ```
 
-### Render icon for token in React
+#### Render icon for token in React
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
@@ -72,84 +128,6 @@ export const Icon = (props: { mint: string }) => {
   return (<img src={token.logoURI} />);
 
 ```
-
-# Adding new token
-
-To add a new token, add another json block to the large `tokens` list in `src/tokens/solana.tokenlist.json` and submit a PR.
-
-Tips:
-* `logoURI` 
-  * should point to a `png`, `jpg`, or `svg`.
-  * the logo can be hosted in this repo in `assets/mainnet/TOKEN_ADDRESS/FILE` 
-    * in that case, the image should be added to this repo and logoURI should point to `https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TOKEN_ADDRESS/FILE`)
-  * if your logo is hosted in any other repo or any other location, no need to add it here
-* `tags`
-  * please don't go crazy here, note that the valid tags are in the toplevel `tags` section and any other tags will likely have no effect
-* `extensions: 
-  * the `extensions` block can contain links to your twitter, discord, etc.  A list of allowed extensions is [here](automerge/schema.cue#L105).
-  * `serumV3Usdc` and `serumV3Usdt` are the addresses of serum markets for your token (either paired with USDC or USDT)
-  * `coingeckoId` is the string that appears as 'API id' on the corresponding coingecko page
-* it's recommended to not add your token as the final element to the list (second-to-last is best).  This is because adding the token as the final element will create merge conflicts that are more difficult for maintainers to manually resolve.
-* please squash commits into a single commit for cleanliness
-
-Changes will be automerged.  If automerge fails, you can click the 'Details' link for more information. 
-
-Please follow the Uniswap Token List specification found here: https://github.com/Uniswap/token-lists
-
-
-# Modifying existing token
-
-Modifications currently must be manually reviewed.  For any modifications, please submit a PR, then raise an issue with a link to your PR in order to request manual review.
-
-* please check the 'Files changed' tab on your PR to ensure that your change is as expected
-* please link the commit or PR where the token was originally added.  If the token was added by someone else, they will be asked to confirm that this change is authorized
-* please squash commits into a single commit for cleanliness
-
-
-# Common issues
-
-## Automerge failure: found removed line
-Any modifications must be manually merged; please submit an issue with a link to your PR.
-
-
-## Failed to normalize: failed to parse JSON: json: unknown field
-e.g. `failed to normalize: failed to parse JSON: json: unknown field "coingeckoId"`
-
-If this error is encountered while modifying an existing entry, note that this error is misleading; 
-it is the automerger's way of saying that adding `coingeckoId` to an existing entry is not allowed.
-
-Any modifications must be manually merged; please submit an issue with a link to your PR.
-
-
-## Duplicate token
-"duplicate token: token address `...` is already used"
-
-This occurs because your diff is re-adding a completely new block for a token that was already previously added (probably by you).  A common sequence of events that leads to this error is:
-1. you checked out the repo
-2. you added a token, committed, pushed back to github, and opened a PR
-3. the PR was merged back to main
-4. sometime later, you decided to modify something on the token (e.g. name), so you made the change, made another commit, pushed to github, and opened another PR.
-
-If you do the above, the new PR will encompass commits for both step 2 and 4, so it will look like a new token addition, and will collide with the existing one.  You MUST rebase your local checkout back to `origin/main` before opening a PR.  (You can do this with `git fetch origin main` followed by `git rebase main`.)
-
-More generally, for modifications to existing tokens, be sure to checkout the `HEAD` of the `main` branch, locate the existing block in `solana.tokenlist.json`, and modify the appropriate fields.
-
-Please check the 'Files changed' tab on your PR to see the impact of your change.
-
-
-## Scanner/wallet hasn't updated yet
-Solscan, solana explorer, and wallets all pull from this repo at different cadences.  Some update every few days.  
-
-If your change has landed in the `HEAD` of `main` branch, it was successful, but it might take a few days for downstream users to reflect that change.
-
-Please especially do not raise issues saying 'solscan has updated but phantom has not', that definitely means your change is in this repo!
-
-
-## error validating schema: chainId: conflicting values 103 and 0
-This automerge error arises if you touched a line outside of your token block.  Some text editors introduce a diff to the final line of the file.
-
-These currently need to be manually merged; please submit an issue and link your PR.
-
 
 # Disclaimer
 
