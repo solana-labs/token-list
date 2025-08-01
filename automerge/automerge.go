@@ -193,7 +193,7 @@ func (m *Automerger) InitTokenlist() error {
 
 func (m *Automerger) storeKnownToken(t *parser.Token) {
 	m.knownAddrs[knownEntry{t.ChainId, t.Address}] = true
-	m.knownNames[knownEntry{t.ChainId, t.Name}] = true
+	m.knownNames[knownEntry{t.ChainId, strings.ToLower(t.Name)}] = true
 }
 
 func (m *Automerger) IsBlacklistedToken(t *parser.Token) error {
@@ -209,7 +209,7 @@ func (m *Automerger) IsKnownToken(t *parser.Token) error {
 	if _, ok := m.knownAddrs[knownEntry{t.ChainId, t.Address}]; ok {
 		return fmt.Errorf("token address %s is already used", t.Address)
 	}
-	if _, ok := m.knownNames[knownEntry{t.ChainId, t.Name}]; ok {
+	if _, ok := m.knownNames[knownEntry{t.ChainId, strings.ToLower(t.Name)}]; ok {
 		return fmt.Errorf("token name %s is already used", t.Name)
 	}
 	return nil
@@ -671,11 +671,11 @@ func (m *Automerger) processTokenlist(ctx context.Context, d *diff.FileDiff, ass
 			if knownAddrs[knownEntry{t.ChainId, t.Address}] {
 				return nil, fmt.Errorf("duplicate address within PR")
 			}
-			if knownNames[knownEntry{t.ChainId, t.Name}] {
+			if knownNames[knownEntry{t.ChainId, strings.ToLower(t.Name)}] {
 				return nil, fmt.Errorf("duplicate name within PR")
 			}
 			knownAddrs[knownEntry{t.ChainId, t.Address}] = true
-			knownNames[knownEntry{t.ChainId, t.Name}] = true
+			knownNames[knownEntry{t.ChainId, strings.ToLower(t.Name)}] = true
 
 			if err := m.IsKnownToken(&t); err != nil {
 				return nil, fmt.Errorf("duplicate token: %v", err)
